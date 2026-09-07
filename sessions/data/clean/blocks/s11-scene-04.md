@@ -1,7 +1,0 @@
-<!-- RAW_RANGE: [376, 500] | SCENE_ID: 4 -->
-
-"Well, the landing went considerably better than I thought," Ignatius said, shaking rainwater from his dark traveler's cloak. <!-- L0400 -->
-
-Loami checked the bungee lashings securing the hull to the stone branches. "Yeah, I'm shocked we got up here in one piece... but here we are. Safe as we're going to get for now." <!-- L0450 --> <!-- L0480 -->
-
-<!-- LEDGER: rendered=[400, 450, 480] skipped=[376(ooc), 377(ooc), 378(ooc), 380(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 385(ooc), 386(ooc), 387(ooc), 388(ooc), 389(ooc), 390(ooc), 391(ooc), 392(ooc), 393(ooc), 394(ooc), 395(ooc), 396(ooc), 397(ooc), 398(ooc), 401(ooc), 402(ooc), 403(ooc), 404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 412(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 417(ooc), 418(ooc), 419(ooc), 420(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 426(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 440(ooc), 441(ooc), 442(ooc), 443(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 449(ooc), 451(ooc), 452(ooc), 453(ooc), 454(ooc), 455(ooc), 456(ooc), 457(ooc), 458(ooc), 459(ooc), 461(ooc), 462(ooc), 463(ooc), 464(ooc), 465(ooc), 467(ooc), 468(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 474(ooc), 475(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 486(ooc), 487(ooc), 488(ooc), 489(ooc), 490(ooc), 491(ooc), 493(ooc), 494(ooc), 495(ooc), 496(ooc), 497(ooc), 498(ooc), 500(ooc)] -->
