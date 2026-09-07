@@ -43,13 +43,27 @@ def main():
     parts = []
     assumptions = []
 
+    root_dir = os.path.dirname(base)
+    book_cfg_path = os.path.join(root_dir, "novel", "book_config.json")
+    book_cfg = {}
+    if os.path.exists(book_cfg_path):
+        try:
+            with open(book_cfg_path, "r", encoding="utf-8") as bf:
+                book_cfg = json.load(bf)
+        except Exception:
+            pass
+
+    author_name = book_cfg.get("author", "The Table")
+    campaign_name = book_cfg.get("campaign", "Tabletop Campaign")
+    genre_name = ", ".join(book_cfg.get("subjects", ["Fantasy", "Tabletop RPG"]))
+
     if args.title:
         parts.append(
             "---\n"
             f'title: "{args.title}"\n'
-            'author: "The Vumbua Table"\n'
-            "campaign: Vumbua\n"
-            "genre: Epic Fantasy / Sci-Fantasy\n"
+            f'author: "{author_name}"\n'
+            f'campaign: "{campaign_name}"\n'
+            f'genre: "{genre_name}"\n'
             "---\n\n"
             f"# {args.title.upper()}\n"
         )

@@ -1,5 +1,0 @@
-<!-- RAW_RANGE: [501, 550] | SCENE_ID: 5 -->
-
-A sudden rustling in the petrified leaves alerted Loami's low-light vision. Creeping along the upper branches were a dozen Mewoders—vicious canopy tree-cats with mottled camouflage fur and glowing amber eyes. Iggy curled into a tight ball on the raft deck, trembling from his tree trauma: "The trees have eyes! The trees have eyes!" Britt stepped forward without fear, casting *Hypnotic Shimmer* in a blinding cascade of kaleidoscopic light that stunned the predatory pack in their tracks. <!-- L0520 --> <!-- L0550 -->
-
-<!-- LEDGER: rendered=[520, 550] skipped=[501(ooc), 502(ooc), 503(ooc), 504(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 513(ooc), 514(ooc), 515(ooc), 516(ooc), 517(ooc), 518(ooc), 519(ooc), 521(ooc), 522(ooc), 524(ooc), 525(ooc), 526(ooc), 527(ooc), 528(ooc), 529(ooc), 530(ooc), 531(ooc), 532(ooc), 533(ooc), 534(ooc), 535(ooc), 536(ooc), 537(ooc), 538(ooc), 540(ooc), 541(ooc), 542(ooc), 543(ooc), 544(ooc), 545(ooc), 546(ooc), 547(ooc), 548(ooc), 549(ooc)] -->

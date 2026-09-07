@@ -1,0 +1,25 @@
+{
+  "title": "Untitled Campaign Novel",
+  "subtitle": "Book 1",
+  "series": "Tabletop Chronicles",
+  "author": "The Table",
+  "campaign": "Tabletop Campaign Novelization",
+  "description": "A novelized fantasy adventure adapted directly from tabletop roleplaying campaign transcripts.",
+  "subjects": [
+    "Fantasy",
+    "Adventure",
+    "Tabletop RPG"
+  ],
+  "setting_type": "fantasy",
+  "earth_setting": false,
+  "author_note": {
+    "title": "A NOTE FROM THE AUTHORS",
+    "paragraphs": [
+      "Stories begin in strange, unexpected ways. This one began around a tabletop, where friends and a Game Master decided this world was worth archiving."
+    ],
+    "signoff": "— The Table"
+  },
+  "cover_image": null,
+  "map_image": null,
+  "output_prefix": "campaign-novel"
+}

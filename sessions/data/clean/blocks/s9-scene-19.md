@@ -1,9 +1,0 @@
-<!-- RAW_RANGE: [2401, 2500] | SCENE_ID: 19 -->
-
-## CHAPTER 88: SECTOR 3 RENDEZVOUS
-
-Dusk fell over the petrified wetlands of Sector 3. Aggie had prepared a sheltered clearing nestled within colossal stone roots, using plant-node communion to conceal their camp. One by one, Squad 907 converged on the clearing: Ignatius and Britt touched down from the sky with fuel bladders, coolant hoses, and bamboo; Iggy rolled in covered in sulfur mud, clutching his prize energy crystal; and Loami arrived hauling the iron barrels, canvas tarps, and grappling hooks. <!-- L2410 --> <!-- L2430 --> <!-- L2450 -->
-
-"Phase 1 complete," Loami grinned, setting down his tools and unstrapping the barrels. "We've got the hull, the canopy, the burner, and the crystal. Now let's build ourselves a flying raft." <!-- L2470 --> <!-- L2490 --> <!-- L2500 -->
-
-<!-- LEDGER: rendered=[2410, 2430, 2450, 2470, 2490, 2500] skipped=[2401(ooc), 2402(ooc), 2404(ooc), 2405(ooc), 2406(ooc), 2407(ooc), 2408(ooc), 2409(ooc), 2412(ooc), 2413(ooc), 2414(ooc), 2415(ooc), 2416(ooc), 2417(ooc), 2418(ooc), 2419(ooc), 2420(ooc), 2421(ooc), 2422(ooc), 2423(ooc), 2424(ooc), 2425(ooc), 2426(ooc), 2427(ooc), 2428(ooc), 2429(ooc), 2431(ooc), 2432(ooc), 2433(ooc), 2434(ooc), 2435(ooc), 2436(ooc), 2437(ooc), 2438(ooc), 2439(ooc), 2441(ooc), 2442(ooc), 2443(ooc), 2444(ooc), 2445(ooc), 2446(ooc), 2447(ooc), 2448(ooc), 2449(ooc), 2451(ooc), 2452(ooc), 2453(ooc), 2454(ooc), 2455(ooc), 2456(ooc), 2457(ooc), 2458(ooc), 2459(ooc), 2460(ooc), 2461(ooc), 2462(ooc), 2463(ooc), 2464(ooc), 2465(ooc), 2466(ooc), 2468(ooc), 2469(ooc), 2471(ooc), 2472(ooc), 2473(ooc), 2474(ooc), 2475(ooc), 2476(ooc), 2477(ooc), 2478(ooc), 2479(ooc), 2480(ooc), 2481(ooc), 2482(ooc), 2483(ooc), 2484(ooc), 2485(ooc), 2486(ooc), 2487(ooc), 2488(ooc), 2489(ooc), 2491(ooc), 2492(ooc), 2493(ooc), 2494(ooc), 2496(ooc), 2497(ooc), 2498(ooc), 2499(ooc)] -->
