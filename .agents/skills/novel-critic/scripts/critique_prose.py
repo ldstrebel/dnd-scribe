@@ -22,13 +22,20 @@ import re
 import sys
 from collections import Counter
 
-# Earth leaks & out-of-universe anachronisms that break fantasy immersion (Note: 'radio' is canon in-universe aether-tech)
-EARTH_LEAK_PATTERNS = [
+# High Fantasy Earth leak patterns
+FANTASY_LEAK_PATTERNS = [
     (r"\b(?:oxford|cambridge|harvard|yale|eiffel|big ben|hollywood|disney)\b", "Earth Place / Institution"),
     (r"\b(?:english|british|american|french|italian|german|russian|asian|european|african|latin|roman|greek|spartan|trojan|australian|scottish|irish|japanese|chinese)\b", "Earth Nationality / Language"),
     (r"\b(?:airport|airplane|jetliner|helicopter|television|t\.?v\.?|wi-?fi|internet|cell phone|smartphone)\b", "Modern Earth Technology"),
     (r"\b(?:victorian|edwardian|renaissance|medieval|bridgerton|ted lasso)\b", "Earth Historical / Pop-Culture Term"),
     (r"\b(?:human tide|human race|mankind)\b", "Anthropocentric Slip (in multi-ancestry fantasy)")
+]
+
+# Urban Fantasy / Modern Mythic meta leak patterns (flags real-world tabletop/meta slips)
+MODERN_META_LEAK_PATTERNS = [
+    (r"\b(?:wi-?fi|zoom call|discord|roll20|dnd|d&d|character sheet|dice roll|saving throw|armor class|initiative count|hit points|spell slot)\b", "Tabletop / Tech Meta Leak"),
+    (r"\b(?:pizza delivery|uber eats|doordash)\b", "Modern Meta Filler"),
+    (r"\b(?:microphone|webcam|headset|audio interface)\b", "Recording Equipment Leak")
 ]
 
 # Repetitive sensory & architectural phrases to watch out for
@@ -67,13 +74,29 @@ ACTION_VERBS = {
     "dived", "diving", "swung", "swinging", "struck", "striking", "burst", "bursting"
 }
 
+def load_book_config():
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "novel", "book_config.json")
+    if not os.path.exists(config_path):
+        config_path = "novel/book_config.json"
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
 
 def analyze_earth_leaks(text):
-    """Scans clean prose (ignoring HTML comments) for Earth terminology leaks."""
+    """Scans clean prose (ignoring HTML comments) for immersion-breaking leaks based on setting."""
     prose_only = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
     findings = []
     
-    for pattern, category in EARTH_LEAK_PATTERNS:
+    book_cfg = load_book_config()
+    is_urban_fantasy = book_cfg.get("earth_setting", False) or book_cfg.get("setting_type") == "urban_fantasy" or "Urban Fantasy" in book_cfg.get("subjects", [])
+    
+    patterns = MODERN_META_LEAK_PATTERNS if is_urban_fantasy else FANTASY_LEAK_PATTERNS
+    
+    for pattern, category in patterns:
         matches = list(re.finditer(pattern, prose_only, flags=re.IGNORECASE))
         for m in matches:
             match_start = m.start()
@@ -100,15 +123,17 @@ def analyze_dialogue_flow(text):
     paragraphs = [p.strip() for p in prose_only.split("\n\n") if p.strip()]
     findings = []
     
+    speech_verbs = r'(?:said|asked|murmured|whispered|added|exclaimed|replied|blinked|stammered|shouted|rasped|bellowed|called out|muttered|cried)'
+    tag_pattern = re.compile(rf'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s+{speech_verbs}\b', re.I)
+    
     for i in range(len(paragraphs) - 1):
         p1, p2 = paragraphs[i], paragraphs[i+1]
-        # Look for the same speaker having consecutive speech tags in adjacent paragraphs
-        tag1 = re.search(r'\b(the proctor|the attendant|the guard|the professor|britt|aggie|lomi|iggy|ignatius)\b[^."\n]*?(?:said|asked|murmured|whispered|added|exclaimed|replied|blinked|stammered|shouted)', p1, re.I)
-        tag2 = re.search(r'\b(the proctor|the attendant|the guard|the professor|britt|aggie|lomi|iggy|ignatius)\b[^."\n]*?(?:said|asked|murmured|whispered|added|exclaimed|replied|blinked|stammered|shouted)', p2, re.I)
+        m1 = tag_pattern.search(p1)
+        m2 = tag_pattern.search(p2)
         
-        if tag1 and tag2:
-            s1 = tag1.group(1).lower()
-            s2 = tag2.group(1).lower()
+        if m1 and m2:
+            s1 = m1.group(1).lower()
+            s2 = m2.group(1).lower()
             if s1 == s2:
                 findings.append({
                     "speaker": s1,
@@ -178,22 +203,38 @@ def analyze_dialogue_vs_action(scenes):
     return scene_metrics
 
 
+def get_character_alias_map():
+    alias_map = {}
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+    chars_dir = os.path.join(base_dir, "campaign", "characters")
+    if os.path.exists(chars_dir):
+        for root, _, files in os.walk(chars_dir):
+            for file in files:
+                if file.endswith(".md"):
+                    name = os.path.splitext(file)[0].replace("-", " ").title()
+                    filepath = os.path.join(root, file)
+                    with open(filepath, "r", encoding="utf-8") as f:
+                        content = f.read()
+                    aliases = [name]
+                    h1 = re.search(r"^#\s+(.+)$", content, re.M)
+                    if h1:
+                        aliases.append(h1.group(1).strip())
+                    for token in name.split():
+                        if len(token) > 2:
+                            aliases.append(token)
+                    alias_map[name] = sorted(list(set(aliases)), key=len, reverse=True)
+    if not alias_map:
+        alias_map = {
+            "Pierre": ["Pierre"],
+            "Dravin": ["Prof Dravin", "Edward Dravin", "Dravin", "Edward"],
+            "Eusacles": ["Eusacles", "Ukules"],
+            "Alfie": ["Alfie", "The Driftwood Duelist", "the doll"]
+        }
+    return alias_map
+
+
 def analyze_character_voices(text):
-    alias_map = {
-        "Loami": ["Loami", "Lomi"],
-        "Britt": ["Britt"],
-        "Aggie": ["Aggie"],
-        "Ignatius": ["Ignatius", "Ignatious"],
-        "Iggy": ["Iggy"],
-        "Vivi": ["Vivi"],
-        "Pudge": ["Pudge"],
-        "Alistair": ["Alistair", "Rook"],
-        "Gudge": ["Gudge"],
-        "Dancer": ["Dancer"],
-        "Fabian": ["Fabian"],
-        "Tarragon": ["Tarragon"]
-    }
-    
+    alias_map = get_character_alias_map()
     character_quotes = {char: [] for char in alias_map}
     
     prose_only = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)

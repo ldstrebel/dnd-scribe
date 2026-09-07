@@ -1,0 +1,20 @@
+{
+  "session_id": "s1",
+  "title": "The Bus from Vegas & The Library of the Fates",
+  "date": "2026-08-20",
+  "gm": "Luke Foreman",
+  "players": {
+    "Luke S": "Pierre",
+    "William Webb": "Prof Edward Dravin",
+    "John Hagey": "Eusacles",
+    "Sophie Foreman Noone": "Alfie"
+  },
+  "npcs": [
+    "The Three Fates",
+    "Inked Demon",
+    "Ink Blob",
+    "Campfire Stranger",
+    "Mike",
+    "Lily"
+  ]
+}
