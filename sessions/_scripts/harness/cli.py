@@ -77,7 +77,7 @@ def print_report_card(report: Dict[str, Any], verbose: bool = False):
     status_str = "[PASS] PASSED" if passed else "[FAIL] FAILED"
 
     print("=" * 70)
-    print(f"  VUMBUA EDITORIAL AUDIT REPORT: {fn}")
+    print(f"  PUBLISHING ENGINE EDITORIAL AUDIT REPORT: {fn}")
     print(f"  STATUS: {status_str}")
     print(f"  ERRORS: {report['error_count']} | WARNINGS: {report['warning_count']}")
     print("=" * 70)
