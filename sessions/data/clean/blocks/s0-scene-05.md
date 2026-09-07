@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [336, 450] | SCENE_ID: 5 -->
 
-For three grueling weeks, the two ships battled the howling fury of the Great Barrier. <!-- L0344 --> <!-- L0354 --> <!-- L0358 -->
+For three grueling weeks, the two ships battled the howling fury of the deep sea. <!-- L0344 --> <!-- L0354 --> <!-- L0358 -->
 
 Towering forty-foot swells hammered the timber and iron plating. Violet lightning cracked across pitch-black squall clouds, and magnetic crosswinds tore at the canvas. In the shrieking dark, compass needles spun in dizzying circles. Every established rule of northern navigation broke down. Yet through sheer discipline and mutual trust, the two captains held their line. They drove forward into the tempest, following the faint, rhythmic harmonic hum that grew stronger with every nautical mile. <!-- L0383 --> <!-- L0393 --> <!-- L0395 --> <!-- L0403 --> <!-- L0412 --> <!-- L0416 --> <!-- L0424 --> <!-- L0440 --> <!-- L0447 --> <!-- L0449 -->
 

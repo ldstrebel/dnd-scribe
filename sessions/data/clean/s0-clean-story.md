@@ -21,17 +21,17 @@ The open ocean had always been deadly. Beyond the safety of Harmony's resonant s
 
 <!-- RAW_RANGE: [99, 183] | SCENE_ID: 2 -->
 
-Yet Harmony's mariners refused to turn back from the mist. <!-- L0115 --> <!-- L0128 --> <!-- L0130 --> <!-- L0134 -->
+Yet Harmony's vaunted exploranauts—the best they had to offer—refused to turn back from the mist. <!-- L0115 --> <!-- L0128 --> <!-- L0130 --> <!-- L0134 -->
 
-They kept testing the perimeter, sounding the treacherous shoals and hunting for stable channels through the beasts and the blinding fog. Where past solitary captains had sailed alone into the squalls only to be torn apart or driven home, the empire realized raw stubbornness was no longer enough. To break eighty years of silence, it would take something Harmony had never attempted: two opposing schools of seamanship moving in absolute lockstep. <!-- L0149 --> <!-- L0151 --> <!-- L0169 --> <!-- L0171 --> <!-- L0173 --> <!-- L0177 -->
+They kept testing the perimeter, sounding the treacherous shoals and hunting for stable channels through the beasts and the blinding fog. Where past solitary captains had sailed alone into the squalls only to be torn apart or driven home, it took two captains to set aside their rivalry and work together, creating a joint venture with a chance to go deeper into the unknown than ever before. <!-- L0149 --> <!-- L0151 --> <!-- L0169 --> <!-- L0171 --> <!-- L0173 --> <!-- L0177 -->
 
 <!-- LEDGER: rendered=[115, 128, 130, 134, 149, 151, 169, 171, 173, 177] skipped=[100(ooc), 101(ooc), 102(ooc), 103(ooc), 104(ooc), 105(ooc), 106(ooc), 107(ooc), 108(ooc), 109(ooc), 110(ooc), 111(ooc), 112(ooc), 113(ooc), 114(ooc), 116(ooc), 117(ooc), 118(ooc), 119(ooc), 120(ooc), 121(ooc), 122(ooc), 123(ooc), 125(ooc), 126(ooc), 127(ooc), 129(ooc), 131(ooc), 132(ooc), 133(ooc), 135(ooc), 136(ooc), 137(ooc), 139(ooc), 140(ooc), 141(ooc), 142(ooc), 143(ooc), 144(ooc), 145(ooc), 146(ooc), 147(ooc), 148(ooc), 150(ooc), 152(ooc), 153(ooc), 154(ooc), 155(ooc), 157(ooc), 158(ooc), 159(ooc), 160(ooc), 161(ooc), 162(ooc), 163(ooc), 164(ooc), 165(ooc), 166(ooc), 167(ooc), 168(ooc), 172(ooc), 174(ooc), 175(ooc), 176(ooc), 178(ooc), 179(ooc), 180(ooc), 181(ooc), 182(ooc), 183(ooc)] -->
 
 <!-- RAW_RANGE: [184, 248] | SCENE_ID: 3 -->
 
-Two captains stepped forward to take that gamble—the vanguard of a new exploranaut generation. <!-- L0200 --> <!-- L0202 --> <!-- L0204 -->
+Captain Valentine Sterling Sr. and Captain Elara Thorne represented the vanguard of that new generation. <!-- L0200 --> <!-- L0202 --> <!-- L0204 -->
 
-Their partnership was an unprecedented compromise between two brilliant, contrasting minds. Captain Valentine Sterling Sr. represented calculated precision: an immaculate aristocrat of iron discipline, rigorous mathematics, and a steady hand at the helm. Captain Elara Thorne brought fierce intuition, inventive daring, and a profound understanding of elemental resonance. Where solitary captains had failed, Thorne and Sterling agreed to sail together. <!-- L0208 --> <!-- L0210 --> <!-- L0212 --> <!-- L0221 --> <!-- L0223 --> <!-- L0227 --> <!-- L0231 --> <!-- L0235 --> <!-- L0242 -->
+Their partnership was an unprecedented compromise between two brilliant, contrasting minds. Captain Valentine Sterling Sr. represented calculated precision: an immaculate aristocrat of iron discipline, rigorous mathematics, and a steady hand at the helm. Captain Elara Thorne brought fierce intuition, inventive daring, and a profound understanding of elemental resonance. Setting aside decades of family competition, Thorne and Sterling agreed to sail together. <!-- L0208 --> <!-- L0210 --> <!-- L0212 --> <!-- L0221 --> <!-- L0223 --> <!-- L0227 --> <!-- L0231 --> <!-- L0235 --> <!-- L0242 -->
 
 <!-- LEDGER: rendered=[200, 202, 204, 208, 210, 212, 221, 223, 227, 231, 235, 242] skipped=[184(ooc), 185(ooc), 186(ooc), 188(ooc), 189(ooc), 190(ooc), 191(ooc), 192(ooc), 193(ooc), 194(ooc), 195(ooc), 196(ooc), 197(ooc), 198(ooc), 199(ooc), 201(ooc), 205(ooc), 206(ooc), 207(ooc), 213(ooc), 214(ooc), 215(ooc), 216(ooc), 217(ooc), 218(ooc), 219(ooc), 220(ooc), 222(ooc), 225(ooc), 226(ooc), 228(ooc), 229(ooc), 230(ooc), 232(ooc), 233(ooc), 234(ooc), 237(ooc), 238(ooc), 239(ooc), 240(ooc), 241(ooc), 244(ooc), 245(ooc), 246(ooc), 247(ooc), 248(ooc)] -->
 
@@ -45,7 +45,7 @@ It was a masterclass in complementary seamanship. Sterling’s steady hand plott
 
 <!-- RAW_RANGE: [336, 450] | SCENE_ID: 5 -->
 
-For three grueling weeks, the two ships battled the howling fury of the Great Barrier. <!-- L0344 --> <!-- L0354 --> <!-- L0358 -->
+For three grueling weeks, the two ships battled the howling fury of the deep sea. <!-- L0344 --> <!-- L0354 --> <!-- L0358 -->
 
 Towering forty-foot swells hammered the timber and iron plating. Violet lightning cracked across pitch-black squall clouds, and magnetic crosswinds tore at the canvas. In the shrieking dark, compass needles spun in dizzying circles. Every established rule of northern navigation broke down. Yet through sheer discipline and mutual trust, the two captains held their line. They drove forward into the tempest, following the faint, rhythmic harmonic hum that grew stronger with every nautical mile. <!-- L0383 --> <!-- L0393 --> <!-- L0395 --> <!-- L0403 --> <!-- L0412 --> <!-- L0416 --> <!-- L0424 --> <!-- L0440 --> <!-- L0447 --> <!-- L0449 -->
 
@@ -63,7 +63,7 @@ In a single breathtaking heartbeat, the storm wall ruptured. The screaming gale 
 
 Before them rose an entirely new land. <!-- L0533 --> <!-- L0535 --> <!-- L0545 -->
 
-It was not a myth or an empty waste, but a vast, breathtaking continent stretching from horizon to horizon. To the east, jagged volcanic peaks rose like black crowns, venting faint ribbons of warm crimson steam against the azure sky. To the south, endless emerald canopies of ancient, petrified megaflora rolled across misty valleys. And directly ahead, framing a deep, sheltered turquoise basin, sheer basalt headlands embraced the sea like an open gateway. A virgin world, rich with life, mystery, and uncharted power. <!-- L0564 --> <!-- L0566 --> <!-- L0572 --> <!-- L0574 --> <!-- L0578 --> <!-- L0580 --> <!-- L0584 --> <!-- L0588 --> <!-- L0590 --> <!-- L0592 --> <!-- L0596 --> <!-- L0598 -->
+A vast, breathtaking continent stretched from horizon to horizon. To the east, jagged volcanic peaks rose like black crowns, venting faint ribbons of warm crimson steam against the azure sky. To the south, endless emerald canopies of ancient, petrified megaflora rolled across misty valleys. And directly ahead, framing a deep, sheltered turquoise basin, sheer basalt headlands embraced the sea like an open gateway. A virgin world, rich with life, mystery, and uncharted power. <!-- L0564 --> <!-- L0566 --> <!-- L0572 --> <!-- L0574 --> <!-- L0578 --> <!-- L0580 --> <!-- L0584 --> <!-- L0588 --> <!-- L0590 --> <!-- L0592 --> <!-- L0596 --> <!-- L0598 -->
 
 <!-- LEDGER: rendered=[533, 535, 545, 564, 566, 572, 574, 578, 580, 584, 588, 590, 592, 596, 598] skipped=[528(ooc), 529(ooc), 530(ooc), 531(ooc), 534(ooc), 536(ooc), 537(ooc), 538(ooc), 539(ooc), 540(ooc), 541(ooc), 542(ooc), 543(ooc), 544(ooc), 546(ooc), 547(ooc), 548(ooc), 549(ooc), 550(ooc), 551(ooc), 552(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 558(ooc), 559(ooc), 560(ooc), 561(ooc), 562(ooc), 563(ooc), 565(ooc), 567(ooc), 568(ooc), 569(ooc), 571(ooc), 573(ooc), 575(ooc), 576(ooc), 577(ooc), 579(ooc), 581(ooc), 582(ooc), 585(ooc), 586(ooc), 587(ooc), 589(ooc), 593(ooc), 594(ooc), 595(ooc), 597(ooc), 599(ooc), 600(ooc)] -->
 
