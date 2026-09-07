@@ -294,6 +294,7 @@ hr.ornament {
         manifest_items.append('<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>')
         manifest_items.append('<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>')
         manifest_items.append('<item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>')
+        manifest_items.append('<item id="author_note" href="author_note.xhtml" media-type="application/xhtml+xml"/>')
 
         spine_refs.append('<itemref idref="titlepage"/>')
 
@@ -343,6 +344,32 @@ hr.ornament {
 </html>"""
         zf.writestr("OEBPS/titlepage.xhtml", title_xhtml)
 
+        # 5b. Author's Note Page
+        spine_refs.append('<itemref idref="author_note"/>')
+        author_note_xhtml = """<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+  <title>A Note from the Author</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  <h2>A NOTE FROM THE AUTHOR</h2>
+  <p>Stories begin in strange, unexpected ways. This one began around a tabletop, in late-night sessions fueled by dice rolls, burst pipes, cracked laughter, and five explorers who refused to let their world quietly petrify into stone.</p>
+  <p>When we first envisioned <em>Vumbua</em>, we set out to build an epic fantasy where the frontier wasn't just empty land on an archivist's yellowing map, but a living, breathing mystery demanding curiosity, empathy, and raw courage. At the heart of that mystery are five unforgettable cadets:</p>
+  <p><strong>Britt</strong>, the fierce, tree-hugging Mizizi ranger with weeping willow dreadlocks, whose stubborn loyalty holds her kin together when the world starts coming apart.</p>
+  <p><strong>Aggie</strong>, her gentle, brilliant cousin with an alabaster-and-scarlet mushroom shell, who seeks to understand the world's ancient songs before they fade forever.</p>
+  <p><strong>Ignatius</strong>, the exiled ash-blood whose fiery hair crowns a deep hunger for purpose, struggling to balance his fiery heritage with the discipline of an explorer.</p>
+  <p><strong>Loami</strong>, the grease-smudged union mechanic whose heavy wrench and unyielding moral compass remind us that every grand voyage is built on the sweat and solidarity of the engine room.</p>
+  <p>And <strong>Iggy</strong>, the soil-kin sprout in an oversized woolen coat, whose innocent wonder and pocketfuls of mud remind us why the world is worth saving in the first place.</p>
+  <p>What you hold here is their chronicle—novelized directly from our living campaign transcripts, preserving every line of dialogue, every frantic gamble, and every heartbeat of their journey through the Basalt Run.</p>
+  <p>To the players, the storytellers, and everyone who ever looked past the edge of the map and wondered what lay beyond: thank you. Remember...</p>
+  <p><em>Momentum is life.</em></p>
+  <p class="author" style="text-align: right; margin-top: 2em; font-style: italic;">— The Vumbua Table</p>
+</body>
+</html>"""
+        zf.writestr("OEBPS/author_note.xhtml", author_note_xhtml)
+
         # 6. Chapter Pages
         for chap in chapters:
             manifest_items.append(f'<item id="{chap["id"]}" href="{chap["filename"]}" media-type="application/xhtml+xml"/>')
@@ -365,6 +392,7 @@ hr.ornament {
         nav_items_html = []
         if include_map and os.path.exists(MAP_PATH):
             nav_items_html.append('      <li><a href="map.xhtml">Map: Harmony &amp; The Unexplored Lands</a></li>')
+        nav_items_html.append('      <li><a href="author_note.xhtml">A Note from the Author</a></li>')
         for chap in chapters:
             nav_items_html.append(f'      <li><a href="{chap["filename"]}">{html.escape(chap["title"])}</a></li>')
 
@@ -402,6 +430,12 @@ hr.ornament {
       <content src="map.xhtml"/>
     </navPoint>""")
             play_order += 1
+
+        ncx_points.append(f"""    <navPoint id="navPoint-{play_order}" playOrder="{play_order}">
+      <navLabel><text>A Note from the Author</text></navLabel>
+      <content src="author_note.xhtml"/>
+    </navPoint>""")
+        play_order += 1
 
         for chap in chapters:
             ncx_points.append(f"""    <navPoint id="navPoint-{play_order}" playOrder="{play_order}">

@@ -10,28 +10,6 @@ genre: Epic Fantasy / Sci-Fantasy
 
 <!-- RAW_RANGE: [1, 315] | SCENE_ID: 1 | OOC -->
 
----
-
-## PROLOGUE: THE WORLD BEFORE
-
-In the deep canopy of the southern coast, the world was never meant to last forever. <!-- s0:L0004 -->
-
-For eighty years, the maps of the continent had sat static. The great charts preserved in the brass-bound archives of the northern coast had grown yellow and brittle, their margins fixed, their equations balance-locked. To the magistrates of Harmony, the world was finished, measured, and filed away: an empire powered by crystal batteries and humming spires, comfortable in its golden twilight. <!-- s0:L0048 --> <!-- s0:L0688 -->
-
-To the fringes of the world, that peace was an encroaching tomb.
-
-Deep in the southern forest, where colossal petrified giants rose like fossilized boles from the damp loam, the Mizizi lived by an ancient, harrowing covenant: *when things stop dying, we start dying.* To the outside world, death was an ending, an enemy to be delayed by medicine and machine. To the turtle-mushroom folk of the canopy, decomposition was the breath of life itself. The great rot fed the soil, the soil nourished the roots, and the spore-networks bound the living to the dead in an unbroken circle of renewal. <!-- s0:L0040 --> <!-- s0:L0042 --> <!-- s0:L0044 -->
-
-And lately, the sacred rot had stalled. <!-- s0:L0050 -->
-
-Wood that should have softened into loam under the rainy season remained stubborn and dry. Fungi withered without sprouting spores. Along the beaches, strangers appeared where no boots had trod for generations. Two seasons ago, the first outsider walked into the root-halls—a humanoid in a sterile, spotless uniform, devoid of rot, moss, or holes, carrying strange clanking devices. The elders called him the Paper Man. He offered heavy iron axes and saws; in return, his masters wanted baskets of virgin soil, mineral cores, chips of petrified bark, and severed taproots. <!-- s0:L0052 --> <!-- s0:L0058 -->
-
-Desperate to restart the sacred rot before their people perished, the elders accepted the iron. The clan became a frantic fire brigade turned upon its own forest, hacking into their own sacred trees in an agonizing effort to force the wood into decay. But the rot did not return. The forest remained locked in stone-like stasis. <!-- s0:L0062 --> <!-- s0:L0073 -->
-
-Then the Paper Man returned, carrying open registration writs stamped with the insignia of an academy founded upon the northern sea. Word carried on the high winds across every mountain range and volcanic shore: Vumbua Academy had opened its gates for the largest intake in history. One hundred thousand applicants were converging upon the coast, drawn by the desperate promise that beyond the static maps lay new horizons, new power, and the forgotten truth of the world. <!-- s0:L0074 --> <!-- s0:L0674 -->
-
----
-
 <!-- RAW_RANGE: [316, 466] | SCENE_ID: 2 -->
 
 ## CHAPTER 1: THE FLAG THAT WOULDN'T RISE
