@@ -7,35 +7,7 @@ genre: Epic Fantasy / Sci-Fantasy
 
 # BOOK 1: THE BASALT RUN — ACT I: THE BONFIRE & THE SPIRE
 
-<!-- RAW_RANGE: [1, 100] | SCENE_ID: 1 | OOC -->
-
-<!-- RAW_RANGE: [101, 200] | SCENE_ID: 2 | OOC -->
-
-<!-- RAW_RANGE: [201, 305] | SCENE_ID: 3 | OOC -->
-
-## INTERLUDE: THE FIRST NIGHT CUT
-
-High above the barracks and the unpaved courtyards, the brass resonance horns mounted to the light poles crackled with a sudden hiss of steam-driven static. A vacuum-tube receiver warm with amber light hummed to life, sending a voice echoing through the damp midnight mist—polished, aristocratic, and thick with theatrical exhaustion.
-
-A long, resonant yawn sounded over the aetheric wire.
-
-"Good evening, Vumbua Academy," the voice began, rolling into an effortless, rhythmic purr. "This is Valerius Sterling coming to you live—and admittedly a bit sleepy—from the back room of the Celestial Lounge. The first night has come and gone, and I must say... what a night it was! Drama! New love and broken hearts! It is shaping up to be an absolute banner year.
-
-"For those of you out there daring enough... reckless enough... or simply too confident to sleep... well, good on you. *Momentum is life.*
-
-"A word of caution, however, to the uncalibrated among us. Not everyone who missed the intake cut today is thrilled about having their grand dreams dashed into the dirt. The late-night crowd in the lower quads can turn a bit... *dicey* once the sun goes down and the ale starts flowing. Keep your chin up and your head on a swivel, candidates—or you might find yourselves waking up missing your boots, your coin, or your teeth before dawn.
-
-"That said... tomorrow, the real work begins. It is time to select your class tracks and face that all-important placement test. And make no mistake about the arithmetic: after this week concludes, out of the seventy thousand souls roaming these grounds... only fifty thousand will remain.
-
-"Bring your absolute best. Because word from the upper berths is that the annual Resonance Race is scheduled right after our first week of instruction—the premier arena event to prove your mettle to the Captains before berths are awarded.
-
-"Sleep well, cadets. You are going to need every ounce of it.
-
-"Sterling out."
-
-The horn clicked shut with a sharp chime of dissipating static, leaving only the sound of distant laughter, the rhythmic hum of the basin steam generators, and the crackle of open fires burning in the dark.
-
----
+<!-- RAW_RANGE: [306, 440] | SCENE_ID: 4 -->
 
 ## CHAPTER 11: THE BONFIRE AT BLOCK 99
 
@@ -69,7 +41,7 @@ The bespectacled boy shrieked, tumbling backward onto his elbows. "No! No, no, n
 
 Lomi rested his hands on his hips, totally unfazed by the academic outrage. "In my experience down in the boiler rooms, every minute a furnace isn't burning is money out of your pocket. Time is money, kid. You focus on uptime, whether it's pretty or not. Perfect is the enemy of good. We needed a fire, now we got a fire." <!-- L0354 --> <!-- L0356 -->
 
-The boy stared at the leaping flames, his mouth opening and closing like a landed perch. He looked down at his ruined clipboard, then back at the roaring blaze, grudgingly adjusting his spectacles. "An interesting proposition. I will... consider this. It was effective, certainly, though it is not always true that momentum is life, regardless of what the radio announcers preach." He cleared his throat, straightening his crumpled tunic. "I am Cassius. Given that you have successfully concluded an operational objective, you are entitled to know." <!-- L0359 --> <!-- L0373 -->
+The boy stared at the leaping flames, his mouth opening and closing like a landed perch. He looked down at his ruined clipboard, then back at the roaring blaze, grudgingly adjusting his spectacles. "An interesting proposition. I will... consider this. It was effective, certainly, though it is not always true that momentum is life, regardless of what the aether-vox broadsheet announcers preach." He cleared his throat, straightening his crumpled tunic. "I am Cassius. Given that you have successfully concluded an operational objective, you are entitled to know." <!-- L0359 --> <!-- L0373 -->
 
 "Lomi," the mechanic replied, taking the boy's hand with a firm, calloused grip. "Worked down in the Deep-Hull's boilers for years. It's nice to see what you boys are designing up here top-side." <!-- L0374 --> <!-- L0376 --> <!-- L0378 -->
 
@@ -93,9 +65,11 @@ Serra Vox, meanwhile, had crept up beside them, practically vibrating with anthr
 
 <!-- LEDGER: rendered=[306, 308, 310, 312, 313, 314, 315, 316, 317, 320, 322, 327, 335, 337, 338, 341, 343, 344, 345, 346, 349, 351, 352, 354, 356, 359, 373, 374, 376, 378, 379, 402, 403, 406, 411, 417, 421, 423, 426, 427, 430, 431, 433, 435] skipped=[318(ooc), 319(ooc), 323(ooc), 324(ooc), 325(ooc), 326(ooc), 328(ooc), 329(ooc), 330(ooc), 331(ooc), 332(ooc), 333(ooc), 334(ooc), 339(ooc), 340(ooc), 342(ooc), 348(ooc), 350(ooc), 355(ooc), 357(ooc), 358(ooc), 361(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 372(ooc), 375(ooc), 380(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 385(ooc), 386(ooc), 388(ooc), 389(ooc), 390(ooc), 391(ooc), 392(ooc), 393(ooc), 394(ooc), 395(ooc), 396(ooc), 397(ooc), 398(ooc), 399(ooc), 400(ooc), 401(ooc), 405(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 412(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 420(ooc), 422(ooc), 425(ooc), 429(ooc), 432(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 440(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [441, 570] | SCENE_ID: 5 -->
 
-## CHAPTER 12: COURTYARD CLUSTERS & GREEK ROW
+## CHAPTER 12: COURTYARD CLUSTERS & HIGH-HOUSE ROW
 
 Around the warmth of the roaring blaze, the circle settled into uneasy familiarity. Serra Vox flipped open her compact notebook, pen poised like a surgeon's scalpel as she studied Britt and Aggie. <!-- L0465 -->
 
@@ -141,65 +115,45 @@ Behind them, Britt and Aggie exchanged a glance. Aggie tilted her red cap toward
 
 <!-- LEDGER: rendered=[465, 467, 469, 470, 472, 482, 483, 486, 488, 520, 523, 524, 525, 526, 530, 537, 539, 540, 542, 544, 545, 547, 551, 554, 556, 562, 564, 565, 566, 567, 569, 570] skipped=[441(ooc), 442(ooc), 443(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 450(ooc), 451(ooc), 452(ooc), 453(ooc), 454(ooc), 455(ooc), 456(ooc), 458(ooc), 459(ooc), 460(ooc), 461(ooc), 462(ooc), 463(ooc), 464(ooc), 468(ooc), 471(ooc), 473(ooc), 474(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 480(ooc), 484(ooc), 485(ooc), 487(ooc), 489(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 494(ooc), 495(ooc), 496(ooc), 497(ooc), 498(ooc), 499(ooc), 501(ooc), 502(ooc), 503(ooc), 504(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 513(ooc), 514(ooc), 515(ooc), 516(ooc), 517(ooc), 518(ooc), 519(ooc), 522(ooc), 527(ooc), 528(ooc), 529(ooc), 531(ooc), 532(ooc), 533(ooc), 534(ooc), 535(ooc), 536(ooc), 541(ooc), 543(ooc), 548(ooc), 549(ooc), 550(ooc), 552(ooc), 553(ooc), 555(ooc), 557(ooc), 559(ooc), 560(ooc), 561(ooc), 563(ooc), 568(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [571, 700] | SCENE_ID: 6 -->
 
 ## CHAPTER 13: LUCKY'S LUCIDIAN TRADE & THE MISSING CLANS
 
-The argument beneath the lampposts was drawing a small crowd. Standing at the center of the dispute was a young noble dressed in a ruffled silk cravat and embroidered waistcoat, waving an ornate silver cane to punctuate his points, striking the iron post hard enough to send tiny orange sparks skipping across the cobblestones. <!-- L0574 -->
+The argument beneath the lampposts was drawing a small crowd. Standing at the center of the dispute was a young noble dressed in a ruffled silk cravat and embroidered waistcoat, waving an ornate silver cane to punctuate his points. <!-- L0574 -->
 
-"Listen to me!" the young gentleman insisted, leaning forward on the balls of his boots and stabbing his cane toward the harbor. "I'll wager fifty gold sovereigns right now that there is an subterranean Earth clan! The ancient charts require it! We have two confirmed clans—Ash-Blood and Mizizi. There have to be at least four more waiting beyond the frontier!"
+"Listen to me!" the young gentleman insisted, leaning forward on the balls of his boots. "I'll wager fifty gold sovereigns right now that there is an subterranean Earth clan! The ancient charts require it! We have two confirmed clans—Ash-Blood and Mizizi. There have to be at least four more waiting beyond the frontier!"
 
-"Nonsense," grunted a student in dark working leather, spitting over the seawall. "We found fire and plants. That's probably all that survived the Collapse. You're chasing fairy tales." <!-- L0576 -->
+"Nonsense," grunted a student in dark working leather. "We found fire and plants. That's probably all that survived the Collapse. You're chasing fairy tales." <!-- L0576 -->
 
-"Look at the symmetry!" the noble shouted back, spinning on his heel and sketching five connecting circles in the mist with his cane. "Fire, flora, water, earth, air! It is an elementary resonance circuit! If the old world operated on harmony, the nodes must balance!"
+"Look at the symmetry!" the noble shouted back. "Fire, flora, water, earth, air! It is an elementary resonance circuit! If the old world operated on harmony, the nodes must balance!"
 
-A quiet student whose skin was layered in flexible green bark spoke softly from the shadows, peeling a strip of lichen from a timber piling. "What if they are not the missing? What if we are the ones who forgot?"
+A quiet student whose skin was layered in flexible green bark spoke softly from the shadows. "What if they are not the missing? What if we are the ones who forgot?"
 
-A young woman with stark, wind-sheared platinum hair crossed her arms, rolling her eyes as she uncorked a leather waterskin with her teeth. "Or maybe the world is just broken. Not everything needs a neat little pattern. And besides, who would want to live buried in the dark under miles of dirt? No sky, no storms to chase—sounds like misery." <!-- L0629 -->
+A young woman with stark, wind-sheared platinum hair crossed her arms, rolling her eyes. "Or maybe the world is just broken. Not everything needs a neat little pattern. And besides, who would want to live buried in the dark under miles of dirt? No sky, no storms to chase—sounds like misery." <!-- L0629 -->
 
-"Mark my words," the noble declared, driving the ferrule of his cane into a seam between the stones. "When the deep expeditions locate the subterranean clan, I will be vindicated!"
+"Mark my words," the noble declared, tapping his cane against the cobblestones. "When the deep expeditions locate the subterranean clan, I will be vindicated!"
 
-Loami pushed his way to the front of the circle, reaching into his canvas pouch to pull out a heavy brass caliper, turning it over in his calloused fingers. "I don't mean to butt in on high academic theory," he said, drawing amused glances as he wiped a grease smudge from the dial. "But down in the Deep-Hull's furnace decks, we hear things. You spend twelve hours shovel-feeding a boiler beside the hull plates, and you start feeling rhythms vibrating up through the bedrock. Rhythms that don't belong to steam engines or ocean tides. There are old tales among the union crews about subterranean folk who watch the deep shafts."
+Lomi pushed his way to the front of the circle, thumbs hooked casually into his canvas suspenders. "I don't mean to butt in on high academic theory," he said, drawing amused glances from the students. "But down in the Deep-Hull's furnace decks, we hear things. You spend twelve hours shovel-feeding a boiler beside the hull plates, and you start feeling rhythms vibrating up through the bedrock. Rhythms that don't belong to steam engines or ocean tides. There are old tales among the union crews about subterranean folk who watch the deep shafts."
 
 The noble beamed, extending a silk-gloved hand. "See! The working classes know! Percival Van Smite the Third. A pleasure, sir."
 
-"Loami Sultano," the mechanic replied, gripping the offered hand with an iron clasp. "Boilermaker union. Third generation."
+"Lomi Sultano," the mechanic replied, shaking the offered hand. "Boilermaker union. Third generation."
 
-"Salt of the earth," Percival said warmly, dusting his lapel. "A man of practical observation."
+"Salt of the earth," Percival said warmly. "A man of practical observation."
 
-The platinum-haired girl bounded over to Loami, taking a swig from her skin, her eyes flashing with impatient energy. "Either way, living underground sounds suffocating. What do you do for fun down in that tin can?" <!-- L0631 -->
+The platinum-haired girl bounded over to Lomi, eyes flashing with impatient energy. "Either way, living underground sounds suffocating. What do you do for fun down in that tin can?" <!-- L0631 -->
 
-"For fun?" Loami chuckled, pocketing his caliper. "Well, word is there's a batch of high-proof engine grease floating around the courtyard tonight. That usually gets things lively." <!-- L0632 -->
+"For fun?" Lomi chuckled. "Well, word is there's a batch of high-proof engine grease floating around the courtyard tonight. That usually gets things lively." <!-- L0632 -->
 
 The girl's face lit up. "Grease? You mean Chime? Oh, I love drinking things that can also strip paint! Let's find it!" <!-- L0638 --> <!-- L0642 -->
 
-Percival turned on his heel, sweeping his cane toward the industrial quayside. "Say no more. I happen to know an enterprising gentleman who specializes in contraband procurement." <!-- L0649 -->
+Percival swung on his heel, tapping his cane against his palms as he sprinted ahead toward the quayside. "Say no more. I happen to know an enterprising gentleman who specializes in contraband procurement." <!-- L0649 -->
 
-Loami followed Percival through the swirling currents of students toward the shadows near the canal. There, standing atop a wooden munitions crate, was Lucky. The fast-talking scamp was juggling three glowing blue lucidian marbles across his knuckles, pulling small items from a frayed leather satchel to entertain a knot of curious candidates. <!-- L0657 --> <!-- L0659 --> <!-- L0660 -->
+Lomi followed Percival through the swirling currents of students toward the shadows near the canal. There, standing atop a wooden munitions crate, was Lucky. The fast-talking scamp was pulling small items from a frayed leather satchel, entertaining a knot of curious candidates. <!-- L0657 --> <!-- L0659 --> <!-- L0660 -->
 
-"Step right up, ladies and gentlemen! Lucky has arrived on this most auspicious of evenings!" Lucky crowed, catching a falling crystal in his palm and spotting Percival in the crowd. "Percy! My dear boy! Are you feeling lucky tonight? What can Lucky provide for our most discerning scholar?"
-
----
-
-## CHAPTER 14: THE CYCLE OF LIFE & DEATH
-
-Across the quad, beside the dying coals of the Block 99 pit, Britt crouched on the gravel, using a charred cedar branch to stir the white ash and kick a lazy shower of red sparks toward the stars. <!-- L0665 -->
-
-Aggie knelt beside her in the sand, scooping up a handful of charred pine bark. She rubbed the brittle wood between her scaled palms, watching the fine black powder sift through her fingers into the cool earth. For the Mizizi, this was prayer: watching matter return to soil. <!-- L0668 -->
-
-"It feels strange," Aggie murmured, looking across the bustling campus toward the soaring cranes. "To be surrounded by so many people who fear the end of things."
-
-Britt tossed the cedar stick onto the embers, watching it catch with a gentle crackle. "They think stone lasts forever. They think iron doesn't rust. Back home, if a tree fell, we celebrated the mushrooms that fed on it. Here, they paint over the rust and pretend the winter never comes." <!-- L0672 -->
-
-Ignatius strode over from the terrace steps, his boots crunching on the loose gravel. He dropped his heavy travel pack with a thud, kneeling by the fire ring and extending both palms toward the coals. As the heat radiated against his skin, the smoldering embers in his dark hair brightened from dull crimson to a lively, crackling orange. <!-- L0675 -->
-
-"You two look like you're holding a funeral," Ignatius said, a faint grin teasing his soot-streaked face. <!-- L0678 -->
-
-"Not a funeral," Aggie replied softly, brushing the dark humus from her hands onto her linen lap. "Just listening to the ground breathe." <!-- L0680 -->
-
-Ignatius picked up a flat piece of shale from the rim of the pit, turning it over in his hand before flicking it neatly across the stones. "Well, whatever the ground is saying, the academy is about to test whether we can survive on top of it. Friday's race isn't going to care about ancient philosophy." <!-- L0685 -->
-
-"The race is just speed and iron," Britt said, standing up and brushing the sawdust from her traveler's tunic. "The earth was here before the engines, and it'll be here after they run out of coal." <!-- L0690 -->
+"Step right up, ladies and gentlemen! Lucky has arrived on this most auspicious of evenings!" Lucky crowed, spotting Percival in the crowd. "Percy! My dear boy! Are you feeling lucky tonight? What can Lucky provide for our most discerning scholar?"
 
 "Keep it down, Lucky," Percival muttered, leaning over the crate. "I'm here for a crate of grease."
 
@@ -209,7 +163,7 @@ Lucky grinned, tapping his nose. "I have grease that greases grades, and grease 
 
 "A sovereign for the case," Percival said, tossing a heavy gold coin onto the crate. <!-- L0665 -->
 
-Lucky deftly swept the coin into his sleeve, ducked behind his crate, and hauled up a wire milk-carrier holding six tall, thirty-two-ounce glass jars filled with a clear, shimmering liquid that smelled intensely of ethanol, pine sap, and ozone. He passed the crate to Percival, who handed it off to Lomi. <!-- L0667 -->
+Lucky grabbed the coin, swept it into his sleeve, ducked behind his crate, and dragged up a heavy wire carrier holding six tall, thirty-two-ounce glass jars filled with a clear, shimmering liquid that smelled intensely of ethanol, pine sap, and ozone. He passed the crate to Percival, who handed it off to Lomi. <!-- L0667 -->
 
 Across the alley, leaning against a damp stone buttress, Sarge caught Lomi's eye. The veteran mechanic shook his head with a slow, wry grin, tapping two empty bottles resting on the flagstones by his boots—a silent warning that the moonshine kicked like an unbroken mule. Lomi gave him a respectful nod and hoisted the carrier. <!-- L0669 --> <!-- L0673 --> <!-- L0679 --> <!-- L0684 -->
 
@@ -225,33 +179,35 @@ Serra blinked, unsettled. "I... I have never heard anyone speak of death so casu
 
 <!-- LEDGER: rendered=[574, 576, 629, 631, 632, 638, 642, 649, 657, 659, 660, 661, 665, 667, 669, 673, 679, 684, 689, 693, 695, 697] skipped=[572(ooc), 573(ooc), 578(ooc), 579(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 585(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 597(ooc), 598(ooc), 600(ooc), 601(ooc), 602(ooc), 603(ooc), 604(ooc), 605(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 617(ooc), 618(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 625(ooc), 626(ooc), 627(ooc), 628(ooc), 630(ooc), 634(ooc), 635(ooc), 636(ooc), 637(ooc), 639(ooc), 640(ooc), 641(ooc), 643(ooc), 644(ooc), 645(ooc), 646(ooc), 647(ooc), 648(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 658(ooc), 663(ooc), 664(ooc), 666(ooc), 670(ooc), 671(ooc), 672(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 680(ooc), 681(ooc), 682(ooc), 683(ooc), 685(ooc), 686(ooc), 688(ooc), 691(ooc), 692(ooc), 696(ooc), 699(ooc), 700(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [701, 830] | SCENE_ID: 7 -->
 
 ## CHAPTER 14: THE CYCLE OF LIFE & DEATH
 
-The circle around the fire grew contemplative as the warmth seeped into cold joints. Britt grabbed a thick charred branch and slammed it across the stone rim, breaking it into crackling kindling that burst into fresh flame. Serra sat with her knees pulled to her chest, chin resting on her forearms, ducking slightly as a flurry of orange sparks swung upward into the night. <!-- L0702 -->
+The circle around the fire grew contemplative as the warmth seeped into cold joints. Serra sat with her knees pulled to her chest, chin resting on her forearms, watching the embers pulse. <!-- L0702 -->
 
 "Do you talk about death in your nursery tales?" Serra asked, her tone hushed and curious. "In Harmony, we hide death behind rhymes and polite ceremonies. Why speak of it so openly?"
 
-"Why hide the truth?" Aggie replied softly, grabbing a fistful of dry loam and letting it sift over her boots. "Death isn't an enemy. It leads to more life. Everything dies eventually. Maybe that's a sorrow, but everything that dies comes back in the cycle. Maybe I'll return as a great iron-bark tree, or a meadow flower. I like being a mushroom for now, though." <!-- L0706 --> <!-- L0709 --> <!-- L0710 -->
+"Why hide the truth?" Aggie replied softly, her voice small but steady. "Death isn't an enemy. It leads to more life. Everything dies eventually. Maybe that's a sorrow, but everything that dies comes back in the cycle. Maybe I'll return as a great iron-bark tree, or a meadow flower. I like being a mushroom for now, though." <!-- L0706 --> <!-- L0709 --> <!-- L0710 -->
 
 Serra sighed, staring into the flames. "My father is aging, and he would rather discuss anything in the world than his own mortality. Hearing you speak of it with such quiet peace is... refreshing." She paused, turning her bright, inquisitive gaze toward Ignatius. "Do either of you understand what it takes for a new node to integrate with Harmony?" <!-- L0712 --> <!-- L0714 -->
 
-"Not particularly," Britt admitted, pushing the remaining timbers deeper into the blaze with her boot heel.
+"Not particularly," Britt admitted.
 
-Ignatius lunged forward on one knee, reaching into his heavy canvas pocket and grabbing a rounded, fist-sized chunk of dark volcanic basalt. He swung the stone from palm to palm; tiny wisps of steam burst from his calloused skin, but the fabric of his coat remained untouched. He struck the rock lightly against the flagstones, testing its inner vibration. "I keep this with me," he said. <!-- L0715 --> <!-- L0717 -->
+Ignatius grabbed a rounded, fist-sized chunk of dark volcanic basalt from his heavy canvas pocket and swung it casually from palm to palm; tiny wisps of steam curled from his calloused skin, but the fabric of his coat remained untouched. "I keep this with me," he said. <!-- L0715 --> <!-- L0717 -->
 
 Serra's eyes widened. "Doesn't that burn through your pockets?" <!-- L0719 -->
 
 Ignatius laughed, shaking his head. "You think our clan spent three thousand years living in the throat of an active caldera and never figured out how to weave heat-resistant thread? We don't sweat like you mainlanders to cool down. If an Ash-Blood gets too warm, we vent the heat thermodynamically—we burn hotter, and transfer the excess energy straight into the atmosphere." <!-- L0720 --> <!-- L0724 --> <!-- L0730 --> <!-- L0732 -->
 
-Cassius, sitting nearby, scrambled for his pen, frantically scribbling notes against his knee as Ignatius spoke. <!-- L0735 -->
+Cassius leaped from the bench, scrambled for his dropped pen, and lunged forward to scribble notes against his knee as Ignatius spoke. <!-- L0735 -->
 
-"The rocks only provide raw thermal energy," Ignatius continued, nodding toward the glowing stone as he grabbed a dry pine cone and dropped it onto the basalt, watching it ignite in a sudden burst of yellow fire. "We boil water, cook food, and forge metal with them. It's not stable and humming like the crystal batteries your magistrates carry. But here's the mystery: when Harmony's explorers first landed on our shores two years ago, our dying volcanoes suddenly flared back to life. We thought our fires were cooling forever. Then Harmony arrived, and the heat surged." <!-- L0738 --> <!-- L0740 -->
+"The rocks only provide raw thermal energy," Ignatius continued, nodding toward the glowing stone. "We boil water, cook food, and forge metal with them. It's not stable and humming like the crystal batteries your magistrates carry. But here's the mystery: when Harmony's explorers first landed on our shores two years ago, our dying volcanoes suddenly flared back to life. We thought our fires were cooling forever. Then Harmony arrived, and the heat surged." <!-- L0738 --> <!-- L0740 -->
 
-Britt leaned forward, her shell plates creaking softly as she dragged a split log closer to the fire. "What did your clan gain from the alliance?" <!-- L0742 -->
+Britt leaned forward, her shell plates creaking softly. "What did your clan gain from the alliance?" <!-- L0742 -->
 
-"Trade," Ignatius said. "We give them hot stone; they give us crystal batteries. And our clan matriarch, Lady Ignis, was granted an official seat in the Council of Harmony. The empire claims that the newest civilization should be given the greatest voice, so the least of us becomes the most of us." He let out a dry, cynical puff of smoke, pushing the smoldering basalt back into his pocket. "Of course, because our elders don't know the first thing about managing an eight-million-person metropolis, the magistrates pull the strings anyway." <!-- L0749 --> <!-- L0753 --> <!-- L0755 --> <!-- L0762 --> <!-- L0781 -->
+"Trade," Ignatius said. "We give them hot stone; they give us crystal batteries. And our clan matriarch, Lady Ignis, was granted an official seat in the Council of Harmony. The empire claims that the newest civilization should be given the greatest voice, so the least of us becomes the most of us." He let out a dry, cynical puff of smoke. "Of course, because our elders don't know the first thing about managing an eight-million-person metropolis, the magistrates pull the strings anyway." <!-- L0749 --> <!-- L0753 --> <!-- L0755 --> <!-- L0762 --> <!-- L0781 -->
 
 Aggie sat in silence, turning Ignatius's words over in her mind. *Two years ago.* The exact moment Harmony landed on the Ash-Blood shores and ignited their dying fires was the exact moment the southern forest stopped decaying. The empire had flooded the Mizizi with iron axes and saws, desperate to force the petrified trees into rot so they could dissect the mechanism of decay. <!-- L0802 --> <!-- L0804 -->
 
@@ -272,6 +228,8 @@ Britt stared at the bare boot, deadpan. "Fascinating cultural insight, Percival.
 Undeterred, Percival unfurled a crumpled parchment map across his knee. "Do either of you know where the other frontiers lie? I have traveled extensively—nearly as far as Lady Allara Thorne herself! But the maps remain stubbornly blank. There must be an Earth clan. There must be an Air clan. We cannot rest until the compass is whole!" <!-- L0830 -->
 
 <!-- LEDGER: rendered=[702, 706, 709, 710, 712, 714, 715, 717, 719, 720, 724, 730, 732, 735, 738, 740, 742, 749, 753, 755, 762, 781, 802, 804, 808, 818, 824, 830] skipped=[701(ooc), 703(ooc), 704(ooc), 705(ooc), 707(ooc), 708(ooc), 713(ooc), 716(ooc), 721(ooc), 722(ooc), 723(ooc), 725(ooc), 726(ooc), 727(ooc), 728(ooc), 729(ooc), 731(ooc), 733(ooc), 736(ooc), 737(ooc), 741(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 750(ooc), 751(ooc), 754(ooc), 756(ooc), 757(ooc), 758(ooc), 759(ooc), 760(ooc), 761(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 769(ooc), 770(ooc), 771(ooc), 772(ooc), 773(ooc), 774(ooc), 775(ooc), 776(ooc), 777(ooc), 778(ooc), 779(ooc), 783(ooc), 784(ooc), 785(ooc), 786(ooc), 787(ooc), 789(ooc), 790(ooc), 791(ooc), 792(ooc), 793(ooc), 794(ooc), 795(ooc), 796(ooc), 797(ooc), 798(ooc), 799(ooc), 800(ooc), 801(ooc), 806(ooc), 809(ooc), 810(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 815(ooc), 816(ooc), 817(ooc), 819(ooc), 821(ooc), 822(ooc), 823(ooc), 825(ooc), 826(ooc), 828(ooc), 829(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [831, 950] | SCENE_ID: 8 -->
 
@@ -357,6 +315,8 @@ Aggie stepped to the edge of the pit, watching Rill's retreating silhouette disa
 
 <!-- LEDGER: rendered=[832, 834, 837, 840, 842, 844, 846, 848, 849, 851, 853, 854, 858, 860, 862, 864, 866, 867, 869, 873, 874, 875, 877, 883, 885, 887, 890, 892, 894, 895, 897, 899, 901, 902, 904, 906, 908, 910, 911, 917, 920, 923, 925, 927, 935, 943, 945, 950] skipped=[833(ooc), 835(ooc), 836(ooc), 838(ooc), 839(ooc), 843(ooc), 847(ooc), 850(ooc), 855(ooc), 856(ooc), 857(ooc), 859(ooc), 861(ooc), 863(ooc), 865(ooc), 870(ooc), 871(ooc), 872(ooc), 878(ooc), 879(ooc), 880(ooc), 881(ooc), 882(ooc), 886(ooc), 888(ooc), 889(ooc), 891(ooc), 893(ooc), 898(ooc), 900(ooc), 903(ooc), 905(ooc), 907(ooc), 909(ooc), 913(ooc), 914(ooc), 915(ooc), 916(ooc), 918(ooc), 919(ooc), 921(ooc), 922(ooc), 924(ooc), 926(ooc), 928(ooc), 929(ooc), 931(ooc), 932(ooc), 933(ooc), 934(ooc), 936(ooc), 937(ooc), 938(ooc), 939(ooc), 940(ooc), 941(ooc), 942(ooc), 946(ooc), 947(ooc), 948(ooc), 949(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [951, 1070] | SCENE_ID: 9 -->
 
 ## CHAPTER 16: PINE TEA & BOILER FUEL
@@ -401,6 +361,8 @@ He looked down at the dark stone in his palm. "Our volcanoes have been suffering
 
 <!-- LEDGER: rendered=[951, 952, 954, 956, 957, 964, 965, 966, 974, 982, 984, 988, 994, 999, 1000, 1002, 1004, 1005, 1006, 1008, 1010, 1012, 1014, 1024, 1034, 1047, 1049, 1050, 1052, 1058, 1061, 1063, 1065] skipped=[955(ooc), 959(ooc), 960(ooc), 961(ooc), 962(ooc), 963(ooc), 967(ooc), 968(ooc), 969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 975(ooc), 976(ooc), 978(ooc), 979(ooc), 980(ooc), 981(ooc), 983(ooc), 985(ooc), 986(ooc), 987(ooc), 990(ooc), 991(ooc), 992(ooc), 993(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 1001(ooc), 1003(ooc), 1009(ooc), 1013(ooc), 1015(ooc), 1016(ooc), 1017(ooc), 1018(ooc), 1019(ooc), 1020(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1025(ooc), 1026(ooc), 1028(ooc), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1040(ooc), 1041(ooc), 1042(ooc), 1043(ooc), 1044(ooc), 1045(ooc), 1046(ooc), 1051(ooc), 1053(ooc), 1054(ooc), 1055(ooc), 1056(ooc), 1057(ooc), 1059(ooc), 1060(ooc), 1064(ooc), 1066(ooc), 1067(ooc), 1068(ooc), 1069(ooc), 1070(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [1071, 1184] | SCENE_ID: 10 -->
 
 ## CHAPTER 17: THE THERMAL SURGE & THE CELESTIAL LOUNGE
@@ -438,5 +400,3 @@ Ignatius looked up at the neon beacon, embers shimmering in his eyes. "Shall we 
 Lomi grinned, pulling his flat cap low. "Let's find out." <!-- L1182 --> <!-- L1184 -->
 
 <!-- LEDGER: rendered=[1071, 1073, 1094, 1096, 1099, 1101, 1104, 1108, 1122, 1128, 1132, 1133, 1135, 1136, 1139, 1143, 1150, 1152, 1155, 1163, 1165, 1170, 1174, 1176, 1178, 1179, 1181, 1182, 1184] skipped=[1074(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(ooc), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1097(ooc), 1098(ooc), 1100(ooc), 1103(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1109(ooc), 1110(ooc), 1111(ooc), 1113(ooc), 1114(ooc), 1115(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1120(ooc), 1121(ooc), 1124(ooc), 1125(ooc), 1126(ooc), 1127(ooc), 1129(ooc), 1130(ooc), 1131(ooc), 1137(ooc), 1138(ooc), 1140(ooc), 1141(ooc), 1142(ooc), 1144(ooc), 1145(ooc), 1146(ooc), 1147(ooc), 1148(ooc), 1149(ooc), 1151(ooc), 1154(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1161(ooc), 1162(ooc), 1164(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1172(ooc), 1173(ooc), 1180(ooc), 1183(ooc)] -->
-
-<!-- RAW_RANGE: [1185, 1220] | SCENE_ID: 11 | OOC -->

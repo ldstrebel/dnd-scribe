@@ -10,11 +10,11 @@ The instant Bramble suggested breaking off, the Spirit Tortoise stopped dead in 
 
 Aggie winced, looking back at Bramble and Pip with an apologetic grimace. "Uh... I think you guys have to come with us," Aggie murmured hesitantly. "I'm sorry."
 
-Pip threw her hands into the air, her voice exploding in an exhausted, exasperated wail. "Yeah, no, see—here's the thing!" Pip shouted, stomping her boot in the sand. "I already wanted to leave at five in the morning! It wasn't worth it to me! There were snacks outside—I could have just hung out at the buffet tables the entire time! Aggie, I love you, you're one of my absolute favorites, but I am dealing with existentially *not dying* right now, so no!"
+Pip leaped onto an overturned cargo barrel, grabbed her travel rations, and slammed her boot into the sand, her voice exploding in an exhausted wail. "Yeah, no, see—here's the thing!" Pip shouted, stomping her boot in the sand. "I already wanted to leave at five in the morning! It wasn't worth it to me! There were snacks outside—I could have just hung out at the buffet tables the entire time! Aggie, I love you, you're one of my absolute favorites, but I am dealing with existentially *not dying* right now, so no!"
 
-Ignatius, walking a few paces ahead, turned around and mistook Pip's shrill complaint for Zephyr's voice. "The thing is, Zephyr—hear me out," Ignatius called back enthusiastically. "There could be way more adventures if we keep following the turtle!"
+Ignatius bolted forward, grabbed Pip's heavy satchel, and lunged around to catch Bramble's shoulder, mistaking Pip's shrill complaint for Zephyr's voice. "The thing is, Zephyr—hear me out," Ignatius called back enthusiastically. "There could be way more adventures if we keep following the turtle!"
 
-Iggy stared at Ignatius through foggy copper goggles with deadpan disbelief. "That's Pip and Bramble," Iggy muttered. "Not Zephyr."
+Iggy climbed onto a stone marker, pushed his copper goggles up, and grabbed Ignatius's sleeve. "That's Pip and Bramble," Iggy muttered. "Not Zephyr."
 
 Ignatius blinked, blushing furiously as embers flared at his cuffs. "Oh... sorry. My mistake."
 

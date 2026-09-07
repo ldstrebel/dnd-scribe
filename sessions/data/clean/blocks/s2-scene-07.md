@@ -12,13 +12,13 @@ Serra sighed, staring into the flames. "My father is aging, and he would rather 
 
 "Not particularly," Britt admitted.
 
-Ignatius reached into his heavy canvas pocket and produced a rounded, fist-sized chunk of dark volcanic basalt. He tossed it casually from palm to palm; tiny wisps of steam curled from his calloused skin, but the fabric of his coat remained untouched. "I keep this with me," he said. <!-- L0715 --> <!-- L0717 -->
+Ignatius grabbed a rounded, fist-sized chunk of dark volcanic basalt from his heavy canvas pocket and swung it casually from palm to palm; tiny wisps of steam curled from his calloused skin, but the fabric of his coat remained untouched. "I keep this with me," he said. <!-- L0715 --> <!-- L0717 -->
 
 Serra's eyes widened. "Doesn't that burn through your pockets?" <!-- L0719 -->
 
 Ignatius laughed, shaking his head. "You think our clan spent three thousand years living in the throat of an active caldera and never figured out how to weave heat-resistant thread? We don't sweat like you mainlanders to cool down. If an Ash-Blood gets too warm, we vent the heat thermodynamically—we burn hotter, and transfer the excess energy straight into the atmosphere." <!-- L0720 --> <!-- L0724 --> <!-- L0730 --> <!-- L0732 -->
 
-Cassius, sitting nearby, scrambled for his pen, frantically scribbling notes against his knee as Ignatius spoke. <!-- L0735 -->
+Cassius leaped from the bench, scrambled for his dropped pen, and lunged forward to scribble notes against his knee as Ignatius spoke. <!-- L0735 -->
 
 "The rocks only provide raw thermal energy," Ignatius continued, nodding toward the glowing stone. "We boil water, cook food, and forge metal with them. It's not stable and humming like the crystal batteries your magistrates carry. But here's the mystery: when Harmony's explorers first landed on our shores two years ago, our dying volcanoes suddenly flared back to life. We thought our fires were cooling forever. Then Harmony arrived, and the heat surged." <!-- L0738 --> <!-- L0740 -->
 

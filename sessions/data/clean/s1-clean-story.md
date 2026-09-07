@@ -8,23 +8,21 @@ genre: Epic Fantasy / Sci-Fantasy
 # BOOK 1: THE BASALT RUN
 ## ACT I: THE CALL OF THE SPIRES
 
-<!-- RAW_RANGE: [1, 315] | SCENE_ID: 1 | OOC -->
-
 <!-- RAW_RANGE: [316, 466] | SCENE_ID: 2 -->
 
 ## CHAPTER 1: THE FLAG THAT WOULDN'T RISE
 
-The morning sun hung low and pale behind a shroud of salt mist and drifting coal smoke when the transport flotilla bumped against the newly laid stone moles. All morning, a relentless line of heavy steam tenders, wooden ferries, and iron barges had churned across the open bay, carrying the first waves of an unprecedented human tide—one hundred thousand hopeful candidates from every corner of the known world converging upon the newly anchored frontier.
+The morning sun hung low and pale behind a shroud of salt mist and drifting coal smoke when the transport flotilla bumped against the newly laid stone moles. All morning, a relentless line of heavy steam tenders, wooden ferries, and iron barges had churned across the open bay, carrying the first waves of an unprecedented mortal tide—one hundred thousand hopeful candidates from every clan, province, and corner of the known world converging upon the newly anchored frontier.
 
-Beyond the harbor wall, Vumbua Academy rose like an Oxford under construction: a grand, ancient collegiate city transplanted brick by brick onto the raw basalt cliffs of the southern continent. Towering honey-colored sandstone quads, neo-gothic spires, and cloistered archways stood swaddled in colossal webs of timber scaffolding. Steam-powered derrick cranes groaned against the cliffside, swinging limestone gargoyles, carved lintels, and copper cupolas into place through the drifting sea spray. Master stonemasons in leather aprons shouted over the shriek of rotary stone-saws, while proctors in teal-and-bronze robes tried in vain to maintain academic decorum amid the deafening thrum of cement mixers and crashing surf. It was an old-world empire furiously grafting its thousand-year scholarly traditions into the smoking rock of an untamed frontier.
+Beyond the harbor wall, Vumbua Academy rose like a colossal cathedral-city under construction: a grand, ancient center of learning transplanted stone by stone onto the raw basalt cliffs of the southern continent. Towering honey-colored sandstone quads, soaring spires, and cloistered archways stood swaddled in colossal webs of timber scaffolding. Steam-powered derrick cranes groaned against the cliffside, swinging limestone gargoyles, carved lintels, and copper cupolas into place through the drifting sea spray. Master stonemasons in leather aprons shouted over the shriek of rotary stone-saws, while proctors in teal-and-bronze robes tried in vain to maintain academic decorum amid the deafening thrum of cement mixers and crashing surf. It was an old-world empire furiously grafting its thousand-year scholarly traditions into the smoking rock of an untamed frontier.
 
 The receiving docks were a frantic, roaring funnel. Creaking timber pilings, stone seawalls slick with foam, and cavernous corrugated intake sheds channeled the massive press of candidates off the gangways. Massive recruitment posters were pasted across every blank timber hoarding in fresh black-and-teal ink, their bold block lettering shouting **MOMENTUM IS LIFE** and **VUMBUA ACADEMY FOR EXPLORERS** to anyone desperate enough to read them.
 
-There was no ceremony and no welcoming committee. Applicants—root-folk from the deep southern canopies, ash-dusted islanders, union mechanics from Octoumba, and scholars from the high interior—were herded straight through timber turnstiles and under half-finished triumphal arches into the dim, zinc-roofed testing cloisters of the intake pavilion.
+There was no ceremony and no welcoming committee. Applicants—root-folk from the deep southern canopies, ash-dusted islanders, union mechanics from Octoumba, and scholars from the high interior—were herded straight through timber turnstiles and under half-finished triumphal arches into the vast intake pavilion.
 
-Inside, the warehouse was an ocean of plywood cubicles stretched beneath iron-braced rafters, smelling of wet mortar, machine oil, ozone, fresh parchment, and the cold, sour sweat of ten thousand anxious candidates. Every few seconds, the clatter of typewriters was punctuated by a sharp, tinny *ding* as another spring-loaded brass flag popped into the air, signaling completion. Almost instantly, an attendant in a crisp teal necktie and bright safety sash—looking somewhere between an English butler and a palace usher—would materialize from the central aisle to sweep the candidate out of their seat and into the processing current. <!-- L0316 -->
+The pavilion was a cavernous, zinc-roofed hall stretching into the haze as far as the eye could see. Under high iron-braced trusses hung with rows of sputtering oil lanterns, thousands of raw plywood testing cubicles stood arranged in endless, orderly grids. The air was thick with the scent of fresh pine shavings, wet plaster, typewriter ribbon ink, machine lubricant, and the nervous sweat of ten thousand examinees crammed shoulder to shoulder. Overhead, the soundscape was a relentless mechanical hailstorm—the rapid, staccato clatter of thousands of arcanatech typewriters echoing off the metal rafters, punctuated every few seconds by a sharp, tinny *ding* as spring-loaded brass flags popped into the air across the room to signal a completed test. The moment a flag tripped, an attendant in a crisp teal tunic and bright safety sash—looking somewhere between a palace usher and an overburdened clerk—would dart in from the central aisle to sweep the candidate out of their seat and shepherd them toward the sorting lines. <!-- L0316 -->
 
-Britt finished her survey first.
+At desk 408, Britt clicked the final spring-loaded key on her examination survey.
 
 She was a slender, athletic tortoise-folk of the Mizizi clan, her skin a deep, earthy olivaceous green that matched the damp moss of the southern understory. Prominent pointed ears poked through a wild mane of living root-dreadlocks—long, twisting green vines that cascaded past her shoulders and down past her waist like weeping willow boughs. Over her shell, she wore a simple, sleeveless dark grey traveler's tunic, cut loose for movement. Her carapace was thick, lumpy, and weathered—at first pass, you would be hard-pressed to tell whether it was made from the head of an ancient shelf-mushroom or the rugged bark of an ironwood tree, mottled with earthy brown ridges and flecks of living lichen.
 
@@ -34,7 +32,7 @@ Britt peered over the low plywood divider. Two cubicles away, her cousin Aggie w
 
 Where Britt was all rough bark and deep forest green, Aggie looked as if she had been sculpted from morning mist and river quartz. She was an alabaster-white-skinned tortoise-folk with delicate, thoughtful features and expressive green eyes. Soft, wavy shoulder-length white hair framed her face, crowned by a slender circlet of woven green leaves. Over her simple white linen dress, embroidered at the hem with creeping ivy, her carapace rose like a vibrant jewel against the drab plywood booth: a smooth, domed shell of brilliant scarlet speckled with clean white spots—just like a fly agaric mushroom cap—with soft, downy mycelial threads tracing the outer rim.
 
-If Britt stood up now, the human conveyor belt would sweep her out into the crowd alone. Britt wasn't leaving her behind. <!-- L0317 -->
+If Britt stood up now, the relentless conveyor of intake proctors would sweep her out into the crowd alone. Britt wasn't leaving her behind. <!-- L0317 -->
 
 The terminal chimed. The brass mechanism clicked, preparing to fire.
 
@@ -42,7 +40,7 @@ Britt reacted instantly. She reached up and clamped her scaled palm over the top
 
 "Hold on, girl," she whispered to herself.
 
-Through the narrow slit between the cubicle walls, she could see the wide thoroughfare. A floor proctor in a bright orange sash was pacing the row, clipboard tucked under one arm. He paused mid-stride, his eyes narrowing as he scanned the cluster of desks — exactly like an airport traffic guard zeroing in on an idling carriage in a loading zone. He tapped his pencil against his board, spotted Britt's hunched silhouette, and began marching directly toward her booth, ready to blow the whistle. <!-- L0323 --> <!-- L0335 -->
+Through the narrow slit between the cubicle walls, she could see the wide thoroughfare. A floor proctor in a bright orange sash was pacing the row, clipboard tucked under one arm. He paused mid-stride, his eyes narrowing as he scanned the cluster of desks — like a sharp-eyed station watchman zeroing in on a delayed carriage in a loading bay. He tapped his pencil against his board, spotted Britt's hunched silhouette, and began marching directly toward her booth, ready to blow the whistle. <!-- L0323 --> <!-- L0335 -->
 
 Britt glanced back at Aggie. Still scribbling. She had maybe ten seconds before the proctor reached her. Merely holding the flag wouldn't work much longer; she had to manufacture a delay.
 
@@ -202,111 +200,61 @@ Britt blinked, offering a polite nod, and quickly pulled Aggie through into the 
 
 ---
 
-<!-- RAW_RANGE: [467, 626] | SCENE_ID: 3 -->
-
-## CHAPTER 4: THE PRESSURE BELOW
-
-Trotting out beyond the fortified gates into the open concourse, Iggy halted, blinking through round copper lenses at the vast pale dome of the sky. <!-- s0:L0105 -->
-
-For his entire life, the sky had been an abstraction—a terrifying myth whispered by subterranean elders in the deep basalt shafts miles beneath the earth. His clan lived packed in clay and damp stone, cradled by tectonic pressure so immense it felt like an eternal, reassuring embrace. In the deep trenches, darkness was safety; rock was truth. The elders taught that the surface was an empty, frozen void—a hollow graveyard that had stripped away the warmth of the world, leaving only whistling wind to scour the flesh from the bone. To climb upward was madness. <!-- s0:L0107 --> <!-- s0:L0127 -->
-
-*"Stay low, sprout,"* the old ones had grumbled, patting damp soil across his shoulders. *"Nothing good ever came from the light."* <!-- s0:L0146 -->
-
-But Iggy had never been able to stay low. He had spent years tinkering in the damp corners of the magma flues, building clockwork noisemakers and brass calipers from discarded scrap, his oversized round goggles continually misting with hot geothermal steam. While the others slept in the mud, he had listened to the rhythmic thrum of foreign vessels vibrating down through the ocean shelf—rhythms that did not belong to stone or tide. <!-- s0:L0166 -->
-
-When he finally packed his oversized heavy wool trench coat and began the long climb up the tectonic vents, his fingers had burned against the cooling basalt. Breaking through into the daylight for the first time, he had been paralyzed by the sheer absence of ceiling. There was nothing above him. No granite vault, no reassuring mantle of bedrock—only endless, terrifying blue. He had expected to fall upward into the sun and dissolve. <!-- s0:L0470 -->
-
-Instead, the breeze had ruffled the moss sprouting from his scalp. It had smelled of brine, coal smoke, and frying grease. And beneath the fear, a deep, stubborn curmudgeon's curiosity had taken root. If the world above was this immense, why had his people spent centuries hiding in the dark? <!-- s0:L0498 -->
-
-Iggy adjusted his goggles, patting the pocket where his ink-dripping ticket rested against a brass horn and a jar of lubricating grease. He looked down at his feet. The ground here was stone paving, slick with mist. But somewhere nearby, he could hear the deep, rhythmic slosh of heavy water.
-
-*How deep does it go?* he wondered, tilting his head toward the sea. *Does the water touch the stone, or does the stone touch the dark?* <!-- L0771 -->
-
-He smiled beneath his trench coat collar and hurried forward to find out.
-
 ---
 
-## CHAPTER 5: THE ACADEMY UNDER CRANES
+<!-- RAW_RANGE: [467, 626] | SCENE_ID: 3 -->
 
-Past the iron receipt checkpoint, the warehouse exit doors swung wide, opening onto a grand stone terrace lined with marble pillars that looked down over the turquoise harbor basin. Britt grabbed Aggie's hand and kept walking — eyes up, pleasant to everyone, offending no one. Aggie let herself be towed along, unruffled by the warmth the guards had shown her sister; she was watching for the thing that was *weirder* than everything already on display. <!-- L0467 -->
+## THE ACADEMY UNDER CRANES
 
-And then, she saw the *ships*.
+Britt grabbed Aggie's hand and kept walking â€” eyes up, pleasant to everyone, offending no one. Aggie let herself be towed along, unruffled by the warmth the guards had shown her sister; she wasn't looking for attention anyway. She was watching for the thing that was *weirder* than everything already on display. <!-- L0467 -->
 
-A monstrous ironclad vessel sat in the harbor, its hull plated in brass fittings that caught the pale sun — and moored beside it, a smaller twin crowned with an airship's balloon, the two joined like mother and calf. The people moving beneath them were specks. Whatever "eighty thousand students" meant as a number, this was what it meant as a *place*: a university built out of vessels so large the eye refused to file them as architecture. <!-- L0470 --> <!-- L0474 -->
+The warehouse doors opened onto marble pillars, and then the courtyard, and then the *ships*.
 
-Beyond them, the campus proper was a skeleton mid-birth. Cranes and scaffolding bristled over half-raised halls; only one building stood finished — a domed, pillared edifice at the far side, around which the flow of candidates parted like water around a stone. <!-- L0482 -->
+A monstrous ironclad vessel sat in a harbor basin, its hull plated in brass fittings that caught the pale sun â€” and moored beside it, a smaller twin crowned with an airship's balloon, the two joined like mother and calf. The people moving beneath them were specks. Whatever "eighty thousand students" meant as a number, this was what it meant as a *place*: a university built out of vessels so large the eye refused to file them as architecture. <!-- L0470 --> <!-- L0474 -->
+
+Beyond them, the campus proper was a skeleton mid-birth. Cranes and scaffolding bristled over half-raised halls; only one building stood finished â€” a domed, pillared edifice at the far side, around which the flow of candidates parted like water around a stone. <!-- L0482 -->
 
 "Is that one big ship with a bridge connecting them," Ignatius asked slowly, "or two separate ships with a bridge connecting them?" <!-- L0483 -->
 
-He stared. Whatever answer came back, it didn't land. The polished confidence he'd worn off the boat — the grin, the easy shoulders — quietly melted under the scale of the place. Somewhere behind his eyes, a young man from a volcanic island was recalculating exactly how big the world was. <!-- L0486 --> <!-- L0535 -->
+He stared. Whatever answer came back, it didn't land. The polished confidence he'd worn off the boat â€” the grin, the easy shoulders â€” quietly melted under the scale of the place. Somewhere behind his eyes, a young man from a volcanic island was recalculating exactly how big the world was. <!-- L0486 --> <!-- L0535 -->
 
 "Nice," he managed. <!-- L0539 -->
 
-"Don't worry, lad — welcome to the show, mate!" The voice belonged to a tall, immaculately dressed young man working his way toward them — broad-shouldered, square-jawed, golden-haired, radiating the effortless certainty of old money and older bloodlines. He stopped, took Ignatius in — the soot, the ash, the faint shimmer of heat still coming off him — and faltered only half a beat. "Oh, wait, are you — you're not from — sorry, I don't mean to be rude. It's just kind of cool to meet someone from — what is your island called?" <!-- L0540 -->
+"Don't worry, lad â€” welcome to the show, mate!" The voice belonged to a tall, immaculately dressed young man working his way toward them â€” broad-shouldered, square-jawed, golden-haired, radiating the effortless certainty of old money and older bloodlines. He stopped, took Ignatius in â€” the soot, the ash, the faint shimmer of heat still coming off him â€” and faltered only half a beat. "Oh, wait, are you â€” you're not from â€” sorry, I don't mean to be rude. It's just kind of cool to meet someone from â€” what is your island called?" <!-- L0540 -->
 
 "The Ashland Isles," Ignatius said. "The Ember Isles." <!-- L0543 -->
 
 "What gave it away?" Ignatius added, dry as cinder. "Was it the soot, or the literal flames?" <!-- L0551 -->
 
-"You *are* on fire, lad," the stranger agreed, with the delicate tact of someone trying very hard not to stare. "Yes. It's back — right there." <!-- L0552 -->
+"You *are* on fire, lad," the stranger agreed, with the delicate tact of someone trying very hard not to stare. "Yes. It's back â€” right there." <!-- L0552 -->
 
 "Yes," Ignatius said. "That's how that works." <!-- L0557 -->
 
-"It's just — hard to wipe off," the young man offered, hand half-extended, thinking better of it. <!-- L0561 -->
+"It's just â€” hard to wipe off," the young man offered, hand half-extended, thinking better of it. <!-- L0561 -->
 
 "No, man, it's okay. I get it. You'll get used to it." Ignatius let him off the hook with a shrug. "It's fine." <!-- L0565 --> <!-- L0569 -->
 
-The stranger nodded, relieved, and walked about ten feet before turning back, seized by one last question. "Oh — uh — can I — will your hand burn me?" <!-- L0576 --> <!-- L0578 -->
+The stranger nodded, relieved, and walked about ten feet before turning back, seized by one last question. "Oh â€” uh â€” can I â€” will your hand burn me?" <!-- L0576 --> <!-- L0578 -->
 
 "I don't think so." Ignatius shook his hand. It did not burn him. <!-- L0581 -->
 
-"All right," the young man said, recovering the full wattage of his smile. "Jolly good." Then he walked off, already pulling a handkerchief from somewhere, spitting on it, scrubbing soot off his palm like a man who had shaken hands with a stove and intended to tell the story at dinner. <!-- L0585 -->
+"All right," the young man said, recovering the full wattage of his smile. "Jolly good." Then he stormed off, already pulling a handkerchief from somewhere, spitting on it, scrubbing soot off his palm like a man who had shaken hands with a stove and intended to tell the story at dinner. <!-- L0585 -->
 
-Ignatius watched him go and couldn't quite keep the grin down. The truth was, he wasn't *normally* a walking hearth — the soot was a souvenir of weeks of hard travel, not a permanent condition. But there was something deeply funny about letting the fine young gentleman believe otherwise. <!-- L0586 -->
+Ignatius watched him go and couldn't quite keep the grin down. The truth was, he wasn't *normally* a walking hearth â€” the soot was a souvenir of weeks of hard travel, not a permanent condition. But there was something deeply funny about letting the fine young gentleman believe otherwise. <!-- L0586 -->
 
----
+Lomi, meanwhile, had stopped walking entirely. He stood with his flat cap tipped back, taking in the cranes, the scaffolds, the half-skinned halls â€” with the specific expression of a tradesman inspecting someone else's job site. <!-- L0603 -->
 
-## CHAPTER 6: THE REKINDLED HEARTH
+He'd seen this place from the inside. Months ago, when it was just a boat and a ship lashed together, he'd crossed on a maintenance crew â€” set up some of those very cranes before the work took him below decks, down where the boilers ran hot and the credit ran cold. Now he surfaced into daylight and found the bones standing. <!-- L0605 --> <!-- L0608 -->
 
-Watching the fine young gentleman scrub his palm with spit and linen, Ignatius felt a slow, dry chuckle rumble through his chest. He looked down at his own calloused hands. Beneath the layer of grime, small flecks of volcanic ash clung to his pores like iron filings to a lodestone. <!-- s0:L0191 -->
+"Yeah," he said, mostly to himself. "This'll do. They do good work." A pause, grudging and fond. "All power to 'em. It's a little more cushy than the boiler room â€” doesn't take as much grit. But they do good work." <!-- L0612 -->
 
-Back in the volcanic calderas of the Ember Isles, soot was not an inconvenience to be washed away; it was an heirloom. The Ash-Bloods lived ringed by active fissures and roaring vents of molten earth. For generations, their warriors and smiths had forged their tools directly in the living throat of the crater, scorning the delicate glass-and-copper contrivances of the northern mainland. <!-- s0:L0193 -->
+The voice belonged to a broad figure coming out of the exam flow at the same time â€” a face Lomi knew from the workers' campfires, those social-hour rings where crews grilled meat and argued the eternal question of obsidian stone versus camp grill, which produced the better cut. Sarge. Of all people. <!-- L0613 -->
 
-Yet for three generations, the ancestral hearth had been dying. The magma pools had cooled into brittle black glass; geysers blew cold mud; and the clan lived in terror that their fire was turning to cold stone. <!-- s0:L0208 -->
+"Lomi! Lomi â€” we made it! Can you believe it?" <!-- L0615 -->
 
-Then Captain Elara Thorne had sailed into the sulfur mist, pitching her canvas tent directly on the frozen caldera floor and breaking bread with Matriarch Lady Ignis. To demonstrate Harmony's science, Elara had unpacked a portable grill powered by a bronze **resonator** — a delicate frequency tuner that seared meat in the sub-zero gale. In return, Lady Ignis had sent a piece of dormant lavsidian stone across the ocean to fuel an imperial feast.
+"Hey â€” Sarge, you made it in." Lomi broke into a grin. "I was feeling pretty good about myself until I saw you come in, huh?" <!-- L0618 -->
 
-The moment that reciprocal circuit closed, the ancient connection sparked. Magma had detonated from the vents, roaring back to life and reigniting the caldera.
-
-Lady Ignis had sailed for Harmony Prime to sign the Expansion Bill relocating the Academy south, taking Ember — Ignatius's brilliant cousin and foremost rival — in the first wave of cadets. Ignatius had been judged too reckless for Year 1, left standing on the basalt rim with soot on his cheeks as the steam launches vanished into the sea. <!-- s0:L0221 -->
-
-*"Next year,"* Ignatius had sworn into the rising smoke, watching the embers flare across his sleeves. *"If that academy comes to our shore... I will be there."* <!-- s0:L0227 --> <!-- s0:L0231 --> <!-- s0:L0235 -->
-
-Now, standing beneath the half-finished spires of Vumbua, Ignatius blew a soft plume of smoke through his teeth. The golden-haired boy with the handkerchief had thought he was holding a torch.
-
-Ignatius adjusted his traveling pack and grinned. *Let them think it. A hearth doesn't ask permission to burn.* <!-- L0586 -->
-
----
-
-## CHAPTER 7: THE GOSPEL OF THE BOILER ROOM
-
-Out on the wide granite esplanade overlooking the construction docks, Loami had stopped walking entirely. Leaning one grease-stained forearm against the base of a towering yellow iron crane, he stood with his flat cap tipped back, taking in the cranes, the scaffolds, the half-skinned halls — with the specific expression of a tradesman inspecting someone else's job site. <!-- L0603 -->
-
-He'd seen this place from the inside. Months ago, when it was just a boat and a ship lashed together, he'd crossed on a maintenance crew — set up some of those very cranes before the work took him below decks, down where the boilers ran hot and the credit ran cold. Now he surfaced into daylight and found the bones standing. <!-- L0605 --> <!-- L0608 -->
-
-Down in the furnace bowels of the Deep-Hull, life was measured in pounds of pressure per square inch. While the academy scholars above studied celestial maps and resonance matrices, Lomi and his union mates had spent eighteen-hour shifts shoveling raw obsidian coal into the fireboxes, inhaling steam and soot until their spit turned black. His father had been a boilermaker; his grandfather had died inside a burst flue. To Harmony, men like Lomi were the grease in the gears—vital, replaceable, and entirely invisible. <!-- s0:L0528 --> <!-- s0:L0530 -->
-
-Yet deep in his cedar footlocker beneath his bunk, wrapped in greasy flannel, lay an ancient coil of woven fiber: a mariner's knot, tied with six interlocking strands that no modern shipwright recognized. Family lore held that before the boilermaker unions were chartered, his bloodline had steered the ancient exploration vessels that mapped the first frontiers. His people hadn't always shoveled coal for masters; once, they had steered through the stars. <!-- s0:L0537 --> <!-- L0801 -->
-
-"Yeah," Lomi murmured, tapping the brass rim of his cap. "This'll do. They do good work." A pause, grudging and fond. "All power to 'em. It's a little more cushy than the boiler room — doesn't take as much grit. But they do good work." <!-- L0612 -->
-
-"Lomi! Lomi — we made it! Can you believe it?" <!-- L0615 -->
-
-The voice belonged to a broad figure coming out of the exam flow at the same time — a face Lomi knew from the workers' campfires, those social-hour rings where crews grilled meat and argued the eternal question of obsidian stone versus camp grill, which produced the better cut. Sarge. Of all people. <!-- L0613 -->
-
-"Hey — Sarge, you made it in." Lomi broke into a grin. "I was feeling pretty good about myself until I saw you come in, huh?" <!-- L0618 -->
-
-"Yeah, you little—" Sarge clapped him on the shoulder. "Hey." <!-- L0619 -->
+"Yeah, you littleâ€”" Sarge clapped him on the shoulder. "Hey." <!-- L0619 -->
 
 "They let anyone in here, huh?" Lomi said. <!-- L0624 -->
 
@@ -318,11 +266,11 @@ The voice belonged to a broad figure coming out of the exam flow at the same tim
 
 <!-- RAW_RANGE: [627, 768] | SCENE_ID: 4 -->
 
-## CHAPTER 8: EIGHTY YEARS OF STATIC MAPS
+## EIGHTY YEARS OF STATIC MAPS
 
 "I'll be honest," Sarge said, shaking his broad head. "Barely cut it. Barely cut it. I couldn't even read two of them. What were they saying? Those words." <!-- L0627 --> <!-- L0629 -->
 
-"The green flag popped up and I said, all right, let's give this a go," Lomi said. "Hey — you always guess the third one, right? That's what they say." <!-- L0632 -->
+"The green flag popped up and I said, all right, let's give this a go," Lomi said. "Hey â€” you always guess the third one, right? That's what they say." <!-- L0632 -->
 
 "Is that third one?" <!-- L0635 -->
 
@@ -334,39 +282,39 @@ The voice belonged to a broad figure coming out of the exam flow at the same tim
 
 "Yeah. You're right." Sarge nodded slowly. "I just got to remember why I'm here, you know? I'm doing this for the labs." <!-- L0643 -->
 
-What Lomi actually remembered about Sarge fit inside a campfire. One night, ringed by obsidian grates and the smell of charred meat, the big man had gotten quiet, then gotten real — decided, out loud and half-drunk, that he was going to apply. They'd gotten properly hammered after that, and woken on the floor of the work camp like heroes of a very small war. Lomi didn't know his family, his history, whatever had made him cry that night. He knew the version of Sarge that decided something at a campfire — and that the man had come from the other side of the academy, a manager of the operation rather than a wrench in it, the kind who kept things running and got no glory for it. <!-- L0644 --> <!-- L0653 --> <!-- L0660 -->
+What Lomi actually remembered about Sarge fit inside a campfire. One night, ringed by obsidian grates and the smell of charred meat, the big man had gotten quiet, then gotten real â€” decided, out loud and half-drunk, that he was going to apply. They'd gotten properly hammered after that, and woken on the floor of the work camp like heroes of a very small war. Lomi didn't know his family, his history, whatever had made him cry that night. He knew the version of Sarge that decided something at a campfire â€” and that the man had come from the other side of the academy, a manager of the operation rather than a wrench in it, the kind who kept things running and got no glory for it. <!-- L0644 --> <!-- L0653 --> <!-- L0660 -->
 
-The flow carried them all across the campus toward the one finished building — an auditorium that seated ten thousand, which was still only a fraction of the seventy thousand candidates being cycled through initiation presentations every few hours. The actual students were hopelessly outnumbered — a few thousand at most — and they worked the corridors like ushers, herding the endless current of candidates toward the great hall. <!-- L0664 -->
+The flow carried them all across the campus toward the one finished building â€” an auditorium that seated ten thousand, which was still only a fraction of the seventy thousand candidates being cycled through initiation presentations every few hours. The actual students were hopelessly outnumbered â€” a few thousand at most â€” and they worked the corridors like ushers, herding the endless current of candidates toward the great hall. <!-- L0664 -->
 
 "So the students," Lomi said, half to himself, "they're the ones who traveled on the ship, got here early, helped get stuff prepped." <!-- L0673 -->
 
 Hunting, all of them, for the title the academy only gave to its top tenth: *Explorer*. A thousand slots. A hundred thousand people clawing for them. <!-- L0674 --> <!-- L0676 -->
 
-The great hall swallowed them. Nearly everyone in it was from Harmony — the clans were a rounding error here, and every sideways glance at ash-stained cuffs or bark-colored skin carried the buzzing curiosity of minor celebrity. Then the lights dimmed, and a small figure bounced onto the stage — bounced, literally, like a plush thing animated by too much voltage: a tiny, round woman crackling with kinetic enthusiasm. <!-- L0684 -->
+The great hall swallowed them. Nearly everyone in it was from Harmony â€” the clans were a rounding error here, and every sideways glance at ash-stained cuffs or bark-colored skin carried the buzzing curiosity of minor celebrity. Then the lights dimmed, and a small figure bounced onto the stage â€” bounced, literally, like a plush thing animated by too much voltage: a tiny, round woman crackling with kinetic enthusiasm. <!-- L0684 -->
 
 "Hello, students! Hello, candidates. Hello, potential adventurers!" <!-- L0686 -->
 
-"I'm just so *excited* for this next class. It's going to be amazing. You're going to discover so much. You're going to go wherever your hearts take you. We — all of us here — are the inheritors of great discovery." She was vibrating. "For eighty years — *eighty years* — our maps have been static. We've missed the thrill of adventure. No one's wanted to do it. I've been lonely, honestly — not to say that my thousand weren't really great, but it's a lot better to have more. More is always better." <!-- L0688 -->
+"I'm just so *excited* for this next class. It's going to be amazing. You're going to discover so much. You're going to go wherever your hearts take you. We â€” all of us here â€” are the inheritors of great discovery." She was vibrating. "For eighty years â€” *eighty years* â€” our maps have been static. We've missed the thrill of adventure. No one's wanted to do it. I've been lonely, honestly â€” not to say that my thousand weren't really great, but it's a lot better to have more. More is always better." <!-- L0688 -->
 
 Somewhere in the dark, Lomi leaned toward Aggie and whispered, "I don't trust this fucking guy." <!-- L0689 -->
 
-"But we've got Ash-Bloods, whose mastery of heat brings new fire to our core. We've got the Mizi, whose — well. We don't really know what they do. And that's *amazing*. We don't know! It's been so long since we could say that about anything. We *mapped everything*." <!-- L0690 -->
+"But we've got Ash-Bloods, whose mastery of heat brings new fire to our core. We've got the Mizi, whose â€” well. We don't really know what they do. And that's *amazing*. We don't know! It's been so long since we could say that about anything. We *mapped everything*." <!-- L0690 -->
 
 Beside him, Aggie started coughing. <!-- L0694 -->
 
-"The map isn't empty," the Dean went on, heedless. "It's just waiting. It's just missing variables. Missing equations. There's so much to learn, and you're going to be the ones to find it. You're going to find the threads. You're going to find what's been lost — and you're going to find the glory that awaits us all, because here at Vumbua, it's just the start." <!-- L0698 -->
+"The map isn't empty," the Dean went on, heedless. "It's just waiting. It's just missing variables. Missing equations. There's so much to learn, and you're going to be the ones to find it. You're going to find the threads. You're going to find what's been lost â€” and you're going to find the glory that awaits us all, because here at Vumbua, it's just the start." <!-- L0698 -->
 
-"And where we go — who knows? So: welcome. As you exit the great hall behind me, the Loom will assign you your first home here at Vumbua. And I hope all of you make it through. But it can't be all of you. Unfortunately, we do have to lose another twenty thousand of you by the end of the week." She said it the way other people said *enjoy the buffet*. "So study hard, listen to your professors, and enjoy your time here. Welcome again!" <!-- L0702 -->
+"And where we go â€” who knows? So: welcome. As you exit the great hall behind me, the Loom will assign you your first home here at Vumbua. And I hope all of you make it through. But it can't be all of you. Unfortunately, we do have to lose another twenty thousand of you by the end of the week." She said it the way other people said *enjoy the buffet*. "So study hard, listen to your professors, and enjoy your time here. Welcome again!" <!-- L0702 -->
 
-She bounced back across the stage — then skidded, remembering something, and popped back to the edge. "Oh! Um, yeah — I'm Dean. My name's Dean. If you need me, you can try to find me. It's not that I'm hiding. I'm just kind of busy. I really shouldn't be doing this part—" <!-- L0705 -->
+She bounced back across the stage â€” then skidded, remembering something, and popped back to the edge. "Oh! Um, yeah â€” I'm Dean. My name's Dean. If you need me, you can try to find me. It's not that I'm hiding. I'm just kind of busy. I really shouldn't be doing this partâ€”" <!-- L0705 -->
 
-An attendant emerged from the wings, took the Dean gently by the arm, and pulled her back behind the curtain with the weary familiarity of someone who did this three times a day. And the party's eyes caught on her — because it was *Rill*. Older, better-fed, dressed in a crisp blue romper with a little turban wound into her hair — but unmistakably Rill, the one who had left the forest. She caught the Dean's elbow, shot the crowd a quick *good luck* wave, and vanished backstage arm in arm with the still-bouncing Dean. <!-- L0709 -->
+An attendant emerged from the wings, took the Dean gently by the arm, and pulled her back behind the curtain with the weary familiarity of someone who did this three times a day. And the party's eyes caught on her â€” because it was *Rill*. Older, better-fed, dressed in a crisp blue romper with a little turban wound into her hair â€” but unmistakably Rill, the one who had left the forest. She caught the Dean's elbow, shot the crowd a quick *good luck* wave, and vanished backstage arm in arm with the still-bouncing Dean. <!-- L0709 -->
 
-"Does Rill — would Rill know me and Aggie?" Lomi murmured. "Like, personally?" <!-- L0710 -->
+"Does Rill â€” would Rill know me and Aggie?" Lomi murmured. "Like, personally?" <!-- L0710 -->
 
 She would know their names. She might even already know they'd enrolled. <!-- L0711 -->
 
-Out in the exit hall, the current pushed past a bank of doors — fifty at once, disgorging candidates — where each passerby paused while a slip of paper printed, tore free, and went with them. Assigned housing. A first home. <!-- L0714 -->
+Out in the exit hall, the current pushed past a bank of doors â€” fifty at once, disgorging candidates â€” where each passerby paused while a slip of paper printed, tore free, and went with them. Assigned housing. A first home. <!-- L0714 -->
 
 It was somewhere in that press of bodies that Ignatius felt a nudge at his elbow. The small clay-and-soil figure beside him was staring at the ceiling of the great hall with naked wonder. "So," the stranger said. "This is a school." <!-- L0723 -->
 
@@ -376,27 +324,27 @@ Ignatius blinked. "Yeah. Yeah, bro." <!-- L0726 -->
 
 "Where did you *think* you were?" <!-- L0728 -->
 
-"I don't — I just followed the path." <!-- L0729 -->
+"I don't â€” I just followed the path." <!-- L0729 -->
 
 "How did you get here *accidentally*? I've literally hiked thousands of miles to get here." <!-- L0731 -->
 
 "Well, I had quite the adventure too," the small figure said, with sudden dignity, "but I'm not going to tell you about it." A beat. "So it's a school." <!-- L0732 -->
 
-"Did you just — did you apply?" <!-- L0733 -->
+"Did you just â€” did you apply?" <!-- L0733 -->
 
 "Uh. Sort of." Then, offering a name: "I'm Ignatius, by the way." <!-- L0735 -->
 
 "Oh. Well — my name's Iggy." <!-- L0736 -->
 
-"Oh — oh, man. Are you all right? Do you need a tissue?" Ignatius pulled out his handkerchief — the one already gray with travel soot — and pressed it into the kid's hand. "Here. You want this?" <!-- L0741 --> <!-- L0743 -->
+"Oh â€” oh, man. Are you all right? Do you need a tissue?" Ignatius pulled out his handkerchief â€” the one already gray with travel soot â€” and pressed it into the kid's hand. "Here. You want this?" <!-- L0741 --> <!-- L0743 -->
 
 The little figure's voice cracked on it, and then — to Ignatius's dawning horror — the kid was *crying*, silently, the overwhelm of the day finally breaching. "Sorry. Sorry, man. This place is a little different from where I'm from." <!-- L0747 -->
 
-"Yeah. Thank you." Iggy wiped his face with it and looked up, his damp clay features now comprehensively smeared black — a full soot beard aged well beyond his years, entirely unaware. "This place is a little different where I'm from." <!-- L0751 --> <!-- L0753 -->
+"Yeah. Thank you." Iggy wiped his face with it and looked up, his damp clay features now comprehensively smeared black â€” a full soot beard aged well beyond his years, entirely unaware. "This place is a little different where I'm from." <!-- L0751 --> <!-- L0753 -->
 
 "Okay," Iggy said, recovering, pointing out at the basin. "What are those boats?" <!-- L0761 -->
 
-"I overheard you talking about those boats," Lomi said, drifting over with the gravitational pull of a man who had heard a question he was born to answer. "I mean — they're a work of beauty." <!-- L0764 -->
+"I overheard you talking about those boats," Lomi said, drifting over with the gravitational pull of a man who had heard a question he was born to answer. "I mean â€” they're a work of beauty." <!-- L0764 -->
 
 "Yeah, that's a boat, right?" Iggy said. <!-- L0765 -->
 
@@ -408,7 +356,7 @@ The little figure's voice cracked on it, and then — to Ignatius's dawning horr
 
 <!-- RAW_RANGE: [769, 919] | SCENE_ID: 5 -->
 
-## CHAPTER 9: THE VIEW FROM THE CRANE
+## LUCKY
 
 "That's some good engineering," Lomi went on, warming to his subject. "Good design. And let me tell you — they haven't moved in a while. Them getting here, getting set up this quick? That's a test of time right there." <!-- L0770 -->
 
@@ -500,7 +448,7 @@ The afternoon was still young. Some candidates drifted toward the dorms; others 
 
 Lomi's instinct was immediate: not the dorm. "We need to look around." <!-- L0904 --> <!-- L0911 -->
 
-And the looking was worth it. The map and the streets laid the academy out like a city pretending to be a campus: the great hall; a huge temporary amphitheater terraced into a hillside, the only space that could hold the whole student body at once; a row of elegant clubhouses — Greek Row — where well-dressed sophisticates held court around party tables beside, impossibly, an eighty-year-old grandmother dominating the beer-pong bracket, because in Harmony nobody could reliably tell anyone's age and the policy had settled on *whatever happens will happen*. A small office with a painted sign: **CLAN ASSISTANCE AND INTEGRATION — Mizi or Ash-Blood? Have questions? Come here.** A huge library. The two great ships. A cliff wall bounding the far side. <!-- L0912 -->
+And the looking was worth it. The map and the streets laid the academy out like a city pretending to be a campus: the great hall; a huge temporary amphitheater terraced into a hillside, the only space that could hold the whole student body at once; a row of elegant clubhouses — High-House Row — where well-dressed sophisticates held court around party tables beside, impossibly, an eighty-year-old grandmother dominating the flagon-and-dice tables, because in Harmony nobody could reliably tell anyone's age and the policy had settled on *whatever happens will happen*. A small office with a painted sign: **CLAN ASSISTANCE AND INTEGRATION — Mizi or Ash-Blood? Have questions? Come here.** A huge library. The two great ships. A cliff wall bounding the far side. <!-- L0912 -->
 
 The dorms were improvisations, all of them — the school was housing candidates anywhere with a roof until the week culled the numbers down. Block 4, where Britt and Aggie were bound, was a modular unit terraced into the cliff face, an expanded herbology green-room. The labs were full of bodies instead of equipment. Lomi's Block 99 turned out to be a geothermal plant, steam sighing out of its vents, where he would sleep among the pipes he understood. And the classic dormitory halls — Block 12 — were where Iggy and Ignatius were headed. <!-- L0916 -->
 
@@ -511,6 +459,8 @@ Somewhere in that survey of the campus, each of them felt the same quiet pull: *
 ---
 
 <!-- RAW_RANGE: [920, 1070] | SCENE_ID: 6 -->
+
+## THE VIEW FROM THE CRANE
 
 "I'm not going to the room," Iggy announced. <!-- L0936 -->
 
@@ -590,7 +540,7 @@ Ignatius looked down at the woman, then sideways at the group, doing the math sh
 
 <!-- RAW_RANGE: [1071, 1184] | SCENE_ID: 7 -->
 
-## CHAPTER 10: THE BONFIRE INVITATION
+## THE BONFIRE INVITATION
 
 They came down in stages — Ignatius first, who'd only ever made it ten feet up while Iggy hung thirty feet overhead like a stone fruit. He dropped the last few rungs and rounded on the approaching stranger with the last of his climbing adrenaline still burning: *what do you want* written all over him. <!-- L1072 --> <!-- L1078 -->
 
@@ -647,9 +597,3 @@ Lomi looked over his shoulder at the crew, then at Ignatius, then back at the co
 And that was how the first night at the academy began — with the Mizi cousins, the man of embers, the boiler-maker, the little clay stranger, and the over-curious Serra Vox all gathered around an unlit fire pit, waiting to see what these strange newcomers would do next. <!-- L1183 -->
 
 <!-- LEDGER: rendered=[1072, 1078, 1080, 1087, 1090, 1091, 1092, 1093, 1094, 1096, 1100, 1104, 1110, 1113, 1117, 1118, 1120, 1124, 1127, 1131, 1134, 1135, 1136, 1141, 1146, 1148, 1165, 1166, 1170, 1171, 1183] skipped=[] -->
-
-<!-- RAW_RANGE: [1185, 1200] | SCENE_ID: 8 | OOC -->
-
-<!-- RAW_RANGE: [1201, 1201] | SCENE_ID: 9 | OOC -->
-
-<!-- RAW_RANGE: [1202, 1389] | SCENE_ID: 10 | OOC -->

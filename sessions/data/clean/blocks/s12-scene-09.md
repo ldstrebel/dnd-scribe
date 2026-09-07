@@ -12,17 +12,17 @@ Sitting on a low cot nearby, propped against a pile of canvas pillows, was a bat
 
 Zephyr was rubbing her aching temples with a gloved hand, wincing as she squinted into the morning sun. "Ugh..." she muttered in an aloof, singsong cadence. "I was busy watching that giant turtle pace back and forth, and now you guys come over and blind me. Oh... hello."
 
-Ignatius crouched down beside her, a grin spreading across his face. "Hey, Zapper! How you feeling?"
+Ignatius grabbed a canteen from his pack, leaped over an overturned stretcher, and lunged down beside her cot. "Hey, Zapper! How you feeling?"
 
 "Pretty cool," Zephyr said smoothly, rolling her shoulders and tilting her head to study the sparks hovering around his collar. "Pretty cool day. Is there something about the way I speak you find musical? Or do you just like the electricity between us?" <!-- L0828 -->
 
-Loami, walking past with a stack of clean bandages, threw his hands up in sheer disbelief. "Not the time!" Loami hissed. "Read the room, man!"
+Loami bolted past carrying a stack of clean bandages, slammed a supply crate onto the deck, and threw his hands up in sheer disbelief. "Not the time!" Loami hissed. "Read the room, man!"
 
 "Read the room!" Britt echoed from behind, glaring at Ignatius with wide, scandalized eyes. "There are literally dead people all around us!"
 
 Ignatius flushed, his flames flaring with sheepish embarrassment, but he couldn't help pushing back. "I'm just relieved to see that she's okay!" he stammered, before turning back to Zephyr with an awkward, lopsided smirk. "I mean... clearly you're fine. That's good to know. Some could say... some could say there might be a flame between us."
 
-Zephyr smirked, blue static dancing along her fingertips. "Maybe after the lightning strikes, flames can come."
+Zephyr leaped to her feet, grabbed the tent pole to steady herself, and pushed the canvas divider back with a smirk as blue static danced along her fingertips. "Maybe after the lightning strikes, flames can come."
 
 "I'm all up for a little electric fire," Ignatius fired back with a chuckle.
 

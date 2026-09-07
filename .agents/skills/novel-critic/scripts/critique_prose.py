@@ -2,11 +2,12 @@
 """Adversarial Prose Critic & Bloat Scanner.
 
 Runs forensic telemetry on novelized story files (sN-clean-story.md) to detect:
-1. Purple prose & repeated architectural/sensory tropes (rolling 1,000-word window)
-2. Stagnant action / "talking heads" ratio (excessive dialogue without physical motion)
-3. Domestic logistics & hallway transit filler (breakfast, buffets, walking down corridors)
-4. Character voice homogenization (vocabulary overlap across character dialogue)
-5. Static scene delta (scenes lacking conflict, stakes shifts, or state changes)
+1. In-universe immersion breaches & Earth-word leaks (Oxford, English, airport, Victorian, etc.)
+2. Purple prose & repeated architectural/sensory tropes (rolling 1,000-word window)
+3. Stagnant action / "talking heads" ratio (excessive dialogue without physical motion)
+4. Domestic logistics & hallway transit filler (breakfast, buffets, walking down corridors)
+5. Character voice homogenization (vocabulary overlap across character dialogue)
+6. Static scene delta (scenes lacking conflict, stakes shifts, or state changes)
 
 Usage:
     python critique_prose.py s1
@@ -19,6 +20,15 @@ import os
 import re
 import sys
 from collections import Counter
+
+# Earth leaks & out-of-universe anachronisms that break fantasy immersion
+EARTH_LEAK_PATTERNS = [
+    (r"\b(?:oxford|cambridge|harvard|yale|eiffel|big ben|hollywood|disney)\b", "Earth Place / Institution"),
+    (r"\b(?:english|british|american|french|italian|german|russian|asian|european|african|latin|roman|greek|spartan|trojan|australian|scottish|irish|japanese|chinese)\b", "Earth Nationality / Language"),
+    (r"\b(?:airport|airplane|jetliner|helicopter|television|t\.?v\.?|radio|wi-?fi|internet|cell phone|smartphone)\b", "Modern Earth Technology"),
+    (r"\b(?:victorian|edwardian|renaissance|medieval|bridgerton|ted lasso)\b", "Earth Historical / Pop-Culture Term"),
+    (r"\b(?:human tide|human race|mankind)\b", "Anthropocentric Slip (in multi-ancestry fantasy)")
+]
 
 # Repetitive sensory & architectural phrases to watch out for
 SENSORY_PHRASES = [
@@ -55,6 +65,32 @@ ACTION_VERBS = {
     "climbed", "climbing", "pushed", "pushing", "dragged", "dragging", "bolted", "bolting",
     "dived", "diving", "swung", "swinging", "struck", "striking", "burst", "bursting"
 }
+
+
+def analyze_earth_leaks(text):
+    """Scans clean prose (ignoring HTML comments) for Earth terminology leaks."""
+    prose_only = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
+    findings = []
+    
+    for pattern, category in EARTH_LEAK_PATTERNS:
+        matches = list(re.finditer(pattern, prose_only, flags=re.IGNORECASE))
+        for m in matches:
+            match_start = m.start()
+            line_num = prose_only[:match_start].count("\n") + 1
+            matched_word = m.group(0)
+            
+            start_idx = max(0, match_start - 40)
+            end_idx = min(len(prose_only), match_start + 40)
+            snippet = prose_only[start_idx:end_idx].replace("\n", " ").strip()
+            
+            findings.append({
+                "word": matched_word,
+                "category": category,
+                "line": line_num,
+                "snippet": f"...{snippet}..."
+            })
+            
+    return findings
 
 
 def analyze_purple_prose(text):
@@ -101,7 +137,6 @@ def analyze_dialogue_vs_action(scenes):
         dialogue_words = sum(len(q.split()) for q in quotes)
         dialogue_ratio = round(dialogue_words / len(words), 3)
         
-        # Count action verbs in narrative
         narrative_text = re.sub(r'"[^"]+"', '', content).lower()
         narrative_tokens = re.findall(r"\b[a-z]+\b", narrative_text)
         action_verb_count = sum(1 for tok in narrative_tokens if tok in ACTION_VERBS)
@@ -120,8 +155,6 @@ def analyze_dialogue_vs_action(scenes):
 
 
 def analyze_character_voices(text):
-    # Extract quotes attributed to specific characters
-    # Look for patterns like: "..." Lomi said / Lomi murmured / "..." Britt shouted
     character_quotes = {"Lomi": [], "Britt": [], "Aggie": [], "Ignatius": [], "Iggy": []}
     
     lines = text.split("\n")
@@ -182,6 +215,7 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
         story_text = f.read()
         
     scenes = parse_story_scenes(story_text)
+    earth_leaks = analyze_earth_leaks(story_text)
     purple_prose = analyze_purple_prose(story_text)
     logistics = analyze_logistics_density(story_text)
     scene_actions = analyze_dialogue_vs_action(scenes)
@@ -199,18 +233,38 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
     talking_heads = [s for s in scene_actions if s["talking_heads_risk"]]
     purple_alerts = [p for p in purple_prose if p["severity"] == "HIGH"]
     
-    if talking_heads or purple_alerts or logistics.get("hit_density_per_kword", 0) > 8.0:
+    if earth_leaks or talking_heads or purple_alerts or logistics.get("hit_density_per_kword", 0) > 8.0:
         report.append("> [!WARNING]")
-        report.append("> **Verdict: BLOATED / PACING DRAG DETECTED.**")
-        report.append(f"> Found {len(talking_heads)} talking-head scenes with minimal physical action, {len(purple_alerts)} high-frequency purple prose phrases, and high domestic/transit logistics density.")
+        report.append("> **Verdict: EDITORIAL CORRECTION REQUIRED.**")
+        reasons = []
+        if earth_leaks:
+            reasons.append(f"{len(earth_leaks)} immersion-breaking Earth terminology leaks")
+        if talking_heads:
+            reasons.append(f"{len(talking_heads)} talking-head scenes lacking physical action")
+        if purple_alerts:
+            reasons.append(f"{len(purple_alerts)} high-frequency purple prose phrases")
+        if logistics.get("hit_density_per_kword", 0) > 8.0:
+            reasons.append("high domestic/transit logistics density")
+        report.append(f"> Flagged issues: {', '.join(reasons)}.")
     else:
         report.append("> [!NOTE]")
         report.append("> **Verdict: LEAN & DYNAMIC.**")
-        report.append("> Good narrative velocity, disciplined sensory description, and well-staged physical action beats.")
+        report.append("> Clean in-universe immersion, good narrative velocity, disciplined sensory description, and well-staged physical action beats.")
     report.append("")
     
-    # 2. Talking Heads & Stagnant Action
-    report.append("## 2. Stagnant Action & Talking Heads Scanner")
+    # 2. In-Universe Immersion & Earth-Leak Scanner
+    report.append("## 2. In-Universe Immersion & Earth-Leak Scanner")
+    if earth_leaks:
+        report.append("| Line | Category | Leaked Term | Context Snippet |")
+        report.append("|---|---|---|---|")
+        for leak in earth_leaks:
+            report.append(f"| L{leak['line']} | {leak['category']} | **`{leak['word']}`** | {leak['snippet']} |")
+    else:
+        report.append("- [PASS] 0 Earth-word leaks or anachronisms detected. 100% in-universe fantasy immersion.")
+    report.append("")
+    
+    # 3. Talking Heads & Stagnant Action
+    report.append("## 3. Stagnant Action & Talking Heads Scanner")
     report.append("| Scene | Title | Words | Dialogue % | Action Verbs | Risk Assessment |")
     report.append("|---|---|---|---|---|---|")
     for s in scene_actions:
@@ -218,8 +272,8 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
         report.append(f"| Scene {s['scene_id']} | {s['title'][:35]} | {s['word_count']} | {int(s['dialogue_ratio']*100)}% | {s['action_verb_count']} | {risk_str} |")
     report.append("")
     
-    # 3. Purple Prose & Sensory Overkill
-    report.append("## 3. Sensory Overkill & Lexical Echoes")
+    # 4. Purple Prose & Sensory Overkill
+    report.append("## 4. Sensory Overkill & Lexical Echoes")
     if purple_prose:
         for p in purple_prose:
             report.append(f"- **`{p['phrase']}`**: repeated **{p['occurrences']} times** across session (`[{p['severity']}]`).")
@@ -227,28 +281,30 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
         report.append("- No high-frequency sensory echoes detected. Varied atmospheric palette.")
     report.append("")
     
-    # 4. Logistics & Filler Density
-    report.append("## 4. Logistics & Table Filler Scanner")
+    # 5. Logistics & Filler Density
+    report.append("## 5. Logistics & Table Filler Scanner")
     report.append(f"- **Filler hits per 1,000 words:** {logistics.get('hit_density_per_kword', 0)}")
     for cat, count in logistics.get("categories", {}).items():
         report.append(f"  - **{cat}:** {count} occurrences")
     report.append("")
     
-    # 5. Character Voice Profiles
-    report.append("## 5. Character Voice Differentiation")
+    # 6. Character Voice Profiles
+    report.append("## 6. Character Voice Differentiation")
     for char, v in voices.items():
         report.append(f"- **{char}:** {v['total_quotes']} turns | Avg {v['avg_words_per_turn']} w/turn | Top vocab: {', '.join(v['top_vocab'])}")
     report.append("")
     
-    # 6. Recommendation for 2nd Pass Abridgment
-    report.append("## 6. Recommended 2nd-Pass Cuts & Compressions")
+    # 7. Recommendation for 2nd Pass Abridgment
+    report.append("## 7. Recommended Editorial Fixes & Cuts")
+    if earth_leaks:
+        report.append("- **Purge Earth Leaks:** Replace Earth nationalities, place names, and modern metaphors with in-universe equivalents.")
     if talking_heads:
         for th in talking_heads:
             report.append(f"- **Compress Scene {th['scene_id']} ({th['title']}):** High dialogue ({int(th['dialogue_ratio']*100)}%) with low physical movement. Inject active staging beats or compress negotiations by 25%.")
     if logistics.get("hit_density_per_kword", 0) > 6.0:
         report.append("- **Trim Corridor & Dining Beats:** Condense morning arrivals and food table chatter into swift 1-paragraph establishing transitions.")
-    if not talking_heads and logistics.get("hit_density_per_kword", 0) <= 6.0:
-        report.append("- **Scene Retention:** High narrative density. Retain fully for the core novel.")
+    if not earth_leaks and not talking_heads and logistics.get("hit_density_per_kword", 0) <= 6.0:
+        report.append("- **Scene Retention:** High narrative density and clean world immersion. Retain fully for the core novel.")
         
     return "\n".join(report)
 

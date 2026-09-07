@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [441, 570] | SCENE_ID: 5 -->
 
-## CHAPTER 12: COURTYARD CLUSTERS & GREEK ROW
+## CHAPTER 12: COURTYARD CLUSTERS & HIGH-HOUSE ROW
 
 Around the warmth of the roaring blaze, the circle settled into uneasy familiarity. Serra Vox flipped open her compact notebook, pen poised like a surgeon's scalpel as she studied Britt and Aggie. <!-- L0465 -->
 

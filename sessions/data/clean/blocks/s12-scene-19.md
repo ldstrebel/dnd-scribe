@@ -104,7 +104,7 @@ All five domains clashed across their once-glorious cities in a catastrophic gra
 
 As cross-clan harmony shattered and the individual sparks lost power, every compound weapon failed completely. Magma cannons sputtered into cold slag. Lightning-arc ballistas cracked and shorted out. Hydraulic rams seized.
 
-The war tragically regressed into crude, primitive medieval butchery. Soldiers who had once commanded living elemental physics were forced to slaughter one another with crude iron swords, wooden spears, and heavy siege catapults.
+The war tragically regressed into crude, primitive primitive, barbaric butchery. Soldiers who had once commanded living elemental physics were forced to slaughter one another with crude iron swords, wooden spears, and heavy siege catapults.
 
 Yet no matter how much blood was spilled, the sparks did not return. The sparks had continued to decay, suffocating and growing dimmer with every passing generation that clung to past glories. Without them, absolute extinction loomed.
 

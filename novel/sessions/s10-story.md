@@ -7,14 +7,6 @@ genre: Epic Fantasy / Sci-Fantasy
 
 # THE APEX ARENA TRIALS
 
-<!-- RAW_RANGE: [1, 135] | SCENE_ID: 1 | OOC -->
-
-<!-- RAW_RANGE: [136, 270] | SCENE_ID: 2 | OOC -->
-
-<!-- RAW_RANGE: [271, 405] | SCENE_ID: 3 | OOC -->
-
-<!-- RAW_RANGE: [406, 500] | SCENE_ID: 4 | OOC -->
-
 <!-- RAW_RANGE: [501, 635] | SCENE_ID: 5 -->
 
 ## CHAPTER 89: MAGNETIC SAND SURFING
@@ -23,11 +15,15 @@ The shifting gravity canyons of Sector 1 were unlike anything Loami had encounte
 
 <!-- LEDGER: rendered=[503, 505, 625] skipped=[501(ooc), 502(ooc), 504(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 513(ooc), 514(ooc), 515(ooc), 516(ooc), 517(ooc), 519(ooc), 520(ooc), 521(ooc), 522(ooc), 523(ooc), 524(ooc), 525(ooc), 526(ooc), 527(ooc), 528(ooc), 529(ooc), 530(ooc), 531(ooc), 532(ooc), 533(ooc), 534(ooc), 535(ooc), 536(ooc), 537(ooc), 538(ooc), 540(ooc), 541(ooc), 542(ooc), 543(ooc), 544(ooc), 545(ooc), 546(ooc), 547(ooc), 548(ooc), 549(ooc), 550(ooc), 551(ooc), 552(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 559(ooc), 560(ooc), 561(ooc), 562(ooc), 563(ooc), 564(ooc), 565(ooc), 566(ooc), 567(ooc), 568(ooc), 569(ooc), 570(ooc), 571(ooc), 572(ooc), 573(ooc), 574(ooc), 575(ooc), 576(ooc), 577(ooc), 578(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 585(ooc), 586(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 595(ooc), 596(ooc), 598(ooc), 599(ooc), 600(ooc), 601(ooc), 602(ooc), 603(ooc), 604(ooc), 605(ooc), 607(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 617(ooc), 619(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 626(ooc), 628(ooc), 629(ooc), 630(ooc), 631(ooc), 632(ooc), 633(ooc), 634(ooc), 635(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [636, 770] | SCENE_ID: 6 -->
 
 Loami worked the calculation with salvaged copper-wound industrial anchors and magnetic clamps strapped to his work boots. "The friction of the moving sand generates heavy static electricity," Loami shouted over the roaring wind. "If we catch the static charge at the crest of the wave, the clamps create a temporary magnetic polarity that can carry our weight across the surface!" <!-- L0650 --> <!-- L0700 -->
 
 <!-- LEDGER: rendered=[650, 700] skipped=[636(ooc), 638(ooc), 639(ooc), 640(ooc), 641(ooc), 642(ooc), 643(ooc), 644(ooc), 645(ooc), 646(ooc), 647(ooc), 648(ooc), 649(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 656(ooc), 657(ooc), 658(ooc), 659(ooc), 660(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 666(ooc), 667(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 673(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 679(ooc), 680(ooc), 681(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 687(ooc), 688(ooc), 689(ooc), 690(ooc), 691(ooc), 692(ooc), 693(ooc), 694(ooc), 695(ooc), 696(ooc), 698(ooc), 699(ooc), 701(ooc), 702(ooc), 703(ooc), 704(ooc), 705(ooc), 706(ooc), 707(ooc), 708(ooc), 709(ooc), 710(ooc), 711(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc), 721(ooc), 722(ooc), 723(ooc), 724(ooc), 725(ooc), 726(ooc), 727(ooc), 728(ooc), 729(ooc), 730(ooc), 731(ooc), 733(ooc), 734(ooc), 735(ooc), 736(ooc), 737(ooc), 738(ooc), 739(ooc), 740(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 751(ooc), 752(ooc), 753(ooc), 754(ooc), 755(ooc), 756(ooc), 757(ooc), 758(ooc), 759(ooc), 760(ooc), 761(ooc), 762(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 768(ooc), 769(ooc), 770(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [771, 905] | SCENE_ID: 7 -->
 
@@ -35,11 +31,15 @@ Ignatius attempted to act as an aerial spotter, hovering overhead with his flame
 
 <!-- LEDGER: rendered=[780, 820, 870] skipped=[771(ooc), 772(ooc), 773(ooc), 774(ooc), 776(ooc), 777(ooc), 778(ooc), 779(ooc), 781(ooc), 782(ooc), 783(ooc), 784(ooc), 785(ooc), 786(ooc), 787(ooc), 788(ooc), 789(ooc), 790(ooc), 791(ooc), 792(ooc), 793(ooc), 794(ooc), 795(ooc), 796(ooc), 797(ooc), 798(ooc), 799(ooc), 801(ooc), 802(ooc), 803(ooc), 804(ooc), 805(ooc), 806(ooc), 807(ooc), 808(ooc), 809(ooc), 810(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 815(ooc), 816(ooc), 817(ooc), 818(ooc), 819(ooc), 822(ooc), 823(ooc), 824(ooc), 825(ooc), 826(ooc), 827(ooc), 828(ooc), 829(ooc), 830(ooc), 831(ooc), 832(ooc), 833(ooc), 834(ooc), 836(ooc), 837(ooc), 838(ooc), 839(ooc), 840(ooc), 841(ooc), 842(ooc), 843(ooc), 844(ooc), 845(ooc), 846(ooc), 847(ooc), 849(ooc), 850(ooc), 851(ooc), 852(ooc), 853(ooc), 854(ooc), 855(ooc), 856(ooc), 857(ooc), 858(ooc), 859(ooc), 860(ooc), 862(ooc), 863(ooc), 864(ooc), 865(ooc), 866(ooc), 867(ooc), 868(ooc), 869(ooc), 871(ooc), 872(ooc), 873(ooc), 874(ooc), 876(ooc), 877(ooc), 878(ooc), 879(ooc), 880(ooc), 881(ooc), 882(ooc), 883(ooc), 884(ooc), 885(ooc), 886(ooc), 887(ooc), 888(ooc), 889(ooc), 891(ooc), 892(ooc), 893(ooc), 894(ooc), 895(ooc), 896(ooc), 897(ooc), 898(ooc), 899(ooc), 900(ooc), 901(ooc), 902(ooc), 903(ooc), 904(ooc), 905(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [906, 1040] | SCENE_ID: 8 -->
 
 They adapted on the fly. Loami mounted a broad sheet of scrap metal and used alternating polarity flips—reversing the magnetic charge on his clamps every thirty seconds as the dunes shifted—to surf across the canyon floor at breakneck speed. Ignatius flew ten feet above, calling out supply caches revealed between the wave crests: iron-hooped barrels, steel cables, and copper fittings. Loami harvested every piece before the sands closed over them. <!-- L0980 --> <!-- L1020 -->
 
 <!-- LEDGER: rendered=[980, 1020] skipped=[907(ooc), 908(ooc), 909(ooc), 910(ooc), 911(ooc), 912(ooc), 913(ooc), 914(ooc), 915(ooc), 916(ooc), 917(ooc), 918(ooc), 919(ooc), 921(ooc), 923(ooc), 924(ooc), 925(ooc), 926(ooc), 927(ooc), 928(ooc), 929(ooc), 930(ooc), 932(ooc), 933(ooc), 934(ooc), 935(ooc), 936(ooc), 937(ooc), 938(ooc), 939(ooc), 940(ooc), 941(ooc), 942(ooc), 943(ooc), 944(ooc), 945(ooc), 946(ooc), 947(ooc), 948(ooc), 949(ooc), 951(ooc), 952(ooc), 953(ooc), 954(ooc), 955(ooc), 956(ooc), 957(ooc), 958(ooc), 959(ooc), 960(ooc), 961(ooc), 962(ooc), 963(ooc), 964(ooc), 965(ooc), 966(ooc), 967(ooc), 968(ooc), 969(ooc), 970(ooc), 972(ooc), 973(ooc), 974(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 979(ooc), 981(ooc), 982(ooc), 983(ooc), 984(ooc), 985(ooc), 986(ooc), 987(ooc), 988(ooc), 989(ooc), 990(ooc), 991(ooc), 992(ooc), 994(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 999(ooc), 1000(ooc), 1001(ooc), 1002(ooc), 1003(ooc), 1004(ooc), 1005(ooc), 1006(ooc), 1007(ooc), 1009(ooc), 1010(ooc), 1011(ooc), 1012(ooc), 1013(ooc), 1014(ooc), 1015(ooc), 1016(ooc), 1017(ooc), 1018(ooc), 1019(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1025(ooc), 1026(ooc), 1027(ooc), 1028(ooc), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1034(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1040(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [1041, 1050] | SCENE_ID: 9 -->
 
@@ -49,11 +49,15 @@ Sector 3 was where the Apex Ring stored its forest—a colossal grove of petrifi
 
 <!-- LEDGER: rendered=[] skipped=[1041(ooc), 1042(ooc), 1043(ooc), 1044(ooc), 1046(ooc), 1047(ooc), 1048(ooc), 1049(ooc), 1050(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [1051, 1185] | SCENE_ID: 10 -->
 
 With wide, childlike wonder gleaming behind his round copper goggles, Iggy set down his heavy pack, pulled out his worn leather sketchbook, and began to sketch the intricate grain of the petrified bark. He carefully peeled several thick bark samples with his fingernails, pressing them into the pages of his journal for scientific study. <!-- L1100 --> <!-- L1150 -->
 
 <!-- LEDGER: rendered=[1100, 1150] skipped=[1051(ooc), 1052(ooc), 1053(ooc), 1054(ooc), 1055(ooc), 1056(ooc), 1057(ooc), 1059(ooc), 1060(ooc), 1061(ooc), 1062(ooc), 1063(ooc), 1064(ooc), 1065(ooc), 1066(ooc), 1067(ooc), 1068(ooc), 1069(ooc), 1070(ooc), 1071(ooc), 1072(ooc), 1073(ooc), 1074(ooc), 1075(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1081(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(ooc), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1094(ooc), 1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1101(ooc), 1102(ooc), 1104(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1108(ooc), 1109(ooc), 1110(ooc), 1111(ooc), 1112(ooc), 1113(ooc), 1114(ooc), 1115(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1120(ooc), 1121(ooc), 1122(ooc), 1123(ooc), 1124(ooc), 1125(ooc), 1126(ooc), 1127(ooc), 1129(ooc), 1130(ooc), 1131(ooc), 1132(ooc), 1133(ooc), 1134(ooc), 1135(ooc), 1136(ooc), 1137(ooc), 1138(ooc), 1139(ooc), 1140(ooc), 1141(ooc), 1142(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1146(ooc), 1147(ooc), 1148(ooc), 1149(ooc), 1152(ooc), 1153(ooc), 1154(ooc), 1155(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1161(ooc), 1162(ooc), 1163(ooc), 1164(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1170(ooc), 1171(ooc), 1172(ooc), 1174(ooc), 1175(ooc), 1176(ooc), 1177(ooc), 1178(ooc), 1179(ooc), 1180(ooc), 1181(ooc), 1182(ooc), 1183(ooc), 1184(ooc), 1185(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [1186, 1320] | SCENE_ID: 11 -->
 
@@ -61,11 +65,15 @@ A furious, earth-shaking bellow shattered his reverie. Stomping through the stea
 
 <!-- LEDGER: rendered=[1200, 1201, 1205] skipped=[1186(ooc), 1187(ooc), 1188(ooc), 1190(ooc), 1191(ooc), 1192(ooc), 1193(ooc), 1194(ooc), 1195(ooc), 1196(ooc), 1197(ooc), 1198(ooc), 1199(ooc), 1202(ooc), 1203(ooc), 1204(ooc), 1206(ooc), 1207(ooc), 1208(ooc), 1209(ooc), 1210(ooc), 1211(ooc), 1212(ooc), 1213(ooc), 1214(ooc), 1216(ooc), 1217(ooc), 1218(ooc), 1219(ooc), 1220(ooc), 1221(ooc), 1222(ooc), 1223(ooc), 1224(ooc), 1225(ooc), 1226(ooc), 1227(ooc), 1228(ooc), 1229(ooc), 1230(ooc), 1231(ooc), 1232(ooc), 1233(ooc), 1234(ooc), 1235(ooc), 1236(ooc), 1237(ooc), 1238(ooc), 1239(ooc), 1240(ooc), 1241(ooc), 1242(ooc), 1243(ooc), 1245(ooc), 1246(ooc), 1247(ooc), 1248(ooc), 1249(ooc), 1250(ooc), 1251(ooc), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1256(ooc), 1257(ooc), 1258(ooc), 1259(ooc), 1260(ooc), 1261(ooc), 1262(ooc), 1263(ooc), 1264(ooc), 1265(ooc), 1266(ooc), 1267(ooc), 1268(ooc), 1269(ooc), 1270(ooc), 1271(ooc), 1272(ooc), 1273(ooc), 1274(ooc), 1275(ooc), 1277(ooc), 1278(ooc), 1279(ooc), 1280(ooc), 1281(ooc), 1282(ooc), 1283(ooc), 1284(ooc), 1285(ooc), 1286(ooc), 1287(ooc), 1288(ooc), 1289(ooc), 1290(ooc), 1291(ooc), 1292(ooc), 1293(ooc), 1294(ooc), 1295(ooc), 1296(ooc), 1297(ooc), 1298(ooc), 1299(ooc), 1300(ooc), 1301(ooc), 1302(ooc), 1304(ooc), 1305(ooc), 1306(ooc), 1307(ooc), 1308(ooc), 1309(ooc), 1310(ooc), 1311(ooc), 1312(ooc), 1313(ooc), 1314(ooc), 1315(ooc), 1316(ooc), 1317(ooc), 1318(ooc), 1319(ooc), 1320(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [1321, 1455] | SCENE_ID: 12 -->
 
 "Let's go, let's go!" Iggy squeaked, shoving his sketchbook into his coat. He scrambled southwest into the dense petrified timber. But after twenty minutes of frantic walking through the identical stone boughs, the canopy suddenly brightened and he popped right back out of the tree line—directly into the clearing where Sam was now three times closer! <!-- L1341 -->
 
 <!-- LEDGER: rendered=[1341] skipped=[1321(ooc), 1322(ooc), 1323(ooc), 1324(ooc), 1325(ooc), 1326(ooc), 1327(ooc), 1328(ooc), 1329(ooc), 1330(ooc), 1331(ooc), 1332(ooc), 1334(ooc), 1335(ooc), 1336(ooc), 1337(ooc), 1338(ooc), 1339(ooc), 1340(ooc), 1342(ooc), 1343(ooc), 1344(ooc), 1345(ooc), 1346(ooc), 1347(ooc), 1348(ooc), 1349(ooc), 1350(ooc), 1352(ooc), 1353(ooc), 1354(ooc), 1355(ooc), 1356(ooc), 1357(ooc), 1358(ooc), 1359(ooc), 1360(ooc), 1361(ooc), 1362(ooc), 1363(ooc), 1364(ooc), 1365(ooc), 1366(ooc), 1367(ooc), 1369(ooc), 1370(ooc), 1371(ooc), 1372(ooc), 1373(ooc), 1374(ooc), 1375(ooc), 1376(ooc), 1377(ooc), 1378(ooc), 1379(ooc), 1380(ooc), 1381(ooc), 1382(ooc), 1383(ooc), 1384(ooc), 1385(ooc), 1386(ooc), 1387(ooc), 1388(ooc), 1389(ooc), 1390(ooc), 1391(ooc), 1393(ooc), 1394(ooc), 1395(ooc), 1396(ooc), 1397(ooc), 1398(ooc), 1399(ooc), 1400(ooc), 1401(ooc), 1402(ooc), 1403(ooc), 1404(ooc), 1405(ooc), 1406(ooc), 1407(ooc), 1408(ooc), 1409(ooc), 1411(ooc), 1412(ooc), 1413(ooc), 1414(ooc), 1415(ooc), 1416(ooc), 1417(ooc), 1418(ooc), 1419(ooc), 1421(ooc), 1422(ooc), 1423(ooc), 1424(ooc), 1425(ooc), 1426(ooc), 1427(ooc), 1428(ooc), 1429(ooc), 1430(ooc), 1431(ooc), 1432(ooc), 1433(ooc), 1434(ooc), 1435(ooc), 1436(ooc), 1437(ooc), 1439(ooc), 1440(ooc), 1441(ooc), 1442(ooc), 1443(ooc), 1444(ooc), 1445(ooc), 1446(ooc), 1447(ooc), 1448(ooc), 1449(ooc), 1450(ooc), 1451(ooc), 1452(ooc), 1453(ooc), 1454(ooc), 1455(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [1456, 1590] | SCENE_ID: 13 -->
 
@@ -73,11 +81,15 @@ Panicking, Iggy plunged back into the woods, bouncing off ancient stone trunks l
 
 <!-- LEDGER: rendered=[] skipped=[1456(ooc), 1457(ooc), 1458(ooc), 1459(ooc), 1460(ooc), 1461(ooc), 1462(ooc), 1464(ooc), 1465(ooc), 1466(ooc), 1467(ooc), 1468(ooc), 1469(ooc), 1470(ooc), 1471(ooc), 1472(ooc), 1473(ooc), 1474(ooc), 1475(ooc), 1476(ooc), 1477(ooc), 1478(ooc), 1479(ooc), 1481(ooc), 1482(ooc), 1483(ooc), 1484(ooc), 1485(ooc), 1486(ooc), 1487(ooc), 1488(ooc), 1489(ooc), 1490(ooc), 1491(ooc), 1492(ooc), 1493(ooc), 1494(ooc), 1495(ooc), 1497(ooc), 1498(ooc), 1499(ooc), 1500(ooc), 1501(ooc), 1502(ooc), 1503(ooc), 1504(ooc), 1505(ooc), 1507(ooc), 1508(ooc), 1509(ooc), 1510(ooc), 1512(ooc), 1513(ooc), 1515(ooc), 1516(ooc), 1517(ooc), 1518(ooc), 1519(ooc), 1521(ooc), 1522(ooc), 1523(ooc), 1524(ooc), 1525(ooc), 1526(ooc), 1528(ooc), 1529(ooc), 1530(ooc), 1531(ooc), 1532(ooc), 1533(ooc), 1534(ooc), 1536(ooc), 1537(ooc), 1538(ooc), 1540(ooc), 1541(ooc), 1542(ooc), 1543(ooc), 1544(ooc), 1545(ooc), 1546(ooc), 1547(ooc), 1548(ooc), 1549(ooc), 1550(ooc), 1551(ooc), 1552(ooc), 1553(ooc), 1554(ooc), 1555(ooc), 1556(ooc), 1557(ooc), 1558(ooc), 1559(ooc), 1560(ooc), 1561(ooc), 1562(ooc), 1563(ooc), 1565(ooc), 1566(ooc), 1567(ooc), 1568(ooc), 1569(ooc), 1570(ooc), 1571(ooc), 1572(ooc), 1573(ooc), 1574(ooc), 1575(ooc), 1576(ooc), 1577(ooc), 1578(ooc), 1579(ooc), 1580(ooc), 1581(ooc), 1582(ooc), 1584(ooc), 1585(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1589(ooc), 1590(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [1591, 1725] | SCENE_ID: 14 -->
 
 "Hold please!" Iggy yelled. He downed a stamina potion, dropped into his tight rolling ball form, and shot toward the basin water one hundred yards away. "A peace offering! A tiny version of an apology!" Iggy shouted, scattering bark samples behind him. Enraged, Sam hoisted a twenty-foot petrified tree trunk and hurled it like a javelin. The trunk crashed into the mud inches from Iggy, the shockwave blasting into his side and tumbling him into the 1,700-foot deep harbor basin—instilling in the little soil-kin a permanent, lifelong terror of trees.
 
 <!-- LEDGER: rendered=[] skipped=[1591(ooc), 1592(ooc), 1593(ooc), 1594(ooc), 1595(ooc), 1596(ooc), 1597(ooc), 1598(ooc), 1599(ooc), 1600(ooc), 1601(ooc), 1602(ooc), 1603(ooc), 1604(ooc), 1605(ooc), 1606(ooc), 1607(ooc), 1608(ooc), 1610(ooc), 1611(ooc), 1612(ooc), 1613(ooc), 1614(ooc), 1615(ooc), 1616(ooc), 1617(ooc), 1618(ooc), 1619(ooc), 1620(ooc), 1621(ooc), 1622(ooc), 1623(ooc), 1624(ooc), 1625(ooc), 1626(ooc), 1627(ooc), 1628(ooc), 1629(ooc), 1630(ooc), 1631(ooc), 1632(ooc), 1633(ooc), 1634(ooc), 1635(ooc), 1636(ooc), 1638(ooc), 1639(ooc), 1640(ooc), 1641(ooc), 1642(ooc), 1643(ooc), 1644(ooc), 1645(ooc), 1646(ooc), 1647(ooc), 1648(ooc), 1649(ooc), 1650(ooc), 1651(ooc), 1652(ooc), 1654(ooc), 1655(ooc), 1656(ooc), 1657(ooc), 1658(ooc), 1659(ooc), 1660(ooc), 1661(ooc), 1663(ooc), 1664(ooc), 1665(ooc), 1666(ooc), 1667(ooc), 1668(ooc), 1669(ooc), 1670(ooc), 1671(ooc), 1672(ooc), 1673(ooc), 1675(ooc), 1676(ooc), 1677(ooc), 1678(ooc), 1679(ooc), 1680(ooc), 1681(ooc), 1682(ooc), 1684(ooc), 1685(ooc), 1686(ooc), 1687(ooc), 1688(ooc), 1689(ooc), 1690(ooc), 1691(ooc), 1692(ooc), 1693(ooc), 1694(ooc), 1695(ooc), 1696(ooc), 1697(ooc), 1698(ooc), 1699(ooc), 1700(ooc), 1701(ooc), 1702(ooc), 1703(ooc), 1704(ooc), 1706(ooc), 1707(ooc), 1708(ooc), 1709(ooc), 1710(ooc), 1711(ooc), 1712(ooc), 1713(ooc), 1714(ooc), 1715(ooc), 1716(ooc), 1717(ooc), 1718(ooc), 1719(ooc), 1720(ooc), 1721(ooc), 1723(ooc), 1724(ooc), 1725(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [1726, 1800] | SCENE_ID: 15 -->
 
@@ -87,11 +99,15 @@ Along the Sector 3 shoreline, Aggie and Britt held the rendezvous point beneath 
 
 <!-- LEDGER: rendered=[] skipped=[1726(ooc), 1727(ooc), 1728(ooc), 1729(ooc), 1730(ooc), 1731(ooc), 1732(ooc), 1733(ooc), 1734(ooc), 1735(ooc), 1736(ooc), 1737(ooc), 1738(ooc), 1739(ooc), 1740(ooc), 1741(ooc), 1743(ooc), 1744(ooc), 1745(ooc), 1746(ooc), 1747(ooc), 1748(ooc), 1749(ooc), 1750(ooc), 1751(ooc), 1752(ooc), 1753(ooc), 1754(ooc), 1756(ooc), 1758(ooc), 1760(ooc), 1761(ooc), 1763(ooc), 1764(ooc), 1765(ooc), 1766(ooc), 1767(ooc), 1768(ooc), 1769(ooc), 1770(ooc), 1771(ooc), 1772(ooc), 1773(ooc), 1774(ooc), 1775(ooc), 1776(ooc), 1777(ooc), 1778(ooc), 1779(ooc), 1780(ooc), 1781(ooc), 1782(ooc), 1783(ooc), 1784(ooc), 1785(ooc), 1786(ooc), 1787(ooc), 1788(ooc), 1790(ooc), 1791(ooc), 1792(ooc), 1793(ooc), 1794(ooc), 1795(ooc), 1796(ooc), 1797(ooc), 1798(ooc), 1799(ooc), 1800(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [1801, 1935] | SCENE_ID: 16 -->
 
 Aggie approached a massive petrified trunk at the water's edge and laid her palms flat against the cold stone bark, channeling her Mizizi instinct to open a dialogue with the root network. "Tell me where our people are," she whispered into the grain. <!-- L1920 --> <!-- L1926 -->
 
 <!-- LEDGER: rendered=[1920, 1926] skipped=[1801(ooc), 1802(ooc), 1804(ooc), 1805(ooc), 1806(ooc), 1807(ooc), 1808(ooc), 1809(ooc), 1810(ooc), 1811(ooc), 1812(ooc), 1813(ooc), 1814(ooc), 1815(ooc), 1816(ooc), 1817(ooc), 1818(ooc), 1819(ooc), 1820(ooc), 1821(ooc), 1822(ooc), 1823(ooc), 1824(ooc), 1825(ooc), 1826(ooc), 1827(ooc), 1829(ooc), 1830(ooc), 1831(ooc), 1832(ooc), 1833(ooc), 1834(ooc), 1835(ooc), 1836(ooc), 1837(ooc), 1838(ooc), 1839(ooc), 1840(ooc), 1841(ooc), 1842(ooc), 1843(ooc), 1845(ooc), 1846(ooc), 1847(ooc), 1848(ooc), 1849(ooc), 1850(ooc), 1851(ooc), 1852(ooc), 1853(ooc), 1854(ooc), 1855(ooc), 1856(ooc), 1857(ooc), 1858(ooc), 1859(ooc), 1860(ooc), 1861(ooc), 1862(ooc), 1863(ooc), 1864(ooc), 1865(ooc), 1866(ooc), 1867(ooc), 1869(ooc), 1870(ooc), 1871(ooc), 1872(ooc), 1873(ooc), 1874(ooc), 1875(ooc), 1876(ooc), 1877(ooc), 1878(ooc), 1879(ooc), 1880(ooc), 1881(ooc), 1882(ooc), 1883(ooc), 1884(ooc), 1885(ooc), 1886(ooc), 1887(ooc), 1888(ooc), 1889(ooc), 1891(ooc), 1892(ooc), 1893(ooc), 1894(ooc), 1895(ooc), 1896(ooc), 1897(ooc), 1898(ooc), 1899(ooc), 1900(ooc), 1901(ooc), 1902(ooc), 1903(ooc), 1905(ooc), 1906(ooc), 1907(ooc), 1908(ooc), 1909(ooc), 1910(ooc), 1911(ooc), 1912(ooc), 1913(ooc), 1914(ooc), 1915(ooc), 1916(ooc), 1917(ooc), 1918(ooc), 1919(ooc), 1921(ooc), 1922(ooc), 1923(ooc), 1924(ooc), 1925(ooc), 1927(ooc), 1928(ooc), 1930(ooc), 1931(ooc), 1932(ooc), 1933(ooc), 1934(ooc), 1935(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [1936, 2070] | SCENE_ID: 17 -->
 
@@ -99,11 +115,15 @@ The forest responded not in words, but in faint, cold impressions of memory: *We
 
 <!-- LEDGER: rendered=[2015, 2050] skipped=[1936(ooc), 1937(ooc), 1938(ooc), 1939(ooc), 1940(ooc), 1941(ooc), 1942(ooc), 1943(ooc), 1944(ooc), 1945(ooc), 1946(ooc), 1947(ooc), 1948(ooc), 1949(ooc), 1950(ooc), 1951(ooc), 1952(ooc), 1954(ooc), 1955(ooc), 1956(ooc), 1957(ooc), 1958(ooc), 1959(ooc), 1960(ooc), 1961(ooc), 1962(ooc), 1963(ooc), 1964(ooc), 1965(ooc), 1966(ooc), 1967(ooc), 1968(ooc), 1969(ooc), 1970(ooc), 1971(ooc), 1973(ooc), 1974(ooc), 1975(ooc), 1976(ooc), 1977(ooc), 1978(ooc), 1979(ooc), 1980(ooc), 1981(ooc), 1982(ooc), 1983(ooc), 1984(ooc), 1985(ooc), 1986(ooc), 1988(ooc), 1989(ooc), 1990(ooc), 1991(ooc), 1992(ooc), 1993(ooc), 1994(ooc), 1995(ooc), 1996(ooc), 1997(ooc), 1998(ooc), 1999(ooc), 2000(ooc), 2001(ooc), 2002(ooc), 2003(ooc), 2004(ooc), 2005(ooc), 2007(ooc), 2008(ooc), 2009(ooc), 2010(ooc), 2011(ooc), 2012(ooc), 2013(ooc), 2014(ooc), 2016(ooc), 2018(ooc), 2019(ooc), 2020(ooc), 2021(ooc), 2022(ooc), 2023(ooc), 2024(ooc), 2025(ooc), 2026(ooc), 2027(ooc), 2028(ooc), 2029(ooc), 2030(ooc), 2031(ooc), 2032(ooc), 2033(ooc), 2034(ooc), 2035(ooc), 2036(ooc), 2037(ooc), 2038(ooc), 2039(ooc), 2040(ooc), 2041(ooc), 2042(ooc), 2044(ooc), 2045(ooc), 2046(ooc), 2047(ooc), 2048(ooc), 2049(ooc), 2051(ooc), 2052(ooc), 2053(ooc), 2054(ooc), 2055(ooc), 2056(ooc), 2057(ooc), 2058(ooc), 2059(ooc), 2061(ooc), 2062(ooc), 2063(ooc), 2064(ooc), 2065(ooc), 2066(ooc), 2067(ooc), 2068(ooc), 2069(ooc), 2070(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [2071, 2205] | SCENE_ID: 18 -->
 
 Aggie gasped, pulling her hands back from the rough stone. "Someone threw a tree at Iggy?!" <!-- L2115 --> <!-- L2150 -->
 
 <!-- LEDGER: rendered=[2115, 2150] skipped=[2071(ooc), 2072(ooc), 2073(ooc), 2075(ooc), 2076(ooc), 2077(ooc), 2078(ooc), 2079(ooc), 2080(ooc), 2081(ooc), 2083(ooc), 2084(ooc), 2085(ooc), 2086(ooc), 2087(ooc), 2088(ooc), 2089(ooc), 2090(ooc), 2091(ooc), 2092(ooc), 2093(ooc), 2094(ooc), 2095(ooc), 2096(ooc), 2097(ooc), 2098(ooc), 2099(ooc), 2100(ooc), 2101(ooc), 2102(ooc), 2103(ooc), 2104(ooc), 2105(ooc), 2106(ooc), 2108(ooc), 2109(ooc), 2110(ooc), 2111(ooc), 2112(ooc), 2113(ooc), 2114(ooc), 2116(ooc), 2117(ooc), 2118(ooc), 2119(ooc), 2120(ooc), 2122(ooc), 2123(ooc), 2124(ooc), 2125(ooc), 2126(ooc), 2127(ooc), 2128(ooc), 2129(ooc), 2130(ooc), 2131(ooc), 2132(ooc), 2133(ooc), 2134(ooc), 2136(ooc), 2137(ooc), 2138(ooc), 2139(ooc), 2140(ooc), 2141(ooc), 2142(ooc), 2143(ooc), 2144(ooc), 2145(ooc), 2146(ooc), 2147(ooc), 2148(ooc), 2149(ooc), 2151(ooc), 2152(ooc), 2153(ooc), 2154(ooc), 2155(ooc), 2156(ooc), 2158(ooc), 2159(ooc), 2160(ooc), 2161(ooc), 2162(ooc), 2163(ooc), 2164(ooc), 2165(ooc), 2166(ooc), 2167(ooc), 2168(ooc), 2169(ooc), 2170(ooc), 2171(ooc), 2172(ooc), 2173(ooc), 2174(ooc), 2175(ooc), 2176(ooc), 2177(ooc), 2178(ooc), 2179(ooc), 2181(ooc), 2182(ooc), 2183(ooc), 2184(ooc), 2185(ooc), 2186(ooc), 2187(ooc), 2188(ooc), 2189(ooc), 2190(ooc), 2191(ooc), 2193(ooc), 2194(ooc), 2195(ooc), 2196(ooc), 2197(ooc), 2198(ooc), 2199(ooc), 2200(ooc), 2201(ooc), 2202(ooc), 2203(ooc), 2204(ooc), 2205(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [2206, 2340] | SCENE_ID: 19 -->
 
@@ -111,11 +131,15 @@ Realizing Iggy was hiding beneath the water to escape the cyclops, Aggie knelt o
 
 <!-- LEDGER: rendered=[2250] skipped=[2206(ooc), 2207(ooc), 2208(ooc), 2209(ooc), 2210(ooc), 2211(ooc), 2212(ooc), 2213(ooc), 2215(ooc), 2216(ooc), 2217(ooc), 2218(ooc), 2219(ooc), 2220(ooc), 2221(ooc), 2222(ooc), 2223(ooc), 2224(ooc), 2225(ooc), 2226(ooc), 2227(ooc), 2228(ooc), 2229(ooc), 2230(ooc), 2231(ooc), 2232(ooc), 2233(ooc), 2234(ooc), 2235(ooc), 2236(ooc), 2237(ooc), 2238(ooc), 2239(ooc), 2241(ooc), 2242(ooc), 2243(ooc), 2244(ooc), 2245(ooc), 2246(ooc), 2247(ooc), 2248(ooc), 2249(ooc), 2251(ooc), 2252(ooc), 2253(ooc), 2255(ooc), 2256(ooc), 2257(ooc), 2258(ooc), 2259(ooc), 2260(ooc), 2261(ooc), 2262(ooc), 2263(ooc), 2264(ooc), 2265(ooc), 2266(ooc), 2267(ooc), 2268(ooc), 2269(ooc), 2270(ooc), 2271(ooc), 2272(ooc), 2273(ooc), 2274(ooc), 2275(ooc), 2277(ooc), 2278(ooc), 2279(ooc), 2280(ooc), 2281(ooc), 2282(ooc), 2283(ooc), 2284(ooc), 2285(ooc), 2286(ooc), 2287(ooc), 2288(ooc), 2289(ooc), 2290(ooc), 2291(ooc), 2292(ooc), 2293(ooc), 2294(ooc), 2295(ooc), 2296(ooc), 2297(ooc), 2298(ooc), 2299(ooc), 2301(ooc), 2302(ooc), 2303(ooc), 2304(ooc), 2305(ooc), 2306(ooc), 2307(ooc), 2308(ooc), 2309(ooc), 2310(ooc), 2311(ooc), 2312(ooc), 2313(ooc), 2314(ooc), 2315(ooc), 2316(ooc), 2317(ooc), 2318(ooc), 2319(ooc), 2320(ooc), 2322(ooc), 2323(ooc), 2324(ooc), 2325(ooc), 2326(ooc), 2327(ooc), 2328(ooc), 2329(ooc), 2330(ooc), 2331(ooc), 2332(ooc), 2333(ooc), 2334(ooc), 2335(ooc), 2336(ooc), 2338(ooc), 2339(ooc), 2340(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [2341, 2475] | SCENE_ID: 20 -->
 
 Submerged thirty feet below, Iggy heard the rhythmic tapping and swam toward the shore. He surfaced on the muddy bank, drenched in silt and clutching a collection of river stones in both hands. Glaring back at the canopy, he shivered: "The trees... they're hostile. They threw themselves at me!" Aggie knelt beside him, wiping mud from his goggles: "The trees didn't throw themselves, Iggy! The cyclops threw them!" <!-- L2400 --> <!-- L2472 -->
 
 <!-- LEDGER: rendered=[2400, 2472] skipped=[2341(ooc), 2342(ooc), 2343(ooc), 2344(ooc), 2345(ooc), 2346(ooc), 2347(ooc), 2348(ooc), 2349(ooc), 2350(ooc), 2351(ooc), 2352(ooc), 2354(ooc), 2355(ooc), 2356(ooc), 2357(ooc), 2358(ooc), 2359(ooc), 2360(ooc), 2361(ooc), 2362(ooc), 2363(ooc), 2364(ooc), 2365(ooc), 2366(ooc), 2367(ooc), 2368(ooc), 2369(ooc), 2371(ooc), 2372(ooc), 2373(ooc), 2374(ooc), 2375(ooc), 2376(ooc), 2377(ooc), 2378(ooc), 2380(ooc), 2381(ooc), 2382(ooc), 2383(ooc), 2384(ooc), 2385(ooc), 2386(ooc), 2387(ooc), 2388(ooc), 2389(ooc), 2390(ooc), 2391(ooc), 2392(ooc), 2393(ooc), 2394(ooc), 2395(ooc), 2397(ooc), 2398(ooc), 2399(ooc), 2401(ooc), 2402(ooc), 2403(ooc), 2404(ooc), 2405(ooc), 2406(ooc), 2407(ooc), 2408(ooc), 2409(ooc), 2410(ooc), 2411(ooc), 2412(ooc), 2414(ooc), 2415(ooc), 2416(ooc), 2417(ooc), 2418(ooc), 2419(ooc), 2420(ooc), 2421(ooc), 2422(ooc), 2423(ooc), 2424(ooc), 2425(ooc), 2426(ooc), 2428(ooc), 2429(ooc), 2430(ooc), 2431(ooc), 2432(ooc), 2433(ooc), 2434(ooc), 2435(ooc), 2436(ooc), 2437(ooc), 2438(ooc), 2439(ooc), 2440(ooc), 2441(ooc), 2442(ooc), 2443(ooc), 2444(ooc), 2445(ooc), 2446(ooc), 2448(ooc), 2449(ooc), 2450(ooc), 2451(ooc), 2452(ooc), 2453(ooc), 2454(ooc), 2455(ooc), 2456(ooc), 2457(ooc), 2458(ooc), 2459(ooc), 2460(ooc), 2461(ooc), 2462(ooc), 2463(ooc), 2464(ooc), 2465(ooc), 2466(ooc), 2467(ooc), 2469(ooc), 2470(ooc), 2471(ooc), 2473(ooc), 2474(ooc), 2475(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [2476, 2600] | SCENE_ID: 21 -->
 
@@ -125,11 +149,15 @@ Midnight in Sector 3. The clearing looked like an open-air shipyard. Spread acro
 
 <!-- LEDGER: rendered=[] skipped=[2476(ooc), 2477(ooc), 2478(ooc), 2479(ooc), 2480(ooc), 2481(ooc), 2482(ooc), 2483(ooc), 2484(ooc), 2485(ooc), 2486(ooc), 2487(ooc), 2488(ooc), 2489(ooc), 2490(ooc), 2491(ooc), 2493(ooc), 2494(ooc), 2495(ooc), 2496(ooc), 2497(ooc), 2498(ooc), 2499(ooc), 2500(ooc), 2501(ooc), 2502(ooc), 2503(ooc), 2504(ooc), 2505(ooc), 2506(ooc), 2507(ooc), 2508(ooc), 2509(ooc), 2511(ooc), 2512(ooc), 2513(ooc), 2514(ooc), 2515(ooc), 2516(ooc), 2517(ooc), 2518(ooc), 2519(ooc), 2520(ooc), 2521(ooc), 2522(ooc), 2523(ooc), 2524(ooc), 2525(ooc), 2527(ooc), 2528(ooc), 2529(ooc), 2530(ooc), 2531(ooc), 2532(ooc), 2533(ooc), 2534(ooc), 2535(ooc), 2536(ooc), 2538(ooc), 2539(ooc), 2540(ooc), 2541(ooc), 2542(ooc), 2543(ooc), 2544(ooc), 2545(ooc), 2546(ooc), 2547(ooc), 2548(ooc), 2549(ooc), 2550(ooc), 2551(ooc), 2552(ooc), 2553(ooc), 2554(ooc), 2555(ooc), 2556(ooc), 2557(ooc), 2558(ooc), 2559(ooc), 2561(ooc), 2562(ooc), 2563(ooc), 2564(ooc), 2565(ooc), 2566(ooc), 2567(ooc), 2568(ooc), 2569(ooc), 2570(ooc), 2571(ooc), 2572(ooc), 2573(ooc), 2574(ooc), 2575(ooc), 2576(ooc), 2577(ooc), 2578(ooc), 2579(ooc), 2580(ooc), 2581(ooc), 2582(ooc), 2583(ooc), 2584(ooc), 2585(ooc), 2586(ooc), 2587(ooc), 2589(ooc), 2590(ooc), 2591(ooc), 2592(ooc), 2593(ooc), 2594(ooc), 2595(ooc), 2596(ooc), 2597(ooc), 2598(ooc), 2599(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [2601, 2735] | SCENE_ID: 22 -->
 
 Loami arrived hauling the last bundle of barrels from Sector 1, his clothes soaked with water and grease. He tossed Ignatius a waterskin as he dropped the load with a heavy thud. "First things first. Your name is great, brother, but we already have an Iggy and an Aggie. If we're shouting orders in combat, nobody knows who's dodging. So from now on, you're Natty. I'm calling you Natty."
 
 <!-- LEDGER: rendered=[] skipped=[2601(ooc), 2602(ooc), 2603(ooc), 2604(ooc), 2605(ooc), 2606(ooc), 2607(ooc), 2608(ooc), 2609(ooc), 2610(ooc), 2611(ooc), 2612(ooc), 2613(ooc), 2614(ooc), 2616(ooc), 2617(ooc), 2618(ooc), 2619(ooc), 2620(ooc), 2621(ooc), 2622(ooc), 2623(ooc), 2624(ooc), 2625(ooc), 2626(ooc), 2627(ooc), 2628(ooc), 2629(ooc), 2630(ooc), 2631(ooc), 2632(ooc), 2633(ooc), 2634(ooc), 2635(ooc), 2636(ooc), 2637(ooc), 2638(ooc), 2639(ooc), 2640(ooc), 2641(ooc), 2642(ooc), 2643(ooc), 2644(ooc), 2646(ooc), 2647(ooc), 2648(ooc), 2649(ooc), 2650(ooc), 2651(ooc), 2652(ooc), 2653(ooc), 2654(ooc), 2655(ooc), 2656(ooc), 2657(ooc), 2658(ooc), 2659(ooc), 2660(ooc), 2661(ooc), 2662(ooc), 2663(ooc), 2664(ooc), 2665(ooc), 2666(ooc), 2667(ooc), 2668(ooc), 2669(ooc), 2670(ooc), 2672(ooc), 2673(ooc), 2674(ooc), 2675(ooc), 2676(ooc), 2677(ooc), 2678(ooc), 2679(ooc), 2680(ooc), 2681(ooc), 2682(ooc), 2683(ooc), 2684(ooc), 2685(ooc), 2686(ooc), 2687(ooc), 2688(ooc), 2689(ooc), 2690(ooc), 2691(ooc), 2692(ooc), 2693(ooc), 2694(ooc), 2695(ooc), 2697(ooc), 2698(ooc), 2699(ooc), 2700(ooc), 2701(ooc), 2702(ooc), 2703(ooc), 2704(ooc), 2705(ooc), 2706(ooc), 2707(ooc), 2708(ooc), 2709(ooc), 2710(ooc), 2711(ooc), 2712(ooc), 2713(ooc), 2714(ooc), 2715(ooc), 2716(ooc), 2717(ooc), 2718(ooc), 2719(ooc), 2720(ooc), 2721(ooc), 2723(ooc), 2724(ooc), 2725(ooc), 2726(ooc), 2727(ooc), 2728(ooc), 2729(ooc), 2730(ooc), 2731(ooc), 2732(ooc), 2734(ooc), 2735(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [2736, 2870] | SCENE_ID: 23 -->
 
@@ -137,11 +165,15 @@ Ignatius stared at him, the flames in his hair flaring with mild outrage before 
 
 <!-- LEDGER: rendered=[] skipped=[2736(ooc), 2737(ooc), 2738(ooc), 2739(ooc), 2740(ooc), 2741(ooc), 2742(ooc), 2743(ooc), 2744(ooc), 2745(ooc), 2746(ooc), 2747(ooc), 2748(ooc), 2749(ooc), 2750(ooc), 2751(ooc), 2752(ooc), 2753(ooc), 2754(ooc), 2755(ooc), 2756(ooc), 2757(ooc), 2759(ooc), 2760(ooc), 2761(ooc), 2762(ooc), 2763(ooc), 2764(ooc), 2765(ooc), 2766(ooc), 2767(ooc), 2768(ooc), 2769(ooc), 2770(ooc), 2771(ooc), 2772(ooc), 2773(ooc), 2774(ooc), 2775(ooc), 2776(ooc), 2777(ooc), 2778(ooc), 2780(ooc), 2781(ooc), 2782(ooc), 2783(ooc), 2784(ooc), 2785(ooc), 2786(ooc), 2787(ooc), 2788(ooc), 2789(ooc), 2790(ooc), 2791(ooc), 2792(ooc), 2793(ooc), 2794(ooc), 2795(ooc), 2796(ooc), 2797(ooc), 2798(ooc), 2799(ooc), 2801(ooc), 2802(ooc), 2803(ooc), 2804(ooc), 2805(ooc), 2806(ooc), 2807(ooc), 2809(ooc), 2810(ooc), 2811(ooc), 2812(ooc), 2813(ooc), 2814(ooc), 2815(ooc), 2816(ooc), 2817(ooc), 2818(ooc), 2819(ooc), 2820(ooc), 2821(ooc), 2822(ooc), 2823(ooc), 2824(ooc), 2825(ooc), 2827(ooc), 2828(ooc), 2829(ooc), 2830(ooc), 2831(ooc), 2832(ooc), 2833(ooc), 2834(ooc), 2835(ooc), 2836(ooc), 2837(ooc), 2838(ooc), 2839(ooc), 2840(ooc), 2841(ooc), 2842(ooc), 2843(ooc), 2844(ooc), 2845(ooc), 2846(ooc), 2848(ooc), 2849(ooc), 2850(ooc), 2851(ooc), 2852(ooc), 2853(ooc), 2854(ooc), 2855(ooc), 2856(ooc), 2857(ooc), 2858(ooc), 2859(ooc), 2860(ooc), 2861(ooc), 2862(ooc), 2863(ooc), 2864(ooc), 2865(ooc), 2867(ooc), 2868(ooc), 2869(ooc), 2870(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [2871, 3005] | SCENE_ID: 24 -->
 
 They worked through the small hours of the night. The raft hull was constructed by lashing six iron barrels together with high-tension bungees and steel cables, overlaid with a tight wooden plank deck and fitted with four heavy iron shovels to serve as steering oars.
 
 <!-- LEDGER: rendered=[] skipped=[2871(ooc), 2872(ooc), 2873(ooc), 2874(ooc), 2875(ooc), 2876(ooc), 2877(ooc), 2878(ooc), 2879(ooc), 2880(ooc), 2881(ooc), 2882(ooc), 2883(ooc), 2884(ooc), 2885(ooc), 2887(ooc), 2888(ooc), 2889(ooc), 2890(ooc), 2891(ooc), 2892(ooc), 2893(ooc), 2894(ooc), 2895(ooc), 2896(ooc), 2897(ooc), 2898(ooc), 2899(ooc), 2900(ooc), 2901(ooc), 2902(ooc), 2903(ooc), 2904(ooc), 2905(ooc), 2907(ooc), 2908(ooc), 2909(ooc), 2910(ooc), 2911(ooc), 2912(ooc), 2913(ooc), 2914(ooc), 2915(ooc), 2916(ooc), 2917(ooc), 2918(ooc), 2919(ooc), 2920(ooc), 2921(ooc), 2922(ooc), 2923(ooc), 2924(ooc), 2925(ooc), 2926(ooc), 2927(ooc), 2928(ooc), 2929(ooc), 2930(ooc), 2931(ooc), 2933(ooc), 2934(ooc), 2935(ooc), 2936(ooc), 2937(ooc), 2938(ooc), 2939(ooc), 2940(ooc), 2941(ooc), 2942(ooc), 2943(ooc), 2944(ooc), 2945(ooc), 2946(ooc), 2947(ooc), 2948(ooc), 2949(ooc), 2950(ooc), 2951(ooc), 2952(ooc), 2953(ooc), 2954(ooc), 2955(ooc), 2956(ooc), 2957(ooc), 2959(ooc), 2960(ooc), 2961(ooc), 2962(ooc), 2963(ooc), 2964(ooc), 2965(ooc), 2966(ooc), 2967(ooc), 2968(ooc), 2969(ooc), 2970(ooc), 2971(ooc), 2972(ooc), 2973(ooc), 2974(ooc), 2975(ooc), 2976(ooc), 2977(ooc), 2978(ooc), 2979(ooc), 2980(ooc), 2981(ooc), 2983(ooc), 2984(ooc), 2985(ooc), 2986(ooc), 2987(ooc), 2988(ooc), 2989(ooc), 2990(ooc), 2991(ooc), 2992(ooc), 2993(ooc), 2994(ooc), 2995(ooc), 2996(ooc), 2997(ooc), 2998(ooc), 2999(ooc), 3000(ooc), 3001(ooc), 3002(ooc), 3003(ooc), 3005(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [3006, 3140] | SCENE_ID: 25 -->
 
@@ -149,17 +181,23 @@ Above the hull, they stitched an overhead hot-air canopy from the tar-sealed fue
 
 <!-- LEDGER: rendered=[] skipped=[3006(ooc), 3007(ooc), 3008(ooc), 3009(ooc), 3010(ooc), 3011(ooc), 3012(ooc), 3013(ooc), 3014(ooc), 3015(ooc), 3016(ooc), 3017(ooc), 3018(ooc), 3019(ooc), 3020(ooc), 3021(ooc), 3022(ooc), 3023(ooc), 3024(ooc), 3026(ooc), 3027(ooc), 3028(ooc), 3029(ooc), 3030(ooc), 3031(ooc), 3032(ooc), 3033(ooc), 3034(ooc), 3035(ooc), 3036(ooc), 3037(ooc), 3038(ooc), 3040(ooc), 3041(ooc), 3042(ooc), 3043(ooc), 3044(ooc), 3045(ooc), 3046(ooc), 3047(ooc), 3048(ooc), 3049(ooc), 3050(ooc), 3051(ooc), 3052(ooc), 3053(ooc), 3054(ooc), 3056(ooc), 3057(ooc), 3058(ooc), 3059(ooc), 3060(ooc), 3061(ooc), 3062(ooc), 3063(ooc), 3064(ooc), 3065(ooc), 3066(ooc), 3067(ooc), 3068(ooc), 3069(ooc), 3070(ooc), 3071(ooc), 3072(ooc), 3074(ooc), 3075(ooc), 3076(ooc), 3077(ooc), 3078(ooc), 3079(ooc), 3080(ooc), 3081(ooc), 3082(ooc), 3083(ooc), 3084(ooc), 3085(ooc), 3086(ooc), 3087(ooc), 3088(ooc), 3089(ooc), 3090(ooc), 3091(ooc), 3092(ooc), 3093(ooc), 3094(ooc), 3095(ooc), 3096(ooc), 3097(ooc), 3098(ooc), 3100(ooc), 3101(ooc), 3102(ooc), 3103(ooc), 3104(ooc), 3105(ooc), 3106(ooc), 3107(ooc), 3108(ooc), 3109(ooc), 3110(ooc), 3111(ooc), 3112(ooc), 3113(ooc), 3114(ooc), 3115(ooc), 3116(ooc), 3117(ooc), 3118(ooc), 3119(ooc), 3120(ooc), 3122(ooc), 3123(ooc), 3124(ooc), 3125(ooc), 3126(ooc), 3127(ooc), 3128(ooc), 3129(ooc), 3130(ooc), 3131(ooc), 3132(ooc), 3133(ooc), 3134(ooc), 3135(ooc), 3136(ooc), 3137(ooc), 3138(ooc), 3139(ooc), 3140(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [3141, 3275] | SCENE_ID: 26 -->
 
 For defense, Britt and Aggie mounted two heavy coolant-hose slingshots to the gunwales, loading them with petrified seed pods wrapped in glowing bioluminescent moss as illuminated tracer rounds, alongside bamboo blow-dart reed tubes.
 
 <!-- LEDGER: rendered=[] skipped=[3141(ooc), 3142(ooc), 3143(ooc), 3145(ooc), 3146(ooc), 3147(ooc), 3148(ooc), 3149(ooc), 3150(ooc), 3151(ooc), 3152(ooc), 3153(ooc), 3154(ooc), 3155(ooc), 3156(ooc), 3157(ooc), 3158(ooc), 3160(ooc), 3161(ooc), 3162(ooc), 3163(ooc), 3165(ooc), 3166(ooc), 3167(ooc), 3168(ooc), 3169(ooc), 3170(ooc), 3171(ooc), 3172(ooc), 3174(ooc), 3175(ooc), 3176(ooc), 3177(ooc), 3178(ooc), 3179(ooc), 3180(ooc), 3181(ooc), 3182(ooc), 3183(ooc), 3184(ooc), 3185(ooc), 3187(ooc), 3188(ooc), 3189(ooc), 3190(ooc), 3191(ooc), 3192(ooc), 3193(ooc), 3194(ooc), 3196(ooc), 3197(ooc), 3198(ooc), 3199(ooc), 3200(ooc), 3201(ooc), 3202(ooc), 3203(ooc), 3205(ooc), 3206(ooc), 3207(ooc), 3208(ooc), 3209(ooc), 3210(ooc), 3211(ooc), 3212(ooc), 3213(ooc), 3214(ooc), 3215(ooc), 3216(ooc), 3217(ooc), 3219(ooc), 3220(ooc), 3221(ooc), 3222(ooc), 3223(ooc), 3224(ooc), 3225(ooc), 3226(ooc), 3227(ooc), 3228(ooc), 3229(ooc), 3230(ooc), 3231(ooc), 3232(ooc), 3233(ooc), 3235(ooc), 3236(ooc), 3237(ooc), 3238(ooc), 3239(ooc), 3240(ooc), 3241(ooc), 3242(ooc), 3243(ooc), 3244(ooc), 3245(ooc), 3246(ooc), 3247(ooc), 3248(ooc), 3249(ooc), 3251(ooc), 3252(ooc), 3253(ooc), 3254(ooc), 3255(ooc), 3256(ooc), 3257(ooc), 3258(ooc), 3259(ooc), 3260(ooc), 3261(ooc), 3263(ooc), 3264(ooc), 3265(ooc), 3266(ooc), 3267(ooc), 3268(ooc), 3269(ooc), 3270(ooc), 3271(ooc), 3272(ooc), 3273(ooc), 3274(ooc), 3275(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [3276, 3410] | SCENE_ID: 27 -->
 
 By two in the morning, Loami stepped back and wiped grease from his forehead. "She's airtight, buoyant, and camouflaged," he declared with pride. "She's beautiful," Natty agreed, marveling at the improvised airship.
 
 <!-- LEDGER: rendered=[] skipped=[3276(ooc), 3277(ooc), 3278(ooc), 3279(ooc), 3280(ooc), 3281(ooc), 3283(ooc), 3284(ooc), 3285(ooc), 3286(ooc), 3287(ooc), 3288(ooc), 3289(ooc), 3290(ooc), 3291(ooc), 3292(ooc), 3293(ooc), 3294(ooc), 3295(ooc), 3296(ooc), 3297(ooc), 3298(ooc), 3299(ooc), 3300(ooc), 3301(ooc), 3303(ooc), 3304(ooc), 3305(ooc), 3306(ooc), 3307(ooc), 3308(ooc), 3309(ooc), 3310(ooc), 3311(ooc), 3312(ooc), 3313(ooc), 3314(ooc), 3315(ooc), 3316(ooc), 3317(ooc), 3318(ooc), 3319(ooc), 3320(ooc), 3322(ooc), 3323(ooc), 3324(ooc), 3325(ooc), 3326(ooc), 3327(ooc), 3328(ooc), 3329(ooc), 3330(ooc), 3331(ooc), 3332(ooc), 3333(ooc), 3334(ooc), 3335(ooc), 3336(ooc), 3337(ooc), 3338(ooc), 3340(ooc), 3341(ooc), 3342(ooc), 3343(ooc), 3344(ooc), 3345(ooc), 3346(ooc), 3347(ooc), 3348(ooc), 3349(ooc), 3350(ooc), 3351(ooc), 3352(ooc), 3353(ooc), 3354(ooc), 3356(ooc), 3357(ooc), 3358(ooc), 3359(ooc), 3360(ooc), 3361(ooc), 3362(ooc), 3363(ooc), 3364(ooc), 3365(ooc), 3366(ooc), 3367(ooc), 3368(ooc), 3369(ooc), 3370(ooc), 3371(ooc), 3372(ooc), 3373(ooc), 3374(ooc), 3375(ooc), 3376(ooc), 3377(ooc), 3378(ooc), 3379(ooc), 3381(ooc), 3382(ooc), 3383(ooc), 3384(ooc), 3385(ooc), 3386(ooc), 3387(ooc), 3388(ooc), 3389(ooc), 3390(ooc), 3391(ooc), 3392(ooc), 3393(ooc), 3394(ooc), 3395(ooc), 3396(ooc), 3397(ooc), 3398(ooc), 3399(ooc), 3400(ooc), 3402(ooc), 3403(ooc), 3404(ooc), 3405(ooc), 3406(ooc), 3407(ooc), 3408(ooc), 3409(ooc), 3410(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [3411, 3500] | SCENE_ID: 28 -->
 
@@ -169,11 +207,15 @@ At four in the morning, a dense silver river fog crept across the Sector 3 wetla
 
 <!-- LEDGER: rendered=[] skipped=[3411(ooc), 3412(ooc), 3414(ooc), 3415(ooc), 3416(ooc), 3417(ooc), 3418(ooc), 3419(ooc), 3420(ooc), 3421(ooc), 3422(ooc), 3423(ooc), 3424(ooc), 3425(ooc), 3426(ooc), 3427(ooc), 3428(ooc), 3430(ooc), 3431(ooc), 3432(ooc), 3433(ooc), 3434(ooc), 3435(ooc), 3436(ooc), 3437(ooc), 3438(ooc), 3439(ooc), 3440(ooc), 3441(ooc), 3442(ooc), 3443(ooc), 3445(ooc), 3446(ooc), 3447(ooc), 3448(ooc), 3449(ooc), 3450(ooc), 3451(ooc), 3452(ooc), 3453(ooc), 3454(ooc), 3455(ooc), 3456(ooc), 3458(ooc), 3459(ooc), 3460(ooc), 3461(ooc), 3462(ooc), 3463(ooc), 3464(ooc), 3465(ooc), 3466(ooc), 3467(ooc), 3468(ooc), 3469(ooc), 3470(ooc), 3471(ooc), 3472(ooc), 3474(ooc), 3475(ooc), 3476(ooc), 3477(ooc), 3478(ooc), 3479(ooc), 3480(ooc), 3481(ooc), 3482(ooc), 3483(ooc), 3484(ooc), 3485(ooc), 3487(ooc), 3488(ooc), 3489(ooc), 3490(ooc), 3491(ooc), 3492(ooc), 3493(ooc), 3494(ooc), 3495(ooc), 3496(ooc), 3497(ooc), 3498(ooc), 3499(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [3501, 3635] | SCENE_ID: 29 -->
 
 Stepping out of the mist was Rill, her blue hair beaded with damp fog and her dark canvas captain's coat heavy with moisture. She paused at the water's edge, gazing up at the Canopy Raft with genuine admiration. "You built something extraordinary out of arena scrap, candidates." <!-- L3626 -->
 
 <!-- LEDGER: rendered=[3626] skipped=[3501(ooc), 3503(ooc), 3504(ooc), 3505(ooc), 3506(ooc), 3507(ooc), 3508(ooc), 3509(ooc), 3510(ooc), 3511(ooc), 3512(ooc), 3514(ooc), 3515(ooc), 3516(ooc), 3517(ooc), 3518(ooc), 3519(ooc), 3520(ooc), 3521(ooc), 3522(ooc), 3523(ooc), 3524(ooc), 3525(ooc), 3526(ooc), 3527(ooc), 3528(ooc), 3529(ooc), 3530(ooc), 3531(ooc), 3533(ooc), 3534(ooc), 3535(ooc), 3536(ooc), 3537(ooc), 3538(ooc), 3539(ooc), 3540(ooc), 3541(ooc), 3542(ooc), 3543(ooc), 3544(ooc), 3545(ooc), 3546(ooc), 3547(ooc), 3548(ooc), 3549(ooc), 3550(ooc), 3552(ooc), 3553(ooc), 3554(ooc), 3555(ooc), 3556(ooc), 3557(ooc), 3558(ooc), 3559(ooc), 3560(ooc), 3561(ooc), 3562(ooc), 3563(ooc), 3564(ooc), 3565(ooc), 3566(ooc), 3567(ooc), 3568(ooc), 3569(ooc), 3570(ooc), 3571(ooc), 3573(ooc), 3574(ooc), 3575(ooc), 3576(ooc), 3577(ooc), 3578(ooc), 3579(ooc), 3580(ooc), 3581(ooc), 3582(ooc), 3583(ooc), 3585(ooc), 3586(ooc), 3587(ooc), 3588(ooc), 3589(ooc), 3590(ooc), 3591(ooc), 3592(ooc), 3593(ooc), 3594(ooc), 3595(ooc), 3596(ooc), 3597(ooc), 3598(ooc), 3600(ooc), 3601(ooc), 3602(ooc), 3603(ooc), 3604(ooc), 3605(ooc), 3606(ooc), 3607(ooc), 3608(ooc), 3609(ooc), 3610(ooc), 3611(ooc), 3612(ooc), 3613(ooc), 3614(ooc), 3615(ooc), 3616(ooc), 3617(ooc), 3618(ooc), 3619(ooc), 3620(ooc), 3622(ooc), 3623(ooc), 3624(ooc), 3625(ooc), 3627(ooc), 3628(ooc), 3629(ooc), 3630(ooc), 3631(ooc), 3632(ooc), 3633(ooc), 3634(ooc), 3635(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [3636, 3770] | SCENE_ID: 30 -->
 
@@ -181,11 +223,15 @@ Aggie stepped forward, her eyes wide. "Rill! What are you doing inside the arena
 
 <!-- LEDGER: rendered=[3651, 3652] skipped=[3636(ooc), 3638(ooc), 3639(ooc), 3640(ooc), 3641(ooc), 3642(ooc), 3643(ooc), 3644(ooc), 3645(ooc), 3646(ooc), 3647(ooc), 3648(ooc), 3649(ooc), 3650(ooc), 3653(ooc), 3654(ooc), 3655(ooc), 3657(ooc), 3658(ooc), 3659(ooc), 3660(ooc), 3661(ooc), 3662(ooc), 3663(ooc), 3664(ooc), 3665(ooc), 3666(ooc), 3667(ooc), 3668(ooc), 3669(ooc), 3670(ooc), 3671(ooc), 3672(ooc), 3673(ooc), 3674(ooc), 3675(ooc), 3676(ooc), 3677(ooc), 3678(ooc), 3679(ooc), 3680(ooc), 3682(ooc), 3683(ooc), 3684(ooc), 3685(ooc), 3686(ooc), 3687(ooc), 3688(ooc), 3689(ooc), 3690(ooc), 3691(ooc), 3692(ooc), 3693(ooc), 3694(ooc), 3695(ooc), 3696(ooc), 3697(ooc), 3698(ooc), 3699(ooc), 3700(ooc), 3701(ooc), 3702(ooc), 3703(ooc), 3704(ooc), 3706(ooc), 3707(ooc), 3708(ooc), 3709(ooc), 3710(ooc), 3711(ooc), 3712(ooc), 3713(ooc), 3714(ooc), 3715(ooc), 3716(ooc), 3717(ooc), 3718(ooc), 3719(ooc), 3720(ooc), 3721(ooc), 3722(ooc), 3723(ooc), 3724(ooc), 3725(ooc), 3727(ooc), 3728(ooc), 3729(ooc), 3730(ooc), 3731(ooc), 3732(ooc), 3733(ooc), 3734(ooc), 3735(ooc), 3736(ooc), 3737(ooc), 3738(ooc), 3739(ooc), 3740(ooc), 3741(ooc), 3742(ooc), 3743(ooc), 3744(ooc), 3745(ooc), 3746(ooc), 3747(ooc), 3748(ooc), 3749(ooc), 3750(ooc), 3752(ooc), 3753(ooc), 3754(ooc), 3755(ooc), 3756(ooc), 3757(ooc), 3758(ooc), 3759(ooc), 3760(ooc), 3761(ooc), 3762(ooc), 3763(ooc), 3764(ooc), 3765(ooc), 3766(ooc), 3767(ooc), 3768(ooc), 3770(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [3771, 3905] | SCENE_ID: 31 -->
 
 "Warning you," Rill said quietly, her expression darkening. "The eight o'clock challenge isn't a normal trial. The Dean and the Logistics Officers are dropping the Walker-Core suppression barriers completely. Whatever predatory fauna is locked inside these sectors is going to be unleashed into the basin."
 
 <!-- LEDGER: rendered=[] skipped=[3771(ooc), 3772(ooc), 3773(ooc), 3774(ooc), 3775(ooc), 3776(ooc), 3777(ooc), 3778(ooc), 3779(ooc), 3780(ooc), 3781(ooc), 3782(ooc), 3783(ooc), 3784(ooc), 3785(ooc), 3786(ooc), 3787(ooc), 3788(ooc), 3789(ooc), 3790(ooc), 3791(ooc), 3793(ooc), 3794(ooc), 3795(ooc), 3796(ooc), 3797(ooc), 3798(ooc), 3799(ooc), 3800(ooc), 3801(ooc), 3802(ooc), 3803(ooc), 3804(ooc), 3805(ooc), 3806(ooc), 3807(ooc), 3808(ooc), 3809(ooc), 3810(ooc), 3811(ooc), 3812(ooc), 3813(ooc), 3814(ooc), 3815(ooc), 3816(ooc), 3817(ooc), 3818(ooc), 3819(ooc), 3820(ooc), 3821(ooc), 3822(ooc), 3824(ooc), 3825(ooc), 3826(ooc), 3827(ooc), 3828(ooc), 3829(ooc), 3830(ooc), 3831(ooc), 3832(ooc), 3833(ooc), 3834(ooc), 3835(ooc), 3836(ooc), 3837(ooc), 3838(ooc), 3839(ooc), 3840(ooc), 3841(ooc), 3842(ooc), 3843(ooc), 3844(ooc), 3845(ooc), 3846(ooc), 3847(ooc), 3848(ooc), 3849(ooc), 3851(ooc), 3852(ooc), 3853(ooc), 3854(ooc), 3855(ooc), 3856(ooc), 3857(ooc), 3858(ooc), 3859(ooc), 3860(ooc), 3861(ooc), 3862(ooc), 3863(ooc), 3864(ooc), 3865(ooc), 3866(ooc), 3867(ooc), 3868(ooc), 3869(ooc), 3870(ooc), 3871(ooc), 3872(ooc), 3873(ooc), 3874(ooc), 3875(ooc), 3876(ooc), 3878(ooc), 3879(ooc), 3880(ooc), 3881(ooc), 3882(ooc), 3883(ooc), 3884(ooc), 3885(ooc), 3886(ooc), 3887(ooc), 3888(ooc), 3889(ooc), 3890(ooc), 3891(ooc), 3892(ooc), 3893(ooc), 3894(ooc), 3895(ooc), 3896(ooc), 3897(ooc), 3898(ooc), 3899(ooc), 3900(ooc), 3901(ooc), 3902(ooc), 3903(ooc), 3905(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [3906, 4040] | SCENE_ID: 32 -->
 
@@ -193,11 +239,15 @@ Reaching beneath her duster, Rill produced a heavy brass-bound flare gun and pre
 
 <!-- LEDGER: rendered=[] skipped=[3906(ooc), 3907(ooc), 3908(ooc), 3909(ooc), 3910(ooc), 3911(ooc), 3912(ooc), 3913(ooc), 3914(ooc), 3915(ooc), 3916(ooc), 3917(ooc), 3918(ooc), 3919(ooc), 3920(ooc), 3921(ooc), 3923(ooc), 3924(ooc), 3925(ooc), 3926(ooc), 3927(ooc), 3928(ooc), 3929(ooc), 3930(ooc), 3931(ooc), 3932(ooc), 3933(ooc), 3934(ooc), 3935(ooc), 3936(ooc), 3937(ooc), 3938(ooc), 3939(ooc), 3941(ooc), 3942(ooc), 3943(ooc), 3944(ooc), 3945(ooc), 3946(ooc), 3947(ooc), 3948(ooc), 3949(ooc), 3950(ooc), 3951(ooc), 3952(ooc), 3953(ooc), 3954(ooc), 3955(ooc), 3956(ooc), 3957(ooc), 3958(ooc), 3959(ooc), 3960(ooc), 3961(ooc), 3962(ooc), 3963(ooc), 3964(ooc), 3965(ooc), 3966(ooc), 3968(ooc), 3969(ooc), 3970(ooc), 3971(ooc), 3972(ooc), 3973(ooc), 3974(ooc), 3975(ooc), 3976(ooc), 3977(ooc), 3978(ooc), 3979(ooc), 3980(ooc), 3981(ooc), 3982(ooc), 3983(ooc), 3985(ooc), 3986(ooc), 3987(ooc), 3988(ooc), 3989(ooc), 3990(ooc), 3991(ooc), 3992(ooc), 3993(ooc), 3995(ooc), 3996(ooc), 3997(ooc), 3998(ooc), 3999(ooc), 4000(ooc), 4001(ooc), 4002(ooc), 4003(ooc), 4004(ooc), 4005(ooc), 4006(ooc), 4007(ooc), 4008(ooc), 4009(ooc), 4010(ooc), 4011(ooc), 4012(ooc), 4014(ooc), 4015(ooc), 4016(ooc), 4017(ooc), 4018(ooc), 4019(ooc), 4020(ooc), 4021(ooc), 4022(ooc), 4023(ooc), 4024(ooc), 4025(ooc), 4026(ooc), 4027(ooc), 4028(ooc), 4029(ooc), 4030(ooc), 4031(ooc), 4032(ooc), 4033(ooc), 4034(ooc), 4035(ooc), 4036(ooc), 4037(ooc), 4039(ooc), 4040(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [4041, 4175] | SCENE_ID: 33 -->
 
 Rill stepped back into the swirling mist and vanished. Moments later, the five o'clock evacuation bell tolled across the distant amphitheater, sending panicked cadet squads sprinting for the exits. Squad 907 held their ground.
 
 <!-- LEDGER: rendered=[] skipped=[4041(ooc), 4042(ooc), 4043(ooc), 4044(ooc), 4045(ooc), 4046(ooc), 4047(ooc), 4048(ooc), 4049(ooc), 4050(ooc), 4051(ooc), 4052(ooc), 4053(ooc), 4055(ooc), 4056(ooc), 4057(ooc), 4058(ooc), 4059(ooc), 4060(ooc), 4061(ooc), 4062(ooc), 4063(ooc), 4064(ooc), 4065(ooc), 4066(ooc), 4067(ooc), 4068(ooc), 4069(ooc), 4070(ooc), 4071(ooc), 4072(ooc), 4074(ooc), 4075(ooc), 4076(ooc), 4077(ooc), 4078(ooc), 4079(ooc), 4080(ooc), 4081(ooc), 4082(ooc), 4083(ooc), 4084(ooc), 4086(ooc), 4087(ooc), 4088(ooc), 4089(ooc), 4090(ooc), 4092(ooc), 4093(ooc), 4094(ooc), 4095(ooc), 4096(ooc), 4098(ooc), 4100(ooc), 4101(ooc), 4102(ooc), 4103(ooc), 4104(ooc), 4106(ooc), 4107(ooc), 4108(ooc), 4109(ooc), 4110(ooc), 4111(ooc), 4112(ooc), 4113(ooc), 4114(ooc), 4116(ooc), 4118(ooc), 4119(ooc), 4120(ooc), 4121(ooc), 4122(ooc), 4123(ooc), 4124(ooc), 4125(ooc), 4126(ooc), 4127(ooc), 4128(ooc), 4129(ooc), 4130(ooc), 4131(ooc), 4132(ooc), 4133(ooc), 4134(ooc), 4135(ooc), 4137(ooc), 4138(ooc), 4139(ooc), 4140(ooc), 4141(ooc), 4142(ooc), 4143(ooc), 4144(ooc), 4145(ooc), 4146(ooc), 4147(ooc), 4148(ooc), 4149(ooc), 4150(ooc), 4151(ooc), 4152(ooc), 4153(ooc), 4154(ooc), 4155(ooc), 4157(ooc), 4158(ooc), 4159(ooc), 4160(ooc), 4161(ooc), 4162(ooc), 4163(ooc), 4164(ooc), 4165(ooc), 4166(ooc), 4167(ooc), 4168(ooc), 4169(ooc), 4170(ooc), 4171(ooc), 4172(ooc), 4173(ooc), 4174(ooc), 4175(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [4176, 4300] | SCENE_ID: 34 -->
 
@@ -207,11 +257,15 @@ Eight o'clock in the morning arrived with a deafening siren that shook the basal
 
 <!-- LEDGER: rendered=[] skipped=[4177(ooc), 4178(ooc), 4179(ooc), 4180(ooc), 4181(ooc), 4182(ooc), 4183(ooc), 4184(ooc), 4185(ooc), 4186(ooc), 4187(ooc), 4188(ooc), 4189(ooc), 4190(ooc), 4191(ooc), 4192(ooc), 4193(ooc), 4194(ooc), 4195(ooc), 4196(ooc), 4197(ooc), 4198(ooc), 4199(ooc), 4200(ooc), 4201(ooc), 4202(ooc), 4203(ooc), 4204(ooc), 4205(ooc), 4206(ooc), 4207(ooc), 4208(ooc), 4210(ooc), 4211(ooc), 4212(ooc), 4213(ooc), 4214(ooc), 4215(ooc), 4216(ooc), 4217(ooc), 4218(ooc), 4219(ooc), 4220(ooc), 4221(ooc), 4222(ooc), 4223(ooc), 4224(ooc), 4225(ooc), 4226(ooc), 4227(ooc), 4228(ooc), 4229(ooc), 4230(ooc), 4231(ooc), 4232(ooc), 4234(ooc), 4235(ooc), 4236(ooc), 4237(ooc), 4238(ooc), 4239(ooc), 4240(ooc), 4241(ooc), 4242(ooc), 4243(ooc), 4244(ooc), 4245(ooc), 4246(ooc), 4247(ooc), 4248(ooc), 4249(ooc), 4250(ooc), 4251(ooc), 4253(ooc), 4254(ooc), 4255(ooc), 4256(ooc), 4257(ooc), 4258(ooc), 4259(ooc), 4260(ooc), 4261(ooc), 4263(ooc), 4264(ooc), 4265(ooc), 4266(ooc), 4267(ooc), 4268(ooc), 4270(ooc), 4271(ooc), 4272(ooc), 4273(ooc), 4274(ooc), 4275(ooc), 4276(ooc), 4277(ooc), 4278(ooc), 4279(ooc), 4280(ooc), 4281(ooc), 4282(ooc), 4283(ooc), 4284(ooc), 4285(ooc), 4287(ooc), 4288(ooc), 4289(ooc), 4290(ooc), 4291(ooc), 4292(ooc), 4293(ooc), 4294(ooc), 4295(ooc), 4296(ooc), 4297(ooc), 4298(ooc), 4299(ooc), 4300(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [4301, 4435] | SCENE_ID: 35 -->
 
 "Push!" Loami shouted. Squad 907 heaved together, and the Canopy Raft slid smoothly off the muddy shoreline into the flooded basin, floating high and steady. They were one hundred yards into open water when the surface erupted into churning foam. <!-- L4401 --> <!-- L4411 -->
 
 <!-- LEDGER: rendered=[4401, 4411] skipped=[4301(ooc), 4302(ooc), 4303(ooc), 4304(ooc), 4305(ooc), 4306(ooc), 4307(ooc), 4308(ooc), 4310(ooc), 4311(ooc), 4312(ooc), 4313(ooc), 4314(ooc), 4315(ooc), 4316(ooc), 4317(ooc), 4318(ooc), 4319(ooc), 4320(ooc), 4321(ooc), 4322(ooc), 4323(ooc), 4324(ooc), 4325(ooc), 4326(ooc), 4328(ooc), 4329(ooc), 4330(ooc), 4331(ooc), 4332(ooc), 4333(ooc), 4334(ooc), 4335(ooc), 4336(ooc), 4337(ooc), 4338(ooc), 4339(ooc), 4340(ooc), 4341(ooc), 4342(ooc), 4343(ooc), 4344(ooc), 4345(ooc), 4346(ooc), 4347(ooc), 4348(ooc), 4350(ooc), 4351(ooc), 4352(ooc), 4353(ooc), 4354(ooc), 4355(ooc), 4356(ooc), 4357(ooc), 4358(ooc), 4360(ooc), 4362(ooc), 4364(ooc), 4365(ooc), 4366(ooc), 4367(ooc), 4368(ooc), 4369(ooc), 4370(ooc), 4371(ooc), 4373(ooc), 4374(ooc), 4375(ooc), 4376(ooc), 4377(ooc), 4378(ooc), 4379(ooc), 4380(ooc), 4381(ooc), 4382(ooc), 4383(ooc), 4384(ooc), 4385(ooc), 4386(ooc), 4387(ooc), 4388(ooc), 4389(ooc), 4390(ooc), 4391(ooc), 4392(ooc), 4393(ooc), 4394(ooc), 4395(ooc), 4396(ooc), 4398(ooc), 4399(ooc), 4400(ooc), 4402(ooc), 4403(ooc), 4404(ooc), 4405(ooc), 4406(ooc), 4407(ooc), 4408(ooc), 4410(ooc), 4412(ooc), 4413(ooc), 4414(ooc), 4415(ooc), 4416(ooc), 4417(ooc), 4418(ooc), 4419(ooc), 4420(ooc), 4421(ooc), 4422(ooc), 4423(ooc), 4424(ooc), 4425(ooc), 4426(ooc), 4428(ooc), 4429(ooc), 4430(ooc), 4431(ooc), 4432(ooc), 4433(ooc), 4434(ooc), 4435(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [4436, 4570] | SCENE_ID: 36 -->
 
@@ -219,11 +273,15 @@ Armored, chitinous fins sliced through the water at terrifying speed. "Dagger Sh
 
 <!-- LEDGER: rendered=[4516, 4523] skipped=[4436(ooc), 4437(ooc), 4438(ooc), 4439(ooc), 4440(ooc), 4441(ooc), 4442(ooc), 4443(ooc), 4444(ooc), 4445(ooc), 4446(ooc), 4447(ooc), 4448(ooc), 4449(ooc), 4450(ooc), 4451(ooc), 4453(ooc), 4454(ooc), 4455(ooc), 4456(ooc), 4457(ooc), 4458(ooc), 4459(ooc), 4460(ooc), 4461(ooc), 4462(ooc), 4463(ooc), 4464(ooc), 4465(ooc), 4466(ooc), 4467(ooc), 4468(ooc), 4469(ooc), 4470(ooc), 4471(ooc), 4472(ooc), 4473(ooc), 4474(ooc), 4475(ooc), 4476(ooc), 4478(ooc), 4479(ooc), 4480(ooc), 4481(ooc), 4482(ooc), 4483(ooc), 4484(ooc), 4485(ooc), 4486(ooc), 4487(ooc), 4488(ooc), 4489(ooc), 4490(ooc), 4491(ooc), 4492(ooc), 4493(ooc), 4494(ooc), 4496(ooc), 4497(ooc), 4498(ooc), 4499(ooc), 4500(ooc), 4501(ooc), 4502(ooc), 4503(ooc), 4504(ooc), 4505(ooc), 4506(ooc), 4507(ooc), 4508(ooc), 4509(ooc), 4510(ooc), 4511(ooc), 4512(ooc), 4513(ooc), 4514(ooc), 4515(ooc), 4518(ooc), 4519(ooc), 4520(ooc), 4521(ooc), 4522(ooc), 4524(ooc), 4525(ooc), 4526(ooc), 4527(ooc), 4528(ooc), 4529(ooc), 4530(ooc), 4531(ooc), 4532(ooc), 4533(ooc), 4534(ooc), 4535(ooc), 4536(ooc), 4537(ooc), 4538(ooc), 4539(ooc), 4540(ooc), 4541(ooc), 4543(ooc), 4544(ooc), 4545(ooc), 4546(ooc), 4547(ooc), 4548(ooc), 4549(ooc), 4550(ooc), 4551(ooc), 4552(ooc), 4553(ooc), 4554(ooc), 4555(ooc), 4556(ooc), 4557(ooc), 4558(ooc), 4559(ooc), 4561(ooc), 4562(ooc), 4563(ooc), 4564(ooc), 4565(ooc), 4566(ooc), 4567(ooc), 4568(ooc), 4569(ooc), 4570(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [4571, 4705] | SCENE_ID: 37 -->
 
 "I'm firing the sulfur burner!" Natty yelled, activating *Sparking Engines*. Flames erupted from his palms into the crystal housing, sending superheated thermal gas billowing into the balloon canopy. <!-- L4611 -->
 
 <!-- LEDGER: rendered=[4611] skipped=[4571(ooc), 4572(ooc), 4573(ooc), 4574(ooc), 4575(ooc), 4576(ooc), 4577(ooc), 4578(ooc), 4579(ooc), 4580(ooc), 4581(ooc), 4582(ooc), 4584(ooc), 4585(ooc), 4586(ooc), 4587(ooc), 4588(ooc), 4589(ooc), 4590(ooc), 4591(ooc), 4592(ooc), 4593(ooc), 4594(ooc), 4595(ooc), 4596(ooc), 4597(ooc), 4599(ooc), 4600(ooc), 4601(ooc), 4602(ooc), 4603(ooc), 4604(ooc), 4605(ooc), 4606(ooc), 4607(ooc), 4608(ooc), 4609(ooc), 4610(ooc), 4613(ooc), 4614(ooc), 4615(ooc), 4616(ooc), 4617(ooc), 4618(ooc), 4619(ooc), 4620(ooc), 4621(ooc), 4622(ooc), 4623(ooc), 4624(ooc), 4625(ooc), 4626(ooc), 4627(ooc), 4628(ooc), 4629(ooc), 4630(ooc), 4631(ooc), 4632(ooc), 4633(ooc), 4634(ooc), 4635(ooc), 4637(ooc), 4638(ooc), 4639(ooc), 4640(ooc), 4641(ooc), 4642(ooc), 4643(ooc), 4644(ooc), 4645(ooc), 4646(ooc), 4647(ooc), 4648(ooc), 4649(ooc), 4651(ooc), 4652(ooc), 4653(ooc), 4654(ooc), 4655(ooc), 4656(ooc), 4657(ooc), 4658(ooc), 4659(ooc), 4660(ooc), 4661(ooc), 4662(ooc), 4663(ooc), 4664(ooc), 4665(ooc), 4666(ooc), 4667(ooc), 4668(ooc), 4669(ooc), 4670(ooc), 4671(ooc), 4673(ooc), 4674(ooc), 4676(ooc), 4677(ooc), 4678(ooc), 4679(ooc), 4680(ooc), 4681(ooc), 4682(ooc), 4683(ooc), 4684(ooc), 4685(ooc), 4686(ooc), 4687(ooc), 4688(ooc), 4689(ooc), 4690(ooc), 4691(ooc), 4692(ooc), 4693(ooc), 4694(ooc), 4695(ooc), 4696(ooc), 4697(ooc), 4698(ooc), 4699(ooc), 4700(ooc), 4702(ooc), 4703(ooc), 4704(ooc), 4705(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [4706, 4840] | SCENE_ID: 38 -->
 
@@ -231,11 +289,15 @@ A twelve-foot Dagger Shark breached the surface, its bladed jaws clamping direct
 
 <!-- LEDGER: rendered=[4709, 4750] skipped=[4706(ooc), 4707(ooc), 4708(ooc), 4711(ooc), 4712(ooc), 4713(ooc), 4714(ooc), 4715(ooc), 4716(ooc), 4717(ooc), 4718(ooc), 4719(ooc), 4720(ooc), 4721(ooc), 4722(ooc), 4723(ooc), 4724(ooc), 4725(ooc), 4726(ooc), 4727(ooc), 4728(ooc), 4730(ooc), 4731(ooc), 4732(ooc), 4733(ooc), 4734(ooc), 4735(ooc), 4736(ooc), 4737(ooc), 4738(ooc), 4739(ooc), 4740(ooc), 4741(ooc), 4742(ooc), 4743(ooc), 4744(ooc), 4745(ooc), 4746(ooc), 4747(ooc), 4748(ooc), 4749(ooc), 4751(ooc), 4753(ooc), 4754(ooc), 4755(ooc), 4756(ooc), 4757(ooc), 4758(ooc), 4759(ooc), 4760(ooc), 4761(ooc), 4762(ooc), 4763(ooc), 4764(ooc), 4765(ooc), 4766(ooc), 4767(ooc), 4768(ooc), 4769(ooc), 4770(ooc), 4771(ooc), 4772(ooc), 4773(ooc), 4774(ooc), 4776(ooc), 4777(ooc), 4778(ooc), 4779(ooc), 4780(ooc), 4781(ooc), 4782(ooc), 4783(ooc), 4784(ooc), 4785(ooc), 4786(ooc), 4787(ooc), 4788(ooc), 4789(ooc), 4791(ooc), 4792(ooc), 4793(ooc), 4794(ooc), 4795(ooc), 4796(ooc), 4797(ooc), 4798(ooc), 4799(ooc), 4800(ooc), 4801(ooc), 4802(ooc), 4803(ooc), 4804(ooc), 4805(ooc), 4806(ooc), 4807(ooc), 4808(ooc), 4809(ooc), 4810(ooc), 4811(ooc), 4812(ooc), 4814(ooc), 4815(ooc), 4816(ooc), 4817(ooc), 4818(ooc), 4819(ooc), 4820(ooc), 4821(ooc), 4822(ooc), 4823(ooc), 4824(ooc), 4825(ooc), 4826(ooc), 4827(ooc), 4828(ooc), 4829(ooc), 4830(ooc), 4831(ooc), 4832(ooc), 4833(ooc), 4834(ooc), 4835(ooc), 4836(ooc), 4837(ooc), 4839(ooc), 4840(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [4841, 4975] | SCENE_ID: 39 -->
 
 "Hold on, Natty!" Aggie cried, placing her palms against the burner framework and channeling *Wild Touch*. A surge of vital energy supercharged the sulfur crystal, and the hot-air envelope inflated in a roaring rush, ripping the raft ten feet into the air! <!-- L4850 -->
 
 <!-- LEDGER: rendered=[4850] skipped=[4841(ooc), 4842(ooc), 4843(ooc), 4844(ooc), 4845(ooc), 4846(ooc), 4847(ooc), 4848(ooc), 4849(ooc), 4851(ooc), 4852(ooc), 4853(ooc), 4855(ooc), 4856(ooc), 4857(ooc), 4858(ooc), 4859(ooc), 4860(ooc), 4861(ooc), 4862(ooc), 4863(ooc), 4864(ooc), 4865(ooc), 4866(ooc), 4867(ooc), 4868(ooc), 4869(ooc), 4870(ooc), 4871(ooc), 4872(ooc), 4874(ooc), 4875(ooc), 4876(ooc), 4877(ooc), 4878(ooc), 4879(ooc), 4880(ooc), 4881(ooc), 4882(ooc), 4883(ooc), 4884(ooc), 4885(ooc), 4886(ooc), 4887(ooc), 4888(ooc), 4889(ooc), 4890(ooc), 4891(ooc), 4892(ooc), 4893(ooc), 4894(ooc), 4895(ooc), 4896(ooc), 4897(ooc), 4898(ooc), 4899(ooc), 4901(ooc), 4902(ooc), 4903(ooc), 4904(ooc), 4905(ooc), 4906(ooc), 4907(ooc), 4908(ooc), 4909(ooc), 4910(ooc), 4911(ooc), 4912(ooc), 4913(ooc), 4914(ooc), 4915(ooc), 4917(ooc), 4918(ooc), 4919(ooc), 4920(ooc), 4921(ooc), 4922(ooc), 4923(ooc), 4924(ooc), 4925(ooc), 4926(ooc), 4927(ooc), 4928(ooc), 4929(ooc), 4930(ooc), 4931(ooc), 4932(ooc), 4934(ooc), 4935(ooc), 4936(ooc), 4937(ooc), 4938(ooc), 4939(ooc), 4940(ooc), 4941(ooc), 4942(ooc), 4943(ooc), 4944(ooc), 4945(ooc), 4946(ooc), 4947(ooc), 4948(ooc), 4949(ooc), 4950(ooc), 4951(ooc), 4952(ooc), 4953(ooc), 4954(ooc), 4955(ooc), 4957(ooc), 4958(ooc), 4959(ooc), 4960(ooc), 4961(ooc), 4962(ooc), 4963(ooc), 4964(ooc), 4965(ooc), 4966(ooc), 4967(ooc), 4968(ooc), 4969(ooc), 4970(ooc), 4971(ooc), 4972(ooc), 4973(ooc), 4974(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [4976, 5110] | SCENE_ID: 40 -->
 
@@ -243,10 +305,10 @@ A twelve-foot Dagger Shark breached the surface, its bladed jaws clamping direct
 
 <!-- LEDGER: rendered=[5003, 5076] skipped=[4976(ooc), 4977(ooc), 4978(ooc), 4979(ooc), 4980(ooc), 4981(ooc), 4982(ooc), 4983(ooc), 4984(ooc), 4986(ooc), 4987(ooc), 4988(ooc), 4989(ooc), 4990(ooc), 4991(ooc), 4992(ooc), 4993(ooc), 4994(ooc), 4995(ooc), 4996(ooc), 4997(ooc), 4998(ooc), 5000(ooc), 5001(ooc), 5002(ooc), 5004(ooc), 5005(ooc), 5006(ooc), 5007(ooc), 5008(ooc), 5009(ooc), 5011(ooc), 5012(ooc), 5013(ooc), 5014(ooc), 5015(ooc), 5016(ooc), 5017(ooc), 5018(ooc), 5019(ooc), 5020(ooc), 5021(ooc), 5022(ooc), 5024(ooc), 5025(ooc), 5026(ooc), 5027(ooc), 5028(ooc), 5029(ooc), 5030(ooc), 5031(ooc), 5032(ooc), 5033(ooc), 5034(ooc), 5035(ooc), 5036(ooc), 5037(ooc), 5038(ooc), 5039(ooc), 5040(ooc), 5041(ooc), 5043(ooc), 5044(ooc), 5045(ooc), 5046(ooc), 5047(ooc), 5048(ooc), 5049(ooc), 5050(ooc), 5051(ooc), 5052(ooc), 5053(ooc), 5054(ooc), 5055(ooc), 5056(ooc), 5057(ooc), 5058(ooc), 5059(ooc), 5060(ooc), 5061(ooc), 5062(ooc), 5063(ooc), 5064(ooc), 5066(ooc), 5067(ooc), 5068(ooc), 5069(ooc), 5070(ooc), 5071(ooc), 5072(ooc), 5073(ooc), 5074(ooc), 5075(ooc), 5077(ooc), 5078(ooc), 5079(ooc), 5080(ooc), 5081(ooc), 5082(ooc), 5083(ooc), 5084(ooc), 5085(ooc), 5086(ooc), 5087(ooc), 5088(ooc), 5089(ooc), 5091(ooc), 5092(ooc), 5093(ooc), 5094(ooc), 5095(ooc), 5096(ooc), 5097(ooc), 5098(ooc), 5099(ooc), 5100(ooc), 5101(ooc), 5102(ooc), 5103(ooc), 5104(ooc), 5105(ooc), 5106(ooc), 5107(ooc), 5108(ooc), 5109(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [5111, 5200] | SCENE_ID: 41 -->
 
 As the craft drifted into the petrified tree line, Loami swung the heavy iron grappling hook and hurled it into an eighty-foot stone bough overhead. The hook bit deep into the petrified timber, swinging the camouflaged raft securely into the high canopy, safely hidden above the chaos below. <!-- L5134 --> <!-- L5138 --> <!-- L5200 -->
 
 <!-- LEDGER: rendered=[5134, 5138, 5200] skipped=[5111(ooc), 5112(ooc), 5113(ooc), 5114(ooc), 5115(ooc), 5116(ooc), 5117(ooc), 5118(ooc), 5119(ooc), 5120(ooc), 5121(ooc), 5122(ooc), 5123(ooc), 5124(ooc), 5125(ooc), 5126(ooc), 5128(ooc), 5129(ooc), 5130(ooc), 5131(ooc), 5132(ooc), 5133(ooc), 5135(ooc), 5136(ooc), 5139(ooc), 5140(ooc), 5141(ooc), 5142(ooc), 5143(ooc), 5144(ooc), 5145(ooc), 5146(ooc), 5147(ooc), 5148(ooc), 5149(ooc), 5150(ooc), 5151(ooc), 5152(ooc), 5153(ooc), 5154(ooc), 5155(ooc), 5157(ooc), 5158(ooc), 5159(ooc), 5160(ooc), 5161(ooc), 5162(ooc), 5163(ooc), 5164(ooc), 5165(ooc), 5166(ooc), 5167(ooc), 5168(ooc), 5169(ooc), 5170(ooc), 5171(ooc), 5172(ooc), 5173(ooc), 5174(ooc), 5175(ooc), 5176(ooc), 5177(ooc), 5178(ooc), 5180(ooc), 5181(ooc), 5182(ooc), 5183(ooc), 5184(ooc), 5185(ooc), 5186(ooc), 5187(ooc), 5188(ooc), 5189(ooc), 5190(ooc), 5191(ooc), 5192(ooc), 5193(ooc), 5194(ooc), 5196(ooc), 5197(ooc), 5198(ooc), 5199(ooc)] -->
-
-<!-- RAW_RANGE: [5201, 5313] | SCENE_ID: 42 | OOC -->

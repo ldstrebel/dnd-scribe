@@ -10,7 +10,7 @@ Lucky chuckled dryly, tapping a heavy leather folder resting on a shipping crate
 
 Beside Ignatius, Iggy took two quiet, deliberate steps backward toward the exit. The little packed-clay humanoid was slowly backpedaling, his oversized wool trench coat swishing softly against his shins as he tried to fade into the deeper shadows to avoid giving up any of his personal secrets or enduring another interrogation. <!-- L0152 -->
 
-"Wait, wait, wait," Lucky held up both hands, laughing as he caught the soil-kin attempting to stage an Irish goodbye. "Don't run off, little man! I'm not here to shake you down. I saw that gold seal on your entrance slate. That kind of resonance signature doesn't happen by accident. I want to know how a creature of dirt and moss gets stamped with auric gold by the Loom." <!-- L0153 --> <!-- L0173 -->
+"Wait, wait, wait," Lucky held up both hands, laughing as he caught the soil-kin attempting to stage an quiet escape. "Don't run off, little man! I'm not here to shake you down. I saw that gold seal on your entrance slate. That kind of resonance signature doesn't happen by accident. I want to know how a creature of dirt and moss gets stamped with auric gold by the Loom." <!-- L0153 --> <!-- L0173 -->
 
 Lomi leaned against a cedar support beam, adjusting his brown woolen flat cap over his brow. A smudge of dark engine grease stained his jawline, but his eyes were steady and unimpressed. "Iggy doesn't owe you his life story, Lucky. But if you want something of genuine value, we can talk trade."
 

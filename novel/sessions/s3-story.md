@@ -7,8 +7,6 @@ genre: Epic Fantasy / Sci-Fantasy
 
 # BOOK 1: THE BASALT RUN — ACT I: THE CELESTIAL LOUNGE & THE AMBUSH
 
-<!-- RAW_RANGE: [1, 12] | SCENE_ID: 1 | OOC -->
-
 <!-- RAW_RANGE: [13, 80] | SCENE_ID: 2 -->
 
 ## CHAPTER 28: THE WALK TO THE CELESTIAL LOUNGE & CARTOGRAPHY
@@ -38,6 +36,8 @@ Ignatius didn't just look—he immediately unbuttoned his traveler's tunic, pull
 Ignatius looked up. Striding toward them was an aristocratic young man in an embroidered silver-and-black tunic, waving with exuberant familiarity. It was Valentine "Val" Sterling—the cadet Ignatius had encountered during the entrance examination. Behind him, seated near a sound-baffled broadcast studio lined with audio crystals, was Ember, Ignatius's sharp-tongued Ash-Blood cousin, observing the room with cool, calculating detachment. <!-- L0071 --> <!-- L0075 --> <!-- L0080 -->
 
 <!-- LEDGER: rendered=[13, 14, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 75, 80] skipped=[15(ooc), 16(ooc), 17(ooc), 18(ooc), 19(ooc), 20(ooc), 21(ooc), 22(ooc), 23(ooc), 24(ooc), 25(ooc), 26(ooc), 27(ooc), 28(ooc), 29(ooc), 30(ooc), 31(ooc), 32(ooc), 33(ooc), 34(ooc), 35(ooc), 36(ooc), 37(ooc), 38(ooc), 39(ooc), 40(ooc), 41(ooc), 42(ooc), 43(ooc), 44(ooc), 45(ooc), 46(ooc), 47(ooc), 48(ooc), 49(ooc), 50(ooc), 51(ooc), 52(ooc), 65(ooc), 72(ooc), 73(ooc), 74(ooc), 76(ooc), 77(ooc), 78(ooc), 79(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [81, 150] | SCENE_ID: 3 -->
 
@@ -70,6 +70,8 @@ Lomi straightened, looking across the table at Ignatius and Iggy. "Lucky has the
 At the edge of the room, Britt had watched the game with growing impatience. Near the exit, three men had stood up from a corner booth—two towering, muscular bruisers with intricate dreadlocks and silver piercings, led by a slender, sharply dressed man in an urban wool trench coat. They were communicating in silent, fluid sign language, their expressions grim and burdened with sorrow. As they pushed through the mahogany doors into the night, Britt made her decision. Turning on her heel, she slipped out into the corridor to follow them, desperate for directions back to Block 99. A dozen paces behind, Iggy trotted into the shadows to keep her in sight. <!-- L0112 --> <!-- L0118 --> <!-- L0120 --> <!-- L0121 --> <!-- L0126 --> <!-- L0127 -->
 
 <!-- LEDGER: rendered=[81, 83, 84, 96, 102, 104, 105, 106, 107, 108, 110, 111, 112, 118, 120, 121, 126, 127] skipped=[82(ooc), 85(ooc), 86(ooc), 87(ooc), 88(ooc), 89(ooc), 90(ooc), 91(ooc), 92(ooc), 93(ooc), 94(ooc), 95(ooc), 97(ooc), 98(ooc), 99(ooc), 100(ooc), 101(ooc), 103(ooc), 109(ooc), 113(ooc), 114(ooc), 115(ooc), 116(ooc), 117(ooc), 119(ooc), 122(ooc), 123(ooc), 124(ooc), 125(ooc), 128(ooc), 129(ooc), 130(ooc), 131(ooc), 132(ooc), 133(ooc), 134(ooc), 135(ooc), 136(ooc), 137(ooc), 138(ooc), 139(ooc), 140(ooc), 141(ooc), 142(ooc), 143(ooc), 144(ooc), 145(ooc), 146(ooc), 147(ooc), 148(ooc), 149(ooc), 150(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [151, 165] | SCENE_ID: 4 -->
 
@@ -111,6 +113,8 @@ Iggy blinked, took two steps backward, and quietly seated himself upon a flat gr
 
 <!-- LEDGER: rendered=[151, 153, 154, 155, 156, 157, 158] skipped=[152(ooc), 159(ooc), 160(ooc), 161(ooc), 162(ooc), 163(ooc), 164(ooc), 165(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [166, 195] | SCENE_ID: 5 -->
 
 ## CHAPTER 31: AZER'S INTERROGATION & THE PLAN FOR LUCKY
@@ -148,5 +152,3 @@ Beside them, Iggy slipped off the mounting block, patting the bulging pocket of 
 Ignatius held out a hand, sparks dancing across his knuckles. "Tomorrow after classes. We find Lucky, we master the fundamentals, and we take the Spire." <!-- L0193 -->
 
 <!-- LEDGER: rendered=[166, 167, 168, 170, 171, 173, 174, 175, 176, 177, 178, 179, 190, 191, 192, 193] skipped=[169(ooc), 172(ooc), 180(ooc), 181(ooc), 182(ooc), 183(ooc), 184(ooc), 185(ooc), 186(ooc), 187(ooc), 188(ooc), 189(ooc), 194(ooc), 195(ooc)] -->
-
-<!-- RAW_RANGE: [196, 279] | SCENE_ID: 6 | OOC -->

@@ -30,7 +30,7 @@ The platinum-haired girl bounded over to Lomi, eyes flashing with impatient ener
 
 The girl's face lit up. "Grease? You mean Chime? Oh, I love drinking things that can also strip paint! Let's find it!" <!-- L0638 --> <!-- L0642 -->
 
-Percival turned on his heel, gesturing toward the industrial quayside. "Say no more. I happen to know an enterprising gentleman who specializes in contraband procurement." <!-- L0649 -->
+Percival swung on his heel, tapping his cane against his palms as he sprinted ahead toward the quayside. "Say no more. I happen to know an enterprising gentleman who specializes in contraband procurement." <!-- L0649 -->
 
 Lomi followed Percival through the swirling currents of students toward the shadows near the canal. There, standing atop a wooden munitions crate, was Lucky. The fast-talking scamp was pulling small items from a frayed leather satchel, entertaining a knot of curious candidates. <!-- L0657 --> <!-- L0659 --> <!-- L0660 -->
 
@@ -44,7 +44,7 @@ Lucky grinned, tapping his nose. "I have grease that greases grades, and grease 
 
 "A sovereign for the case," Percival said, tossing a heavy gold coin onto the crate. <!-- L0665 -->
 
-Lucky deftly swept the coin into his sleeve, ducked behind his crate, and hauled up a wire milk-carrier holding six tall, thirty-two-ounce glass jars filled with a clear, shimmering liquid that smelled intensely of ethanol, pine sap, and ozone. He passed the crate to Percival, who handed it off to Lomi. <!-- L0667 -->
+Lucky grabbed the coin, swept it into his sleeve, ducked behind his crate, and dragged up a heavy wire carrier holding six tall, thirty-two-ounce glass jars filled with a clear, shimmering liquid that smelled intensely of ethanol, pine sap, and ozone. He passed the crate to Percival, who handed it off to Lomi. <!-- L0667 -->
 
 Across the alley, leaning against a damp stone buttress, Sarge caught Lomi's eye. The veteran mechanic shook his head with a slow, wry grin, tapping two empty bottles resting on the flagstones by his boots—a silent warning that the moonshine kicked like an unbroken mule. Lomi gave him a respectful nod and hoisted the carrier. <!-- L0669 --> <!-- L0673 --> <!-- L0679 --> <!-- L0684 -->
 

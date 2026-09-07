@@ -2,7 +2,7 @@
 
 ## CHAPTER 113: THE FORGETFULNESS & THE CLANS
 
-Professor Ink dropped down the ladder into the lower laboratory barge, her mind racing faster than her feet could move.
+Professor Ink dropped down the ladder into the lower laboratory barge, grabbed the iron handrail, and lunged toward the examination table. She slammed her field log onto the counter, leaped over a stool, and pushed her spectacles up.
 
 "Did Britt receive the stabilizer?" Ink asked immediately, scanning the room. "Is she cured?" <!-- L1413 -->
 
@@ -10,11 +10,11 @@ Professor Ink dropped down the ladder into the lower laboratory barge, her mind 
 
 "Delayed is good," Professor Ink breathed, steadying herself. She turned to the squad, her eyes shining with manic scientific excitement. "We have established an unprecedented cognitive phenomenon. Every person in this room can see the Spirit Tortoise—what no one outside our party can do is retain the memory of having seen it! Out in the savanna, the moment your gaze leaves the creature, the entity completely erases its existence from your mind!" <!-- L1418 -->
 
-Ignatius stepped into the center of the lab, holding up both hands. "Hold on, hold on. Are you saying we're the only ones in the entire empire who can actually remember the damn turtle?!" <!-- L1420 -->
+Ignatius bolted across the floor, grabbed the iron railing, and slammed his palms against the table. "Hold on, hold on. Are you saying we're the only ones in the entire empire who can actually remember the damn turtle?!" <!-- L1420 -->
 
 "Not the only ones who can see it," Ink clarified. "Anyone can see it when looking directly at it. The trick is that breaking visual contact erases the memory from the observer's mind." <!-- L1425 -->
 
-"It makes people forget," Britt whispered, her eyes wide as the ancient lore pieces aligned.
+"It makes people forget," Britt climbed onto the storage bench, grabbed her travel pouch, and pulled out a dried root.
 
 Ignatius looked around the room. "Raise your hand if you remember the turtle right now." <!-- L1428 -->
 

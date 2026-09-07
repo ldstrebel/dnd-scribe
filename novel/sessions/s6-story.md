@@ -7,8 +7,6 @@ genre: Epic Fantasy / Sci-Fantasy
 
 # THE HANGAR HEIST & THE SURVEYOR'S COMPASS
 
-<!-- RAW_RANGE: [1, 134] | SCENE_ID: 1 | OOC -->
-
 <!-- RAW_RANGE: [135, 265] | SCENE_ID: 2 -->
 
 ## Chapter 55: Two Cadets in a Trench Coat
@@ -26,6 +24,8 @@ The perimeter guards outside the hangar doors were not veteran battle-mages; the
 The guards blinked, squinting at the towering silhouette through the mist. By the time one of them reached for a lantern to inspect the visitor's credentials, the two cadets in a trench coat had already slipped through the service threshold and melted into the cavernous shadows of the hangar interior. <!-- L0185 --> <!-- L0200 --> <!-- L0215 --> <!-- L0230 --> <!-- L0245 --> <!-- L0260 --> <!-- L0265 -->
 
 <!-- LEDGER: rendered=[135, 137, 139, 140, 142, 144, 146, 148, 149, 152, 170, 185, 200, 215, 230, 245, 260, 265] skipped=[136(ooc), 141(ooc), 143(ooc), 145(ooc), 147(ooc), 151(ooc), 153(ooc), 154(ooc), 155(ooc), 156(ooc), 157(ooc), 158(ooc), 160(ooc), 161(ooc), 162(ooc), 163(ooc), 164(ooc), 165(ooc), 166(ooc), 167(ooc), 168(ooc), 169(ooc), 172(ooc), 173(ooc), 174(ooc), 175(ooc), 176(ooc), 177(ooc), 178(ooc), 180(ooc), 181(ooc), 182(ooc), 183(ooc), 184(ooc), 186(ooc), 187(ooc), 188(ooc), 189(ooc), 190(ooc), 191(ooc), 192(ooc), 193(ooc), 194(ooc), 195(ooc), 196(ooc), 197(ooc), 199(ooc), 201(ooc), 202(ooc), 203(ooc), 204(ooc), 205(ooc), 206(ooc), 207(ooc), 208(ooc), 210(ooc), 211(ooc), 212(ooc), 213(ooc), 214(ooc), 216(ooc), 217(ooc), 218(ooc), 219(ooc), 220(ooc), 221(ooc), 223(ooc), 224(ooc), 225(ooc), 226(ooc), 227(ooc), 228(ooc), 229(ooc), 231(ooc), 233(ooc), 234(ooc), 235(ooc), 236(ooc), 237(ooc), 238(ooc), 239(ooc), 240(ooc), 241(ooc), 242(ooc), 243(ooc), 244(ooc), 247(ooc), 248(ooc), 249(ooc), 250(ooc), 251(ooc), 252(ooc), 253(ooc), 254(ooc), 255(ooc), 256(ooc), 257(ooc), 258(ooc), 259(ooc), 261(ooc), 262(ooc), 264(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [266, 395] | SCENE_ID: 3 -->
 
@@ -45,6 +45,8 @@ Stepping into the circle of lantern light was Captain Raldi, an imposing second-
 
 <!-- LEDGER: rendered=[266, 270, 272, 275, 285, 300, 315, 330, 345, 360, 375, 390, 395] skipped=[267(ooc), 268(ooc), 269(ooc), 271(ooc), 273(ooc), 274(ooc), 276(ooc), 277(ooc), 278(ooc), 279(ooc), 280(ooc), 281(ooc), 282(ooc), 283(ooc), 284(ooc), 287(ooc), 288(ooc), 289(ooc), 290(ooc), 291(ooc), 292(ooc), 293(ooc), 294(ooc), 295(ooc), 296(ooc), 297(ooc), 298(ooc), 299(ooc), 301(ooc), 302(ooc), 304(ooc), 305(ooc), 306(ooc), 307(ooc), 308(ooc), 309(ooc), 310(ooc), 311(ooc), 312(ooc), 314(ooc), 316(ooc), 317(ooc), 318(ooc), 319(ooc), 320(ooc), 321(ooc), 322(ooc), 323(ooc), 324(ooc), 325(ooc), 326(ooc), 327(ooc), 328(ooc), 329(ooc), 331(ooc), 332(ooc), 334(ooc), 335(ooc), 336(ooc), 337(ooc), 338(ooc), 339(ooc), 340(ooc), 341(ooc), 342(ooc), 343(ooc), 344(ooc), 347(ooc), 348(ooc), 349(ooc), 350(ooc), 351(ooc), 352(ooc), 353(ooc), 354(ooc), 355(ooc), 356(ooc), 357(ooc), 358(ooc), 359(ooc), 361(ooc), 362(ooc), 363(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 372(ooc), 373(ooc), 374(ooc), 376(ooc), 377(ooc), 378(ooc), 379(ooc), 380(ooc), 381(ooc), 382(ooc), 384(ooc), 385(ooc), 386(ooc), 387(ooc), 388(ooc), 389(ooc), 392(ooc), 393(ooc), 394(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [396, 525] | SCENE_ID: 4 -->
 
 ## Chapter 57: The Bowling Ball of Doom & First-Year Rivals
@@ -63,6 +65,8 @@ Lomi pushed his brown flat cap back, a smudge of engine grease gleaming on his c
 
 <!-- LEDGER: rendered=[396, 400, 402, 404, 405, 420, 435, 450] skipped=[397(ooc), 398(ooc), 399(ooc), 403(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 412(ooc), 413(ooc), 414(ooc), 416(ooc), 417(ooc), 418(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 426(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 440(ooc), 441(ooc), 442(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 452(ooc), 453(ooc), 454(ooc), 455(ooc), 456(ooc), 457(ooc), 458(ooc), 459(ooc), 460(ooc), 462(ooc), 463(ooc), 464(ooc), 465(ooc), 466(ooc), 467(ooc), 468(ooc), 469(ooc), 470(ooc), 471(ooc), 473(ooc), 474(ooc), 475(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 483(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 489(ooc), 491(ooc), 493(ooc), 495(ooc), 497(ooc), 498(ooc), 499(ooc), 500(ooc), 501(ooc), 502(ooc), 503(ooc), 504(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 514(ooc), 515(ooc), 516(ooc), 517(ooc), 518(ooc), 519(ooc), 520(ooc), 522(ooc), 523(ooc), 524(ooc), 525(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [526, 655] | SCENE_ID: 5 -->
 
 ## Chapter 58: Britt's Expedition & The Unwavering Compass
@@ -78,6 +82,8 @@ Lomi leaned over the instrument, his mechanic's curiosity instantly piqued. He t
 The needle did not move. It remained locked in place, pointing with unyielding precision toward a bearing deep beneath the academy spires.
 
 <!-- LEDGER: rendered=[550, 575, 600, 615, 630, 645] skipped=[526(ooc), 527(ooc), 528(ooc), 529(ooc), 530(ooc), 531(ooc), 532(ooc), 533(ooc), 534(ooc), 535(ooc), 537(ooc), 538(ooc), 539(ooc), 540(ooc), 541(ooc), 542(ooc), 543(ooc), 545(ooc), 546(ooc), 547(ooc), 548(ooc), 549(ooc), 551(ooc), 552(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 559(ooc), 560(ooc), 561(ooc), 562(ooc), 563(ooc), 564(ooc), 565(ooc), 566(ooc), 567(ooc), 568(ooc), 569(ooc), 570(ooc), 571(ooc), 572(ooc), 573(ooc), 574(ooc), 577(ooc), 578(ooc), 579(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 585(ooc), 586(ooc), 587(ooc), 588(ooc), 589(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 598(ooc), 601(ooc), 602(ooc), 603(ooc), 604(ooc), 605(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 617(ooc), 619(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 625(ooc), 626(ooc), 627(ooc), 628(ooc), 629(ooc), 631(ooc), 633(ooc), 634(ooc), 635(ooc), 636(ooc), 637(ooc), 638(ooc), 639(ooc), 640(ooc), 641(ooc), 642(ooc), 643(ooc), 646(ooc), 647(ooc), 648(ooc), 649(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [656, 785] | SCENE_ID: 6 -->
 
@@ -95,6 +101,8 @@ Iggy waddled over, his copper goggles peering closely at the glass face. "It hum
 
 <!-- LEDGER: rendered=[666, 680, 700, 715, 730, 745, 760, 775] skipped=[656(ooc), 658(ooc), 659(ooc), 660(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 667(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 679(ooc), 681(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 686(ooc), 688(ooc), 689(ooc), 690(ooc), 691(ooc), 692(ooc), 693(ooc), 694(ooc), 695(ooc), 696(ooc), 697(ooc), 698(ooc), 699(ooc), 701(ooc), 702(ooc), 703(ooc), 704(ooc), 705(ooc), 706(ooc), 707(ooc), 709(ooc), 710(ooc), 711(ooc), 712(ooc), 713(ooc), 714(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc), 721(ooc), 722(ooc), 723(ooc), 724(ooc), 725(ooc), 726(ooc), 727(ooc), 729(ooc), 731(ooc), 732(ooc), 733(ooc), 734(ooc), 735(ooc), 736(ooc), 737(ooc), 738(ooc), 739(ooc), 740(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 750(ooc), 752(ooc), 753(ooc), 754(ooc), 755(ooc), 756(ooc), 757(ooc), 758(ooc), 759(ooc), 761(ooc), 762(ooc), 763(ooc), 764(ooc), 765(ooc), 767(ooc), 768(ooc), 769(ooc), 770(ooc), 771(ooc), 772(ooc), 773(ooc), 774(ooc), 776(ooc), 777(ooc), 778(ooc), 779(ooc), 780(ooc), 781(ooc), 782(ooc), 783(ooc), 784(ooc), 785(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [786, 915] | SCENE_ID: 7 -->
 
 ## Chapter 60: Courtyard Politics & The Charmed Mechanic
@@ -109,6 +117,8 @@ Ignatius burst into laughter, clinking his tin mug against Lomi's arm, while the
 
 <!-- LEDGER: rendered=[796, 815, 835, 855, 875, 895, 915] skipped=[786(ooc), 788(ooc), 789(ooc), 790(ooc), 791(ooc), 792(ooc), 793(ooc), 794(ooc), 795(ooc), 797(ooc), 798(ooc), 799(ooc), 800(ooc), 801(ooc), 803(ooc), 804(ooc), 805(ooc), 806(ooc), 807(ooc), 808(ooc), 809(ooc), 810(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 816(ooc), 817(ooc), 818(ooc), 819(ooc), 821(ooc), 822(ooc), 823(ooc), 824(ooc), 825(ooc), 827(ooc), 828(ooc), 829(ooc), 830(ooc), 831(ooc), 833(ooc), 834(ooc), 836(ooc), 837(ooc), 838(ooc), 839(ooc), 840(ooc), 842(ooc), 843(ooc), 844(ooc), 845(ooc), 846(ooc), 847(ooc), 848(ooc), 849(ooc), 850(ooc), 851(ooc), 852(ooc), 853(ooc), 857(ooc), 858(ooc), 860(ooc), 861(ooc), 863(ooc), 864(ooc), 865(ooc), 867(ooc), 869(ooc), 870(ooc), 871(ooc), 872(ooc), 873(ooc), 874(ooc), 877(ooc), 878(ooc), 879(ooc), 880(ooc), 881(ooc), 882(ooc), 883(ooc), 884(ooc), 885(ooc), 886(ooc), 887(ooc), 888(ooc), 889(ooc), 891(ooc), 892(ooc), 893(ooc), 894(ooc), 896(ooc), 897(ooc), 898(ooc), 899(ooc), 900(ooc), 901(ooc), 902(ooc), 904(ooc), 905(ooc), 906(ooc), 907(ooc), 908(ooc), 909(ooc), 910(ooc), 911(ooc), 912(ooc), 913(ooc), 914(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [916, 1045] | SCENE_ID: 8 -->
 
 ## Chapter 61: Pip's Grapevine & Sibling Rivalries
@@ -122,6 +132,8 @@ A moment later, Pip came skipping across the cobblestones, a basket of warm berr
 Pip grabbed a tart, taking a huge bite and spraying crumbs as she grinned. "Which is why your little deal with Lucky is going to make you legendary before the first flag even drops!"
 
 <!-- LEDGER: rendered=[926, 945, 965, 1000, 1040, 1045] skipped=[916(ooc), 917(ooc), 918(ooc), 919(ooc), 921(ooc), 922(ooc), 923(ooc), 924(ooc), 925(ooc), 927(ooc), 928(ooc), 929(ooc), 930(ooc), 931(ooc), 932(ooc), 933(ooc), 934(ooc), 935(ooc), 936(ooc), 937(ooc), 939(ooc), 940(ooc), 941(ooc), 942(ooc), 943(ooc), 944(ooc), 946(ooc), 947(ooc), 948(ooc), 949(ooc), 950(ooc), 951(ooc), 952(ooc), 953(ooc), 954(ooc), 955(ooc), 956(ooc), 957(ooc), 959(ooc), 960(ooc), 961(ooc), 962(ooc), 963(ooc), 964(ooc), 966(ooc), 967(ooc), 968(ooc), 969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 979(ooc), 980(ooc), 981(ooc), 982(ooc), 983(ooc), 984(ooc), 986(ooc), 987(ooc), 988(ooc), 989(ooc), 990(ooc), 991(ooc), 992(ooc), 994(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 999(ooc), 1001(ooc), 1002(ooc), 1003(ooc), 1004(ooc), 1005(ooc), 1007(ooc), 1008(ooc), 1009(ooc), 1010(ooc), 1011(ooc), 1012(ooc), 1013(ooc), 1014(ooc), 1015(ooc), 1016(ooc), 1017(ooc), 1018(ooc), 1019(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1024(ooc), 1025(ooc), 1026(ooc), 1027(ooc), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1034(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1041(ooc), 1042(ooc), 1043(ooc), 1044(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [1046, 1184] | SCENE_ID: 9 -->
 
@@ -138,5 +150,3 @@ They sat together on the stone steps: Lomi, Ignatius, Iggy, and Britt, joined by
 Lomi pulled his flat cap down tight, a wide, confident grin cutting through the engine soot on his face. "Let them bring their polished hulls and noble names. We're going to give this academy a lesson it won't ever forget."
 
 <!-- LEDGER: rendered=[1046, 1060, 1080, 1100, 1120, 1140, 1160, 1180, 1182, 1184] skipped=[1047(ooc), 1048(ooc), 1049(ooc), 1050(ooc), 1052(ooc), 1053(ooc), 1054(ooc), 1055(ooc), 1056(ooc), 1057(ooc), 1058(ooc), 1059(ooc), 1061(ooc), 1062(ooc), 1063(ooc), 1064(ooc), 1065(ooc), 1066(ooc), 1067(ooc), 1068(ooc), 1070(ooc), 1071(ooc), 1072(ooc), 1073(ooc), 1074(ooc), 1075(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1081(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1094(ooc), 1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1101(ooc), 1102(ooc), 1103(ooc), 1104(ooc), 1105(ooc), 1106(ooc), 1108(ooc), 1109(ooc), 1110(ooc), 1111(ooc), 1112(ooc), 1113(ooc), 1114(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1121(ooc), 1122(ooc), 1123(ooc), 1124(ooc), 1125(ooc), 1126(ooc), 1127(ooc), 1128(ooc), 1129(ooc), 1130(ooc), 1131(ooc), 1132(ooc), 1134(ooc), 1135(ooc), 1136(ooc), 1137(ooc), 1138(ooc), 1139(ooc), 1141(ooc), 1142(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1146(ooc), 1147(ooc), 1148(ooc), 1149(ooc), 1150(ooc), 1151(ooc), 1152(ooc), 1153(ooc), 1154(ooc), 1155(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1161(ooc), 1162(ooc), 1163(ooc), 1164(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1170(ooc), 1171(ooc), 1172(ooc), 1173(ooc), 1174(ooc), 1175(ooc), 1176(ooc), 1177(ooc), 1178(ooc), 1179(ooc), 1181(ooc), 1183(ooc)] -->
-
-<!-- RAW_RANGE: [1185, 1294] | SCENE_ID: 10 | OOC -->

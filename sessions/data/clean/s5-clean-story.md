@@ -7,46 +7,6 @@ genre: Epic Fantasy / Sci-Fantasy
 
 # THE HANGAR SCOUT & THE AMBROSIA OF LUCK
 
-<!-- RAW_RANGE: [1, 119] | SCENE_ID: 1 | OOC -->
-
-## INTERLUDE: THE DARK SPIRE & THE CIRCUIT-RUN
-
-High up in the dizzying heights of the Sky-Spire, the aetheric transmission arrays hummed with pure, crystal-clear power. Valerius Sterling lunged forward across the broadcast platform, grabbing the primary audio slider and slamming it into place. Through the wide panoramic floor-panes engineered by Timon—touch-responsive sheets of crystallized quartz that magnified every detail of the campus below—the sprawling oval of the Apex Arena gleamed like a carved basalt bowl. Across every tier, flags fluttered in the autumn wind as secondary-year mechanics swarmed the pit lanes, priming their racing rigs for the First Vumbua Circuit-Run.
-
-Behind the studio desk, Valerius adjusted his lapel mic, swinging his leather chair toward the quartz glass as his signature Transatlantic cadence rolled into the broadcast grid.
-
-"Good evening, Vumbua!" Valerius projected with effortless charisma, grabbing the studio brass pointer to trace the stadium rim. "The spires are humming, the steam is rising, and from my vantage point here in the Sky-Spire, looking down through these magnificent Timon viewing panes, I can tell you: the Apex Ring is preparing to roar! The First Vumbua Circuit-Run is upon us, and the energy in this city is nothing short of electric.
-
-"Every tier, from the lower Bleacher-Walls to the exclusive Rim-Tracker lounges, is packed to bursting. Keep your eyes peeled for the sheer brute force of Shatter Stamper as they prepare to bulldoze the track, their heavy Ironclad an absolute monument to unyielding will. Witness the audacious aerial maneuvers promised by Pudge and their Gryphon-Hybrid, defying every established law of gravity. And marvel at the rumored precision of Dancer and Fabian as they hoist their Glass-Sail—a whisper of elegance amidst the violent storm of steam and ozone!
-
-"However... I do bring a measure of sobering news to our racing enthusiasts. Rumors have run rampant that the newly raised fifth node—representing the fiery volcanic majesty of the Ash-Blood Isle—would make its glorious debut on the track today. I have just received official confirmation that the Ash-Blood Spire has been pulled from the circuit."
-
-Valerius paused, turning in his swivel chair and slamming a folder of telemetry slips onto the table as he addressed the guest seated beside him.
-
-"To explain why the 'Surge of the Century' is sitting out the biggest race of the autumn, we are joined by the Academy’s esteemed Professor of Harmonics. Professor Kante, welcome to the Spire."
-
-Professor Kante gripped his polished hickory cane, striking the ferrule firmly against the transparent quartz floor to steady his nerves as he adjusted the high collar of his formal vestment. "Thank you, Valerius," Kante replied, his rich, deliberate accent measured like a pendulum. "Though I must admit... looking down through these transparent glass floorboards is remarkably dizzying. I have always preferred the solid stone of the Core."
-
-"We move at the speed of news, Professor!" Valerius chuckled, grabbing a heavy brass model of the race ring and pushing it across the desk. "Now, let us get straight to the marrow. The race fans are devastated. They were promised an 'Ash-Blood Ignite' node—handcrafted from raw lavsidian heat-stone with five columns veined in living magma, designed to give the racers a blistering thermal boost. Why did the proctors yank the Spire at the eleventh hour?"
-
-"It is a matter of... relative stability," Professor Kante said, grabbing a brass tuning fork from his coat pocket and striking it lightly against the desk before setting it down. "A Resonance Race is a strictly closed circuit. The boundary nodes must feed the Central Spire with a meticulously calibrated, unchanging charge. If the amplitude of an external node is not yet firmly settled, the Harvest-Prongs on the rigs cannot safely receive it."
-
-"Settled?" Valerius arched an eyebrow, leaning over his notes and lunging toward the glass to peer at the darkened tower. "It has been weeks since the Ash-Blood integration ceremony. Is their resonance frequency truly so difficult to harmonize, or is the Spire simply underpowered?"
-
-"It is not a question of power, Valerius," Kante corrected gently, pushing the tuning fork aside. "It is a question of synchronization. The Global Amplitude across the basin is currently... fluctuating. If we were to introduce an uncalibrated harmonic frequency into the Circuit-Run, the feedback would be catastrophic. A rig making contact with that node would not experience a speed boost; it would likely suffer a total resonator-melt. We cannot connect the central grid to a ghost frequency that has not yet been reconciled with our Panda Five standards."
-
-"A ghost frequency," Valerius echoed with theatrical skepticism, slamming his pencil onto the desk. "That sounds remarkably like academic shorthand for 'the equations do not balance,' Professor. Are you telling our listeners the Ash-Blood Spire poses a genuine safety hazard?"
-
-"In harmonics, certainty is safety," Kante stated calmly, climbing to his feet and leaning on his cane. "Until the Ash-Blood resonance finds its proper equilibrium within the Harmony grid, it remains an unpredictable variable. And the Circuit-Run has no margin for variables. We race only upon what we know."
-
-"Well, there you have it, citizens! Safety first, even if it leaves the track a few hundred degrees cooler than promised. Thank you, Professor Kante! Candidates, take heed: if the Professor cannot tune it, do not dare attempt to harvest it! Stick to the Leidian and Vitruvian nodes you know.
-
-"After all... *momentum is life.*
-
-"This is Valerius Sterling, signing off. Keep your batteries charged, and your eyes on the spires!"
-
----
-
 <!-- RAW_RANGE: [120, 240] | SCENE_ID: 2 -->
 
 ## Chapter 47: The Art of the Deal with Lucky
@@ -59,11 +19,13 @@ Lucky chuckled dryly, tapping a heavy leather folder resting on a shipping crate
 
 Beside Ignatius, Iggy took two quiet, deliberate steps backward toward the exit. The little packed-clay humanoid was slowly backpedaling, his oversized wool trench coat swishing softly against his shins as he tried to fade into the deeper shadows to avoid giving up any of his personal secrets or enduring another interrogation. <!-- L0152 -->
 
-"Wait, wait, wait," Lucky held up both hands, laughing as he caught the soil-kin attempting to stage an Irish goodbye. "Don't run off, little man! I'm not here to shake you down. I saw that gold seal on your entrance slate. That kind of resonance signature doesn't happen by accident. I want to know how a creature of dirt and moss gets stamped with auric gold by the Loom." <!-- L0153 --> <!-- L0173 -->
+"Wait, wait, wait," Lucky held up both hands, laughing as he caught the soil-kin attempting to stage an quiet escape. "Don't run off, little man! I'm not here to shake you down. I saw that gold seal on your entrance slate. That kind of resonance signature doesn't happen by accident. I want to know how a creature of dirt and moss gets stamped with auric gold by the Loom." <!-- L0153 --> <!-- L0173 -->
 
 Lomi leaned against a cedar support beam, adjusting his brown woolen flat cap over his brow. A smudge of dark engine grease stained his jawline, but his eyes were steady and unimpressed. "Iggy doesn't owe you his life story, Lucky. But if you want something of genuine value, we can talk trade."
 
 <!-- LEDGER: rendered=[120, 122, 123, 125, 141, 145, 152, 153, 173] skipped=[124(ooc), 127(ooc), 128(ooc), 129(ooc), 130(ooc), 131(ooc), 132(ooc), 133(ooc), 134(ooc), 135(ooc), 136(ooc), 137(ooc), 138(ooc), 139(ooc), 140(ooc), 142(ooc), 143(ooc), 146(ooc), 147(ooc), 148(ooc), 149(ooc), 151(ooc), 155(ooc), 156(ooc), 157(ooc), 158(ooc), 159(ooc), 160(ooc), 161(ooc), 162(ooc), 163(ooc), 164(ooc), 165(ooc), 166(ooc), 167(ooc), 168(ooc), 169(ooc), 171(ooc), 172(ooc), 174(ooc), 175(ooc), 176(ooc), 177(ooc), 178(ooc), 179(ooc), 180(ooc), 181(ooc), 182(ooc), 183(ooc), 184(ooc), 186(ooc), 187(ooc), 188(ooc), 189(ooc), 190(ooc), 191(ooc), 192(ooc), 193(ooc), 194(ooc), 195(ooc), 197(ooc), 198(ooc), 199(ooc), 200(ooc), 201(ooc), 202(ooc), 203(ooc), 204(ooc), 205(ooc), 206(ooc), 207(ooc), 209(ooc), 210(ooc), 211(ooc), 212(ooc), 213(ooc), 214(ooc), 215(ooc), 216(ooc), 217(ooc), 218(ooc), 219(ooc), 220(ooc), 221(ooc), 223(ooc), 224(ooc), 225(ooc), 226(ooc), 227(ooc), 228(ooc), 229(ooc), 230(ooc), 231(ooc), 232(ooc), 233(ooc), 234(ooc), 235(ooc), 236(ooc), 237(ooc), 238(ooc), 239(ooc), 240(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [241, 360] | SCENE_ID: 3 -->
 
@@ -83,6 +45,8 @@ Lucky took the small device, turning it over in his ink-stained fingers with gen
 
 <!-- LEDGER: rendered=[243, 245, 250, 281, 313, 346, 360] skipped=[242(ooc), 244(ooc), 246(ooc), 247(ooc), 248(ooc), 249(ooc), 251(ooc), 252(ooc), 253(ooc), 254(ooc), 255(ooc), 256(ooc), 258(ooc), 259(ooc), 260(ooc), 261(ooc), 262(ooc), 263(ooc), 264(ooc), 265(ooc), 266(ooc), 267(ooc), 268(ooc), 269(ooc), 270(ooc), 271(ooc), 272(ooc), 274(ooc), 275(ooc), 276(ooc), 277(ooc), 278(ooc), 279(ooc), 280(ooc), 282(ooc), 283(ooc), 284(ooc), 285(ooc), 286(ooc), 287(ooc), 288(ooc), 289(ooc), 290(ooc), 291(ooc), 292(ooc), 293(ooc), 294(ooc), 295(ooc), 296(ooc), 297(ooc), 298(ooc), 299(ooc), 300(ooc), 302(ooc), 303(ooc), 304(ooc), 305(ooc), 306(ooc), 307(ooc), 308(ooc), 309(ooc), 310(ooc), 311(ooc), 312(ooc), 315(ooc), 316(ooc), 317(ooc), 318(ooc), 319(ooc), 320(ooc), 321(ooc), 322(ooc), 323(ooc), 325(ooc), 326(ooc), 327(ooc), 328(ooc), 329(ooc), 330(ooc), 331(ooc), 332(ooc), 333(ooc), 334(ooc), 335(ooc), 336(ooc), 337(ooc), 338(ooc), 339(ooc), 340(ooc), 341(ooc), 343(ooc), 344(ooc), 345(ooc), 347(ooc), 348(ooc), 349(ooc), 350(ooc), 351(ooc), 352(ooc), 353(ooc), 354(ooc), 356(ooc), 357(ooc), 358(ooc), 359(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [361, 480] | SCENE_ID: 4 -->
 
 ## Chapter 49: The Trade of Inventions & Val's Notes
@@ -101,13 +65,15 @@ Lomi extended a grease-stained hand to Lucky. "We appreciate it, Lucky. We'll ta
 
 <!-- LEDGER: rendered=[376, 399, 407, 409, 411, 419, 480] skipped=[361(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 372(ooc), 373(ooc), 374(ooc), 375(ooc), 377(ooc), 378(ooc), 379(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 386(ooc), 387(ooc), 388(ooc), 389(ooc), 390(ooc), 391(ooc), 392(ooc), 393(ooc), 394(ooc), 395(ooc), 396(ooc), 398(ooc), 400(ooc), 401(ooc), 402(ooc), 403(ooc), 404(ooc), 405(ooc), 406(ooc), 408(ooc), 412(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 417(ooc), 418(ooc), 420(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 426(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 435(ooc), 436(ooc), 437(ooc), 438(ooc), 440(ooc), 441(ooc), 442(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 450(ooc), 451(ooc), 452(ooc), 454(ooc), 455(ooc), 456(ooc), 457(ooc), 458(ooc), 459(ooc), 460(ooc), 462(ooc), 463(ooc), 464(ooc), 465(ooc), 466(ooc), 467(ooc), 468(ooc), 469(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 475(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [481, 600] | SCENE_ID: 5 -->
 
 ## Chapter 50: Scouting the Basalt Canyon at Night
 
-Stepping out of the hidden vault, the cadets inhaled the crisp, cool mountain air of the academy grounds. The sun had long since dipped below the horizon, leaving the sky a deep indigo canvas dusted with cold constellations. Guided by the flickering glow of gas lanterns, they cut across campus through the semi-Oxfordian gardens and manicured gravel courtyards, eventually entering the Colonnade—a grand stone hallway flanked by towering marble columns. At its terminus stood a colossal triumphal arch, its lintel carved deep with the words: **APEX RINGS**. <!-- L0485 --> <!-- L0500 -->
+Stepping out of the hidden vault, the three cadets inhaled the crisp, cool mountain air of the academy grounds. The sun had long since dipped below the horizon, leaving the sky a deep indigo canvas dusted with cold constellations. Guided by the flickering glow of gas lanterns, they made their way past the colonnades toward the outer rim of the academy perimeter. <!-- L0485 --> <!-- L0500 -->
 
-Beyond the arch opened the colossal expanse of the Apex Arena. Carved directly into the sheer basalt cliffs, the natural canyon stretched half a mile across—a full mile in circumference—plunging down into a rugged wilderness of desert rock and dark water. Steep stone bleachers wrapped around the entire canyon precipice, cascading in terraced tiers above spectator train tracks that curved along the sheer rock walls. <!-- L0504 --> <!-- L0517 -->
+Before them opened the colossal expanse of the Apex Arena. Carved directly into the sheer basalt cliffs, the canyon stretched half a mile across, plunging down into an abyss of churning mist and jagged volcanic spires. Steep stone grandstands wrapped around the precipice, cascading in terraced tiers toward the darkened floor below. <!-- L0504 --> <!-- L0517 -->
 
 Lomi stepped up to the edge of the stone balustrade, peering out into the dizzying void. The night wind whipped against his heavy working collar, carrying the sharp scent of ozone, damp stone, and distant boiler smoke. <!-- L0525 --> <!-- L0531 -->
 
@@ -119,13 +85,15 @@ Ignatius looked over the ledge, a low whistle escaping his lips. "It's a long wa
 
 <!-- LEDGER: rendered=[485, 500, 504, 517, 525, 531, 541, 557, 563] skipped=[481(ooc), 482(ooc), 483(ooc), 486(ooc), 487(ooc), 488(ooc), 489(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 494(ooc), 495(ooc), 496(ooc), 497(ooc), 498(ooc), 499(ooc), 501(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 513(ooc), 514(ooc), 515(ooc), 516(ooc), 518(ooc), 520(ooc), 521(ooc), 522(ooc), 523(ooc), 524(ooc), 526(ooc), 527(ooc), 528(ooc), 529(ooc), 530(ooc), 532(ooc), 534(ooc), 535(ooc), 536(ooc), 537(ooc), 538(ooc), 539(ooc), 540(ooc), 542(ooc), 543(ooc), 544(ooc), 545(ooc), 547(ooc), 548(ooc), 549(ooc), 550(ooc), 551(ooc), 552(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 558(ooc), 559(ooc), 561(ooc), 562(ooc), 564(ooc), 565(ooc), 566(ooc), 567(ooc), 568(ooc), 569(ooc), 571(ooc), 572(ooc), 573(ooc), 574(ooc), 575(ooc), 576(ooc), 577(ooc), 578(ooc), 579(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 586(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 597(ooc), 598(ooc), 599(ooc)] -->
 
+---
+
 <!-- RAW_RANGE: [601, 720] | SCENE_ID: 6 -->
 
 ## Chapter 51: Wind Currents & The Silent Spires
 
 Lomi leaned forward over the parapet, his eyes tracing the invisible air currents of the canyon. Below them, massive monolithic pillars of black basalt jutted from the canyon floor like ancient obelisks. At the crown of each pillar stood a dormant resonance spire—a spiraling copper coil wrapped around an enormous, unlit crystal core. <!-- L0605 --> <!-- L0620 -->
 
-"See those towers?" Lomi pointed into the gloom. "When the race begins, the power stations below pump harmonic resonance up through the conduits. They don't just sit out in the open, either—they're housed in subterranean vaults and punch straight up through the rock like missile silos when a node activates. When a spire surges, it throws a beacon of pure energy into the sky, and every pilot in the canyon has to dive for the node to harvest the charge." <!-- L0624 --> <!-- L0639 -->
+"See those towers?" Lomi pointed into the gloom. "When the race begins, the power stations below pump harmonic resonance up through the conduits. You don't know which spire will light up first. When a spire surges, it throws a beacon of pure energy into the sky, and every pilot in the canyon has to dive for the node to harvest the charge." <!-- L0624 --> <!-- L0639 -->
 
 Ignatius leaned against a stone pillar, watching the howling updrafts toss loose gravel from the ledge. "And what happens when three teams dive for the same spire at the same second?" <!-- L0645 --> <!-- L0660 -->
 
@@ -136,6 +104,8 @@ Iggy tugged at Lomi's trouser leg, his round goggles reflecting the faint moonli
 "The upperclassmen hangars," Ignatius observed, his golden flame-hair flickering with curiosity. "They're prepping their racers right now."
 
 <!-- LEDGER: rendered=[605, 620, 624, 639, 645, 660, 675, 690, 705, 720] skipped=[601(ooc), 602(ooc), 603(ooc), 604(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 618(ooc), 619(ooc), 621(ooc), 622(ooc), 623(ooc), 625(ooc), 626(ooc), 627(ooc), 628(ooc), 629(ooc), 630(ooc), 631(ooc), 633(ooc), 634(ooc), 635(ooc), 636(ooc), 637(ooc), 638(ooc), 640(ooc), 641(ooc), 642(ooc), 643(ooc), 644(ooc), 646(ooc), 647(ooc), 648(ooc), 649(ooc), 650(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 656(ooc), 657(ooc), 658(ooc), 659(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 666(ooc), 667(ooc), 668(ooc), 669(ooc), 671(ooc), 672(ooc), 673(ooc), 674(ooc), 676(ooc), 677(ooc), 678(ooc), 679(ooc), 680(ooc), 681(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 686(ooc), 687(ooc), 688(ooc), 689(ooc), 692(ooc), 693(ooc), 694(ooc), 695(ooc), 696(ooc), 697(ooc), 698(ooc), 699(ooc), 700(ooc), 701(ooc), 702(ooc), 704(ooc), 706(ooc), 707(ooc), 708(ooc), 709(ooc), 710(ooc), 711(ooc), 712(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [721, 840] | SCENE_ID: 7 -->
 
@@ -152,6 +122,8 @@ Upperclassmen mechanics swarmed the rig like industrious ants, tightening manifo
 "Security is tight," Ignatius whispered, leaning his shoulder against the rough stone wall. "They're not letting any freshmen wander in to steal their propulsion designs." <!-- L0835 --> <!-- L0840 -->
 
 <!-- LEDGER: rendered=[725, 740, 755, 770, 785, 815, 830, 835, 840] skipped=[721(ooc), 722(ooc), 724(ooc), 726(ooc), 727(ooc), 728(ooc), 729(ooc), 730(ooc), 731(ooc), 732(ooc), 733(ooc), 734(ooc), 735(ooc), 737(ooc), 738(ooc), 739(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 750(ooc), 751(ooc), 752(ooc), 753(ooc), 754(ooc), 757(ooc), 758(ooc), 759(ooc), 760(ooc), 761(ooc), 762(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 768(ooc), 769(ooc), 771(ooc), 772(ooc), 774(ooc), 775(ooc), 776(ooc), 777(ooc), 778(ooc), 779(ooc), 780(ooc), 781(ooc), 782(ooc), 783(ooc), 784(ooc), 786(ooc), 787(ooc), 788(ooc), 789(ooc), 790(ooc), 791(ooc), 792(ooc), 793(ooc), 794(ooc), 796(ooc), 797(ooc), 798(ooc), 799(ooc), 801(ooc), 803(ooc), 804(ooc), 805(ooc), 806(ooc), 807(ooc), 808(ooc), 809(ooc), 810(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 816(ooc), 818(ooc), 819(ooc), 820(ooc), 821(ooc), 822(ooc), 823(ooc), 824(ooc), 825(ooc), 827(ooc), 828(ooc), 829(ooc), 831(ooc), 832(ooc), 834(ooc), 836(ooc), 837(ooc), 838(ooc), 839(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [841, 960] | SCENE_ID: 8 -->
 
@@ -172,6 +144,8 @@ He glanced down at Iggy. "Does anyone have a trench coat?"
 "He does," the little soil-kin replied plainly, patting his oversized woolen lapels with muddy hands. "I was given this coat when I got off the skiff."
 
 <!-- LEDGER: rendered=[842, 844, 845, 860, 875, 910, 925, 945] skipped=[841(ooc), 843(ooc), 846(ooc), 847(ooc), 848(ooc), 849(ooc), 850(ooc), 851(ooc), 852(ooc), 853(ooc), 855(ooc), 856(ooc), 857(ooc), 858(ooc), 859(ooc), 861(ooc), 862(ooc), 863(ooc), 864(ooc), 866(ooc), 867(ooc), 868(ooc), 869(ooc), 870(ooc), 871(ooc), 872(ooc), 873(ooc), 874(ooc), 877(ooc), 878(ooc), 879(ooc), 880(ooc), 881(ooc), 882(ooc), 883(ooc), 884(ooc), 885(ooc), 886(ooc), 887(ooc), 889(ooc), 891(ooc), 892(ooc), 893(ooc), 895(ooc), 897(ooc), 898(ooc), 899(ooc), 900(ooc), 901(ooc), 902(ooc), 903(ooc), 904(ooc), 905(ooc), 906(ooc), 907(ooc), 908(ooc), 909(ooc), 911(ooc), 913(ooc), 914(ooc), 915(ooc), 916(ooc), 917(ooc), 918(ooc), 919(ooc), 920(ooc), 921(ooc), 922(ooc), 923(ooc), 924(ooc), 926(ooc), 927(ooc), 928(ooc), 929(ooc), 930(ooc), 931(ooc), 932(ooc), 933(ooc), 935(ooc), 936(ooc), 937(ooc), 938(ooc), 939(ooc), 940(ooc), 941(ooc), 942(ooc), 943(ooc), 944(ooc), 946(ooc), 947(ooc), 948(ooc), 950(ooc), 951(ooc), 952(ooc), 953(ooc), 954(ooc), 955(ooc), 956(ooc), 957(ooc), 958(ooc), 959(ooc), 960(ooc)] -->
+
+---
 
 <!-- RAW_RANGE: [961, 1083] | SCENE_ID: 9 -->
 
@@ -194,5 +168,3 @@ Leaving the maintenance district behind, Lomi, Ignatius, and Iggy walked back in
 The squad had survived their first brutal day of classes, secured the forbidden exam notes, laid the blueprint for a championship racing rig, and built alliances that would carry them into Friday's trials. As they walked over to join their friends, the bells of Zephyr tolled ten, welcoming the night over the floating isle.
 
 <!-- LEDGER: rendered=[965, 980, 1048, 1050, 1052, 1055, 1058, 1061, 1062, 1066, 1067, 1070, 1073, 1075, 1077, 1079, 1081, 1082, 1083] skipped=[961(ooc), 962(ooc), 963(ooc), 964(ooc), 966(ooc), 967(ooc), 968(ooc), 969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 974(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 981(ooc), 982(ooc), 983(ooc), 984(ooc), 985(ooc), 986(ooc), 987(ooc), 988(ooc), 989(ooc), 990(ooc), 991(ooc), 992(ooc), 993(ooc), 994(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 999(ooc), 1000(ooc), 1001(ooc), 1002(ooc), 1003(ooc), 1004(ooc), 1006(ooc), 1007(ooc), 1008(ooc), 1009(ooc), 1010(ooc), 1011(ooc), 1012(ooc), 1013(ooc), 1014(ooc), 1015(ooc), 1016(ooc), 1018(ooc), 1019(ooc), 1020(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1024(ooc), 1025(ooc), 1026(ooc), 1027(ooc), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1034(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1040(ooc), 1041(ooc), 1042(ooc), 1043(ooc), 1044(ooc), 1045(ooc), 1046(ooc), 1047(ooc), 1049(ooc), 1053(ooc), 1054(ooc), 1057(ooc), 1059(ooc), 1060(ooc), 1063(ooc), 1064(ooc), 1068(ooc), 1069(ooc), 1071(ooc), 1072(ooc), 1074(ooc), 1076(ooc), 1078(ooc)] -->
-
-<!-- RAW_RANGE: [1084, 1099] | SCENE_ID: 10 | OOC -->

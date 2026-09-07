@@ -6,13 +6,13 @@ Loami kept one eye on Squad 907's steady march, tracking the lumbering shell of 
 
 Near a water distribution rig, he spotted the firefighter crew he had coordinated with before the drop. At the center of the squad stood Raphael, his broad face smeared with soot and his canvas coat torn at the shoulder.
 
-When Raphael turned and saw Loami approaching, a look of overwhelming relief washed over the firefighter's tired features. He stepped forward and gripped Loami's shoulder in a bone-jarring grasp.
+When Raphael turned and saw Loami approaching, a look of overwhelming relief washed over the firefighter's tired features. Raphael bolted forward, grabbed Loami's shoulder, and dragged him toward the water rig.
 
 "Loami! Good to see you, man," Raphael exhaled, his voice hoarse from smoke. "I'm glad you made it through. It was brutal out there. I don't know what the hell happened." <!-- L0499 -->
 
 "Yeah, seems like it," Loami said quietly, his eyes sweeping across the rows of wounded cadets. "I mean... look at this place."
 
-Raphael scrubbed a heavy hand down his soot-streaked face. His sentences came out in clipped, ragged bursts. "Listen... all I know is that the proctors were just trying to let a few minor aether beasts through the barrier. A controlled simulation. But the grid collapsed—and they let in the whole lot."
+Raphael slammed his battered canteen onto an iron crate, lunged forward, and grabbed a clean towel. His sentences came out in clipped, ragged bursts. "Listen... all I know is that the proctors were just trying to let a few minor aether beasts through the barrier. A controlled simulation. But the grid collapsed—and they let in the whole lot."
 
 "Yeah, I figured it wasn't intentional," Loami nodded. "When we got swarmed in the trees, I knew something had broken. But man... I didn't think it was going to go this bad." <!-- L0512 -->
 
