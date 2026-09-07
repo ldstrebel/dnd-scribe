@@ -4,19 +4,19 @@
 
 "I knew I could find someone awake!" Val proclaimed, pulling Ignatius toward a curved mahogany gambling table in the center of the lounge. "You look like a man of culture, Ignatius. Up for a wager? We could play Truths and Treachery, or we could play Crown and Ruin. My cousin Valerius passed out on the velvet settee after four rounds, but you have the look of someone who can hold his spirits."
 
-Lomi sauntered over, flat cap tilted back, eyes gleaming with competitive mischief. "Crown and Ruin? How do the cards fall?"
+Loami sauntered over, flat cap tilted back, eyes gleaming with competitive mischief. "Crown and Ruin? How do the cards fall?"
 
 "No cards—dice," Val grinned, pulling a velvet pouch from his pocket and rolling out pairs of faceted d12s. "A gold Hope die and a purple Fear die. You roll both. If Hope beats Fear, you bank the difference toward ten points. But if Fear reigns higher... you mark a point of stress and down a shot." <!-- L0081 --> <!-- L0083 --> <!-- L0084 -->
 
-Lomi chuckled, reaching inside his heavy canvas work jacket and unscrewing the brass cap of a battered steel flask. "If we're taking penalty shots, let's skip the watered-down wine. This is straight turbine distillate from the lower boilers. Sharp enough to strip varnish off oak." <!-- L0096 -->
+Loami chuckled, reaching inside his heavy canvas work jacket and unscrewing the brass cap of a battered steel flask. "If we're taking penalty shots, let's skip the watered-down wine. This is straight turbine distillate from the lower boilers. Sharp enough to strip varnish off oak." <!-- L0096 -->
 
 Ember slid off her stool in the broadcast booth, crossing her arms with a cold smirk. "If Ignatius is playing, I'm at the table."
 
-The dice clattered across the polished green felt. Round after round, laughter and groans echoed through the quiet lounge as the purple dice bit back. Val went down in flames early, rolling three consecutive Fear spikes and coughing violently as he choked down Lomi's boiler grease. Ember held her ground until a pair of sixes busted her bank, sending her storming back to her soundboard in disgust. But it was Iggy, leaning over the felt with his copper goggles askew, who rolled a miraculous double-twelve—a perfect Crown—capping his score at ten and claiming victory. <!-- L0102 --> <!-- L0104 -->
+The dice clattered across the polished green felt. Round after round, laughter and groans echoed through the quiet lounge as the purple dice bit back. Val went down in flames early, rolling three consecutive Fear spikes and coughing violently as he choked down Loami's boiler grease. Ember held her ground until a pair of sixes busted her bank, sending her storming back to her soundboard in disgust. But it was Iggy, leaning over the felt with his copper goggles askew, who rolled a miraculous double-twelve—a perfect Crown—capping his score at ten and claiming victory. <!-- L0102 --> <!-- L0104 -->
 
 "Incredible," Val slurred, resting his forehead against the green baize, his silver embroidery stained with grease. "A prodigy of the dirt."
 
-Lomi leaned in, resting his elbows on the table and pouring Val a glass of water. "Speaking of prodigies... what was that you were bragging about earlier? Something about the entrance exams?" <!-- L0105 -->
+Loami leaned in, resting his elbows on the table and pouring Val a glass of water. "Speaking of prodigies... what was that you were bragging about earlier? Something about the entrance exams?" <!-- L0105 -->
 
 Val gave a loose, drunken wave of his hand. "Oh, the first-year diagnostic. Scheduled for the end of the week. Everyone's terrified of it. So... I wrote a test. A brutal, punishing mock examination." <!-- L0106 -->
 
@@ -24,7 +24,7 @@ Val gave a loose, drunken wave of his hand. "Oh, the first-year diagnostic. Sche
 
 "Sold it to Lucky as a study guide," Val mumbled, his eyelids fluttering. "Didn't want gold for it. Told Lucky he had to trade it for stories or favors... keep it accessible. If students can solve my problems, they'll have the fundamentals down cold. I just wanted... wanted people to be prepared..." His chin struck the table, and within seconds, a gentle snore rose from the felt. <!-- L0107 --> <!-- L0108 --> <!-- L0110 -->
 
-Lomi straightened, looking across the table at Ignatius and Iggy. "Lucky has the exam answers. We need to find Lucky." <!-- L0111 -->
+Loami straightened, looking across the table at Ignatius and Iggy. "Lucky has the exam answers. We need to find Lucky." <!-- L0111 -->
 
 At the edge of the room, Britt had watched the game with growing impatience. Near the exit, three men had stood up from a corner booth—two towering, muscular bruisers with intricate dreadlocks and silver piercings, led by a slender, sharply dressed man in an urban wool trench coat. They were communicating in silent, fluid sign language, their expressions grim and burdened with sorrow. As they pushed through the mahogany doors into the night, Britt made her decision. Turning on her heel, she slipped out into the corridor to follow them, desperate for directions back to Block 99. A dozen paces behind, Iggy trotted into the shadows to keep her in sight. <!-- L0112 --> <!-- L0118 --> <!-- L0120 --> <!-- L0121 --> <!-- L0126 --> <!-- L0127 -->
 

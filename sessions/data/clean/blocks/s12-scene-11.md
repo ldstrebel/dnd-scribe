@@ -38,7 +38,7 @@ Before they reached the boundary, a deafening thunderclap ripped across the enti
 
 *BOOM! BOOM! BOOM!*
 
-A full naval broadside erupted from the massive turrets of the Ironclad battleship. The colossal artillery shells detonated in mid-air over the turquoise water, unleashing a dense, rolling thundercloud of black gunpowder smoke across the bay. A second synchronized barrage fired immediately after, igniting the smoke cloud from within with brilliant resonance pyrotechnics that painted the morning sky in vibrant streaks of crimson, gold, and turquoise. A third salvo cracked like lightning, instantly dispelling the storm cloud in a breathtaking twenty-one-gun salute as Sarge's body was committed to the deep canyon waters. <!-- L1037 -->
+A full naval broadside erupted from the massive turrets of the Ironclad battleship. The colossal artillery shells detonated in mid-air over the turquoise water, unleashing a dense, rolling thundercloud of black gunpowder smoke across the bay. A second synchronized barrage fired immediately after, igniting the smoke cloud from within with brilliant resonance pyrotechnics that painted the morning sky in vibrant streaks of crimson, gold, and turquoise. A third salvo cracked like lightning, instantly dispelling the storm cloud in a thunderous twenty-one-gun salute as Sarge's body was committed to the deep canyon waters. <!-- L1037 -->
 
 Lucky stepped away from the battleship's gangway and jogged up beside Loami on the beach, his jaw set with fierce resolve.
 

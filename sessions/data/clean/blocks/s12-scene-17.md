@@ -22,6 +22,6 @@ Beneath Iggy's hands, the glowing teal veins across Mwaza-Kasa's carapace were r
 
 Britt unslung her satchel, stepping up to the perimeter. "I have eight vials of stabilizing antidote," Britt announced firmly. "It won't cure us permanently, but it gives us time. If we are going to touch that tree and uncover what happened here... we take the draught together." <!-- L1598 -->
 
-Aggie walked to an adjacent sentinel tree on the edge of the clearing, placing her palms against its bark to commune with the roots. But the wood remained cold, silent, and petrified—as if the ancient spirit of the forest were holding its breath, waiting for the six clans to step forward.
+Aggie walked to an ancient ironwood on the edge of the clearing, placing her palms against its bark to commune with the roots. But the wood remained cold, silent, and petrified—as if the ancient spirit of the forest were holding its breath, waiting for the six clans to step forward.
 
 <!-- LEDGER: rendered=[1579, 1581, 1583, 1598] skipped=[1584(ooc), 1585(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1590(ooc), 1593(ooc), 1596(ooc)] -->

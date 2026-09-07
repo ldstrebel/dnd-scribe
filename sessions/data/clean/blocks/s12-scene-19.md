@@ -10,7 +10,7 @@ It was not a dream, nor was it a simple illusion cast upon the mind. It felt lik
 
 Because they watched as outside observers peering into secondhand memory, no names hovered over the figures. They saw only the living reality of people, places, and sparks as they unfolded across time.
 
-All eleven travelers experienced the revelation simultaneously: an unbroken, breathtaking epic of how their world was forged, how it rotted from within, and the desperate sacrifice that sealed them in the dark.
+All eleven travelers experienced the revelation simultaneously: an unbroken, vivid chronicle of how their world was forged, how it rotted from within, and the desperate sacrifice that sealed them in the dark.
 
 ---
 
@@ -48,7 +48,7 @@ In the dark ocean caverns where waves crashed against towering basalt cliffs, th
 
 The alliance provided the key. **The sky-dwellers' mastery over atmospheric air currents and barometric pressure** allowed the clay-kin to regulate the pressure inside deep-sea habitats, creating breathable, climate-controlled stone domes beneath the waves. Combined with **flexible root-wood scaffolding** and **volcanic thermal bronze conduits**, the clay-kin constructed colossal, luminous cities inside subterranean ocean caves. Bioluminescent teal root-lamps lit stone walkways, while heated water channels flowed past carved basalt colonnades.
 
-Across the mainland, the fierce, static-haired **tempest-riders** rode mounted atop colossal biological dragonflies above the clouds, building towering basalt step-pyramids. Yet their mountain-top fortresses were constantly overheated by the raw, unyielding lightning energy they channeled. **The canyon-dwellers' control of cooling waters** provided vast hydraulic cooling channels that cooled the mountain stone, allowing the tempest-riders to turn their mountain cities into breathtaking citadels where storm-copper conductors channeled descending lightning into dynamic, neon-like light shows across the cliffs.
+Across the mainland, the fierce, static-haired **tempest-riders** rode mounted atop colossal biological dragonflies above the clouds, building towering basalt step-pyramids. Yet their mountain-top fortresses were constantly overheated by the raw, unyielding lightning energy they channeled. **The canyon-dwellers' control of cooling waters** provided vast hydraulic cooling channels that cooled the mountain stone, allowing the tempest-riders to turn their mountain cities into fortified citadels where storm-copper conductors channeled descending lightning into dynamic light patterns across the cliffs.
 
 And at the center of the entire union stood the **root-kin archivists**. The living petrified oak forests served as the grand archive of the world. Archivist scholars meticulously encoded and preserved the complex resonance formulas in the living tree bark, teaching every clan how to weave their elemental sparks together into harmonious, living circuits.
 
@@ -66,7 +66,7 @@ Atop the central sky-altar, a graceful sky-scholar in flowing purple silk placed
 
 For a golden age, there was unmatched, effortless prosperity.
 
-The Grand Forum of the Sun-Spire stood as the pinnacle of achievement: colossal white marble plazas framed by living petrified oak towers that reached toward the clouds. Iridescent biological dragonflies glided through azure skies in graceful arcs. The central petroglyph mandala on the central spire glowed with unbroken, radiant teal light.
+The Grand Forum of the Sun-Spire stood as the pinnacle of achievement: colossal white marble plazas framed by living petrified oak towers that reached toward the clouds. Iridescent biological dragonflies glided through open skies in graceful arcs. The central petroglyph mandala on the central spire glowed with unbroken, radiant teal light.
 
 From the forum balcony, the High Speaker of the Golden Age addressed the multitudes:
 
@@ -148,7 +148,7 @@ To ensure no curious wanderer ever stumbled upon the remaining anchor, a canyon 
 
 Deep beneath the surface, in the subterranean root conduits, root-kin archivists pressed glowing cyan mycelium strands against their temples. A massive wave of dark, memory-purging psychic energy pulsed through the root network, systematically wiping every memory of the ancient union, the golden age, and the other clans from the minds of the populace.
 
-In the vision's final, breathtaking instant, five hands—turtle-kin, ember-kin, clay-kin, tempest-kin, and sky-kin—placed their clan rings onto the central stone pact tablet.
+In the vision's final, blinding instant, five hands—turtle-kin, ember-kin, clay-kin, tempest-kin, and sky-kin—placed their clan rings onto the central stone pact tablet.
 
 The central spire flame died. The subterranean vault shattered in a deafening acoustic rupture, tearing space into a swirling vortex of high-frequency teal energy.
 

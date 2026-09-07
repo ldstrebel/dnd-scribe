@@ -1,11 +1,6 @@
----
-title: "The Aftermath & The Sixth Clan"
-author: "The Vumbua Table"
-campaign: Vumbua
-genre: Epic Fantasy / Sci-Fantasy
----
+<!-- RAW_RANGE: [1, 88] | SCENE_ID: 1 | OOC -->
 
-# THE AFTERMATH & THE SIXTH CLAN
+<!-- RAW_RANGE: [89, 230] | SCENE_ID: 2 | OOC -->
 
 <!-- RAW_RANGE: [231, 320] | SCENE_ID: 3 -->
 
@@ -75,8 +70,6 @@ Together, they broke through the final thicket of petrified oaks and emerged ont
 
 <!-- LEDGER: rendered=[240, 243, 245, 246, 252, 261, 262, 269, 278, 312] skipped=[268(ooc), 275(ooc), 282(ooc), 294(ooc), 296(ooc), 298(ooc), 299(ooc), 300(ooc), 301(ooc), 311(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [321, 388] | SCENE_ID: 4 -->
 
 The river ran wide, deep, and bitterly cold, swollen with runoff from the night's unnatural tempest. The ancient Spirit Tortoise was already knifing effortlessly through the center current, its broad shell parting the dark water without hesitation.
@@ -122,8 +115,6 @@ The current seized the raft and hurtled it downstream with astonishing speed, ef
 The raft spun smoothly around the river bend, carrying them all toward the wide basin docks where the arena gates opened to the morning sun.
 
 <!-- LEDGER: rendered=[324, 335, 336, 337, 338, 343, 374] skipped=[342(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [389, 492] | SCENE_ID: 5 -->
 
@@ -185,8 +176,6 @@ Nearby, Loami scanned the crowd for familiar faces from his harbor mechanic and 
 
 <!-- LEDGER: rendered=[392, 408, 409, 464, 484] skipped=[487(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [493, 559] | SCENE_ID: 6 -->
 
 ## CHAPTER 104: WHAT THE SHIELDS DROPPED
@@ -242,8 +231,6 @@ Kale held up his own speaking crystal, offering a faint, tired smile. "Good luck
 Loami gave Kale a reassuring nod, pocketed the tuned stone, and turned back to rejoin the squad's march.
 
 <!-- LEDGER: rendered=[499, 512, 513, 514, 519, 521, 522, 525, 526, 532, 534, 544, 548, 552] skipped=[529(ooc), 555(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [560, 708] | SCENE_ID: 7 -->
 
@@ -325,8 +312,6 @@ With the plan finalized, Squad 907 split their forces: Ignatius, Iggy, and Aggie
 
 <!-- LEDGER: rendered=[561, 563, 574, 575, 578, 581, 585, 588, 589, 615, 616, 619, 635, 657, 675, 677, 683, 690, 696] skipped=[625(ooc), 644(ooc), 653(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [709, 809] | SCENE_ID: 8 -->
 
 ## CHAPTER 106: THE WALKER ELIJAH
@@ -378,8 +363,6 @@ Britt met Professor Ink's steady gaze across the console. "When I have reason to
 "Fair enough," Professor Ink agreed with a solemn nod. "One hour. Prepare your squad."
 
 <!-- LEDGER: rendered=[711, 717, 720, 734, 737, 738, 744, 748, 791, 796] skipped=[] -->
-
----
 
 <!-- RAW_RANGE: [810, 889] | SCENE_ID: 9 -->
 
@@ -440,8 +423,6 @@ Zephyr gave a sly, knowing smirk. "Who's to say? Could have been me... could hav
 "Okay, yeah, that was definitely you," Ignatius chuckled, shaking his head as they fell into rhythm with the rest of the squad.
 
 <!-- LEDGER: rendered=[825, 828, 855, 860, 865] skipped=[] -->
-
----
 
 <!-- RAW_RANGE: [890, 1008] | SCENE_ID: 10 -->
 
@@ -523,8 +504,6 @@ Lucky wiped his face, looking down at Sarge's shrouded cot with a deep, shudderi
 
 <!-- LEDGER: rendered=[890, 931, 936, 941, 952, 959, 962, 963, 965, 975] skipped=[964(ooc), 966(ooc), 967(ooc), 986(ooc), 991(ooc), 996(ooc), 1001(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1009, 1048] | SCENE_ID: 11 -->
 
 ## CHAPTER 109: THE IRONCLAD SALUTE
@@ -565,7 +544,7 @@ Before they reached the boundary, a deafening thunderclap ripped across the enti
 
 *BOOM! BOOM! BOOM!*
 
-A full naval broadside erupted from the massive turrets of the Ironclad battleship. The colossal artillery shells detonated in mid-air over the turquoise water, unleashing a dense, rolling thundercloud of black gunpowder smoke across the bay. A second synchronized barrage fired immediately after, igniting the smoke cloud from within with brilliant resonance pyrotechnics that painted the morning sky in vibrant streaks of crimson, gold, and turquoise. A third salvo cracked like lightning, instantly dispelling the storm cloud in a breathtaking twenty-one-gun salute as Sarge's body was committed to the deep canyon waters. <!-- L1037 -->
+A full naval broadside erupted from the massive turrets of the Ironclad battleship. The colossal artillery shells detonated in mid-air over the turquoise water, unleashing a dense, rolling thundercloud of black gunpowder smoke across the bay. A second synchronized barrage fired immediately after, igniting the smoke cloud from within with brilliant resonance pyrotechnics that painted the morning sky in vibrant streaks of crimson, gold, and turquoise. A third salvo cracked like lightning, instantly dispelling the storm cloud in a thunderous twenty-one-gun salute as Sarge's body was committed to the deep canyon waters. <!-- L1037 -->
 
 Lucky stepped away from the battleship's gangway and jogged up beside Loami on the beach, his jaw set with fierce resolve.
 
@@ -580,8 +559,6 @@ The entire expedition gathered at the base ladder: Britt, Iggy, Ignatius, Loami,
 As the lower entry hatch sealed shut with a pressurized hiss, the massive Spirit Tortoise looked up, met Aggie's eyes through the observation glass with a solemn nod, and surged forward—spinning a trail of flattened brush behind it as *Elijah*'s mechanical legs kicked into a galloping sprint, racing straight into the ancient Mizizi forest.
 
 <!-- LEDGER: rendered=[1021, 1024, 1037] skipped=[1018(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1049, 1137] | SCENE_ID: 12 -->
 
@@ -659,8 +636,6 @@ Ignatius shifted uncomfortably, his cuffs flickering with low embers. "I know ho
 
 <!-- LEDGER: rendered=[1050, 1092, 1093, 1096, 1111, 1112, 1115, 1116] skipped=[] -->
 
----
-
 <!-- RAW_RANGE: [1138, 1282] | SCENE_ID: 13 -->
 
 ## CHAPTER 111: WADI WATER
@@ -726,8 +701,6 @@ Britt smacked her lips, blinking in surprise. "It... honestly tastes like Gatora
 "Gatorade!" Rill laughed with overwhelming relief, slumping against the counter. "Thank the gods. Thank the water." She wiped a bead of sweat from her forehead and smiled. "Okay. Now... onto the next problem."
 
 <!-- LEDGER: rendered=[1138, 1218, 1225, 1243, 1250, 1261, 1264] skipped=[] -->
-
----
 
 <!-- RAW_RANGE: [1283, 1412] | SCENE_ID: 14 -->
 
@@ -827,8 +800,6 @@ Professor Ink climbed down the ladder rungs and pushed open the lower laboratory
 
 <!-- LEDGER: rendered=[1310, 1313, 1316, 1321, 1366, 1377, 1387, 1392, 1395, 1397] skipped=[1290(ooc), 1343(ooc), 1348(ooc), 1371(ooc), 1378(ooc), 1385(ooc), 1290(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1413, 1530] | SCENE_ID: 15 -->
 
 ## CHAPTER 113: THE FORGETFULNESS & THE CLANS
@@ -875,8 +846,6 @@ Loami closed his eyes. In the quiet darkness behind his eyelids, the memory unlo
 
 <!-- LEDGER: rendered=[1413, 1418, 1420, 1425, 1428, 1443, 1444, 1450, 1455, 1466, 1489, 1520, 1528] skipped=[1414(ooc), 1417(ooc), 1422(ooc), 1424(ooc), 1429(ooc), 1447(ooc), 1449(ooc), 1452(ooc), 1457(ooc), 1461(ooc), 1463(ooc), 1469(ooc), 1472(ooc), 1473(ooc), 1475(ooc), 1482(ooc), 1484(ooc), 1491(ooc), 1492(ooc), 1494(ooc), 1506(ooc), 1512(ooc), 1514(ooc), 1516(ooc), 1517(ooc), 1519(ooc), 1522(ooc), 1523(ooc), 1525(ooc), 1530(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1531, 1577] | SCENE_ID: 16 -->
 
 ## CHAPTER 114: THE SIXTH CLAN
@@ -897,7 +866,7 @@ Saffron shook her head slowly, keeping her lips pressed tight.
 
 "Do you have your sketchbook?" Ink asked gently. "Could you draw your home for us?"
 
-Saffron hesitated, looking around at the circle of cadets. Seeing Iggy and Britt nod encouragingly, she pulled a piece of charcoal from her pocket and set her pad on the counter. With swift, elegant strokes, Saffron sketched a breathtaking landmass: an enormous, jagged mountain island floating entirely suspended in mid-air above the sea, completely disconnected from the earth below. <!-- L1560 -->
+Saffron hesitated, looking around at the circle of cadets. Seeing Iggy and Britt nod encouragingly, she pulled a piece of charcoal from her pocket and set her pad on the counter. With swift, elegant strokes, Saffron sketched an impossible landmass: an enormous, jagged mountain island floating entirely suspended in mid-air above the sea, completely disconnected from the earth below. <!-- L1560 -->
 
 The room went completely silent as everyone stared at the impossible floating island.
 
@@ -914,8 +883,6 @@ Britt stood up from the stool, rolling her shoulders. "I'll take the first watch
 "Let's move," Professor Ink commanded.
 
 <!-- LEDGER: rendered=[1532, 1539, 1560, 1562, 1567, 1573] skipped=[] -->
-
----
 
 <!-- RAW_RANGE: [1578, 1600] | SCENE_ID: 17 -->
 
@@ -941,11 +908,9 @@ Beneath Iggy's hands, the glowing teal veins across Mwaza-Kasa's carapace were r
 
 Britt unslung her satchel, stepping up to the perimeter. "I have eight vials of stabilizing antidote," Britt announced firmly. "It won't cure us permanently, but it gives us time. If we are going to touch that tree and uncover what happened here... we take the draught together." <!-- L1598 -->
 
-Aggie walked to an adjacent sentinel tree on the edge of the clearing, placing her palms against its bark to commune with the roots. But the wood remained cold, silent, and petrified—as if the ancient spirit of the forest were holding its breath, waiting for the six clans to step forward.
+Aggie walked to an ancient ironwood on the edge of the clearing, placing her palms against its bark to commune with the roots. But the wood remained cold, silent, and petrified—as if the ancient spirit of the forest were holding its breath, waiting for the six clans to step forward.
 
 <!-- LEDGER: rendered=[1579, 1581, 1583, 1598] skipped=[1584(ooc), 1585(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1590(ooc), 1593(ooc), 1596(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1601, 1650] | SCENE_ID: 18 -->
 
@@ -1003,8 +968,6 @@ Snatching the final vial, Pip downed the liquid, sprinted full speed through the
 
 <!-- LEDGER: rendered=[1601, 1608, 1627, 1628, 1632, 1643, 1645] skipped=[] -->
 
----
-
 <!-- RAW_RANGE: [1651, 1710] | SCENE_ID: 19 -->
 
 ## CHAPTER 117: THE ANCESTRAL VISION
@@ -1017,7 +980,7 @@ It was not a dream, nor was it a simple illusion cast upon the mind. It felt lik
 
 Because they watched as outside observers peering into secondhand memory, no names hovered over the figures. They saw only the living reality of people, places, and sparks as they unfolded across time.
 
-All eleven travelers experienced the revelation simultaneously: an unbroken, breathtaking epic of how their world was forged, how it rotted from within, and the desperate sacrifice that sealed them in the dark.
+All eleven travelers experienced the revelation simultaneously: an unbroken, vivid chronicle of how their world was forged, how it rotted from within, and the desperate sacrifice that sealed them in the dark.
 
 ---
 
@@ -1055,7 +1018,7 @@ In the dark ocean caverns where waves crashed against towering basalt cliffs, th
 
 The alliance provided the key. **The sky-dwellers' mastery over atmospheric air currents and barometric pressure** allowed the clay-kin to regulate the pressure inside deep-sea habitats, creating breathable, climate-controlled stone domes beneath the waves. Combined with **flexible root-wood scaffolding** and **volcanic thermal bronze conduits**, the clay-kin constructed colossal, luminous cities inside subterranean ocean caves. Bioluminescent teal root-lamps lit stone walkways, while heated water channels flowed past carved basalt colonnades.
 
-Across the mainland, the fierce, static-haired **tempest-riders** rode mounted atop colossal biological dragonflies above the clouds, building towering basalt step-pyramids. Yet their mountain-top fortresses were constantly overheated by the raw, unyielding lightning energy they channeled. **The canyon-dwellers' control of cooling waters** provided vast hydraulic cooling channels that cooled the mountain stone, allowing the tempest-riders to turn their mountain cities into breathtaking citadels where storm-copper conductors channeled descending lightning into dynamic, neon-like light shows across the cliffs.
+Across the mainland, the fierce, static-haired **tempest-riders** rode mounted atop colossal biological dragonflies above the clouds, building towering basalt step-pyramids. Yet their mountain-top fortresses were constantly overheated by the raw, unyielding lightning energy they channeled. **The canyon-dwellers' control of cooling waters** provided vast hydraulic cooling channels that cooled the mountain stone, allowing the tempest-riders to turn their mountain cities into fortified citadels where storm-copper conductors channeled descending lightning into dynamic light patterns across the cliffs.
 
 And at the center of the entire union stood the **root-kin archivists**. The living petrified oak forests served as the grand archive of the world. Archivist scholars meticulously encoded and preserved the complex resonance formulas in the living tree bark, teaching every clan how to weave their elemental sparks together into harmonious, living circuits.
 
@@ -1073,7 +1036,7 @@ Atop the central sky-altar, a graceful sky-scholar in flowing purple silk placed
 
 For a golden age, there was unmatched, effortless prosperity.
 
-The Grand Forum of the Sun-Spire stood as the pinnacle of achievement: colossal white marble plazas framed by living petrified oak towers that reached toward the clouds. Iridescent biological dragonflies glided through azure skies in graceful arcs. The central petroglyph mandala on the central spire glowed with unbroken, radiant teal light.
+The Grand Forum of the Sun-Spire stood as the pinnacle of achievement: colossal white marble plazas framed by living petrified oak towers that reached toward the clouds. Iridescent biological dragonflies glided through open skies in graceful arcs. The central petroglyph mandala on the central spire glowed with unbroken, radiant teal light.
 
 From the forum balcony, the High Speaker of the Golden Age addressed the multitudes:
 
@@ -1155,7 +1118,7 @@ To ensure no curious wanderer ever stumbled upon the remaining anchor, a canyon 
 
 Deep beneath the surface, in the subterranean root conduits, root-kin archivists pressed glowing cyan mycelium strands against their temples. A massive wave of dark, memory-purging psychic energy pulsed through the root network, systematically wiping every memory of the ancient union, the golden age, and the other clans from the minds of the populace.
 
-In the vision's final, breathtaking instant, five hands—turtle-kin, ember-kin, clay-kin, tempest-kin, and sky-kin—placed their clan rings onto the central stone pact tablet.
+In the vision's final, blinding instant, five hands—turtle-kin, ember-kin, clay-kin, tempest-kin, and sky-kin—placed their clan rings onto the central stone pact tablet.
 
 The central spire flame died. The subterranean vault shattered in a deafening acoustic rupture, tearing space into a swirling vortex of high-frequency teal energy.
 
@@ -1164,8 +1127,6 @@ And as the swirling vortex of light pulled back through the river of time, the v
 ---
 
 <!-- LEDGER: rendered=[] skipped=[1651(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1711, 1735] | SCENE_ID: 20 -->
 
@@ -1244,3 +1205,5 @@ Rill stepped to the center of the mossy stone stairs, looking across the sacred 
 "If we connect them all," Rill said softly, her blue hair stirring in the rising evening wind, "then we stabilize the resonance decay. The sickness halts. The barriers fall. And the clans can finally come home." She paused, meeting their eyes one by one in the twilight glow. "Momentum is life." <!-- L1731 -->
 
 <!-- LEDGER: rendered=[1711, 1713, 1715, 1716, 1717, 1719, 1725, 1727, 1729, 1731] skipped=[1720(ooc), 1726(ooc)] -->
+
+<!-- RAW_RANGE: [1736, 1821] | SCENE_ID: 21 | OOC -->

@@ -18,7 +18,7 @@ Saffron shook her head slowly, keeping her lips pressed tight.
 
 "Do you have your sketchbook?" Ink asked gently. "Could you draw your home for us?"
 
-Saffron hesitated, looking around at the circle of cadets. Seeing Iggy and Britt nod encouragingly, she pulled a piece of charcoal from her pocket and set her pad on the counter. With swift, elegant strokes, Saffron sketched a breathtaking landmass: an enormous, jagged mountain island floating entirely suspended in mid-air above the sea, completely disconnected from the earth below. <!-- L1560 -->
+Saffron hesitated, looking around at the circle of cadets. Seeing Iggy and Britt nod encouragingly, she pulled a piece of charcoal from her pocket and set her pad on the counter. With swift, elegant strokes, Saffron sketched an impossible landmass: an enormous, jagged mountain island floating entirely suspended in mid-air above the sea, completely disconnected from the earth below. <!-- L1560 -->
 
 The room went completely silent as everyone stared at the impossible floating island.
 
