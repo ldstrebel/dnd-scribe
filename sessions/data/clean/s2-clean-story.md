@@ -145,39 +145,61 @@ Behind them, Britt and Aggie exchanged a glance. Aggie tilted her red cap toward
 
 ## CHAPTER 13: LUCKY'S LUCIDIAN TRADE & THE MISSING CLANS
 
-The argument beneath the lampposts was drawing a small crowd. Standing at the center of the dispute was a young noble dressed in a ruffled silk cravat and embroidered waistcoat, waving an ornate silver cane to punctuate his points. <!-- L0574 -->
+The argument beneath the lampposts was drawing a small crowd. Standing at the center of the dispute was a young noble dressed in a ruffled silk cravat and embroidered waistcoat, waving an ornate silver cane to punctuate his points, striking the iron post hard enough to send tiny orange sparks skipping across the cobblestones. <!-- L0574 -->
 
-"Listen to me!" the young gentleman insisted, leaning forward on the balls of his boots. "I'll wager fifty gold sovereigns right now that there is an subterranean Earth clan! The ancient charts require it! We have two confirmed clans—Ash-Blood and Mizizi. There have to be at least four more waiting beyond the frontier!"
+"Listen to me!" the young gentleman insisted, leaning forward on the balls of his boots and stabbing his cane toward the harbor. "I'll wager fifty gold sovereigns right now that there is an subterranean Earth clan! The ancient charts require it! We have two confirmed clans—Ash-Blood and Mizizi. There have to be at least four more waiting beyond the frontier!"
 
-"Nonsense," grunted a student in dark working leather. "We found fire and plants. That's probably all that survived the Collapse. You're chasing fairy tales." <!-- L0576 -->
+"Nonsense," grunted a student in dark working leather, spitting over the seawall. "We found fire and plants. That's probably all that survived the Collapse. You're chasing fairy tales." <!-- L0576 -->
 
-"Look at the symmetry!" the noble shouted back. "Fire, flora, water, earth, air! It is an elementary resonance circuit! If the old world operated on harmony, the nodes must balance!"
+"Look at the symmetry!" the noble shouted back, spinning on his heel and sketching five connecting circles in the mist with his cane. "Fire, flora, water, earth, air! It is an elementary resonance circuit! If the old world operated on harmony, the nodes must balance!"
 
-A quiet student whose skin was layered in flexible green bark spoke softly from the shadows. "What if they are not the missing? What if we are the ones who forgot?"
+A quiet student whose skin was layered in flexible green bark spoke softly from the shadows, peeling a strip of lichen from a timber piling. "What if they are not the missing? What if we are the ones who forgot?"
 
-A young woman with stark, wind-sheared platinum hair crossed her arms, rolling her eyes. "Or maybe the world is just broken. Not everything needs a neat little pattern. And besides, who would want to live buried in the dark under miles of dirt? No sky, no storms to chase—sounds like misery." <!-- L0629 -->
+A young woman with stark, wind-sheared platinum hair crossed her arms, rolling her eyes as she uncorked a leather waterskin with her teeth. "Or maybe the world is just broken. Not everything needs a neat little pattern. And besides, who would want to live buried in the dark under miles of dirt? No sky, no storms to chase—sounds like misery." <!-- L0629 -->
 
-"Mark my words," the noble declared, tapping his cane against the cobblestones. "When the deep expeditions locate the subterranean clan, I will be vindicated!"
+"Mark my words," the noble declared, driving the ferrule of his cane into a seam between the stones. "When the deep expeditions locate the subterranean clan, I will be vindicated!"
 
-Lomi pushed his way to the front of the circle, thumbs hooked casually into his canvas suspenders. "I don't mean to butt in on high academic theory," he said, drawing amused glances from the students. "But down in the Deep-Hull's furnace decks, we hear things. You spend twelve hours shovel-feeding a boiler beside the hull plates, and you start feeling rhythms vibrating up through the bedrock. Rhythms that don't belong to steam engines or ocean tides. There are old tales among the union crews about subterranean folk who watch the deep shafts."
+Loami pushed his way to the front of the circle, reaching into his canvas pouch to pull out a heavy brass caliper, turning it over in his calloused fingers. "I don't mean to butt in on high academic theory," he said, drawing amused glances as he wiped a grease smudge from the dial. "But down in the Deep-Hull's furnace decks, we hear things. You spend twelve hours shovel-feeding a boiler beside the hull plates, and you start feeling rhythms vibrating up through the bedrock. Rhythms that don't belong to steam engines or ocean tides. There are old tales among the union crews about subterranean folk who watch the deep shafts."
 
 The noble beamed, extending a silk-gloved hand. "See! The working classes know! Percival Van Smite the Third. A pleasure, sir."
 
-"Lomi Sultano," the mechanic replied, shaking the offered hand. "Boilermaker union. Third generation."
+"Loami Sultano," the mechanic replied, gripping the offered hand with an iron clasp. "Boilermaker union. Third generation."
 
-"Salt of the earth," Percival said warmly. "A man of practical observation."
+"Salt of the earth," Percival said warmly, dusting his lapel. "A man of practical observation."
 
-The platinum-haired girl bounded over to Lomi, eyes flashing with impatient energy. "Either way, living underground sounds suffocating. What do you do for fun down in that tin can?" <!-- L0631 -->
+The platinum-haired girl bounded over to Loami, taking a swig from her skin, her eyes flashing with impatient energy. "Either way, living underground sounds suffocating. What do you do for fun down in that tin can?" <!-- L0631 -->
 
-"For fun?" Lomi chuckled. "Well, word is there's a batch of high-proof engine grease floating around the courtyard tonight. That usually gets things lively." <!-- L0632 -->
+"For fun?" Loami chuckled, pocketing his caliper. "Well, word is there's a batch of high-proof engine grease floating around the courtyard tonight. That usually gets things lively." <!-- L0632 -->
 
 The girl's face lit up. "Grease? You mean Chime? Oh, I love drinking things that can also strip paint! Let's find it!" <!-- L0638 --> <!-- L0642 -->
 
-Percival turned on his heel, gesturing toward the industrial quayside. "Say no more. I happen to know an enterprising gentleman who specializes in contraband procurement." <!-- L0649 -->
+Percival turned on his heel, sweeping his cane toward the industrial quayside. "Say no more. I happen to know an enterprising gentleman who specializes in contraband procurement." <!-- L0649 -->
 
-Lomi followed Percival through the swirling currents of students toward the shadows near the canal. There, standing atop a wooden munitions crate, was Lucky. The fast-talking scamp was pulling small items from a frayed leather satchel, entertaining a knot of curious candidates. <!-- L0657 --> <!-- L0659 --> <!-- L0660 -->
+Loami followed Percival through the swirling currents of students toward the shadows near the canal. There, standing atop a wooden munitions crate, was Lucky. The fast-talking scamp was juggling three glowing blue lucidian marbles across his knuckles, pulling small items from a frayed leather satchel to entertain a knot of curious candidates. <!-- L0657 --> <!-- L0659 --> <!-- L0660 -->
 
-"Step right up, ladies and gentlemen! Lucky has arrived on this most auspicious of evenings!" Lucky crowed, spotting Percival in the crowd. "Percy! My dear boy! Are you feeling lucky tonight? What can Lucky provide for our most discerning scholar?"
+"Step right up, ladies and gentlemen! Lucky has arrived on this most auspicious of evenings!" Lucky crowed, catching a falling crystal in his palm and spotting Percival in the crowd. "Percy! My dear boy! Are you feeling lucky tonight? What can Lucky provide for our most discerning scholar?"
+
+---
+
+## CHAPTER 14: THE CYCLE OF LIFE & DEATH
+
+Across the quad, beside the dying coals of the Block 99 pit, Britt crouched on the gravel, using a charred cedar branch to stir the white ash and kick a lazy shower of red sparks toward the stars. <!-- L0665 -->
+
+Aggie knelt beside her in the sand, scooping up a handful of charred pine bark. She rubbed the brittle wood between her scaled palms, watching the fine black powder sift through her fingers into the cool earth. For the Mizizi, this was prayer: watching matter return to soil. <!-- L0668 -->
+
+"It feels strange," Aggie murmured, looking across the bustling campus toward the soaring cranes. "To be surrounded by so many people who fear the end of things."
+
+Britt tossed the cedar stick onto the embers, watching it catch with a gentle crackle. "They think stone lasts forever. They think iron doesn't rust. Back home, if a tree fell, we celebrated the mushrooms that fed on it. Here, they paint over the rust and pretend the winter never comes." <!-- L0672 -->
+
+Ignatius strode over from the terrace steps, his boots crunching on the loose gravel. He dropped his heavy travel pack with a thud, kneeling by the fire ring and extending both palms toward the coals. As the heat radiated against his skin, the smoldering embers in his dark hair brightened from dull crimson to a lively, crackling orange. <!-- L0675 -->
+
+"You two look like you're holding a funeral," Ignatius said, a faint grin teasing his soot-streaked face. <!-- L0678 -->
+
+"Not a funeral," Aggie replied softly, brushing the dark humus from her hands onto her linen lap. "Just listening to the ground breathe." <!-- L0680 -->
+
+Ignatius picked up a flat piece of shale from the rim of the pit, turning it over in his hand before flicking it neatly across the stones. "Well, whatever the ground is saying, the academy is about to test whether we can survive on top of it. Friday's race isn't going to care about ancient philosophy." <!-- L0685 -->
+
+"The race is just speed and iron," Britt said, standing up and brushing the sawdust from her traveler's tunic. "The earth was here before the engines, and it'll be here after they run out of coal." <!-- L0690 -->
 
 "Keep it down, Lucky," Percival muttered, leaning over the crate. "I'm here for a crate of grease."
 
@@ -207,17 +229,17 @@ Serra blinked, unsettled. "I... I have never heard anyone speak of death so casu
 
 ## CHAPTER 14: THE CYCLE OF LIFE & DEATH
 
-The circle around the fire grew contemplative as the warmth seeped into cold joints. Serra sat with her knees pulled to her chest, chin resting on her forearms, watching the embers pulse. <!-- L0702 -->
+The circle around the fire grew contemplative as the warmth seeped into cold joints. Britt grabbed a thick charred branch and slammed it across the stone rim, breaking it into crackling kindling that burst into fresh flame. Serra sat with her knees pulled to her chest, chin resting on her forearms, ducking slightly as a flurry of orange sparks swung upward into the night. <!-- L0702 -->
 
 "Do you talk about death in your nursery tales?" Serra asked, her tone hushed and curious. "In Harmony, we hide death behind rhymes and polite ceremonies. Why speak of it so openly?"
 
-"Why hide the truth?" Aggie replied softly, her voice small but steady. "Death isn't an enemy. It leads to more life. Everything dies eventually. Maybe that's a sorrow, but everything that dies comes back in the cycle. Maybe I'll return as a great iron-bark tree, or a meadow flower. I like being a mushroom for now, though." <!-- L0706 --> <!-- L0709 --> <!-- L0710 -->
+"Why hide the truth?" Aggie replied softly, grabbing a fistful of dry loam and letting it sift over her boots. "Death isn't an enemy. It leads to more life. Everything dies eventually. Maybe that's a sorrow, but everything that dies comes back in the cycle. Maybe I'll return as a great iron-bark tree, or a meadow flower. I like being a mushroom for now, though." <!-- L0706 --> <!-- L0709 --> <!-- L0710 -->
 
 Serra sighed, staring into the flames. "My father is aging, and he would rather discuss anything in the world than his own mortality. Hearing you speak of it with such quiet peace is... refreshing." She paused, turning her bright, inquisitive gaze toward Ignatius. "Do either of you understand what it takes for a new node to integrate with Harmony?" <!-- L0712 --> <!-- L0714 -->
 
-"Not particularly," Britt admitted.
+"Not particularly," Britt admitted, pushing the remaining timbers deeper into the blaze with her boot heel.
 
-Ignatius reached into his heavy canvas pocket and produced a rounded, fist-sized chunk of dark volcanic basalt. He tossed it casually from palm to palm; tiny wisps of steam curled from his calloused skin, but the fabric of his coat remained untouched. "I keep this with me," he said. <!-- L0715 --> <!-- L0717 -->
+Ignatius lunged forward on one knee, reaching into his heavy canvas pocket and grabbing a rounded, fist-sized chunk of dark volcanic basalt. He swung the stone from palm to palm; tiny wisps of steam burst from his calloused skin, but the fabric of his coat remained untouched. He struck the rock lightly against the flagstones, testing its inner vibration. "I keep this with me," he said. <!-- L0715 --> <!-- L0717 -->
 
 Serra's eyes widened. "Doesn't that burn through your pockets?" <!-- L0719 -->
 
@@ -225,11 +247,11 @@ Ignatius laughed, shaking his head. "You think our clan spent three thousand yea
 
 Cassius, sitting nearby, scrambled for his pen, frantically scribbling notes against his knee as Ignatius spoke. <!-- L0735 -->
 
-"The rocks only provide raw thermal energy," Ignatius continued, nodding toward the glowing stone. "We boil water, cook food, and forge metal with them. It's not stable and humming like the crystal batteries your magistrates carry. But here's the mystery: when Harmony's explorers first landed on our shores two years ago, our dying volcanoes suddenly flared back to life. We thought our fires were cooling forever. Then Harmony arrived, and the heat surged." <!-- L0738 --> <!-- L0740 -->
+"The rocks only provide raw thermal energy," Ignatius continued, nodding toward the glowing stone as he grabbed a dry pine cone and dropped it onto the basalt, watching it ignite in a sudden burst of yellow fire. "We boil water, cook food, and forge metal with them. It's not stable and humming like the crystal batteries your magistrates carry. But here's the mystery: when Harmony's explorers first landed on our shores two years ago, our dying volcanoes suddenly flared back to life. We thought our fires were cooling forever. Then Harmony arrived, and the heat surged." <!-- L0738 --> <!-- L0740 -->
 
-Britt leaned forward, her shell plates creaking softly. "What did your clan gain from the alliance?" <!-- L0742 -->
+Britt leaned forward, her shell plates creaking softly as she dragged a split log closer to the fire. "What did your clan gain from the alliance?" <!-- L0742 -->
 
-"Trade," Ignatius said. "We give them hot stone; they give us crystal batteries. And our clan matriarch, Lady Ignis, was granted an official seat in the Council of Harmony. The empire claims that the newest civilization should be given the greatest voice, so the least of us becomes the most of us." He let out a dry, cynical puff of smoke. "Of course, because our elders don't know the first thing about managing an eight-million-person metropolis, the magistrates pull the strings anyway." <!-- L0749 --> <!-- L0753 --> <!-- L0755 --> <!-- L0762 --> <!-- L0781 -->
+"Trade," Ignatius said. "We give them hot stone; they give us crystal batteries. And our clan matriarch, Lady Ignis, was granted an official seat in the Council of Harmony. The empire claims that the newest civilization should be given the greatest voice, so the least of us becomes the most of us." He let out a dry, cynical puff of smoke, pushing the smoldering basalt back into his pocket. "Of course, because our elders don't know the first thing about managing an eight-million-person metropolis, the magistrates pull the strings anyway." <!-- L0749 --> <!-- L0753 --> <!-- L0755 --> <!-- L0762 --> <!-- L0781 -->
 
 Aggie sat in silence, turning Ignatius's words over in her mind. *Two years ago.* The exact moment Harmony landed on the Ash-Blood shores and ignited their dying fires was the exact moment the southern forest stopped decaying. The empire had flooded the Mizizi with iron axes and saws, desperate to force the petrified trees into rot so they could dissect the mechanism of decay. <!-- L0802 --> <!-- L0804 -->
 
