@@ -469,6 +469,11 @@ hr.ornament {
     <dc:creator>{html.escape(author)}</dc:creator>
     <dc:language>en</dc:language>
     <dc:date>{date_str}</dc:date>
+    <dc:description>For eighty years, the maps of Harmony stood still. For ten centuries, civilization survived on a single unbroken law: momentum is life. Every generation discovered a new resonant node, linked an isolated culture into the grand elemental network, and pushed back the deadly, beast-choked shroud of the open sea. But for eight decades, every exploratory fleet returned battered and empty-handed. Then two rival captains breached the storm wall and found the impossible: Vumbua—a colossal, uncharted continent of petrified megaflora, volcanic peaks, and abyssal depths. Now, five mis-sorted cadets from rival elemental cultures must band together at a newly founded frontier academy to solve an ecological stasis that is quietly suffocating their world.</dc:description>
+    <dc:subject>Fantasy</dc:subject>
+    <dc:subject>Science Fantasy</dc:subject>
+    <dc:subject>Adventure</dc:subject>
+    <dc:subject>Daggerheart</dc:subject>
     <meta property="dcterms:modified">{utc_now}</meta>
   </metadata>
   <manifest>
