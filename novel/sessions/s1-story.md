@@ -112,7 +112,7 @@ Now, in the crowded stone thoroughfare of Vumbua, Britt squeezed Aggie's fingers
 
 ## CHAPTER 3: THE BROKEN GANTRY
 
-Loami Sultano fell in beside one of the proctors, his hands casually clasped behind his back, strolling with the easy, rolling confidence of a senior mechanic doing an inspection tour of a municipal boiler works. He was a rugged, broad-shouldered man in his late twenties, built like an anchor and weathered by steam, coal smoke, and engine grease. Beneath a brown woolen flat cap—pinned proudly with a tiny red, white, and green ribbon—his cropped brown hair was damp with sweat. A short beard framed a square jaw smudged with soot, his dark eyes taking in every detail with pragmatic calm. Over his work shirt, he wore a stiff canvas collar reinforced with beaten-iron shoulder pauldrons—the unmistakable gear of an Octoumba boilermaker. <!-- L0378 -->
+Having finished his own mechanical typing exam three rows down from where the desk had just crashed, Loami Sultano stepped out of his plywood cubicle into the warehouse's broad central concourse. As thousands of nervous candidates streamed down the elevated timber walkway toward the exit checkpoints beneath the rattling zinc roof, Loami fell in beside one of the floor proctors, his hands casually clasped behind his back, strolling with the easy, rolling confidence of a senior mechanic doing an inspection tour of a municipal boiler works. He was a rugged, broad-shouldered man in his late twenties, built like an anchor and weathered by steam, coal smoke, and engine grease. Beneath a brown woolen flat cap—pinned proudly with a tiny red, white, and green ribbon—his cropped brown hair was damp with sweat. A short beard framed a square jaw smudged with soot, his dark eyes taking in every detail with pragmatic calm. Over his work shirt, he wore a stiff canvas collar reinforced with beaten-iron shoulder pauldrons—the unmistakable gear of an Octoumba boilermaker. <!-- L0378 -->
 
 "There's quite a lot of you here," Loami remarked, nodding toward the endless rows of booths. "How's — you know. How's your benefits? Everybody doing well? They paying you well here?" <!-- L0379 -->
 
@@ -138,7 +138,7 @@ The proctor exhaled a long, hollow breath, looking up at Loami with haunted eyes
 
 The little proctor watched the tragedy unfold with the numb, mechanical fatigue of someone who had watched it happen a thousand times that morning. "Yeah. So sad." <!-- L0395 -->
 
-Walking just behind them was Ignatius Magmatoa, an Ember Islander whose very presence sent faint ripples of heat shimmering through the damp, drafty corridor. Beneath the raised cowl of his soot-dusted traveler's cloak, literal flames burned in place of hair—a dancing, crackling crown of brilliant orange and amber fire that flickered around a core of midnight-dark locks, casting warm lantern light across his youthful features and fiery amber eyes. As he watched the massive giant being escorted toward the side exits in tears, his brow furrowed, the dancing flames atop his head dimming to an uneasy, smoldering crimson ember. "Why'd you make it so sad?" he muttered under his breath. <!-- L0401 -->
+Walking ten paces behind them in the same central current was Ignatius Magmatoa, an Ember Islander who had just emerged from the opposite testing bay, his very presence sending faint ripples of heat shimmering through the damp, drafty corridor. Beneath the raised cowl of his soot-dusted traveler's cloak, literal flames burned in place of hair—a dancing, crackling crown of brilliant orange and amber fire that flickered around a core of midnight-dark locks, casting warm lantern light across his youthful features and fiery amber eyes. As he watched the massive giant being escorted toward the side exits in tears, his brow furrowed, the dancing flames atop his head dimming to an uneasy, smoldering crimson ember. "Why'd you make it so sad?" he muttered under his breath. <!-- L0401 -->
 
 "I know," the proctor whispered back helplessly.
 
@@ -146,7 +146,7 @@ As the corridor carried them forward, the ruthless logic of the intake gauntlet 
 
 Nobody checked a single receipt along the concourse. Candidates clutched their printed slips like talismans, but the walkway attendants ignored them completely until the far end of the hall. There, the corridor narrowed into a fortified bottleneck manned by two broad, soldier-built guards in heavily wrapped jerkins over padded leather. They stood like warehouse gatekeepers with grease pencils, demanding each candidate's slip, checking the markings, and slashing a heavy black line across the parchment before permitting them to step through the iron gates. <!-- L0411 -->
 
-Iggy, meanwhile, had stopped walking entirely.
+At the far end of the concourse, right where the walkway narrowed toward the fortified exit bottleneck, Iggy had stopped walking entirely.
 
 Standing in the dead center of the thoroughfare was a creature unlike anything else in the hall: a four-foot-tall Earthkin made entirely of packed dark clay and fertile soil, his compact, rounded body shedding fine crumbs of dry earth onto the timber floor with every shuffle. From the top of his smooth, soil-packed head sprouted patches of vibrant green moss and two tiny, unfurling fern fronds, waving gently in the draft of the warehouse rafters. Strapped over his wide, blunt snout was an enormous pair of circular copper goggles, their thick glass lenses half-filled with water that sloshed with every turn of his head, protecting his subterranean eyes from the blinding surface glare. He was bundled inside a comically oversized dark heavy wool trench coat buttoned right to his chin—the hem dragging along the floorboards like a discarded blanket—and in the warm air of the concourse, his damp clay skin was gently steaming like a freshly poured kettle.
 
@@ -226,11 +226,11 @@ He smiled beneath his trench coat collar and hurried forward to find out.
 
 ## CHAPTER 5: THE ACADEMY UNDER CRANES
 
-Britt grabbed Aggie's hand and kept walking — eyes up, pleasant to everyone, offending no one. Aggie let herself be towed along, unruffled by the warmth the guards had shown her sister; she wasn't looking for attention anyway. She was watching for the thing that was *weirder* than everything already on display. <!-- L0467 -->
+Past the iron receipt checkpoint, the warehouse exit doors swung wide, opening onto a grand stone terrace lined with marble pillars that looked down over the turquoise harbor basin. Britt grabbed Aggie's hand and kept walking — eyes up, pleasant to everyone, offending no one. Aggie let herself be towed along, unruffled by the warmth the guards had shown her sister; she was watching for the thing that was *weirder* than everything already on display. <!-- L0467 -->
 
-The warehouse doors opened onto marble pillars, and then the courtyard, and then the *ships*.
+And then, she saw the *ships*.
 
-A monstrous ironclad vessel sat in a harbor basin, its hull plated in brass fittings that caught the pale sun — and moored beside it, a smaller twin crowned with an airship's balloon, the two joined like mother and calf. The people moving beneath them were specks. Whatever "eighty thousand students" meant as a number, this was what it meant as a *place*: a university built out of vessels so large the eye refused to file them as architecture. <!-- L0470 --> <!-- L0474 -->
+A monstrous ironclad vessel sat in the harbor, its hull plated in brass fittings that caught the pale sun — and moored beside it, a smaller twin crowned with an airship's balloon, the two joined like mother and calf. The people moving beneath them were specks. Whatever "eighty thousand students" meant as a number, this was what it meant as a *place*: a university built out of vessels so large the eye refused to file them as architecture. <!-- L0470 --> <!-- L0474 -->
 
 Beyond them, the campus proper was a skeleton mid-birth. Cranes and scaffolding bristled over half-raised halls; only one building stood finished — a domed, pillared edifice at the far side, around which the flow of candidates parted like water around a stone. <!-- L0482 -->
 
@@ -288,7 +288,7 @@ Ignatius adjusted his traveling pack and grinned. *Let them think it. A hearth d
 
 ## CHAPTER 7: THE GOSPEL OF THE BOILER ROOM
 
-Lomi, meanwhile, had stopped walking entirely. He stood with his flat cap tipped back, taking in the cranes, the scaffolds, the half-skinned halls — with the specific expression of a tradesman inspecting someone else's job site. <!-- L0603 -->
+Out on the wide granite esplanade overlooking the construction docks, Loami had stopped walking entirely. Leaning one grease-stained forearm against the base of a towering yellow iron crane, he stood with his flat cap tipped back, taking in the cranes, the scaffolds, the half-skinned halls — with the specific expression of a tradesman inspecting someone else's job site. <!-- L0603 -->
 
 He'd seen this place from the inside. Months ago, when it was just a boat and a ship lashed together, he'd crossed on a maintenance crew — set up some of those very cranes before the work took him below decks, down where the boilers ran hot and the credit ran cold. Now he surfaced into daylight and found the bones standing. <!-- L0605 --> <!-- L0608 -->
 
