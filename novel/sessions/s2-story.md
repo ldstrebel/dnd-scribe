@@ -207,9 +207,9 @@ Cassius leaped from the bench, scrambled for his dropped pen, and lunged forward
 
 Britt leaned forward, her shell plates creaking softly. "What did your clan gain from the alliance?" <!-- L0742 -->
 
-"Trade," Ignatius said. "We give them hot stone; they give us crystal batteries. And our clan matriarch, Lady Ignis, was granted an official seat in the Council of Harmony. The empire claims that the newest civilization should be given the greatest voice, so the least of us becomes the most of us." He let out a dry, cynical puff of smoke. "Of course, because our elders don't know the first thing about managing an eight-million-person metropolis, the magistrates pull the strings anyway." <!-- L0749 --> <!-- L0753 --> <!-- L0755 --> <!-- L0762 --> <!-- L0781 -->
+"Trade," Ignatius said. "We give them hot stone; they give us crystal batteries. And our clan matriarch, Lady Ignis, was granted an official seat in the Council of Harmony. The Council claims that the newest civilization should be given the greatest voice, so the least of us becomes the most of us." He let out a dry, cynical puff of smoke. "Of course, because our elders don't know the first thing about managing an eight-million-person metropolis, the magistrates pull the strings anyway." <!-- L0749 --> <!-- L0753 --> <!-- L0755 --> <!-- L0762 --> <!-- L0781 -->
 
-Aggie sat in silence, turning Ignatius's words over in her mind. *Two years ago.* The exact moment Harmony landed on the Ash-Blood shores and ignited their dying fires was the exact moment the southern forest stopped decaying. The empire had flooded the Mizizi with iron axes and saws, desperate to force the petrified trees into rot so they could dissect the mechanism of decay. <!-- L0802 --> <!-- L0804 -->
+Aggie sat in silence, turning Ignatius's words over in her mind. *Two years ago.* The exact moment Harmony landed on the Ash-Blood shores and ignited their dying fires was the exact moment the southern forest stopped decaying. Harmony traders had arrived in the Mizizi with iron axes and saws, eager to understand the mystery of the petrified forest and dissect the mechanism of decay. <!-- L0802 --> <!-- L0804 -->
 
 A cheerful clatter broke the reverie as Percival returned, his silk waistcoat slightly askew as he strutted back into the circle.
 

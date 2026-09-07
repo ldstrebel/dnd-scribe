@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [249, 335] | SCENE_ID: 4 -->
 
-Without imperial fanfare, the two vessels slipped their moorings and plunged into the open ocean in tight formation. <!-- L0260 --> <!-- L0269 --> <!-- L0271 --> <!-- L0274 -->
+Without ceremonial fanfare, the two vessels slipped their moorings and plunged into the open ocean in tight formation. <!-- L0260 --> <!-- L0269 --> <!-- L0271 --> <!-- L0274 -->
 
 It was a masterclass in complementary seamanship. Sterling’s steady hand plotted the safest vectors through treacherous magnetic drifts, keeping their courses true when the stars vanished, while Elara’s clever mind and experimental bronze resonators stabilized the hulls, balanced the air-scrubbers, and kept the crews healthy through weeks of sub-zero gales. Neither captain sought personal glory at the expense of the other; they moved as one, mutually reinforcing their strengths as they pushed deeper into the uncharted deep. <!-- L0276 --> <!-- L0278 --> <!-- L0282 --> <!-- L0284 --> <!-- L0292 --> <!-- L0299 --> <!-- L0302 --> <!-- L0306 --> <!-- L0308 --> <!-- L0312 --> <!-- L0314 --> <!-- L0317 --> <!-- L0319 -->
 

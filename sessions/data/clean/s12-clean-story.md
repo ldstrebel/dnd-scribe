@@ -841,7 +841,7 @@ Professor Ink dropped down the ladder into the lower laboratory barge, grabbed t
 
 "Delayed is good," Professor Ink breathed, steadying herself. She turned to the squad, her eyes shining with manic scientific excitement. "We have established an unprecedented cognitive phenomenon. Every person in this room can see the Spirit Tortoise—what no one outside our party can do is retain the memory of having seen it! Out in the savanna, the moment your gaze leaves the creature, the entity completely erases its existence from your mind!" <!-- L1418 -->
 
-Ignatius bolted across the floor, grabbed the iron railing, and slammed his palms against the table. "Hold on, hold on. Are you saying we're the only ones in the entire empire who can actually remember the damn turtle?!" <!-- L1420 -->
+Ignatius bolted across the floor, grabbed the iron railing, and slammed his palms against the table. "Hold on, hold on. Are you saying we're the only ones in the entire world who can actually remember the damn turtle?!" <!-- L1420 -->
 
 "Not the only ones who can see it," Ink clarified. "Anyone can see it when looking directly at it. The trick is that breaking visual contact erases the memory from the observer's mind." <!-- L1425 -->
 
@@ -1057,7 +1057,7 @@ The alliance provided the key. **The sky-dwellers' mastery over atmospheric air 
 
 Across the mainland, the fierce, static-haired **tempest-riders** rode mounted atop colossal biological dragonflies above the clouds, building towering basalt step-pyramids. Yet their mountain-top fortresses were constantly overheated by the raw, unyielding lightning energy they channeled. **The canyon-dwellers' control of cooling waters** provided vast hydraulic cooling channels that cooled the mountain stone, allowing the tempest-riders to turn their mountain cities into breathtaking citadels where storm-copper conductors channeled descending lightning into dynamic, neon-like light shows across the cliffs.
 
-And at the center of the entire empire stood the **root-kin archivists**. The living petrified oak forests served as the grand archive of the world. Archivist scholars meticulously encoded and preserved the complex resonance formulas in the living tree bark, teaching every clan how to weave their elemental sparks together into harmonious, living circuits.
+And at the center of the entire union stood the **root-kin archivists**. The living petrified oak forests served as the grand archive of the world. Archivist scholars meticulously encoded and preserved the complex resonance formulas in the living tree bark, teaching every clan how to weave their elemental sparks together into harmonious, living circuits.
 
 In the sandstone canyons, the **canyon-dwellers** built terraced cliffside gardens fed by **volcanic thermal warmth**, **subterranean mineral soil**, and **root-kin botanical design**. High above in the heavens, the **sky-dwellers** transformed their frozen floating sky-isles into glorious terraced step-ziggurats and crystal spires suspended on heavy copper cables, their giant biological dragonflies pulling elegant wooden sky-chariots between landing pads.
 
@@ -1065,7 +1065,7 @@ Atop the central sky-altar, a graceful sky-scholar in flowing purple silk placed
 
 "The circle is woven!" she cried as golden light flared across the ziggurat.
 
-"One Mandala!" the elders answered in unison. "One Empire!"
+"One Mandala!" the elders answered in unison. "One Harmony!"
 
 ---
 
@@ -1073,9 +1073,9 @@ Atop the central sky-altar, a graceful sky-scholar in flowing purple silk placed
 
 For a golden age, there was unmatched, effortless prosperity.
 
-The Grand Forum of the Sun-Spire stood as the pinnacle of achievement: colossal white marble plazas framed by living petrified oak towers that reached toward the clouds. Iridescent biological dragonflies glided through azure skies in graceful arcs. The central petroglyph mandala on the imperial spire glowed with unbroken, radiant teal light.
+The Grand Forum of the Sun-Spire stood as the pinnacle of achievement: colossal white marble plazas framed by living petrified oak towers that reached toward the clouds. Iridescent biological dragonflies glided through azure skies in graceful arcs. The central petroglyph mandala on the central spire glowed with unbroken, radiant teal light.
 
-From the forum balcony, the Empress of the Golden Age addressed the multitudes:
+From the forum balcony, the High Speaker of the Golden Age addressed the multitudes:
 
 "People of the Five Domains! As long as our connection endures, this golden age will never end!"
 
@@ -1085,13 +1085,13 @@ Generations passed in effortless luxury. Surrounded by boundless abundance, soci
 
 Citizens reclined lazily on silk couches in the grand plazas, eating fruit and ignoring hairline fractures in the conduits. Clan boundaries blurred into a comfortable, homogenized mediocrity. At council tables, leaders waved away new ventures with a complacent shrug: *"So much effort to do new things... why bother? We already have everything we could ever need right here."*
 
-In the high Imperial Observatory, a colossal copper-and-stone floor mosaic world map of Vumbua spanned the chamber. A central astrolabe cast shifting seasonal shadows across the floor—spring blossom giving way to summer sun, autumn leaves falling across the stone, winter frost coating the arched windows. Generations walked indifferently over the map, never once looking out toward the uncharted horizons.
+In the high Grand Observatory, a colossal copper-and-stone floor mosaic world map of Vumbua spanned the chamber. A central astrolabe cast shifting seasonal shadows across the floor—spring blossom giving way to summer sun, autumn leaves falling across the stone, winter frost coating the arched windows. Generations walked indifferently over the map, never once looking out toward the uncharted horizons.
 
 An aging architect in brass spectacles looked down at the dust gathering on the map's outer edges.
 
-"My Empress..." the architect murmured, shaking his head. "The surveyors turned back at the borders. Not because they feared the Dark Undone... but because they saw exploration as pointless effort. They simply said we have enough right here."
+"Chancellor..." the architect murmured, shaking his head. "The surveyors turned back at the borders. Not because they feared the Dark Undone... but because they saw exploration as pointless effort. They simply said we have enough right here."
 
-The Empress looked at her fading silk robes, her voice hollow with grief. "We lied to ourselves. Resting on our successes was our decay."
+The Speaker looked at her fading silk robes, her voice hollow with grief. "We lied to ourselves. Resting on our successes was our decay."
 
 ---
 
@@ -1099,7 +1099,7 @@ The Empress looked at her fading silk robes, her voice hollow with grief. "We li
 
 Because the people refused to grow or strive, the living elemental sparks began to suffocate.
 
-The physical infrastructure of the empire began to fracture. In the deep sea habitats, the atmospheric pressure seals maintained by sky-air currents failed, and crushing ocean water violently shattered the clay-kin glass domes. In the skies, giant biological dragonflies—overloaded with luxury cargo and heavy passenger cabins—strained and flipped in mid-air, plunging into the cloud sea. Atop the basalt step-pyramids, unmaintained cooling channels ran dry, and lightning conductors exploded under storm strikes, showering the streets in fire and masonry.
+The physical infrastructure of the great union began to fracture. In the deep sea habitats, the atmospheric pressure seals maintained by sky-air currents failed, and crushing ocean water violently shattered the clay-kin glass domes. In the skies, giant biological dragonflies—overloaded with luxury cargo and heavy passenger cabins—strained and flipped in mid-air, plunging into the cloud sea. Atop the basalt step-pyramids, unmaintained cooling channels ran dry, and lightning conductors exploded under storm strikes, showering the streets in fire and masonry.
 
 *The time of abundance was over.*
 
@@ -1153,7 +1153,7 @@ To ensure no curious wanderer ever stumbled upon the remaining anchor, a canyon 
 
 "We will teach our youth to treat this grove as a taboo of death," the root archivist answered, lowering his head. "If they will not listen, it is better that one curious wanderer die than our entire people perish. May the future forgive us."
 
-Deep beneath the surface, in the subterranean root conduits, root-kin archivists pressed glowing cyan mycelium strands against their temples. A massive wave of dark, memory-purging psychic energy pulsed through the root network, systematically wiping every memory of the grand empire, the golden age, and the other clans from the minds of the populace.
+Deep beneath the surface, in the subterranean root conduits, root-kin archivists pressed glowing cyan mycelium strands against their temples. A massive wave of dark, memory-purging psychic energy pulsed through the root network, systematically wiping every memory of the ancient union, the golden age, and the other clans from the minds of the populace.
 
 In the vision's final, breathtaking instant, five hands—turtle-kin, ember-kin, clay-kin, tempest-kin, and sky-kin—placed their clan rings onto the central stone pact tablet.
 

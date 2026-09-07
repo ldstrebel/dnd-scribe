@@ -67,7 +67,7 @@ The dockmaster hesitated, glanced at the rumbling cargo barrow, and stepped asid
 
 ## Chapter 66: The VIP Corridors & The Observation Deck
 
-Inside, the *Zephyr* was a marvel of gilded imperial engineering and arcane resonance. The lower decks thrummed with the deep, rhythmic pulse of massive piston assemblies and glowing crystalline conduits. As they climbed the iron spiral stairwells toward the upper tiers, the utilitarian steel gave way to polished mahogany paneling, velvet runners, and ornate brass gaseliers. <!-- L1106 --> <!-- L1125 -->
+Inside, the *Zephyr* was a marvel of gilded Harmony engineering and arcane resonance. The lower decks thrummed with the deep, rhythmic pulse of massive piston assemblies and glowing crystalline conduits. As they climbed the iron spiral stairwells toward the upper tiers, the utilitarian steel gave way to polished mahogany paneling, velvet runners, and ornate brass gaseliers. <!-- L1106 --> <!-- L1125 -->
 
 "We're way out of our depth here," Ignatius whispered, peeking around a gilded doorframe into a lavish lounge where faculty members sipped amber spirits from crystal goblets. "If proctors catch us up here, they'll revoke our test permits before tomorrow morning." <!-- L1145 --> <!-- L1165 -->
 

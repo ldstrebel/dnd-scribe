@@ -4,7 +4,7 @@
 
 The morning sun hung low and pale behind a shroud of salt mist and drifting coal smoke when the transport flotilla bumped against the newly laid stone moles. All morning, a relentless line of heavy steam tenders, wooden ferries, and iron barges had churned across the open bay, carrying the first waves of an unprecedented mortal tide—one hundred thousand hopeful candidates from every clan, province, and corner of the known world converging upon the newly anchored frontier.
 
-Beyond the harbor wall, Vumbua Academy rose like a colossal cathedral-city under construction: a grand, ancient center of learning transplanted stone by stone onto the raw basalt cliffs of the southern continent. Towering honey-colored sandstone quads, soaring spires, and cloistered archways stood swaddled in colossal webs of timber scaffolding. Steam-powered derrick cranes groaned against the cliffside, swinging limestone gargoyles, carved lintels, and copper cupolas into place through the drifting sea spray. Master stonemasons in leather aprons shouted over the shriek of rotary stone-saws, while proctors in teal-and-bronze robes tried in vain to maintain academic decorum amid the deafening thrum of cement mixers and crashing surf. It was an old-world empire furiously grafting its thousand-year scholarly traditions into the smoking rock of an untamed frontier.
+Beyond the harbor wall, Vumbua Academy rose like a colossal cathedral-city under construction: a grand, ancient center of learning transplanted stone by stone onto the raw basalt cliffs of the southern continent. Towering honey-colored sandstone quads, soaring spires, and cloistered archways stood swaddled in colossal webs of timber scaffolding. Steam-powered derrick cranes groaned against the cliffside, swinging limestone gargoyles, carved lintels, and copper cupolas into place through the drifting sea spray. Master stonemasons in leather aprons shouted over the shriek of rotary stone-saws, while proctors in teal-and-bronze robes tried in vain to maintain academic decorum amid the deafening thrum of cement mixers and crashing surf. It was an ancient center of learning furiously grafting its thousand-year scholarly traditions into the smoking rock of an untamed frontier.
 
 The receiving docks were a frantic, roaring funnel. Creaking timber pilings, stone seawalls slick with foam, and cavernous corrugated intake sheds channeled the massive press of candidates off the gangways. Massive recruitment posters were pasted across every blank timber hoarding in fresh black-and-teal ink, their bold block lettering shouting **MOMENTUM IS LIFE** and **VUMBUA ACADEMY FOR EXPLORERS** to anyone desperate enough to read them.
 
@@ -60,17 +60,15 @@ In the dead, horrified quiet that followed, a single small sound cut through the
 
 Aggie's completion flag sprang proudly into the air. Through the partition, Aggie looked up from her completed survey, blinking in quiet wonder, a faint, immaculate smile playing on her lips — timed with absolute, cinematic perfection. <!-- L0364 -->
 
-In the aisle, Britt casually brushed the sawdust from her knees, slipped two fingers into her pocket, and produced the crumpled slip of parchment.
+In the aisle, Britt casually brushed the sawdust from her knees, pulled the crumpled ticket from her pocket, and offered the attendant a bright, innocent smile.
 
-"Oh," she said, smiling cheerfully at the trembling attendant. "I found it."
+"Oh," she said. "I found it."
 
-The attendant stared between the shattered remnants of the typewriter and Britt's beaming face, his voice rising an octave in sheer desperation. "Please. Please follow me, ma'am. Please follow—" He turned and practically bolted down the aisle. <!-- L0371 -->
+The attendant stared from the shattered machine on the floor to the scrap of paper in her hand, his voice jumping an octave. "Please, ma'am—just follow me to the exit." <!-- L0371 -->
 
-Britt caught Aggie's eye across the row — *let's go, right now* — and slipped into the walkway behind him. <!-- L0374 -->
+He hurried down the aisle without looking back. Britt caught Aggie's eye through the partition, gave a quick nod, and fell in behind him as Aggie stepped out of her booth. As they merged into the concourse surge, another passing proctor stamped Britt's crumpled docket on the fly—one of dozens of harried attendants struggling to herd thousands of applicants through the hall. <!-- L0374 --> <!-- L0375 -->
 
-Before they had gone ten yards, a second attendant came sprinting out of the corridor crush, clutching a fresh sheet of parchment and waving it wildly over her head. "Ma'am! Ma'am, excuse me, ma'am!" She skidded to a halt, thrust the replacement paper into Britt's hands, gasped a breathless "you're welcome," and was immediately swallowed back into the churning sea of applicants. There were hundreds of these exhausted proctors running through the aisles, shepherds frantically trying to manage thousands of candidates at once. <!-- L0375 -->
-
-At the end of the aisle, the party converged again, drawn into the central concourse like tributaries joining a slow, swelling river.
+At the mouth of the aisle, the crowd swept them into the central thoroughfare.
 
 ---
 
@@ -94,7 +92,7 @@ A year later, when Rill's open invitation arrived, Aggie had stood at the edge o
 
 *"I don't care what they have,"* Britt had answered, her root-dreadlocks tightening in fierce determination. *"We're going. And wherever you go, I go. Nobody takes you away from your clan."* <!-- s0:L0383 --> <!-- s0:L0404 -->
 
-Now, in the crowded stone thoroughfare of Vumbua, Britt squeezed Aggie's fingers once, grounding them both. They were through the first barrier. Whatever the northern empire had built here, it wouldn't break them.
+Now, in the crowded stone thoroughfare of Vumbua, Britt squeezed Aggie's fingers once, grounding them both. They were through the first barrier. Whatever was happening to their clan, if the answers existed somewhere in this strange city, they would find them.
 
 ---
 

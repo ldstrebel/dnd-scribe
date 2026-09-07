@@ -10,7 +10,7 @@ Professor Ink dropped down the ladder into the lower laboratory barge, grabbed t
 
 "Delayed is good," Professor Ink breathed, steadying herself. She turned to the squad, her eyes shining with manic scientific excitement. "We have established an unprecedented cognitive phenomenon. Every person in this room can see the Spirit Tortoise—what no one outside our party can do is retain the memory of having seen it! Out in the savanna, the moment your gaze leaves the creature, the entity completely erases its existence from your mind!" <!-- L1418 -->
 
-Ignatius bolted across the floor, grabbed the iron railing, and slammed his palms against the table. "Hold on, hold on. Are you saying we're the only ones in the entire empire who can actually remember the damn turtle?!" <!-- L1420 -->
+Ignatius bolted across the floor, grabbed the iron railing, and slammed his palms against the table. "Hold on, hold on. Are you saying we're the only ones in the entire world who can actually remember the damn turtle?!" <!-- L1420 -->
 
 "Not the only ones who can see it," Ink clarified. "Anyone can see it when looking directly at it. The trick is that breaking visual contact erases the memory from the observer's mind." <!-- L1425 -->
 
