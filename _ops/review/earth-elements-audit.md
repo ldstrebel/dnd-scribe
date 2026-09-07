@@ -1,8 +1,8 @@
 # 🌍 Master Upstream Audit: Proper Nouns & Earth Elements
 
-**Total Flagged Instances in Upstream Transcripts:** 89  
+**Total Flagged Instances in Upstream Transcripts:** 85  
 **Downstream Leaks in Novel Prose:** 0  
-**Adapted / Omitted Cleanly:** 89  
+**Adapted / Omitted Cleanly:** 85  
 
 > [!IMPORTANT]
 > When DMs or players use Earth metaphors, pop-culture similes, or real-world demonyms at the table (e.g. 'English butler', 'Costco gatekeepers'), 
@@ -18,7 +18,7 @@
 
 ## 📜 All Flagged Upstream Raw Elements by Session
 
-### S1 (25 flagged items)
+### S1 (23 flagged items)
 | Source | Raw ID | Speaker | Flagged Term | Category | Downstream Status | Raw Transcript Line |
 |---|---|---|---|---|---|---|
 | raw-indexed | `L0006` | John: | `Hawaiian` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | similar to what I would call a like a hyperbole of some Hawaiian sentiment of like so... |
@@ -28,7 +28,6 @@
 | raw-indexed | `L0032` | John: | `black stone` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | This is the This is the equivalent of using like a black stone and then like using th... |
 | raw-indexed | `L0143` | Luke S: | `NFL` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | This is your best chance because if you can get that rank of explore or not, it's it'... |
 | raw-indexed | `L0145` | Luke S: | `English` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | and the flow of of civilization just pulls you in its wake very easily to where the t... |
-| raw-indexed | `L0145` | Luke S: | `butler` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | and the flow of of civilization just pulls you in its wake very easily to where the t... |
 | raw-indexed | `L0145` | Luke S: | `sultan` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | and the flow of of civilization just pulls you in its wake very easily to where the t... |
 | raw-indexed | `L0346` | Luke F: | `Bluetooth` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | it didn't print like the Bluetooth's not |
 | raw-indexed | `L0411` | Luke S: | `Costco` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | until you get to the end and I think like there's um uh there's quite a lot of people... |
@@ -40,7 +39,6 @@
 | raw-indexed | `L0916` | Luke S: | `Greek` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | Um, and we'll do the best we can to be common sense where where it like matters. Um, ... |
 | raw-indexed | `L1268` | Holly: | `Super Bowl` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | The eighth is the Super Bowl. |
 | clean-transcript | `clean:L27` | Clean Transcript | `English butler` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | (Beat) It prints out the rank... Gold, Silver, Copper, Rust. It cuts itself off and d... |
-| clean-transcript | `clean:L27` | Clean Transcript | `butler` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | (Beat) It prints out the rank... Gold, Silver, Copper, Rust. It cuts itself off and d... |
 | clean-transcript | `clean:L27` | Clean Transcript | `Sultan` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | (Beat) It prints out the rank... Gold, Silver, Copper, Rust. It cuts itself off and d... |
 | clean-transcript | `clean:L35` | Clean Transcript | `Bluetooth` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | **BRITT (SOPHIE)** Can I try to rip my ticket off and shove it in my pocket and be li... |
 | clean-transcript | `clean:L55` | Clean Transcript | `Costco` | Real-World Brand / Modern Tech / Pop Culture | 🟢 Adapted / Omitted | **GM (LUKE S)** (Narrating) As you are working your way through, about one in five is... |
@@ -100,11 +98,9 @@
 | clean-transcript | `clean:L32` | Clean Transcript | `Irish` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | He just kind of Irish-goodbyed. Didn't say anything to anybody. Slipped away the mome... |
 | clean-transcript | `clean:L402` | Clean Transcript | `Irish` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | - [[iggy\|Iggy]] Irish-goodbyed from the bonfire but rejoined the group for the [[Cele... |
 
-### S3 (6 flagged items)
+### S3 (4 flagged items)
 | Source | Raw ID | Speaker | Flagged Term | Category | Downstream Status | Raw Transcript Line |
 |---|---|---|---|---|---|---|
-| raw-indexed | `L0016` | Unknown | `butler` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | [ai-summary] * **Arrival at Celestial Lounge**: The group arrived at the Celestial Lo... |
-| raw-indexed | `L0055` | Unknown | `butler` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | [ai-summary] A man in, like, a little sort of butler's outfit who seems to be acting ... |
 | raw-indexed | `L0057` | Unknown | `Oxford Steam` | Earth Place / Institution | 🟢 Adapted / Omitted | [ai-summary] This is a little bit more of a moody and modern vibe than I was going fo... |
 | raw-indexed | `L0074` | Unknown | `English` | Earth Nationality / Culture / Demonym | 🟢 Adapted / Omitted | [ai-summary] Someone to play? It's not that late. English. You play games, right? I p... |
 | raw-indexed | `L0159` | Unknown | `Ninja` | Earth Historical Role / Out-of-Universe Title | 🟢 Adapted / Omitted | [ai-summary] To. Yeah, loan, ignatious. I think Brit's in trouble. Can you guys help?... |

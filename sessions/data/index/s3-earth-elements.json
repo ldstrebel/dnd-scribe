@@ -2,32 +2,6 @@
   {
     "session_id": "s3",
     "source": "raw-indexed",
-    "raw_id": "L0016",
-    "raw_line": 16,
-    "speaker": "Unknown",
-    "term": "butler",
-    "category": "Earth Historical Role / Out-of-Universe Title",
-    "guidance": "Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout').",
-    "raw_text": "[ai-summary] * **Arrival at Celestial Lounge**: The group arrived at the Celestial Lounge, encountering a man in a butler's outfit acting as a quasi-bouncer outside the door. Luke S noted that the area was quiet with minimal traffic, mostly students returning to Booma. The view from the top floor was described as impressive, overlooking the large city of Vimua, the Sky Spire balloon, and the steam stacks of Deepole.",
-    "downstream_leaked": false,
-    "leak_count": 0
-  },
-  {
-    "session_id": "s3",
-    "source": "raw-indexed",
-    "raw_id": "L0055",
-    "raw_line": 55,
-    "speaker": "Unknown",
-    "term": "butler",
-    "category": "Earth Historical Role / Out-of-Universe Title",
-    "guidance": "Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout').",
-    "raw_text": "[ai-summary] A man in, like, a little sort of butler's outfit who seems to be acting as a quasi bouncer outside of the door that says Celestial Lounge. As you've been walking, it's been pretty quiet. There hasn't been very much traffic. Most of the traffic you have seen have been students returning back to. You're one of the few leaving at this hour. And, yeah, you come up to the doors of the Celestial Lounge.",
-    "downstream_leaked": false,
-    "leak_count": 0
-  },
-  {
-    "session_id": "s3",
-    "source": "raw-indexed",
     "raw_id": "L0057",
     "raw_line": 57,
     "speaker": "Unknown",
@@ -59,7 +33,7 @@
     "speaker": "Unknown",
     "term": "Ninja",
     "category": "Earth Historical Role / Out-of-Universe Title",
-    "guidance": "Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout').",
+    "guidance": "Adapt to in-world caste or profession (e.g. 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout').",
     "raw_text": "[ai-summary] To. Yeah, loan, ignatious. I think Brit's in trouble. Can you guys help? And then she's just gonna start taking off. Not really checking to see if they're following, just hoping that they are. I kind of feel like in my mind, Britt moves like a Ninja Turtle, but Aggie moves somewhere between the Ninja Turtle and the Pillsbury Doughboy. Okay? And then if they do fall, then she'll. I mean, pass along the message, basically.",
     "downstream_leaked": false,
     "leak_count": 0

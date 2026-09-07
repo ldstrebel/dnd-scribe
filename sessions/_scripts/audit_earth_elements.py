@@ -50,9 +50,9 @@ EARTH_PATTERNS = [
         "Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab')."
     ),
     (
-        r"\b(butler|sultan|caesar|tsar|samurai|ninja|cowboy|viking)\b",
+        r"\b(sultan|caesar|tsar|samurai|ninja|cowboy|viking)\b",
         "Earth Historical Role / Out-of-Universe Title",
-        "Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout')."
+        "Adapt to in-world caste or profession (e.g. 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout')."
     ),
 ]
 
