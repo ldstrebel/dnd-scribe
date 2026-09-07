@@ -18,7 +18,7 @@ Among the massive crowd are five candidates entering the intake for wildly diffe
 
 Though each enters the trials alone, they quickly realize that whatever answers they seek lie within the Academy's rigorous curriculum and the reach it provides. As fate and circumstance continually draw these five would-be adventurers together—from shared campfires and chaotic harbor docks to the high-stakes written gauntlet of the Apex Arena—they must learn to lean on one another to survive the ruthless competition.
 
-Because on the frontier of Vumbua, passing the exams is only the beginning... and momentum is life.
+Because at Vumbua Academy, passing the exams is only the beginning... and momentum is life.
 
 ---
 
