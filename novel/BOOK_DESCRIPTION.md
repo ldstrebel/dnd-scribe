@@ -10,15 +10,15 @@ For generations, the maps of Harmony had stood still. Without new lands or livin
 
 The discovery ignites a worldwide exploration fever. To train a new vanguard of exploranauts, the **Vumbua Academy of Explorers** drops anchor at the frontier, opening an unprecedented open call: anyone who can reach the harbor docks can take the entrance trials. But in this academy, you only get **one shot in your lifetime**—and over one hundred thousand hopeful candidates have arrived on the morning tide to take it.
 
-Among the massive crowd are five candidates carrying their own private stakes:
+Among the massive crowd are five candidates entering the intake for wildly different reasons:
 - **Loami**, a union boilermaker who knows that grand expeditions fail without someone to keep the pressure up and the engines running;
 - **Britt & Aggie**, fungal-turtle cousins from the secluded southern canopy, desperate to understand why their ancient home forest has unnaturally ceased its cycle of decay;
 - **Ignatius**, a fire-haired island cadet navigating metropolitan politics on a personal pilgrimage for his clan;
 - **Iggy**, an eccentric four-foot-tall soil-kin in water-filled goggles and a heavy trench coat, stepping out of the deep to explore the surface world.
 
-Sorted together into the same freshman crew by the Academy's mysterious examination machinery, these five cadets must navigate the brutal culling of the entrance surveys, survive the high-stakes written gauntlet of the Apex Arena, and master dangerous flight maneuvers aboard the fleet.
+Though each enters the trials alone, they quickly realize that whatever answers they seek lie within the Academy's rigorous curriculum and the reach it provides. As fate and circumstance continually draw these five would-be adventurers together—from shared campfires and chaotic harbor docks to the high-stakes written gauntlet of the Apex Arena—they must learn to lean on one another to survive the ruthless competition.
 
-But as they dig beneath the surface of the frontier, they begin to discover that the mysteries threatening their distant homes are bound to the lost history of the land itself—and that true connection is the only thing that keeps the world alive.
+Because on the frontier of Vumbua, passing the exams is only the beginning... and true connection is the only thing that keeps the world alive.
 
 ---
 
@@ -34,7 +34,7 @@ The central conflict is not an evil empire or an invading army. The threat is ec
 - In the metropolis of Harmony, energy reserves have drained after a long drought of new discoveries.
 
 ### The Arc of Act I & Act II
-1. **Act I: The Crucible (Prologue to Session 4.5):** Follows the historic contact with the two isolated clans, the chaotic arrival of 100,000 candidates at the half-built harbor academy, the comedy and tension of the sorting examinations, and the bonding of the freshman crew around nighttime campfires.
+1. **Act I: The Crucible (Prologue to Session 4.5):** Follows the historic contact with the two isolated clans, the chaotic arrival of 100,000 candidates at the half-built harbor academy, the individual struggles with the sorting examinations, and the organic bonding of the five candidates around nighttime campfires and through the Apex written trials.
 2. **Act II: Shrouded Waters & The Resonance Run (Sessions 5 to 12):** Escalates into tactical flight training on the airship *Zephyr*, hazardous salvage in the flooded steam corridors of the *Deep-Hull*, high-speed racing through the half-mile-wide Basalt Canyon, and a climactic descent into the Abyssal Rift where the ancient memory of the First Mandala is finally revealed.
 
 ---
@@ -57,7 +57,7 @@ The central conflict is not an evil empire or an invading army. The threat is ec
 ## 4. Elevator Pitches (Quick Reference)
 
 - **One-Sentence Hook:**  
-  *After generations of stalled maps, five unlikely cadets from distant elemental cultures must pass the ruthless trials of the newly anchored Vumbua Academy of Explorers to solve an ecological mystery threatening their homes.*
+  *When an unprecedented open intake draws over 100,000 candidates to the newly anchored Vumbua Academy of Explorers, five disparate outsiders find their paths continuously crossing as they navigate the ruthless trials to save their distant homes.*
 
 - **Two-Sentence Retail Pitch:**  
-  *When breakthrough expeditions uncover two lost elemental clans, the Vumbua Academy of Explorers opens an unprecedented open intake, drawing over 100,000 candidates for a once-in-a-lifetime shot at the frontier. But when five cadets from rival cultures are sorted into the same freshman crew, they must survive grueling trials, aerial maneuvers, and deep-canyon races to unlock the forgotten connection that keeps their world alive.*
+  *After generations of stalled maps, the Vumbua Academy of Explorers opens a once-in-a-lifetime intake for anyone brave enough to reach the harbor docks. Entering alone for their own private reasons, five unlikely candidates find fate and circumstance repeatedly throwing them together—realizing that surviving the brutal trials and uncovering the world's lost history will require forging an unbreakable bond.*
