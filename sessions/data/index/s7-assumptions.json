@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "id": "A-001",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      143
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: American (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "from the traditional definitions, not the American definitions.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-002",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      411
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: English (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "thing like oh dude that whole that whole time I was like I know there was good scores on both sides but like I just feel like both especially the English goalkeeper was just f\\*\\*\\*\\*\\*\\* saving all these little things and just all I was just like holy",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-003",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      439
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: NFL (Real-World Brand / Modern Tech / Pop Culture). Guidance: Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "It's the whole It's having people come in motion in the NFL.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-004",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      483
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: European (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "Yeah, it has been fun. I really like the um the an like it would be awesome that within five years the states could learn a couple of things about European soccer development and the one thing that I would want is like to play for a good travel team it probably cost you like $15,000 a kid and what what they do in Europe is the when the player gets their first contract the clubs pay the clubs that develop the player for that contract and so like it cost $120 $20 for a parent to put their kid in the best club in Europe, but they just offload the signing fee until later. It's like, oh, it's it's kind of sick.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-005",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      719
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: European (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "I think there's probably a couple people that he like similar to European soccer for Americans would be knocking on their door at 8 a.m. with beer in hand, ale in hand. Like,",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-006",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      745
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Viking (Earth Historical Role / Out-of-Universe Title). Guidance: Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "like Viking type build and he's a lot a lot taller than Loami in my mind.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L0378",
+    "raw_line": 378,
+    "speaker": "John:",
+    "term": "English",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "This is gonna be great English practice. Hi",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L0715",
+    "raw_line": 715,
+    "speaker": "Luke S:",
+    "term": "Roman",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "Go ahead, Roman. One more uh instinct check to see if he can get at least into the forest more",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L2681",
+    "raw_line": 2681,
+    "speaker": "Luke F:",
+    "term": "Greek",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "she speaks Greek in the",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L2941",
+    "raw_line": 2941,
+    "speaker": "John:",
+    "term": "English",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "This is gonna be great English practice. Hi",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L3287",
+    "raw_line": 3287,
+    "speaker": "Luke S:",
+    "term": "Roman",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "Go ahead, Roman. One more uh instinct check to see if he can get at least into the forest more",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L4084",
+    "raw_line": 4084,
+    "speaker": "Luke S:",
+    "term": "French",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "Um, are are you alone? Um, yeah, I'm here alone, but no, I don't think she's she's not Nordic. If I can if I can get back into French, I'll be my else. Um, yes, I am here before. No, that's it. I'm just gonna Yeah. Yeah. No, I I just me I I came down from from the the there ships. Uh, we got cool gliders. Anyways, I've been looking for y'all.",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s10",
+    "source": "raw-indexed",
+    "raw_id": "L5286",
+    "raw_line": 5286,
+    "speaker": "Luke F:",
+    "term": "Greek",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "she speaks Greek in the",
+    "downstream_leaked": false,
+    "leak_count": 0
+  }
+]

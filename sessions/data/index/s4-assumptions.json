@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "A-001",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      404
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Disney (Earth Place / Institution). Guidance: Replace with in-world scholarly institutions or styles (e.g. 'high-scholastic', 'imperial academy', 'grand amphitheater'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "Yeah, we um we we have Disney Plus and Hulu and so does John have Disney Plus and Hulu and ESPN.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-002",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      409
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Disney (Earth Place / Institution). Guidance: Replace with in-world scholarly institutions or styles (e.g. 'high-scholastic', 'imperial academy', 'grand amphitheater'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "So then I dropped that and I've been using John's Disney and then I have my own Hulu and I added on HBO,",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-003",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      419
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Disney (Earth Place / Institution). Guidance: Replace with in-world scholarly institutions or styles (e.g. 'high-scholastic', 'imperial academy', 'grand amphitheater'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "I was worried about the Disney Plus ads,",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-004",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      682
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Disney (Earth Place / Institution). Guidance: Replace with in-world scholarly institutions or styles (e.g. 'high-scholastic', 'imperial academy', 'grand amphitheater'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "Yeah, today one of my co-workers had it and it we all just sat there for like 20 seconds. Isn't that a thing? Uh, we have one guy who's just Yeah, he's more than I love the ones that are like Disney with like the Grinch and he's like 89 and there's like no really overdramatic face",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-005",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      1240
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: French (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "It smells like bacon and French toast with pancakes and eggs and biscuits and gravy.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-006",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      1414
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: French (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "and French",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-007",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      1415
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: French (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "there's juices, and then there is freestyle seating in in French toast,",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-008",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      2027
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Roman (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "but it's damn near close to go to these. It's it's not like Roman coliseum type of like public event, but it's it's damn near close.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  }
+]

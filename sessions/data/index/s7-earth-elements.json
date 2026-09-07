@@ -1,0 +1,80 @@
+[
+  {
+    "session_id": "s7",
+    "source": "raw-indexed",
+    "raw_id": "L0143",
+    "raw_line": 143,
+    "speaker": "Luke S:",
+    "term": "American",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "from the traditional definitions, not the American definitions.",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s7",
+    "source": "raw-indexed",
+    "raw_id": "L0411",
+    "raw_line": 411,
+    "speaker": "John:",
+    "term": "English",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "thing like oh dude that whole that whole time I was like I know there was good scores on both sides but like I just feel like both especially the English goalkeeper was just f\\*\\*\\*\\*\\*\\* saving all these little things and just all I was just like holy",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s7",
+    "source": "raw-indexed",
+    "raw_id": "L0439",
+    "raw_line": 439,
+    "speaker": "Luke F:",
+    "term": "NFL",
+    "category": "Real-World Brand / Modern Tech / Pop Culture",
+    "guidance": "Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab').",
+    "raw_text": "It's the whole It's having people come in motion in the NFL.",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s7",
+    "source": "raw-indexed",
+    "raw_id": "L0483",
+    "raw_line": 483,
+    "speaker": "Luke S:",
+    "term": "European",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "Yeah, it has been fun. I really like the um the an like it would be awesome that within five years the states could learn a couple of things about European soccer development and the one thing that I would want is like to play for a good travel team it probably cost you like $15,000 a kid and what what they do in Europe is the when the player gets their first contract the clubs pay the clubs that develop the player for that contract and so like it cost $120 $20 for a parent to put their kid in the best club in Europe, but they just offload the signing fee until later. It's like, oh, it's it's kind of sick.",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s7",
+    "source": "raw-indexed",
+    "raw_id": "L0719",
+    "raw_line": 719,
+    "speaker": "Luke F:",
+    "term": "European",
+    "category": "Earth Nationality / Culture / Demonym",
+    "guidance": "Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant').",
+    "raw_text": "I think there's probably a couple people that he like similar to European soccer for Americans would be knocking on their door at 8 a.m. with beer in hand, ale in hand. Like,",
+    "downstream_leaked": false,
+    "leak_count": 0
+  },
+  {
+    "session_id": "s7",
+    "source": "raw-indexed",
+    "raw_id": "L0745",
+    "raw_line": 745,
+    "speaker": "Luke S:",
+    "term": "Viking",
+    "category": "Earth Historical Role / Out-of-Universe Title",
+    "guidance": "Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout').",
+    "raw_text": "like Viking type build and he's a lot a lot taller than Loami in my mind.",
+    "downstream_leaked": false,
+    "leak_count": 0
+  }
+]

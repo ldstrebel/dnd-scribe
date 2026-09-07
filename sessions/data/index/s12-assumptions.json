@@ -1178,5 +1178,117 @@
     "confidence": "high",
     "raw_text": "she's just like skipping around the the clearing ... so ... if we connect them all Then we'll stabilize the resonance decay ... Momentum is life and that's where I will end.",
     "id": "A-088"
+  },
+  {
+    "id": "A-089",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      30
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Viking (Earth Historical Role / Out-of-Universe Title). Guidance: Adapt to in-world caste or profession (e.g. 'courtly majordomo', 'palace steward', 'sovereign warlord', 'drifter hunter', 'frontier scout'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "- [ ] \\[Lucky\\] Conduct Funeral: Perform a modified Viking funeral for Sarge using the battleship.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-090",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      38
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Wi-Fi (Real-World Brand / Modern Tech / Pop Culture). Guidance: Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "* **Technical Setup and Connectivity**: Luke S, Sophie Foreman Noone, and Holly Strebel discussed connectivity issues impacting the session, specifically regarding a local Wi-Fi outage and the use of a mobile hotspot. John Hagey noted a minor delay in paying a gas bill, while Luke S worked on technical workarounds to manage character sheets, including SSH access to a Raspberry Pi and extracting files, due to Foundry not loading properly ([00:00:06](#00:00:06)) ([00:03:20](#00:03:20)).",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-091",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      99
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Wi-Fi (Real-World Brand / Modern Tech / Pop Culture). Guidance: Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "Wi-Fi.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-092",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      103
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Wi-Fi (Real-World Brand / Modern Tech / Pop Culture). Guidance: Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "What's wrong with your Wi-Fi.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-093",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      155
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Wi-Fi (Real-World Brand / Modern Tech / Pop Culture). Guidance: Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "Uhhuh. Also, our Wi-Fi has been down for two days, which means no foundry tonight. I'm spinning up a rolling back up. You need it for rolls. Cool, cool, cool, cool, cool, cool. I'm going to miss all the images.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-094",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      229
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: Wi-Fi (Real-World Brand / Modern Tech / Pop Culture). Guidance: Paraphrase into arcanatech or logistical reality (e.g. 'strict manifest checkpoint with grease pencils', 'colossal dreadnought', 'frequency resonance', 'searing slab'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "Um, and there just won't be like a character sheet. Yeah. So sorry. So sorry. Looked like my phone tried to connect direct to the Wi-Fi. That's still broken.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
+  },
+  {
+    "id": "A-095",
+    "stage": "novelization",
+    "scene_id": 1,
+    "raw_lines": [
+      610
+    ],
+    "type": "earth_realia",
+    "assumption": "Speaker used Earth element/proper noun: African (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
+    "confidence": "medium",
+    "raw_text": "silly African dialect that I was using for the naming of things. um calls it, but where I was like um yeah, I mean I I guess I recognize that as as something that I was taught to a avoid at all possible costs.",
+    "review": {
+      "status": "pending",
+      "correction": ""
+    }
   }
 ]
