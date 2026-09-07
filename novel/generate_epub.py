@@ -469,7 +469,7 @@ hr.ornament {
     <dc:creator>{html.escape(author)}</dc:creator>
     <dc:language>en</dc:language>
     <dc:date>{date_str}</dc:date>
-    <dc:description>For eighty years, the maps of Harmony stood still. For ten centuries, civilization survived on a single unbroken law: momentum is life. Every generation discovered a new resonant node, linked an isolated culture into the grand elemental network, and pushed back the deadly, beast-choked shroud of the open sea. But for eight decades, every exploratory fleet returned battered and empty-handed. Then two rival captains breached the storm wall and found the impossible: Vumbua—a colossal, uncharted continent of petrified megaflora, volcanic peaks, and abyssal depths. Now, five mis-sorted cadets from rival elemental cultures must band together at a newly founded frontier academy to solve an ecological stasis that is quietly suffocating their world.</dc:description>
+    <dc:description>In a world driven by momentum, discovery is everything. For generations, the maps of Harmony had stood still—until two breakthrough expeditions made contact with the isolated Ash-Blood volcanic isles and the ancient Mizizi root-forest. To train a new vanguard of exploranauts, the Vumbua Academy of Explorers drops anchor at the frontier, opening a once-in-a-lifetime intake for over one hundred thousand hopeful candidates. Sorted together into the same freshman crew, five unlikely cadets from distant cultures must navigate brutal entrance trials, dangerous flight maneuvers, and ancient mysteries to unlock the connection that keeps their world alive.</dc:description>
     <dc:subject>Fantasy</dc:subject>
     <dc:subject>Science Fantasy</dc:subject>
     <dc:subject>Adventure</dc:subject>

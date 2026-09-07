@@ -4,24 +4,21 @@
 
 ## 1. Back-Cover Blurb (Commercial Jacket Copy)
 
-**For eighty years, the maps of Harmony stood still.**
+**In a world driven by momentum, discovery is everything.**
 
-For ten centuries, civilization survived on a single unbroken law: *momentum is life*. Every generation discovered a new resonant node, linked an isolated culture into the grand elemental network, and pushed back the deadly, beast-choked shroud of the open sea. But for eight decades, every exploratory fleet returned battered and empty-handed. In a world powered by forward motion, eighty years of silence was a slow, creeping death.
+For generations, the maps of Harmony had stood still. Without new lands or living elemental nodes to chart, the great age of exploration had faded into memory—until two breakthrough expeditions made contact with the isolated **Ash-Blood volcanic isles** and the ancient **Mizizi root-forest**.
 
-Then two rival captains breached the storm wall and found the impossible: **Vumbua**—a colossal, uncharted continent of petrified megaflora, volcanic peaks, and abyssal depths.
+The discovery ignites a worldwide exploration fever. To train a new vanguard of exploranauts, the **Vumbua Academy of Explorers** drops anchor at the frontier, opening an unprecedented open call: anyone who can reach the harbor docks can take the entrance trials. But in this academy, you only get **one shot in your lifetime**—and over one hundred thousand hopeful candidates have arrived on the morning tide to take it.
 
-Now, on the raw basalt cliffs of the newly discovered land, a grand academy-city is rising stone by stone beneath derrick cranes and steam scaffolds. Over one hundred thousand hopeful candidates from every clan, island, and union have converged on the frontier, desperate for a ticket into the unknown.
+Among the massive crowd are five candidates carrying their own private stakes:
+- **Loami**, a union boilermaker who knows that grand expeditions fail without someone to keep the pressure up and the engines running;
+- **Britt & Aggie**, fungal-turtle cousins from the secluded southern canopy, desperate to understand why their ancient home forest has unnaturally ceased its cycle of decay;
+- **Ignatius**, a fire-haired island cadet navigating metropolitan politics on a personal pilgrimage for his clan;
+- **Iggy**, an eccentric four-foot-tall soil-kin in water-filled goggles and a heavy trench coat, stepping out of the deep to explore the surface world.
 
-Among them is an accidental crew of outsiders who were never meant to be sorted together:
-- **Loami Sultano**, a pragmatic union boilermaker in a woolen flat cap who trusts steam pressure and honest labor over high-society rhetoric;
-- **Britt**, a fierce tortoise-folk with living root-dreadlocks, determined to protect her clan from outside exploitation;
-- **Aggie**, her soft-spoken cousin with an alabaster mushroom-cap shell, whose quiet intuition pierces the deepest mysteries of resonance;
-- **Ignatius**, a quick-witted young man with literal crowns of flame for hair, navigating the friction of metropolitan politics;
-- **Iggy**, a four-foot-tall soil-kin in an oversized wool trench coat and water-filled goggles, driven by boundless curiosity and zero respect for fragile machinery.
+Sorted together into the same freshman crew by the Academy's mysterious examination machinery, these five cadets must navigate the brutal culling of the entrance surveys, survive the high-stakes written gauntlet of the Apex Arena, and master dangerous flight maneuvers aboard the fleet.
 
-As this mis-sorted squad tackles grueling entrance trials, dangerous flight deck maneuvers, and hazardous expeditions into the flooded underbelly of the colossal *Deep-Hull*, they discover a terrifying truth: the ancient forests of their homeland have stopped decaying, and the world’s elemental soul-sparks are beginning to suffocate.
-
-To save their homes, they must survive each other, master the forgotten physics of resonance, and prove that survival isn't found in safe isolation—it is forged in the leap into the unknown.
+But as they dig beneath the surface of the frontier, they begin to discover that the mysteries threatening their distant homes are bound to the lost history of the land itself—and that true connection is the only thing that keeps the world alive.
 
 ---
 
@@ -34,10 +31,10 @@ To save their homes, they must survive each other, master the forgotten physics 
 The central conflict is not an evil empire or an invading army. The threat is ecological and existential **stasis**:
 - In the southern jungles of the Mizizi, fallen trees refuse to blacken into soil (*"When things stop dying, we start dying"*).
 - In the subterranean depths of the Trench, unexplainable pressure tremors threaten ancient stone galleries.
-- In the metropolis of Harmony, energy reserves are draining after an 80-year drought of new discoveries.
+- In the metropolis of Harmony, energy reserves have drained after a long drought of new discoveries.
 
 ### The Arc of Act I & Act II
-1. **Act I: The Crucible (Prologue to Session 4.5):** Follows the historic partnership of Captain Valentine Sterling Sr. and Captain Elara Thorne, the chaotic arrival of 100,000 candidates at the half-built harbor academy, the comedy and tension of the sorting examinations, and the bonding of Squad 907 around nighttime campfires.
+1. **Act I: The Crucible (Prologue to Session 4.5):** Follows the historic contact with the two isolated clans, the chaotic arrival of 100,000 candidates at the half-built harbor academy, the comedy and tension of the sorting examinations, and the bonding of the freshman crew around nighttime campfires.
 2. **Act II: Shrouded Waters & The Resonance Run (Sessions 5 to 12):** Escalates into tactical flight training on the airship *Zephyr*, hazardous salvage in the flooded steam corridors of the *Deep-Hull*, high-speed racing through the half-mile-wide Basalt Canyon, and a climactic descent into the Abyssal Rift where the ancient memory of the First Mandala is finally revealed.
 
 ---
@@ -60,7 +57,7 @@ The central conflict is not an evil empire or an invading army. The threat is ec
 ## 4. Elevator Pitches (Quick Reference)
 
 - **One-Sentence Hook:**  
-  *After an 80-year discovery drought, five mis-sorted cadets from rival elemental cultures must band together at a newly founded frontier academy to solve an ecological stasis that is quietly suffocating their world.*
+  *After generations of stalled maps, five unlikely cadets from distant elemental cultures must pass the ruthless trials of the newly anchored Vumbua Academy of Explorers to solve an ecological mystery threatening their homes.*
 
 - **Two-Sentence Retail Pitch:**  
-  *When an 80-year exploration drought ends with the discovery of the wild continent of Vumbua, over 100,000 candidates swarm its frontier academy for a chance at the horizon. But when an eccentric squad of mis-sorted outsiders uncovers a creeping decay threatening their homes, they must master the forgotten power of elemental connection before the world's momentum stops forever.*
+  *When breakthrough expeditions uncover two lost elemental clans, the Vumbua Academy of Explorers opens an unprecedented open intake, drawing over 100,000 candidates for a once-in-a-lifetime shot at the frontier. But when five cadets from rival cultures are sorted into the same freshman crew, they must survive grueling trials, aerial maneuvers, and deep-canyon races to unlock the forgotten connection that keeps their world alive.*
