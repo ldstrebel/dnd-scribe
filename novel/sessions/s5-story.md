@@ -9,6 +9,44 @@ genre: Epic Fantasy / Sci-Fantasy
 
 <!-- RAW_RANGE: [1, 119] | SCENE_ID: 1 | OOC -->
 
+## INTERLUDE: THE DARK SPIRE & THE CIRCUIT-RUN
+
+High up in the dizzying heights of the Sky-Spire, the aetheric transmission arrays hummed with pure, crystal-clear power. Valerius Sterling lunged forward across the broadcast platform, grabbing the primary audio slider and slamming it into place. Through the wide panoramic floor-panes engineered by Timon—touch-responsive sheets of crystallized quartz that magnified every detail of the campus below—the sprawling oval of the Apex Arena gleamed like a carved basalt bowl. Across every tier, flags fluttered in the autumn wind as secondary-year mechanics swarmed the pit lanes, priming their racing rigs for the First Vumbua Circuit-Run.
+
+Behind the studio desk, Valerius adjusted his lapel mic, swinging his leather chair toward the quartz glass as his signature Transatlantic cadence rolled into the broadcast grid.
+
+"Good evening, Vumbua!" Valerius projected with effortless charisma, grabbing the studio brass pointer to trace the stadium rim. "The spires are humming, the steam is rising, and from my vantage point here in the Sky-Spire, looking down through these magnificent Timon viewing panes, I can tell you: the Apex Ring is preparing to roar! The First Vumbua Circuit-Run is upon us, and the energy in this city is nothing short of electric.
+
+"Every tier, from the lower Bleacher-Walls to the exclusive Rim-Tracker lounges, is packed to bursting. Keep your eyes peeled for the sheer brute force of Shatter Stamper as they prepare to bulldoze the track, their heavy Ironclad an absolute monument to unyielding will. Witness the audacious aerial maneuvers promised by Pudge and their Gryphon-Hybrid, defying every established law of gravity. And marvel at the rumored precision of Dancer and Fabian as they hoist their Glass-Sail—a whisper of elegance amidst the violent storm of steam and ozone!
+
+"However... I do bring a measure of sobering news to our racing enthusiasts. Rumors have run rampant that the newly raised fifth node—representing the fiery volcanic majesty of the Ash-Blood Isle—would make its glorious debut on the track today. I have just received official confirmation that the Ash-Blood Spire has been pulled from the circuit."
+
+Valerius paused, turning in his swivel chair and slamming a folder of telemetry slips onto the table as he addressed the guest seated beside him.
+
+"To explain why the 'Surge of the Century' is sitting out the biggest race of the autumn, we are joined by the Academy’s esteemed Professor of Harmonics. Professor Kante, welcome to the Spire."
+
+Professor Kante gripped his polished hickory cane, striking the ferrule firmly against the transparent quartz floor to steady his nerves as he adjusted the high collar of his formal vestment. "Thank you, Valerius," Kante replied, his rich, deliberate accent measured like a pendulum. "Though I must admit... looking down through these transparent glass floorboards is remarkably dizzying. I have always preferred the solid stone of the Core."
+
+"We move at the speed of news, Professor!" Valerius chuckled, grabbing a heavy brass model of the race ring and pushing it across the desk. "Now, let us get straight to the marrow. The race fans are devastated. They were promised an 'Ash-Blood Ignite' node—handcrafted from raw lavsidian heat-stone with five columns veined in living magma, designed to give the racers a blistering thermal boost. Why did the proctors yank the Spire at the eleventh hour?"
+
+"It is a matter of... relative stability," Professor Kante said, grabbing a brass tuning fork from his coat pocket and striking it lightly against the desk before setting it down. "A Resonance Race is a strictly closed circuit. The boundary nodes must feed the Central Spire with a meticulously calibrated, unchanging charge. If the amplitude of an external node is not yet firmly settled, the Harvest-Prongs on the rigs cannot safely receive it."
+
+"Settled?" Valerius arched an eyebrow, leaning over his notes and lunging toward the glass to peer at the darkened tower. "It has been weeks since the Ash-Blood integration ceremony. Is their resonance frequency truly so difficult to harmonize, or is the Spire simply underpowered?"
+
+"It is not a question of power, Valerius," Kante corrected gently, pushing the tuning fork aside. "It is a question of synchronization. The Global Amplitude across the basin is currently... fluctuating. If we were to introduce an uncalibrated harmonic frequency into the Circuit-Run, the feedback would be catastrophic. A rig making contact with that node would not experience a speed boost; it would likely suffer a total resonator-melt. We cannot connect the central grid to a ghost frequency that has not yet been reconciled with our Panda Five standards."
+
+"A ghost frequency," Valerius echoed with theatrical skepticism, slamming his pencil onto the desk. "That sounds remarkably like academic shorthand for 'the equations do not balance,' Professor. Are you telling our listeners the Ash-Blood Spire poses a genuine safety hazard?"
+
+"In harmonics, certainty is safety," Kante stated calmly, climbing to his feet and leaning on his cane. "Until the Ash-Blood resonance finds its proper equilibrium within the Harmony grid, it remains an unpredictable variable. And the Circuit-Run has no margin for variables. We race only upon what we know."
+
+"Well, there you have it, citizens! Safety first, even if it leaves the track a few hundred degrees cooler than promised. Thank you, Professor Kante! Candidates, take heed: if the Professor cannot tune it, do not dare attempt to harvest it! Stick to the Leidian and Vitruvian nodes you know.
+
+"After all... *momentum is life.*
+
+"This is Valerius Sterling, signing off. Keep your batteries charged, and your eyes on the spires!"
+
+---
+
 <!-- RAW_RANGE: [120, 240] | SCENE_ID: 2 -->
 
 ## Chapter 47: The Art of the Deal with Lucky
@@ -67,9 +105,9 @@ Lomi extended a grease-stained hand to Lucky. "We appreciate it, Lucky. We'll ta
 
 ## Chapter 50: Scouting the Basalt Canyon at Night
 
-Stepping out of the hidden vault, the three cadets inhaled the crisp, cool mountain air of the academy grounds. The sun had long since dipped below the horizon, leaving the sky a deep indigo canvas dusted with cold constellations. Guided by the flickering glow of gas lanterns, they made their way past the colonnades toward the outer rim of the academy perimeter. <!-- L0485 --> <!-- L0500 -->
+Stepping out of the hidden vault, the cadets inhaled the crisp, cool mountain air of the academy grounds. The sun had long since dipped below the horizon, leaving the sky a deep indigo canvas dusted with cold constellations. Guided by the flickering glow of gas lanterns, they cut across campus through the semi-Oxfordian gardens and manicured gravel courtyards, eventually entering the Colonnade—a grand stone hallway flanked by towering marble columns. At its terminus stood a colossal triumphal arch, its lintel carved deep with the words: **APEX RINGS**. <!-- L0485 --> <!-- L0500 -->
 
-Before them opened the colossal expanse of the Apex Arena. Carved directly into the sheer basalt cliffs, the canyon stretched half a mile across, plunging down into an abyss of churning mist and jagged volcanic spires. Steep stone grandstands wrapped around the precipice, cascading in terraced tiers toward the darkened floor below. <!-- L0504 --> <!-- L0517 -->
+Beyond the arch opened the colossal expanse of the Apex Arena. Carved directly into the sheer basalt cliffs, the natural canyon stretched half a mile across—a full mile in circumference—plunging down into a rugged wilderness of desert rock and dark water. Steep stone bleachers wrapped around the entire canyon precipice, cascading in terraced tiers above spectator train tracks that curved along the sheer rock walls. <!-- L0504 --> <!-- L0517 -->
 
 Lomi stepped up to the edge of the stone balustrade, peering out into the dizzying void. The night wind whipped against his heavy working collar, carrying the sharp scent of ozone, damp stone, and distant boiler smoke. <!-- L0525 --> <!-- L0531 -->
 
@@ -87,7 +125,7 @@ Ignatius looked over the ledge, a low whistle escaping his lips. "It's a long wa
 
 Lomi leaned forward over the parapet, his eyes tracing the invisible air currents of the canyon. Below them, massive monolithic pillars of black basalt jutted from the canyon floor like ancient obelisks. At the crown of each pillar stood a dormant resonance spire—a spiraling copper coil wrapped around an enormous, unlit crystal core. <!-- L0605 --> <!-- L0620 -->
 
-"See those towers?" Lomi pointed into the gloom. "When the race begins, the power stations below pump harmonic resonance up through the conduits. You don't know which spire will light up first. When a spire surges, it throws a beacon of pure energy into the sky, and every pilot in the canyon has to dive for the node to harvest the charge." <!-- L0624 --> <!-- L0639 -->
+"See those towers?" Lomi pointed into the gloom. "When the race begins, the power stations below pump harmonic resonance up through the conduits. They don't just sit out in the open, either—they're housed in subterranean vaults and punch straight up through the rock like missile silos when a node activates. When a spire surges, it throws a beacon of pure energy into the sky, and every pilot in the canyon has to dive for the node to harvest the charge." <!-- L0624 --> <!-- L0639 -->
 
 Ignatius leaned against a stone pillar, watching the howling updrafts toss loose gravel from the ledge. "And what happens when three teams dive for the same spire at the same second?" <!-- L0645 --> <!-- L0660 -->
 

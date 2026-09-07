@@ -29,7 +29,35 @@ genre: Epic Fantasy / Sci-Fantasy
 
 <!-- RAW_RANGE: [1001, 1093] | SCENE_ID: 11 | OOC -->
 
-<!-- RAW_RANGE: [1094, 1217] | SCENE_ID: 12 -->
+## INTERLUDE: THE CAPTAINS' MANIFEST
+
+Steam valves hissed along the exterior conduits of the residential quads as the morning bells tolled across the Zephyr Academy. Inside the high broadcast booth of the Sky-Spire, Valerius Sterling lunged forward, grabbing the master copper slider and slamming it into the live broadcast position. From the brass public-address trumpets mounted above the barracks gates, a lively fanfare of recorded brass and cello music gave way to the sharp click of his studio microphone.
+
+"Good morning, Vumbua!" Valerius projected, swinging around in his high leather chair and slamming a stack of candidate rosters onto the desk with practiced flair. "The sun is gleaming off the gold trim of the Sky-Spire, the Deep-Hull is thrumming with freshly channeled steam, and the unmistakable scent of fear—oh, pardon me, the sweet scent of *opportunity*—is thick in the air! I am Valerius Sterling, your voice in the steam, broadcasting live on the very first official day of Academy instruction!
+
+"Listen closely, candidates. Today is the day the true labor begins. You will be sweating over Cartography in the high towers, calculating Kinematics in the hull bays, and desperately praying not to singe off your own eyebrows in Advanced Steam Engineering down in the core. Whether you are mastering the rigid, flawless geometry of Harmony Magic or wrestling with the volatile, unpredictable variance of the Clans, remember this fundamental truth: Vumbua does not reward the mediocre. Only the resilient survive this curriculum.
+
+"But let us be completely honest with ourselves: you did not cross the northern seas merely to sit through lectures and inhale chalk dust. You are here for the open sky. You are here for the Proving Voyage! And to assist you in charting your future, we are inaugurating a brand new broadcast segment: *The Captains' Manifest*! Each week, I will sit down with the intrepid—and occasionally reckless—expedition commanders offering berths aboard their vessels for the month-long expedition into the unknown."
+
+Valerius grabbed a brass lever, swinging the secondary studio channel open. "First into the studio this morning is a man whose personal furnace burns hotter than dragon fire. He is wagering his crew on a near-vertical ascent up the treacherous face of Storm-Needle Mountain... Captain Ignis 'Scorch' of the Iron-Union!"
+
+A harsh, gravelly voice seized the microphone as Scorch lunged over the console, slamming his heavy brass gauntlet onto the drafting board.
+
+"Speed is survival, Sterling!" Scorch barked, grabbing the microphone stand and pulling it toward his grinning, soot-streaked face. "We aren't crawling up that mountain—we are launching straight into the stratosphere! I am redlining my boiler at one hundred and twenty percent until the valves melt or until I ride the lavsidian high-stream pulsing along the peak of the Needle. Cut transit time through the core by half! The Scriveners whine that the upper atmosphere is too thin for stable resonance. I say the Scriveners simply lack the spine to push their regulators into the red! I need candidates with iron lungs, high heat-resistance, and zero fear of the drop. If you can take the heat, there is a hammock on my rig with your name on it."
+
+"Well," Valerius replied with amused horror, ducking as Scorch swung his iron arm through the air, "that sounds... spectacularly suicidal! And speaking of surviving the mathematically impossible, our next guest is an expedition legend who literally wrote the standard handbook on field durability: *The Percussive Maintenance Guide, Volume Four*. Please welcome Captain 'Iron-Hide' Jorah of the armored cutter *Bulwark*!"
+
+Iron-Hide dragged his heavy ironwood chair forward, striking his stone-textured palm against the oak desk so hard the pencils leaped in their brass holder. A low, subterranean rumble shook the transmission, thick as cold pig-iron and slow as shifting granite.
+
+"The ship breaks before the crew does," Captain Iron-Hide growled quietly, pushing a heavy iron model of his hull across the table. "And the ship never breaks, Sterling. That is the rule. I am taking the *Bulwark* out on outer-perimeter patrol. We do not run from wild aetheric beasts. We tank them. Everyone in this city is chasing flash and fire, Sterling. I build foundations and scour out the rot. I need stoic Guardians who know the piston-lock maneuver in total darkness. You will take damage aboard my vessel—make no mistake. But I will bring you home in one piece."
+
+"Fascinating contrasts," Valerius purred smoothly, grabbing his brass stylus and signing the morning ledger. "Well, candidates, the choice is yours! Do you wish to risk instantaneous vaporous explosion with Captain Scorch, or endure an unyielding physical pounding with Captain Iron-Hide? Or will you hold your nerve for the other expedition commanders waiting in our wings? Choose wisely, secure your berths, and never forget the prime directive:
+
+"*Momentum is life.*
+
+"This is Valerius Sterling, signing off. Keep your batteries charged, and your eyes on the spires!"
+
+---
 
 ## Chapter 32: The Heavy Sleeper & The Morning Rush
 
@@ -166,17 +194,17 @@ The official parchment laid out the grueling freshman calendar in stark, unyield
 
 ## Chapter 39: Memories of Spires & Gliders
 
-As they walked toward the outer stone terraces overlooking the great drop into the lower basin, Lomi's eyes gleamed with an unfamiliar fire. The mention of the Apex Ring had struck a deep, nostalgic chord within the mechanic. The weariness from Hollow's classroom evaporated, replaced by the fierce, focused energy of a craftsman in his element. <!-- L1988 --> <!-- L1994 --> <!-- L2000 -->
+As they walked toward the outer stone terraces overlooking the great drop into the lower basin, Lomi lunged forward, grabbing the cold stone balustrade as his eyes gleamed with an unfamiliar fire. The mention of the Apex Ring had struck a deep, nostalgic chord within the mechanic. The weariness from Hollow's classroom evaporated, replaced by the fierce, focused energy of a craftsman in his element. <!-- L1988 --> <!-- L1994 --> <!-- L2000 -->
 
-"The Apex Race," Lomi said, his voice full of genuine reverence. "The Reso Race. We have got to get a team together for this!" <!-- L2030 --> <!-- L2032 --> <!-- L2034 -->
+"The Apex Race," Lomi said, swinging his wrench through an enthusiastic arc, his voice full of genuine reverence. "The Reso Race. We have got to get a team together for this!" <!-- L2030 --> <!-- L2032 --> <!-- L2034 -->
 
-Ignatius looked surprised, matching Lomi's brisk stride. "You've seen it?"
+Ignatius looked surprised, matching Lomi's brisk stride and climbing onto a stone bench to lean over the parapet. "You've seen it?"
 
-"Ever since I was a kid," Lomi nodded eagerly, gesturing with both hands as memories flooded back. "When my dad retired from the yard, he bought tickets way up in the basalt grandstands where you could see the entire track layout across the canyon. But later, when I started working for the union, I was down in the undercroft beneath the floor. Our crew had to crawl through the maintenance tunnels to make sure the resonance spires were drawing power correctly."
+"Ever since I was a kid," Lomi nodded eagerly, grabbing a loose rivet from his tool pouch and slamming it onto the flat coping stone as memories flooded back. "When my dad retired from the yard, he bought tickets way up in the basalt grandstands where you could see the entire track layout across the canyon. But later, when I started working for the union, I was down in the undercroft beneath the floor. Our crew crawled through the maintenance tunnels, pushing heavy copper cables to make sure the resonance spires were drawing power correctly."
 
-He paused by the balustrade, looking out over the clouds and sketching the aerial arena in empty air. "Each city has its own spire, its own harmonic frequency. You build a rig, launch it into the ring, and hit the energy nodes as they light up. You don't know when a spire is going to erupt with power, and when it does, three rigs dive for it simultaneously, scraping hulls and trading paint. You collect the charge, race to the center pillar, and discharge it to score." <!-- L2036 -->
+He paused by the balustrade, looking out over the clouds and swinging his arms to sketch the aerial arena in empty air. "Each city has its own spire, its own harmonic frequency. You build a rig, launch it into the ring, and hit the energy nodes as they light up. You don't know when a spire is going to erupt with power, and when it does, three rigs dive for it simultaneously, scraping hulls and trading paint. You collect the charge, race to the center pillar, and discharge it to score." <!-- L2036 -->
 
-Lomi shook his head with a wide grin. "One season I was up on the glider launch platform fixing a stuck pneumatic ram. Looking out over that stadium with thirty thousand people screaming... I think folks take to the sky just for the view. It made me queasy, but man, it was a sight to behold. If we build a rig and finish in the top tier, we can write our own ticket." <!-- L2038 --> <!-- L2108 --> <!-- L2117 -->
+Lomi shook his head with a wide grin, slamming his palm against the parapet. "One season I climbed up on the glider launch platform, wrenching on a stuck pneumatic ram. Looking out over that stadium with thirty thousand people screaming... I think folks take to the sky just for the view. It made me queasy, but man, it was a sight to behold. If we build a rig and finish in the top tier, we can write our own ticket." <!-- L2038 --> <!-- L2108 --> <!-- L2117 -->
 
 <!-- LEDGER: rendered=[1988, 1994, 2000, 2030, 2032, 2034, 2036, 2038, 2108, 2117] skipped=[1989(ooc), 1990(ooc), 1992(ooc), 1993(ooc), 1995(ooc), 1996(ooc), 1998(ooc), 1999(ooc), 2001(ooc), 2002(ooc), 2003(ooc), 2004(ooc), 2005(ooc), 2006(ooc), 2007(ooc), 2008(ooc), 2009(ooc), 2011(ooc), 2013(ooc), 2014(ooc), 2015(ooc), 2017(ooc), 2018(ooc), 2019(ooc), 2020(ooc), 2021(ooc), 2023(ooc), 2025(ooc), 2026(ooc), 2027(ooc), 2028(ooc), 2029(ooc), 2031(ooc), 2039(ooc), 2040(ooc), 2041(ooc), 2042(ooc), 2043(ooc), 2044(ooc), 2045(ooc), 2047(ooc), 2048(ooc), 2049(ooc), 2050(ooc), 2051(ooc), 2052(ooc), 2053(ooc), 2054(ooc), 2055(ooc), 2056(ooc), 2057(ooc), 2058(ooc), 2059(ooc), 2060(ooc), 2061(ooc), 2063(ooc), 2064(ooc), 2065(ooc), 2066(ooc), 2067(ooc), 2068(ooc), 2069(ooc), 2070(ooc), 2071(ooc), 2072(ooc), 2073(ooc), 2074(ooc), 2075(ooc), 2076(ooc), 2077(ooc), 2078(ooc), 2079(ooc), 2080(ooc), 2081(ooc), 2082(ooc), 2083(ooc), 2085(ooc), 2086(ooc), 2087(ooc), 2088(ooc), 2089(ooc), 2090(ooc), 2091(ooc), 2092(ooc), 2093(ooc), 2094(ooc), 2095(ooc), 2097(ooc), 2098(ooc), 2099(ooc), 2100(ooc), 2101(ooc), 2102(ooc), 2103(ooc), 2104(ooc), 2105(ooc), 2106(ooc), 2107(ooc), 2110(ooc), 2111(ooc), 2112(ooc), 2113(ooc), 2114(ooc), 2115(ooc), 2116(ooc)] -->
 
