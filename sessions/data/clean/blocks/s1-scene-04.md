@@ -4,7 +4,7 @@
 
 "I'll be honest," Sarge said, shaking his broad head. "Barely cut it. Barely cut it. I couldn't even read two of them. What were they saying? Those words." <!-- L0627 --> <!-- L0629 -->
 
-"The green flag popped up and I said, all right, let's give this a go," Lomi said. "Hey â€” you always guess the third one, right? That's what they say." <!-- L0632 -->
+"The green flag popped up and I said, all right, let's give this a go," Loami said. "Hey â€” you always guess the third one, right? That's what they say." <!-- L0632 -->
 
 "Is that third one?" <!-- L0635 -->
 
@@ -12,15 +12,15 @@
 
 "Yeah." Sarge exhaled. "Yeah. I just, you know, looked at the typewriter. Seemed about right." He scrubbed a hand over his face. "It's kind of a lot going on. I don't know if I'm actually cut out for this." <!-- L0639 -->
 
-"It's pretty overwhelming, I'll be honest," Lomi said. "But we just give it our best shot, see what happens. We always got something to go back to if it doesn't work out." <!-- L0642 -->
+"It's pretty overwhelming, I'll be honest," Loami said. "But we just give it our best shot, see what happens. We always got something to go back to if it doesn't work out." <!-- L0642 -->
 
 "Yeah. You're right." Sarge nodded slowly. "I just got to remember why I'm here, you know? I'm doing this for the labs." <!-- L0643 -->
 
-What Lomi actually remembered about Sarge fit inside a campfire. One night, ringed by obsidian grates and the smell of charred meat, the big man had gotten quiet, then gotten real â€” decided, out loud and half-drunk, that he was going to apply. They'd gotten properly hammered after that, and woken on the floor of the work camp like heroes of a very small war. Lomi didn't know his family, his history, whatever had made him cry that night. He knew the version of Sarge that decided something at a campfire â€” and that the man had come from the other side of the academy, a manager of the operation rather than a wrench in it, the kind who kept things running and got no glory for it. <!-- L0644 --> <!-- L0653 --> <!-- L0660 -->
+What Loami actually remembered about Sarge fit inside a campfire. One night, ringed by obsidian grates and the smell of charred meat, the big man had gotten quiet, then gotten real â€” decided, out loud and half-drunk, that he was going to apply. They'd gotten properly hammered after that, and woken on the floor of the work camp like heroes of a very small war. Loami didn't know his family, his history, whatever had made him cry that night. He knew the version of Sarge that decided something at a campfire â€” and that the man had come from the other side of the academy, a manager of the operation rather than a wrench in it, the kind who kept things running and got no glory for it. <!-- L0644 --> <!-- L0653 --> <!-- L0660 -->
 
 The flow carried them all across the campus toward the one finished building â€” an auditorium that seated ten thousand, which was still only a fraction of the seventy thousand candidates being cycled through initiation presentations every few hours. The actual students were hopelessly outnumbered â€” a few thousand at most â€” and they worked the corridors like ushers, herding the endless current of candidates toward the great hall. <!-- L0664 -->
 
-"So the students," Lomi said, half to himself, "they're the ones who traveled on the ship, got here early, helped get stuff prepped." <!-- L0673 -->
+"So the students," Loami said, half to himself, "they're the ones who traveled on the ship, got here early, helped get stuff prepped." <!-- L0673 -->
 
 Hunting, all of them, for the title the academy only gave to its top tenth: *Explorer*. A thousand slots. A hundred thousand people clawing for them. <!-- L0674 --> <!-- L0676 -->
 
@@ -30,7 +30,7 @@ The great hall swallowed them. Nearly everyone in it was from Harmony â€” t
 
 "I'm just so *excited* for this next class. It's going to be amazing. You're going to discover so much. You're going to go wherever your hearts take you. We â€” all of us here â€” are the inheritors of great discovery." She was vibrating. "For eighty years â€” *eighty years* â€” our maps have been static. We've missed the thrill of adventure. No one's wanted to do it. I've been lonely, honestly â€” not to say that my thousand weren't really great, but it's a lot better to have more. More is always better." <!-- L0688 -->
 
-Somewhere in the dark, Lomi leaned toward Aggie and whispered, "I don't trust this fucking guy." <!-- L0689 -->
+Somewhere in the dark, Loami leaned toward Aggie and whispered, "I don't trust this fucking guy." <!-- L0689 -->
 
 "But we've got Ash-Bloods, whose mastery of heat brings new fire to our core. We've got the Mizi, whose â€” well. We don't really know what they do. And that's *amazing*. We don't know! It's been so long since we could say that about anything. We *mapped everything*." <!-- L0690 -->
 
@@ -44,7 +44,7 @@ She bounced back across the stage â€” then skidded, remembering something, 
 
 An attendant emerged from the wings, took the Dean gently by the arm, and pulled her back behind the curtain with the weary familiarity of someone who did this three times a day. And the party's eyes caught on her â€” because it was *Rill*. Older, better-fed, dressed in a crisp blue romper with a little turban wound into her hair â€” but unmistakably Rill, the one who had left the forest. She caught the Dean's elbow, shot the crowd a quick *good luck* wave, and vanished backstage arm in arm with the still-bouncing Dean. <!-- L0709 -->
 
-"Does Rill â€” would Rill know me and Aggie?" Lomi murmured. "Like, personally?" <!-- L0710 -->
+"Does Rill â€” would Rill know me and Aggie?" Loami murmured. "Like, personally?" <!-- L0710 -->
 
 She would know their names. She might even already know they'd enrolled. <!-- L0711 -->
 
@@ -78,7 +78,7 @@ The little figure's voice cracked on it, and then — to Ignatius's dawning horr
 
 "Okay," Iggy said, recovering, pointing out at the basin. "What are those boats?" <!-- L0761 -->
 
-"I overheard you talking about those boats," Lomi said, drifting over with the gravitational pull of a man who had heard a question he was born to answer. "I mean â€” they're a work of beauty." <!-- L0764 -->
+"I overheard you talking about those boats," Loami said, drifting over with the gravitational pull of a man who had heard a question he was born to answer. "I mean â€” they're a work of beauty." <!-- L0764 -->
 
 "Yeah, that's a boat, right?" Iggy said. <!-- L0765 -->
 

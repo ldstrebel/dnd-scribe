@@ -42,17 +42,17 @@ Serra pressed on, undaunted — or at least determined to die trying. "I don't �
 
 "What?" said Britt. <!-- L1136 -->
 
-"I mean — you're—" Serra pointed, working through her field identification. "You two are Mizi — I can tell by your clothes. And you're an Ash-Blood, because you're on fire. And I haven't seen anybody else who's not from Harmony, except—" Her gaze found Lomi, who had wandered in mid-conversation, drawn by the steam and the crowd. "Are you *also* on fire? I can't tell." <!-- L1141 -->
+"I mean — you're—" Serra pointed, working through her field identification. "You two are Mizi — I can tell by your clothes. And you're an Ash-Blood, because you're on fire. And I haven't seen anybody else who's not from Harmony, except—" Her gaze found Loami, who had wandered in mid-conversation, drawn by the steam and the crowd. "Are you *also* on fire? I can't tell." <!-- L1141 -->
 
-Lomi, it turned out, had reached Block 99 by accident before ever deciding to — he'd followed the steam stacks on instinct, looked up, and found the number waiting for him. Now, seeing the gathering, he saddled up to the edge of the bonfire pit where a crew of candidates were stacking spare wood into a dug-out hollow. <!-- L1146 --> <!-- L1148 -->
+Loami, it turned out, had reached Block 99 by accident before ever deciding to — he'd followed the steam stacks on instinct, looked up, and found the number waiting for him. Now, seeing the gathering, he saddled up to the edge of the bonfire pit where a crew of candidates were stacking spare wood into a dug-out hollow. <!-- L1146 --> <!-- L1148 -->
 
 A man was directing traffic around the pit with great assurance and a total absence of results. "Oh, this is not the problem — we have it all here. Masked out, look — optimal flow across the woods. You get the light winds at the bottom, heavier winds at the top. And then — well. We don't have a source of flame yet. That is a problem." <!-- L1165 -->
 
-Lomi walked up and peered into the pit, hands on his hips, a boiler-maker inspecting amateur masonry. "So — you thinking you're gonna use an accelerant or something? Or we just going straight lumber in there? What's the plan?" <!-- L1166 -->
+Loami walked up and peered into the pit, hands on his hips, a boiler-maker inspecting amateur masonry. "So — you thinking you're gonna use an accelerant or something? Or we just going straight lumber in there? What's the plan?" <!-- L1166 -->
 
 Ignatius said nothing. He simply stood there, hands at his sides, wearing an expression of enormous and deliberate patience — the expression of a man who was *on fire* and was choosing not to mention it. <!-- L1170 -->
 
-Lomi looked over his shoulder at the crew, then at Ignatius, then back at the cold pit, and something like a grin crossed his sooty face. "I think we can solve that." <!-- L1171 -->
+Loami looked over his shoulder at the crew, then at Ignatius, then back at the cold pit, and something like a grin crossed his sooty face. "I think we can solve that." <!-- L1171 -->
 
 And that was how the first night at the academy began — with the Mizi cousins, the man of embers, the boiler-maker, the little clay stranger, and the over-curious Serra Vox all gathered around an unlit fire pit, waiting to see what these strange newcomers would do next. <!-- L1183 -->
 

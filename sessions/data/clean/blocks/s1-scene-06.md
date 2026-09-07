@@ -24,7 +24,7 @@ His pace was a natural disaster of a different kind — sudden wild-hair sprints
 
 Outside, the campus presented Iggy with its final temptation: the construction cranes. He looked up at the nearest one, and something in him simply began to climb. <!-- L0979 -->
 
-Then Lomi arrived, drawn by the same plume-of-smoke logic, took one look up, and said to Aggie, "That looks promising. Come on." <!-- L0987 -->
+Then Loami arrived, drawn by the same plume-of-smoke logic, took one look up, and said to Aggie, "That looks promising. Come on." <!-- L0987 -->
 
 Ignatius ended up at the base, holding Iggy's pack — because anything on that crane not bolted down was being unbolted and handed down. "Hey — take this one now." Piece by piece, the crane was being gently disassembled for science. <!-- L0988 -->
 

@@ -2,7 +2,7 @@
 
 ## LUCKY
 
-"That's some good engineering," Lomi went on, warming to his subject. "Good design. And let me tell you — they haven't moved in a while. Them getting here, getting set up this quick? That's a test of time right there." <!-- L0770 -->
+"That's some good engineering," Loami went on, warming to his subject. "Good design. And let me tell you — they haven't moved in a while. Them getting here, getting set up this quick? That's a test of time right there." <!-- L0770 -->
 
 "How deep down does that boat go?" Iggy asked. <!-- L0771 -->
 
@@ -16,11 +16,11 @@
 
 Ignatius watched him go, then turned back to the compact, grease-stained man beside him. "So, uh — old-timer. Are you like, one of the teachers here? One of the faculty?" <!-- L0791 -->
 
-"I might have a few years on you," Lomi allowed. "It's hard to tell. But I don't know about old-timer. I just know a thing or two about this place. This is my first time up on the surface like this, too." <!-- L0793 -->
+"I might have a few years on you," Loami allowed. "It's hard to tell. But I don't know about old-timer. I just know a thing or two about this place. This is my first time up on the surface like this, too." <!-- L0793 -->
 
 "Wait — so you applied and got accepted?" <!-- L0794 -->
 
-"Yeah. I applied and got accepted." Lomi's voice took on the cadence of a story told to a boiler-room wall a hundred times, finally finding ears. "There hasn't really been anything to look at around here for a while. And now that there is — my family goes back. We're boiler makers, for sure, boiler makers — but way back, we had some explorer knots in our past. And I'm digging up that history. Rewriting it, you know? No fear. No fear. Lomi's in there." <!-- L0797 --> <!-- L0801 -->
+"Yeah. I applied and got accepted." Loami's voice took on the cadence of a story told to a boiler-room wall a hundred times, finally finding ears. "There hasn't really been anything to look at around here for a while. And now that there is — my family goes back. We're boiler makers, for sure, boiler makers — but way back, we had some explorer knots in our past. And I'm digging up that history. Rewriting it, you know? No fear. No fear. Loami's in there." <!-- L0797 --> <!-- L0801 -->
 
 "All right. That's pretty badass." Ignatius stuck out his hand — the one that hadn't burned anybody yet. "I'm Ignatius, by the way." There was soot and grease mixed together on their palms, and neither of them minded. "Ignatius of Magma, actually. But you can just call me Ignatius. I'd tell you to call me Iggy, but that dude's name is—" <!-- L0802 --> <!-- L0808 -->
 
@@ -28,7 +28,7 @@ Ignatius watched him go, then turned back to the compact, grease-stained man bes
 
 The shout cut through the hall. Iggy, still on his chair, jerked around. "Did you guys feel that? Is that — what is that?" <!-- L0815 --> <!-- L0821 -->
 
-"The door opened," Lomi said. "They're directing us out." He paused, working through something. "All right. Iggy. Ignatius. I can remember that. I can remember that." <!-- L0822 -->
+"The door opened," Loami said. "They're directing us out." He paused, working through something. "All right. Iggy. Ignatius. I can remember that. I can remember that." <!-- L0822 -->
 
 The crowd had thinned to stragglers — which was when they noticed the kid. A little scrap of a person, maybe the smallest figure in a hall of ten thousand, moving from stranger to stranger with the confidence of a much larger man. "Hey! You. I'm Lucky. You need something? You let Lucky know — I'll get it for you." <!-- L0823 -->
 
@@ -80,21 +80,21 @@ Iggy, still standing on his chair, was already blowing his nose into the guard's
 
 The guard stood alone, holding a damp turban and asking the universe — quietly, and with feeling — whether a child had truly just taken his hat, used it as a tissue, and handed it back. The universe did not answer. <!-- L0883 -->
 
-Ignatius was laughing so hard he had to grab Lomi's arm. "Let's go." <!-- L0886 -->
+Ignatius was laughing so hard he had to grab Loami's arm. "Let's go." <!-- L0886 -->
 
-"Yeah, let's get out of here," Lomi wheezed. "I'm definitely not feeling quite as lucky as that guy." <!-- L0887 -->
+"Yeah, let's get out of here," Loami wheezed. "I'm definitely not feeling quite as lucky as that guy." <!-- L0887 -->
 
-At the end of the corridor they passed the machine, and it clattered out a punched slip for each of them: **Iggy — Block 12. Ignatius — Block 12. Lomi — Block 99.** Somewhere ahead of them in the same machinery, Britt and Aggie's slips had read **Block 4**. <!-- L0893 -->
+At the end of the corridor they passed the machine, and it clattered out a punched slip for each of them: **Iggy — Block 12. Ignatius — Block 12. Loami — Block 99.** Somewhere ahead of them in the same machinery, Britt and Aggie's slips had read **Block 4**. <!-- L0893 -->
 
 Outside, the campus unspooled its geography: the courtyard wrapped around the great hall in a horseshoe, and beyond it a second, wider horseshoe of buildings ringed the basin where the two ships sat — an inlet running out to the sea. Ninety-nine housing blocks marched along the outer curve on a posted map, where a student with a speaking horn chanted on a loop: *"Go to your rooms for tonight. Tomorrow your first class — General Education Exploration — 8 a.m. Sleep tight."* Over and over, pausing only for questions, then back to the horn. <!-- L0897 --> <!-- L0899 -->
 
 The afternoon was still young. Some candidates drifted toward the dorms; others were already gaggling in the courtyards. <!-- L0901 -->
 
-Lomi's instinct was immediate: not the dorm. "We need to look around." <!-- L0904 --> <!-- L0911 -->
+Loami's instinct was immediate: not the dorm. "We need to look around." <!-- L0904 --> <!-- L0911 -->
 
 And the looking was worth it. The map and the streets laid the academy out like a city pretending to be a campus: the great hall; a huge temporary amphitheater terraced into a hillside, the only space that could hold the whole student body at once; a row of elegant clubhouses — High-House Row — where well-dressed sophisticates held court around party tables beside, impossibly, an eighty-year-old grandmother dominating the flagon-and-dice tables, because in Harmony nobody could reliably tell anyone's age and the policy had settled on *whatever happens will happen*. A small office with a painted sign: **CLAN ASSISTANCE AND INTEGRATION — Mizi or Ash-Blood? Have questions? Come here.** A huge library. The two great ships. A cliff wall bounding the far side. <!-- L0912 -->
 
-The dorms were improvisations, all of them — the school was housing candidates anywhere with a roof until the week culled the numbers down. Block 4, where Britt and Aggie were bound, was a modular unit terraced into the cliff face, an expanded herbology green-room. The labs were full of bodies instead of equipment. Lomi's Block 99 turned out to be a geothermal plant, steam sighing out of its vents, where he would sleep among the pipes he understood. And the classic dormitory halls — Block 12 — were where Iggy and Ignatius were headed. <!-- L0916 -->
+The dorms were improvisations, all of them — the school was housing candidates anywhere with a roof until the week culled the numbers down. Block 4, where Britt and Aggie were bound, was a modular unit terraced into the cliff face, an expanded herbology green-room. The labs were full of bodies instead of equipment. Loami's Block 99 turned out to be a geothermal plant, steam sighing out of its vents, where he would sleep among the pipes he understood. And the classic dormitory halls — Block 12 — were where Iggy and Ignatius were headed. <!-- L0916 -->
 
 Somewhere in that survey of the campus, each of them felt the same quiet pull: *that building. That one. I want to know what's in there.* <!-- L0918 -->
 
