@@ -14,13 +14,15 @@ genre: Epic Fantasy / Sci-Fantasy
 
 ## CHAPTER 1: THE FLAG THAT WOULDN'T RISE
 
-The morning sun hung low and pale behind a shroud of salt mist and drifting coal smoke when the transport flotilla bumped against the quays. All morning, a relentless line of heavy steam tenders, wooden ferries, and iron barges had churned across the open bay, carrying the first waves of an unprecedented human tide.
+The morning sun hung low and pale behind a shroud of salt mist and drifting coal smoke when the transport flotilla bumped against the newly laid stone moles. All morning, a relentless line of heavy steam tenders, wooden ferries, and iron barges had churned across the open bay, carrying the first waves of an unprecedented human tide—one hundred thousand hopeful candidates from every corner of the known world converging upon the newly anchored frontier.
 
-The receiving docks were a frantic, temporary sprawl: creaking timber pilings, stone seawalls slick with sea-spray, and cavernous corrugated sheds thrown up to handle the crush. Steam whistles wailed through the damp chill. Massive recruitment posters were pasted across every blank timber hoarding in fresh black-and-teal ink, their bold block lettering shouting **MOMENTUM IS LIFE** and **VUMBUA ACADEMY FOR EXPLORERS** to anyone desperate enough to read them.
+Beyond the harbor wall, Vumbua Academy rose like an Oxford under construction: a grand, ancient collegiate city transplanted brick by brick onto the raw basalt cliffs of the southern continent. Towering honey-colored sandstone quads, neo-gothic spires, and cloistered archways stood swaddled in colossal webs of timber scaffolding. Steam-powered derrick cranes groaned against the cliffside, swinging limestone gargoyles, carved lintels, and copper cupolas into place through the drifting sea spray. Master stonemasons in leather aprons shouted over the shriek of rotary stone-saws, while proctors in teal-and-bronze robes tried in vain to maintain academic decorum amid the deafening thrum of cement mixers and crashing surf. It was an old-world empire furiously grafting its thousand-year scholarly traditions into the smoking rock of an untamed frontier.
 
-There was no ceremony, no welcoming committee, and no view of the campus beyond the harbor wall. One hundred thousand applicants—root-folk from the deep southern canopies, ash-dusted islanders, union mechanics from Octoumba, and scholars from the high interior—were herded straight off the gangways like factory hands reporting for a morning shift. Proctors in teal sashes hurried them through timber turnstiles, channeling the roaring crowd directly into the dim, zinc-roofed belly of the intake terminal.
+The receiving docks were a frantic, roaring funnel. Creaking timber pilings, stone seawalls slick with foam, and cavernous corrugated intake sheds channeled the massive press of candidates off the gangways. Massive recruitment posters were pasted across every blank timber hoarding in fresh black-and-teal ink, their bold block lettering shouting **MOMENTUM IS LIFE** and **VUMBUA ACADEMY FOR EXPLORERS** to anyone desperate enough to read them.
 
-Inside, the warehouse was an ocean of plywood cubicles stretched beneath iron-braced rafters, smelling of machine oil, ozone, wet parchment, and the cold, sour sweat of ten thousand anxious candidates. Every few seconds, the clatter of typewriters was punctuated by a sharp, tinny *ding* as another spring-loaded brass flag popped into the air, signaling completion. Almost instantly, an attendant in a crisp teal necktie and bright safety sash—looking somewhere between an English butler and a palace usher—would materialize from the central aisle to sweep the candidate out of their seat and into the processing current. <!-- L0316 -->
+There was no ceremony and no welcoming committee. Applicants—root-folk from the deep southern canopies, ash-dusted islanders, union mechanics from Octoumba, and scholars from the high interior—were herded straight through timber turnstiles and under half-finished triumphal arches into the dim, zinc-roofed testing cloisters of the intake pavilion.
+
+Inside, the warehouse was an ocean of plywood cubicles stretched beneath iron-braced rafters, smelling of wet mortar, machine oil, ozone, fresh parchment, and the cold, sour sweat of ten thousand anxious candidates. Every few seconds, the clatter of typewriters was punctuated by a sharp, tinny *ding* as another spring-loaded brass flag popped into the air, signaling completion. Almost instantly, an attendant in a crisp teal necktie and bright safety sash—looking somewhere between an English butler and a palace usher—would materialize from the central aisle to sweep the candidate out of their seat and into the processing current. <!-- L0316 -->
 
 Britt finished her survey first.
 
@@ -82,7 +84,7 @@ Britt caught Aggie's eye across the row — *let's go, right now* — and slippe
 
 Before they had gone ten yards, a second attendant came sprinting out of the corridor crush, clutching a fresh sheet of parchment and waving it wildly over her head. "Ma'am! Ma'am, excuse me, ma'am!" She skidded to a halt, thrust the replacement paper into Britt's hands, gasped a breathless "you're welcome," and was immediately swallowed back into the churning sea of applicants. There were hundreds of these exhausted proctors running through the aisles, shepherds frantically trying to manage thousands of candidates at once. <!-- L0375 -->
 
-At the end of the aisle, the party converged again, drawn into the central concourse like tributaries joining a slow, swelling river. <!-- L0378 -->
+At the end of the aisle, the party converged again, drawn into the central concourse like tributaries joining a slow, swelling river.
 
 ---
 
@@ -106,7 +108,7 @@ A year later, when Rill's open invitation arrived, Aggie had stood at the edge o
 
 *"I don't care what they have,"* Britt had answered, her root-dreadlocks tightening in fierce determination. *"We're going. And wherever you go, I go. Nobody takes you away from your clan."* <!-- s0:L0383 --> <!-- s0:L0404 -->
 
-Now, in the crowded stone thoroughfare of Vumbua, Britt squeezed Aggie's fingers once, grounding them both. They were through the first barrier. Whatever the northern empire had built here, it wouldn't break them. <!-- L0378 -->
+Now, in the crowded stone thoroughfare of Vumbua, Britt squeezed Aggie's fingers once, grounding them both. They were through the first barrier. Whatever the northern empire had built here, it wouldn't break them.
 
 ---
 
