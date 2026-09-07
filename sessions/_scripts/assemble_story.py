@@ -47,7 +47,7 @@ def main():
         parts.append(
             "---\n"
             f'title: "{args.title}"\n'
-            'author: "Novel Adaptation in the Style of Brandon Sanderson"\n'
+            'author: "The Vumbua Table"\n'
             "campaign: Vumbua\n"
             "genre: Epic Fantasy / Sci-Fantasy\n"
             "---\n\n"

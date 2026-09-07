@@ -1,6 +1,6 @@
 ---
 title: "The Canopy Raft & The Spirit Tortoise"
-author: "Novel Adaptation in the Style of Brandon Sanderson"
+author: "The Vumbua Table"
 campaign: Vumbua
 genre: Epic Fantasy / Sci-Fantasy
 ---

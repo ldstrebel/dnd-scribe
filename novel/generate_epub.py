@@ -148,7 +148,7 @@ def build_epub(output_path, include_map=True):
     """Assembles a valid EPUB3 archive."""
     book_id = "urn:uuid:vumbua-momentum-is-life-book1-2026"
     title = "Momentum is Life: Vumbua Academy for Explorers"
-    author = "Novel Adaptation in the Style of Brandon Sanderson"
+    author = "The Vumbua Table"
     date_str = datetime.now().strftime("%Y-%m-%d")
 
     chapters = []
@@ -355,8 +355,10 @@ hr.ornament {
 </head>
 <body>
   <h2>A NOTE FROM THE AUTHOR</h2>
-  <p>Stories begin in strange, unexpected ways. This one began around a tabletop, in late-night sessions fueled by dice rolls, burst pipes, cracked laughter, and five explorers who refused to let their world quietly petrify into stone.</p>
-  <p>When we first envisioned <em>Vumbua</em>, we set out to build an epic fantasy where the frontier wasn't just empty land on an archivist's yellowing map, but a living, breathing mystery demanding curiosity, empathy, and raw courage. At the heart of that mystery are five unforgettable cadets:</p>
+  <p>Stories begin in strange, unexpected ways. This one began around a tabletop, where five friends and a Game Master decided this world was worth archiving. We worked together to take our session transcripts and mold them into this format, staying as faithful to the table as possible. We are not authors, but we are pretty proud of our work and story.</p>
+  <p>To that end, we wanted to offer this book free or as low cost as possible to see if there was interest in our world. If you are reading or listening to this - you are among the first 100 to do so and we are very grateful!</p>
+  <p>Dear person 101, we look forward to greeting you and cleaning up our book with the feedback of the ones who came before. In the meantime, we hope you give us some grace and take the extra step to suspend your disbelief as we bring you into our world.</p>
+  <p>When we first envisioned <em>Vumbua</em>, we set out to build an epic fantasy where the frontier wasn't just empty land on an archivist's yellowing map, but a living, breathing mystery demanding curiosity, empathy, and raw courage. At the heart of that mystery are five unforgettable cadets - each were played by one of us in the campaign:</p>
   <p><strong>Britt</strong>, the fierce, tree-hugging Mizizi ranger with weeping willow dreadlocks, whose stubborn loyalty holds her kin together when the world starts coming apart.</p>
   <p><strong>Aggie</strong>, her gentle, brilliant cousin with an alabaster-and-scarlet mushroom shell, who seeks to understand the world's ancient songs before they fade forever.</p>
   <p><strong>Ignatius</strong>, the exiled ash-blood whose fiery hair crowns a deep hunger for purpose, struggling to balance his fiery heritage with the discipline of an explorer.</p>

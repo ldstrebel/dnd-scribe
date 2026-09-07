@@ -1,6 +1,6 @@
 ---
 title: "Book 1: The Basalt Run — Act I: The Celestial Lounge & The Ambush"
-author: "Novel Adaptation in the Style of Brandon Sanderson"
+author: "The Vumbua Table"
 campaign: Vumbua
 genre: Epic Fantasy / Sci-Fantasy
 ---

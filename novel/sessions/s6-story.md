@@ -1,6 +1,6 @@
 ---
 title: "The Hangar Heist & The Surveyor's Compass"
-author: "Novel Adaptation in the Style of Brandon Sanderson"
+author: "The Vumbua Table"
 campaign: Vumbua
 genre: Epic Fantasy / Sci-Fantasy
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Book 1: The Basalt Run — Act I: The Bonfire & The Spire"
-author: "Novel Adaptation in the Style of Brandon Sanderson"
+author: "The Vumbua Table"
 campaign: Vumbua
 genre: Epic Fantasy / Sci-Fantasy
 ---

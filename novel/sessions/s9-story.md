@@ -1,6 +1,6 @@
 ---
 title: "The Loom Drop & Gravity Road"
-author: "Novel Adaptation in the Style of Brandon Sanderson"
+author: "The Vumbua Table"
 campaign: Vumbua
 genre: Epic Fantasy / Sci-Fantasy
 ---
