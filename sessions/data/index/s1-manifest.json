@@ -5,10 +5,34 @@
   "total_raw_lines": 1389,
   "scene_blocks": [
     {
-      "scene_id": 1,
-      "title": "Session Zero — Character Origins & World Lore",
+      "scene_id": 101,
+      "title": "OOC Backstory Alignment & Clan Lore",
       "line_range": [
         1,
+        105
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "key_narrative_beats": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 102,
+      "title": "OOC Intake World Primer & Rules Overview",
+      "line_range": [
+        106,
+        210
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "key_narrative_beats": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 103,
+      "title": "OOC Daggerheart Rules & Subclass Customization",
+      "line_range": [
+        211,
         315
       ],
       "ooc": true,
@@ -43,7 +67,7 @@
             316
           ],
           "speaker": "GM",
-          "gist": "kitchen. Um, okay. So, then yeah. So, let's go. So, y'all rolled y'all rolled. Um, I think Brit, you would ha…"
+          "gist": "kitchen. Um, okay. So, then yeah. So, let's go. So, y'all rolled y'all rolled. Um, I think Brit, you would ha\u2026"
         },
         {
           "line": 317,
@@ -52,7 +76,7 @@
             321
           ],
           "speaker": "Britt",
-          "gist": "I think uh I think I try to stall. Yeah, Okay. Um, how do you do that? ### 00:28:30 I think I'm I think that…"
+          "gist": "I think uh I think I try to stall. Yeah, Okay. Um, how do you do that? ### 00:28:30 I think I'm I think that\u2026"
         },
         {
           "line": 322,
@@ -70,7 +94,7 @@
             334
           ],
           "speaker": "GM",
-          "gist": "Yeah. Do you are you gonna try to do it as before it's going up or just now that it's you're reaching and try…"
+          "gist": "Yeah. Do you are you gonna try to do it as before it's going up or just now that it's you're reaching and try\u2026"
         },
         {
           "line": 329,
@@ -80,7 +104,7 @@
           ],
           "ooc": true,
           "speaker": "GM",
-          "gist": "Yeah. So, um this is one of those things it's like in Dagger Hart they really try to not let try to have as f…"
+          "gist": "Yeah. So, um this is one of those things it's like in Dagger Hart they really try to not let try to have as f\u2026"
         },
         {
           "line": 333,
@@ -90,7 +114,7 @@
           ],
           "ooc": true,
           "speaker": "GM",
-          "gist": "And I rolled pretty good on my side because I can roll as much as I want because it doesn't contribute to any…"
+          "gist": "And I rolled pretty good on my side because I can roll as much as I want because it doesn't contribute to any\u2026"
         },
         {
           "line": 335,
@@ -99,7 +123,7 @@
             343
           ],
           "speaker": "GM",
-          "gist": "Um, Mhm. I think that like you you were able to get it down and that meant that the the first person didn't g…"
+          "gist": "Um, Mhm. I think that like you you were able to get it down and that meant that the the first person didn't g\u2026"
         },
         {
           "line": 344,
@@ -108,7 +132,7 @@
             349
           ],
           "speaker": "Britt",
-          "gist": "Can I like try to rip my ticket off and shove it in my pocket and be like something happened like it like Yea…"
+          "gist": "Can I like try to rip my ticket off and shove it in my pocket and be like something happened like it like Yea\u2026"
         },
         {
           "line": 350,
@@ -162,7 +186,7 @@
             361
           ],
           "speaker": "Britt",
-          "gist": "And I just get down and start looking underneath. Just like shuffling around underneath the ma'am. Excuse me,…"
+          "gist": "And I just get down and start looking underneath. Just like shuffling around underneath the ma'am. Excuse me,\u2026"
         },
         {
           "line": 362,
@@ -189,7 +213,7 @@
             370
           ],
           "speaker": "Aggie",
-          "gist": "Yeah. I just feel like as soon as everything's chaotic over there, then mine goes ding. Yeah. Ding. Yeah. I l…"
+          "gist": "Yeah. I just feel like as soon as everything's chaotic over there, then mine goes ding. Yeah. Ding. Yeah. I l\u2026"
         },
         {
           "line": 371,
@@ -216,7 +240,7 @@
             377
           ],
           "speaker": "GM",
-          "gist": "I guess I just chase after. Okay. Yeah. So, you've got your um and an attendant kind of catches you and makes…"
+          "gist": "I guess I just chase after. Okay. Yeah. So, you've got your um and an attendant kind of catches you and makes\u2026"
         },
         {
           "line": 378,
@@ -225,7 +249,7 @@
             378
           ],
           "speaker": "GM",
-          "gist": "Okay. So y'all are able to to join back together into the flow and you eventually um head your way and like L…"
+          "gist": "Okay. So y'all are able to to join back together into the flow and you eventually um head your way and like L\u2026"
         },
         {
           "line": 379,
@@ -234,7 +258,7 @@
             379
           ],
           "speaker": "Lomi",
-          "gist": "think just during like the general stroll to the exam and like being shuffled away from the exam, Loami's tal…"
+          "gist": "think just during like the general stroll to the exam and like being shuffled away from the exam, Loami's tal\u2026"
         },
         {
           "line": 380,
@@ -243,7 +267,7 @@
             383
           ],
           "speaker": "Attendant",
-          "gist": "You are a copper. It is always good to know your options. I hope you make it through the next round. Um, I do…"
+          "gist": "You are a copper. It is always good to know your options. I hope you make it through the next round. Um, I do\u2026"
         },
         {
           "line": 384,
@@ -252,7 +276,7 @@
             384
           ],
           "speaker": "Lomi",
-          "gist": "I I got a life calling in uh in the boiler room, you know, family family born and raised boiler boiler mega u…"
+          "gist": "I I got a life calling in uh in the boiler room, you know, family family born and raised boiler boiler mega u\u2026"
         },
         {
           "line": 385,
@@ -270,7 +294,7 @@
             393
           ],
           "speaker": "Attendant",
-          "gist": "Sorry. this might take Come on, sir. Your test is done. You know, off. please please don't try it again. No,…"
+          "gist": "Sorry. this might take Come on, sir. Your test is done. You know, off. please please don't try it again. No,\u2026"
         },
         {
           "line": 394,
@@ -279,7 +303,7 @@
             394
           ],
           "speaker": "Lomi",
-          "gist": "Yeah, you know, you you got you are doing great work here and you you keep doing your thing. Uh I see I see y…"
+          "gist": "Yeah, you know, you you got you are doing great work here and you you keep doing your thing. Uh I see I see y\u2026"
         },
         {
           "line": 395,
@@ -288,7 +312,7 @@
             400
           ],
           "speaker": "GM",
-          "gist": "Yeah, ### 00:34:10 of. he's like I I think even at that point someone like he he ducks as someone try like th…"
+          "gist": "Yeah, ### 00:34:10 of. he's like I I think even at that point someone like he he ducks as someone try like th\u2026"
         },
         {
           "line": 401,
@@ -297,7 +321,7 @@
             410
           ],
           "speaker": "Ignatius",
-          "gist": "Why you make it so \"Yeah, so sad.\" Um, sad? what the I know. And so as you're working your way through, like…"
+          "gist": "Why you make it so \"Yeah, so sad.\" Um, sad? what the I know. And so as you're working your way through, like\u2026"
         },
         {
           "line": 411,
@@ -306,7 +330,7 @@
             415
           ],
           "speaker": "GM",
-          "gist": "until you get to the end and I think like there's um uh there's quite a lot of people that you just see them…"
+          "gist": "until you get to the end and I think like there's um uh there's quite a lot of people that you just see them\u2026"
         },
         {
           "line": 416,
@@ -416,7 +440,7 @@
             442
           ],
           "speaker": "GM",
-          "gist": "Um, that is that is just dropped our throughput by 100 candidates. This is um terrible. Terri and then you se…"
+          "gist": "Um, that is that is just dropped our throughput by 100 candidates. This is um terrible. Terri and then you se\u2026"
         },
         {
           "line": 443,
@@ -425,7 +449,7 @@
             443
           ],
           "speaker": "GM",
-          "gist": "He's like picking up slime off of the like uh receipt generator and he's what do you where you're in the test…"
+          "gist": "He's like picking up slime off of the like uh receipt generator and he's what do you where you're in the test\u2026"
         },
         {
           "line": 444,
@@ -434,7 +458,7 @@
             452
           ],
           "speaker": "Iggy",
-          "gist": "But I don't I don't know what this is. car I just Okay. as he uh as does Iggy use his receipt at all? No, Oka…"
+          "gist": "But I don't I don't know what this is. car I just Okay. as he uh as does Iggy use his receipt at all? No, Oka\u2026"
         },
         {
           "line": 453,
@@ -443,7 +467,7 @@
             453
           ],
           "speaker": "GM",
-          "gist": "Yeah, I think even the attendance like um as he as Iggy's reaching in there, he might he might be looking for…"
+          "gist": "Yeah, I think even the attendance like um as he as Iggy's reaching in there, he might he might be looking for\u2026"
         },
         {
           "line": 454,
@@ -461,7 +485,7 @@
             456
           ],
           "speaker": "Attendant",
-          "gist": "absolutely no problem. Um, if there's any any questions, don't ask me, but keep them in and you they'll be an…"
+          "gist": "absolutely no problem. Um, if there's any any questions, don't ask me, but keep them in and you they'll be an\u2026"
         },
         {
           "line": 457,
@@ -488,7 +512,7 @@
             462
           ],
           "speaker": "GM",
-          "gist": "um, I'm sure you're going to have a great time finding the answers. Uh, and this is like that supervisor figu…"
+          "gist": "um, I'm sure you're going to have a great time finding the answers. Uh, and this is like that supervisor figu\u2026"
         },
         {
           "line": 463,
@@ -506,7 +530,7 @@
             465
           ],
           "speaker": "GM",
-          "gist": "Yeah. Um Britt and um and Aggie, when y'all get to the gate, uh Brit, you get a little extra attention. They'…"
+          "gist": "Yeah. Um Britt and um and Aggie, when y'all get to the gate, uh Brit, you get a little extra attention. They'\u2026"
         },
         {
           "line": 466,
@@ -552,7 +576,7 @@
             473
           ],
           "speaker": "GM",
-          "gist": "would um how would I how would Agie res um feel about Brit getting attention? I think she's just trying to be…"
+          "gist": "would um how would I how would Agie res um feel about Brit getting attention? I think she's just trying to be\u2026"
         },
         {
           "line": 472,
@@ -562,7 +586,7 @@
           ],
           "ooc": true,
           "speaker": "GM",
-          "gist": "like you you kind of are wondering how 80,000 people could fit into a university and it's because you can't s…"
+          "gist": "like you you kind of are wondering how 80,000 people could fit into a university and it's because you can't s\u2026"
         },
         {
           "line": 473,
@@ -581,7 +605,7 @@
             481
           ],
           "speaker": "GM",
-          "gist": "you. It started so good. It looked so cool for about two Yeah, the transition. seconds. There we go. Nice. So…"
+          "gist": "you. It started so good. It looked so cool for about two Yeah, the transition. seconds. There we go. Nice. So\u2026"
         },
         {
           "line": 475,
@@ -669,7 +693,7 @@
             485
           ],
           "speaker": "Ignatius",
-          "gist": "That's all around it. It is it is an academy under construction. On the far side is this is is really the onl…"
+          "gist": "That's all around it. It is it is an academy under construction. On the far side is this is is really the onl\u2026"
         },
         {
           "line": 486,
@@ -678,7 +702,7 @@
             534
           ],
           "speaker": "GM",
-          "gist": "Uh, them? you want to roll me something to see how the what the hell you're processing here? ### 00:41:57 Bec…"
+          "gist": "Uh, them? you want to roll me something to see how the what the hell you're processing here? ### 00:41:57 Bec\u2026"
         },
         {
           "line": 492,
@@ -688,7 +712,7 @@
           ],
           "ooc": true,
           "speaker": "GM",
-          "gist": "Yeah, this is like kind of like call Cthulhu. I'm not supposed to tell you. You're supposed to choose and tel…"
+          "gist": "Yeah, this is like kind of like call Cthulhu. I'm not supposed to tell you. You're supposed to choose and tel\u2026"
         },
         {
           "line": 499,
@@ -718,7 +742,7 @@
           ],
           "ooc": true,
           "speaker": "GM",
-          "gist": "Yeah. And I think as we get better of it, like that you're supposed to play off of the hope with fear on on t…"
+          "gist": "Yeah. And I think as we get better of it, like that you're supposed to play off of the hope with fear on on t\u2026"
         },
         {
           "line": 503,
@@ -958,7 +982,7 @@
           ],
           "ooc": true,
           "speaker": "GM",
-          "gist": "Um and but if we ever do roll double twelves or double ones, I don't care what the rules say. So keep that in…"
+          "gist": "Um and but if we ever do roll double twelves or double ones, I don't care what the rules say. So keep that in\u2026"
         },
         {
           "line": 528,
@@ -987,7 +1011,7 @@
             538
           ],
           "speaker": "Ignatius",
-          "gist": "I think ignatious like had this facade of like confidence walking in and um then getting through this it just…"
+          "gist": "I think ignatious like had this facade of like confidence walking in and um then getting through this it just\u2026"
         },
         {
           "line": 539,
@@ -1005,7 +1029,7 @@
             542
           ],
           "speaker": "GM",
-          "gist": "Uh, and he he's like, Awesome. \"Don't worry, Chad. It's so like welcome to the show, mate.\" And oh, wait, are…"
+          "gist": "Uh, and he he's like, Awesome. \"Don't worry, Chad. It's so like welcome to the show, mate.\" And oh, wait, are\u2026"
         },
         {
           "line": 543,
@@ -1014,7 +1038,7 @@
             550
           ],
           "speaker": "Ignatius",
-          "gist": "The Ashland Islands, the [[Ember]] Isles. ah, yes, that's what you called him. Those We weren't We weren't ev…"
+          "gist": "The Ashland Islands, the [[Ember]] Isles. ah, yes, that's what you called him. Those We weren't We weren't ev\u2026"
         },
         {
           "line": 544,
@@ -1110,7 +1134,7 @@
             564
           ],
           "speaker": "GM",
-          "gist": "Uh I think he's like he's he's just trying not to be entirely Second question. disrespectful, but like it's u…"
+          "gist": "Uh I think he's like he's he's just trying not to be entirely Second question. disrespectful, but like it's u\u2026"
         },
         {
           "line": 565,
@@ -1119,7 +1143,7 @@
             568
           ],
           "speaker": "Ignatius",
-          "gist": "No, man. It's okay. I don't I get it's hard to it's hard to wipe off. it. I mean, it's something that never l…"
+          "gist": "No, man. It's okay. I don't I get it's hard to it's hard to wipe off. it. I mean, it's something that never l\u2026"
         },
         {
           "line": 569,
@@ -1128,7 +1152,7 @@
             575
           ],
           "speaker": "Ignatius",
-          "gist": "You'll get used to it. It's I I all respect I hope I hope not, fine. actually. um this uh I'll see you. Yeah.…"
+          "gist": "You'll get used to it. It's I I all respect I hope I hope not, fine. actually. um this uh I'll see you. Yeah.\u2026"
         },
         {
           "line": 576,
@@ -1164,7 +1188,7 @@
             585
           ],
           "speaker": "GM",
-          "gist": "And he's like, \"All right, jolly good.\" patching like what the f\\*\\*\\* he storms off and he's got like his ra…"
+          "gist": "And he's like, \"All right, jolly good.\" patching like what the f\\*\\*\\* he storms off and he's got like his ra\u2026"
         },
         {
           "line": 586,
@@ -1173,7 +1197,7 @@
             602
           ],
           "speaker": "Ignatius",
-          "gist": "I think ignatious finds this really funny because like that's not a normal thing for him to always be covered…"
+          "gist": "I think ignatious finds this really funny because like that's not a normal thing for him to always be covered\u2026"
         },
         {
           "line": 589,
@@ -1302,7 +1326,7 @@
             604
           ],
           "speaker": "GM",
-          "gist": "Um and then Loami. Yeah, like I I think that you you might have even seen some of the inside of the of Vimua…"
+          "gist": "Um and then Loami. Yeah, like I I think that you you might have even seen some of the inside of the of Vimua\u2026"
         },
         {
           "line": 605,
@@ -1311,7 +1335,7 @@
             607
           ],
           "speaker": "GM",
-          "gist": "You might you probably even you know you worked here normally. Um but I think you're like I don't know maybe…"
+          "gist": "You might you probably even you know you worked here normally. Um but I think you're like I don't know maybe\u2026"
         },
         {
           "line": 608,
@@ -1320,7 +1344,7 @@
             611
           ],
           "speaker": "Lomi",
-          "gist": "Yeah. I think this would be like he's he probably goes kind of under the surface more or less if by this poin…"
+          "gist": "Yeah. I think this would be like he's he probably goes kind of under the surface more or less if by this poin\u2026"
         },
         {
           "line": 612,
@@ -1329,7 +1353,7 @@
             612
           ],
           "speaker": "Lomi",
-          "gist": "\"Yeah, this will do. This is this they do good work.\" They do. You know what? What can we say? They, you know…"
+          "gist": "\"Yeah, this will do. This is this they do good work.\" They do. You know what? What can we say? They, you know\u2026"
         },
         {
           "line": 613,
@@ -1338,7 +1362,7 @@
             614
           ],
           "speaker": "GM",
-          "gist": "I love it. Um I think and I think uh Loami might even um he runs into he recognizes someone because you've yo…"
+          "gist": "I love it. Um I think and I think uh Loami might even um he runs into he recognizes someone because you've yo\u2026"
         },
         {
           "line": 615,
@@ -1431,7 +1455,7 @@
             634
           ],
           "speaker": "Lomi",
-          "gist": "They the green flag popped up and I said, \"All right, let's you know, let's give this a go.\" Hey, I couldn't…"
+          "gist": "They the green flag popped up and I said, \"All right, let's you know, let's give this a go.\" Hey, I couldn't\u2026"
         },
         {
           "line": 635,
@@ -1458,7 +1482,7 @@
             641
           ],
           "speaker": "Sarge",
-          "gist": "Yeah. ### 00:49:18 Yeah. I just, you know, looked at the typewriter. So, that seems about right. Uh, and s\\*\\…"
+          "gist": "Yeah. ### 00:49:18 Yeah. I just, you know, looked at the typewriter. So, that seems about right. Uh, and s\\*\\\u2026"
         },
         {
           "line": 642,
@@ -1467,7 +1491,7 @@
             642
           ],
           "speaker": "Lomi",
-          "gist": "You know, this is it's pretty overwhelming. I'll be honest. It's pretty overwhelming. Uh we'll uh you know, I…"
+          "gist": "You know, this is it's pretty overwhelming. I'll be honest. It's pretty overwhelming. Uh we'll uh you know, I\u2026"
         },
         {
           "line": 643,
@@ -1476,7 +1500,7 @@
             643
           ],
           "speaker": "Sarge",
-          "gist": "Yeah, you're right. You're right. I mean, I just I got to remember why I'm here, you know? Got to remember wh…"
+          "gist": "Yeah, you're right. You're right. I mean, I just I got to remember why I'm here, you know? Got to remember wh\u2026"
         },
         {
           "line": 644,
@@ -1485,7 +1509,7 @@
             652
           ],
           "speaker": "Lomi",
-          "gist": "That's right. Got to represent And uh I I don't I think maybe over the campfires you've um is what type of so…"
+          "gist": "That's right. Got to represent And uh I I don't I think maybe over the campfires you've um is what type of so\u2026"
         },
         {
           "line": 653,
@@ -1494,7 +1518,7 @@
             659
           ],
           "speaker": "GM",
-          "gist": "Okay. Yeah. In that case, then all all that Loami really kind of remembers about Sher's background is that on…"
+          "gist": "Okay. Yeah. In that case, then all all that Loami really kind of remembers about Sher's background is that on\u2026"
         },
         {
           "line": 660,
@@ -1503,7 +1527,7 @@
             663
           ],
           "speaker": "GM",
-          "gist": "He wasn't a grease monkey. He he came from the other side of the academy. Gotcha. Yeah. Um and more like Yeah…"
+          "gist": "He wasn't a grease monkey. He he came from the other side of the academy. Gotcha. Yeah. Um and more like Yeah\u2026"
         },
         {
           "line": 664,
@@ -1512,7 +1536,7 @@
             672
           ],
           "speaker": "GM",
-          "gist": "Like he he he talked enough about his travels that even Lily picked up that he he was like he wasn't he was t…"
+          "gist": "Like he he he talked enough about his travels that even Lily picked up that he he was like he wasn't he was t\u2026"
         },
         {
           "line": 673,
@@ -1521,7 +1545,7 @@
             673
           ],
           "speaker": "Lomi",
-          "gist": "So the like mechanical clarification, the students are the ones who like traveled on the ship and like got he…"
+          "gist": "So the like mechanical clarification, the students are the ones who like traveled on the ship and like got he\u2026"
         },
         {
           "line": 674,
@@ -1530,7 +1554,7 @@
             675
           ],
           "speaker": "GM",
-          "gist": "Yeah. Yeah. Lummy would know the students and the students are Yeah. Like if you they're the ones hunting for…"
+          "gist": "Yeah. Yeah. Lummy would know the students and the students are Yeah. Like if you they're the ones hunting for\u2026"
         },
         {
           "line": 676,
@@ -1539,7 +1563,7 @@
             683
           ],
           "speaker": "GM",
-          "gist": "So there's only a thousand of these titles up for grab for the 100,000 people that came in this year. Those c…"
+          "gist": "So there's only a thousand of these titles up for grab for the 100,000 people that came in this year. Those c\u2026"
         },
         {
           "line": 684,
@@ -1548,7 +1572,7 @@
             685
           ],
           "speaker": "GM",
-          "gist": "So the the flow brings you into that huge auditorium and um the mo the majority of of people like there's um…"
+          "gist": "So the the flow brings you into that huge auditorium and um the mo the majority of of people like there's um\u2026"
         },
         {
           "line": 686,
@@ -1566,7 +1590,7 @@
             688
           ],
           "speaker": "Dean Isolde Vane",
-          "gist": "Hello potential adventurers. I'm just so excited for this next class. It's going to be amazing. You're going…"
+          "gist": "Hello potential adventurers. I'm just so excited for this next class. It's going to be amazing. You're going\u2026"
         },
         {
           "line": 689,
@@ -1584,7 +1608,7 @@
             693
           ],
           "speaker": "Dean Isolde Vane",
-          "gist": "80 years our maps have been static. We've missed the thrill of adventure. No one's wanted to do it. I've been…"
+          "gist": "80 years our maps have been static. We've missed the thrill of adventure. No one's wanted to do it. I've been\u2026"
         },
         {
           "line": 694,
@@ -1593,7 +1617,7 @@
             697
           ],
           "speaker": "GM",
-          "gist": "Does that actually start like coughing? it. Yeah. Um I think she's going to respond. Like she she really does…"
+          "gist": "Does that actually start like coughing? it. Yeah. Um I think she's going to respond. Like she she really does\u2026"
         },
         {
           "line": 698,
@@ -1602,7 +1626,7 @@
             701
           ],
           "speaker": "Dean Isolde Vane",
-          "gist": "She does. She she has she has a lot of energy. I think she does this all day. This is my third time doing thi…"
+          "gist": "She does. She she has she has a lot of energy. I think she does this all day. This is my third time doing thi\u2026"
         },
         {
           "line": 702,
@@ -1611,7 +1635,7 @@
             704
           ],
           "speaker": "GM",
-          "gist": "And where we go, who knows? So, welcome. Welcome. As you exit the great hall behind me, the loom will assign…"
+          "gist": "And where we go, who knows? So, welcome. Welcome. As you exit the great hall behind me, the loom will assign\u2026"
         },
         {
           "line": 705,
@@ -1656,7 +1680,7 @@
             722
           ],
           "speaker": "GM",
-          "gist": "Um, and she probably even knows that you're enrolled because as soon as you went through the entry exam, All…"
+          "gist": "Um, and she probably even knows that you're enrolled because as soon as you went through the entry exam, All\u2026"
         },
         {
           "line": 715,
@@ -1695,7 +1719,7 @@
             725
           ],
           "speaker": "Iggy",
-          "gist": "Uh, I think Iggy, first of all, during the acceptance speech, he like nudges the person next to him. He's lik…"
+          "gist": "Uh, I think Iggy, first of all, during the acceptance speech, he like nudges the person next to him. He's lik\u2026"
         },
         {
           "line": 726,
@@ -1803,7 +1827,7 @@
             750
           ],
           "speaker": "Iggy",
-          "gist": "Sorry, man. It's This place is a little different where I'm from and I don't ignatious just hands Ignat just…"
+          "gist": "Sorry, man. It's This place is a little different where I'm from and I don't ignatious just hands Ignat just\u2026"
         },
         {
           "line": 751,
@@ -1821,7 +1845,7 @@
             760
           ],
           "speaker": "Iggy",
-          "gist": "Thank you. And then he wipes his face and is just now covered in soot. Nice. just like yeah you could you cou…"
+          "gist": "Thank you. And then he wipes his face and is just now covered in soot. Nice. just like yeah you could you cou\u2026"
         },
         {
           "line": 754,
@@ -1945,7 +1969,7 @@
             770
           ],
           "speaker": "Lomi",
-          "gist": "right? That's some good engineering, some good design, and let me tell you, they haven't moved in a while. So…"
+          "gist": "right? That's some good engineering, some good design, and let me tell you, they haven't moved in a while. So\u2026"
         },
         {
           "line": 771,
@@ -1963,7 +1987,7 @@
             775
           ],
           "speaker": "Lomi",
-          "gist": "Uh yeah, go? the boat sits on the surface and the other one goes in the air and they kind of come back and th…"
+          "gist": "Uh yeah, go? the boat sits on the surface and the other one goes in the air and they kind of come back and th\u2026"
         },
         {
           "line": 776,
@@ -1990,7 +2014,7 @@
             783
           ],
           "speaker": "Iggy",
-          "gist": "Okay, I'm going go get a little closer look. He's Yeah, take it all in. It's a lot to take And he just walks…"
+          "gist": "Okay, I'm going go get a little closer look. He's Yeah, take it all in. It's a lot to take And he just walks\u2026"
         },
         {
           "line": 784,
@@ -1999,7 +2023,7 @@
             790
           ],
           "speaker": "Iggy",
-          "gist": "He pulls out his notepad and he's like drawing the boats on his notepad old. like he's like looking out the m…"
+          "gist": "He pulls out his notepad and he's like drawing the boats on his notepad old. like he's like looking out the m\u2026"
         },
         {
           "line": 791,
@@ -2026,7 +2050,7 @@
             796
           ],
           "speaker": "Ignatius",
-          "gist": "One of the faculty It's hard to tell but I don't know about oldtime. I just know a thing or two about this pl…"
+          "gist": "One of the faculty It's hard to tell but I don't know about oldtime. I just know a thing or two about this pl\u2026"
         },
         {
           "line": 797,
@@ -2035,7 +2059,7 @@
             800
           ],
           "speaker": "Lomi",
-          "gist": "So this is my first time kind of up on the surface like this too. Wait, so you applied and got Yeah. I applie…"
+          "gist": "So this is my first time kind of up on the surface like this too. Wait, so you applied and got Yeah. I applie\u2026"
         },
         {
           "line": 801,
@@ -2044,7 +2068,7 @@
             801
           ],
           "speaker": "Lomi",
-          "gist": "You know there haven't there hasn't really been anything to to look at around here for a while. And you know…"
+          "gist": "You know there haven't there hasn't really been anything to to look at around here for a while. And you know\u2026"
         },
         {
           "line": 802,
@@ -2053,7 +2077,7 @@
             807
           ],
           "speaker": "Ignatius",
-          "gist": "All right. That's That's pretty badass. I'm My name's ignatious, by the way. And he sticks out his hand again…"
+          "gist": "All right. That's That's pretty badass. I'm My name's ignatious, by the way. And he sticks out his hand again\u2026"
         },
         {
           "line": 808,
@@ -2062,7 +2086,7 @@
             812
           ],
           "speaker": "Ignatius",
-          "gist": "I'm Oh, we do we're doing last names. That's that's pretty formal, I guess. ### 01:04:49 Uh my name is uh my…"
+          "gist": "I'm Oh, we do we're doing last names. That's that's pretty formal, I guess. ### 01:04:49 Uh my name is uh my\u2026"
         },
         {
           "line": 813,
@@ -2098,7 +2122,7 @@
             822
           ],
           "speaker": "Lomi",
-          "gist": "Yeah. The door the door opened the the the Yeah, we're we're getting directed out. Iggy. Uh, all right. Iggy…"
+          "gist": "Yeah. The door the door opened the the the Yeah, we're we're getting directed out. Iggy. Uh, all right. Iggy\u2026"
         },
         {
           "line": 823,
@@ -2107,7 +2131,7 @@
             824
           ],
           "speaker": "GM",
-          "gist": "Uh yeah, and I think like at this point there's there's not a ton of people left, but there is there is one l…"
+          "gist": "Uh yeah, and I think like at this point there's there's not a ton of people left, but there is there is one l\u2026"
         },
         {
           "line": 825,
@@ -2116,7 +2140,7 @@
             825
           ],
           "speaker": "Lucky",
-          "gist": "Got it right here. And he's holding like a little ball of fire that's the same color as your hair. No problem…"
+          "gist": "Got it right here. And he's holding like a little ball of fire that's the same color as your hair. No problem\u2026"
         },
         {
           "line": 826,
@@ -2152,7 +2176,7 @@
             834
           ],
           "speaker": "GM",
-          "gist": "And he like rummages through his bag and pulls out this like uh like the turban that the guards were wearing.…"
+          "gist": "And he like rummages through his bag and pulls out this like uh like the turban that the guards were wearing.\u2026"
         },
         {
           "line": 835,
@@ -2170,7 +2194,7 @@
             838
           ],
           "speaker": "Lucky",
-          "gist": "I'm lucky. You can be lucky today. And he gives you like a little torn off part of the scarf. And he's trying…"
+          "gist": "I'm lucky. You can be lucky today. And he gives you like a little torn off part of the scarf. And he's trying\u2026"
         },
         {
           "line": 839,
@@ -2179,7 +2203,7 @@
             843
           ],
           "speaker": "Iggy",
-          "gist": "Thank you. Well, And he wanders and he's suddenly in front of you I do have something cool. He has his s his…"
+          "gist": "Thank you. Well, And he wanders and he's suddenly in front of you I do have something cool. He has his s his\u2026"
         },
         {
           "line": 844,
@@ -2233,7 +2257,7 @@
             855
           ],
           "speaker": "Iggy",
-          "gist": "And he pulls out like a very extravagant like version of a trumpet cool. trombone instrument that just like i…"
+          "gist": "And he pulls out like a very extravagant like version of a trumpet cool. trombone instrument that just like i\u2026"
         },
         {
           "line": 856,
@@ -2242,7 +2266,7 @@
             859
           ],
           "speaker": "Iggy",
-          "gist": "It's like it it like it's like an accordion. It like pulls out, like unfolds, and it makes like the most god-…"
+          "gist": "It's like it it like it's like an accordion. It like pulls out, like unfolds, and it makes like the most god-\u2026"
         },
         {
           "line": 860,
@@ -2251,7 +2275,7 @@
             865
           ],
           "speaker": "Lucky",
-          "gist": "Well, Yeah. I'm pretty lucky, but I don't even know if I'm lucky enough to do something with that. I'll tell…"
+          "gist": "Well, Yeah. I'm pretty lucky, but I don't even know if I'm lucky enough to do something with that. I'll tell\u2026"
         },
         {
           "line": 866,
@@ -2269,7 +2293,7 @@
             867
           ],
           "speaker": "Lucky",
-          "gist": "You're welcome. Hey, make sure that um when that guy comes in here, he probably don't want to see you with th…"
+          "gist": "You're welcome. Hey, make sure that um when that guy comes in here, he probably don't want to see you with th\u2026"
         },
         {
           "line": 868,
@@ -2332,7 +2356,7 @@
             885
           ],
           "speaker": "Lucky",
-          "gist": "Can I just like away. flubixed? Like, did this kid just take my hat to use it as a tissue and then give it ba…"
+          "gist": "Can I just like away. flubixed? Like, did this kid just take my hat to use it as a tissue and then give it ba\u2026"
         },
         {
           "line": 886,
@@ -2350,7 +2374,7 @@
             892
           ],
           "speaker": "Lomi",
-          "gist": "Yeah, let's get out of here. I don't, go. Uh, you know, I I'm definitely not feeling quite as lucky as that g…"
+          "gist": "Yeah, let's get out of here. I don't, go. Uh, you know, I I'm definitely not feeling quite as lucky as that g\u2026"
         },
         {
           "line": 893,
@@ -2359,7 +2383,7 @@
             896
           ],
           "speaker": "GM",
-          "gist": "So, Iggy, ignatious, and Loami make your way towards the end of the uh little like aisle corridor, and you pa…"
+          "gist": "So, Iggy, ignatious, and Loami make your way towards the end of the uh little like aisle corridor, and you pa\u2026"
         },
         {
           "line": 897,
@@ -2368,7 +2392,7 @@
             898
           ],
           "speaker": "GM",
-          "gist": "Um and as you come up behind uh so now you're back like behind the buildings is where the um the you there's…"
+          "gist": "Um and as you come up behind uh so now you're back like behind the buildings is where the um the you there's\u2026"
         },
         {
           "line": 899,
@@ -2377,7 +2401,7 @@
             900
           ],
           "speaker": "GM",
-          "gist": "Point is, uh, there's plenty of room to ex like spread out on this side of the campus. A lot more flat ground…"
+          "gist": "Point is, uh, there's plenty of room to ex like spread out on this side of the campus. A lot more flat ground\u2026"
         },
         {
           "line": 901,
@@ -2386,7 +2410,7 @@
             903
           ],
           "speaker": "GM",
-          "gist": "Um, and every now and then he stops, takes some questions, and then gets his horn back out and starts yelling…"
+          "gist": "Um, and every now and then he stops, takes some questions, and then gets his horn back out and starts yelling\u2026"
         },
         {
           "line": 904,
@@ -2395,7 +2419,7 @@
             910
           ],
           "speaker": "Lomi",
-          "gist": "I I don't know what we're doing. My first thought is how familiar are we with the concept of time like as in…"
+          "gist": "I I don't know what we're doing. My first thought is how familiar are we with the concept of time like as in\u2026"
         },
         {
           "line": 911,
@@ -2413,7 +2437,7 @@
             915
           ],
           "speaker": "GM",
-          "gist": "I think now that people are like spreading out a little bit more, Aggie is a little less overwhelmed and now…"
+          "gist": "I think now that people are like spreading out a little bit more, Aggie is a little less overwhelmed and now\u2026"
         },
         {
           "line": 916,
@@ -2422,7 +2446,7 @@
             917
           ],
           "speaker": "GM",
-          "gist": "Um, and we'll do the best we can to be common sense where where it like matters. Um, but so there's like yeah…"
+          "gist": "Um, and we'll do the best we can to be common sense where where it like matters. Um, but so there's like yeah\u2026"
         },
         {
           "line": 918,
@@ -2460,7 +2484,7 @@
             936
           ],
           "speaker": "Iggy",
-          "gist": "of the labs as dorms. They probably won't use do the lab until the initial genet is done. So all the speciali…"
+          "gist": "of the labs as dorms. They probably won't use do the lab until the initial genet is done. So all the speciali\u2026"
         },
         {
           "line": 937,
@@ -2532,7 +2556,7 @@
             951
           ],
           "speaker": "Ignatius",
-          "gist": "Yeah, but now I'm curious. Well, then come on. That's what ignatious is appalled that he was like for a secon…"
+          "gist": "Yeah, but now I'm curious. Well, then come on. That's what ignatious is appalled that he was like for a secon\u2026"
         },
         {
           "line": 952,
@@ -2541,7 +2565,7 @@
             958
           ],
           "speaker": "Ignatius",
-          "gist": "He he digs them, ### 01:20:56 There have been there have been a lot of weird creatures but he's just not real…"
+          "gist": "He he digs them, ### 01:20:56 There have been there have been a lot of weird creatures but he's just not real\u2026"
         },
         {
           "line": 959,
@@ -2550,7 +2574,7 @@
             964
           ],
           "speaker": "Iggy",
-          "gist": "He is he has like his journal back out. He pulls some contraption out of his little bag of tricks that's like…"
+          "gist": "He is he has like his journal back out. He pulls some contraption out of his little bag of tricks that's like\u2026"
         },
         {
           "line": 965,
@@ -2559,7 +2583,7 @@
             978
           ],
           "speaker": "Iggy",
-          "gist": "I think it's like it's very like he's all of a sudden he catches a wild hair and he's like, ground? \"Oh, this…"
+          "gist": "I think it's like it's very like he's all of a sudden he catches a wild hair and he's like, ground? \"Oh, this\u2026"
         },
         {
           "line": 979,
@@ -2568,7 +2592,7 @@
             986
           ],
           "speaker": "Iggy",
-          "gist": "Yeah, just I think he's outside and I think he's like if there's a crane, he's trying to climb it. Like he's…"
+          "gist": "Yeah, just I think he's outside and I think he's like if there's a crane, he's trying to climb it. Like he's\u2026"
         },
         {
           "line": 987,
@@ -2577,7 +2601,7 @@
             987
           ],
           "speaker": "Lomi",
-          "gist": "I think it's definitely like a looking up and being like a huh what's going on? And then I think I say to Agg…"
+          "gist": "I think it's definitely like a looking up and being like a huh what's going on? And then I think I say to Agg\u2026"
         },
         {
           "line": 988,
@@ -2586,7 +2610,7 @@
             989
           ],
           "speaker": "GM",
-          "gist": "Okay. Um, okay. Uh, and so ignatious and Iggy are I mean I I literally like I don't know that Iggy is taking…"
+          "gist": "Okay. Um, okay. Uh, and so ignatious and Iggy are I mean I I literally like I don't know that Iggy is taking\u2026"
         },
         {
           "line": 990,
@@ -2595,7 +2619,7 @@
             994
           ],
           "speaker": "GM",
-          "gist": "And you've been above the ground before, Yeah. but you've never been above the ground with sky. And I'm I'm c…"
+          "gist": "And you've been above the ground before, Yeah. but you've never been above the ground with sky. And I'm I'm c\u2026"
         },
         {
           "line": 995,
@@ -2649,7 +2673,7 @@
             1004
           ],
           "speaker": "Iggy",
-          "gist": "But like I don't feel it. ignatious just looks up and looks at Iggy and goes, \"I didn't know you could feel i…"
+          "gist": "But like I don't feel it. ignatious just looks up and looks at Iggy and goes, \"I didn't know you could feel i\u2026"
         },
         {
           "line": 1005,
@@ -2721,7 +2745,7 @@
             1028
           ],
           "speaker": "Iggy",
-          "gist": "Everything's fine, guys. I just need to diss are they're climbing up on like a scaffolding, you. right? Yeah,…"
+          "gist": "Everything's fine, guys. I just need to diss are they're climbing up on like a scaffolding, you. right? Yeah,\u2026"
         },
         {
           "line": 1029,
@@ -2748,7 +2772,7 @@
             1048
           ],
           "speaker": "Iggy",
-          "gist": "Hold on. And then he p he's he's all he's trying to balance and he's got his notebook up and he's like in my…"
+          "gist": "Hold on. And then he p he's he's all he's trying to balance and he's got his notebook up and he's like in my\u2026"
         },
         {
           "line": 1049,
@@ -2757,7 +2781,7 @@
             1053
           ],
           "speaker": "Iggy",
-          "gist": "And also he's I think there's a specifically there's a cloud and he just thinks that he's going to be top. ju…"
+          "gist": "And also he's I think there's a specifically there's a cloud and he just thinks that he's going to be top. ju\u2026"
         },
         {
           "line": 1054,
@@ -2766,7 +2790,7 @@
             1057
           ],
           "speaker": "GM",
-          "gist": "And but I do think you probably got high enough to see over like the the press of some of the small buildings…"
+          "gist": "And but I do think you probably got high enough to see over like the the press of some of the small buildings\u2026"
         },
         {
           "line": 1058,
@@ -2784,7 +2808,7 @@
             1061
           ],
           "speaker": "GM",
-          "gist": "then I think um uh as y'all are all there kind of gathered around this uh you see coming toward you a small u…"
+          "gist": "then I think um uh as y'all are all there kind of gathered around this uh you see coming toward you a small u\u2026"
         },
         {
           "line": 1062,
@@ -2793,7 +2817,7 @@
             1062
           ],
           "speaker": "Serra Vox",
-          "gist": "Are you are you from the island? And are you are you um how would I know if you're are you are you? And are y…"
+          "gist": "Are you are you from the island? And are you are you um how would I know if you're are you are you? And are y\u2026"
         },
         {
           "line": 1063,
@@ -2811,7 +2835,7 @@
             1070
           ],
           "speaker": "Ignatius",
-          "gist": "Yeah. Is she if she's saying that like she's saying that ignatious is just looking down like, person \"Huh? Is…"
+          "gist": "Yeah. Is she if she's saying that like she's saying that ignatious is just looking down like, person \"Huh? Is\u2026"
         }
       ]
     },
@@ -2841,7 +2865,7 @@
             1077
           ],
           "speaker": "Ignatius",
-          "gist": "Yeah, I just didn't make it as far as Iggy at at all. that is funny. So then it's Like Iggy is way up there.…"
+          "gist": "Yeah, I just didn't make it as far as Iggy at at all. that is funny. So then it's Like Iggy is way up there.\u2026"
         },
         {
           "line": 1078,
@@ -2850,7 +2874,7 @@
             1079
           ],
           "speaker": "Ignatius",
-          "gist": "I guess I probably would, but it's Yeah, I I would work my way down, but more more to get down there and just…"
+          "gist": "I guess I probably would, but it's Yeah, I I would work my way down, but more more to get down there and just\u2026"
         },
         {
           "line": 1080,
@@ -2859,7 +2883,7 @@
             1086
           ],
           "speaker": "Britt",
-          "gist": "Well, now that this lady's here, want? I feel like I'm I think I'm like more concerned about this lady being…"
+          "gist": "Well, now that this lady's here, want? I feel like I'm I think I'm like more concerned about this lady being\u2026"
         },
         {
           "line": 1087,
@@ -2931,7 +2955,7 @@
             1103
           ],
           "speaker": "Iggy",
-          "gist": "He's still He hasn't left at all. He's still sketching. But like with the bonfire, like a a social get togeth…"
+          "gist": "He's still He hasn't left at all. He's still sketching. But like with the bonfire, like a a social get togeth\u2026"
         },
         {
           "line": 1104,
@@ -2940,7 +2964,7 @@
             1109
           ],
           "speaker": "Serra Vox",
-          "gist": "Yeah, social I would love for y'all to come. Are I mean, I'm over here in in block 99, but uh are you guys im…"
+          "gist": "Yeah, social I would love for y'all to come. Are I mean, I'm over here in in block 99, but uh are you guys im\u2026"
         },
         {
           "line": 1110,
@@ -2949,7 +2973,7 @@
             1112
           ],
           "speaker": "GM",
-          "gist": "We just see like him disappear and there's a plume of dust and then it comes back and he's just like standing…"
+          "gist": "We just see like him disappear and there's a plume of dust and then it comes back and he's just like standing\u2026"
         },
         {
           "line": 1113,
@@ -2958,7 +2982,7 @@
             1116
           ],
           "speaker": "Ignatius",
-          "gist": "Just blast. ground. Oh my impressive. Best. Um well uh I uh just wanted to say hi and invite you. She's like…"
+          "gist": "Just blast. ground. Oh my impressive. Best. Um well uh I uh just wanted to say hi and invite you. She's like\u2026"
         },
         {
           "line": 1117,
@@ -2985,7 +3009,7 @@
             1123
           ],
           "speaker": "GM",
-          "gist": "She was just over there by Yeah, student. she was just over there by like the little bonfire area where the s…"
+          "gist": "She was just over there by Yeah, student. she was just over there by like the little bonfire area where the s\u2026"
         },
         {
           "line": 1124,
@@ -3003,7 +3027,7 @@
             1130
           ],
           "speaker": "Aggie",
-          "gist": "It's okay. I sorry if I insulted you. Um, we're just like, that's really cool that you're from here. I don't…"
+          "gist": "It's okay. I sorry if I insulted you. Um, we're just like, that's really cool that you're from here. I don't\u2026"
         },
         {
           "line": 1131,
@@ -3030,7 +3054,7 @@
             1135
           ],
           "speaker": "Serra Vox",
-          "gist": "I don't I feel like this is going to be uh Well, I I've read that. Um, well, what what what do you like to ca…"
+          "gist": "I don't I feel like this is going to be uh Well, I I've read that. Um, well, what what what do you like to ca\u2026"
         },
         {
           "line": 1136,
@@ -3039,7 +3063,7 @@
             1140
           ],
           "speaker": "Britt",
-          "gist": "What? um sorry, there's we don't really have like diplomacy books for this. So, I'm really kind of looking fo…"
+          "gist": "What? um sorry, there's we don't really have like diplomacy books for this. So, I'm really kind of looking fo\u2026"
         },
         {
           "line": 1141,
@@ -3048,7 +3072,7 @@
             1145
           ],
           "speaker": "GM",
-          "gist": "I mean you're well you're from and she points to um your cousins and Um, and Missy because I can tell by your…"
+          "gist": "I mean you're well you're from and she points to um your cousins and Um, and Missy because I can tell by your\u2026"
         },
         {
           "line": 1146,
@@ -3057,7 +3081,7 @@
             1147
           ],
           "speaker": "Lomi",
-          "gist": "He's going 99\\. Uh, I'd say Loami unintentionally gets to 99\\. He like sees the Steam stacks and is like, \"Al…"
+          "gist": "He's going 99\\. Uh, I'd say Loami unintentionally gets to 99\\. He like sees the Steam stacks and is like, \"Al\u2026"
         },
         {
           "line": 1148,
@@ -3066,7 +3090,7 @@
             1164
           ],
           "speaker": "Lomi",
-          "gist": "But I mean maybe like if he was there because he's so he's still kind of grindy, right? He's still like he's…"
+          "gist": "But I mean maybe like if he was there because he's so he's still kind of grindy, right? He's still like he's\u2026"
         },
         {
           "line": 1165,
@@ -3084,7 +3108,7 @@
             1169
           ],
           "speaker": "Lomi",
-          "gist": "I Yeah, I think Loami's Loami's got to walk up to the the bonfire pit and kind of like looking in walking by…"
+          "gist": "I Yeah, I think Loami's Loami's got to walk up to the the bonfire pit and kind of like looking in walking by\u2026"
         },
         {
           "line": 1170,
@@ -3102,7 +3126,7 @@
             1182
           ],
           "speaker": "Lomi",
-          "gist": "Yeah, thing. This is just far enough apart that I think I think this is this is I think that's that's when Lo…"
+          "gist": "Yeah, thing. This is just far enough apart that I think I think this is this is I think that's that's when Lo\u2026"
         },
         {
           "line": 1183,
@@ -3117,7 +3141,7 @@
     },
     {
       "scene_id": 8,
-      "title": "Session Wrap — Campaign Direction Talk",
+      "title": "Session Wrap \u2014 Campaign Direction Talk",
       "line_range": [
         1185,
         1200
@@ -3140,10 +3164,22 @@
       "dialogue_ledger": []
     },
     {
-      "scene_id": 10,
-      "title": "Outro — Scheduling, Thanks & Power Outage",
+      "scene_id": 110,
+      "title": "Outro \u2014 Scheduling, Thanks Part 1",
       "line_range": [
         1202,
+        1300
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "key_narrative_beats": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 111,
+      "title": "Outro \u2014 Power Outage & Closing Part 2",
+      "line_range": [
+        1301,
         1389
       ],
       "ooc": true,

@@ -1,11 +1,24 @@
----
-title: "First Day of Class & The Resonance Rumors"
-author: "The Vumbua Table"
-campaign: Vumbua
-genre: Epic Fantasy / Sci-Fantasy
----
+<!-- RAW_RANGE: [1, 100] | SCENE_ID: 1 | OOC -->
 
-# FIRST DAY OF CLASS & THE RESONANCE RUMORS
+<!-- RAW_RANGE: [101, 200] | SCENE_ID: 2 | OOC -->
+
+<!-- RAW_RANGE: [201, 300] | SCENE_ID: 3 | OOC -->
+
+<!-- RAW_RANGE: [301, 400] | SCENE_ID: 4 | OOC -->
+
+<!-- RAW_RANGE: [401, 500] | SCENE_ID: 5 | OOC -->
+
+<!-- RAW_RANGE: [501, 600] | SCENE_ID: 6 | OOC -->
+
+<!-- RAW_RANGE: [601, 700] | SCENE_ID: 7 | OOC -->
+
+<!-- RAW_RANGE: [701, 800] | SCENE_ID: 8 | OOC -->
+
+<!-- RAW_RANGE: [801, 900] | SCENE_ID: 9 | OOC -->
+
+<!-- RAW_RANGE: [901, 1000] | SCENE_ID: 10 | OOC -->
+
+<!-- RAW_RANGE: [1001, 1093] | SCENE_ID: 11 | OOC -->
 
 <!-- RAW_RANGE: [1094, 1217] | SCENE_ID: 12 -->
 
@@ -35,8 +48,6 @@ Outside, the bells began their rhythmic chime. Ignatius dragged Iggy out into th
 
 <!-- LEDGER: rendered=[1094, 1102, 1103, 1104, 1106, 1107, 1109, 1112, 1115, 1124, 1128, 1130, 1131, 1132, 1134, 1137, 1139, 1141, 1143, 1153, 1156, 1158, 1162, 1164, 1171, 1177, 1179, 1180, 1186, 1194, 1198, 1208, 1212, 1213, 1215, 1217] skipped=[1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1100(ooc), 1105(ooc), 1108(ooc), 1110(ooc), 1111(ooc), 1114(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1120(ooc), 1121(ooc), 1122(ooc), 1123(ooc), 1126(ooc), 1127(ooc), 1129(ooc), 1133(ooc), 1135(ooc), 1136(ooc), 1138(ooc), 1140(ooc), 1142(ooc), 1144(ooc), 1145(ooc), 1146(ooc), 1148(ooc), 1149(ooc), 1150(ooc), 1151(ooc), 1152(ooc), 1154(ooc), 1157(ooc), 1159(ooc), 1160(ooc), 1161(ooc), 1163(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1172(ooc), 1173(ooc), 1174(ooc), 1175(ooc), 1176(ooc), 1178(ooc), 1181(ooc), 1182(ooc), 1183(ooc), 1184(ooc), 1187(ooc), 1188(ooc), 1189(ooc), 1190(ooc), 1191(ooc), 1192(ooc), 1193(ooc), 1195(ooc), 1196(ooc), 1197(ooc), 1199(ooc), 1200(ooc), 1201(ooc), 1202(ooc), 1204(ooc), 1206(ooc), 1209(ooc), 1210(ooc), 1211(ooc), 1214(ooc), 1216(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1218, 1348] | SCENE_ID: 13 -->
 
 ## Chapter 33: The Grand Dining Pavilion & The Hallway Follower
@@ -54,8 +65,6 @@ Lomi didn't scare easily, but he appreciated good intelligence. In the yards, yo
 "Morning," Lomi greeted as Ignatius and Iggy slid onto the bench opposite him, the wooden planks groaning slightly under their collective weight. Ignatius was grinning eagerly, while Iggy was practically vibrating with culinary fixation, his nose twitching toward the steaming food line.
 
 <!-- LEDGER: rendered=[1218, 1221, 1223, 1238, 1248, 1258, 1278, 1288, 1318, 1328, 1338, 1340, 1348] skipped=[1219(ooc), 1220(ooc), 1222(ooc), 1224(ooc), 1225(ooc), 1226(ooc), 1227(ooc), 1228(ooc), 1229(ooc), 1230(ooc), 1231(ooc), 1233(ooc), 1234(ooc), 1235(ooc), 1236(ooc), 1237(ooc), 1239(ooc), 1240(ooc), 1241(ooc), 1242(ooc), 1243(ooc), 1244(ooc), 1245(ooc), 1246(ooc), 1247(ooc), 1249(ooc), 1250(ooc), 1251(ooc), 1252(ooc), 1253(ooc), 1255(ooc), 1256(ooc), 1257(ooc), 1259(ooc), 1260(ooc), 1261(ooc), 1262(ooc), 1263(ooc), 1264(ooc), 1265(ooc), 1266(ooc), 1267(ooc), 1269(ooc), 1270(ooc), 1271(ooc), 1272(ooc), 1273(ooc), 1274(ooc), 1275(ooc), 1276(ooc), 1277(ooc), 1279(ooc), 1280(ooc), 1281(ooc), 1283(ooc), 1284(ooc), 1285(ooc), 1286(ooc), 1287(ooc), 1289(ooc), 1290(ooc), 1291(ooc), 1292(ooc), 1293(ooc), 1294(ooc), 1295(ooc), 1296(ooc), 1297(ooc), 1298(ooc), 1299(ooc), 1300(ooc), 1302(ooc), 1303(ooc), 1304(ooc), 1305(ooc), 1306(ooc), 1307(ooc), 1308(ooc), 1309(ooc), 1310(ooc), 1311(ooc), 1312(ooc), 1313(ooc), 1314(ooc), 1315(ooc), 1317(ooc), 1319(ooc), 1320(ooc), 1321(ooc), 1322(ooc), 1323(ooc), 1325(ooc), 1326(ooc), 1327(ooc), 1329(ooc), 1330(ooc), 1331(ooc), 1332(ooc), 1333(ooc), 1334(ooc), 1335(ooc), 1337(ooc), 1339(ooc), 1341(ooc), 1342(ooc), 1343(ooc), 1344(ooc), 1345(ooc), 1346(ooc), 1347(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1349, 1484] | SCENE_ID: 14 -->
 
@@ -77,8 +86,6 @@ Lomi watched from the table, taking another slow bite of his bread and chuckling
 
 <!-- LEDGER: rendered=[1433, 1469, 1474, 1478, 1480, 1481, 1482, 1483, 1484] skipped=[1349(ooc), 1350(ooc), 1351(ooc), 1353(ooc), 1354(ooc), 1355(ooc), 1356(ooc), 1357(ooc), 1358(ooc), 1359(ooc), 1360(ooc), 1361(ooc), 1362(ooc), 1364(ooc), 1365(ooc), 1366(ooc), 1367(ooc), 1368(ooc), 1369(ooc), 1370(ooc), 1371(ooc), 1372(ooc), 1374(ooc), 1375(ooc), 1376(ooc), 1378(ooc), 1379(ooc), 1380(ooc), 1381(ooc), 1382(ooc), 1383(ooc), 1384(ooc), 1385(ooc), 1386(ooc), 1387(ooc), 1389(ooc), 1390(ooc), 1391(ooc), 1392(ooc), 1393(ooc), 1394(ooc), 1395(ooc), 1396(ooc), 1397(ooc), 1398(ooc), 1399(ooc), 1400(ooc), 1401(ooc), 1402(ooc), 1403(ooc), 1404(ooc), 1405(ooc), 1406(ooc), 1408(ooc), 1409(ooc), 1410(ooc), 1411(ooc), 1412(ooc), 1413(ooc), 1414(ooc), 1415(ooc), 1416(ooc), 1417(ooc), 1418(ooc), 1420(ooc), 1421(ooc), 1422(ooc), 1423(ooc), 1424(ooc), 1425(ooc), 1426(ooc), 1427(ooc), 1428(ooc), 1429(ooc), 1430(ooc), 1431(ooc), 1432(ooc), 1434(ooc), 1436(ooc), 1437(ooc), 1438(ooc), 1439(ooc), 1440(ooc), 1441(ooc), 1442(ooc), 1443(ooc), 1444(ooc), 1445(ooc), 1446(ooc), 1447(ooc), 1449(ooc), 1450(ooc), 1451(ooc), 1452(ooc), 1453(ooc), 1454(ooc), 1455(ooc), 1456(ooc), 1457(ooc), 1459(ooc), 1460(ooc), 1461(ooc), 1462(ooc), 1463(ooc), 1464(ooc), 1465(ooc), 1466(ooc), 1467(ooc), 1468(ooc), 1470(ooc), 1472(ooc), 1473(ooc), 1475(ooc), 1476(ooc), 1477(ooc), 1479(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1485, 1614] | SCENE_ID: 15 -->
 
 ## Chapter 35: Aerial Dynamics & The Chalk Throw
@@ -92,8 +99,6 @@ Lomi stared at the blackboard in mounting horror. Back in the lower rings of Oct
 Lomi's heart hammered against his ribs. Day one, fifteen minutes into their very first class, and he was already completely out of his depth. He leaned forward frantically, his quill scratching violently into his parchment as he attempted to copy down every single squiggle, glyph, and vector, desperate not to fall behind on the very first morning. <!-- L1610 --> <!-- L1612 --> <!-- L1614 -->
 
 <!-- LEDGER: rendered=[1581, 1590, 1603, 1604, 1606, 1608, 1610, 1612, 1614] skipped=[1485(ooc), 1486(ooc), 1487(ooc), 1488(ooc), 1490(ooc), 1491(ooc), 1492(ooc), 1493(ooc), 1494(ooc), 1495(ooc), 1496(ooc), 1497(ooc), 1498(ooc), 1499(ooc), 1500(ooc), 1501(ooc), 1502(ooc), 1503(ooc), 1504(ooc), 1505(ooc), 1506(ooc), 1507(ooc), 1508(ooc), 1509(ooc), 1510(ooc), 1512(ooc), 1513(ooc), 1514(ooc), 1515(ooc), 1516(ooc), 1517(ooc), 1518(ooc), 1519(ooc), 1520(ooc), 1521(ooc), 1522(ooc), 1523(ooc), 1524(ooc), 1526(ooc), 1527(ooc), 1528(ooc), 1529(ooc), 1530(ooc), 1531(ooc), 1532(ooc), 1533(ooc), 1534(ooc), 1535(ooc), 1536(ooc), 1537(ooc), 1538(ooc), 1539(ooc), 1540(ooc), 1541(ooc), 1542(ooc), 1543(ooc), 1544(ooc), 1546(ooc), 1547(ooc), 1548(ooc), 1549(ooc), 1550(ooc), 1551(ooc), 1552(ooc), 1553(ooc), 1554(ooc), 1555(ooc), 1557(ooc), 1558(ooc), 1559(ooc), 1560(ooc), 1562(ooc), 1563(ooc), 1564(ooc), 1565(ooc), 1566(ooc), 1567(ooc), 1568(ooc), 1569(ooc), 1570(ooc), 1571(ooc), 1572(ooc), 1573(ooc), 1575(ooc), 1576(ooc), 1577(ooc), 1578(ooc), 1579(ooc), 1580(ooc), 1582(ooc), 1583(ooc), 1584(ooc), 1585(ooc), 1586(ooc), 1588(ooc), 1589(ooc), 1591(ooc), 1592(ooc), 1594(ooc), 1595(ooc), 1596(ooc), 1597(ooc), 1598(ooc), 1599(ooc), 1600(ooc), 1601(ooc), 1602(ooc), 1605(ooc), 1607(ooc), 1611(ooc), 1613(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1615, 1728] | SCENE_ID: 16 -->
 
@@ -110,8 +115,6 @@ Beside Lomi, Iggy took one look at the ballistic chalk strike and immediately ma
 Ignatius rested his boot lightly against Iggy's shell-less back, a silent reassuring presence to let the soil-kin know he was safe. Lomi, meanwhile, was peering shamelessly at his neighbor's parchment, trying to decipher whether the symbol on the board was a harmonic theta or a stylized valve diagram. The academic reality of Zephyr was a brutal wake-up call: the academy wasn't here to nurture them; it was designed to weed out the weak before they ever set foot on an airship deck.
 
 <!-- LEDGER: rendered=[1627, 1639, 1651, 1663, 1675, 1687, 1711, 1723, 1728] skipped=[1615(ooc), 1616(ooc), 1617(ooc), 1618(ooc), 1619(ooc), 1620(ooc), 1621(ooc), 1623(ooc), 1624(ooc), 1625(ooc), 1626(ooc), 1628(ooc), 1629(ooc), 1630(ooc), 1631(ooc), 1632(ooc), 1634(ooc), 1635(ooc), 1636(ooc), 1637(ooc), 1638(ooc), 1640(ooc), 1641(ooc), 1643(ooc), 1644(ooc), 1645(ooc), 1646(ooc), 1647(ooc), 1648(ooc), 1649(ooc), 1650(ooc), 1652(ooc), 1654(ooc), 1655(ooc), 1656(ooc), 1657(ooc), 1658(ooc), 1659(ooc), 1660(ooc), 1661(ooc), 1662(ooc), 1664(ooc), 1665(ooc), 1666(ooc), 1667(ooc), 1669(ooc), 1670(ooc), 1671(ooc), 1672(ooc), 1673(ooc), 1674(ooc), 1676(ooc), 1677(ooc), 1678(ooc), 1679(ooc), 1680(ooc), 1681(ooc), 1682(ooc), 1684(ooc), 1685(ooc), 1686(ooc), 1688(ooc), 1689(ooc), 1691(ooc), 1692(ooc), 1693(ooc), 1694(ooc), 1695(ooc), 1696(ooc), 1697(ooc), 1698(ooc), 1699(ooc), 1700(ooc), 1701(ooc), 1703(ooc), 1704(ooc), 1705(ooc), 1706(ooc), 1707(ooc), 1708(ooc), 1709(ooc), 1710(ooc), 1712(ooc), 1713(ooc), 1714(ooc), 1715(ooc), 1716(ooc), 1717(ooc), 1718(ooc), 1719(ooc), 1720(ooc), 1721(ooc), 1722(ooc), 1724(ooc), 1725(ooc), 1726(ooc), 1727(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1729, 1857] | SCENE_ID: 17 -->
 
@@ -130,8 +133,6 @@ Lomi eyed him warily, keeping his hands near his tool pouch. "Sorry, what was th
 Before Lomi could press for details, the student melted away into the midday throng, leaving the trio standing at the edge of the sunlit courtyard with a dangerous new lead. <!-- L1850 --> <!-- L1857 -->
 
 <!-- LEDGER: rendered=[1735, 1741, 1750, 1752, 1753, 1755, 1756, 1758, 1765, 1777, 1789, 1801, 1813, 1825, 1849, 1850, 1857] skipped=[1730(ooc), 1731(ooc), 1732(ooc), 1733(ooc), 1734(ooc), 1736(ooc), 1737(ooc), 1738(ooc), 1739(ooc), 1740(ooc), 1742(ooc), 1743(ooc), 1744(ooc), 1745(ooc), 1746(ooc), 1747(ooc), 1748(ooc), 1751(ooc), 1754(ooc), 1757(ooc), 1759(ooc), 1760(ooc), 1761(ooc), 1762(ooc), 1763(ooc), 1766(ooc), 1767(ooc), 1768(ooc), 1769(ooc), 1770(ooc), 1771(ooc), 1772(ooc), 1773(ooc), 1775(ooc), 1776(ooc), 1778(ooc), 1779(ooc), 1780(ooc), 1781(ooc), 1782(ooc), 1783(ooc), 1784(ooc), 1785(ooc), 1786(ooc), 1787(ooc), 1788(ooc), 1791(ooc), 1792(ooc), 1793(ooc), 1794(ooc), 1795(ooc), 1796(ooc), 1797(ooc), 1798(ooc), 1799(ooc), 1800(ooc), 1802(ooc), 1803(ooc), 1804(ooc), 1805(ooc), 1806(ooc), 1808(ooc), 1809(ooc), 1810(ooc), 1811(ooc), 1812(ooc), 1814(ooc), 1815(ooc), 1816(ooc), 1817(ooc), 1818(ooc), 1819(ooc), 1820(ooc), 1821(ooc), 1822(ooc), 1823(ooc), 1824(ooc), 1826(ooc), 1828(ooc), 1829(ooc), 1830(ooc), 1831(ooc), 1832(ooc), 1833(ooc), 1834(ooc), 1835(ooc), 1836(ooc), 1838(ooc), 1839(ooc), 1840(ooc), 1841(ooc), 1842(ooc), 1843(ooc), 1844(ooc), 1845(ooc), 1846(ooc), 1847(ooc), 1848(ooc), 1851(ooc), 1852(ooc), 1853(ooc), 1854(ooc), 1855(ooc), 1856(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [1858, 1987] | SCENE_ID: 18 -->
 
@@ -152,8 +153,6 @@ The official parchment laid out the grueling freshman calendar in stark, unyield
 
 <!-- LEDGER: rendered=[1858, 1862, 1870, 1882, 1894, 1900, 1906, 1908, 1918, 1930, 1942, 1954, 1966, 1978, 1987] skipped=[1859(ooc), 1861(ooc), 1863(ooc), 1864(ooc), 1865(ooc), 1866(ooc), 1867(ooc), 1868(ooc), 1869(ooc), 1871(ooc), 1872(ooc), 1873(ooc), 1875(ooc), 1876(ooc), 1877(ooc), 1878(ooc), 1879(ooc), 1880(ooc), 1881(ooc), 1883(ooc), 1884(ooc), 1885(ooc), 1886(ooc), 1887(ooc), 1888(ooc), 1889(ooc), 1891(ooc), 1892(ooc), 1893(ooc), 1895(ooc), 1896(ooc), 1897(ooc), 1898(ooc), 1899(ooc), 1901(ooc), 1902(ooc), 1903(ooc), 1904(ooc), 1905(ooc), 1907(ooc), 1909(ooc), 1910(ooc), 1912(ooc), 1913(ooc), 1914(ooc), 1915(ooc), 1916(ooc), 1917(ooc), 1919(ooc), 1920(ooc), 1921(ooc), 1922(ooc), 1923(ooc), 1924(ooc), 1926(ooc), 1927(ooc), 1928(ooc), 1929(ooc), 1932(ooc), 1933(ooc), 1934(ooc), 1935(ooc), 1936(ooc), 1937(ooc), 1938(ooc), 1939(ooc), 1940(ooc), 1941(ooc), 1944(ooc), 1945(ooc), 1946(ooc), 1947(ooc), 1948(ooc), 1949(ooc), 1951(ooc), 1952(ooc), 1953(ooc), 1955(ooc), 1956(ooc), 1958(ooc), 1959(ooc), 1960(ooc), 1961(ooc), 1962(ooc), 1963(ooc), 1964(ooc), 1965(ooc), 1967(ooc), 1968(ooc), 1969(ooc), 1970(ooc), 1971(ooc), 1972(ooc), 1973(ooc), 1974(ooc), 1975(ooc), 1977(ooc), 1979(ooc), 1980(ooc), 1981(ooc), 1982(ooc), 1983(ooc), 1984(ooc), 1985(ooc), 1986(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1988, 2117] | SCENE_ID: 19 -->
 
 ## Chapter 39: Memories of Spires & Gliders
@@ -172,8 +171,6 @@ Lomi leaped onto the stone bench, swung his arm out, and grabbed the iron lanter
 
 <!-- LEDGER: rendered=[1988, 1994, 2000, 2030, 2032, 2034, 2036, 2038, 2108, 2117] skipped=[1989(ooc), 1990(ooc), 1992(ooc), 1993(ooc), 1995(ooc), 1996(ooc), 1998(ooc), 1999(ooc), 2001(ooc), 2002(ooc), 2003(ooc), 2004(ooc), 2005(ooc), 2006(ooc), 2007(ooc), 2008(ooc), 2009(ooc), 2011(ooc), 2013(ooc), 2014(ooc), 2015(ooc), 2017(ooc), 2018(ooc), 2019(ooc), 2020(ooc), 2021(ooc), 2023(ooc), 2025(ooc), 2026(ooc), 2027(ooc), 2028(ooc), 2029(ooc), 2031(ooc), 2039(ooc), 2040(ooc), 2041(ooc), 2042(ooc), 2043(ooc), 2044(ooc), 2045(ooc), 2047(ooc), 2048(ooc), 2049(ooc), 2050(ooc), 2051(ooc), 2052(ooc), 2053(ooc), 2054(ooc), 2055(ooc), 2056(ooc), 2057(ooc), 2058(ooc), 2059(ooc), 2060(ooc), 2061(ooc), 2063(ooc), 2064(ooc), 2065(ooc), 2066(ooc), 2067(ooc), 2068(ooc), 2069(ooc), 2070(ooc), 2071(ooc), 2072(ooc), 2073(ooc), 2074(ooc), 2075(ooc), 2076(ooc), 2077(ooc), 2078(ooc), 2079(ooc), 2080(ooc), 2081(ooc), 2082(ooc), 2083(ooc), 2085(ooc), 2086(ooc), 2087(ooc), 2088(ooc), 2089(ooc), 2090(ooc), 2091(ooc), 2092(ooc), 2093(ooc), 2094(ooc), 2095(ooc), 2097(ooc), 2098(ooc), 2099(ooc), 2100(ooc), 2101(ooc), 2102(ooc), 2103(ooc), 2104(ooc), 2105(ooc), 2106(ooc), 2107(ooc), 2110(ooc), 2111(ooc), 2112(ooc), 2113(ooc), 2114(ooc), 2115(ooc), 2116(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [2118, 2243] | SCENE_ID: 20 -->
 
 ## Chapter 40: Rigs, Bets, and Skipping Class
@@ -189,8 +186,6 @@ They pooled their effort, ducking beneath the covered arches of the old cloister
 "One thing you ought to know," a passing courier warned them before vanishing around a corner into the steam vents. "Val told Lucky he wasn't allowed to take coin for the notes. Val wrote the test and forbade cash sales. If you want Lucky's goods, money won't do it." <!-- L2230 --> <!-- L2238 --> <!-- L2241 --> <!-- L2243 -->
 
 <!-- LEDGER: rendered=[2118, 2120, 2124, 2130, 2150, 2153, 2156, 2158, 2166, 2178, 2190, 2202, 2214, 2226, 2230, 2238, 2241, 2243] skipped=[2119(ooc), 2121(ooc), 2122(ooc), 2123(ooc), 2125(ooc), 2126(ooc), 2128(ooc), 2129(ooc), 2131(ooc), 2132(ooc), 2133(ooc), 2134(ooc), 2135(ooc), 2136(ooc), 2137(ooc), 2138(ooc), 2139(ooc), 2140(ooc), 2141(ooc), 2142(ooc), 2144(ooc), 2145(ooc), 2146(ooc), 2147(ooc), 2148(ooc), 2149(ooc), 2151(ooc), 2152(ooc), 2155(ooc), 2157(ooc), 2159(ooc), 2160(ooc), 2161(ooc), 2162(ooc), 2163(ooc), 2164(ooc), 2165(ooc), 2167(ooc), 2168(ooc), 2170(ooc), 2171(ooc), 2172(ooc), 2173(ooc), 2174(ooc), 2175(ooc), 2176(ooc), 2177(ooc), 2179(ooc), 2180(ooc), 2181(ooc), 2182(ooc), 2183(ooc), 2184(ooc), 2185(ooc), 2186(ooc), 2187(ooc), 2188(ooc), 2189(ooc), 2191(ooc), 2192(ooc), 2193(ooc), 2194(ooc), 2195(ooc), 2196(ooc), 2198(ooc), 2199(ooc), 2200(ooc), 2201(ooc), 2203(ooc), 2204(ooc), 2205(ooc), 2206(ooc), 2207(ooc), 2209(ooc), 2210(ooc), 2211(ooc), 2212(ooc), 2213(ooc), 2215(ooc), 2216(ooc), 2217(ooc), 2218(ooc), 2220(ooc), 2221(ooc), 2222(ooc), 2223(ooc), 2224(ooc), 2225(ooc), 2227(ooc), 2228(ooc), 2231(ooc), 2232(ooc), 2233(ooc), 2234(ooc), 2235(ooc), 2236(ooc), 2237(ooc), 2239(ooc), 2240(ooc), 2242(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [2244, 2345] | SCENE_ID: 21 -->
 
@@ -211,8 +206,6 @@ Lucky stopped tossing his coin, his gaze locked on Ignatius as the flame-haired 
 Lucky let out a slow, appreciative whistle, giving Ignatius a crisp nod. "That's a hell of a story, fire-boy. But ancient myths don't pay the butcher. I need something raw. Something personal." <!-- L2334 --> <!-- L2338 --> <!-- L2342 --> <!-- L2345 -->
 
 <!-- LEDGER: rendered=[2244, 2254, 2264, 2274, 2284, 2294, 2300, 2302, 2304, 2306, 2308, 2314, 2324, 2334, 2338, 2342, 2345] skipped=[2245(ooc), 2246(ooc), 2247(ooc), 2248(ooc), 2249(ooc), 2250(ooc), 2251(ooc), 2253(ooc), 2255(ooc), 2256(ooc), 2257(ooc), 2258(ooc), 2259(ooc), 2260(ooc), 2261(ooc), 2262(ooc), 2263(ooc), 2265(ooc), 2266(ooc), 2267(ooc), 2269(ooc), 2270(ooc), 2271(ooc), 2272(ooc), 2273(ooc), 2275(ooc), 2276(ooc), 2277(ooc), 2278(ooc), 2279(ooc), 2280(ooc), 2281(ooc), 2282(ooc), 2283(ooc), 2286(ooc), 2287(ooc), 2288(ooc), 2289(ooc), 2290(ooc), 2291(ooc), 2292(ooc), 2293(ooc), 2295(ooc), 2296(ooc), 2297(ooc), 2299(ooc), 2301(ooc), 2303(ooc), 2305(ooc), 2309(ooc), 2310(ooc), 2311(ooc), 2312(ooc), 2313(ooc), 2316(ooc), 2318(ooc), 2319(ooc), 2320(ooc), 2321(ooc), 2322(ooc), 2323(ooc), 2325(ooc), 2326(ooc), 2327(ooc), 2328(ooc), 2329(ooc), 2330(ooc), 2331(ooc), 2333(ooc), 2335(ooc), 2336(ooc), 2337(ooc), 2339(ooc), 2340(ooc), 2341(ooc), 2343(ooc), 2344(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [2346, 2451] | SCENE_ID: 22 -->
 
@@ -239,3 +232,5 @@ He grabbed the edge of Iggy's sleeve, glancing sharply left and right down the e
 Lucky threw open a heavy iron-banded doorway leading into a secluded storage vault, ushering Ignatius, Lomi, and Iggy inside and slamming the heavy latch shut behind them. <!-- L2436 --> <!-- L2440 --> <!-- L2445 --> <!-- L2448 --> <!-- L2451 -->
 
 <!-- LEDGER: rendered=[2406, 2408, 2410, 2411, 2413, 2414, 2415, 2419, 2421, 2422, 2424, 2426, 2427, 2428, 2430, 2432, 2436, 2440, 2445, 2448, 2451] skipped=[2346(ooc), 2347(ooc), 2348(ooc), 2350(ooc), 2351(ooc), 2352(ooc), 2353(ooc), 2354(ooc), 2355(ooc), 2356(ooc), 2357(ooc), 2358(ooc), 2359(ooc), 2360(ooc), 2361(ooc), 2362(ooc), 2363(ooc), 2364(ooc), 2365(ooc), 2366(ooc), 2367(ooc), 2368(ooc), 2369(ooc), 2370(ooc), 2371(ooc), 2372(ooc), 2373(ooc), 2375(ooc), 2376(ooc), 2377(ooc), 2378(ooc), 2379(ooc), 2380(ooc), 2381(ooc), 2382(ooc), 2383(ooc), 2384(ooc), 2385(ooc), 2386(ooc), 2387(ooc), 2389(ooc), 2390(ooc), 2391(ooc), 2392(ooc), 2393(ooc), 2394(ooc), 2395(ooc), 2396(ooc), 2397(ooc), 2398(ooc), 2399(ooc), 2400(ooc), 2401(ooc), 2402(ooc), 2404(ooc), 2407(ooc), 2409(ooc), 2412(ooc), 2416(ooc), 2417(ooc), 2418(ooc), 2423(ooc), 2425(ooc), 2431(ooc), 2433(ooc), 2434(ooc), 2435(ooc), 2437(ooc), 2438(ooc), 2439(ooc), 2441(ooc), 2442(ooc), 2443(ooc), 2444(ooc), 2446(ooc), 2447(ooc), 2449(ooc), 2450(ooc)] -->
+
+<!-- RAW_RANGE: [2452, 2519] | SCENE_ID: 23 | OOC -->

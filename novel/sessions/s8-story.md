@@ -1,11 +1,8 @@
----
-title: "The Friday Entrance Exam"
-author: "The Vumbua Table"
-campaign: Vumbua
-genre: Epic Fantasy / Sci-Fantasy
----
+<!-- RAW_RANGE: [1, 100] | SCENE_ID: 1 | OOC -->
 
-# THE FRIDAY ENTRANCE EXAM
+<!-- RAW_RANGE: [101, 200] | SCENE_ID: 2 | OOC -->
+
+<!-- RAW_RANGE: [201, 305] | SCENE_ID: 3 | OOC -->
 
 <!-- RAW_RANGE: [306, 440] | SCENE_ID: 4 -->
 
@@ -58,8 +55,6 @@ Tucked behind a large barrel of engine grease, wearing Loami's enormous canvas b
 "Loami is around here somewhere," Aggie said diplomatically. <!-- L0440 -->
 
 <!-- LEDGER: rendered=[306, 308, 313, 315, 316, 317, 318, 320, 321, 323, 325, 326, 327, 328, 329, 330, 333, 334, 338, 344, 348, 352, 360, 372, 380, 390, 402, 411, 420, 430, 434, 440] skipped=[307(ooc), 309(ooc), 310(ooc), 311(ooc), 312(ooc), 314(ooc), 322(ooc), 324(ooc), 331(ooc), 335(ooc), 336(ooc), 337(ooc), 339(ooc), 340(ooc), 342(ooc), 343(ooc), 345(ooc), 346(ooc), 347(ooc), 349(ooc), 350(ooc), 351(ooc), 353(ooc), 355(ooc), 356(ooc), 357(ooc), 358(ooc), 359(ooc), 361(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 373(ooc), 374(ooc), 376(ooc), 377(ooc), 378(ooc), 379(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 385(ooc), 386(ooc), 387(ooc), 388(ooc), 389(ooc), 391(ooc), 393(ooc), 394(ooc), 395(ooc), 396(ooc), 397(ooc), 398(ooc), 399(ooc), 400(ooc), 401(ooc), 403(ooc), 404(ooc), 405(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 412(ooc), 413(ooc), 414(ooc), 415(ooc), 417(ooc), 418(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 426(ooc), 427(ooc), 428(ooc), 429(ooc), 431(ooc), 432(ooc), 433(ooc), 435(ooc), 436(ooc), 438(ooc), 439(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [441, 560] | SCENE_ID: 5 -->
 
@@ -121,8 +116,6 @@ Remmy looked at Aggie with a sharp, assessing glance. "There was a report two da
 
 <!-- LEDGER: rendered=[441, 442, 443, 444, 445, 446, 447, 448, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 467, 468, 470, 481, 485, 491, 495, 505, 509, 514, 520, 522, 530, 540, 545, 550, 552, 560] skipped=[469(ooc), 471(ooc), 472(ooc), 473(ooc), 474(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 482(ooc), 483(ooc), 484(ooc), 486(ooc), 487(ooc), 488(ooc), 489(ooc), 490(ooc), 492(ooc), 493(ooc), 496(ooc), 497(ooc), 498(ooc), 499(ooc), 500(ooc), 501(ooc), 502(ooc), 503(ooc), 504(ooc), 507(ooc), 508(ooc), 511(ooc), 512(ooc), 513(ooc), 515(ooc), 516(ooc), 517(ooc), 518(ooc), 519(ooc), 521(ooc), 523(ooc), 524(ooc), 525(ooc), 526(ooc), 527(ooc), 528(ooc), 531(ooc), 532(ooc), 533(ooc), 534(ooc), 535(ooc), 536(ooc), 537(ooc), 538(ooc), 539(ooc), 541(ooc), 542(ooc), 543(ooc), 544(ooc), 546(ooc), 547(ooc), 548(ooc), 551(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 558(ooc), 559(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [561, 700] | SCENE_ID: 6 -->
 
 ## CHAPTER 78: THE WEIGHT OF WATER
@@ -154,8 +147,6 @@ Britt nodded, pocketing the provisions. "Meet us at the arena gates in forty min
 "Hey!" Loami called after her as she sprinted down the stone stairwell. "That grease is a legitimate commercial asset!" <!-- L0674 --> <!-- L0676 --> <!-- L0683 --> <!-- L0685 --> <!-- L0691 --> <!-- L0693 --> <!-- L0695 --> <!-- L0700 -->
 
 <!-- LEDGER: rendered=[561, 562, 563, 564, 565, 566, 567, 568, 570, 571, 580, 590, 600, 610, 620, 624, 626, 627, 630, 635, 639, 644, 646, 648, 674, 676, 683, 685, 691, 693, 695, 700] skipped=[572(ooc), 573(ooc), 574(ooc), 575(ooc), 576(ooc), 577(ooc), 578(ooc), 579(ooc), 581(ooc), 582(ooc), 583(ooc), 585(ooc), 586(ooc), 587(ooc), 588(ooc), 589(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 598(ooc), 599(ooc), 601(ooc), 602(ooc), 603(ooc), 604(ooc), 605(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 615(ooc), 617(ooc), 618(ooc), 619(ooc), 621(ooc), 622(ooc), 623(ooc), 629(ooc), 631(ooc), 632(ooc), 633(ooc), 634(ooc), 636(ooc), 637(ooc), 638(ooc), 640(ooc), 641(ooc), 643(ooc), 645(ooc), 647(ooc), 649(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 656(ooc), 657(ooc), 658(ooc), 660(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 666(ooc), 667(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 673(ooc), 677(ooc), 678(ooc), 679(ooc), 680(ooc), 681(ooc), 682(ooc), 684(ooc), 687(ooc), 688(ooc), 689(ooc), 690(ooc), 692(ooc), 696(ooc), 697(ooc), 698(ooc), 699(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [701, 845] | SCENE_ID: 7 -->
 
@@ -195,8 +186,6 @@ Iggy blinked, water sloshing behind his copper goggles. He looked at the boulder
 
 <!-- LEDGER: rendered=[701, 702, 703, 706, 708, 709, 710, 711, 752, 754, 756, 758, 767, 770, 771, 774, 776, 780, 781, 784, 785, 789, 794, 795, 800, 810, 820, 830, 835, 841, 845] skipped=[704(ooc), 705(ooc), 712(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc), 722(ooc), 723(ooc), 724(ooc), 725(ooc), 726(ooc), 727(ooc), 728(ooc), 729(ooc), 730(ooc), 731(ooc), 732(ooc), 733(ooc), 734(ooc), 735(ooc), 736(ooc), 737(ooc), 739(ooc), 740(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 750(ooc), 753(ooc), 755(ooc), 757(ooc), 759(ooc), 760(ooc), 761(ooc), 762(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 769(ooc), 772(ooc), 773(ooc), 775(ooc), 777(ooc), 779(ooc), 782(ooc), 783(ooc), 786(ooc), 787(ooc), 788(ooc), 791(ooc), 792(ooc), 793(ooc), 796(ooc), 797(ooc), 798(ooc), 799(ooc), 802(ooc), 803(ooc), 804(ooc), 805(ooc), 806(ooc), 807(ooc), 808(ooc), 809(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 815(ooc), 816(ooc), 818(ooc), 819(ooc), 821(ooc), 822(ooc), 823(ooc), 824(ooc), 825(ooc), 826(ooc), 827(ooc), 828(ooc), 829(ooc), 831(ooc), 832(ooc), 833(ooc), 834(ooc), 836(ooc), 837(ooc), 838(ooc), 839(ooc), 842(ooc), 843(ooc), 844(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [846, 945] | SCENE_ID: 8 -->
 
 ## CHAPTER 80: THE CRIMSON SLATES
@@ -222,8 +211,6 @@ As they filed into Row 907 on the third tier, Loami's sharp mechanic's eyes swep
 Before Britt could answer, the deep, resonant tolling of the master arena bell echoed across the canyon. The entire amphitheater fell into instantaneous, pin-drop silence. <!-- L0945 -->
 
 <!-- LEDGER: rendered=[846, 847, 848, 850, 851, 852, 854, 856, 857, 858, 860, 870, 880, 890, 910, 920, 930, 945] skipped=[859(ooc), 861(ooc), 862(ooc), 863(ooc), 865(ooc), 866(ooc), 867(ooc), 868(ooc), 869(ooc), 871(ooc), 873(ooc), 874(ooc), 875(ooc), 876(ooc), 877(ooc), 878(ooc), 879(ooc), 881(ooc), 882(ooc), 884(ooc), 885(ooc), 886(ooc), 887(ooc), 888(ooc), 891(ooc), 892(ooc), 893(ooc), 894(ooc), 895(ooc), 896(ooc), 897(ooc), 898(ooc), 899(ooc), 901(ooc), 902(ooc), 903(ooc), 904(ooc), 905(ooc), 906(ooc), 907(ooc), 908(ooc), 909(ooc), 911(ooc), 912(ooc), 913(ooc), 914(ooc), 915(ooc), 916(ooc), 917(ooc), 918(ooc), 919(ooc), 921(ooc), 922(ooc), 923(ooc), 924(ooc), 925(ooc), 927(ooc), 928(ooc), 929(ooc), 931(ooc), 932(ooc), 933(ooc), 934(ooc), 935(ooc), 936(ooc), 937(ooc), 938(ooc), 939(ooc), 941(ooc), 942(ooc), 943(ooc), 944(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [946, 1008] | SCENE_ID: 9 -->
 

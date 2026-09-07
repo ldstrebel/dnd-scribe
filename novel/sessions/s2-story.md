@@ -1,11 +1,8 @@
----
-title: "Book 1: The Basalt Run — Act I: The Bonfire & The Spire"
-author: "The Vumbua Table"
-campaign: Vumbua
-genre: Epic Fantasy / Sci-Fantasy
----
+<!-- RAW_RANGE: [1, 100] | SCENE_ID: 1 | OOC -->
 
-# BOOK 1: THE BASALT RUN — ACT I: THE BONFIRE & THE SPIRE
+<!-- RAW_RANGE: [101, 200] | SCENE_ID: 2 | OOC -->
+
+<!-- RAW_RANGE: [201, 305] | SCENE_ID: 3 | OOC -->
 
 <!-- RAW_RANGE: [306, 440] | SCENE_ID: 4 -->
 
@@ -65,8 +62,6 @@ Serra Vox, meanwhile, had crept up beside them, practically vibrating with anthr
 
 <!-- LEDGER: rendered=[306, 308, 310, 312, 313, 314, 315, 316, 317, 320, 322, 327, 335, 337, 338, 341, 343, 344, 345, 346, 349, 351, 352, 354, 356, 359, 373, 374, 376, 378, 379, 402, 403, 406, 411, 417, 421, 423, 426, 427, 430, 431, 433, 435] skipped=[318(ooc), 319(ooc), 323(ooc), 324(ooc), 325(ooc), 326(ooc), 328(ooc), 329(ooc), 330(ooc), 331(ooc), 332(ooc), 333(ooc), 334(ooc), 339(ooc), 340(ooc), 342(ooc), 348(ooc), 350(ooc), 355(ooc), 357(ooc), 358(ooc), 361(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 372(ooc), 375(ooc), 380(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 385(ooc), 386(ooc), 388(ooc), 389(ooc), 390(ooc), 391(ooc), 392(ooc), 393(ooc), 394(ooc), 395(ooc), 396(ooc), 397(ooc), 398(ooc), 399(ooc), 400(ooc), 401(ooc), 405(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 412(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 420(ooc), 422(ooc), 425(ooc), 429(ooc), 432(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 440(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [441, 570] | SCENE_ID: 5 -->
 
 ## CHAPTER 12: COURTYARD CLUSTERS & HIGH-HOUSE ROW
@@ -114,8 +109,6 @@ Behind them, Britt and Aggie exchanged a glance. Aggie tilted her red cap toward
 "Let's see what's got them stirred up," Britt said, stepping away from the fire. "Where there's shouting, there's usually something people want to hide." <!-- L0567 --> <!-- L0569 --> <!-- L0570 -->
 
 <!-- LEDGER: rendered=[465, 467, 469, 470, 472, 482, 483, 486, 488, 520, 523, 524, 525, 526, 530, 537, 539, 540, 542, 544, 545, 547, 551, 554, 556, 562, 564, 565, 566, 567, 569, 570] skipped=[441(ooc), 442(ooc), 443(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 450(ooc), 451(ooc), 452(ooc), 453(ooc), 454(ooc), 455(ooc), 456(ooc), 458(ooc), 459(ooc), 460(ooc), 461(ooc), 462(ooc), 463(ooc), 464(ooc), 468(ooc), 471(ooc), 473(ooc), 474(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 480(ooc), 484(ooc), 485(ooc), 487(ooc), 489(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 494(ooc), 495(ooc), 496(ooc), 497(ooc), 498(ooc), 499(ooc), 501(ooc), 502(ooc), 503(ooc), 504(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 513(ooc), 514(ooc), 515(ooc), 516(ooc), 517(ooc), 518(ooc), 519(ooc), 522(ooc), 527(ooc), 528(ooc), 529(ooc), 531(ooc), 532(ooc), 533(ooc), 534(ooc), 535(ooc), 536(ooc), 541(ooc), 543(ooc), 548(ooc), 549(ooc), 550(ooc), 552(ooc), 553(ooc), 555(ooc), 557(ooc), 559(ooc), 560(ooc), 561(ooc), 563(ooc), 568(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [571, 700] | SCENE_ID: 6 -->
 
@@ -179,8 +172,6 @@ Serra blinked, unsettled. "I... I have never heard anyone speak of death so casu
 
 <!-- LEDGER: rendered=[574, 576, 629, 631, 632, 638, 642, 649, 657, 659, 660, 661, 665, 667, 669, 673, 679, 684, 689, 693, 695, 697] skipped=[572(ooc), 573(ooc), 578(ooc), 579(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 585(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 597(ooc), 598(ooc), 600(ooc), 601(ooc), 602(ooc), 603(ooc), 604(ooc), 605(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 617(ooc), 618(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 625(ooc), 626(ooc), 627(ooc), 628(ooc), 630(ooc), 634(ooc), 635(ooc), 636(ooc), 637(ooc), 639(ooc), 640(ooc), 641(ooc), 643(ooc), 644(ooc), 645(ooc), 646(ooc), 647(ooc), 648(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 658(ooc), 663(ooc), 664(ooc), 666(ooc), 670(ooc), 671(ooc), 672(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 680(ooc), 681(ooc), 682(ooc), 683(ooc), 685(ooc), 686(ooc), 688(ooc), 691(ooc), 692(ooc), 696(ooc), 699(ooc), 700(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [701, 830] | SCENE_ID: 7 -->
 
 ## CHAPTER 14: THE CYCLE OF LIFE & DEATH
@@ -228,8 +219,6 @@ Britt stared at the bare boot, deadpan. "Fascinating cultural insight, Percival.
 Undeterred, Percival unfurled a crumpled parchment map across his knee. "Do either of you know where the other frontiers lie? I have traveled extensively—nearly as far as Lady Allara Thorne herself! But the maps remain stubbornly blank. There must be an Earth clan. There must be an Air clan. We cannot rest until the compass is whole!" <!-- L0830 -->
 
 <!-- LEDGER: rendered=[702, 706, 709, 710, 712, 714, 715, 717, 719, 720, 724, 730, 732, 735, 738, 740, 742, 749, 753, 755, 762, 781, 802, 804, 808, 818, 824, 830] skipped=[701(ooc), 703(ooc), 704(ooc), 705(ooc), 707(ooc), 708(ooc), 713(ooc), 716(ooc), 721(ooc), 722(ooc), 723(ooc), 725(ooc), 726(ooc), 727(ooc), 728(ooc), 729(ooc), 731(ooc), 733(ooc), 736(ooc), 737(ooc), 741(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 750(ooc), 751(ooc), 754(ooc), 756(ooc), 757(ooc), 758(ooc), 759(ooc), 760(ooc), 761(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 769(ooc), 770(ooc), 771(ooc), 772(ooc), 773(ooc), 774(ooc), 775(ooc), 776(ooc), 777(ooc), 778(ooc), 779(ooc), 783(ooc), 784(ooc), 785(ooc), 786(ooc), 787(ooc), 789(ooc), 790(ooc), 791(ooc), 792(ooc), 793(ooc), 794(ooc), 795(ooc), 796(ooc), 797(ooc), 798(ooc), 799(ooc), 800(ooc), 801(ooc), 806(ooc), 809(ooc), 810(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 815(ooc), 816(ooc), 817(ooc), 819(ooc), 821(ooc), 822(ooc), 823(ooc), 825(ooc), 826(ooc), 828(ooc), 829(ooc)] -->
-
----
 
 <!-- RAW_RANGE: [831, 950] | SCENE_ID: 8 -->
 
@@ -315,8 +304,6 @@ Aggie stepped to the edge of the pit, watching Rill's retreating silhouette disa
 
 <!-- LEDGER: rendered=[832, 834, 837, 840, 842, 844, 846, 848, 849, 851, 853, 854, 858, 860, 862, 864, 866, 867, 869, 873, 874, 875, 877, 883, 885, 887, 890, 892, 894, 895, 897, 899, 901, 902, 904, 906, 908, 910, 911, 917, 920, 923, 925, 927, 935, 943, 945, 950] skipped=[833(ooc), 835(ooc), 836(ooc), 838(ooc), 839(ooc), 843(ooc), 847(ooc), 850(ooc), 855(ooc), 856(ooc), 857(ooc), 859(ooc), 861(ooc), 863(ooc), 865(ooc), 870(ooc), 871(ooc), 872(ooc), 878(ooc), 879(ooc), 880(ooc), 881(ooc), 882(ooc), 886(ooc), 888(ooc), 889(ooc), 891(ooc), 893(ooc), 898(ooc), 900(ooc), 903(ooc), 905(ooc), 907(ooc), 909(ooc), 913(ooc), 914(ooc), 915(ooc), 916(ooc), 918(ooc), 919(ooc), 921(ooc), 922(ooc), 924(ooc), 926(ooc), 928(ooc), 929(ooc), 931(ooc), 932(ooc), 933(ooc), 934(ooc), 936(ooc), 937(ooc), 938(ooc), 939(ooc), 940(ooc), 941(ooc), 942(ooc), 946(ooc), 947(ooc), 948(ooc), 949(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [951, 1070] | SCENE_ID: 9 -->
 
 ## CHAPTER 16: PINE TEA & BOILER FUEL
@@ -361,8 +348,6 @@ He looked down at the dark stone in his palm. "Our volcanoes have been suffering
 
 <!-- LEDGER: rendered=[951, 952, 954, 956, 957, 964, 965, 966, 974, 982, 984, 988, 994, 999, 1000, 1002, 1004, 1005, 1006, 1008, 1010, 1012, 1014, 1024, 1034, 1047, 1049, 1050, 1052, 1058, 1061, 1063, 1065] skipped=[955(ooc), 959(ooc), 960(ooc), 961(ooc), 962(ooc), 963(ooc), 967(ooc), 968(ooc), 969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 975(ooc), 976(ooc), 978(ooc), 979(ooc), 980(ooc), 981(ooc), 983(ooc), 985(ooc), 986(ooc), 987(ooc), 990(ooc), 991(ooc), 992(ooc), 993(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 1001(ooc), 1003(ooc), 1009(ooc), 1013(ooc), 1015(ooc), 1016(ooc), 1017(ooc), 1018(ooc), 1019(ooc), 1020(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1025(ooc), 1026(ooc), 1028(ooc), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1040(ooc), 1041(ooc), 1042(ooc), 1043(ooc), 1044(ooc), 1045(ooc), 1046(ooc), 1051(ooc), 1053(ooc), 1054(ooc), 1055(ooc), 1056(ooc), 1057(ooc), 1059(ooc), 1060(ooc), 1064(ooc), 1066(ooc), 1067(ooc), 1068(ooc), 1069(ooc), 1070(ooc)] -->
 
----
-
 <!-- RAW_RANGE: [1071, 1184] | SCENE_ID: 10 -->
 
 ## CHAPTER 17: THE THERMAL SURGE & THE CELESTIAL LOUNGE
@@ -400,3 +385,5 @@ Ignatius looked up at the neon beacon, embers shimmering in his eyes. "Shall we 
 Lomi grinned, pulling his flat cap low. "Let's find out." <!-- L1182 --> <!-- L1184 -->
 
 <!-- LEDGER: rendered=[1071, 1073, 1094, 1096, 1099, 1101, 1104, 1108, 1122, 1128, 1132, 1133, 1135, 1136, 1139, 1143, 1150, 1152, 1155, 1163, 1165, 1170, 1174, 1176, 1178, 1179, 1181, 1182, 1184] skipped=[1074(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(ooc), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1097(ooc), 1098(ooc), 1100(ooc), 1103(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1109(ooc), 1110(ooc), 1111(ooc), 1113(ooc), 1114(ooc), 1115(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1120(ooc), 1121(ooc), 1124(ooc), 1125(ooc), 1126(ooc), 1127(ooc), 1129(ooc), 1130(ooc), 1131(ooc), 1137(ooc), 1138(ooc), 1140(ooc), 1141(ooc), 1142(ooc), 1144(ooc), 1145(ooc), 1146(ooc), 1147(ooc), 1148(ooc), 1149(ooc), 1151(ooc), 1154(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1161(ooc), 1162(ooc), 1164(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1172(ooc), 1173(ooc), 1180(ooc), 1183(ooc)] -->
+
+<!-- RAW_RANGE: [1185, 1220] | SCENE_ID: 11 | OOC -->

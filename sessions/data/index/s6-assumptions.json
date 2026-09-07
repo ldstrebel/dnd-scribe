@@ -1,18 +1,1 @@
-[
-  {
-    "id": "A-001",
-    "stage": "novelization",
-    "scene_id": 1,
-    "raw_lines": [
-      111
-    ],
-    "type": "earth_realia",
-    "assumption": "Speaker used Earth element/proper noun: Irish (Earth Nationality / Culture / Demonym). Guidance: Replace with in-world cultural demonyms (Harmony, Octoumba, Ash-Blood, Mizizi, Renali) or descriptive archetypes (e.g. 'courtly', 'insular islander', 'palace attendant'). Omitted or adapted in-world.",
-    "confidence": "medium",
-    "raw_text": "Inventions. And they had a they had a nice little time before everyone Irish goodbye. Um and at the same time, um people started, you know, we had more classes and that was that was mostly covered by the like async catchup script that just talked about what each class was focused on. Um and then Aggie was studying with Pip, which is the question for Brit from whenever you're done with with where the thing. Um,",
-    "review": {
-      "status": "pending",
-      "correction": ""
-    }
-  }
-]
+[]

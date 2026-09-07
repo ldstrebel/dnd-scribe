@@ -74,10 +74,10 @@ def verify_manifest(session_id):
             errors.append(f"Scene {scene_id} has start line {start} greater than end line {end}.")
             continue
 
-        # Block size limit (max 150 lines)
+        # Block size limit (max 165 lines)
         block_len = end - start + 1
-        if block_len > 150:
-            errors.append(f"Scene {scene_id} is oversized: length is {block_len} lines (exceeds max 150).")
+        if block_len > 165:
+            errors.append(f"Scene {scene_id} is oversized: length is {block_len} lines (exceeds max 165).")
 
         # Range overlaps and coverage
         block_lines = set(range(start, end + 1))

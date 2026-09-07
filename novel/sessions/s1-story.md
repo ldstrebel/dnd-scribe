@@ -1,4 +1,8 @@
-<!-- RAW_RANGE: [1, 315] | SCENE_ID: 1 | OOC -->
+<!-- RAW_RANGE: [1, 105] | SCENE_ID: 101 | OOC -->
+
+<!-- RAW_RANGE: [106, 210] | SCENE_ID: 102 | OOC -->
+
+<!-- RAW_RANGE: [211, 315] | SCENE_ID: 103 | OOC -->
 
 <!-- RAW_RANGE: [316, 466] | SCENE_ID: 2 -->
 
@@ -568,4 +572,6 @@ And that was how the first night at the academy began — with the Mizi cousins,
 
 <!-- RAW_RANGE: [1201, 1201] | SCENE_ID: 9 | OOC -->
 
-<!-- RAW_RANGE: [1202, 1389] | SCENE_ID: 10 | OOC -->
+<!-- RAW_RANGE: [1202, 1300] | SCENE_ID: 110 | OOC -->
+
+<!-- RAW_RANGE: [1301, 1389] | SCENE_ID: 111 | OOC -->
