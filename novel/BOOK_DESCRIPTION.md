@@ -18,7 +18,7 @@ Among the massive crowd are five candidates entering the intake for wildly diffe
 
 Though each enters the trials alone, they quickly realize that whatever answers they seek lie within the Academy's rigorous curriculum and the reach it provides. As fate and circumstance continually draw these five would-be adventurers together—from shared campfires and chaotic harbor docks to the high-stakes written gauntlet of the Apex Arena—they must learn to lean on one another to survive the ruthless competition.
 
-Because on the frontier of Vumbua, passing the exams is only the beginning... and true connection is the only thing that keeps the world alive.
+Because on the frontier of Vumbua, passing the exams is only the beginning... and momentum is life.
 
 ---
 
@@ -60,4 +60,4 @@ The central conflict is not an evil empire or an invading army. The threat is ec
   *When an unprecedented open intake draws over 100,000 candidates to the newly anchored Vumbua Academy of Explorers, five disparate outsiders find their paths continuously crossing as they navigate the ruthless trials to save their distant homes.*
 
 - **Two-Sentence Retail Pitch:**  
-  *After generations of stalled maps, the Vumbua Academy of Explorers opens a once-in-a-lifetime intake for anyone brave enough to reach the harbor docks. Entering alone for their own private reasons, five unlikely candidates find fate and circumstance repeatedly throwing them together—realizing that surviving the brutal trials and uncovering the world's lost history will require forging an unbreakable bond.*
+  *After generations of stalled maps, the Vumbua Academy of Explorers opens a once-in-a-lifetime intake for anyone brave enough to reach the harbor docks. Entering alone for their own private reasons, five unlikely candidates find fate and circumstance repeatedly throwing them together—realizing that surviving the brutal trials is only the beginning, and momentum is life.*

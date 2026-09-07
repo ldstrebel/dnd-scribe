@@ -469,7 +469,7 @@ hr.ornament {
     <dc:creator>{html.escape(author)}</dc:creator>
     <dc:language>en</dc:language>
     <dc:date>{date_str}</dc:date>
-    <dc:description>In a world driven by momentum, discovery is everything. For generations, the maps of Harmony had stood still—until two breakthrough expeditions made contact with the isolated Ash-Blood volcanic isles and the ancient Mizizi root-forest. To train a new vanguard of exploranauts, the Vumbua Academy of Explorers drops anchor at the frontier, opening an unprecedented intake for over one hundred thousand hopeful candidates. Entering alone for their own private reasons, five unlikely candidates find fate and circumstance repeatedly throwing them together—realizing that surviving the brutal trials and unlocking the world's lost history will require forging an unbreakable bond.</dc:description>
+    <dc:description>In a world driven by momentum, discovery is everything. For generations, the maps of Harmony had stood still—until two breakthrough expeditions made contact with the isolated Ash-Blood volcanic isles and the ancient Mizizi root-forest. To train a new vanguard of exploranauts, the Vumbua Academy of Explorers drops anchor at the frontier, opening an unprecedented intake for over one hundred thousand hopeful candidates. Entering alone for their own private reasons, five unlikely candidates find fate and circumstance repeatedly throwing them together—realizing that passing the exams is only the beginning... and momentum is life.</dc:description>
     <dc:subject>Fantasy</dc:subject>
     <dc:subject>Science Fantasy</dc:subject>
     <dc:subject>Adventure</dc:subject>
