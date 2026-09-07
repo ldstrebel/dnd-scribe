@@ -126,6 +126,11 @@ Use this skill when auditing session transcripts, cleaning dialogue, novelizing 
 * **Symptom:** Profound out-of-character GM/player discussions regarding core campaign themes (e.g. Sparks vs. Nodes, Exponential Connection, Stagnation as Death, Unending Horizons of Exploration) are discarded as mere "table talk."
 * **Prevention:** Channel deep OOC thematic insights into rich, philosophical narrative prose and character epiphanies during chapter resolutions.
 
+### 18. Mechanical Context & Spell/Ability Descriptions Truncated as "Table Talk"
+* **Symptom:** When a player or GM discusses mechanics (e.g. describing how a spell looks, how an arcanatech device operates, somatic components, environmental difficulty reasons, or how a character's ability manifests in the fiction), the entire exchange is discarded as meta table talk, stripping the novel of vivid sensory details and tactical action.
+* **Root Cause:** Equating all mechanical talk with useless OOC chatter.
+* **Prevention:** Strip the numeric dice rolls and DC numbers (`"DC 15"`, `"Roll 12"`), but **MANDATORILY EXTRACT AND NOVELIZE the physical descriptions, sensory manifestations, tool operations, and tactical intent into rich Narrator Prose and staged action beats.**
+
 ---
 
 ## ✍️ The Ebook Standard: Mandatory Novelization Checklist
