@@ -94,13 +94,15 @@ She could still smell the sweet, earthy stench of the ancient boles where they h
 
 *"When things stop dying, we start dying,"* the elders had whispered, gathered in panic around the central spore-bowl. <!-- s0:L0044 -->
 
-When the Paper Man first crossed the sandbar, Britt had crouched in the canopy vines above, her knuckles white around a hardened cedar branch. The elders had trembled in indecision, terrified of violating the ancient taboo against foreign contact. But Aggie had crept forward, wide eyes reflecting the polished brass of the surveyor’s instruments. Aggie had seen what Britt’s fury had blinded her to: the stranger was not an invader. He was a merchant harvesting curiosities, blind to the holiness of the soil he was shoveling into burlap sacks. <!-- s0:L0056 --> <!-- s0:L0058 -->
+When Valentine Sterling Sr. first crossed the sandbar, Britt had crouched in the canopy vines above, her knuckles white around a hardened cedar branch. The elders had trembled in indecision, terrified of violating the ancient taboo against foreign contact. But Aggie had crept forward, wide eyes reflecting the polished brass of the surveyor’s instruments. Aggie had seen what Britt’s fury had blinded her to: the stranger was not an invader. He was a merchant harvesting curiosities, blind to the holiness of the soil he was shoveling into burlap sacks. <!-- s0:L0056 --> <!-- s0:L0058 -->
 
-When the iron axes arrived, Britt had been the first to strike the wood. She had swung until her palms blistered, hacking at their own ancient boughs in a desperate attempt to force the rot to restart. It had done nothing. The wood remained petrified stone. <!-- s0:L0062 -->
+When the iron axes arrived in trade, the clan had become a frantic fire brigade turned upon its own forest. Britt had swung until her palms blistered, hacking at their own ancient boughs in a desperate attempt to force the rot to restart. It had done nothing. The wood remained petrified stone. <!-- s0:L0062 -->
 
-Standing at the edge of the coastal ridge on the eve of their departure, looking out across the gray expanse of the ocean toward the northern spires, Aggie had leaned against her shell. <!-- s0:L0347 -->
+Then came the Exchange. An outsider — a sharp-tongued, brilliant river-kin named Rill — had arrived to live among the roots. But Rill had erupted in fury at the elders' futile tree-hacking, arguing that the stasis was global and could never be healed by retreating into isolation. Britt remembered watching from the shelf-mushroom boles as Rill packed her kit and marched down to the sandbars, boarding the traders' barge to seek answers across the sea. <!-- s0:L0078 --> <!-- s0:L0084 --> <!-- s0:L0093 -->
 
-*"Do you think they have the answers up there, Britt?"* Aggie had asked softly, her fingers tracing a pale ring of lichen on her knee. *"Or are they just as frightened as we are?"* <!-- s0:L0367 -->
+A year later, when Rill's open invitation arrived, Aggie had stood at the edge of the coastal ridge, looking out across the gray ocean toward the rising academy spires. <!-- s0:L0347 -->
+
+*"Do you think they have the answers out there, Britt?"* Aggie had asked softly, her fingers tracing a pale ring of lichen on her knee. *"Or are they just as frightened as we are?"* <!-- s0:L0367 -->
 
 *"I don't care what they have,"* Britt had answered, her root-dreadlocks tightening in fierce determination. *"We're going. And wherever you go, I go. Nobody takes you away from your clan."* <!-- s0:L0383 --> <!-- s0:L0404 -->
 
@@ -262,27 +264,25 @@ Ignatius watched him go and couldn't quite keep the grin down. The truth was, he
 
 ---
 
-## CHAPTER 6: THE FALSE FLAME
+## CHAPTER 6: THE REKINDLED HEARTH
 
 Watching the fine young gentleman scrub his palm with spit and linen, Ignatius felt a slow, dry chuckle rumble through his chest. He looked down at his own calloused hands. Beneath the layer of grime, small flecks of volcanic ash clung to his pores like iron filings to a lodestone. <!-- s0:L0191 -->
 
 Back in the volcanic calderas of the Ember Isles, soot was not an inconvenience to be washed away; it was an heirloom. The Ash-Bloods lived ringed by active fissures and roaring vents of molten earth. For generations, their warriors and smiths had forged their tools directly in the living throat of the crater, scorning the delicate glass-and-copper contrivances of the northern mainland. <!-- s0:L0193 -->
 
-When the envoys from Harmony had landed on the black obsidian beaches three years ago, they had brought crates of "Panda" line batteries—heavy, polished quartz blocks humming with cold, sterile galvanic current. The magistrates had called it progress. They had offered to wire the clan’s huts, promising lighting that did not smoke and stoves that did not scorch. <!-- s0:L0229 -->
+Yet for three generations, the ancestral hearth had been dying. The magma pools had cooled into brittle black glass; geysers blew cold mud; and the clan lived in terror that their fire was turning to cold stone. <!-- s0:L0208 -->
 
-Ignatius remembered his elder brother spitting into the open battery crate, the acid hissing against the crystal casing.
+Then Captain Elara Thorne had sailed into the sulfur mist, pitching her canvas tent directly on the frozen caldera floor and breaking bread with Matriarch Lady Ignis. To demonstrate Harmony's science, Elara had unpacked a portable grill powered by a bronze **resonator** — a delicate frequency tuner that seared meat in the sub-zero gale. In return, Lady Ignis had sent a piece of dormant lavsidian stone across the ocean to fuel an imperial feast.
 
-*"The only thing your rocks do is get hot,"* the northern surveyor had said, frustration cracking his aristocratic composure. *"Our batteries store energy for months. They do not flicker. They do not die."* <!-- s0:L0229 -->
+The moment that reciprocal circuit closed, the ancient connection sparked. Magma had detonated from the vents, roaring back to life and reigniting the caldera.
 
-*"Yeah,"* Ignatius had retorted, crossing his arms while embers flickered along his sleeves. *"We make hot rocks. Real rocks. Rocks with a heartbeat. You can keep your frozen sugar."* <!-- s0:L0239 -->
+Lady Ignis had sailed for Harmony Prime to sign the Expansion Bill relocating the Academy south, taking Ember — Ignatius's brilliant cousin and foremost rival — in the first wave of cadets. Ignatius had been judged too reckless for Year 1, left standing on the basalt rim with soot on his cheeks as the steam launches vanished into the sea. <!-- s0:L0221 -->
 
-Yet even then, Ignatius had seen the writing on the basalt walls. His clan’s volcanoes were growing sluggish. The great lava tubes that had fed their forge-temples for a thousand years were cooling, skinning over with crust that would not melt. The elders had blamed the fading fire on ancestral displeasure, decreeing that the clan must isolate itself further, withdrawing behind fields of boiling sulfur to preserve their remaining heat. <!-- s0:L0252 -->
+*"Next year,"* Ignatius had sworn into the rising smoke, watching the embers flare across his sleeves. *"If that academy comes to our shore... I will be there."* <!-- s0:L0227 --> <!-- s0:L0231 --> <!-- s0:L0235 -->
 
-Ignatius had refused to die in a shrinking circle of ash. If the world’s heat was failing, hiding behind a crater rim was cowardice. When the recruitment call for Vumbua was posted on the wharf, he had boarded the cargo barge as a pilgrim—not to kneel before the Academy’s sterile batteries, but to find where the fire of the earth had gone. <!-- s0:L0520 --> <!-- s0:L0526 -->
+Now, standing beneath the half-finished spires of Vumbua, Ignatius blew a soft plume of smoke through his teeth. The golden-haired boy with the handkerchief had thought he was holding a torch.
 
-He blew a soft plume of smoke through his teeth. The golden-haired boy with the handkerchief had thought he was holding a torch. Ignatius looked up at the half-finished spires looming over the harbor.
-
-*Let them think it,* he thought, adjusting his traveling pack. *A hearth doesn't ask permission to burn.* <!-- L0586 -->
+Ignatius adjusted his traveling pack and grinned. *Let them think it. A hearth doesn't ask permission to burn.* <!-- L0586 -->
 
 ---
 
