@@ -255,9 +255,7 @@ Before Britt could raise her hands, she was enveloped in a fierce, crushing embr
 
 "Britt!" Rill cried out, squeezing her sister with breathless intensity. "I've been asking everywhere! No one saw a flare—not a single person! Did you not use it?!" <!-- L0561 -->
 
-Britt blinked in sudden bewilderment, her stomach dropping into her boots. She looked over at Ignatius, who was jogging up alongside Loami and Aggie to rejoin the group.
-
-"Did we... did we have a flare?" Britt asked softly, a sheepish flush rising on her cheeks. "Oh shoot." <!-- L0563 --> <!-- L0574 -->
+Britt blinked in sudden bewilderment, her stomach dropping into her boots as she looked over at Ignatius jogging up with Loami and Aggie. "Did we... did we have a flare?" Britt asked softly, a sheepish flush rising on her cheeks. "Oh shoot." <!-- L0563 --> <!-- L0574 -->
 
 Ignatius threw his hands up in a placating gesture, embers flickering at his cuffs. "Well, look," Ignatius offered defensively. "The idea was that we would fire the flare if we ever got overwhelmed. But once we were in the thick of it, we were kind of... *whelmed*, not overwhelmed. We were just surviving! So we might have completely forgotten the flare existed." <!-- L0575 -->
 

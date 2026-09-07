@@ -18,9 +18,7 @@ He stared. Whatever answer came back, it didn't land. The polished confidence he
 
 "Don't worry, lad â€” welcome to the show, mate!" The voice belonged to a tall, immaculately dressed young man working his way toward them â€” broad-shouldered, square-jawed, golden-haired, radiating the effortless certainty of old money and older bloodlines. He stopped, took Ignatius in â€” the soot, the ash, the faint shimmer of heat still coming off him â€” and faltered only half a beat. "Oh, wait, are you â€” you're not from â€” sorry, I don't mean to be rude. It's just kind of cool to meet someone from â€” what is your island called?" <!-- L0540 -->
 
-"The Ashland Isles," Ignatius said. "The Ember Isles." <!-- L0543 -->
-
-"What gave it away?" Ignatius added, dry as cinder. "Was it the soot, or the literal flames?" <!-- L0551 -->
+"The Ashland Isles," Ignatius answered, dry as cinder. "The Ember Isles. What gave it away—the soot, or the literal flames?" <!-- L0543 --> <!-- L0551 -->
 
 "You *are* on fire, lad," the stranger agreed, with the delicate tact of someone trying very hard not to stare. "Yes. It's back â€” right there." <!-- L0552 -->
 

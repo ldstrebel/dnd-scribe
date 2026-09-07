@@ -36,15 +36,13 @@ Britt glanced back at Aggie. Still scribbling. She had maybe ten seconds before 
 
 Thinking fast, Britt reached down to the slot on the terminal, seized the printed assessment ticket, and ripped it free with a sharp *snip*. She crumpled the paper into a tight ball, shoved it deep into the pocket of her traveler's tunic, and let the brass flag go. It sprang upright with a belated, triumphant *ding*. <!-- L0344 -->
 
-The attendant arrived out of breath, hovering over the entrance to the cubicle. "Ma'am. You finished your exam." <!-- L0350 -->
+The attendant arrived out of breath, hovering anxiously at the entrance to the cubicle. "Ma'am. You finished your exam." <!-- L0350 -->
 
 Britt looked up, wide-eyed and thoroughly bewildered. "I did," she said, "but it didn't print." <!-- L0351 -->
 
-The proctor blinked, gesturing impatiently toward the aisle. "Um. Okay. This way, please—" <!-- L0352 -->
+"Impossible, ma'am," the attendant stammered, his brow furrowing in bureaucratic distress as he gestured toward the aisle. "The mechanism is automatic. It prints upon completion. This way, please—this cubicle must be cleared for the next candidate." <!-- L0352 --> <!-- L0354 -->
 
-"Impossible, ma'am," the proctor added, his brow furrowing in bureaucratic distress. "The mechanism is automatic. It prints upon completion." <!-- L0354 -->
-
-"No, it didn't print. It didn't print!" Britt was already moving, sliding out of her chair onto the floor. "Let me — I'm going to look under the table." <!-- L0355 -->
+"No, it didn't print! It really didn't print!" Britt was already moving, sliding out of her chair onto the floor. "Let me look under the table." <!-- L0355 -->
 
 Britt dropped onto all fours, crawling beneath the narrow plywood desk. She began shuffling through the sawdust and kicking at the floorboards, muttering loudly about missing slips and broken gears. <!-- L0357 -->
 
