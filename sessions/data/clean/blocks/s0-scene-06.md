@@ -1,7 +1,7 @@
 <!-- RAW_RANGE: [451, 527] | SCENE_ID: 6 -->
 
-Upon reaching the rugged southern headland, the vanguard fleet dropped anchor in the turquoise basin of Campus Harbor. <!-- L0451 --> <!-- L0466 --> <!-- L0468 -->
+Then, in a single breathtaking heartbeat, the storm wall ruptured. <!-- L0451 --> <!-- L0466 --> <!-- L0468 -->
 
-Steam cranes groaned against the basalt cliffs as heavy iron breakwaters and sandstone foundations were driven directly into the surf. The wilderness was being claimed by mortar, coal, and steam. <!-- L0475 --> <!-- L0483 --> <!-- L0487 --> <!-- L0494 --> <!-- L0496 --> <!-- L0500 --> <!-- L0504 --> <!-- L0514 --> <!-- L0516 --> <!-- L0522 --> <!-- L0524 -->
+The screaming gale collapsed into a sudden, miraculous hush. The heavy black squalls peeled back like a theater curtain, giving way to azure skies and calm, turquoise waters that sparkled under brilliant, golden morning light. The battered vessels punched through the trailing curtains of salt spray side by side, their hulls scarred, their crews clinging to the salt-crusted lifelines in stunned disbelief. <!-- L0475 --> <!-- L0483 --> <!-- L0487 --> <!-- L0494 --> <!-- L0496 --> <!-- L0500 --> <!-- L0504 --> <!-- L0514 --> <!-- L0516 --> <!-- L0522 --> <!-- L0524 -->
 
 <!-- LEDGER: rendered=[451, 466, 468, 475, 483, 487, 494, 496, 500, 504, 514, 516, 522, 524] skipped=[453(ooc), 454(ooc), 455(ooc), 456(ooc), 457(ooc), 458(ooc), 459(ooc), 460(ooc), 461(ooc), 462(ooc), 463(ooc), 465(ooc), 467(ooc), 469(ooc), 470(ooc), 471(ooc), 472(ooc), 474(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 484(ooc), 485(ooc), 488(ooc), 489(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 495(ooc), 498(ooc), 499(ooc), 501(ooc), 502(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc), 511(ooc), 512(ooc), 513(ooc), 517(ooc), 518(ooc), 519(ooc), 520(ooc), 521(ooc), 525(ooc), 526(ooc), 527(ooc)] -->
