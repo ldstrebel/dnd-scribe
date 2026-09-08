@@ -1,0 +1,148 @@
+{
+  "defaultModelId": "eleven_multilingual_v2",
+  "defaultApiKeyEnv": "ELEVENLABS_API_KEY",
+  "audioOutputFormat": "mp3_44100_128",
+  "voices": {
+    "narrator": {
+      "name": "Narrator",
+      "voiceId": "nPczCjzI2devNBz1zQrb",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_NARRATOR",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.6,
+        "similarity_boost": 0.75,
+        "style": 0.2,
+        "use_speaker_boost": true
+      },
+      "description": "Authoritative, immersive fantasy narrative voice."
+    },
+    "pierre": {
+      "name": "Pierre",
+      "voiceId": "VR6AewLTigWG4xSOukaG",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_PIERRE",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.8,
+        "style": 0.35,
+        "use_speaker_boost": true
+      },
+      "description": "Young French scholar with an earnest, watchful cadence."
+    },
+    "dravin": {
+      "name": "Prof. Edward Dravin",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_DRAVIN",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.65,
+        "similarity_boost": 0.8,
+        "style": 0.15,
+        "use_speaker_boost": true
+      },
+      "description": "Scholarly, gravitas-laden Stanford historian with necrotic resonance."
+    },
+    "eusacles": {
+      "name": "Eusacles",
+      "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_EUSACLES",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.45,
+        "similarity_boost": 0.75,
+        "style": 0.4,
+        "use_speaker_boost": true
+      },
+      "description": "Charismatic Vegas gambler, relaxed grin masking demigod reflexes."
+    },
+    "alfie": {
+      "name": "Alfie",
+      "voiceId": "TxGEqnHWrfWFTfGW9XjX",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_ALFIE",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.4,
+        "similarity_boost": 0.7,
+        "style": 0.5,
+        "use_speaker_boost": true
+      },
+      "description": "Spry Cockney rogue in miniature driftwood form, sharp and razor-witted."
+    },
+    "theodore": {
+      "name": "Theodore",
+      "voiceId": "onwK4e9ZLuTAKqWW03F9",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_NPC",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.6,
+        "similarity_boost": 0.75,
+        "style": 0.2,
+        "use_speaker_boost": true
+      },
+      "description": "Weary, welcoming haven proprietor and hedge mage."
+    },
+    "naomi": {
+      "name": "Naomi",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_NPC",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0.25,
+        "use_speaker_boost": true
+      },
+      "description": "Tactical planar scout with crisp, urgent authority."
+    },
+    "rosa": {
+      "name": "Rosa",
+      "voiceId": "MF3mGyEYCl7XYWbV9V6O",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_NPC",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0.2,
+        "use_speaker_boost": true
+      },
+      "description": "Fierce defender of The Margin with grounding conviction."
+    },
+    "mike": {
+      "name": "Mike",
+      "voiceId": "yoZ06aMxZJJ28mfd3POQ",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_NPC",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.7,
+        "similarity_boost": 0.7,
+        "style": 0.1,
+        "use_speaker_boost": false
+      },
+      "description": "Dry, deadpan Greyhound bus driver."
+    },
+    "fates": {
+      "name": "The Three Fates",
+      "voiceId": "AZnzlk1XvdvUeBnXmlld",
+      "apiKeyEnv": "ELEVENLABS_API_KEY_NPC",
+      "modelId": "eleven_multilingual_v2",
+      "settings": {
+        "stability": 0.7,
+        "similarity_boost": 0.85,
+        "style": 0.45,
+        "use_speaker_boost": true
+      },
+      "description": "Ethereal, tripartite cosmic loom masters."
+    }
+  },
+  "defaultNpcVoice": {
+    "voiceId": "yoZ06aMxZJJ28mfd3POQ",
+    "apiKeyEnv": "ELEVENLABS_API_KEY_NPC",
+    "modelId": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.6,
+      "similarity_boost": 0.75,
+      "style": 0.0,
+      "use_speaker_boost": false
+    }
+  }
+}
