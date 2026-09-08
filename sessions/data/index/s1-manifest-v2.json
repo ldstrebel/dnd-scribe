@@ -51,14 +51,14 @@
     }
   },
   "stats": {
-    "wordCount": 4141,
+    "wordCount": 4227,
     "estimatedReadMinutes": 17,
-    "estimatedBookPages": 16.6,
+    "estimatedBookPages": 16.9,
     "dialogueRatio": {
-      "spokenWords": 732,
-      "narrativeWords": 3409,
-      "spokenPct": 17.7,
-      "narrativePct": 82.3,
+      "spokenWords": 736,
+      "narrativeWords": 3491,
+      "spokenPct": 17.4,
+      "narrativePct": 82.6,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -66,54 +66,54 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 3106,
-        "sharePct": 75.0
+        "words": 3083,
+        "sharePct": 72.9
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 445,
-        "sharePct": 10.7
+        "words": 449,
+        "sharePct": 10.6
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 249,
-        "sharePct": 6.0
+        "words": 235,
+        "sharePct": 5.6
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
         "words": 216,
-        "sharePct": 5.2
+        "sharePct": 5.1
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 77,
-        "sharePct": 1.9
+        "words": 140,
+        "sharePct": 3.3
       },
       {
         "id": "fates",
         "name": "The Three Fates",
         "color": "#a855f7",
-        "words": 48,
-        "sharePct": 1.2
+        "words": 104,
+        "sharePct": 2.5
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 7.1,
+      "pacingStdDev": 7.2,
       "pacingDynamic": true,
       "sensoryRegisters": {
         "visual": 30,
-        "auditory": 12,
-        "tactile": 28,
+        "auditory": 13,
+        "tactile": 29,
         "olfactory": 11,
-        "atmospheric": 17,
+        "atmospheric": 18,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -227,8 +227,8 @@
       "id": "uneraseable_s01_b015",
       "index": 15,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "pierre",
-      "text": "\"Wow...\" Pierre breathed softly into the void."
+      "speakerId": "narrator",
+      "text": "Pierre gasped as the floor dropped away beneath his sneakers, his breath stolen by the roaring void."
     },
     {
       "id": "uneraseable_s01_b016",
@@ -290,14 +290,14 @@
       "id": "uneraseable_s01_b024",
       "index": 24,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "narrator",
+      "speakerId": "fates",
       "text": "\"Oh no,\" the second chimed in, head tilting at an unnatural angle. \"You're late.\""
     },
     {
       "id": "uneraseable_s01_b025",
       "index": 25,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "narrator",
+      "speakerId": "fates",
       "text": "\"Come closer,\" whispered the third. \"Come closer... This is interesting.\""
     },
     {
@@ -409,7 +409,7 @@
       "id": "uneraseable_s01_b041",
       "index": 41,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "narrator",
+      "speakerId": "fates",
       "text": "\"Not again!\" cried the second. \"What is going on?\""
     },
     {
@@ -423,7 +423,7 @@
       "id": "uneraseable_s01_b043",
       "index": 43,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "narrator",
+      "speakerId": "fates",
       "text": "\"This will help!\" the eldest rasped, drawing back her arm. \"This will help! Hold them off\u2014just hold them off a little longer!\""
     },
     {
@@ -536,14 +536,14 @@
       "index": 59,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
       "speakerId": "narrator",
-      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the cadence rose naturally to his lips like an old lecture."
+      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the cadence, but an unbidden, ancient syllable rose instinctively to his throat\u2014a resonant funerary inflection dredged from some forgotten classical text."
     },
     {
       "id": "uneraseable_s01_b060",
       "index": 60,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "dravin",
-      "text": "\"Chill Touch!\" Dravin commanded."
+      "speakerId": "narrator",
+      "text": "Necrotic frost crackled across his knuckles, answering the somatic reflex before he could even comprehend the magic."
     },
     {
       "id": "uneraseable_s01_b061",
@@ -675,22 +675,22 @@
       "id": "uneraseable_s01_b079",
       "index": 79,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "narrator",
-      "text": "The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow."
+      "speakerId": "alfie",
+      "text": "The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow. \"Watch yer flanks, mates!\" Alfie piped, skittering backward to create space."
     },
     {
       "id": "uneraseable_s01_b080",
       "index": 80,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "dravin",
-      "text": "\"Toll the dead!\" Dravin\u2019s voice echoed through the colonnade."
+      "speakerId": "narrator",
+      "text": "Stepping into the breach to cover the doll's retreat, Dravin reached into his tweed pocket with sudden resolve. An instinctive hum of necrotic resonance buzzed in his ears, prompting him to invoke the knell of the grave."
     },
     {
       "id": "uneraseable_s01_b081",
       "index": 81,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
       "speakerId": "narrator",
-      "text": "The professor pulled a tarnished silver bell from his tweed pocket and shook it vigorously toward the ink beasts. But whatever celestial chime was meant to resonate remained muffled\u2014a stray piece of pocket lint was lodged deep inside the bell\u2019s clapper, producing only a dull, pathetic thud."
+      "text": "The professor pulled a tarnished silver bell from his pocket and shook it vigorously toward the ink beasts, attempting to ring out the deathly toll. But whatever celestial chime was meant to resonate remained muffled\u2014a stray piece of pocket lint was lodged deep inside the bell\u2019s clapper, producing only a dull, pathetic thud."
     },
     {
       "id": "uneraseable_s01_b082",
@@ -1040,7 +1040,7 @@
       "index": 131,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "pierre",
-      "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Brittany.\""
+      "text": "\"Oh,\" Pierre muttered, blinking as he calculated French geography. \"Like Paris to Le Mans... or halfway across the province.\""
     },
     {
       "id": "uneraseable_s01_b132",

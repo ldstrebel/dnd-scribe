@@ -1,0 +1,75 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s1",
+  "title": "Uneraseable - THE BUS FROM VEGAS & THE LIBRARY OF THE FATES",
+  "reviewer": "Strebs",
+  "reviewerMeta": {
+    "handle": "Strebs",
+    "isBankPunName": false,
+    "suggestedBankReplacement": null
+  },
+  "exportedAt": "2026-09-08T03:34:42.131Z",
+  "totalCritiques": 6,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s01_b015",
+      "blockIndex": 15,
+      "speaker": "Pierre",
+      "category": "rewrite",
+      "quote": "\"Wow...\" Pierre breathed softly into the void.",
+      "comment": "Clear this. Breaks flow",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T03:10:18.694Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b024",
+      "blockIndex": 24,
+      "speaker": "Narrator",
+      "category": "audio_cue",
+      "quote": "\"Oh no,\" the second chimed in, head tilting at an unnatural angle. \"You're late.\"",
+      "comment": "Should be red for NPCs?",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T03:10:38.154Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b043",
+      "blockIndex": 43,
+      "speaker": "Narrator",
+      "category": "audio_cue",
+      "quote": "\"This will help!\" the eldest rasped, drawing back her arm. \"This will help! Hold them off—just hold them off a little longer!\"",
+      "comment": "Red too?",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T03:10:58.986Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b060",
+      "blockIndex": 60,
+      "speaker": "Prof. Edward Dravin",
+      "category": "audio_cue",
+      "quote": "\"Chill Touch!\" Dravin commanded.",
+      "comment": "This may need a retcon later. I think he doesn't know spells yet and player is learning and worshipping character",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T03:11:49.758Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b080",
+      "blockIndex": 80,
+      "speaker": "Prof. Edward Dravin",
+      "category": "continuity",
+      "quote": "\"Toll the dead!\" Dravin’s voice echoed through the colonnade.",
+      "comment": "Transition here is super abrupt. Have the think about how we help add some questions between actors in DND combat to keep the scene moving and clearly communicated",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T03:13:22.898Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b131",
+      "blockIndex": 131,
+      "speaker": "Pierre",
+      "category": "continuity",
+      "quote": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Brittany.\"",
+      "comment": "Paris (worth keeping in mind French accent may result in transcript error this was Pair-ey, hard French sound)",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T03:15:14.611Z"
+    }
+  ]
+}

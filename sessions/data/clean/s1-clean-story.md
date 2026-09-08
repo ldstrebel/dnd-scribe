@@ -52,7 +52,7 @@ Slam. <!-- L0967 -->
 
 Before anyone could scream, a blinding explosion of searing heat and white light detonated across the windows. The walls of the bus dissolved into radiant phosphor. The screams, the roaring engine, and the scent of burning rubber were swallowed by absolute, ringing silence.
 
-"Wow..." Pierre breathed softly into the void. <!-- L0968 -->
+Pierre gasped as the floor dropped away beneath his sneakers, his breath stolen by the roaring void. <!-- L0968 -->
 
 And then, the light consumed everything.
 
@@ -155,9 +155,9 @@ He stepped forward and brought the morningstar down in a vicious overhead arc. B
 
 "Damn it!" Eusacles grunted, wrenching the weapon free. <!-- L1140 -->
 
-Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the cadence rose naturally to his lips like an old lecture. <!-- L1145 -->
+Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the cadence, but an unbidden, ancient syllable rose instinctively to his throat—a resonant funerary inflection dredged from some forgotten classical text. <!-- L1145 -->
 
-"Chill Touch!" Dravin commanded. <!-- L1150 -->
+Necrotic frost crackled across his knuckles, answering the somatic reflex before he could even comprehend the magic. <!-- L1150 -->
 
 Beneath the ink blob, the marble floor fractured with a pale, frost-bitten glow. A spectral, skeletal hand formed from white mist erupted from the stone seams, its bony fingers clamping shut around the ink creature. The creature let out a high-pitched, wet shriek as necrotic frost burned through its viscous form, dragging it halfway down into the floor. <!-- L1200 -->
 
@@ -205,11 +205,11 @@ The unknown named doll snapped bolt upright. Its shell-and-coral eyes clicked op
 
 It charged straight across the flagstones, its little wooden joints clicking like castanets as it sprinted full tilt toward the injured ink blob, aiming its needle squarely for where an eye ought to be. <!-- L1370 -->
 
-The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow. <!-- L1380 -->
+The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow. "Watch yer flanks, mates!" Alfie piped, skittering backward to create space. <!-- L1380 -->
 
-"Toll the dead!" Dravin’s voice echoed through the colonnade. <!-- L1400 -->
+Stepping into the breach to cover the doll's retreat, Dravin reached into his tweed pocket with sudden resolve. An instinctive hum of necrotic resonance buzzed in his ears, prompting him to invoke the knell of the grave. <!-- L1400 -->
 
-The professor pulled a tarnished silver bell from his tweed pocket and shook it vigorously toward the ink beasts. But whatever celestial chime was meant to resonate remained muffled—a stray piece of pocket lint was lodged deep inside the bell’s clapper, producing only a dull, pathetic thud. <!-- L1420 -->
+The professor pulled a tarnished silver bell from his pocket and shook it vigorously toward the ink beasts, attempting to ring out the deathly toll. But whatever celestial chime was meant to resonate remained muffled—a stray piece of pocket lint was lodged deep inside the bell’s clapper, producing only a dull, pathetic thud. <!-- L1420 -->
 
 Eusacles rolled his eyes from where he leaned against the pillar. "Oh, god no..." <!-- L1430 -->
 
@@ -329,7 +329,7 @@ Pierre tilted his head. "Can you remind me... is a mile one kilometer or two? Be
 
 "About two hundred kilometers," Dravin answered with academic precision. <!-- L1930 -->
 
-"Oh," Pierre muttered, blinking. "Like Versailles to Brittany." <!-- L1940 -->
+"Oh," Pierre muttered, blinking as he calculated French geography. "Like Paris to Le Mans... or halfway across the province." <!-- L1940 -->
 
 "Two hundred kilometers..." Eusacles repeated, his voice climbing in disbelief. "That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!" <!-- L1956 -->
 
