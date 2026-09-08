@@ -40,4 +40,17 @@ The party is welcomed into the Appalachian refuge of The Margin by caretaker The
 
 ### [[s3-clean-story|Session 3: The Museum Heist in North Carolina]]
 **Date:** Sep 1, 2026  
-**Status:** Queued
+**Game Master:** Luke Foreman (`Luke F`)  
+**Party:** Pierre (Luke Strebel), Prof. Edward Dravin (William Webb), Eusacles (John Hagey), Alfie (Sophie Foreman Noone)
+
+Arriving in Raleigh, the party executes a nighttime infiltration of the North Carolina Museum of Natural History to recover a fractured Greek limestone stele. Using Alfie's Wordcraft to manifest spectral sheep as a distraction, Pierre poses as a late-night archival intern in a stolen lab coat. Breaching the tempered glass display in the Mediterranean wing, Pierre matches the recovered stone Fragment into the ancient tablet, fusing the broken inscription, stabilizing the timeline resonance, and escaping into the Carolina night.
+
+**Key Events:**
+- Arrival in Raleigh; casing the Museum of Natural History and the Mediterranean Antiquities exhibit.
+- Dravin and Eusacles identify security cameras, roving guard patrols, and the 6:00 PM closing timeline.
+- Alfie uses Wordcraft (*Sleep* $\rightarrow$ *Sheep*) to unleash spectral livestock, distracting guard Thomas while Pierre swipes his blue security badge.
+- Infiltrating the preservation workshop; Pierre disguises himself in an oversized archival lab coat and bluffs guard Nancy as a first-day Sorbonne intern.
+- Disengaging magnetic locks on the centerpiece display case.
+- Pierre inserts the recovered limestone Fragment into the jagged void of the stele.
+- The stone fuses with radiant golden energy, completing the ancient Gorgon hero inscription and quenching the temporal anomaly.
+- The party wraps the stabilized artifact and escapes onto the Lost Roads back to The Margin.
