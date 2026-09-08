@@ -233,6 +233,104 @@ def get_character_alias_map():
     return alias_map
 
 
+
+def analyze_spatial_blocking_and_transitions(scenes):
+    """
+    Developmental Editor: Scans for spatial whiplash, abrupt blocking shifts, 
+    and disorienting narrative leaps.
+    """
+    findings = []
+    
+    posture_verbs = {"sat", "sitting", "lying", "lay", "stood", "standing", "kneeling", "knelt", "climbed", "fallen"}
+    motion_verbs = {"walked", "stepped", "ran", "sprinted", "leaped", "jumped", "hurried", "dashed", "crawled", "moved"}
+    
+    for s in scenes:
+        content = s["content"]
+        paragraphs = [p.strip() for p in re.sub(r"<!--.*?-->", "", content).split("\n\n") if p.strip()]
+        
+        # Check scene opening orientation
+        if paragraphs:
+            opening = paragraphs[0].lower()
+            has_spatial_anchor = any(w in opening for w in [
+                "room", "hall", "sky", "ground", "door", "floor", "corridor", "trees", 
+                "light", "darkness", "shadow", "stone", "air", "wood", "glass", "gate",
+                "shed", "annex", "museum", "road", "ditch", "rotunda"
+            ])
+            if not has_spatial_anchor:
+                findings.append({
+                    "scene_id": s["scene_id"],
+                    "category": "orientation",
+                    "issue": "Unanchored Scene Opening",
+                    "detail": f"Scene opens without immediate physical/environmental anchor: '{paragraphs[0][:70]}...'"
+                })
+                
+        # Check paragraph transitions for sudden posture / location shifts
+        for i in range(len(paragraphs) - 1):
+            p1 = paragraphs[i].lower()
+            p2 = paragraphs[i+1].lower()
+            
+            # If someone is lying down in p1 and standing in p2 without standing/getting up
+            if any(w in p1 for w in ["lying", "on his back", "in the ditch", "unconscious"]):
+                if any(w in p2 for w in ["strode", "walking down", "turned and paced"]):
+                    if not any(w in p2 for w in ["stood", "got up", "climbed to", "scrambled", "rose"]):
+                        findings.append({
+                            "scene_id": s["scene_id"],
+                            "category": "blocking",
+                            "issue": "Spatial Whiplash",
+                            "detail": f"Character transitions from prone/fallen to moving without standing: '{paragraphs[i+1][:70]}...'"
+                        })
+    return findings
+
+def generate_critique_payload(session_id, scenes, blocking_issues, talking_heads, earth_leaks):
+    """
+    Generates structured editorial critique JSON matching the eBook / Critique Reader schema.
+    """
+    critiques = []
+    block_idx = 1
+    
+    for issue in blocking_issues:
+        critiques.append({
+            "blockId": f"uneraseable_{session_id}_b{block_idx:03d}",
+            "blockIndex": block_idx,
+            "speaker": "Developmental Editor",
+            "category": "continuity",
+            "quote": issue["detail"],
+            "comment": f"[{issue['issue']}] Ensure clear transitional blocking and spatial orientation.",
+            "suggestedRewrite": "",
+            "updatedAt": "2026-09-08T12:00:00.000Z"
+        })
+        block_idx += 1
+        
+    for th in talking_heads:
+        if th["talking_heads_risk"]:
+            critiques.append({
+                "blockId": f"uneraseable_{session_id}_b{block_idx:03d}",
+                "blockIndex": block_idx,
+                "speaker": "Developmental Editor",
+                "category": "pacing",
+                "quote": f"Scene {th['scene_id']}: {th['title']}",
+                "comment": f"High dialogue density ({int(th['dialogue_ratio']*100)}%) with only {th['action_verb_count']} physical action verbs. Add tactile blocking, gesture, and environmental interaction.",
+                "suggestedRewrite": "",
+                "updatedAt": "2026-09-08T12:00:00.000Z"
+            })
+            block_idx += 1
+            
+    payload = {
+        "campaign": "uneraseable",
+        "chapter": session_id,
+        "title": f"Uneraseable - {session_id.upper()} Developmental Editor Review",
+        "reviewer": "Ruthless Developmental Editor (AI)",
+        "reviewerMeta": {
+            "handle": "Editor-in-Chief",
+            "isBankPunName": False,
+            "suggestedBankReplacement": None
+        },
+        "exportedAt": "2026-09-08T12:00:00.000Z",
+        "totalCritiques": len(critiques),
+        "critiques": critiques
+    }
+    return payload
+
 def analyze_character_voices(text):
     alias_map = get_character_alias_map()
     character_quotes = {char: [] for char in alias_map}

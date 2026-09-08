@@ -34,13 +34,13 @@ And then, the light consumed everything.
 
 ## CHAPTER 2: THE LIBRARY OF THE FATES
 
-The blinding glare did not fade so much as it crystallized into cool, morning light. 
+The blinding glare did not fade so much as it crystallized into cool, morning light.
 
-Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel and scorching desert rubber was completely gone, replaced by the faint, earthy scent of ancient parchment, pressed olives, and sun-warmed stone. 
+Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel and scorching desert rubber was completely gone, replaced by the faint, earthy scent of ancient parchment, pressed olives, and sun-warmed stone.
 
-He was sitting on polished marble flagstones. Surrounding him was an enormous, open-air colonnade of fluted Doric pillars rising beneath an open sky. Colossal towering cedar shelves lined the perimeter, groaning under the weight of countless leather-bound codices, clay tablets, and unfurled papyrus scrolls. 
+He was sitting on polished marble flagstones. Surrounding him was an enormous, open-air colonnade of fluted Doric pillars rising beneath an open sky. Colossal towering cedar shelves lined the perimeter, groaning under the weight of countless leather-bound codices, clay tablets, and unfurled papyrus scrolls.
 
-Standing in the exact center of the rotunda, bathed in a pool of golden sunlight, were three ancient women. 
+Standing in the exact center of the rotunda, bathed in a pool of golden sunlight, were three ancient women.
 
 Draped in heavy, undyed linen that seemed to drift without a breeze, their wrinkled hands worked continuously over a suspended wooden frame. Silvery, shimmering threads moved through their gnarled fingers in a blur of practiced rhythm.
 
@@ -50,7 +50,7 @@ The three turned their milky, unblinking eyes toward the bewildered newcomers.
 
 "Oh no," the second chimed in, head tilting at an unnatural angle. "You're late."
 
-"Come closer," whispered the third. "Come closer... This is interesting."
+"Come closer," whispered the third. "Come closer... This is interesting." 
 
 Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. Beneath the woolen cap, his hair sat strangely—a subtle, wild irregularity that seemed almost to twitch if one stared too closely. 
 
@@ -60,13 +60,13 @@ He glanced cautiously to his right. A tall, broad-shouldered man in a fitted bla
 
 The man on his left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy. 
 
-"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this." 
+"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this."  
 
 "A professor..." Pierre echoed, eyes darting from Dravin's manic grin back to the three looming crones. "So you are telling me you know what this is?"
 
-Across the tiles, Eusacles rolled his shoulders, his jaw tight as he took in the marble columns, the ancient scrolls, and the eccentric academic already admiring the architecture. Eusacles shook his head in pure exasperation.
+Across the tiles, Eusacles rolled his shoulders, his jaw tight as he took in the marble columns, the ancient scrolls, and the eccentric academic already admiring the architecture. Eusacles shook his head in pure exasperation. 
 
-"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, staring flatly at the two nerds standing beside him. "What about any of this seems normal to you?" 
+"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, staring flatly at the two nerds standing beside him. "What about any of this seems normal to you?"  
 
 ## CHAPTER 3: THE PLANAR RIFT
 
