@@ -196,5 +196,203 @@
     ],
     "top_errors": [],
     "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-08T13:37:10.381238",
+    "session_id": "s1",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 4,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 32
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 37
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 1
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 12,
+        "ratio": 1.0,
+        "keywords": 28
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0977 (Pierre ): '\"Just a totally normal boy. Just just a normal kid. He's just got some...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L1003 (Pierre ): '\"Just trying to understand... are you seeing what I'm seeing? Are you ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L1005 (Eusacles ): '\"It looks like an eerie Pinocchio doll with a needle and a Captain Hoo...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L1006 (Unknown named doll ): '\"You see a little guy made mostly of driftwood and threadbare canvas m...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-08T13:37:10.585480",
+    "session_id": "s2",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 0,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 38
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 13
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 21
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 16
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 45
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 32
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 35
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 12
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 20
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 9
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-08T13:37:10.789075",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 0,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 17
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 28
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 56
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 6
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 20
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 4
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 7
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 5
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 11
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 55
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": []
   }
 ]
