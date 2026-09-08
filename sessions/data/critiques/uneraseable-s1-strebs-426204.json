@@ -1,0 +1,59 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s1",
+  "title": "Uneraseable - THE BUS FROM VEGAS & THE LIBRARY OF THE FATES",
+  "reviewer": "Strebs",
+  "reviewerMeta": {
+    "handle": "Strebs",
+    "isBankPunName": false,
+    "suggestedBankReplacement": null
+  },
+  "exportedAt": "2026-09-08T04:23:46.204Z",
+  "totalCritiques": 4,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s01_b132",
+      "blockIndex": 132,
+      "speaker": "Eusacles",
+      "speakerColor": "#f59e0b",
+      "category": "audio_cue",
+      "quote": "\"Two hundred kilometers...\" Eusacles repeated, his voice climbing in disbelief. \"That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!\"",
+      "comment": "I'm pretty sure this is Pierre",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T04:21:20.395Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b134",
+      "blockIndex": 134,
+      "speaker": "Narrator",
+      "speakerColor": "#94a3b8",
+      "category": "audio_cue",
+      "quote": "\"I'm four feet below you, mate!\" a sharp, raspy Cockney voice piped up from the grass. \"Somebody's got to pick me up if you're trying to talk to me!\"",
+      "comment": "Another missed dialogue color",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T04:21:44.560Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b139",
+      "blockIndex": 139,
+      "speaker": "Narrator",
+      "speakerColor": "#94a3b8",
+      "category": "continuity",
+      "quote": "With a sharp click, the doll sprang back to life, immediately swinging its tiny needle wildly at the tall stalks of crabgrass like a miniature lawnmower.",
+      "comment": "I don't know what's happening here but it makes no sense",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T04:22:13.860Z"
+    },
+    {
+      "blockId": "uneraseable_s01_b146",
+      "blockIndex": 146,
+      "speaker": "Pierre",
+      "speakerColor": "#3b82f6",
+      "category": "continuity",
+      "quote": "Pierre knelt and gently offered his open hand to the swinging driftwood doll. \"Would you like a ride?\"",
+      "comment": "The jumping back and forth without any transition text is hard to follow",
+      "suggestedRewrite": "",
+      "updatedAt": "2026-09-08T04:22:39.861Z"
+    }
+  ]
+}

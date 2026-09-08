@@ -75,14 +75,14 @@
     }
   },
   "stats": {
-    "wordCount": 4198,
+    "wordCount": 4208,
     "estimatedReadMinutes": 17,
     "estimatedBookPages": 16.8,
     "dialogueRatio": {
-      "spokenWords": 732,
-      "narrativeWords": 3466,
-      "spokenPct": 17.4,
-      "narrativePct": 82.6,
+      "spokenWords": 725,
+      "narrativeWords": 3483,
+      "spokenPct": 17.2,
+      "narrativePct": 82.8,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -90,15 +90,15 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 2897,
+        "words": 2903,
         "sharePct": 69.0
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 438,
-        "sharePct": 10.4
+        "words": 449,
+        "sharePct": 10.7
       },
       {
         "id": "dravin",
@@ -118,8 +118,8 @@
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 176,
-        "sharePct": 4.2
+        "words": 169,
+        "sharePct": 4.0
       },
       {
         "id": "fates",
@@ -200,7 +200,7 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "17.4% Spoken / 82.6% Narrative Action",
+          "chosenStance": "17.2% Spoken / 82.8% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
@@ -1224,7 +1224,7 @@
       "index": 139,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "narrator",
-      "text": "With a sharp click, the doll sprang back to life, immediately swinging its tiny needle wildly at the tall stalks of crabgrass like a miniature lawnmower."
+      "text": "With a sharp click, the doll sprang back to consciousness, frantically swinging its needle rapier in defensive arcs at the surrounding crabgrass like a miniature lawnmower before realizing no monster was attacking."
     },
     {
       "id": "uneraseable_s01_b140",
@@ -1273,7 +1273,7 @@
       "index": 146,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "pierre",
-      "text": "Pierre knelt and gently offered his open hand to the swinging driftwood doll. \"Would you like a ride?\""
+      "text": "Seeing the little puppet still panting in the grass from his frantic revival, Pierre knelt down beside him and gently extended an open hand. \"Would you like a ride?\""
     },
     {
       "id": "uneraseable_s01_b147",
@@ -1314,33 +1314,26 @@
       "id": "uneraseable_s01_b152",
       "index": 152,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "alfie",
-      "text": "\"A ride would be grand. Thanks, mate.\""
+      "speakerId": "narrator",
+      "text": "Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*."
     },
     {
       "id": "uneraseable_s01_b153",
       "index": 153,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
-      "text": "Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*."
+      "text": "Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. As the party approached, the man turned, looking up with an easy smirk."
     },
     {
       "id": "uneraseable_s01_b154",
       "index": 154,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "narrator",
-      "text": "Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. As the party approached, the man turned, looking up with an easy smirk."
-    },
-    {
-      "id": "uneraseable_s01_b155",
-      "index": 155,
-      "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "theodore",
       "text": "\"Huh? No way,\" the man said, raising a hand in greeting. \"What's up? Welcome to the Margin. What edit killed you?\""
     },
     {
-      "id": "uneraseable_s01_b156",
-      "index": 156,
+      "id": "uneraseable_s01_b155",
+      "index": 155,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
       "text": "Overhead, the creaking sign swung softly in the mountain breeze, and the campfire cast long, flickering shadows into the night."

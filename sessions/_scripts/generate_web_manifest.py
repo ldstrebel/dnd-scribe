@@ -43,6 +43,12 @@ CHARACTER_REGISTRY = {
         "color": "#10b981",
         "role": "Driftwood Duelist · Wordcraft Mage"
     },
+    "ally": {
+        "name": "Ally",
+        "type": "npc",
+        "color": "#ec4899",
+        "role": "Maiden of Persephone · Underworld Guide"
+    },
     "theodore": {
         "name": "Theodore (Teddy)",
         "type": "npc",
@@ -115,7 +121,8 @@ SPEAKER_ALIASES = {
     "pierre": ["pierre", "french student", "bonsoir", "merci beaucoup"],
     "dravin": ["dravin", "edward", "professor", "necromancer"],
     "eusacles": ["eusacles", "ukules", "gambler", "thanatos"],
-    "alfie": ["alfie", "the doll", "driftwood", "miniature duel", "cockney", "four feet below", "thanks, mate", "needle rapier", "mate"],
+    "alfie": ["alfie", "the doll", "driftwood", "miniature duel", "cockney", "cockney voice", "four feet below", "thanks, mate", "needle rapier", "mate", "wooden hand", "wooden chest"],
+    "ally": ["ally", "maiden", "persephone", "maiden of persephone"],
     "theodore": ["theodore", "teddy", "bartender", "welcome to the margin", "what edit killed you"],
     "naomi": ["naomi", "scout", "researcher"],
     "rosa": ["rosa"],
