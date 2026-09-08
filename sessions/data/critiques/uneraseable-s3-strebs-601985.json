@@ -1,0 +1,31 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s3",
+  "title": "Uneraseable - THE MUSEUM HEIST IN NORTH CAROLINA",
+  "reviewer": "Strebs",
+  "reviewerMeta": {
+    "handle": "Strebs",
+    "isBankPunName": false,
+    "suggestedBankReplacement": null
+  },
+  "exportedAt": "2026-09-08T17:30:01.985Z",
+  "totalCritiques": 1,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s03_b001",
+      "blockIndex": 1,
+      "speaker": "Narrator",
+      "speakerId": "narrator",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#94a3b8",
+      "category": "general",
+      "quote": "The green Ford farm truck rolled off the final stretch of the Lost Roads, its tires thumping as reality solidified onto modern asphalt. Ahead, the morning sun rose over the downtown skyline of Raleigh, North Carolina, glinting off glass high-rises and the stately neoclassical columns of the state museum complex.",
+      "comment": "Ai took a lot of liberty on this session. Need to justify",
+      "suggestedRewrite": "",
+      "sourceLine": 327,
+      "sourceSpeaker": "Luke Foreman",
+      "updatedAt": "2026-09-08T17:29:30.739Z"
+    }
+  ]
+}
