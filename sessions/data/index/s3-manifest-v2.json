@@ -72,8 +72,8 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1237,
-        "sharePct": 52.6
+        "words": 1219,
+        "sharePct": 51.9
       },
       {
         "id": "pierre",
@@ -107,8 +107,8 @@
         "id": "thomas",
         "name": "Thomas (Guard)",
         "color": "#0284c7",
-        "words": 18,
-        "sharePct": 0.8
+        "words": 36,
+        "sharePct": 1.5
       },
       {
         "id": "nancy",
@@ -463,7 +463,7 @@
       "id": "uneraseable_s03_b037",
       "index": 37,
       "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
-      "speakerId": "narrator",
+      "speakerId": "thomas",
       "text": "The security guard spun around, his jaw dropping in utter bewilderment. \"What the... sheep?! In the Mediterranean wing?!\""
     },
     {

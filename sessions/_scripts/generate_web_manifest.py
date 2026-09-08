@@ -90,25 +90,46 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#0ea5e9",
         "role": "Museum Gallery Guard"
+    },
+    "beast": {
+        "name": "Shadow Beast",
+        "type": "npc",
+        "color": "#e11d48",
+        "role": "Planar Sphinx · Ink Creature"
+    },
+    "anchor": {
+        "name": "News Anchor",
+        "type": "npc",
+        "color": "#64748b",
+        "role": "Highway Radio Broadcaster"
+    },
+    "passenger": {
+        "name": "Bus Passenger",
+        "type": "npc",
+        "color": "#71717a",
+        "role": "Greyhound Transit Commuter"
     }
 }
 
 SPEAKER_ALIASES = {
-    "pierre": ["pierre"],
-    "dravin": ["dravin", "edward", "professor"],
-    "eusacles": ["eusacles", "ukules"],
-    "alfie": ["alfie", "the doll", "driftwood", "miniature duel"],
-    "theodore": ["theodore", "teddy", "bartender"],
-    "naomi": ["naomi", "scout"],
+    "pierre": ["pierre", "french student", "bonsoir", "merci beaucoup"],
+    "dravin": ["dravin", "edward", "professor", "necromancer"],
+    "eusacles": ["eusacles", "ukules", "gambler", "thanatos"],
+    "alfie": ["alfie", "the doll", "driftwood", "miniature duel", "cockney", "four feet below", "thanks, mate", "needle rapier", "mate"],
+    "theodore": ["theodore", "teddy", "bartender", "welcome to the margin", "what edit killed you"],
+    "naomi": ["naomi", "scout", "researcher"],
     "rosa": ["rosa"],
-    "mike": ["mike", "driver"],
-    "fates": ["fates", "clotho", "lachesis", "atropos", "three sisters", "eldest", "second", "third", "weavers"],
-    "clerk": ["clerk"],
-    "thomas": ["thomas"],
-    "nancy": ["nancy"]
+    "mike": ["mike", "driver", "cab of the truck"],
+    "fates": ["fates", "clotho", "lachesis", "atropos", "three sisters", "eldest", "second", "third", "first", "the first", "weavers", "millstones"],
+    "clerk": ["clerk", "attendant"],
+    "thomas": ["thomas", "security guard", "guard's keycard", "dropped clipboard", "officer"],
+    "nancy": ["nancy"],
+    "beast": ["beast", "sphinx", "it rasped", "purred", "shadow beast", "creature", "come with us through the rift"],
+    "anchor": ["news anchor", "anchor", "radio", "monotone voice", "field reporter"],
+    "passenger": ["someone shouted", "passenger", "passengers"]
 }
 
-def identify_speaker_id(paragraph_text):
+def identify_speaker_id(paragraph_text, prev_speaker=None):
     # Check if paragraph contains quoted dialogue
     has_quote = '"' in paragraph_text or '“' in paragraph_text
     if not has_quote:
@@ -120,6 +141,11 @@ def identify_speaker_id(paragraph_text):
         for a in aliases:
             if re.search(rf"\b{re.escape(a)}\b", text_lower):
                 return char_id
+                
+    # Fallback to active speaker in conversational exchange
+    if prev_speaker and prev_speaker != "narrator":
+        return prev_speaker
+
     return "narrator"
 
 def generate_session_v2_manifest(session_num):
@@ -173,8 +199,10 @@ def generate_session_v2_manifest(session_num):
     }
     
     current_scene_title = "Prologue"
+    prev_spk_id = None
     
     for sc_id, sc_content in scenes_raw:
+        prev_spk_id = None
         lines = sc_content.strip().split("\n")
         if lines and lines[0].startswith("##"):
             current_scene_title = lines[0].lstrip("#").strip()
@@ -214,7 +242,12 @@ def generate_session_v2_manifest(session_num):
             spoken_words += p_spoken
             narrative_words += (word_count - p_spoken)
             
-            spk_id = identify_speaker_id(p)
+            spk_id = identify_speaker_id(p, prev_spk_id)
+            if spk_id != "narrator":
+                prev_spk_id = spk_id
+            else:
+                prev_spk_id = None
+
             speaker_word_counts[spk_id] += word_count
             
             b_id = f"uneraseable_s{session_num:02d}_b{block_idx:03d}"

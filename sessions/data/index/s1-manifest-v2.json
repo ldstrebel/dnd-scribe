@@ -43,11 +43,35 @@
       "color": "#10b981",
       "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
     },
+    "theodore": {
+      "name": "Theodore (Teddy)",
+      "type": "npc",
+      "color": "#d97706",
+      "role": "Caretaker of The Margin \u00b7 1846 Surveyor"
+    },
     "fates": {
       "name": "The Three Fates",
       "type": "npc",
       "color": "#a855f7",
       "role": "Cosmic Loom Weavers"
+    },
+    "beast": {
+      "name": "Shadow Beast",
+      "type": "npc",
+      "color": "#e11d48",
+      "role": "Planar Sphinx \u00b7 Ink Creature"
+    },
+    "anchor": {
+      "name": "News Anchor",
+      "type": "npc",
+      "color": "#64748b",
+      "role": "Highway Radio Broadcaster"
+    },
+    "passenger": {
+      "name": "Bus Passenger",
+      "type": "npc",
+      "color": "#71717a",
+      "role": "Greyhound Transit Commuter"
     }
   },
   "stats": {
@@ -66,8 +90,8 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 3061,
-        "sharePct": 72.9
+        "words": 2897,
+        "sharePct": 69.0
       },
       {
         "id": "pierre",
@@ -94,15 +118,43 @@
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 140,
-        "sharePct": 3.3
+        "words": 176,
+        "sharePct": 4.2
       },
       {
         "id": "fates",
         "name": "The Three Fates",
         "color": "#a855f7",
-        "words": 104,
-        "sharePct": 2.5
+        "words": 115,
+        "sharePct": 2.7
+      },
+      {
+        "id": "anchor",
+        "name": "News Anchor",
+        "color": "#64748b",
+        "words": 49,
+        "sharePct": 1.2
+      },
+      {
+        "id": "beast",
+        "name": "Shadow Beast",
+        "color": "#e11d48",
+        "words": 37,
+        "sharePct": 0.9
+      },
+      {
+        "id": "theodore",
+        "name": "Theodore (Teddy)",
+        "color": "#d97706",
+        "words": 21,
+        "sharePct": 0.5
+      },
+      {
+        "id": "passenger",
+        "name": "Bus Passenger",
+        "color": "#71717a",
+        "words": 10,
+        "sharePct": 0.2
       }
     ],
     "writingMetrics": {
@@ -233,7 +285,7 @@
       "id": "uneraseable_s01_b005",
       "index": 5,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "narrator",
+      "speakerId": "anchor",
       "text": "\"...sweltering heat and high desert winds continue to break records across the Southwest,\" the news anchor\u2019s monotone voice buzzed through the speaker. \"In national news, authorities confirm that the commercial flight bound for the capital has landed safely outside D.C. We turn now to our field reporter\u2014\""
     },
     {
@@ -268,7 +320,7 @@
       "id": "uneraseable_s01_b010",
       "index": 10,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "narrator",
+      "speakerId": "passenger",
       "text": "\"Hold on!\" someone shouted over the screech of twisting steel."
     },
     {
@@ -359,7 +411,7 @@
       "id": "uneraseable_s01_b023",
       "index": 23,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "narrator",
+      "speakerId": "fates",
       "text": "\"Ah, you're early,\" the first murmured, her voice like grinding millstones."
     },
     {
@@ -688,7 +740,7 @@
       "id": "uneraseable_s01_b070",
       "index": 70,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "narrator",
+      "speakerId": "beast",
       "text": "\"Then come with us...\" it rasped, gesturing toward the swirling black rift. \"We do not need to harm you. Come with us through the rift.\""
     },
     {
@@ -702,7 +754,7 @@
       "id": "uneraseable_s01_b072",
       "index": 72,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "narrator",
+      "speakerId": "beast",
       "text": "\"It will take you where you need to go...\" the beast purred."
     },
     {
@@ -1136,7 +1188,7 @@
       "id": "uneraseable_s01_b134",
       "index": 134,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "narrator",
+      "speakerId": "alfie",
       "text": "\"I'm four feet below you, mate!\" a sharp, raspy Cockney voice piped up from the grass. \"Somebody's got to pick me up if you're trying to talk to me!\""
     },
     {
@@ -1262,7 +1314,7 @@
       "id": "uneraseable_s01_b152",
       "index": 152,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "narrator",
+      "speakerId": "alfie",
       "text": "\"A ride would be grand. Thanks, mate.\""
     },
     {
@@ -1283,7 +1335,7 @@
       "id": "uneraseable_s01_b155",
       "index": 155,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "\"Huh? No way,\" the man said, raising a hand in greeting. \"What's up? Welcome to the Margin. What edit killed you?\""
     },
     {
