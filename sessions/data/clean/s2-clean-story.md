@@ -144,7 +144,7 @@ Eusacles grinned, a reckless spark returning to his eyes. "A museum heist? To st
 <!-- RAW_RANGE: [1141, 1270] | SCENE_ID: 7 -->
 ## CHAPTER 19: THE FARM TRUCK & THE LOST ROADS
 
-Before dawn broke over the Appalachian ridges, the party gathered behind the settlement's timber barn. Parked beside a stack of weathered firewood was an ancient, rusted 1978 Ford farm truck. Its green paint was oxidized and chipped, but its heavy V8 engine hummed with a deep, steady rumble. <!-- L1161 -->
+Before dawn broke over the Appalachian ridges, the party gathered behind the settlement's timber barn. Parked beside a stack of weathered firewood was an ancient, rusted 1978 farm farm truck. Its green paint was oxidized and chipped, but its heavy V8 engine hummed with a deep, steady rumble. <!-- L1161 -->
 
 "To leave the Margin," Teddy explained, tossing the keys to Eusacles, "you can't just drive down highway ninety-five. You have to navigate the Lost Roads—the abandoned bypasses and historical routes that were decommissioned when modern interstates were built." <!-- L1177 -->
 
@@ -165,7 +165,7 @@ Eusacles threw the truck into gear with a satisfying mechanical clunk. "Let's go
 <!-- RAW_RANGE: [1271, 1400] | SCENE_ID: 8 -->
 ## CHAPTER 20: THE NEON MIRAGE IN THE MIST
 
-The Ford truck rumbled through the dense mist of the Lost Roads for hours. Outside the cab windows, reality flickered between rolling Appalachian ridges, vast prairies, and stretches of dark, timeless forest that matched no known American highway. <!-- L1273 -->
+The farm truck rumbled through the dense mist of the Lost Roads for hours. Outside the cab windows, reality flickered between rolling Appalachian ridges, vast prairies, and stretches of dark, timeless forest that matched no known American highway. <!-- L1273 -->
 
 Pierre sat in the middle of the bench seat with Alfie perched on the dashboard, peering through the sweeping windshield wipers. "This truck is remarkable. It does not seem to care which decade we are driving through." <!-- L1281 -->
 
@@ -221,7 +221,7 @@ Outside, Alfie scrambled up the side of the metal pole and swiftly snipped the w
 
 Pierre sprinted back to the truck, clambering into the passenger seat and slamming the door. "Eusacles! Drive! We must go now!" <!-- L1538 -->
 
-Eusacles hit the ignition, the V8 roaring to life with a satisfying growl. He dropped the clutch and the Ford peeled out of the gas station lot, throwing gravel into the night. <!-- L1553 -->
+Eusacles hit the ignition, the V8 roaring to life with a satisfying growl. He dropped the clutch and the farm peeled out of the gas station lot, throwing gravel into the night. <!-- L1553 -->
 
 "What happened in there?" Dravin asked, turning around from the front seat. <!-- L1561 -->
 

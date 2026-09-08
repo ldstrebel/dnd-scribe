@@ -9,7 +9,7 @@
   "session": {
     "id": "s1",
     "number": 1,
-    "title": "THE BUS FROM VEGAS & THE LIBRARY OF THE FATES",
+    "title": "Session 1",
     "synopsis": "Displaced from a Vegas Greyhound bus into dimensional freefall, four strangers awaken in the Library of the Fates, fending off planar ink beasts before stumbling into the haven of The Margin."
   },
   "characters": {
@@ -75,14 +75,14 @@
     }
   },
   "stats": {
-    "wordCount": 4208,
+    "wordCount": 4141,
     "estimatedReadMinutes": 17,
-    "estimatedBookPages": 16.8,
+    "estimatedBookPages": 16.6,
     "dialogueRatio": {
-      "spokenWords": 725,
-      "narrativeWords": 3483,
-      "spokenPct": 17.2,
-      "narrativePct": 82.8,
+      "spokenWords": 732,
+      "narrativeWords": 3409,
+      "spokenPct": 17.7,
+      "narrativePct": 82.3,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -90,42 +90,42 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 2903,
-        "sharePct": 69.0
+        "words": 2886,
+        "sharePct": 69.7
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 449,
+        "words": 445,
         "sharePct": 10.7
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 239,
-        "sharePct": 5.7
+        "words": 249,
+        "sharePct": 6.0
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
         "words": 216,
-        "sharePct": 5.1
-      },
-      {
-        "id": "alfie",
-        "name": "Alfie",
-        "color": "#10b981",
-        "words": 169,
-        "sharePct": 4.0
+        "sharePct": 5.2
       },
       {
         "id": "fates",
         "name": "The Three Fates",
         "color": "#a855f7",
         "words": 115,
+        "sharePct": 2.8
+      },
+      {
+        "id": "alfie",
+        "name": "Alfie",
+        "color": "#10b981",
+        "words": 113,
         "sharePct": 2.7
       },
       {
@@ -158,14 +158,14 @@
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 7.2,
+      "pacingStdDev": 7.1,
       "pacingDynamic": true,
       "sensoryRegisters": {
         "visual": 30,
-        "auditory": 13,
+        "auditory": 12,
         "tactile": 28,
         "olfactory": 11,
-        "atmospheric": 18,
+        "atmospheric": 17,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -200,13 +200,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "17.2% Spoken / 82.8% Narrative Action",
+          "chosenStance": "17.7% Spoken / 82.3% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~135 words/scene)",
+          "chosenStance": "Micro-Chapters (~133 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -355,8 +355,8 @@
       "id": "uneraseable_s01_b015",
       "index": 15,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "narrator",
-      "text": "Pierre gasped as the floor dropped away beneath his sneakers, his breath stolen by the roaring void."
+      "speakerId": "pierre",
+      "text": "\"Wow...\" Pierre breathed softly into the void."
     },
     {
       "id": "uneraseable_s01_b016",
@@ -664,7 +664,7 @@
       "index": 59,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
       "speakerId": "narrator",
-      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the invocation rose naturally to his lips like an instinct he had never practiced."
+      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the cadence rose naturally to his lips like an old lecture."
     },
     {
       "id": "uneraseable_s01_b060",
@@ -803,22 +803,22 @@
       "id": "uneraseable_s01_b079",
       "index": 79,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "alfie",
-      "text": "The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow. \"Watch yer flanks, mates!\" Alfie piped, skittering backward to create space."
+      "speakerId": "narrator",
+      "text": "The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow."
     },
     {
       "id": "uneraseable_s01_b080",
       "index": 80,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "narrator",
-      "text": "Stepping into the breach to cover the doll's retreat, Dravin reached into his tweed pocket with sudden resolve. An instinctive hum of necrotic resonance buzzed in his ears, prompting him to invoke the knell of the grave."
+      "speakerId": "dravin",
+      "text": "\"Toll the dead!\" Dravin\u2019s voice echoed through the colonnade."
     },
     {
       "id": "uneraseable_s01_b081",
       "index": 81,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
       "speakerId": "narrator",
-      "text": "The professor pulled a tarnished silver bell from his pocket and shook it vigorously toward the ink beasts, attempting to ring out the deathly toll. But whatever celestial chime was meant to resonate remained muffled\u2014a stray piece of pocket lint was lodged deep inside the bell\u2019s clapper, producing only a dull, pathetic thud."
+      "text": "The professor pulled a tarnished silver bell from his tweed pocket and shook it vigorously toward the ink beasts. But whatever celestial chime was meant to resonate remained muffled\u2014a stray piece of pocket lint was lodged deep inside the bell\u2019s clapper, producing only a dull, pathetic thud."
     },
     {
       "id": "uneraseable_s01_b082",
@@ -1168,7 +1168,7 @@
       "index": 131,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "pierre",
-      "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Paris.\""
+      "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Brittany.\""
     },
     {
       "id": "uneraseable_s01_b132",
@@ -1224,7 +1224,7 @@
       "index": 139,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "narrator",
-      "text": "With a sharp click, the doll sprang back to consciousness, frantically swinging its needle rapier in defensive arcs at the surrounding crabgrass like a miniature lawnmower before realizing no monster was attacking."
+      "text": "With a sharp click, the doll sprang back to life, immediately swinging its tiny needle wildly at the tall stalks of crabgrass like a miniature lawnmower."
     },
     {
       "id": "uneraseable_s01_b140",
@@ -1273,7 +1273,7 @@
       "index": 146,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "pierre",
-      "text": "Seeing the little puppet still panting in the grass from his frantic revival, Pierre knelt down beside him and gently extended an open hand. \"Would you like a ride?\""
+      "text": "Pierre knelt and gently offered his open hand to the swinging driftwood doll. \"Would you like a ride?\""
     },
     {
       "id": "uneraseable_s01_b147",
@@ -1314,26 +1314,33 @@
       "id": "uneraseable_s01_b152",
       "index": 152,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "narrator",
-      "text": "Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*."
+      "speakerId": "alfie",
+      "text": "\"A ride would be grand. Thanks, mate.\""
     },
     {
       "id": "uneraseable_s01_b153",
       "index": 153,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
-      "text": "Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. As the party approached, the man turned, looking up with an easy smirk."
+      "text": "Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*."
     },
     {
       "id": "uneraseable_s01_b154",
       "index": 154,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "theodore",
-      "text": "\"Huh? No way,\" the man said, raising a hand in greeting. \"What's up? Welcome to the Margin. What edit killed you?\""
+      "speakerId": "narrator",
+      "text": "Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. As the party approached, the man turned, looking up with an easy smirk."
     },
     {
       "id": "uneraseable_s01_b155",
       "index": 155,
+      "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
+      "speakerId": "theodore",
+      "text": "\"Huh? No way,\" the man said, raising a hand in greeting. \"What's up? Welcome to the Margin. What edit killed you?\""
+    },
+    {
+      "id": "uneraseable_s01_b156",
+      "index": 156,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
       "text": "Overhead, the creaking sign swung softly in the mountain breeze, and the campfire cast long, flickering shadows into the night."

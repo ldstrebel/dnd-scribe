@@ -1,12 +1,3 @@
----
-title: "THE BUS FROM VEGAS & THE LIBRARY OF THE FATES"
-author: "The Margin Table"
-campaign: "The Margin (GM: Luke Foreman)"
-genre: "Urban Fantasy, Mythic Fantasy, Greek Mythology, Tabletop RPG Novelization"
----
-
-# THE BUS FROM VEGAS & THE LIBRARY OF THE FATES
-
 ## CHAPTER 1: THE DESERT TRANSIT
 
 The air conditioning inside the transit bus had died somewhere between the outskirts of Henderson and the endless, baking flats of the Nevada desert. 
@@ -37,15 +28,15 @@ Slam.
 
 Before anyone could scream, a blinding explosion of searing heat and white light detonated across the windows. The walls of the bus dissolved into radiant phosphor. The screams, the roaring engine, and the scent of burning rubber were swallowed by absolute, ringing silence.
 
-Pierre gasped as the floor dropped away beneath his sneakers, his breath stolen by the roaring void. 
+"Wow..." Pierre breathed softly into the void. 
 
 And then, the light consumed everything.
 
 ## CHAPTER 2: THE LIBRARY OF THE FATES
 
-The blinding glare did not fade so much as it crystallized into cool, morning light.
+The blinding glare did not fade so much as it crystallized into cool, morning light. 
 
-Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel and scorching desert rubber was completely gone, replaced by the faint, earthy scent of ancient parchment, pressed olives, and sun-warmed stone.
+Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel and scorching desert rubber was completely gone, replaced by the faint, earthy scent of ancient parchment, pressed olives, and sun-warmed stone. 
 
 He was sitting on polished marble flagstones. Surrounding him was an enormous, open-air colonnade of fluted Doric pillars rising beneath an open sky. Colossal towering cedar shelves lined the perimeter, groaning under the weight of countless leather-bound codices, clay tablets, and unfurled papyrus scrolls. 
 
@@ -55,27 +46,27 @@ Draped in heavy, undyed linen that seemed to drift without a breeze, their wrink
 
 The three turned their milky, unblinking eyes toward the bewildered newcomers.
 
-"Ah, you're early," the first murmured, her voice like grinding millstones. 
+"Ah, you're early," the first murmured, her voice like grinding millstones.
 
-"Oh no," the second chimed in, head tilting at an unnatural angle. "You're late." 
+"Oh no," the second chimed in, head tilting at an unnatural angle. "You're late."
 
-"Come closer," whispered the third. "Come closer... This is interesting." 
+"Come closer," whispered the third. "Come closer... This is interesting."
 
-Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. Beneath the woolen cap, his hair sat strangely—a subtle, wild irregularity that seemed almost to twitch if one stared too closely.   
+Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. Beneath the woolen cap, his hair sat strangely—a subtle, wild irregularity that seemed almost to twitch if one stared too closely. 
 
-He glanced cautiously to his right. A tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. Pierre decided immediately that he did not like the look of this muscular stranger, and deliberately pivoted toward the man on his left.  
+He glanced cautiously to his right. A tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. Pierre decided immediately that he did not like the look of this muscular stranger, and deliberately pivoted toward the man on his left. 
 
 "So..." Pierre asked, his voice wavering with a nervous French lilt, "is this normal for buses in America to do this type of thing?" 
 
 The man on his left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy. 
 
-"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this."  
+"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this." 
 
-"A professor..." Pierre echoed, eyes darting from Dravin's manic grin back to the three looming crones. "So you are telling me you know what this is?" 
+"A professor..." Pierre echoed, eyes darting from Dravin's manic grin back to the three looming crones. "So you are telling me you know what this is?"
 
-Across the tiles, Eusacles rolled his shoulders, his jaw tight as he took in the marble columns, the ancient scrolls, and the eccentric academic already admiring the architecture. Eusacles shook his head in pure exasperation.  
+Across the tiles, Eusacles rolled his shoulders, his jaw tight as he took in the marble columns, the ancient scrolls, and the eccentric academic already admiring the architecture. Eusacles shook his head in pure exasperation.
 
-"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, staring flatly at the two nerds standing beside him. "What about any of this seems normal to you?"  
+"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, staring flatly at the two nerds standing beside him. "What about any of this seems normal to you?" 
 
 ## CHAPTER 3: THE PLANAR RIFT
 
@@ -91,9 +82,9 @@ The horned fiend locked its yellowed eyes upon the mortals, baring jagged, needl
 
 Behind the party, the rhythmic spinning of the loom suddenly hitched. 
 
-"This again?" one of the Fates snapped, her ancient fingers knotting silver thread in furious agitation. 
+"This again?" one of the Fates snapped, her ancient fingers knotting silver thread in furious agitation.
 
-"Not again!" cried the second. "What is going on?" 
+"Not again!" cried the second. "What is going on?"
 
 Rather than standing to fight, the three sisters bent over their work in frantic unison. Their hands flew in an impossible blur, weaving threads, bleached wood splinters, and scraps of woven fabric into a tight bundle. 
 
@@ -109,7 +100,7 @@ Dravin squinted at the object. "I see the horned fiend... but yes, there appears
 
 Eusacles took a step forward, his brow furrowing as he looked down at the bundle. "It looks like a messed-up Pinocchio doll. Like a Captain Hook puppet with a sewing needle." 
 
-Lying motionless on the cold stone was an unknown named doll less than a foot tall. Its torso and limbs were carved from weathered, salt-bleached driftwood, held together by frayed sailcloth canvas. Two mismatched buttons carved from polished sea shells and pink coral were stitched across its chest. Atop its head, matted strands of dried green kelp and hemp twine mimicked hair. In its right hand, it clutched a gleaming sewing needle ground down into a razor-sharp rapier; its left arm ended in a curved, wicked steel fishing hook.  
+Lying motionless on the cold stone was an unknown named doll less than a foot tall. Its torso and limbs were carved from weathered, salt-bleached driftwood, held together by frayed sailcloth canvas. Two mismatched buttons carved from polished sea shells and pink coral were stitched across its chest. Atop its head, matted strands of dried green kelp and hemp twine mimicked hair. In its right hand, it clutched a gleaming sewing needle ground down into a razor-sharp rapier; its left arm ended in a curved, wicked steel fishing hook. 
 
 It lay completely still, staring blankly up at the vaulted ceiling.
 
@@ -131,7 +122,7 @@ He stepped forward and brought the morningstar down in a vicious overhead arc. B
 
 "Damn it!" Eusacles grunted, wrenching the weapon free. 
 
-Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the invocation rose naturally to his lips like an instinct he had never practiced. 
+Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the cadence rose naturally to his lips like an old lecture. 
 
 "Chill Touch!" Dravin commanded. 
 
@@ -175,11 +166,11 @@ The unknown named doll snapped bolt upright. Its shell-and-coral eyes clicked op
 
 It charged straight across the flagstones, its little wooden joints clicking like castanets as it sprinted full tilt toward the injured ink blob, aiming its needle squarely for where an eye ought to be. 
 
-The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow. "Watch yer flanks, mates!" Alfie piped, skittering backward to create space. 
+The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow. 
 
-Stepping into the breach to cover the doll's retreat, Dravin reached into his tweed pocket with sudden resolve. An instinctive hum of necrotic resonance buzzed in his ears, prompting him to invoke the knell of the grave. 
+"Toll the dead!" Dravin’s voice echoed through the colonnade. 
 
-The professor pulled a tarnished silver bell from his pocket and shook it vigorously toward the ink beasts, attempting to ring out the deathly toll. But whatever celestial chime was meant to resonate remained muffled—a stray piece of pocket lint was lodged deep inside the bell’s clapper, producing only a dull, pathetic thud. 
+The professor pulled a tarnished silver bell from his tweed pocket and shook it vigorously toward the ink beasts. But whatever celestial chime was meant to resonate remained muffled—a stray piece of pocket lint was lodged deep inside the bell’s clapper, producing only a dull, pathetic thud. 
 
 Eusacles rolled his eyes from where he leaned against the pillar. "Oh, god no..." 
 
@@ -287,7 +278,7 @@ Pierre tilted his head. "Can you remind me... is a mile one kilometer or two? Be
 
 "About two hundred kilometers," Dravin answered with academic precision. 
 
-"Oh," Pierre muttered, blinking. "Like Versailles to Paris." 
+"Oh," Pierre muttered, blinking. "Like Versailles to Brittany." 
 
 "Two hundred kilometers..." Eusacles repeated, his voice climbing in disbelief. "That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!" 
 
@@ -305,7 +296,7 @@ Before Eusacles could recoil, the doll suddenly went limp, toppling sideways int
 
 Dravin immediately leaned down, tapping the wooden chest with gentle medical sternum rubs. "Come on back now, buddy..." 
 
-With a sharp click, the doll sprang back to consciousness, frantically swinging its needle rapier in defensive arcs at the surrounding crabgrass like a miniature lawnmower before realizing no monster was attacking. 
+With a sharp click, the doll sprang back to life, immediately swinging its tiny needle wildly at the tall stalks of crabgrass like a miniature lawnmower. 
 
 "You're half-bloods, right?" Eusacles asked, staring between Dravin and Pierre. "Like, you're half-bloods too?" 
 
@@ -319,7 +310,7 @@ A distant sound cut through the crickets—a faint, echoing chuckle carried on t
 
 "Did you hear that?" Eusacles whispered. 
 
-Seeing the little puppet still panting in the grass from his frantic revival, Pierre knelt down beside him and gently extended an open hand. "Would you like a ride?" 
+Pierre knelt and gently offered his open hand to the swinging driftwood doll. "Would you like a ride?" 
 
 The doll stopped swiping at the grass and looked up at Pierre with its coral eyes. "A ride would be grand. Thanks, mate." 
 
@@ -332,6 +323,8 @@ Pierre carefully placed the doll on his shoulder, letting its driftwood legs set
 "Half-blood? Yeah, I think I've heard of that before," the doll replied thoughtfully, adjusting its needle rapier. "Last time I knew where I was, me mates and me were on a ship, sailing through dark, scary waters like this. And now I'm a puppet." 
 
 "They say Mount Olympus moved to America, you know," Pierre mused. "Maybe America is more magical." 
+
+"A ride would be grand. Thanks, mate." 
 
 Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*. 
 
