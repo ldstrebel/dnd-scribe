@@ -155,9 +155,9 @@ He stepped forward and brought the morningstar down in a vicious overhead arc. B
 
 "Damn it!" Eusacles grunted, wrenching the weapon free. <!-- L1140 -->
 
-Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the cadence, but an unbidden, ancient syllable rose instinctively to his throat—a resonant funerary inflection dredged from some forgotten classical text. <!-- L1145 -->
+Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the invocation rose naturally to his lips like an instinct he had never practiced. <!-- L1145 -->
 
-Necrotic frost crackled across his knuckles, answering the somatic reflex before he could even comprehend the magic. <!-- L1150 -->
+"Chill Touch!" Dravin commanded. <!-- L1150 -->
 
 Beneath the ink blob, the marble floor fractured with a pale, frost-bitten glow. A spectral, skeletal hand formed from white mist erupted from the stone seams, its bony fingers clamping shut around the ink creature. The creature let out a high-pitched, wet shriek as necrotic frost burned through its viscous form, dragging it halfway down into the floor. <!-- L1200 -->
 
@@ -329,7 +329,7 @@ Pierre tilted his head. "Can you remind me... is a mile one kilometer or two? Be
 
 "About two hundred kilometers," Dravin answered with academic precision. <!-- L1930 -->
 
-"Oh," Pierre muttered, blinking as he calculated French geography. "Like Paris to Le Mans... or halfway across the province." <!-- L1940 -->
+"Oh," Pierre muttered, blinking. "Like Versailles to Paris." <!-- L1940 -->
 
 "Two hundred kilometers..." Eusacles repeated, his voice climbing in disbelief. "That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!" <!-- L1956 -->
 

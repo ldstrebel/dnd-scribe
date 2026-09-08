@@ -51,12 +51,12 @@
     }
   },
   "stats": {
-    "wordCount": 4227,
+    "wordCount": 4198,
     "estimatedReadMinutes": 17,
-    "estimatedBookPages": 16.9,
+    "estimatedBookPages": 16.8,
     "dialogueRatio": {
-      "spokenWords": 736,
-      "narrativeWords": 3491,
+      "spokenWords": 732,
+      "narrativeWords": 3466,
       "spokenPct": 17.4,
       "narrativePct": 82.6,
       "status": "BALANCED"
@@ -66,22 +66,22 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 3083,
+        "words": 3061,
         "sharePct": 72.9
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 449,
-        "sharePct": 10.6
+        "words": 438,
+        "sharePct": 10.4
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 235,
-        "sharePct": 5.6
+        "words": 239,
+        "sharePct": 5.7
       },
       {
         "id": "eusacles",
@@ -111,7 +111,7 @@
       "sensoryRegisters": {
         "visual": 30,
         "auditory": 13,
-        "tactile": 29,
+        "tactile": 28,
         "olfactory": 11,
         "atmospheric": 18,
         "registersCovered": 5
@@ -536,14 +536,14 @@
       "index": 59,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
       "speakerId": "narrator",
-      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the cadence, but an unbidden, ancient syllable rose instinctively to his throat\u2014a resonant funerary inflection dredged from some forgotten classical text."
+      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the invocation rose naturally to his lips like an instinct he had never practiced."
     },
     {
       "id": "uneraseable_s01_b060",
       "index": 60,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "narrator",
-      "text": "Necrotic frost crackled across his knuckles, answering the somatic reflex before he could even comprehend the magic."
+      "speakerId": "dravin",
+      "text": "\"Chill Touch!\" Dravin commanded."
     },
     {
       "id": "uneraseable_s01_b061",
@@ -1040,7 +1040,7 @@
       "index": 131,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "pierre",
-      "text": "\"Oh,\" Pierre muttered, blinking as he calculated French geography. \"Like Paris to Le Mans... or halfway across the province.\""
+      "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Paris.\""
     },
     {
       "id": "uneraseable_s01_b132",
