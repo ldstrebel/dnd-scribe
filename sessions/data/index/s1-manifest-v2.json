@@ -75,14 +75,14 @@
     }
   },
   "stats": {
-    "wordCount": 4141,
+    "wordCount": 4050,
     "estimatedReadMinutes": 17,
-    "estimatedBookPages": 16.6,
+    "estimatedBookPages": 16.2,
     "dialogueRatio": {
-      "spokenWords": 732,
-      "narrativeWords": 3409,
-      "spokenPct": 17.7,
-      "narrativePct": 82.3,
+      "spokenWords": 722,
+      "narrativeWords": 3328,
+      "spokenPct": 17.8,
+      "narrativePct": 82.2,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -90,29 +90,29 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 2886,
-        "sharePct": 69.7
+        "words": 2788,
+        "sharePct": 68.8
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 445,
-        "sharePct": 10.7
+        "words": 448,
+        "sharePct": 11.1
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
         "words": 249,
-        "sharePct": 6.0
+        "sharePct": 6.1
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
-        "words": 216,
-        "sharePct": 5.2
+        "words": 220,
+        "sharePct": 5.4
       },
       {
         "id": "fates",
@@ -126,7 +126,7 @@
         "name": "Alfie",
         "color": "#10b981",
         "words": 113,
-        "sharePct": 2.7
+        "sharePct": 2.8
       },
       {
         "id": "anchor",
@@ -200,13 +200,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "17.7% Spoken / 82.3% Narrative Action",
+          "chosenStance": "17.8% Spoken / 82.2% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~133 words/scene)",
+          "chosenStance": "Micro-Chapters (~135 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -433,914 +433,893 @@
       "index": 26,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
       "speakerId": "narrator",
-      "text": "Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. Beneath the woolen cap, his hair sat strangely\u2014a subtle, wild irregularity that seemed almost to twitch if one stared too closely."
+      "text": "The man on Pierre's left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy."
     },
     {
       "id": "uneraseable_s01_b027",
       "index": 27,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "narrator",
-      "text": "He glanced cautiously to his right. A tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. Pierre decided immediately that he did not like the look of this muscular stranger, and deliberately pivoted toward the man on his left."
+      "speakerId": "dravin",
+      "text": "\"I am Edward,\" the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. \"Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this.\""
     },
     {
       "id": "uneraseable_s01_b028",
       "index": 28,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
       "speakerId": "pierre",
-      "text": "\"So...\" Pierre asked, his voice wavering with a nervous French lilt, \"is this normal for buses in America to do this type of thing?\""
+      "text": "Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. \"A professor...\" Pierre echoed, his voice wavering with a nervous French lilt. \"So it is like I am a young student and you are the professor?\""
     },
     {
       "id": "uneraseable_s01_b029",
       "index": 29,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
       "speakerId": "narrator",
-      "text": "The man on his left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy."
+      "text": "Across the tiles, a tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. He rolled his shoulders, staring flatly at the two nerds beside him."
     },
     {
       "id": "uneraseable_s01_b030",
       "index": 30,
       "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "dravin",
-      "text": "\"I am Edward,\" the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. \"Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this.\""
+      "speakerId": "eusacles",
+      "text": "\"I was literally on my way to Vegas just to gamble and have a good time,\" Eusacles muttered, his jaw tight as he took in the ancient scrolls and marble columns. \"What about any of this seems normal to you?\""
     },
     {
       "id": "uneraseable_s01_b031",
       "index": 31,
-      "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "pierre",
-      "text": "\"A professor...\" Pierre echoed, eyes darting from Dravin's manic grin back to the three looming crones. \"So you are telling me you know what this is?\""
+      "scene": "CHAPTER 3: THE PLANAR RIFT",
+      "speakerId": "narrator",
+      "text": "Before Dravin could launch into an impromptu lecture on Hellenistic masonry, the air behind the colonnade warped with a sound like tearing silk."
     },
     {
       "id": "uneraseable_s01_b032",
       "index": 32,
-      "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
+      "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "Across the tiles, Eusacles rolled his shoulders, his jaw tight as he took in the marble columns, the ancient scrolls, and the eccentric academic already admiring the architecture. Eusacles shook his head in pure exasperation."
+      "text": "A vertical fracture split the space ten paces to the party's left. Violet and obsidian sparks hissed from the tear, bleeding viscous, pitch-black liquid into the air."
     },
     {
       "id": "uneraseable_s01_b033",
       "index": 33,
-      "scene": "CHAPTER 2: THE LIBRARY OF THE FATES",
-      "speakerId": "eusacles",
-      "text": "\"I was literally on my way to Vegas just to gamble and have a good time,\" Eusacles muttered, staring flatly at the two nerds standing beside him. \"What about any of this seems normal to you?\""
+      "scene": "CHAPTER 3: THE PLANAR RIFT",
+      "speakerId": "narrator",
+      "text": "With a guttural snarl, a creature sprang through the rift."
     },
     {
       "id": "uneraseable_s01_b034",
       "index": 34,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "Before Dravin could launch into an impromptu lecture on Hellenistic masonry, the air behind the colonnade warped with a sound like tearing silk."
+      "text": "It landed on all fours upon the pristine marble, its goat-like cloven hooves clicking loudly. Curved, ridged horns jutted from its brow, and intricate tribal markings writhed across its dark hide. Thick, tar-like ink oozed continuously from its shoulders and legs, sizzling wherever it dripped. As the heavy droplets struck the marble floor, one puddle bubbled upward, expanding and taking shape\u2014a gelatinous, living blob of sentient ink that pulsed with malicious hunger."
     },
     {
       "id": "uneraseable_s01_b035",
       "index": 35,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "A vertical fracture split the space ten paces to the party's left. Violet and obsidian sparks hissed from the tear, bleeding viscous, pitch-black liquid into the air."
+      "text": "The horned fiend locked its yellowed eyes upon the mortals, baring jagged, needle-thin teeth."
     },
     {
       "id": "uneraseable_s01_b036",
       "index": 36,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "With a guttural snarl, a creature sprang through the rift."
+      "text": "Behind the party, the rhythmic spinning of the loom suddenly hitched."
     },
     {
       "id": "uneraseable_s01_b037",
       "index": 37,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "narrator",
-      "text": "It landed on all fours upon the pristine marble, its goat-like cloven hooves clicking loudly. Curved, ridged horns jutted from its brow, and intricate tribal markings writhed across its dark hide. Thick, tar-like ink oozed continuously from its shoulders and legs, sizzling wherever it dripped. As the heavy droplets struck the marble floor, one puddle bubbled upward, expanding and taking shape\u2014a gelatinous, living blob of sentient ink that pulsed with malicious hunger."
+      "speakerId": "fates",
+      "text": "\"This again?\" one of the Fates snapped, her ancient fingers knotting silver thread in furious agitation."
     },
     {
       "id": "uneraseable_s01_b038",
       "index": 38,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "narrator",
-      "text": "The horned fiend locked its yellowed eyes upon the mortals, baring jagged, needle-thin teeth."
+      "speakerId": "fates",
+      "text": "\"Not again!\" cried the second. \"What is going on?\""
     },
     {
       "id": "uneraseable_s01_b039",
       "index": 39,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "Behind the party, the rhythmic spinning of the loom suddenly hitched."
+      "text": "Rather than standing to fight, the three sisters bent over their work in frantic unison. Their hands flew in an impossible blur, weaving threads, bleached wood splinters, and scraps of woven fabric into a tight bundle."
     },
     {
       "id": "uneraseable_s01_b040",
       "index": 40,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "fates",
-      "text": "\"This again?\" one of the Fates snapped, her ancient fingers knotting silver thread in furious agitation."
+      "text": "\"This will help!\" the eldest rasped, drawing back her arm. \"This will help! Hold them off\u2014just hold them off a little longer!\""
     },
     {
       "id": "uneraseable_s01_b041",
       "index": 41,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "fates",
-      "text": "\"Not again!\" cried the second. \"What is going on?\""
+      "speakerId": "narrator",
+      "text": "With surprising strength, she hurled the bundle across the library. It bounced across the flagstones with a dull clatter, tumbling to a halt right between the encroaching ink monsters and the frozen party."
     },
     {
       "id": "uneraseable_s01_b042",
       "index": 42,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "Rather than standing to fight, the three sisters bent over their work in frantic unison. Their hands flew in an impossible blur, weaving threads, bleached wood splinters, and scraps of woven fabric into a tight bundle."
+      "text": "Pierre leaned toward Prof Edward Dravin, peering over the rim of his glasses."
     },
     {
       "id": "uneraseable_s01_b043",
       "index": 43,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "fates",
-      "text": "\"This will help!\" the eldest rasped, drawing back her arm. \"This will help! Hold them off\u2014just hold them off a little longer!\""
+      "speakerId": "pierre",
+      "text": "\"Just trying to understand...\" Pierre whispered, his voice trembling. \"Are you seeing what I am seeing? Are you seeing a little guy with a sword?\""
     },
     {
       "id": "uneraseable_s01_b044",
       "index": 44,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "narrator",
-      "text": "With surprising strength, she hurled the bundle across the library. It bounced across the flagstones with a dull clatter, tumbling to a halt right between the encroaching ink monsters and the frozen party."
+      "speakerId": "dravin",
+      "text": "Dravin squinted at the object. \"I see the horned fiend... but yes, there appears to be a miniature figure on the floor.\""
     },
     {
       "id": "uneraseable_s01_b045",
       "index": 45,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "narrator",
-      "text": "Pierre leaned toward Prof Edward Dravin, peering over the rim of his glasses."
+      "speakerId": "eusacles",
+      "text": "Eusacles took a step forward, his brow furrowing as he looked down at the bundle. \"It looks like a messed-up Pinocchio doll. Like a Captain Hook puppet with a sewing needle.\""
     },
     {
       "id": "uneraseable_s01_b046",
       "index": 46,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "pierre",
-      "text": "\"Just trying to understand...\" Pierre whispered, his voice trembling. \"Are you seeing what I am seeing? Are you seeing a little guy with a sword?\""
+      "speakerId": "narrator",
+      "text": "Lying motionless on the cold stone was an unknown named doll less than a foot tall. Its torso and limbs were carved from weathered, salt-bleached driftwood, held together by frayed sailcloth canvas. Two mismatched buttons carved from polished sea shells and pink coral were stitched across its chest. Atop its head, matted strands of dried green kelp and hemp twine mimicked hair. In its right hand, it clutched a gleaming sewing needle ground down into a razor-sharp rapier; its left arm ended in a curved, wicked steel fishing hook."
     },
     {
       "id": "uneraseable_s01_b047",
       "index": 47,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "dravin",
-      "text": "Dravin squinted at the object. \"I see the horned fiend... but yes, there appears to be a miniature figure on the floor.\""
+      "speakerId": "narrator",
+      "text": "It lay completely still, staring blankly up at the vaulted ceiling."
     },
     {
       "id": "uneraseable_s01_b048",
       "index": 48,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "eusacles",
-      "text": "Eusacles took a step forward, his brow furrowing as he looked down at the bundle. \"It looks like a messed-up Pinocchio doll. Like a Captain Hook puppet with a sewing needle.\""
+      "speakerId": "dravin",
+      "text": "\"Does it look alive to you?\" Dravin asked cautiously. \"Or is it just an object?\""
     },
     {
       "id": "uneraseable_s01_b049",
       "index": 49,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
       "speakerId": "narrator",
-      "text": "Lying motionless on the cold stone was an unknown named doll less than a foot tall. Its torso and limbs were carved from weathered, salt-bleached driftwood, held together by frayed sailcloth canvas. Two mismatched buttons carved from polished sea shells and pink coral were stitched across its chest. Atop its head, matted strands of dried green kelp and hemp twine mimicked hair. In its right hand, it clutched a gleaming sewing needle ground down into a razor-sharp rapier; its left arm ended in a curved, wicked steel fishing hook."
+      "text": "The ink beasts did not wait for an answer. With a low, bubbling hiss, the ink blob surged forward across the marble floor."
     },
     {
       "id": "uneraseable_s01_b050",
       "index": 50,
-      "scene": "CHAPTER 3: THE PLANAR RIFT",
+      "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
       "speakerId": "narrator",
-      "text": "It lay completely still, staring blankly up at the vaulted ceiling."
+      "text": "Adrenaline surged through Eusacles\u2019s veins."
     },
     {
       "id": "uneraseable_s01_b051",
       "index": 51,
-      "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "dravin",
-      "text": "\"Does it look alive to you?\" Dravin asked cautiously. \"Or is it just an object?\""
+      "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
+      "speakerId": "narrator",
+      "text": "As the ink blob slithered forward, an instinctive, ancient reflex sparked deep within his chest. A faint, golden radiance flared around his forearms. Before he could consciously register the phenomenon, the heavy metal band of his wristwatch snapped open. With a sharp metallic chime, the watch unwound, spiraling up his wrist and forearm, expanding into thick, interlocking iron links. By the time it reached his clenched fist, the weight coalesced into a spiked, chain-bound morningstar glowing with latent fury."
     },
     {
       "id": "uneraseable_s01_b052",
       "index": 52,
-      "scene": "CHAPTER 3: THE PLANAR RIFT",
+      "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
       "speakerId": "narrator",
-      "text": "The ink beasts did not wait for an answer. With a low, bubbling hiss, the ink blob surged forward across the marble floor."
+      "text": "Eusacles stared at his armed hand for a split second, a grim grin cutting across his face."
     },
     {
       "id": "uneraseable_s01_b053",
       "index": 53,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "narrator",
-      "text": "Adrenaline surged through Eusacles\u2019s veins."
+      "speakerId": "eusacles",
+      "text": "\"Well, that's dope,\" Eusacles muttered."
     },
     {
       "id": "uneraseable_s01_b054",
       "index": 54,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
       "speakerId": "narrator",
-      "text": "As the ink blob slithered forward, an instinctive, ancient reflex sparked deep within his chest. A faint, golden radiance flared around his forearms. Before he could consciously register the phenomenon, the heavy metal band of his wristwatch snapped open. With a sharp metallic chime, the watch unwound, spiraling up his wrist and forearm, expanding into thick, interlocking iron links. By the time it reached his clenched fist, the weight coalesced into a spiked, chain-bound morningstar glowing with latent fury."
+      "text": "He stepped forward and brought the morningstar down in a vicious overhead arc. But the ink blob was unnervingly amorphous; sensing the blow, it squelched sideways across the polished marble. The heavy spiked head smashed into the flagstones, scattering stone chips and ringing through the colonnade."
     },
     {
       "id": "uneraseable_s01_b055",
       "index": 55,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "narrator",
-      "text": "Eusacles stared at his armed hand for a split second, a grim grin cutting across his face."
+      "speakerId": "eusacles",
+      "text": "\"Damn it!\" Eusacles grunted, wrenching the weapon free."
     },
     {
       "id": "uneraseable_s01_b056",
       "index": 56,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "eusacles",
-      "text": "\"Well, that's dope,\" Eusacles muttered."
+      "speakerId": "narrator",
+      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the cadence rose naturally to his lips like an old lecture."
     },
     {
       "id": "uneraseable_s01_b057",
       "index": 57,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "narrator",
-      "text": "He stepped forward and brought the morningstar down in a vicious overhead arc. But the ink blob was unnervingly amorphous; sensing the blow, it squelched sideways across the polished marble. The heavy spiked head smashed into the flagstones, scattering stone chips and ringing through the colonnade."
+      "speakerId": "dravin",
+      "text": "\"Chill Touch!\" Dravin commanded."
     },
     {
       "id": "uneraseable_s01_b058",
       "index": 58,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "eusacles",
-      "text": "\"Damn it!\" Eusacles grunted, wrenching the weapon free."
+      "speakerId": "narrator",
+      "text": "Beneath the ink blob, the marble floor fractured with a pale, frost-bitten glow. A spectral, skeletal hand formed from white mist erupted from the stone seams, its bony fingers clamping shut around the ink creature. The creature let out a high-pitched, wet shriek as necrotic frost burned through its viscous form, dragging it halfway down into the floor."
     },
     {
       "id": "uneraseable_s01_b059",
       "index": 59,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "narrator",
-      "text": "Behind him, Prof Edward Dravin adjusted his wire-rimmed glasses and thrust his open palm forward. He didn't know how he knew the words, but the cadence rose naturally to his lips like an old lecture."
+      "speakerId": "dravin",
+      "text": "\"Amazing,\" Dravin whispered, admiring the necrotic frost radiating from his fingertips."
     },
     {
       "id": "uneraseable_s01_b060",
       "index": 60,
-      "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "dravin",
-      "text": "\"Chill Touch!\" Dravin commanded."
+      "scene": "CHAPTER 5: SUNDER AND SLUDGE",
+      "speakerId": "narrator",
+      "text": "Before they could celebrate, the larger horned beast bounded past Eusacles with terrifying speed. Lowering its ridged horns, it charged directly at Eusacles's ribs."
     },
     {
       "id": "uneraseable_s01_b061",
       "index": 61,
-      "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
+      "scene": "CHAPTER 5: SUNDER AND SLUDGE",
       "speakerId": "narrator",
-      "text": "Beneath the ink blob, the marble floor fractured with a pale, frost-bitten glow. A spectral, skeletal hand formed from white mist erupted from the stone seams, its bony fingers clamping shut around the ink creature. The creature let out a high-pitched, wet shriek as necrotic frost burned through its viscous form, dragging it halfway down into the floor."
+      "text": "The impact hit with the force of a battering ram. The horns crushed into Eusacles's side, lifting him off his feet and slamming him into the base of a pillar. Caustic black ink splattered across his chest, burning through his shirt like acid."
     },
     {
       "id": "uneraseable_s01_b062",
       "index": 62,
-      "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "dravin",
-      "text": "\"Amazing,\" Dravin whispered, admiring the necrotic frost radiating from his fingertips."
+      "scene": "CHAPTER 5: SUNDER AND SLUDGE",
+      "speakerId": "eusacles",
+      "text": "\"Ugh!\" Eusacles coughed, clutching his bruised ribs as black residue sizzled against his skin."
     },
     {
       "id": "uneraseable_s01_b063",
       "index": 63,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
       "speakerId": "narrator",
-      "text": "Before they could celebrate, the larger horned beast bounded past Eusacles with terrifying speed. Lowering its ridged horns, it charged directly at Eusacles's ribs."
+      "text": "The wounded ink blob struggled free of the frost, sloshing forward to finish him, but its aim was wild, leaving only a puddle of acidic black sludge near Eusacles's boots."
     },
     {
       "id": "uneraseable_s01_b064",
       "index": 64,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
       "speakerId": "narrator",
-      "text": "The impact hit with the force of a battering ram. The horns crushed into Eusacles's side, lifting him off his feet and slamming him into the base of a pillar. Caustic black ink splattered across his chest, burning through his shirt like acid."
+      "text": "Near the back of the chamber, Pierre took one look at the gore, the horns, and the glowing weapons, and threw his hands up in immediate surrender."
     },
     {
       "id": "uneraseable_s01_b065",
       "index": 65,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "eusacles",
-      "text": "\"Ugh!\" Eusacles coughed, clutching his bruised ribs as black residue sizzled against his skin."
+      "speakerId": "pierre",
+      "text": "\"Hello! Hello!\" Pierre called out in his rapid, lilting French accent, taking slow, deliberate steps backward toward the safety of the library stacks. \"I think there must be a misunderstanding or something here! I have nothing against anyone here. I am, you know, more a lover than a fighter! Before I left, my mother told me, 'Pierre, do not be hasty, do not make harsh judgments.' So I am just going to step over here, if no one minds!\""
     },
     {
       "id": "uneraseable_s01_b066",
       "index": 66,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
       "speakerId": "narrator",
-      "text": "The wounded ink blob struggled free of the frost, sloshing forward to finish him, but its aim was wild, leaving only a puddle of acidic black sludge near Eusacles's boots."
+      "text": "The horned fiend paused, turning its ridged head toward the nervous boy. Its voice hissed like boiling tar."
     },
     {
       "id": "uneraseable_s01_b067",
       "index": 67,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "narrator",
-      "text": "Near the back of the chamber, Pierre took one look at the gore, the horns, and the glowing weapons, and threw his hands up in immediate surrender."
+      "speakerId": "beast",
+      "text": "\"Then come with us...\" it rasped, gesturing toward the swirling black rift. \"We do not need to harm you. Come with us through the rift.\""
     },
     {
       "id": "uneraseable_s01_b068",
       "index": 68,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
       "speakerId": "pierre",
-      "text": "\"Hello! Hello!\" Pierre called out in his rapid, lilting French accent, taking slow, deliberate steps backward toward the safety of the library stacks. \"I think there must be a misunderstanding or something here! I have nothing against anyone here. I am, you know, more a lover than a fighter! Before I left, my mother told me, 'Pierre, do not be hasty, do not make harsh judgments.' So I am just going to step over here, if no one minds!\""
+      "text": "Pierre stopped, blinking behind his thick lenses. \"Will that... be taking me back to Las Vegas? Because I think I am now in ancient times and I am not exactly sure.\""
     },
     {
       "id": "uneraseable_s01_b069",
       "index": 69,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "narrator",
-      "text": "The horned fiend paused, turning its ridged head toward the nervous boy. Its voice hissed like boiling tar."
+      "speakerId": "beast",
+      "text": "\"It will take you where you need to go...\" the beast purred."
     },
     {
       "id": "uneraseable_s01_b070",
       "index": 70,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "beast",
-      "text": "\"Then come with us...\" it rasped, gesturing toward the swirling black rift. \"We do not need to harm you. Come with us through the rift.\""
+      "speakerId": "pierre",
+      "text": "\"Yes, okay, that sounds very pleasant,\" Pierre said politely, nodding with profound earnestness. He took another step backward, hooking his thumbs under the straps of his rucksack. \"Fates\u2014whom I definitely do not know because I know nothing about anything\u2014I'm just going to go this way instead.\""
     },
     {
       "id": "uneraseable_s01_b071",
       "index": 71,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "pierre",
-      "text": "Pierre stopped, blinking behind his thick lenses. \"Will that... be taking me back to Las Vegas? Because I think I am now in ancient times and I am not exactly sure.\""
+      "speakerId": "narrator",
+      "text": "Without waiting for a reply, Pierre pivoted and ducked cleanly behind a colossal bookshelf, disengaging entirely from the combat."
     },
     {
       "id": "uneraseable_s01_b072",
       "index": 72,
-      "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "beast",
-      "text": "\"It will take you where you need to go...\" the beast purred."
+      "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
+      "speakerId": "narrator",
+      "text": "In the center of the marble floor, the limp, wooden bundle suddenly drew a sharp, violent breath."
     },
     {
       "id": "uneraseable_s01_b073",
       "index": 73,
-      "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "pierre",
-      "text": "\"Yes, okay, that sounds very pleasant,\" Pierre said politely, nodding with profound earnestness. He took another step backward, hooking his thumbs under the straps of his rucksack. \"Fates\u2014whom I definitely do not know because I know nothing about anything\u2014I'm just going to go this way instead.\""
+      "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
+      "speakerId": "narrator",
+      "text": "Gasp."
     },
     {
       "id": "uneraseable_s01_b074",
       "index": 74,
-      "scene": "CHAPTER 5: SUNDER AND SLUDGE",
+      "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
       "speakerId": "narrator",
-      "text": "Without waiting for a reply, Pierre pivoted and ducked cleanly behind a colossal bookshelf, disengaging entirely from the combat."
+      "text": "The unknown named doll snapped bolt upright. Its shell-and-coral eyes clicked open, catching the ambient light. With uncanny agility, the little figure drew its sewing-needle rapier from its hip, spun the steel in a glittering arc, and let out a miniature, bloodcurdling battle cry."
     },
     {
       "id": "uneraseable_s01_b075",
       "index": 75,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
       "speakerId": "narrator",
-      "text": "In the center of the marble floor, the limp, wooden bundle suddenly drew a sharp, violent breath."
+      "text": "It charged straight across the flagstones, its little wooden joints clicking like castanets as it sprinted full tilt toward the injured ink blob, aiming its needle squarely for where an eye ought to be."
     },
     {
       "id": "uneraseable_s01_b076",
       "index": 76,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
       "speakerId": "narrator",
-      "text": "Gasp."
+      "text": "The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow."
     },
     {
       "id": "uneraseable_s01_b077",
       "index": 77,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "narrator",
-      "text": "The unknown named doll snapped bolt upright. Its shell-and-coral eyes clicked open, catching the ambient light. With uncanny agility, the little figure drew its sewing-needle rapier from its hip, spun the steel in a glittering arc, and let out a miniature, bloodcurdling battle cry."
+      "speakerId": "dravin",
+      "text": "\"Toll the dead!\" Dravin\u2019s voice echoed through the colonnade."
     },
     {
       "id": "uneraseable_s01_b078",
       "index": 78,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
       "speakerId": "narrator",
-      "text": "It charged straight across the flagstones, its little wooden joints clicking like castanets as it sprinted full tilt toward the injured ink blob, aiming its needle squarely for where an eye ought to be."
+      "text": "The professor pulled a tarnished silver bell from his tweed pocket and shook it vigorously toward the ink beasts. But whatever celestial chime was meant to resonate remained muffled\u2014a stray piece of pocket lint was lodged deep inside the bell\u2019s clapper, producing only a dull, pathetic thud."
     },
     {
       "id": "uneraseable_s01_b079",
       "index": 79,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "narrator",
-      "text": "The charge was valiant, but the ink blob splattered flat against the stone at the last fraction of a second. The needle struck marble with a shower of sparks, skittering off harmlessly. The doll tumbled forward into a roll, popping back to its feet with seaweed hair whipping across its canvas brow."
+      "speakerId": "eusacles",
+      "text": "Eusacles rolled his eyes from where he leaned against the pillar. \"Oh, god no...\""
     },
     {
       "id": "uneraseable_s01_b080",
       "index": 80,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "dravin",
-      "text": "\"Toll the dead!\" Dravin\u2019s voice echoed through the colonnade."
+      "speakerId": "narrator",
+      "text": "Growling through the pain of his ribs, Eusacles raised his chain morningstar once more and swung at the recovering ink blob. The weapon whistled through the air, but the slippery ooze dodged under the blow once again."
     },
     {
       "id": "uneraseable_s01_b081",
       "index": 81,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "narrator",
-      "text": "The professor pulled a tarnished silver bell from his tweed pocket and shook it vigorously toward the ink beasts. But whatever celestial chime was meant to resonate remained muffled\u2014a stray piece of pocket lint was lodged deep inside the bell\u2019s clapper, producing only a dull, pathetic thud."
+      "speakerId": "eusacles",
+      "text": "\"Damn it! We are out here on the struggle bus!\" Eusacles cursed."
     },
     {
       "id": "uneraseable_s01_b082",
       "index": 82,
-      "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "eusacles",
-      "text": "Eusacles rolled his eyes from where he leaned against the pillar. \"Oh, god no...\""
+      "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
+      "speakerId": "narrator",
+      "text": "Seeing the doll dancing across the tiles, the larger horned beast pivoted. It ignored the battered mortal and lunged directly for the wooden creation, sensing the divine, meddling essence of the Fates woven into its sailcloth seams. Its claws raked across the doll\u2019s wooden shoulder, tearing splinters and sending it tumbling across the floor."
     },
     {
       "id": "uneraseable_s01_b083",
       "index": 83,
-      "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
+      "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
       "speakerId": "narrator",
-      "text": "Growling through the pain of his ribs, Eusacles raised his chain morningstar once more and swung at the recovering ink blob. The weapon whistled through the air, but the slippery ooze dodged under the blow once again."
+      "text": "Yet the little driftwood figure held together, its salt-stained wood flexing against the blow."
     },
     {
       "id": "uneraseable_s01_b084",
       "index": 84,
-      "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "eusacles",
-      "text": "\"Damn it! We are out here on the struggle bus!\" Eusacles cursed."
+      "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
+      "speakerId": "narrator",
+      "text": "Sensing that the tide had turned against it, the wounded ink blob turned and began slithering rapidly back toward the safety of the dark rift."
     },
     {
       "id": "uneraseable_s01_b085",
       "index": 85,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "narrator",
-      "text": "Seeing the doll dancing across the tiles, the larger horned beast pivoted. It ignored the battered mortal and lunged directly for the wooden creation, sensing the divine, meddling essence of the Fates woven into its sailcloth seams. Its claws raked across the doll\u2019s wooden shoulder, tearing splinters and sending it tumbling across the floor."
+      "speakerId": "eusacles",
+      "text": "\"Oh no you don't!\" Eusacles bellowed."
     },
     {
       "id": "uneraseable_s01_b086",
       "index": 86,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
       "speakerId": "narrator",
-      "text": "Yet the little driftwood figure held together, its salt-stained wood flexing against the blow."
+      "text": "As the blob darted past, Eusacles pivoted on his heel and brought his morningstar down with pinpoint precision. The heavy spiked head pulverized the creature against the marble flagstones, detonating it into a harmless spray of drying, inert black soot."
     },
     {
       "id": "uneraseable_s01_b087",
       "index": 87,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "narrator",
-      "text": "Sensing that the tide had turned against it, the wounded ink blob turned and began slithering rapidly back toward the safety of the dark rift."
+      "speakerId": "eusacles",
+      "text": "\"Love that,\" Eusacles breathed, wiping a streak of sweat from his forehead."
     },
     {
       "id": "uneraseable_s01_b088",
       "index": 88,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "eusacles",
-      "text": "\"Oh no you don't!\" Eusacles bellowed."
+      "speakerId": "narrator",
+      "text": "Meanwhile, behind the towering shelves of the library, Pierre was entirely absorbed in his own mission. He walked swiftly along the endless rows of cedar shelves, keeping his footsteps silent against the stone. Around him lay thousands of ancient papyri, clay tablets, and scrolls in various states of decay."
     },
     {
       "id": "uneraseable_s01_b089",
       "index": 89,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "narrator",
-      "text": "As the blob darted past, Eusacles pivoted on his heel and brought his morningstar down with pinpoint precision. The heavy spiked head pulverized the creature against the marble flagstones, detonating it into a harmless spray of drying, inert black soot."
+      "speakerId": "pierre",
+      "text": "Pierre muttered under his breath, his voice barely a whisper: \"She sent me here to find out who my parents are... If anyone would have connections between me and another, it would be the Fates.\""
     },
     {
       "id": "uneraseable_s01_b090",
       "index": 90,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "eusacles",
-      "text": "\"Love that,\" Eusacles breathed, wiping a streak of sweat from his forehead."
+      "speakerId": "narrator",
+      "text": "With the three crones focused entirely on weaving over their loom and the monsters occupied in the center of the hall, Pierre closed his eyes. He reached out with his left hand, letting his fingertips glide along the edges of the ancient parchment."
     },
     {
       "id": "uneraseable_s01_b091",
       "index": 91,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
       "speakerId": "narrator",
-      "text": "Meanwhile, behind the towering shelves of the library, Pierre was entirely absorbed in his own mission. He walked swiftly along the endless rows of cedar shelves, keeping his footsteps silent against the stone. Around him lay thousands of ancient papyri, clay tablets, and scrolls in various states of decay."
+      "text": "A faint hum of magic\u2014a gentle resonance of ancient knowledge\u2014tingled against his skin. His eyes snapped open. He pulled three scrolls from the shelf, hastily stuffing them into his canvas rucksack, and darted silently to the next stack."
     },
     {
       "id": "uneraseable_s01_b092",
       "index": 92,
-      "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "pierre",
-      "text": "Pierre muttered under his breath, his voice barely a whisper: \"She sent me here to find out who my parents are... If anyone would have connections between me and another, it would be the Fates.\""
+      "scene": "CHAPTER 8: TENDON SEVER",
+      "speakerId": "narrator",
+      "text": "Back on the battlefield, the unknown named doll scrambled to its feet, shaking seaweed strands from its button eyes."
     },
     {
       "id": "uneraseable_s01_b093",
       "index": 93,
-      "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
+      "scene": "CHAPTER 8: TENDON SEVER",
       "speakerId": "narrator",
-      "text": "With the three crones focused entirely on weaving over their loom and the monsters occupied in the center of the hall, Pierre closed his eyes. He reached out with his left hand, letting his fingertips glide along the edges of the ancient parchment."
+      "text": "It looked at the looming horned beast, then down at its own sharp fishing-hook hand. Without a trace of hesitation or self-preservation, the doll sprinted straight between the demon's cloven hooves. With a fierce grunt, it drove the steel fishing hook directly into the beast\u2019s left Achilles tendon and yanked with all its tiny might."
     },
     {
       "id": "uneraseable_s01_b094",
       "index": 94,
-      "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
+      "scene": "CHAPTER 8: TENDON SEVER",
       "speakerId": "narrator",
-      "text": "A faint hum of magic\u2014a gentle resonance of ancient knowledge\u2014tingled against his skin. His eyes snapped open. He pulled three scrolls from the shelf, hastily stuffing them into his canvas rucksack, and darted silently to the next stack."
+      "text": "Rrrrip."
     },
     {
       "id": "uneraseable_s01_b095",
       "index": 95,
       "scene": "CHAPTER 8: TENDON SEVER",
       "speakerId": "narrator",
-      "text": "Back on the battlefield, the unknown named doll scrambled to its feet, shaking seaweed strands from its button eyes."
+      "text": "A spray of boiling black ichor erupted from the severed tendon. The horned beast threw its head back in an agonizing screech, its rear leg giving out as it stumbled hard onto one knee."
     },
     {
       "id": "uneraseable_s01_b096",
       "index": 96,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "narrator",
-      "text": "It looked at the looming horned beast, then down at its own sharp fishing-hook hand. Without a trace of hesitation or self-preservation, the doll sprinted straight between the demon's cloven hooves. With a fierce grunt, it drove the steel fishing hook directly into the beast\u2019s left Achilles tendon and yanked with all its tiny might."
+      "speakerId": "alfie",
+      "text": "\"Death by tendon!\" the doll seemed to crow in silent triumph."
     },
     {
       "id": "uneraseable_s01_b097",
       "index": 97,
       "scene": "CHAPTER 8: TENDON SEVER",
       "speakerId": "narrator",
-      "text": "Rrrrip."
+      "text": "Behind the wounded demon, the dark rift churned violently. A colossal silhouette\u2014far larger, with towering ram-like horns and massive clawed hands\u2014grasped the edges of the spatial tear, pulling the fabric of reality wider with a terrifying roar."
     },
     {
       "id": "uneraseable_s01_b098",
       "index": 98,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "narrator",
-      "text": "A spray of boiling black ichor erupted from the severed tendon. The horned beast threw its head back in an agonizing screech, its rear leg giving out as it stumbled hard onto one knee."
+      "speakerId": "fates",
+      "text": "\"There's more!\" the Fates shrieked in unison from their loom. \"Hold them off! Just one more turn! It's almost ready!\""
     },
     {
       "id": "uneraseable_s01_b099",
       "index": 99,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "alfie",
-      "text": "\"Death by tendon!\" the doll seemed to crow in silent triumph."
+      "speakerId": "dravin",
+      "text": "Prof Edward Dravin thrust his arm toward the giant silhouette holding the portal. \"Cause fear!\" he cried, seeking to shatter the titan\u2019s resolve with a wave of magical dread."
     },
     {
       "id": "uneraseable_s01_b100",
       "index": 100,
       "scene": "CHAPTER 8: TENDON SEVER",
       "speakerId": "narrator",
-      "text": "Behind the wounded demon, the dark rift churned violently. A colossal silhouette\u2014far larger, with towering ram-like horns and massive clawed hands\u2014grasped the edges of the spatial tear, pulling the fabric of reality wider with a terrifying roar."
+      "text": "The giant beast bared its fangs, shaking off the enchantment with a guttural, mocking laugh. It maintained its iron grip on the rift, forcing the gateway open."
     },
     {
       "id": "uneraseable_s01_b101",
       "index": 101,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "fates",
-      "text": "\"There's more!\" the Fates shrieked in unison from their loom. \"Hold them off! Just one more turn! It's almost ready!\""
+      "speakerId": "eusacles",
+      "text": "Eusacles saw the portal widening and decided enough was enough. \"All I wanted to do was play some roulette,\" he snarled."
     },
     {
       "id": "uneraseable_s01_b102",
       "index": 102,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "dravin",
-      "text": "Prof Edward Dravin thrust his arm toward the giant silhouette holding the portal. \"Cause fear!\" he cried, seeking to shatter the titan\u2019s resolve with a wave of magical dread."
+      "speakerId": "narrator",
+      "text": "Stepping forward, Eusacles wound up a desperate Spartan kick aimed squarely at the wounded demon's chest, intending to launch it backward through the portal. But as he kicked, the demon's flailing horn whipped around in a brutal counter-arc."
     },
     {
       "id": "uneraseable_s01_b103",
       "index": 103,
       "scene": "CHAPTER 8: TENDON SEVER",
       "speakerId": "narrator",
-      "text": "The giant beast bared its fangs, shaking off the enchantment with a guttural, mocking laugh. It maintained its iron grip on the rift, forcing the gateway open."
+      "text": "The jagged bone caught Eusacles across the jaw with sickening force."
     },
     {
       "id": "uneraseable_s01_b104",
       "index": 104,
-      "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "eusacles",
-      "text": "Eusacles saw the portal widening and decided enough was enough. \"All I wanted to do was play some roulette,\" he snarled."
+      "scene": "CHAPTER 9: THE LEGEND STRIKE",
+      "speakerId": "narrator",
+      "text": "Eusacles's vision flashed white. His legs buckled, his morningstar slipping from his limp fingers as he collapsed unconscious onto the marble tiles."
     },
     {
       "id": "uneraseable_s01_b105",
       "index": 105,
-      "scene": "CHAPTER 8: TENDON SEVER",
+      "scene": "CHAPTER 9: THE LEGEND STRIKE",
       "speakerId": "narrator",
-      "text": "Stepping forward, Eusacles wound up a desperate Spartan kick aimed squarely at the wounded demon's chest, intending to launch it backward through the portal. But as he kicked, the demon's flailing horn whipped around in a brutal counter-arc."
+      "text": "With a raspy hiss, the wounded demon reached down with clawed hands, wrapping its talons around Eusacles's collar, and began dragging the limp gambler toward the swirling oblivion of the rift."
     },
     {
       "id": "uneraseable_s01_b106",
       "index": 106,
-      "scene": "CHAPTER 8: TENDON SEVER",
+      "scene": "CHAPTER 9: THE LEGEND STRIKE",
       "speakerId": "narrator",
-      "text": "The jagged bone caught Eusacles across the jaw with sickening force."
+      "text": "Across the library, Pierre dashed behind the last bookshelf. His fingers caught the leather spine of a thick codex written in ancient Greek. His eyes widened behind his glasses as he translated the title: The Guide to Gorgons."
     },
     {
       "id": "uneraseable_s01_b107",
       "index": 107,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
-      "speakerId": "narrator",
-      "text": "Eusacles's vision flashed white. His legs buckled, his morningstar slipping from his limp fingers as he collapsed unconscious onto the marble tiles."
+      "speakerId": "pierre",
+      "text": "\"This is just like the one I used to read growing up,\" Pierre whispered, clutching it to his chest as he felt an overwhelming, familiar kinship to the text."
     },
     {
       "id": "uneraseable_s01_b108",
       "index": 108,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
       "speakerId": "narrator",
-      "text": "With a raspy hiss, the wounded demon reached down with clawed hands, wrapping its talons around Eusacles's collar, and began dragging the limp gambler toward the swirling oblivion of the rift."
+      "text": "In the center of the hall, the demon was dragging Eusacles within three paces of the planar void. Dravin was out of range. Pierre was clutching his book among the stacks."
     },
     {
       "id": "uneraseable_s01_b109",
       "index": 109,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
       "speakerId": "narrator",
-      "text": "Across the library, Pierre dashed behind the last bookshelf. His fingers caught the leather spine of a thick codex written in ancient Greek. His eyes widened behind his glasses as he translated the title: The Guide to Gorgons."
+      "text": "The unknown named doll looked at Eusacles, then at the beast's remaining intact leg. An unmistakable spark of mythical destiny\u2014the pure, heroic momentum of Legend\u2014ignited within the doll\u2019s sailcloth core."
     },
     {
       "id": "uneraseable_s01_b110",
       "index": 110,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
-      "speakerId": "pierre",
-      "text": "\"This is just like the one I used to read growing up,\" Pierre whispered, clutching it to his chest as he felt an overwhelming, familiar kinship to the text."
+      "speakerId": "narrator",
+      "text": "With blinding speed, the doll leaped through the air. The sewing-needle rapier gleamed with silver fire as the doll drove the point straight through the beast\u2019s right ankle tendon, pinning it to the marble floor with pinpoint force."
     },
     {
       "id": "uneraseable_s01_b111",
       "index": 111,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
       "speakerId": "narrator",
-      "text": "In the center of the hall, the demon was dragging Eusacles within three paces of the planar void. Dravin was out of range. Pierre was clutching his book among the stacks."
+      "text": "The demon let out a final, bubbling shriek. Its legs gave out entirely. It dropped Eusacles onto the cold stone and collapsed, its body dissolving into smoking puddles of black ash that were instantly sucked backward into the vacuum of the closing rift."
     },
     {
       "id": "uneraseable_s01_b112",
       "index": 112,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
-      "speakerId": "narrator",
-      "text": "The unknown named doll looked at Eusacles, then at the beast's remaining intact leg. An unmistakable spark of mythical destiny\u2014the pure, heroic momentum of Legend\u2014ignited within the doll\u2019s sailcloth core."
+      "speakerId": "fates",
+      "text": "\"We're done!\" the Three Fates cried out together. \"The weave is ready!\""
     },
     {
       "id": "uneraseable_s01_b113",
       "index": 113,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
       "speakerId": "narrator",
-      "text": "With blinding speed, the doll leaped through the air. The sewing-needle rapier gleamed with silver fire as the doll drove the point straight through the beast\u2019s right ankle tendon, pinning it to the marble floor with pinpoint force."
+      "text": "From their towering loom, the three crones swept a colossal, shimmering tapestry into the air. The mythical cloth billowed outward like an enormous net, spiraling through the colonnade and swallowing the entire hall in dazzling light. The library vanished. Reality spun into darkness."
     },
     {
       "id": "uneraseable_s01_b114",
       "index": 114,
-      "scene": "CHAPTER 9: THE LEGEND STRIKE",
+      "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "narrator",
-      "text": "The demon let out a final, bubbling shriek. Its legs gave out entirely. It dropped Eusacles onto the cold stone and collapsed, its body dissolving into smoking puddles of black ash that were instantly sucked backward into the vacuum of the closing rift."
+      "text": "Cool, damp night air rushed into their lungs."
     },
     {
       "id": "uneraseable_s01_b115",
       "index": 115,
-      "scene": "CHAPTER 9: THE LEGEND STRIKE",
-      "speakerId": "fates",
-      "text": "\"We're done!\" the Three Fates cried out together. \"The weave is ready!\""
+      "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
+      "speakerId": "narrator",
+      "text": "The dazzling light collapsed into velvety darkness. Pierre tumbled softly into a grassy ditch, his rucksack safely clutched in his arms. Overhead, thousands of stars glittered through the canopy of dense pine trees. The steady, rhythmic chorus of crickets and cicadas filled the humid evening silence."
     },
     {
       "id": "uneraseable_s01_b116",
       "index": 116,
-      "scene": "CHAPTER 9: THE LEGEND STRIKE",
+      "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "narrator",
-      "text": "From their towering loom, the three crones swept a colossal, shimmering tapestry into the air. The mythical cloth billowed outward like an enormous net, spiraling through the colonnade and swallowing the entire hall in dazzling light. The library vanished. Reality spun into darkness."
+      "text": "Beside him in the ditch lay Prof Edward Dravin, the unconscious form of Eusacles, and the unknown named doll."
     },
     {
       "id": "uneraseable_s01_b117",
       "index": 117,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "narrator",
-      "text": "Cool, damp night air rushed into their lungs."
+      "speakerId": "dravin",
+      "text": "Dravin immediately adjusted his spectacles and whispered an arcane invocation: \"Eyes of Night.\""
     },
     {
       "id": "uneraseable_s01_b118",
       "index": 118,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "narrator",
-      "text": "The dazzling light collapsed into velvety darkness. Pierre tumbled softly into a grassy ditch, his rucksack safely clutched in his arms. Overhead, thousands of stars glittered through the canopy of dense pine trees. The steady, rhythmic chorus of crickets and cicadas filled the humid evening silence."
+      "text": "A soft, amber warmth settled over the party\u2019s vision, piercing the pitch-black darkness to reveal the contours of the roadside. Beside them, an old, two-lane asphalt highway stretched into the mist, lined on one side by a sagging white wooden fence with crossbeam slats."
     },
     {
       "id": "uneraseable_s01_b119",
       "index": 119,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "narrator",
-      "text": "Beside him in the ditch lay Prof Edward Dravin, the unconscious form of Eusacles, and the unknown named doll."
+      "text": "Dravin knelt beside Eusacles, placing two fingers against the gambler's neck. He whispered the words to Spare the Dying."
     },
     {
       "id": "uneraseable_s01_b120",
       "index": 120,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
-      "text": "Dravin immediately adjusted his spectacles and whispered an arcane invocation: \"Eyes of Night.\""
+      "speakerId": "narrator",
+      "text": "A soothing pulse of silver magic washed over Eusacles\u2019s bruised body. Eusacles groaned loudly, his eyelids fluttering open as he clutched his aching head."
     },
     {
       "id": "uneraseable_s01_b121",
       "index": 121,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "narrator",
-      "text": "A soft, amber warmth settled over the party\u2019s vision, piercing the pitch-black darkness to reveal the contours of the roadside. Beside them, an old, two-lane asphalt highway stretched into the mist, lined on one side by a sagging white wooden fence with crossbeam slats."
+      "speakerId": "eusacles",
+      "text": "\"Oh, god damn it...\" Eusacles groaned, rubbing his jaw. \"I am so sick of the teleportation. Why do I feel hungover?\""
     },
     {
       "id": "uneraseable_s01_b122",
       "index": 122,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "narrator",
-      "text": "Dravin knelt beside Eusacles, placing two fingers against the gambler's neck. He whispered the words to Spare the Dying."
+      "speakerId": "dravin",
+      "text": "He blinked up at the professor and the French boy peering down at him. \"Wait... how do you all know my name?\""
     },
     {
       "id": "uneraseable_s01_b123",
       "index": 123,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "narrator",
-      "text": "A soothing pulse of silver magic washed over Eusacles\u2019s bruised body. Eusacles groaned loudly, his eyelids fluttering open as he clutched his aching head."
+      "speakerId": "pierre",
+      "text": "\"You were muttering it in your sleep,\" Pierre answered earnestly."
     },
     {
       "id": "uneraseable_s01_b124",
       "index": 124,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "eusacles",
-      "text": "\"Oh, god damn it...\" Eusacles groaned, rubbing his jaw. \"I am so sick of the teleportation. Why do I feel hungover?\""
+      "speakerId": "narrator",
+      "text": "Eusacles struggled to a sitting position, dusting damp grass off his tank top. A few yards away, Dravin was examining a rusty green road sign half-buried in the overgrown weeds."
     },
     {
       "id": "uneraseable_s01_b125",
       "index": 125,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "dravin",
-      "text": "He blinked up at the professor and the French boy peering down at him. \"Wait... how do you all know my name?\""
+      "text": "\"The sign says Charleston, West Virginia \u2014 60 Miles,\" Dravin announced, pushing his glasses up his nose."
     },
     {
       "id": "uneraseable_s01_b126",
       "index": 126,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "pierre",
-      "text": "\"You were muttering it in your sleep,\" Pierre answered earnestly."
+      "text": "Pierre tilted his head. \"Can you remind me... is a mile one kilometer or two? Because that sounds very far.\""
     },
     {
       "id": "uneraseable_s01_b127",
       "index": 127,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "narrator",
-      "text": "Eusacles struggled to a sitting position, dusting damp grass off his tank top. A few yards away, Dravin was examining a rusty green road sign half-buried in the overgrown weeds."
+      "speakerId": "dravin",
+      "text": "\"About two hundred kilometers,\" Dravin answered with academic precision."
     },
     {
       "id": "uneraseable_s01_b128",
       "index": 128,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
-      "text": "\"The sign says Charleston, West Virginia \u2014 60 Miles,\" Dravin announced, pushing his glasses up his nose."
+      "speakerId": "pierre",
+      "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Brittany.\""
     },
     {
       "id": "uneraseable_s01_b129",
       "index": 129,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "pierre",
-      "text": "Pierre tilted his head. \"Can you remind me... is a mile one kilometer or two? Because that sounds very far.\""
-    },
-    {
-      "id": "uneraseable_s01_b130",
-      "index": 130,
-      "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
-      "text": "\"About two hundred kilometers,\" Dravin answered with academic precision."
-    },
-    {
-      "id": "uneraseable_s01_b131",
-      "index": 131,
-      "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "pierre",
-      "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Brittany.\""
-    },
-    {
-      "id": "uneraseable_s01_b132",
-      "index": 132,
-      "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
       "speakerId": "eusacles",
       "text": "\"Two hundred kilometers...\" Eusacles repeated, his voice climbing in disbelief. \"That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!\""
     },
     {
-      "id": "uneraseable_s01_b133",
-      "index": 133,
+      "id": "uneraseable_s01_b130",
+      "index": 130,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "narrator",
       "text": "From down near Eusacles's boots, a tiny wooden hand brandished a needle rapier with an impatient swish."
     },
     {
-      "id": "uneraseable_s01_b134",
-      "index": 134,
+      "id": "uneraseable_s01_b131",
+      "index": 131,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "alfie",
       "text": "\"I'm four feet below you, mate!\" a sharp, raspy Cockney voice piped up from the grass. \"Somebody's got to pick me up if you're trying to talk to me!\""
     },
     {
-      "id": "uneraseable_s01_b135",
-      "index": 135,
+      "id": "uneraseable_s01_b132",
+      "index": 132,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "narrator",
       "text": "Eusacles frowned, leaning down to inspect the tiny speaker. The moment his face drew near, the cold, sharp point of the sewing needle gently pressed against the skin of his cheek."
     },
     {
-      "id": "uneraseable_s01_b136",
-      "index": 136,
+      "id": "uneraseable_s01_b133",
+      "index": 133,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "alfie",
       "text": "\"Yeah, me,\" the doll muttered, its shell buttons clicking as it stood tall. \"I know things. I do. I know the dark.\""
     },
     {
-      "id": "uneraseable_s01_b137",
-      "index": 137,
+      "id": "uneraseable_s01_b134",
+      "index": 134,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "narrator",
       "text": "Before Eusacles could recoil, the doll suddenly went limp, toppling sideways into the clover."
+    },
+    {
+      "id": "uneraseable_s01_b135",
+      "index": 135,
+      "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
+      "speakerId": "dravin",
+      "text": "Dravin immediately leaned down, tapping the wooden chest with gentle medical sternum rubs. \"Come on back now, buddy...\""
+    },
+    {
+      "id": "uneraseable_s01_b136",
+      "index": 136,
+      "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
+      "speakerId": "narrator",
+      "text": "With a sharp click, the doll sprang back to life, immediately swinging its tiny needle wildly at the tall stalks of crabgrass like a miniature lawnmower."
+    },
+    {
+      "id": "uneraseable_s01_b137",
+      "index": 137,
+      "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
+      "speakerId": "pierre",
+      "text": "\"You're half-bloods, right?\" Eusacles asked, staring between Dravin and Pierre. \"Like, you're half-bloods too?\""
     },
     {
       "id": "uneraseable_s01_b138",
       "index": 138,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "dravin",
-      "text": "Dravin immediately leaned down, tapping the wooden chest with gentle medical sternum rubs. \"Come on back now, buddy...\""
+      "text": "\"On my mother's side,\" Dravin replied thoughtfully, \"her great-grandmother was Greek. That is why I study Greek mythology.\""
     },
     {
       "id": "uneraseable_s01_b139",
       "index": 139,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "narrator",
-      "text": "With a sharp click, the doll sprang back to life, immediately swinging its tiny needle wildly at the tall stalks of crabgrass like a miniature lawnmower."
+      "speakerId": "pierre",
+      "text": "\"Have you ever had your class come to life before?\" Pierre asked."
     },
     {
       "id": "uneraseable_s01_b140",
       "index": 140,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
-      "text": "\"You're half-bloods, right?\" Eusacles asked, staring between Dravin and Pierre. \"Like, you're half-bloods too?\""
+      "speakerId": "dravin",
+      "text": "\"I like to think every time I teach, the class comes to life,\" Dravin smiled warmly."
     },
     {
       "id": "uneraseable_s01_b141",
       "index": 141,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "dravin",
-      "text": "\"On my mother's side,\" Dravin replied thoughtfully, \"her great-grandmother was Greek. That is why I study Greek mythology.\""
+      "speakerId": "narrator",
+      "text": "A distant sound cut through the crickets\u2014a faint, echoing chuckle carried on the night breeze down the fence line. Pierre and Eusacles both turned their heads toward the sound."
     },
     {
       "id": "uneraseable_s01_b142",
       "index": 142,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
-      "text": "\"Have you ever had your class come to life before?\" Pierre asked."
+      "speakerId": "eusacles",
+      "text": "\"Did you hear that?\" Eusacles whispered."
     },
     {
       "id": "uneraseable_s01_b143",
       "index": 143,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "dravin",
-      "text": "\"I like to think every time I teach, the class comes to life,\" Dravin smiled warmly."
+      "speakerId": "pierre",
+      "text": "Pierre knelt and gently offered his open hand to the swinging driftwood doll. \"Would you like a ride?\""
     },
     {
       "id": "uneraseable_s01_b144",
       "index": 144,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "narrator",
-      "text": "A distant sound cut through the crickets\u2014a faint, echoing chuckle carried on the night breeze down the fence line. Pierre and Eusacles both turned their heads toward the sound."
-    },
-    {
-      "id": "uneraseable_s01_b145",
-      "index": 145,
-      "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "eusacles",
-      "text": "\"Did you hear that?\" Eusacles whispered."
-    },
-    {
-      "id": "uneraseable_s01_b146",
-      "index": 146,
-      "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
-      "text": "Pierre knelt and gently offered his open hand to the swinging driftwood doll. \"Would you like a ride?\""
-    },
-    {
-      "id": "uneraseable_s01_b147",
-      "index": 147,
-      "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
       "speakerId": "pierre",
       "text": "The doll stopped swiping at the grass and looked up at Pierre with its coral eyes. \"A ride would be grand. Thanks, mate.\""
     },
     {
-      "id": "uneraseable_s01_b148",
-      "index": 148,
+      "id": "uneraseable_s01_b145",
+      "index": 145,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
       "text": "Pierre carefully placed the doll on his shoulder, letting its driftwood legs settle against his rucksack strap. As they followed the road down the fence line, Pierre leaned his head slightly toward his tiny passenger."
     },
     {
-      "id": "uneraseable_s01_b149",
-      "index": 149,
+      "id": "uneraseable_s01_b146",
+      "index": 146,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "pierre",
       "text": "\"I heard them say a word back there... 'half-blood,'\" Pierre murmured in his quiet cadence. \"Do you know this word?\""
     },
     {
-      "id": "uneraseable_s01_b150",
-      "index": 150,
+      "id": "uneraseable_s01_b147",
+      "index": 147,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "alfie",
       "text": "\"Half-blood? Yeah, I think I've heard of that before,\" the doll replied thoughtfully, adjusting its needle rapier. \"Last time I knew where I was, me mates and me were on a ship, sailing through dark, scary waters like this. And now I'm a puppet.\""
     },
     {
-      "id": "uneraseable_s01_b151",
-      "index": 151,
+      "id": "uneraseable_s01_b148",
+      "index": 148,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "pierre",
       "text": "\"They say Mount Olympus moved to America, you know,\" Pierre mused. \"Maybe America is more magical.\""
     },
     {
-      "id": "uneraseable_s01_b152",
-      "index": 152,
+      "id": "uneraseable_s01_b149",
+      "index": 149,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "alfie",
       "text": "\"A ride would be grand. Thanks, mate.\""
     },
     {
-      "id": "uneraseable_s01_b153",
-      "index": 153,
+      "id": "uneraseable_s01_b150",
+      "index": 150,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
       "text": "Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*."
     },
     {
-      "id": "uneraseable_s01_b154",
-      "index": 154,
+      "id": "uneraseable_s01_b151",
+      "index": 151,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
       "text": "Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. As the party approached, the man turned, looking up with an easy smirk."
     },
     {
-      "id": "uneraseable_s01_b155",
-      "index": 155,
+      "id": "uneraseable_s01_b152",
+      "index": 152,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "theodore",
       "text": "\"Huh? No way,\" the man said, raising a hand in greeting. \"What's up? Welcome to the Margin. What edit killed you?\""
     },
     {
-      "id": "uneraseable_s01_b156",
-      "index": 156,
+      "id": "uneraseable_s01_b153",
+      "index": 153,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
       "speakerId": "narrator",
       "text": "Overhead, the creaking sign swung softly in the mountain breeze, and the campfire cast long, flickering shadows into the night."

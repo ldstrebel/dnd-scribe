@@ -50,23 +50,17 @@ The three turned their milky, unblinking eyes toward the bewildered newcomers.
 
 "Oh no," the second chimed in, head tilting at an unnatural angle. "You're late."
 
-"Come closer," whispered the third. "Come closer... This is interesting." 
+"Come closer," whispered the third. "Come closer... This is interesting."
 
-Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. Beneath the woolen cap, his hair sat strangely—a subtle, wild irregularity that seemed almost to twitch if one stared too closely. 
+The man on Pierre's left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy.  
 
-He glanced cautiously to his right. A tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. Pierre decided immediately that he did not like the look of this muscular stranger, and deliberately pivoted toward the man on his left. 
+"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this." 
 
-"So..." Pierre asked, his voice wavering with a nervous French lilt, "is this normal for buses in America to do this type of thing?" 
+Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. "A professor..." Pierre echoed, his voice wavering with a nervous French lilt. "So it is like I am a young student and you are the professor?"  
 
-The man on his left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy. 
+Across the tiles, a tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. He rolled his shoulders, staring flatly at the two nerds beside him. 
 
-"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this."  
-
-"A professor..." Pierre echoed, eyes darting from Dravin's manic grin back to the three looming crones. "So you are telling me you know what this is?"
-
-Across the tiles, Eusacles rolled his shoulders, his jaw tight as he took in the marble columns, the ancient scrolls, and the eccentric academic already admiring the architecture. Eusacles shook his head in pure exasperation. 
-
-"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, staring flatly at the two nerds standing beside him. "What about any of this seems normal to you?"  
+"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, his jaw tight as he took in the ancient scrolls and marble columns. "What about any of this seems normal to you?"  
 
 ## CHAPTER 3: THE PLANAR RIFT
 

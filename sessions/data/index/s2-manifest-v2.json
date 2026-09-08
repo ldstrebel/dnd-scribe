@@ -55,34 +55,22 @@
       "color": "#ec4899",
       "role": "Timeline Researcher \u00b7 Fragment Hunter"
     },
-    "rosa": {
-      "name": "Rosa",
-      "type": "npc",
-      "color": "#f43f5e",
-      "role": "Cabin Matron \u00b7 Memory Chronicler"
-    },
     "mike": {
       "name": "Mike",
       "type": "npc",
       "color": "#64748b",
       "role": "Gatekeeper of the Lost Roads"
-    },
-    "clerk": {
-      "name": "Gas Station Clerk",
-      "type": "npc",
-      "color": "#78716c",
-      "role": "Lost Road Station Attendant"
     }
   },
   "stats": {
-    "wordCount": 2772,
-    "estimatedReadMinutes": 12,
-    "estimatedBookPages": 11.1,
+    "wordCount": 989,
+    "estimatedReadMinutes": 4,
+    "estimatedBookPages": 4.0,
     "dialogueRatio": {
-      "spokenWords": 1062,
-      "narrativeWords": 1710,
-      "spokenPct": 38.3,
-      "narrativePct": 61.7,
+      "spokenWords": 373,
+      "narrativeWords": 616,
+      "spokenPct": 37.7,
+      "narrativePct": 62.3,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -90,83 +78,69 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1099,
-        "sharePct": 39.6
+        "words": 352,
+        "sharePct": 35.6
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 530,
-        "sharePct": 19.1
+        "words": 193,
+        "sharePct": 19.5
       },
       {
         "id": "theodore",
         "name": "Theodore (Teddy)",
         "color": "#d97706",
-        "words": 277,
-        "sharePct": 10.0
-      },
-      {
-        "id": "dravin",
-        "name": "Prof. Edward Dravin",
-        "color": "#8b5cf6",
-        "words": 275,
-        "sharePct": 9.9
-      },
-      {
-        "id": "naomi",
-        "name": "Naomi",
-        "color": "#ec4899",
-        "words": 221,
-        "sharePct": 8.0
+        "words": 97,
+        "sharePct": 9.8
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
-        "words": 193,
-        "sharePct": 7.0
-      },
-      {
-        "id": "alfie",
-        "name": "Alfie",
-        "color": "#10b981",
-        "words": 126,
-        "sharePct": 4.5
+        "words": 90,
+        "sharePct": 9.1
       },
       {
         "id": "mike",
         "name": "Mike",
         "color": "#64748b",
-        "words": 24,
-        "sharePct": 0.9
+        "words": 87,
+        "sharePct": 8.8
       },
       {
-        "id": "rosa",
-        "name": "Rosa",
-        "color": "#f43f5e",
-        "words": 14,
-        "sharePct": 0.5
+        "id": "naomi",
+        "name": "Naomi",
+        "color": "#ec4899",
+        "words": 76,
+        "sharePct": 7.7
       },
       {
-        "id": "clerk",
-        "name": "Gas Station Clerk",
-        "color": "#78716c",
-        "words": 13,
-        "sharePct": 0.5
+        "id": "alfie",
+        "name": "Alfie",
+        "color": "#10b981",
+        "words": 48,
+        "sharePct": 4.9
+      },
+      {
+        "id": "dravin",
+        "name": "Prof. Edward Dravin",
+        "color": "#8b5cf6",
+        "words": 46,
+        "sharePct": 4.7
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 6.9,
-      "pacingDynamic": false,
+      "pacingStdDev": 7.2,
+      "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 17,
-        "auditory": 9,
-        "tactile": 10,
-        "olfactory": 12,
-        "atmospheric": 18,
-        "registersCovered": 5
+        "visual": 0,
+        "auditory": 0,
+        "tactile": 1,
+        "olfactory": 0,
+        "atmospheric": 6,
+        "registersCovered": 2
       },
       "guardAudits": {
         "oocLeaks": 0,
@@ -200,13 +174,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "38.3% Spoken / 61.7% Narrative Action",
+          "chosenStance": "37.7% Spoken / 62.3% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~173 words/scene)",
+          "chosenStance": "Micro-Chapters (~141 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -249,590 +223,254 @@
     {
       "id": "uneraseable_s02_b001",
       "index": 1,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
+      "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "speakerId": "narrator",
-      "text": "The campfire crackled with dry pine knots, throwing embers high into the starless indigo sky. Around the circle of stones, the heat was real and grounding\u2014a stark, welcome relief after the freezing marble expanse of the Library of the Fates."
+      "text": "Outside the entrance to the secluded Appalachian retreat, Pierre lingered near the timber archway, peering cautiously through his round spectacles while Dravin and Eusacles stepped forward."
     },
     {
       "id": "uneraseable_s02_b002",
       "index": 2,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
+      "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "speakerId": "narrator",
-      "text": "Theodore\u2014Teddy to those who had lingered here long enough\u2014leaned back on a weathered cedar stump. He wore a patched flannel overshirt that looked older than the twentieth century, but his sun-leathered face held the easy confidence of a man who had watched entire eras pass from a comfortable distance. Across from him, young Naomi poked the fire with a blackened stick, her dark eyes sharp behind a messy fringe of dark hair."
+      "text": "A middle-aged man in casual flannel waved with an easy, welcoming grin. \"Don't be scared, bros,\" he called out warmly. \"Don't be scared at all. We love fresh ink around here. We're happy to have you.\""
     },
     {
       "id": "uneraseable_s02_b003",
       "index": 3,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "theodore",
-      "text": "\"So,\" Teddy began, nodding toward the newcomer party with a slow, wry grin. \"You took a bus out of Las Vegas, the world did a little backflip, and you ended up on the doorsteps of the Fates. That about cover it?\""
+      "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
+      "speakerId": "dravin",
+      "text": "\"Would we have remembered dying?\" Dravin asked, adjusting his spectacles."
     },
     {
       "id": "uneraseable_s02_b004",
       "index": 4,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "eusacles",
-      "text": "\"Something like that,\" Eusacles muttered, rolling his bruised shoulder and leaning his tall frame against the split-rail fence. \"Except the part where giant horned ink demons tried to eat my face, and the fact that I'm currently holding a chained morningstar that used to be a five-dollar wristwatch.\""
+      "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
+      "speakerId": "mike",
+      "text": "\"You're not actually dead, but it depends on who you ask,\" the man chuckled, introducing himself as Mike. Hiding behind his leg was a shy young girl with solemn eyes. \"I made it to the Margin around 2009. I was forty-two, and I've stayed forty-two. This is Lily\u2014she's been eleven for a long time.\""
     },
     {
       "id": "uneraseable_s02_b005",
       "index": 5,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "pierre",
-      "text": "Pierre carefully adjusted the strap of his canvas rucksack, where Alfie sat perched upright like a vigilant wooden gargoyle. \"We are in West Virginia, yes? The air smells like mountain pine, but the sky... there are no airplanes. There is no sound of highway traffic.\""
+      "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
+      "speakerId": "narrator",
+      "text": "Eusacles closed his eyes, invoking his divine senses. A natural twenty flared in his blood, revealing the Margin not as a simple campground, but as a consecrated refuge shrouded by the mythological Mist, where residents carried faint, residual auras of both celestial and undead power."
     },
     {
       "id": "uneraseable_s02_b006",
       "index": 6,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "theodore",
-      "text": "\"You're in the Margin, son,\" Teddy replied, tapping his wooden pipe against his knee. \"Technically, yes\u2014the geography anchors somewhere in the Appalachians. But reality doesn't run on standard rails here. This place is a crease in the map.\""
+      "scene": "CHAPTER 14: ECHOES OF THE SEA",
+      "speakerId": "narrator",
+      "text": "Mike led the group past a row of rustic timber cabins, discussing the lodgings and community."
     },
     {
       "id": "uneraseable_s02_b007",
       "index": 7,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "narrator",
-      "text": "Prof. Edward Dravin stepped closer to the flames, rubbing his chilled hands together. The professor looked remarkably composed for a man who had just spontaneously manifested necrotic magic, though his wire-rimmed spectacles reflected the flickering orange light with scholarly intensity."
+      "scene": "CHAPTER 14: ECHOES OF THE SEA",
+      "speakerId": "pierre",
+      "text": "As they walked, Alfie suddenly tensed in Pierre's rucksack, his tiny wooden hands gripping the canvas rim. His painted eyes glazed over with haunting recollection: \"I remember the dark... and the quiet... and lots of water, and many men screaming and shouting...\""
     },
     {
       "id": "uneraseable_s02_b008",
       "index": 8,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "dravin",
-      "text": "\"A crease,\" Dravin repeated thoughtfully. \"A non-Euclidean refuge outside the primary historical timeline. When destiny is rewoven by external divine intervention, the discarded material doesn't simply vanish\u2014it accumulates at the periphery.\""
+      "scene": "CHAPTER 14: ECHOES OF THE SEA",
+      "speakerId": "pierre",
+      "text": "Pierre gently rested a finger on Alfie's shoulder, murmuring softly: \"Alfie... Alfie, it's okay. Bring it back.\""
     },
     {
       "id": "uneraseable_s02_b009",
       "index": 9,
-      "scene": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
-      "speakerId": "dravin",
-      "text": "\"You catch on quick, Professor,\" Teddy chuckled. \"Welcome to the home of the unwritten.\""
+      "scene": "CHAPTER 14: ECHOES OF THE SEA",
+      "speakerId": "alfie",
+      "text": "\"...and everyone going away under the water,\" Alfie finished quietly with a shudder."
     },
     {
       "id": "uneraseable_s02_b010",
       "index": 10,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "narrator",
-      "text": "Eusacles narrowed his eyes, feeling an unnatural prickle at the base of his skull. As the demigod son of Thanatos, death and the divine had always carried a subtle weight in his blood, but here in the Margin, that instinct buzzed like a live wire."
+      "scene": "CHAPTER 15: THE PATERNAL TETHER",
+      "speakerId": "pierre",
+      "text": "\"Bring it back, mate,\" Pierre whispered softly to Alfie. \"You are not on the ship anymore.\""
     },
     {
       "id": "uneraseable_s02_b011",
       "index": 11,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "narrator",
-      "text": "Closing his eyes for a quiet moment, Eusacles tapped into his divine senses, letting his awareness wash over the circle of firelight."
+      "scene": "CHAPTER 15: THE PATERNAL TETHER",
+      "speakerId": "eusacles",
+      "text": "Mike smiled with quiet compassion. \"This is a fun doll,\" he observed, before turning his gaze toward Eusacles's wrist. \"Who gave you that watch? I'm getting some sort of sense from it.\""
     },
     {
       "id": "uneraseable_s02_b012",
       "index": 12,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "narrator",
-      "text": "The metaphysical aura around the party was startlingly dense. Beneath Professor Dravin\u2019s scholarly tweed and mild manners hummed a steady, chilling resonance of the underworld\u2014a necrotic tether of preservation and threshold magic. Around young Pierre, however, the radiance was far more complex: a swirling duality of monstrous fiendish blood wrapped in an odd, serpentine celestial hum."
+      "scene": "CHAPTER 15: THE PATERNAL TETHER",
+      "speakerId": "eusacles",
+      "text": "Eusacles glanced down at the heavy black timepiece. \"As far as I know, it was a gift from my dad, given to me by my mother when I went off on my own. I never knew him.\""
     },
     {
       "id": "uneraseable_s02_b013",
       "index": 13,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "pierre",
-      "text": "Eusacles opened his eyes, staring between Dravin and Pierre in open fascination. \"Well. None of us are zombies, if anyone was worried. But we are definitely not normal tourists.\""
+      "scene": "CHAPTER 15: THE PATERNAL TETHER",
+      "speakerId": "mike",
+      "text": "\"Fascinating,\" Mike nodded."
     },
     {
       "id": "uneraseable_s02_b014",
       "index": 14,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "pierre",
-      "text": "\"What did you see?\" Pierre asked, adjusting his round glasses with a slight tilt of his beret."
+      "scene": "CHAPTER 16: THE NIGHTTIME INTRUSION",
+      "speakerId": "narrator",
+      "text": "Settling into their guest cabin, the party prepared for sleep."
     },
     {
       "id": "uneraseable_s02_b015",
       "index": 15,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "dravin",
-      "text": "\"You've got some heavy divine static on you, Frenchie,\" Eusacles smirked, crossing his arms over his chest. \"Like celestial meets something ancient and scaly. And the professor over here feels like he's been auditing classes in the underworld.\""
+      "scene": "CHAPTER 16: THE NIGHTTIME INTRUSION",
+      "speakerId": "narrator",
+      "text": "Suddenly, the wooden door swung open. A young woman with the side of her head shaved and eyes blazing with manic academic energy burst inside. \"Sorry I'm late!\" she announced breathlessly. \"I heard there were new people! I am knee-deep in research and you all could really help out! Come on, I'll show you what I'm doing.\""
     },
     {
       "id": "uneraseable_s02_b016",
       "index": 16,
-      "scene": "CHAPTER 14: AURAS OF THE DISPLACED",
-      "speakerId": "dravin",
-      "text": "Dravin offered a gentle, self-deprecating smile. \"My great-grandmother always warned me that Greek bloodlines carry unexpected legacies. I suppose teaching mythology for twenty years was merely my subconscious catching up to my pedigree.\""
+      "scene": "CHAPTER 17: SATURDAY PANCAKES AND CONSPIRACY BOARDS",
+      "speakerId": "pierre",
+      "text": "Pierre, already sitting in his nightwear with cucumber slices prepared for his face care routine, raised an eyebrow. \"It can wait until the morning. I have already started my face care. I only have so many cucumbers.\""
     },
     {
       "id": "uneraseable_s02_b017",
       "index": 17,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
+      "scene": "CHAPTER 17: SATURDAY PANCAKES AND CONSPIRACY BOARDS",
       "speakerId": "narrator",
-      "text": "Teddy grabbed an iron fire poker from the dirt and thrust it deep into the coals, pushing the burning logs aside to send a violent shower of orange sparks into the canopy."
+      "text": "Pierre gently closed the cabin door on the frantic researcher until the next day."
     },
     {
       "id": "uneraseable_s02_b018",
       "index": 18,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
-      "speakerId": "theodore",
-      "text": "\"People ask how I got here,\" Teddy said, his calloused hands gripping the forged iron handle. \"I arrived in eighteen forty-six. I was walking across these hills with a surveyor's compass when the world suddenly shuddered. An edit happened upstream\u2014a treaty rewritten, a mountain pass erased\u2014and my entire hometown vanished from existence.\""
+      "scene": "CHAPTER 17: SATURDAY PANCAKES AND CONSPIRACY BOARDS",
+      "speakerId": "naomi",
+      "text": "The next morning, a knock sounded at the door. Mike grinned from the porch. \"Got some pancakes going\u2014my thing on Saturdays! Naomi has been in my ear about getting you guys to check out what she's got going on.\""
     },
     {
       "id": "uneraseable_s02_b019",
       "index": 19,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
-      "speakerId": "pierre",
-      "text": "Alfie leaped from Pierre's shoulder down onto a flat river stone, brandishing his needle with a miniature flick. \"Eighteen forty-six? Blimey, mate. You don't look a day over fifty-five.\""
+      "scene": "CHAPTER 17: SATURDAY PANCAKES AND CONSPIRACY BOARDS",
+      "speakerId": "mike",
+      "text": "At breakfast, Mike shared his personal theory: \"I have a card from my daughter that says 'To Dad'. That's why I think I'm here. Something concrete was written down.\""
     },
     {
       "id": "uneraseable_s02_b020",
       "index": 20,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
+      "scene": "CHAPTER 17: SATURDAY PANCAKES AND CONSPIRACY BOARDS",
       "speakerId": "theodore",
-      "text": "\"Time doesn't tick down in the Margin, little sailor,\" Teddy replied with a soft chuckle, pushing his tobacco pipe back between his teeth. \"You don't age. Your boots don't wear out unless you cross the fence. We are the notes scribbled in the white margins of a manuscript. As long as we stay here, the eraser cannot reach us.\""
+      "text": "After breakfast, they entered Naomi's cabin. \"Early on, Teddy was big into the fragments,\" she explained, leading them to her workspace. Her cot was neglected in favor of old CRT computer monitors streaming green code and a massive wall covered in pinned photos and red yarn connecting mythic events."
     },
     {
       "id": "uneraseable_s02_b021",
       "index": 21,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
-      "speakerId": "dravin",
-      "text": "\"The eraser...\" Dravin murmured, stepping toward the hearth. \"The ink beasts that attacked us at the colonnade\u2014those were not wild beasts. They were agents of retroactive deletion.\""
+      "scene": "CHAPTER 18: THE MYTHIC FRAGMENTS",
+      "speakerId": "theodore",
+      "text": "Inside the cabin, Naomi explained her algorithm for tracking temporal anomalies. \"The fragments are leftovers from these crazy edits,\" she told them, gesturing to her notes. \"Theodore told me they have some sort of energy attached to them\u2014when he touched one, he experienced visions of different realities.\""
     },
     {
       "id": "uneraseable_s02_b022",
       "index": 22,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
+      "scene": "CHAPTER 18: THE MYTHIC FRAGMENTS",
       "speakerId": "naomi",
-      "text": "\"Correctors,\" Naomi said coldly. She lunged forward, stabbing her whittling knife into the pine log. \"The Fates use cosmic ink to rewrite time. But when they sever a timeline, the loose ends bleed. The ink takes physical form to scrub away the survivors. If they breach the perimeter, they drag you screaming into the void.\""
+      "text": "She pulled up an online academic thread showing a picture of the newly discovered Greek tablet on display in a museum. \"There is a ton of discourse about what it translates to say,\" Naomi pointed out."
     },
     {
       "id": "uneraseable_s02_b023",
       "index": 23,
-      "scene": "CHAPTER 15: THE SANCTUARY OF 1846",
-      "speakerId": "eusacles",
-      "text": "Eusacles pushed himself off the split-rail fence with a defiant grin, wrenching his morningstar chain tight around his knuckles. \"We're all heading to the underworld eventually. Might as well give them hell before they get the chance.\""
+      "scene": "CHAPTER 18: THE MYTHIC FRAGMENTS",
+      "speakerId": "dravin",
+      "text": "Dravin adjusted his wire-rimmed glasses in astonishment. \"I actually wrote a paper on this tablet!\""
     },
     {
       "id": "uneraseable_s02_b024",
       "index": 24,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
+      "scene": "CHAPTER 18: THE MYTHIC FRAGMENTS",
       "speakerId": "narrator",
-      "text": "As the night deepened, Teddy guided the group past the split-rail fences toward a cluster of rustic timber cabins nestled among the pines. The settlement felt timeless\u2014a quiet haven of oil lanterns, hand-hewn logs, and hand-stitched quilts."
+      "text": "Naomi scrolled down the screen, showing the fierce online debate and op-eds surrounding Dravin's research."
     },
     {
       "id": "uneraseable_s02_b025",
       "index": 25,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
-      "speakerId": "pierre",
-      "text": "Pierre walked beside the professor, admiring the peaceful forest air. \"I must say, Monsieur Dravin, despite the ink beasts, I find this place quite lovely.\""
+      "scene": "CHAPTER 19: THE STOLEN TOMES & THE LOST ROADS",
+      "speakerId": "dravin",
+      "text": "\"Where is the closest fragment?\" Dravin asked, studying the map pins."
     },
     {
       "id": "uneraseable_s02_b026",
       "index": 26,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
-      "speakerId": "dravin",
-      "text": "\"There is an extraordinary amount of Greek mythology tucked away in unexpected corners of America,\" Dravin noted, glancing up through the pine boughs. \"Even in Las Vegas\u2014between the marble replicas at Caesars Palace and the neon sphinxes\u2014the archetypes persist. Myth has a way of anchoring itself in cultural memory.\""
+      "scene": "CHAPTER 19: THE STOLEN TOMES & THE LOST ROADS",
+      "speakerId": "narrator",
+      "text": "Naomi pointed out three active leads: a mythic toy catapult in a UK pawn shop, a doctor giving a book tour, and the ancient Greek limestone tablet at the state museum in North Carolina."
     },
     {
       "id": "uneraseable_s02_b027",
       "index": 27,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
-      "speakerId": "theodore",
-      "text": "\"I never had much time for fancy universities like Stanford,\" Teddy remarked as he led them up the wooden porch of the main cabin. \"Spent most of my youth on the timber trails. But out here, you learn that every myth was just history before someone decided to edit the manuscript.\""
+      "scene": "CHAPTER 19: THE STOLEN TOMES & THE LOST ROADS",
+      "speakerId": "narrator",
+      "text": "Pierre pulled out the ancient books he had taken from the Library of the Fates."
     },
     {
       "id": "uneraseable_s02_b028",
       "index": 28,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
-      "speakerId": "narrator",
-      "text": "Inside the cabin, an older woman named Rosa was arranging handmade wool blankets on cedar cots. When she caught sight of Alfie balanced neatly on Pierre\u2019s shoulder, her eyes lit up with gentle curiosity."
+      "scene": "CHAPTER 19: THE STOLEN TOMES & THE LOST ROADS",
+      "speakerId": "pierre",
+      "text": "\"Books are for the public to read,\" Pierre insisted innocently with a Gallic shrug."
     },
     {
       "id": "uneraseable_s02_b029",
       "index": 29,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
-      "speakerId": "rosa",
-      "text": "\"And who might you be, little traveler?\" Rosa asked gently, offering a wooden stool."
+      "scene": "CHAPTER 19: THE STOLEN TOMES & THE LOST ROADS",
+      "speakerId": "pierre",
+      "text": "Examining an ancient Greek passage in the volume, Naomi and Dravin translated a reference to the **Lost Roads**\u2014ancient shifting planar pathways tied to mythic origins. \"This book mentions the Lost Roads... and in a way, we are on a lost road now,\" Pierre noted thoughtfully."
     },
     {
       "id": "uneraseable_s02_b030",
       "index": 30,
-      "scene": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
-      "speakerId": "alfie",
-      "text": "Alfie hopped down onto the rustic pine table, adjusting the sewing-needle rapier at his hip. \"Name's Alfie, ma'am. Driftwood Duelist, at your service. Last thing I remember before waking up in that marble palace was darkness... salt water... the roar of cannon fire, and blood on the deck. Next thing I know, I'm carved out of driftwood with needle and thread.\""
+      "scene": "CHAPTER 20: THE RALEIGH TARGET",
+      "speakerId": "pierre",
+      "text": "Pierre examined the photos of the limestone artifact. \"This tablet is something I can see as a reason I am here.\""
     },
     {
       "id": "uneraseable_s02_b031",
       "index": 31,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "narrator",
-      "text": "The group settled onto the cots, the warmth of the cabin soothing their road-weary bones. Outside, crickets chirped in rhythmic unison against the quiet mountain night."
+      "scene": "CHAPTER 20: THE RALEIGH TARGET",
+      "speakerId": "eusacles",
+      "text": "\"Let's start with the Greek tablet,\" Eusacles agreed. \"At least we have the potential of the good old doctor translating it.\""
     },
     {
       "id": "uneraseable_s02_b032",
       "index": 32,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "narrator",
-      "text": "Suddenly, the heavy cedar door slammed open."
+      "scene": "CHAPTER 20: THE RALEIGH TARGET",
+      "speakerId": "dravin",
+      "text": "\"This tablet,\" Dravin nodded eagerly, his academic curiosity fully ignited."
     },
     {
       "id": "uneraseable_s02_b033",
       "index": 33,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "narrator",
-      "text": "Naomi barged into the room, kicking the door shut behind her with the heel of her boot. Her face was pale, her breath coming in tight, urgent gasps."
+      "scene": "CHAPTER 21: THE DRY RUN",
+      "speakerId": "alfie",
+      "text": "Before embarking on their mission, the group tested their coordination during a brief supply run. Alfie drew his needle rapier, indignantly protesting anytime anyone referred to him as a doll: \"Quit calling me a doll!\""
     },
     {
       "id": "uneraseable_s02_b034",
       "index": 34,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "naomi",
-      "text": "\"Lights out!\" Naomi hissed in a frantic whisper. \"Kill the lanterns! Right now!\""
+      "scene": "CHAPTER 21: THE DRY RUN",
+      "speakerId": "narrator",
+      "text": "Another truck pulled up carrying Mike, Teddy, Rosa, and Anna, all laughing heartily at the spirited exchange. Returning to the Margin's porch, Naomi was there to welcome them back, confirming everyone was ready."
     },
     {
       "id": "uneraseable_s02_b035",
       "index": 35,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
+      "scene": "CHAPTER 22: AT THE THRESHOLD OF THE LOST ROADS",
       "speakerId": "narrator",
-      "text": "Pierre scrambled to cup his hand over the kerosene lamp, pinching the wick until darkness enveloped the room. Through the glass panes, the warm ambient light of the settlement seemed to dim, as if swallowed by an encroaching shadow."
+      "text": "The party gathered at the edge of the Margin near the maintenance shed, standing on the edge of the threshold to begin their journey through the Lost Roads toward North Carolina."
     },
     {
       "id": "uneraseable_s02_b036",
       "index": 36,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "dravin",
-      "text": "\"Stay down on the floor,\" Naomi whispered from the corner, crouching low beside Dravin\u2019s cot. \"Corrector drill. Listen.\""
-    },
-    {
-      "id": "uneraseable_s02_b037",
-      "index": 37,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
+      "scene": "CHAPTER 22: AT THE THRESHOLD OF THE LOST ROADS",
       "speakerId": "narrator",
-      "text": "Outside the cabin, the crickets abruptly ceased their song. A heavy, suffocating silence pressed down on the roof. Through the window, faint wet slithering sounds dragged across the pine needles\u2014a low, discordant hum that vibrated the glass panes."
-    },
-    {
-      "id": "uneraseable_s02_b038",
-      "index": 38,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "narrator",
-      "text": "Dravin held his breath, clutching his silver bell in his coat pocket. Beside him, Eusacles gripped the iron handle of his morningstar, ready to strike at the first shadow that crossed the threshold."
-    },
-    {
-      "id": "uneraseable_s02_b039",
-      "index": 39,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "narrator",
-      "text": "For three agonizing minutes, the cold planar presence lingered outside the cabin, circling the perimeter like a predator sniffing at closed shutters. Then, with a subtle shift in air pressure, the suffocating dread receded into the mountain woods. Outside, a solitary cricket chirped, followed by the soft sigh of the night breeze."
-    },
-    {
-      "id": "uneraseable_s02_b040",
-      "index": 40,
-      "scene": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
-      "speakerId": "naomi",
-      "text": "Naomi let out a long breath and struck a sulfur match, reigniting the lantern. \"Three out of four surviving the drill without screaming. Not bad for newcomers.\""
-    },
-    {
-      "id": "uneraseable_s02_b041",
-      "index": 41,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "narrator",
-      "text": "With the lantern restored, Naomi unrolled a large, hand-drawn map across the center table. Unlike standard road atlases, this map was drawn in deep black ink, covered in shifting geographic lines, crossed-out towns, and handwritten margin notes."
-    },
-    {
-      "id": "uneraseable_s02_b042",
-      "index": 42,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "theodore",
-      "text": "\"Everyone in the Margin is focused on staying safe and comfortable,\" Naomi said, her tone bristling with determined impatience. \"Teddy thinks we can just hide out here forever. But reality is unraveling outside.\""
-    },
-    {
-      "id": "uneraseable_s02_b043",
-      "index": 43,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "dravin",
-      "text": "\"What do you mean?\" Dravin asked, leaning over the parchment."
-    },
-    {
-      "id": "uneraseable_s02_b044",
-      "index": 44,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "naomi",
-      "text": "\"Whenever the Fates make an edit to history,\" Naomi explained, tapping a point marked in North Carolina, \"they leave behind physical remnants\u2014fragments of altered stone, papyrus, and memory. We call them *fresh ink*. If a fragment remains uncollected in the mortal realm, it warps the local timeline, causing dimensional anomalies and attracting correctors.\""
-    },
-    {
-      "id": "uneraseable_s02_b045",
-      "index": 45,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "pierre",
-      "text": "\"Like the scrolls I took from the Library?\" Pierre asked, his eyes widening."
-    },
-    {
-      "id": "uneraseable_s02_b046",
-      "index": 46,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "naomi",
-      "text": "\"Exactly,\" Naomi nodded. \"The Fates want those back. But more importantly, there is a Greek tablet fragment currently sitting in a museum exhibit in Raleigh, North Carolina. It was dug up three months ago, but history says it shouldn't exist. It's radiating planar resonance. If we don't retrieve it, the correctors will tear through the mortal veil to destroy it.\""
-    },
-    {
-      "id": "uneraseable_s02_b047",
-      "index": 47,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "eusacles",
-      "text": "Eusacles grinned, a reckless spark returning to his eyes. \"A museum heist? To steal a magic rock from ancient Greece? Now that sounds a lot more fun than hiding under a bed during a drill.\""
-    },
-    {
-      "id": "uneraseable_s02_b048",
-      "index": 48,
-      "scene": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
-      "speakerId": "naomi",
-      "text": "\"We move at dawn,\" Naomi declared. \"And we take the Lost Roads.\""
-    },
-    {
-      "id": "uneraseable_s02_b049",
-      "index": 49,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "narrator",
-      "text": "Before dawn broke over the Appalachian ridges, the party gathered behind the settlement's timber barn. Parked beside a stack of weathered firewood was an ancient, rusted 1978 farm farm truck. Its green paint was oxidized and chipped, but its heavy V8 engine hummed with a deep, steady rumble."
-    },
-    {
-      "id": "uneraseable_s02_b050",
-      "index": 50,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "eusacles",
-      "text": "\"To leave the Margin,\" Teddy explained, tossing the keys to Eusacles, \"you can't just drive down highway ninety-five. You have to navigate the Lost Roads\u2014the abandoned bypasses and historical routes that were decommissioned when modern interstates were built.\""
-    },
-    {
-      "id": "uneraseable_s02_b051",
-      "index": 51,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "dravin",
-      "text": "\"The road remembers what was paved over,\" Dravin observed, admiring the rusted steel body of the truck."
-    },
-    {
-      "id": "uneraseable_s02_b052",
-      "index": 52,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "pierre",
-      "text": "Pierre pulled the three ancient scrolls from his rucksack, showing them to Teddy. \"These were on the shelves of the Fates. Naomi said they might guide our path.\""
-    },
-    {
-      "id": "uneraseable_s02_b053",
-      "index": 53,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "pierre",
-      "text": "Teddy examined the faded Greek lettering with a solemn nod. \"They map the temporal coordinates between the Margin and the Eastern Seaboard. Keep them close, Pierre. They are your anchor.\""
-    },
-    {
-      "id": "uneraseable_s02_b054",
-      "index": 54,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "narrator",
-      "text": "Mike\u2014Teddy\u2019s stoic companion\u2014walked to the boundary of the tree line and pulled a heavy wooden lever concealed within an old oak trunk. Ahead of the truck, the dense morning mist parted, revealing a narrow, single-lane asphalt road that vanished into an unnatural tunnel of dense fog."
-    },
-    {
-      "id": "uneraseable_s02_b055",
-      "index": 55,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "mike",
-      "text": "\"Keep your headlights on, don't stop for hitchhikers, and if the radio starts talking backward, keep your foot on the gas,\" Mike instructed plainly."
-    },
-    {
-      "id": "uneraseable_s02_b056",
-      "index": 56,
-      "scene": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
-      "speakerId": "eusacles",
-      "text": "Eusacles threw the truck into gear with a satisfying mechanical clunk. \"Let's go steal some history.\""
-    },
-    {
-      "id": "uneraseable_s02_b057",
-      "index": 57,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "narrator",
-      "text": "The farm truck rumbled through the dense mist of the Lost Roads for hours. Outside the cab windows, reality flickered between rolling Appalachian ridges, vast prairies, and stretches of dark, timeless forest that matched no known American highway."
-    },
-    {
-      "id": "uneraseable_s02_b058",
-      "index": 58,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "pierre",
-      "text": "Pierre sat in the middle of the bench seat with Alfie perched on the dashboard, peering through the sweeping windshield wipers. \"This truck is remarkable. It does not seem to care which decade we are driving through.\""
-    },
-    {
-      "id": "uneraseable_s02_b059",
-      "index": 59,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "narrator",
-      "text": "Ahead in the twilight, a glowing island of garish artificial light cut through the gloom. Towering above the fog was a weathered neon sign reading: *24 HR GAS & MART*. Beneath the fluorescent canopy stood four rusted fuel pumps, surrounded by an empty asphalt lot."
-    },
-    {
-      "id": "uneraseable_s02_b060",
-      "index": 60,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "eusacles",
-      "text": "\"We need fuel if we're going to make North Carolina,\" Eusacles noted, pulling the truck alongside the pump."
-    },
-    {
-      "id": "uneraseable_s02_b061",
-      "index": 61,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "dravin",
-      "text": "\"Stay sharp,\" Dravin warned, peering through his spectacles at the darkened store windows. \"We are between jurisdictions of reality out here.\""
-    },
-    {
-      "id": "uneraseable_s02_b062",
-      "index": 62,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "pierre",
-      "text": "Pierre hopped down from the cab, brushing dust from his corduroy jacket. \"I will go inside to pay. Monsieur Alfie, will you accompany me?\""
-    },
-    {
-      "id": "uneraseable_s02_b063",
-      "index": 63,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "pierre",
-      "text": "\"Right behind you, mate,\" Alfie replied, leaping down into Pierre's coat pocket so only his little driftwood head and rapier pommel poked out."
-    },
-    {
-      "id": "uneraseable_s02_b064",
-      "index": 64,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "narrator",
-      "text": "They pushed through the glass door of the convenience store. A cheap electronic chime rang out: *Ding-dong*. Behind the counter, a gaunt, hollow-eyed clerk in a faded blue uniform stared at them with unnatural, unblinking intensity."
-    },
-    {
-      "id": "uneraseable_s02_b065",
-      "index": 65,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "clerk",
-      "text": "\"What pump?\" the clerk rasped, his voice sounding like dry paper rubbing together."
-    },
-    {
-      "id": "uneraseable_s02_b066",
-      "index": 66,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "pierre",
-      "text": "\"Pump two, please,\" Pierre said politely, offering a crisp twenty-dollar bill. \"And perhaps a map of the interstate?\""
-    },
-    {
-      "id": "uneraseable_s02_b067",
-      "index": 67,
-      "scene": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
-      "speakerId": "pierre",
-      "text": "The clerk's gaze slowly dropped from Pierre's face down to the wooden doll nestled in his pocket. A strange, sinister sneer spread across the clerk's pale lips. \"That's not a normal toy you got there, boy... Where'd you steal it from?\""
-    },
-    {
-      "id": "uneraseable_s02_b068",
-      "index": 68,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "narrator",
-      "text": "The convenience store grew unnervingly quiet, the hum of the fluorescent tube lights buzzing loudly overhead."
-    },
-    {
-      "id": "uneraseable_s02_b069",
-      "index": 69,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "pierre",
-      "text": "\"Excuse me?\" Pierre said, his voice tightening with sudden French formality. \"I assure you, Monsieur, he is not a toy, and he is certainly not stolen.\""
-    },
-    {
-      "id": "uneraseable_s02_b070",
-      "index": 70,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "alfie",
-      "text": "The clerk leaned aggressively across the Formica counter, his long, spindly fingers reaching out toward Alfie\u2019s canvas brow. \"Around here, unusual things belong to the station. Hand it over, kid.\""
-    },
-    {
-      "id": "uneraseable_s02_b071",
-      "index": 71,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "pierre",
-      "text": "Inside Pierre's pocket, Alfie drew his needle rapier with a sharp hiss of steel. \"Touch this wood, pal, and I'll carve my initials in your forehead!\""
-    },
-    {
-      "id": "uneraseable_s02_b072",
-      "index": 72,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "narrator",
-      "text": "Pierre's eyes widened. A surge of ancient, protective fury spiked through his bloodline. As his heart pounded, a strange, hypnotic resonance washed over his vision\u2014a dangerous golden glint flashing behind his spectacles."
-    },
-    {
-      "id": "uneraseable_s02_b073",
-      "index": 73,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "pierre",
-      "text": "Pierre locked his gaze squarely into the clerk's eyes and stepped forward. \"You will step back, Monsieur. Immediately.\""
-    },
-    {
-      "id": "uneraseable_s02_b074",
-      "index": 74,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "narrator",
-      "text": "The moment their eyes met, the clerk froze instantly mid-reach. His sneer hardened into a rigid, petrified grimace. His skin took on a chalky, greyish pallor, his muscles seizing up as if turned to solid granite. The man stood completely immobilized\u2014alive, terrified, but unable to move a single finger."
-    },
-    {
-      "id": "uneraseable_s02_b075",
-      "index": 75,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "narrator",
-      "text": "Pierre blinked, the golden flare in his eyes fading as quickly as it had ignited. He stared at his trembling hands in quiet horror. The sensation was terrifyingly familiar\u2014a petrifying echo of an incident from his childhood in France that he had spent years trying to forget."
-    },
-    {
-      "id": "uneraseable_s02_b076",
-      "index": 76,
-      "scene": "CHAPTER 21: THE PETRIFYING GAZE",
-      "speakerId": "pierre",
-      "text": "\"Pierre...\" Alfie whispered, tapping his arm. \"We ought to grab the receipt and walk, mate.\""
-    },
-    {
-      "id": "uneraseable_s02_b077",
-      "index": 77,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "narrator",
-      "text": "Pierre dropped the twenty-dollar bill on the counter beside the frozen clerk, snatched the receipt, and backed swiftly out of the convenience store."
-    },
-    {
-      "id": "uneraseable_s02_b078",
-      "index": 78,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "alfie",
-      "text": "Outside, Alfie scrambled up the side of the metal pole and swiftly snipped the wire on the store's outdoor CCTV camera with his hooked hand. \"No pictures for the press, thank you very much!\""
-    },
-    {
-      "id": "uneraseable_s02_b079",
-      "index": 79,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "pierre",
-      "text": "Pierre sprinted back to the truck, clambering into the passenger seat and slamming the door. \"Eusacles! Drive! We must go now!\""
-    },
-    {
-      "id": "uneraseable_s02_b080",
-      "index": 80,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "narrator",
-      "text": "Eusacles hit the ignition, the V8 roaring to life with a satisfying growl. He dropped the clutch and the farm peeled out of the gas station lot, throwing gravel into the night."
-    },
-    {
-      "id": "uneraseable_s02_b081",
-      "index": 81,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "dravin",
-      "text": "\"What happened in there?\" Dravin asked, turning around from the front seat."
-    },
-    {
-      "id": "uneraseable_s02_b082",
-      "index": 82,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "pierre",
-      "text": "\"The clerk was rude,\" Pierre replied quietly, staring out the side window as the neon sign faded into the mist behind them. \"And I... I think my mother's bloodline is stronger than she told me.\""
-    },
-    {
-      "id": "uneraseable_s02_b083",
-      "index": 83,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "pierre",
-      "text": "Dravin placed a reassuring hand on Pierre\u2019s shoulder. \"We are all discovering who we are on these roads, Pierre. What matters is that we look out for one another.\""
-    },
-    {
-      "id": "uneraseable_s02_b084",
-      "index": 84,
-      "scene": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
-      "speakerId": "narrator",
-      "text": "Ahead, the fog of the Lost Roads began to thin, giving way to the dark pine forests and rolling highways of North Carolina. In the distance, the faint city lights of Raleigh gleamed on the horizon."
+      "text": "Pierre walked over to Dravin and Eusacles, adjusting his rucksack as they prepared to step into the shifting dimensional mist."
     }
   ]
 }

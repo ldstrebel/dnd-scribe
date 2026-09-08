@@ -9,7 +9,7 @@
   "session": {
     "id": "s3",
     "number": 3,
-    "title": "THE MUSEUM HEIST IN NORTH CAROLINA",
+    "title": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
     "synopsis": "Infiltrating the North Carolina Museum of Natural History in Raleigh, Pierre and Alfie use disguise and Wordcraft to recover and mend a fractured ancient stele, stabilizing an unraveling timeline seam."
   },
   "characters": {
@@ -43,22 +43,34 @@
       "color": "#ec4899",
       "role": "Maiden of Persephone \u00b7 Underworld Guide"
     },
-    "naomi": {
-      "name": "Naomi",
+    "theodore": {
+      "name": "Theodore (Teddy)",
       "type": "npc",
-      "color": "#ec4899",
-      "role": "Timeline Researcher \u00b7 Fragment Hunter"
+      "color": "#d97706",
+      "role": "Caretaker of The Margin \u00b7 1846 Surveyor"
+    },
+    "fates": {
+      "name": "The Three Fates",
+      "type": "npc",
+      "color": "#a855f7",
+      "role": "Cosmic Loom Weavers"
+    },
+    "nancy": {
+      "name": "Nancy (Guard)",
+      "type": "npc",
+      "color": "#0ea5e9",
+      "role": "Museum Gallery Guard"
     }
   },
   "stats": {
-    "wordCount": 2174,
-    "estimatedReadMinutes": 9,
-    "estimatedBookPages": 8.7,
+    "wordCount": 1481,
+    "estimatedReadMinutes": 6,
+    "estimatedBookPages": 5.9,
     "dialogueRatio": {
-      "spokenWords": 713,
-      "narrativeWords": 1461,
-      "spokenPct": 32.8,
-      "narrativePct": 67.2,
+      "spokenWords": 424,
+      "narrativeWords": 1057,
+      "spokenPct": 28.6,
+      "narrativePct": 71.4,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -66,54 +78,68 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1020,
-        "sharePct": 46.9
+        "words": 803,
+        "sharePct": 54.2
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 475,
-        "sharePct": 21.8
-      },
-      {
-        "id": "dravin",
-        "name": "Prof. Edward Dravin",
-        "color": "#8b5cf6",
-        "words": 321,
-        "sharePct": 14.8
-      },
-      {
-        "id": "ally",
-        "name": "Ally",
-        "color": "#ec4899",
-        "words": 227,
-        "sharePct": 10.4
+        "words": 263,
+        "sharePct": 17.8
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 75,
-        "sharePct": 3.4
+        "words": 113,
+        "sharePct": 7.6
       },
       {
-        "id": "naomi",
-        "name": "Naomi",
+        "id": "dravin",
+        "name": "Prof. Edward Dravin",
+        "color": "#8b5cf6",
+        "words": 82,
+        "sharePct": 5.5
+      },
+      {
+        "id": "fates",
+        "name": "The Three Fates",
+        "color": "#a855f7",
+        "words": 67,
+        "sharePct": 4.5
+      },
+      {
+        "id": "nancy",
+        "name": "Nancy (Guard)",
+        "color": "#0ea5e9",
+        "words": 59,
+        "sharePct": 4.0
+      },
+      {
+        "id": "ally",
+        "name": "Ally",
         "color": "#ec4899",
-        "words": 56,
-        "sharePct": 2.6
+        "words": 57,
+        "sharePct": 3.8
+      },
+      {
+        "id": "theodore",
+        "name": "Theodore (Teddy)",
+        "color": "#d97706",
+        "words": 37,
+        "sharePct": 2.5
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 6.8,
-      "pacingDynamic": false,
+      "pacingStdDev": 7.7,
+      "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 12,
-        "auditory": 5,
-        "tactile": 11,
-        "olfactory": 5,
-        "atmospheric": 12,
+        "visual": 5,
+        "auditory": 1,
+        "tactile": 6,
+        "olfactory": 1,
+        "atmospheric": 9,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -148,13 +174,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "32.8% Spoken / 67.2% Narrative Action",
+          "chosenStance": "28.6% Spoken / 71.4% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~135 words/scene)",
+          "chosenStance": "Micro-Chapters (~148 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -197,583 +223,373 @@
     {
       "id": "uneraseable_s03_b001",
       "index": 1,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
+      "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "At the edge of The Margin's sanctuary grounds, the heavy wooden door of Theodore's maintenance shed stood ajar, humming with latent planar resonance."
+      "text": "Behind the main cabin of The Margin, the warped pine door of Theodore's maintenance shed creaked open. Inside, rows of rusty shovels, ancient hand-forged axes, and weathered iron adzes hung beside modern socket wrenches on pegboard walls."
     },
     {
       "id": "uneraseable_s03_b002",
       "index": 2,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "naomi",
-      "text": "\"The tablet in North Carolina,\" Naomi had instructed during the morning briefing, pointing to the hand-drawn timeline ledger. \"A fragmented Greek stele, excavated three months ago. The museum curators have no idea what they hold, but its severed inscription is destabilizing the surrounding timeline. You go through the shed, take the Lost Roads, and recover it.\""
+      "scene": "Prologue",
+      "speakerId": "theodore",
+      "text": "Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed. \"The Lost Roads don't have street signs,\" he warned. \"Keep your wits about you.\""
     },
     {
       "id": "uneraseable_s03_b003",
       "index": 3,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "pierre",
-      "text": "\"The North Carolina Museum of Natural History,\" Alfie chirped from Pierre's shoulder, tapping his needle rapier against his driftwood hip. \"A world-famous place for dead fossils, apparently.\""
+      "scene": "Prologue",
+      "speakerId": "narrator",
+      "text": "Pierre stepped forward, his round spectacles catching the amber lantern light. He focused on the faint, shimmering resonance in the floorboards\u2014the ancient pull of stone and shifting earth."
     },
     {
       "id": "uneraseable_s03_b004",
       "index": 4,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "pierre",
-      "text": "Pierre adjusted his woolen beret and gripped his canvas rucksack, stepping across the threshold first. \"I will take the lead.\""
+      "scene": "Prologue",
+      "speakerId": "narrator",
+      "text": "Beyond the threshold, the physical walls of the shed dissolved into mist. The party stepped through into the Lost Roads\u2014an endless, shifting expanse where classical Greek colonnades rose out of overgrown meadows and forgotten gravel paths wound through the gray ether."
     },
     {
       "id": "uneraseable_s03_b005",
       "index": 5,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
+      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
       "speakerId": "narrator",
-      "text": "The moment Pierre crossed the doorframe, reality warped. The humble wooden shed stretched outward into an impossible expanse. Dust motes hung suspended like stars. Weathered wooden shelves expanded into towering aisles filled with ancient stone chisels, bronze mining picks, and massive iron ship anchors forged with archaic Hellenic hallmarks. Pierre's fingers brushed a limestone mallet, a sudden surge of instinctive memory flaring in his veins."
+      "text": "Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld."
     },
     {
       "id": "uneraseable_s03_b006",
       "index": 6,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "pierre",
-      "text": "\"What are the chances my mother intended for me to find my Gorgon lineage in a North Carolina museum?\" Pierre murmured softly, navigating the shifting aisles with unyielding confidence. \"It is strange... but meeting the Fates and stepping into the unknown feels like a pilgrimage in its own way.\""
+      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "speakerId": "ally",
+      "text": "\"You may call me Ally,\" she murmured, her voice carrying a soft, crystalline chill. \"The maiden of Persephone.\""
     },
     {
       "id": "uneraseable_s03_b007",
       "index": 7,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "narrator",
-      "text": "The tool racks dissolved into an endless brick-and-steel warehouse, its high catwalks lost in shadow."
+      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "speakerId": "pierre",
+      "text": "\"How much further to the museum would you say?\" Alfie piped up from Pierre's bag, his driftwood face tilting up with a cheeky grin. \"Because I'm a bit hungry.\""
     },
     {
       "id": "uneraseable_s03_b008",
       "index": 8,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "narrator",
-      "text": "Beyond the warehouse, the metal beams gave way to bombed-out stone arches, opening into the silent ruins of an ancient classical colonnade. Prof. Edward Dravin stepped into the ruined hall, his heart leaping with scholarly wonder. Walking through physical layers of severed history was everything a Stanford historian had ever dreamed of."
+      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "speakerId": "ally",
+      "text": "Ally offered a faint, cryptic warning. \"You will not travel for very long. The Lost Roads are a time warp\u2014sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left.\""
     },
     {
       "id": "uneraseable_s03_b009",
       "index": 9,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "narrator",
-      "text": "Ahead, a solitary figure walked gracefully among the broken pillars\u2014a youthful woman draped in woven gossamer robes that shimmered between winter pale and spring gold."
+      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "speakerId": "alfie",
+      "text": "\"Should have brought some pancakes for the road, mate,\" Alfie sighed."
     },
     {
       "id": "uneraseable_s03_b010",
       "index": 10,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "dravin",
-      "text": "Dravin pulled a leather-bound notebook and fountain pen from his tweed coat with academic urgency. \"Excuse me... greetings! We are travelers from The Margin.\""
+      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "speakerId": "narrator",
+      "text": "With a subtle turn, Ally stepped through an arching stone wall that closed softly behind her, leaving them to press forward through the clutter of ancient passages toward their destination."
     },
     {
       "id": "uneraseable_s03_b011",
       "index": 11,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "ally",
-      "text": "The maiden turned, her eyes widening with serene shock. \"The Margin? I have heard of this haven on the fringes of reality. The last time I encountered a traveler from those borders, it was a man named Theodore... Teddy, seeking fragments across time.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "narrator",
+      "text": "Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History."
     },
     {
       "id": "uneraseable_s03_b012",
       "index": 12,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "dravin",
-      "text": "\"Teddy!\" Dravin beamed, scribbling furiously into his notebook. \"You know him!\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "pierre",
+      "text": "\"Tell me, Professor,\" Pierre mused, adjusting his beret with a Gallic shrug, \"in Paris, our museums have thousands of years of history. In America, I have very low expectations.\""
     },
     {
       "id": "uneraseable_s03_b013",
       "index": 13,
-      "scene": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
-      "speakerId": "ally",
-      "text": "\"I do,\" the maiden answered softly. \"And my mistress takes a very keen interest in what you seek.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "dravin",
+      "text": "Dravin chuckled, checking the handle. \"Prop the annex door open,\" he instructed. \"If we have to make a quick exit, we cannot afford a locked deadbolt.\""
     },
     {
       "id": "uneraseable_s03_b014",
       "index": 14,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "ally",
-      "text": "\"You may call me Ally,\" the ethereal figure said, her voice chiming like silver bells. \"I am a maiden in the service of Persephone.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "pierre",
+      "text": "As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms. \"When we are inside, we must be careful with the talking doll bit.\""
     },
     {
       "id": "uneraseable_s03_b015",
       "index": 15,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "dravin",
-      "text": "Dravin pushed his spectacles up his nose, noting every detail. \"An attendant of Persephone! This is extraordinary. And your mistress is aware of the Margin?\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "alfie",
+      "text": "Alfie crossed his tiny wooden arms, looking offended. \"Now that is the second time someone has said that! I am a special little boy, mate!\""
     },
     {
       "id": "uneraseable_s03_b016",
       "index": 16,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "ally",
-      "text": "\"The borders of the Margin are expanding,\" Ally explained, looking over the strange company. \"The Lost Roads connect forgotten places to forgotten places across the fabric of time. When you step onto these paths, they know where you need to go.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "narrator",
+      "text": "Dravin adjusted the latch so the door stayed ajar."
     },
     {
       "id": "uneraseable_s03_b017",
       "index": 17,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
       "speakerId": "pierre",
-      "text": "\"Like a pilgrimage,\" Pierre smiled earnestly."
+      "text": "Pierre glanced down at him thoughtfully. \"Two quick questions: do you prefer to be called a doll, or is it more of an action figure?\""
     },
     {
       "id": "uneraseable_s03_b018",
       "index": 18,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "ally",
-      "text": "\"I am traveling back to Olympus,\" Ally continued. \"You seek the museum in North Carolina. Continue along this stone corridor, and the path will deliver you close to your destination.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "alfie",
+      "text": "\"An action figure,\" Alfie decided with a sharp nod. \"I could get behind that.\""
     },
     {
       "id": "uneraseable_s03_b019",
       "index": 19,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
       "speakerId": "pierre",
-      "text": "Pierre raised a brow. \"Olympus? Ah, I have heard Zeus wrote the greatest books in all of history.\""
+      "text": "\"Or perhaps a collectible?\" Pierre added."
     },
     {
       "id": "uneraseable_s03_b020",
       "index": 20,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "ally",
-      "text": "Ally chuckled softly, tilting her head. \"A translation error, perhaps. I do not believe Zeus has ever been known as an author. But I will mention your expanding haven to Persephone. She watches the fraying weave closely.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "pierre",
+      "text": "\"Then you can sit on my shoulder,\" Pierre offered. \"Americans already think my beret is funny-looking. Nobody will question a foreign student with a collectible.\""
     },
     {
       "id": "uneraseable_s03_b021",
       "index": 21,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
       "speakerId": "dravin",
-      "text": "\"Do you know anything about the ink beasts?\" Dravin asked, leaning forward. \"We encountered viscous planar horrors in the library.\""
+      "text": "Dravin found a length of thin twine from the storage room, carefully looping it around Alfie's back with a small hook. \"If anyone asks, I'll pull the string and you repeat your catchphrase like a toy.\""
     },
     {
       "id": "uneraseable_s03_b022",
       "index": 22,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "pierre",
-      "text": "\"They are symptoms of the unraveling,\" Ally warned. \"Corrosive tears where the weave has been cut.\" She glanced down at Pierre's chest pocket. \"And that construct... woven by the Fates themselves.\""
+      "scene": "CHAPTER 25: THE PARKING LOT ANNEX",
+      "speakerId": "narrator",
+      "text": "Pierre adjusted his beret, ready to enter the public galleries."
     },
     {
       "id": "uneraseable_s03_b023",
       "index": 23,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "alfie",
-      "text": "\"Name's Alfie, mate,\" the doll piped up, waving his tiny hand. \"Bit like Ally, ain't it? Got any pancakes or snacks for the road?\""
+      "scene": "CHAPTER 26: THE BEACON AND THE BECKON",
+      "speakerId": "narrator",
+      "text": "They passed through the glass double doors into the cool, air-conditioned atrium of the museum. Front and center in the main gallery, surrounded by velvet stanchions and informational placards, was the celebrated ancient Greek limestone tablet."
     },
     {
       "id": "uneraseable_s03_b024",
       "index": 24,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "ally",
-      "text": "\"I was not anticipating travelers requiring sustenance,\" Ally apologized with a warm smile. \"Be wary. Time warps along the Lost Roads. An hour's walk may place you hours or days beyond when you departed.\""
+      "scene": "CHAPTER 26: THE BEACON AND THE BECKON",
+      "speakerId": "narrator",
+      "text": "A crowd of museum visitors, tour groups, and scholars huddled around the exhibit, murmuring passionately. Online, the artifact had become a viral sensation: scholars were locked in a fierce debate over a single broken line of archaic Greek script. Some argued the inscription was a *Beacon*\u2014a historic warning of an incoming invasion. Others argued it was a *Beckon*\u2014a dark summons calling an army across the sea."
     },
     {
       "id": "uneraseable_s03_b025",
       "index": 25,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "dravin",
-      "text": "\"Thank you, Ally,\" Dravin nodded respectfully."
+      "scene": "CHAPTER 26: THE BEACON AND THE BECKON",
+      "speakerId": "narrator",
+      "text": "Behind the glass, the tablet emanated a subtle temporal thrum that Pierre and Dravin could feel in their teeth. The upper-right corner had been violently sheared away in antiquity\u2014the exact shape of the triangular limestone fragment resting safely in Pierre's rucksack."
     },
     {
       "id": "uneraseable_s03_b026",
       "index": 26,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
-      "speakerId": "narrator",
-      "text": "With a graceful step, the maiden walked toward a sheer stone wall. The rock parted like mist, closing seamlessly behind her as she vanished back toward Olympus."
+      "scene": "CHAPTER 27: THE NINETEEN SHEEP PRANK",
+      "speakerId": "dravin",
+      "text": "Dravin stepped toward the reception counter, whispering an incantation under his breath: \"I am going to cast Sleep on Nancy.\""
     },
     {
       "id": "uneraseable_s03_b027",
       "index": 27,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "scene": "CHAPTER 27: THE NINETEEN SHEEP PRANK",
       "speakerId": "narrator",
-      "text": "Pierre, Dravin, and Alfie hurried down the remaining flagstones until they reached a heavy, weathered metal door. Pierre turned the brass handle and pushed."
+      "text": "As the arcane sleep magic formed in Dravin's mind, Alfie\u2019s Fate-woven Wordcraft flared in resonance. In a sharp mental edit, Alfie shifted a single letter: *Sleep* became *Sheep*."
     },
     {
       "id": "uneraseable_s03_b028",
       "index": 28,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "scene": "CHAPTER 27: THE NINETEEN SHEEP PRANK",
       "speakerId": "narrator",
-      "text": "The scent of ancient dust, cedar chips, and cardboard rushed to meet them. They stepped through the threshold directly into a cluttered basement storage room filled with janitorial supplies, archaeology crates, and labeled archival boxes."
+      "text": "With a sudden thunder of clattering hooves, an office door behind the reception desk burst wide open. Eighteen woolly, bleating sheep came stampeding out into the museum lobby, scattering tourists, security guards, and brochures across the marble floor."
     },
     {
       "id": "uneraseable_s03_b029",
       "index": 29,
-      "scene": "CHAPTER 24: THE MAIDEN OF PERSEPHONE",
+      "scene": "CHAPTER 27: THE NINETEEN SHEEP PRANK",
       "speakerId": "narrator",
-      "text": "Dravin peeked through a high ground-level window. Afternoon sunlight was angling low across modern brick. A green sign on the exterior wall read: *NORTH CAROLINA MUSEUM OF HISTORY \u2014 ARCHIVAL ANNEX*."
+      "text": "Pierre took his cue as the chaos erupted. Diving low, he grabbed the belly of a charging ram\u2014a daring Odysseus maneuver\u2014and let the sheep carry him swiftly past the reaching hands of the bewildered guards and straight into the research gallery."
     },
     {
       "id": "uneraseable_s03_b030",
       "index": 30,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "pierre",
-      "text": "\"Tell me, Professor,\" Pierre murmured, cracking open the storage room door to peer into the main corridor. \"An American museum... that is twenty, thirty years of history, yes?\""
+      "scene": "CHAPTER 27: THE NINETEEN SHEEP PRANK",
+      "speakerId": "narrator",
+      "text": "Dravin grinned with wicked academic delight. Quickly invoking an illusion cantrip, he painted bold black numerals across the flanks of the charging flock\u2014numbering them **1 through 19**, deliberately omitting number 14 for the classic senior prank."
     },
     {
       "id": "uneraseable_s03_b031",
       "index": 31,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "dravin",
-      "text": "\"As with anything in academia, that depends on your definitions,\" Dravin whispered back with a dry smile. \"Though this collection features artifacts considerably older than the Republic.\""
+      "scene": "CHAPTER 28: HIDING IN PLAIN SIGHT",
+      "speakerId": "narrator",
+      "text": "While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze\u2014limp limbs and vacant coral eyes."
     },
     {
       "id": "uneraseable_s03_b032",
       "index": 32,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "pierre",
-      "text": "Pierre gave a Gallic shrug. \"In Paris, we have stones older than the concept of clocks. But let us see what they have found.\""
+      "scene": "CHAPTER 29: SECURING THE STAGING AREA",
+      "speakerId": "narrator",
+      "text": "Pierre joined Dravin near the staging area for the museum\u2019s visiting epigraphy team. Groups of suited academic researchers were gathered near the stanchions, waiting for the sheep commotion to clear."
     },
     {
       "id": "uneraseable_s03_b033",
       "index": 33,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "narrator",
-      "text": "The trio moved stealthily out of the basement annex, following directional signs toward the second-floor Aegean wing."
+      "scene": "CHAPTER 29: SECURING THE STAGING AREA",
+      "speakerId": "pierre",
+      "text": "Dravin whispered to Pierre: \"The staff are already preparing their evening documentation queue. We can position the fragment directly on their intake table.\""
     },
     {
       "id": "uneraseable_s03_b034",
       "index": 34,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
+      "scene": "CHAPTER 29: SECURING THE STAGING AREA",
       "speakerId": "narrator",
-      "text": "Under the soft gallery spotlights, rows of glass cases displayed bronze coins, terracotta pottery, and fractured clay urns. In the center of the hall, isolated on a marble plinth behind velvet stanchions, stood the exhibit's centerpiece: a slab of grey Aegean limestone etched with archaic Hellenic characters."
+      "text": "Alfie remained motionless on the display cart, perfectly executing his toy freeze."
     },
     {
       "id": "uneraseable_s03_b035",
       "index": 35,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "dravin",
-      "text": "\"There it is,\" Dravin whispered, his pulse quickening as he examined the stone."
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "narrator",
+      "text": "Taking a seat in the gallery alcove, Pierre examined the grid layout of the exhibition hall."
     },
     {
       "id": "uneraseable_s03_b036",
       "index": 36,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
       "speakerId": "narrator",
-      "text": "The upper corner of the stele had been sheared off in a violent, jagged break. Around the fracture, a faint, iridescent violet static crackled in the air\u2014the identical temporal hum they had felt back in the Library of the Fates."
+      "text": "Pierre examined the exhibit layout and display plaques, preparing to add an impressive discovery to the museum's collection."
     },
     {
       "id": "uneraseable_s03_b037",
       "index": 37,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "pierre",
-      "text": "Pierre reached into his canvas bag, his fingers finding the jagged limestone fragment wrapped in felt. \"The fracture pattern matches perfectly.\""
+      "scene": "CHAPTER 31: THE INTAKE TRAY SETUP",
+      "speakerId": "narrator",
+      "text": "Pierre placed the limestone fragment and Alfie onto a documentation tray."
     },
     {
       "id": "uneraseable_s03_b038",
       "index": 38,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "dravin",
-      "text": "\"And the display pedestal is protected by active magnetic contact sensors,\" Dravin observed, pointing to the copper wiring running under the velvet base. \"We cannot simply lift it without triggering building security.\""
+      "scene": "CHAPTER 31: THE INTAKE TRAY SETUP",
+      "speakerId": "narrator",
+      "text": "He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy."
     },
     {
       "id": "uneraseable_s03_b039",
       "index": 39,
-      "scene": "CHAPTER 25: THE FRACTURED STELE",
-      "speakerId": "dravin",
-      "text": "Alfie perched on Dravin's shoulder, tapping his chin. \"Then we wait for closing time and make our move.\""
+      "scene": "CHAPTER 31: THE INTAKE TRAY SETUP",
+      "speakerId": "pierre",
+      "text": "On the stone fragment's tray, Pierre penned a bold label: \"Insert on J4... proof it was Beacon!\""
     },
     {
       "id": "uneraseable_s03_b040",
       "index": 40,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "At six o'clock sharp, the museum's automated chime echoed through the galleries, accompanied by an announcement requesting all visitors proceed toward the main exits."
+      "text": "Pierre carried his documentation tray directly toward the lead researcher's examination desk."
     },
     {
       "id": "uneraseable_s03_b041",
       "index": 41,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "Pierre, Dravin, and Alfie ducked into an alcove behind an oversized tapestry of the Battle of Marathon, waiting in absolute stillness as the footsteps of tourists faded away."
+      "text": "The senior administrator looked up, startled by the unusual tray. \"What is this? Where did this stone come from?\""
     },
     {
       "id": "uneraseable_s03_b042",
       "index": 42,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
-      "speakerId": "narrator",
-      "text": "Heavy security doors clicked shut at the end of the corridor with a decisive mechanical thud. Footsteps approached\u2014a uniformed night guard on patrol, his flashlight beam sweeping across the marble floors."
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "pierre",
+      "text": "Pierre blinked with wide, earnest Parisian innocence. \"Pardon, monsieur! It is my first day here. I came all the way from France to work on this inscription. My staff email and ID badge have not yet been activated, but I brought this translation piece from the storage queue.\""
     },
     {
       "id": "uneraseable_s03_b043",
       "index": 43,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
-      "speakerId": "dravin",
-      "text": "\"He's walking right toward the Aegean wing,\" Dravin whispered, keeping his back pressed against the plaster."
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "fates",
+      "text": "The administrator stared at the triangular limestone piece and its handwritten label. \"You're saying this definitively proves the tablet says *Beacon*? How did a first-day intern solve what our team has been debating for six months?\""
     },
     {
       "id": "uneraseable_s03_b044",
       "index": 44,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
-      "speakerId": "dravin",
-      "text": "Alfie sprang into action, scurrying up Dravin's shoulder to whisper into his ear. \"Leave the guard to me, mates. I've got a little divine trick up my sleeve.\""
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "fates",
+      "text": "The curator adjusted his glasses, completely captivated by the limestone fragment. \"This could change everything... We must test if it fits the main tablet the moment the museum closes at six.\""
     },
     {
       "id": "uneraseable_s03_b045",
       "index": 45,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "\"What kind of trick?\" Pierre asked, raising an eyebrow."
+      "text": "\"In Paris, we work with old stone every day,\" Pierre smiled smoothly."
     },
     {
       "id": "uneraseable_s03_b046",
       "index": 46,
-      "scene": "CHAPTER 26: THE SIX O'CLOCK BELL",
-      "speakerId": "alfie",
-      "text": "\"Wordcraft,\" Alfie grinned, his shell-button eyes gleaming. \"Watch and learn.\""
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "pierre",
+      "text": "\"We will test it right after closing,\" the curator agreed, motioning toward the central exhibit."
     },
     {
       "id": "uneraseable_s03_b047",
       "index": 47,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
-      "speakerId": "narrator",
-      "text": "As the guard stepped into the gallery entrance, Alfie raised his tiny sewing needle toward the ceiling, his driftwood body vibrating with divine power."
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "alfie",
+      "text": "Beside the stone on the tray, Alfie gave a subtle tug on his twine loop, piping up in his best tinny toy impression: \"Watch out for the water! Pull the string again!\""
     },
     {
       "id": "uneraseable_s03_b048",
       "index": 48,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
-      "speakerId": "narrator",
-      "text": "Rather than invoking a standard enchantment to put the guard to *Sleep*, Alfie twisted the concept on its head, swapping a single letter of the cosmic weave: *Sleep* became *Sheep*."
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "alfie",
+      "text": "The curator blinked, tapping the wooden puppet. \"Curious little exhibit souvenir... We'll catalog the doll after the epigraphy test.\" He lifted the intake tray and placed it onto his staging cart."
     },
     {
       "id": "uneraseable_s03_b049",
       "index": 49,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "A sudden, brilliant flare of white starlight exploded across the polished floor. With a chorus of bewildered bleats, five fully grown, fluffy spectral sheep materialized out of thin air, trotting across the marble tiles."
+      "text": "Pierre gave a polite nod, keeping his hands clasped casually behind his back as the cart was wheeled directly into the central atrium beside the pedestal."
     },
     {
       "id": "uneraseable_s03_b050",
       "index": 50,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "\"What in the world\u2014\" the guard gasped, dropping his flashlight as a spectral ram nudged his kneecaps."
+      "text": "The museum\u2019s overhead chimes rang out in a warm six o'clock chime, echoing across the marble galleries."
     },
     {
       "id": "uneraseable_s03_b051",
       "index": 51,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
-      "speakerId": "narrator",
-      "text": "The sheep scattered in all directions, bleating loudly, their hooves clicking wildly against the stone as they trotted around glass display cases. The guard scrambled after them in utter disbelief, shouting into his radio about livestock loose on the second floor."
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "nancy",
+      "text": "Nancy\u2019s cheerful voice sounded over the intercom, broadcasting live to her social media stream: \"Well, that's all for today, sugar! It's six o'clock and time for us to close down the North Carolina Museum of History. Head on out, and stay tuned to our stream\u2014I hear there might be a little excitement in the Greek wing tonight!\""
     },
     {
       "id": "uneraseable_s03_b052",
       "index": 52,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
-      "speakerId": "dravin",
-      "text": "Dravin covered his mouth to stifle a laugh. \"Incredible... absolute brilliance.\""
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "Security officers in dark blazers ushered the remaining visitors out through the revolving glass doors. Near the main exhibit plinth, a guard in heavy tactical gear walked over to the security console and placed his hand above the large red master button, preparing to bring down the reinforced protective claw over the ancient tablet."
     },
     {
       "id": "uneraseable_s03_b053",
       "index": 53,
-      "scene": "CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK",
-      "speakerId": "pierre",
-      "text": "\"The corridor is clear,\" Pierre whispered, gesturing forward. \"Let us move before the rest of the security team arrives.\""
-    },
-    {
-      "id": "uneraseable_s03_b054",
-      "index": 54,
-      "scene": "CHAPTER 28: BADGES AND CORRIDORS",
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "While the guards scrambled in the distance chasing the phantom sheep, Pierre slipped into an adjacent staff prep room."
-    },
-    {
-      "id": "uneraseable_s03_b055",
-      "index": 55,
-      "scene": "CHAPTER 28: BADGES AND CORRIDORS",
-      "speakerId": "narrator",
-      "text": "Hanging on a wooden coat peg was a long white archival lab coat, a pair of blue nitrile gloves, and a visitor lanyard badge marked *CONSERVATION & CURATION*."
-    },
-    {
-      "id": "uneraseable_s03_b056",
-      "index": 56,
-      "scene": "CHAPTER 28: BADGES AND CORRIDORS",
-      "speakerId": "dravin",
-      "text": "\"Put it on,\" Dravin advised softly from the doorway. \"If anyone intercepts you near the pedestal, a confident intern is far less suspicious than a thief in the dark.\""
-    },
-    {
-      "id": "uneraseable_s03_b057",
-      "index": 57,
-      "scene": "CHAPTER 28: BADGES AND CORRIDORS",
-      "speakerId": "pierre",
-      "text": "Pierre threw on the coat, adjusting the collar over his sweater and smoothing his beret. \"I am an exchange intern from the Sorbonne, assisting with Aegean epigraphy. It is quite simple.\""
-    },
-    {
-      "id": "uneraseable_s03_b058",
-      "index": 58,
-      "scene": "CHAPTER 28: BADGES AND CORRIDORS",
-      "speakerId": "alfie",
-      "text": "\"I'll ride in the breast pocket,\" Alfie offered, slipping into the coat's front pouch until only his coral-and-shell eyes peeked over the hem. \"If anyone gives you trouble, I'll sew their shoelaces together.\""
-    },
-    {
-      "id": "uneraseable_s03_b059",
-      "index": 59,
-      "scene": "CHAPTER 28: BADGES AND CORRIDORS",
-      "speakerId": "pierre",
-      "text": "Dravin positioned himself near the main gallery entrance to keep watch. \"Proceed, Pierre. We have only a few minutes before the alarm network resets.\""
-    },
-    {
-      "id": "uneraseable_s03_b060",
-      "index": 60,
-      "scene": "CHAPTER 29: THE FIRST-DAY INTERN",
-      "speakerId": "narrator",
-      "text": "Pierre strode calmly into the central Aegean hall, holding a clipboard he had grabbed from the prep station."
-    },
-    {
-      "id": "uneraseable_s03_b061",
-      "index": 61,
-      "scene": "CHAPTER 29: THE FIRST-DAY INTERN",
-      "speakerId": "pierre",
-      "text": "Halfway to the plinth, a second guard turned the corner, flashlight beam catching Pierre's lab coat. \"Hey! The museum is closed. Who are you?\""
-    },
-    {
-      "id": "uneraseable_s03_b062",
-      "index": 62,
-      "scene": "CHAPTER 29: THE FIRST-DAY INTERN",
-      "speakerId": "pierre",
-      "text": "Pierre stopped, blinking through his wire-rimmed spectacles with innocent Parisian politeness. \"Ah, pardon, monsieur! I am Pierre, the new archival intern from the Sorbonne. Dr. Evans asked me to record the final surface measurements on the Hellenic limestone before the preservation team arrives.\""
-    },
-    {
-      "id": "uneraseable_s03_b063",
-      "index": 63,
-      "scene": "CHAPTER 29: THE FIRST-DAY INTERN",
-      "speakerId": "pierre",
-      "text": "The guard hesitated, shining his light on Pierre's lanyard badge and clipboard. \"Did you see any... sheep out in the hallway?\""
-    },
-    {
-      "id": "uneraseable_s03_b064",
-      "index": 64,
-      "scene": "CHAPTER 29: THE FIRST-DAY INTERN",
-      "speakerId": "pierre",
-      "text": "Pierre furrowed his brow in mild confusion. \"Sheep? In North Carolina? No, monsieur. Only the quiet acoustics of the marble.\""
-    },
-    {
-      "id": "uneraseable_s03_b065",
-      "index": 65,
-      "scene": "CHAPTER 29: THE FIRST-DAY INTERN",
-      "speakerId": "pierre",
-      "text": "\"Right... long shift,\" the guard muttered, shaking his head. \"Finish up your measurements and head out the north exit.\" He hurried off toward the sound of distant bleating."
-    },
-    {
-      "id": "uneraseable_s03_b066",
-      "index": 66,
-      "scene": "CHAPTER 30: THE TEMPERED GLASS CASE",
-      "speakerId": "narrator",
-      "text": "The moment the guard disappeared, Pierre stepped up to the central plinth."
-    },
-    {
-      "id": "uneraseable_s03_b067",
-      "index": 67,
-      "scene": "CHAPTER 30: THE TEMPERED GLASS CASE",
-      "speakerId": "narrator",
-      "text": "Alfie leaped from Pierre's pocket, scurrying along the base of the glass display case. With precision needlework, the tiny doll slid his blade between the copper contact sensors, creating a temporary bypass loop that grounded the circuit."
-    },
-    {
-      "id": "uneraseable_s03_b068",
-      "index": 68,
-      "scene": "CHAPTER 30: THE TEMPERED GLASS CASE",
-      "speakerId": "alfie",
-      "text": "\"Bypass secure, mate!\" Alfie whispered. \"Lift it easy.\""
-    },
-    {
-      "id": "uneraseable_s03_b069",
-      "index": 69,
-      "scene": "CHAPTER 30: THE TEMPERED GLASS CASE",
-      "speakerId": "narrator",
-      "text": "Pierre placed his hands on the heavy glass hood, lifting it straight up with steady, deliberate strength. The glass rose without a sound."
-    },
-    {
-      "id": "uneraseable_s03_b070",
-      "index": 70,
-      "scene": "CHAPTER 30: THE TEMPERED GLASS CASE",
-      "speakerId": "dravin",
-      "text": "Dravin joined him at the pedestal, unrolling a black velvet cloth to receive the stone. \"Careful... the temporal resonance is intense.\""
-    },
-    {
-      "id": "uneraseable_s03_b071",
-      "index": 71,
-      "scene": "CHAPTER 30: THE TEMPERED GLASS CASE",
-      "speakerId": "narrator",
-      "text": "Pierre carefully lifted the fractured limestone stele from its velvet cushion, setting it gently on the runner."
-    },
-    {
-      "id": "uneraseable_s03_b072",
-      "index": 72,
-      "scene": "CHAPTER 31: THE SEAM OF THE STOLEN WEAVE",
-      "speakerId": "narrator",
-      "text": "Pierre reached into his canvas bag, unwrapping the triangular limestone fragment he had carried from the Margin."
-    },
-    {
-      "id": "uneraseable_s03_b073",
-      "index": 73,
-      "scene": "CHAPTER 31: THE SEAM OF THE STOLEN WEAVE",
-      "speakerId": "narrator",
-      "text": "With steady hands, he aligned the jagged edges of the fragment against the broken corner of the museum stele."
-    },
-    {
-      "id": "uneraseable_s03_b074",
-      "index": 74,
-      "scene": "CHAPTER 31: THE SEAM OF THE STOLEN WEAVE",
-      "speakerId": "narrator",
-      "text": "The moment the two pieces touched, a blinding pulse of golden light erupted across the gallery. Deep grooves of archaic Greek lettering surged with incandescent fire. The jagged crack began to knit together like living bone, the severed timeline snapping back into cosmic alignment."
-    },
-    {
-      "id": "uneraseable_s03_b075",
-      "index": 75,
-      "scene": "CHAPTER 31: THE SEAM OF THE STOLEN WEAVE",
-      "speakerId": "dravin",
-      "text": "\"The inscription is completing itself,\" Dravin whispered in awe, reading the glowing ancient verse. \"It speaks of the Loom... the severed threads of human memory.\""
-    },
-    {
-      "id": "uneraseable_s03_b076",
-      "index": 76,
-      "scene": "CHAPTER 31: THE SEAM OF THE STOLEN WEAVE",
-      "speakerId": "narrator",
-      "text": "The violet static in the air collapsed into a soothing, resonant harmonic chime. The stone was whole once more\u2014the first recovered Fragment of the Stolen Weave stabilized."
-    },
-    {
-      "id": "uneraseable_s03_b077",
-      "index": 77,
-      "scene": "CHAPTER 31: THE SEAM OF THE STOLEN WEAVE",
-      "speakerId": "pierre",
-      "text": "Pierre quickly wrapped the restored stele in the heavy protective felt, securing it inside his rucksack. \"We have it.\""
-    },
-    {
-      "id": "uneraseable_s03_b078",
-      "index": 78,
-      "scene": "CHAPTER 32: THE RALEIGH GETAWAY",
-      "speakerId": "narrator",
-      "text": "Suddenly, the museum's secondary security alarm blared\u2014the harmonic pulse of the stele had tripped the room's seismic monitors. Red strobe lights flashed across the high ceilings."
-    },
-    {
-      "id": "uneraseable_s03_b079",
-      "index": 79,
-      "scene": "CHAPTER 32: THE RALEIGH GETAWAY",
-      "speakerId": "pierre",
-      "text": "\"Time to leg it, mates!\" Alfie shouted, darting back into Pierre's coat pocket."
-    },
-    {
-      "id": "uneraseable_s03_b080",
-      "index": 80,
-      "scene": "CHAPTER 32: THE RALEIGH GETAWAY",
-      "speakerId": "dravin",
-      "text": "\"Back to the storage annex!\" Dravin called out, leading the sprint down the marble corridor."
-    },
-    {
-      "id": "uneraseable_s03_b081",
-      "index": 81,
-      "scene": "CHAPTER 32: THE RALEIGH GETAWAY",
-      "speakerId": "narrator",
-      "text": "They rounded the corner just as two guards burst into the atrium from the main lobby. Pierre dipped through the service door, locking the deadbolt behind them."
-    },
-    {
-      "id": "uneraseable_s03_b082",
-      "index": 82,
-      "scene": "CHAPTER 32: THE RALEIGH GETAWAY",
-      "speakerId": "narrator",
-      "text": "Dravin flung open the metal threshold door in the basement storage room. Beyond the frame, the dusty annex vanished, replaced by the familiar scent of woodchips, ozone, and pine needle tea from The Margin."
-    },
-    {
-      "id": "uneraseable_s03_b083",
-      "index": 83,
-      "scene": "CHAPTER 32: THE RALEIGH GETAWAY",
-      "speakerId": "narrator",
-      "text": "They tumbled through the portal, landing safely on the floorboards of Theodore's maintenance shed. The door snapped shut behind them, cutting off the wailing sirens of Raleigh in an instant. The first Fragment of the Stolen Weave was home."
+      "text": "Pierre stood quietly in the center of the emptying hall, Alfie watching from the cart, as the heavy security shutters began their slow, motorized descent."
     }
   ]
 }
