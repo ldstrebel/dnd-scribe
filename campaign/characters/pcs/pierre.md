@@ -19,3 +19,9 @@ Sent by his mother to discover his origins in America, Pierre's dormant powers m
 * **Epigraphy & Stonecraft:** Instinctive tactile resonance with ancient Hellenic inscriptions and severed timeline tablets.
 * **Master of Disguise & Deception:** Calm, earnest French politeness that disarms hostility and bluffs institutional authorities.
 * **Key Equipment:** Heavy canvas rucksack containing the 3 scrolls stolen from the Library of the Fates, spare wire spectacles, woolen beret, and the recovered Greek stele Fragment.
+
+---
+
+## 🎙️ Speech-to-Text Phonetic Pitfalls & Glossary (STT Auto-Correction)
+* **"Pair-ey" / "Pair-ee" -> Paris:** Automated transcription frequently misinterprets Pierre's French pronunciation of *Paris* as *Brittany*, *Perry*, or random English phonetic words. Always verify French geographic comparisons (*e.g., "Versailles to Paris"*).
+* **French Interjections & Pronouns:** Ensure French conversational cadences (*"pardon", "monsieur", "merci"*) are preserved accurately and not garbled into English slang.
