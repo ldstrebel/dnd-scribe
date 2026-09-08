@@ -137,6 +137,75 @@
       }
     }
   },
+  "editorialForum": {
+    "forumTitle": "Session 3 Editorial Meta-Review & Discussion Forum",
+    "summary": "Forensic telemetry, active trade-offs, and historical PR change records.",
+    "initialBotReview": {
+      "author": "Adversarial Prose Critic (Bot)",
+      "badge": "Autonomous Editorial Lead",
+      "grade": "A-",
+      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
+      "technicalCompliance": {
+        "earthLeaks": 0,
+        "dialogueStutters": 0,
+        "stagnantTalkingHeads": 0,
+        "transcriptParity": "100%"
+      },
+      "ruthlessAnalysis": "Heist-style museum infiltration in Raleigh. Pierre's Sorbonne intern disguise and Alfie's Wordcraft ('Sleep' -> 'Sheep') showcase creative player agency. The trade-off is splitting the party focus, with Eusacles and Dravin in auxiliary roles while Pierre/Alfie carry the stealth infiltration.",
+      "tradeOffs": [
+        {
+          "dimension": "Narrative Velocity vs. Tangential Banter",
+          "chosenStance": "Heavy Compression (~0.20-0.28 ratio)",
+          "counterStance": "Expanded Slice-of-Life & Table Humor",
+          "tradeOffCost": "Sacrifices casual OOC table banter & prolonged dungeon exploration in favor of cinematic plot momentum."
+        },
+        {
+          "dimension": "Dialogue vs. Sensory/Action Weight",
+          "chosenStance": "28.9% Spoken / 71.1% Narrative Action",
+          "counterStance": "Dialogue-Dominant Banter (35-45%)",
+          "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
+        },
+        {
+          "dimension": "Chapter Granularity & Cadence",
+          "chosenStance": "Micro-Chapters (~138 words/scene)",
+          "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
+          "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
+        },
+        {
+          "dimension": "Tabletop Mechanics vs. Literary Realism",
+          "chosenStance": "Preserve Player Action + Grounded Prose Context",
+          "counterStance": "Destructive Retcons / Erasing Game Mechanics",
+          "tradeOffCost": "Maintains strict table canon & player agency, requiring continuous monitoring against future character leveling retcons."
+        }
+      ],
+      "nearestRisks": [
+        {
+          "title": "Emotional Velocity Friction",
+          "risk": "High-speed combat transitions in Act I risk rushing party bonding before major emotional payoffs.",
+          "mitigation": "Ensure quiet sanctuary/campfire intermissions in upcoming chapters."
+        },
+        {
+          "title": "Cast Spotlight Asymmetry",
+          "risk": "Session 1 introduces Alfie late in Scene 6, tilting early dialogue weight toward Pierre and Dravin.",
+          "mitigation": "S2/S3 actively rebalance Alfie's wordcraft dialogue, but new readers experience an asymmetric opening."
+        },
+        {
+          "title": "Latent Magic Continuity",
+          "risk": "Characters exploring mechanics organically at the table risk subtle continuity friction if players later formalize backstories.",
+          "mitigation": "Track active ambiguities in CRITIQUE_LOG.md Retcon Watchlist."
+        }
+      ]
+    },
+    "changelog": [
+      {
+        "iteration": "Canonical Initial Draft",
+        "timestamp": "2026-09-08T00:00:00.000Z",
+        "reviewer": "D&D Scribe Engine",
+        "summary": "Full novelization from raw audio transcripts with 100% parity verification."
+      }
+    ],
+    "retconWatchlist": []
+  },
   "blocks": [
     {
       "id": "uneraseable_s03_b001",
