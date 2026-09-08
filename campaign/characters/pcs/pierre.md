@@ -1,8 +1,21 @@
 # Pierre
+**Player:** Luke Strebel (`Luke S`)  
+**Type:** Player Character (PC)  
+**Role:** French Student · Gorgon Bloodline (Echidna Descent)  
+**UI Color:** `#3b82f6`  
+**Archetype:** Deceptive Scholar / Defensive Infiltrator  
 
-* **Player:** Luke Strebel (Luke S)
-* **Archetype:** Inquisitive French Youth / Gorgon Bloodline (Echidna Heritage)
-* **Appearance:** Slim young boy with thick round spectacles and a dark woolen beret. Beneath the beret, his dark hair has a subtle, serpentine movement—tamed Gorgon hair strands that twitch when startled. Carries a weathered canvas rucksack stuffed with old books, notebooks, and stonecraft chisels.
-* **Personality:** Polite, hesitant, observant, suspicious, with a dry French wit and a passion for fine culinary arts (crepes, French toast). Has an instinct for stonework and ancient inscriptions.
-* **Heritage:** Raised in France believing he was going on a family pilgrimage to America to uncover his true ancestry; traces bloodline back to Echidna, Mother of Monsters.
-* **Abilities & Skills:** Arcana, Stealth, Stonecraft, Deception, Wild Magic surge potential.
+---
+
+## 🎭 Character Identity & Backstory
+Pierre presents himself as an earnest, slightly nervous French exchange student with a lilting Parisian cadence, wire-rimmed spectacles, and a slightly tilted woolen beret. Beneath this polite facade lies an ancient, terrifying heritage: bloodline descent from Echidna and the Gorgons.
+
+Sent by his mother to discover his origins in America, Pierre's dormant powers manifest during high-stress crises. In Session 2, an aggressive confrontation with a Lost Road station attendant inadvertently triggered a petrifying golden flare in his eyes that locked the clerk into solid, frozen paralysis—an echo of a traumatic incident from his childhood in France. In Session 3, Pierre demonstrated masterful deceptive instincts by donning an oversized archival lab coat to bluff museum security as a first-day Sorbonne intern.
+
+---
+
+## ⚡ Core Abilities & Equipment
+* **Petrifying Glare (Gorgon Heritage):** A momentary golden flare behind his spectacles that can lock living targets into terrified, rigid stone-like paralysis.
+* **Epigraphy & Stonecraft:** Instinctive tactile resonance with ancient Hellenic inscriptions and severed timeline tablets.
+* **Master of Disguise & Deception:** Calm, earnest French politeness that disarms hostility and bluffs institutional authorities.
+* **Key Equipment:** Heavy canvas rucksack containing the 3 scrolls stolen from the Library of the Fates, spare wire spectacles, woolen beret, and the recovered Greek stele Fragment.

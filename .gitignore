@@ -25,6 +25,8 @@ meta/docs/.obsidian/plugins/*/data.json
 .env
 .env.*
 *.env
+.secrets/
+*.pem
 sessions/audio/
 
 # Python cache & bytecode

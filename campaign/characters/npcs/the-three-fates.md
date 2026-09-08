@@ -1,5 +1,9 @@
-# The Three Fates (The Moirai)
+# The Three Fates (Clotho, Lachesis, Atropos)
+**Type:** Non-Player Character (NPC)  
+**Role:** Cosmic Loom Weavers  
+**UI Color:** `#a855f7`  
 
-* **Role:** Ancient Weavers of Destiny and Time
-* **Appearance:** Three ancient crones draped in heavy, undyed linen with milky, unblinking eyes, working continuously over a suspended mythical loom.
-* **Function:** Weave the threads of human destiny, editing historical events and purging temporal anomalies with their magical woven blankets.
+---
+
+## 🎭 Lore & Background
+The ancient Greek personifications of destiny who dwell in a colossal marble Library outside normal time. As they weave and edit the cosmic tapestry, discarded timeline threads bleed into reality as aggressive ink-beasts ("Correctors") tasked with hunting down loose historical threads.

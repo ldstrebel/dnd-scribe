@@ -1,8 +1,21 @@
-# Eusacles ("Ukules" / "Youth Cle")
+# Eusacles (Ukules)
+**Player:** John Hagey  
+**Type:** Player Character (PC)  
+**Role:** Vegas Gambler · Demigod Son of Thanatos  
+**UI Color:** `#f59e0b`  
+**Archetype:** Frontline Brawler / Divine Sensory Scout  
 
-* **Player:** John Hagey
-* **Archetype:** Muscular Vegas Gambler / Demigod Son of Thanatos
-* **Appearance:** Broad-shouldered, athletic young man in a black tank top, dark jeans, and heavy boots. Wears a distinctive, heavy black metal wristwatch on his left forearm.
-* **Personality:** Pragmatic, blunt, gambling enthusiast heading to Las Vegas to play roulette. Unapologetic, casual attitude toward mortality because his father is literally the God of Death.
-* **Heritage & Divine Gift:** Son of Thanatos (the personification of death). His wristwatch is an enchanted artifact gifted by his father via his mother, which unwinds and expands into a spiked, chain-bound morningstar surrounded by pale golden light.
-* **Combat Style:** Frontline bruiser, devastating overhead chain morningstar strikes, Spartan kicks.
+---
+
+## 🎭 Character Identity & Backstory
+A rugged, cynical Las Vegas gambler who was just trying to catch a late-night bus to play roulette when reality fractured. Eusacles is the demigod son of Thanatos, the Greek personification of Death.
+
+Despite his irreverent banter and constant complaints about being displaced hundreds of kilometers from Vegas casino floors, Eusacles is the group's protective frontline anchor, wielding devastating divine senses and an enchanted chained morningstar.
+
+---
+
+## ⚡ Core Abilities & Equipment
+* **Divine Sense:** Perceives the metaphysical auras of all nearby entities, categorizing celestial, fiendish, and necrotic resonances.
+* **Watch-Chain Morningstar:** A mundane five-dollar wristwatch that magically expands into an iron-spiked chained morningstar.
+* **Spartan Kick & Close Brawling:** Brutal physical melee combat techniques used to stagger horned beasts.
+* **Key Equipment:** Denim jacket, heavy leather boots, enchanted watch-chain weapon, and aviator sunglasses.
