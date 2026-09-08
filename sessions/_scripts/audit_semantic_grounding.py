@@ -3,6 +3,7 @@ import os
 import re
 import json
 import argparse
+import datetime
 from collections import Counter
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -22,6 +23,11 @@ STOPWORDS = {
     "like", "yeah", "okay", "yes", "oh", "um", "uh", "well", "know", "say", "said", "think",
     "going", "want", "see", "look", "get", "got", "come", "came", "make", "made", "table", "note",
     "also", "really", "right", "sure", "thing", "things", "good", "mean", "much", "even"
+}
+
+HIGH_RISK_FOREIGN_PROPS = {
+    "sensor", "sensors", "laser", "lasers", "elevator", "keycard", "helicopter", 
+    "lockpick", "lockpicks", "suv", "sedan", "ford", "chevy", "toyota"
 }
 
 def clean_lines(filepath):
@@ -51,6 +57,7 @@ def audit_session_grounding(session_id, base_dir=None):
     indexed_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-raw-indexed.md")
     manifest_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-manifest.json")
     story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{session_id}-clean-story.md")
+    history_path = os.path.join(base_dir, "sessions", "data", "index", "audit_history.json")
 
     if not os.path.exists(indexed_path) or not os.path.exists(manifest_path) or not os.path.exists(story_path):
         print(f"[ERROR] Required files missing for session {session_id}")
@@ -106,13 +113,13 @@ def audit_session_grounding(session_id, base_dir=None):
                 if sm and reason == "ooc":
                     speaker, char_type, dialogue = sm.group(1), sm.group(2), sm.group(3)
                     words = extract_content_words(dialogue)
-                    if len(words) >= 8 and not any(meta in dialogue.lower() for meta in ["roll", "initiative", "saving throw", "spell slot", "dice"]):
+                    if len(words) >= 8 and not any(meta in dialogue.lower() for meta in ["roll", "initiative", "saving throw", "spell slot", "dice", "laugh", "chuckle"]):
                         unjustified_skips.append((int(num_str), speaker, dialogue))
 
         if unjustified_skips:
             for line_no, spk, dial in unjustified_skips[:3]:
                 warnings.append(
-                    f"Scene {scene_id}: Potential Canon Dialogue Drop at L{line_no:04d} ({spk}): '{dial[:70]}...' marked as (ooc) skip."
+                    f"Scene {scene_id}: Potential Canon Dialogue Drop at L{line_no:04d} ({spk}): '{dial[:70]}...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
                 )
 
         content_no_ledger = re.sub(r"<!--\s*LEDGER:.*?-->", "", block_content, flags=re.DOTALL)
@@ -129,18 +136,25 @@ def audit_session_grounding(session_id, base_dir=None):
             para_text_clean = re.sub(r"<!--.*?-->", "", para).strip()
             para_words = set(extract_content_words(para_text_clean))
 
+            # Foreign prop check
+            for prop in HIGH_RISK_FOREIGN_PROPS:
+                if prop in para_words and prop not in raw_scene_words:
+                    errors.append(
+                        f"Scene {scene_id}: UNANCHORED FOREIGN PROP '{prop}' detected in prose with 0 occurrences in raw transcript."
+                    )
+
             for m in markers:
                 raw_idx = m - 1
                 if 0 <= raw_idx < len(raw_lines):
                     r_line = raw_lines[raw_idx]
                     
-                    # If this is a tactical table note, it represents combat/narrative action
+                    # Tactical table note represents action
                     if r_line.startswith("*Table Note:"):
                         scene_turns_evaluated += 1
                         scene_grounded_turns += 1
                         continue
 
-                    # Only audit spoken dialogue turns
+                    # Spoken dialogue turns
                     has_dialogue = re.match(r"^\*\*([^*]+):\*\*\s*(.*)$", r_line)
                     if not has_dialogue:
                         scene_turns_evaluated += 1
@@ -186,6 +200,32 @@ def audit_session_grounding(session_id, base_dir=None):
         print(f"Scene {sc_id:<4} | {g_ratio*100:>15.1f}% | {kw_count:>21} | {status}")
 
     print("\n--- FORENSIC VERDICT ---")
+    
+    # Record history
+    history_record = {
+        "timestamp": datetime.datetime.now().isoformat(),
+        "session_id": session_id,
+        "status": "PASS" if not errors else "FAIL",
+        "errors_count": len(errors),
+        "warnings_count": len(warnings),
+        "scene_scores": [{"scene_id": s, "ratio": round(r, 3), "keywords": k} for s, r, k in grounding_scores],
+        "top_errors": errors[:5],
+        "top_warnings": warnings[:5]
+    }
+    
+    history_data = []
+    if os.path.exists(history_path):
+        try:
+            with open(history_path, "r", encoding="utf-8") as f:
+                history_data = json.load(f)
+        except Exception:
+            history_data = []
+    history_data.append(history_record)
+    # keep last 50 runs
+    history_data = history_data[-50:]
+    with open(history_path, "w", encoding="utf-8") as f:
+        json.dump(history_data, f, indent=2)
+
     if errors:
         print(f"[FAIL] {len(errors)} CRITICAL GROUNDING BREACHES DETECTED:")
         for e in errors[:10]:
