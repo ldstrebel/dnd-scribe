@@ -1,0 +1,63 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s3",
+  "title": "Uneraseable - CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
+  "reviewer": "Strebs",
+  "reviewerMeta": {
+    "handle": "Strebs",
+    "isBankPunName": false,
+    "suggestedBankReplacement": null
+  },
+  "exportedAt": "2026-09-09T00:02:20.519Z",
+  "totalCritiques": 3,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s03_b036",
+      "blockIndex": 36,
+      "speaker": "Narrator",
+      "speakerId": "narrator",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#94a3b8",
+      "category": "general",
+      "quote": "Pierre examined the exhibit layout and display plaques, preparing to add an impressive discovery to the museum's collection.",
+      "comment": "Repetitive start of lines and again tiny paragraphs",
+      "suggestedRewrite": "",
+      "sourceLine": 1372,
+      "sourceSpeaker": "Luke S",
+      "updatedAt": "2026-09-08T23:59:29.194Z"
+    },
+    {
+      "blockId": "uneraseable_s03_b045",
+      "blockIndex": 45,
+      "speaker": "Pierre",
+      "speakerId": "pierre",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#3b82f6",
+      "category": "continuity",
+      "quote": "\"In Paris, we work with old stone every day,\" Pierre smiled smoothly.",
+      "comment": "Needs descriptive pacing to paint the scene better",
+      "suggestedRewrite": "",
+      "sourceLine": 1598,
+      "sourceSpeaker": "Luke S",
+      "updatedAt": "2026-09-09T00:00:28.362Z"
+    },
+    {
+      "blockId": "uneraseable_s03_b053",
+      "blockIndex": 53,
+      "speaker": "Narrator",
+      "speakerId": "narrator",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#94a3b8",
+      "category": "general",
+      "quote": "Pierre stood quietly in the center of the emptying hall, Alfie watching from the cart, as the heavy security shutters began their slow, motorized descent.",
+      "comment": "Is this actually where we ended?",
+      "suggestedRewrite": "",
+      "sourceLine": 1656,
+      "sourceSpeaker": "Luke S",
+      "updatedAt": "2026-09-09T00:01:08.401Z"
+    }
+  ]
+}
