@@ -49,12 +49,6 @@
       "color": "#d97706",
       "role": "Caretaker of The Margin \u00b7 1846 Surveyor"
     },
-    "fates": {
-      "name": "The Three Fates",
-      "type": "npc",
-      "color": "#a855f7",
-      "role": "Cosmic Loom Weavers"
-    },
     "nancy": {
       "name": "Nancy (Guard)",
       "type": "npc",
@@ -63,14 +57,14 @@
     }
   },
   "stats": {
-    "wordCount": 1481,
-    "estimatedReadMinutes": 6,
-    "estimatedBookPages": 5.9,
+    "wordCount": 1966,
+    "estimatedReadMinutes": 8,
+    "estimatedBookPages": 7.9,
     "dialogueRatio": {
-      "spokenWords": 424,
-      "narrativeWords": 1057,
-      "spokenPct": 28.6,
-      "narrativePct": 71.4,
+      "spokenWords": 714,
+      "narrativeWords": 1252,
+      "spokenPct": 36.3,
+      "narrativePct": 63.7,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -78,69 +72,62 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 803,
-        "sharePct": 54.2
+        "words": 816,
+        "sharePct": 41.5
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 263,
-        "sharePct": 17.8
+        "words": 701,
+        "sharePct": 35.7
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 113,
-        "sharePct": 7.6
+        "words": 196,
+        "sharePct": 10.0
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
         "words": 82,
-        "sharePct": 5.5
-      },
-      {
-        "id": "fates",
-        "name": "The Three Fates",
-        "color": "#a855f7",
-        "words": 67,
-        "sharePct": 4.5
+        "sharePct": 4.2
       },
       {
         "id": "nancy",
         "name": "Nancy (Guard)",
         "color": "#0ea5e9",
-        "words": 59,
-        "sharePct": 4.0
+        "words": 77,
+        "sharePct": 3.9
       },
       {
         "id": "ally",
         "name": "Ally",
         "color": "#ec4899",
         "words": 57,
-        "sharePct": 3.8
+        "sharePct": 2.9
       },
       {
         "id": "theodore",
         "name": "Theodore (Teddy)",
         "color": "#d97706",
         "words": 37,
-        "sharePct": 2.5
+        "sharePct": 1.9
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 7.7,
+      "pacingStdDev": 7.9,
       "pacingDynamic": true,
       "sensoryRegisters": {
         "visual": 5,
-        "auditory": 1,
-        "tactile": 6,
-        "olfactory": 1,
-        "atmospheric": 9,
-        "registersCovered": 5
+        "auditory": 0,
+        "tactile": 7,
+        "olfactory": 2,
+        "atmospheric": 12,
+        "registersCovered": 4
       },
       "guardAudits": {
         "oocLeaks": 0,
@@ -174,13 +161,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "28.6% Spoken / 71.4% Narrative Action",
+          "chosenStance": "36.3% Spoken / 63.7% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~148 words/scene)",
+          "chosenStance": "Micro-Chapters (~163 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -463,133 +450,189 @@
       "index": 35,
       "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
       "speakerId": "narrator",
-      "text": "Taking a seat in the gallery alcove, Pierre examined the grid layout of the exhibition hall."
+      "text": "Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors."
     },
     {
       "id": "uneraseable_s03_b036",
       "index": 36,
       "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
-      "speakerId": "narrator",
-      "text": "Pierre examined the exhibit layout and display plaques, preparing to add an impressive discovery to the museum's collection."
+      "speakerId": "pierre",
+      "text": "\"Naomi told us that touching the artifacts was enough to trigger the resonance,\" Pierre murmured, his dark eyes calculating the security grid. \"Teddy touched two fragments, and she touched one. We do not need to steal a five-hundred-pound slab of limestone. We only need physical contact with the stone.\""
     },
     {
       "id": "uneraseable_s03_b037",
       "index": 37,
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "pierre",
+      "text": "Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eyeing the reinforced glass enclosure in the center of the hall. \"Aye, that's a relief, considering this slab weighs a bloody ton. But how do we get the curator to lift that glass hood for us?\""
+    },
+    {
+      "id": "uneraseable_s03_b038",
+      "index": 38,
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "pierre",
+      "text": "\"By giving them an irresistible reason,\" Pierre smiled, a spark of Parisian cunning in his gaze. \"An undeniable discovery. A missing piece of epigraphy to elevate their entire exhibition.\""
+    },
+    {
+      "id": "uneraseable_s03_b039",
+      "index": 39,
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "alfie",
+      "text": "Alfie squinted across the gallery floor at the weathered stele. \"Is the tablet cracked around the edges? Are there missing chunks along the border?\""
+    },
+    {
+      "id": "uneraseable_s03_b040",
+      "index": 40,
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "pierre",
+      "text": "Pierre nodded, tracing the irregular, weathered fracture lines in his memory. \"The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter.\""
+    },
+    {
+      "id": "uneraseable_s03_b041",
+      "index": 41,
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "alfie",
+      "text": "\"Then we find ourselves a matching limestone rock,\" Alfie whispered, his painted eyes gleaming with mischief. \"We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact.\""
+    },
+    {
+      "id": "uneraseable_s03_b042",
+      "index": 42,
+      "scene": "CHAPTER 30: THE CLUE BOARD STRATEGY",
+      "speakerId": "pierre",
+      "text": "Pierre patted the pocket containing his sculptor's chisel. \"A sound proposition. I have worked with limestone all my life. Let us prepare our artifact.\""
+    },
+    {
+      "id": "uneraseable_s03_b043",
+      "index": 43,
       "scene": "CHAPTER 31: THE INTAKE TRAY SETUP",
       "speakerId": "narrator",
       "text": "Pierre placed the limestone fragment and Alfie onto a documentation tray."
     },
     {
-      "id": "uneraseable_s03_b038",
-      "index": 38,
+      "id": "uneraseable_s03_b044",
+      "index": 44,
       "scene": "CHAPTER 31: THE INTAKE TRAY SETUP",
       "speakerId": "narrator",
       "text": "He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy."
     },
     {
-      "id": "uneraseable_s03_b039",
-      "index": 39,
+      "id": "uneraseable_s03_b045",
+      "index": 45,
       "scene": "CHAPTER 31: THE INTAKE TRAY SETUP",
       "speakerId": "pierre",
       "text": "On the stone fragment's tray, Pierre penned a bold label: \"Insert on J4... proof it was Beacon!\""
     },
     {
-      "id": "uneraseable_s03_b040",
-      "index": 40,
-      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Pierre carried his documentation tray directly toward the lead researcher's examination desk."
-    },
-    {
-      "id": "uneraseable_s03_b041",
-      "index": 41,
-      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "The senior administrator looked up, startled by the unusual tray. \"What is this? Where did this stone come from?\""
-    },
-    {
-      "id": "uneraseable_s03_b042",
-      "index": 42,
-      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "Pierre blinked with wide, earnest Parisian innocence. \"Pardon, monsieur! It is my first day here. I came all the way from France to work on this inscription. My staff email and ID badge have not yet been activated, but I brought this translation piece from the storage queue.\""
-    },
-    {
-      "id": "uneraseable_s03_b043",
-      "index": 43,
-      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "fates",
-      "text": "The administrator stared at the triangular limestone piece and its handwritten label. \"You're saying this definitively proves the tablet says *Beacon*? How did a first-day intern solve what our team has been debating for six months?\""
-    },
-    {
-      "id": "uneraseable_s03_b044",
-      "index": 44,
-      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "fates",
-      "text": "The curator adjusted his glasses, completely captivated by the limestone fragment. \"This could change everything... We must test if it fits the main tablet the moment the museum closes at six.\""
-    },
-    {
-      "id": "uneraseable_s03_b045",
-      "index": 45,
-      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "\"In Paris, we work with old stone every day,\" Pierre smiled smoothly."
-    },
-    {
       "id": "uneraseable_s03_b046",
       "index": 46,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "\"We will test it right after closing,\" the curator agreed, motioning toward the central exhibit."
+      "speakerId": "narrator",
+      "text": "Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures."
     },
     {
       "id": "uneraseable_s03_b047",
       "index": 47,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "alfie",
-      "text": "Beside the stone on the tray, Alfie gave a subtle tug on his twine loop, piping up in his best tinny toy impression: \"Watch out for the water! Pull the string again!\""
+      "speakerId": "pierre",
+      "text": "The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. \"What is this? Where did this specimen come from?\""
     },
     {
       "id": "uneraseable_s03_b048",
       "index": 48,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "alfie",
-      "text": "The curator blinked, tapping the wooden puppet. \"Curious little exhibit souvenir... We'll catalog the doll after the epigraphy test.\" He lifted the intake tray and placed it onto his staging cart."
+      "speakerId": "pierre",
+      "text": "Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. \"Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue.\""
     },
     {
       "id": "uneraseable_s03_b049",
       "index": 49,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Pierre gave a polite nod, keeping his hands clasped casually behind his back as the cart was wheeled directly into the central atrium beside the pedestal."
+      "speakerId": "pierre",
+      "text": "The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation. \"You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?\""
     },
     {
       "id": "uneraseable_s03_b050",
       "index": 50,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "The museum\u2019s overhead chimes rang out in a warm six o'clock chime, echoing across the marble galleries."
+      "speakerId": "pierre",
+      "text": "The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement. \"This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six.\""
     },
     {
       "id": "uneraseable_s03_b051",
       "index": 51,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "nancy",
-      "text": "Nancy\u2019s cheerful voice sounded over the intercom, broadcasting live to her social media stream: \"Well, that's all for today, sugar! It's six o'clock and time for us to close down the North Carolina Museum of History. Head on out, and stay tuned to our stream\u2014I hear there might be a little excitement in the Greek wing tonight!\""
+      "speakerId": "pierre",
+      "text": "\"In Paris, we work with ancient limestone every day,\" Pierre said with a modest shrug, leaning smoothly into his Parisian persona. \"We have a great deal of old stone in Berry. It is all the same to me\u2014I came across the Atlantic to help solve the mystery here in South Carolina\u2014ah, North Carolina.\""
     },
     {
       "id": "uneraseable_s03_b052",
       "index": 52,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Security officers in dark blazers ushered the remaining visitors out through the revolving glass doors. Near the main exhibit plinth, a guard in heavy tactical gear walked over to the security console and placed his hand above the large red master button, preparing to bring down the reinforced protective claw over the ancient tablet."
+      "speakerId": "pierre",
+      "text": "\"You don't even know what state you're in!\" the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride. \"Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out.\""
     },
     {
       "id": "uneraseable_s03_b053",
       "index": 53,
       "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "pierre",
+      "text": "Pierre tilted his head with faux innocence. \"Massachusetts... is that like a brand of chewing gum?\""
+    },
+    {
+      "id": "uneraseable_s03_b054",
+      "index": 54,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "pierre",
+      "text": "\"It is the premier history institution in the country, young man, not chewing gum!\" the curator huffed, waving his pen. \"We test this immediately after close. Bring the staging cart into the rotunda.\""
+    },
+    {
+      "id": "uneraseable_s03_b055",
+      "index": 55,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "alfie",
+      "text": "Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: \"Watch out for the water! Pull the string again!\""
+    },
+    {
+      "id": "uneraseable_s03_b056",
+      "index": 56,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "alfie",
+      "text": "The curator blinked down at the puppet, tapping Alfie's carved cedar head. \"Curious little exhibit souvenir... We'll catalog the doll after the tablet test.\" He loaded the intake tray onto the heavy rubber-wheeled staging cart."
+    },
+    {
+      "id": "uneraseable_s03_b057",
+      "index": 57,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "Pierre stood quietly in the center of the emptying hall, Alfie watching from the cart, as the heavy security shutters began their slow, motorized descent."
+      "text": "Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal."
+    },
+    {
+      "id": "uneraseable_s03_b058",
+      "index": 58,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "The museum\u2019s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries."
+    },
+    {
+      "id": "uneraseable_s03_b059",
+      "index": 59,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "nancy",
+      "text": "Nancy\u2019s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: \"Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream\u2014I hear there might be a little excitement in the Greek wing tonight!\""
+    },
+    {
+      "id": "uneraseable_s03_b060",
+      "index": 60,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup."
+    },
+    {
+      "id": "uneraseable_s03_b061",
+      "index": 61,
+      "scene": "CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence."
     }
   ]
 }

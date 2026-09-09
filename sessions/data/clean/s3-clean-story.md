@@ -110,11 +110,23 @@ Alfie remained motionless on the display cart, perfectly executing his toy freez
 <!-- RAW_RANGE: [1251, 1390] | SCENE_ID: 8 -->
 ## CHAPTER 30: THE CLUE BOARD STRATEGY
 
-Taking a seat in the gallery alcove, Pierre examined the grid layout of the exhibition hall.
+Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors.
 
-Pierre examined the exhibit layout and display plaques, preparing to add an impressive discovery to the museum's collection. <!-- L1372 --> <!-- L1380 -->
+"Naomi told us that touching the artifacts was enough to trigger the resonance," Pierre murmured, his dark eyes calculating the security grid. "Teddy touched two fragments, and she touched one. We do not need to steal a five-hundred-pound slab of limestone. We only need physical contact with the stone." <!-- L1354 -->
 
-<!-- LEDGER: rendered=[1372, 1380] skipped=[1251(ooc), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1256(ooc), 1257(ooc), 1258(ooc), 1259(ooc), 1260(ooc), 1261(ooc), 1262(ooc), 1263(ooc), 1264(ooc), 1265(ooc), 1266(ooc), 1267(ooc), 1268(ooc), 1269(ooc), 1270(ooc), 1271(ooc), 1272(ooc), 1273(ooc), 1274(ooc), 1275(ooc), 1276(ooc), 1277(ooc), 1278(ooc), 1279(ooc), 1280(ooc), 1281(ooc), 1282(ooc), 1283(ooc), 1284(ooc), 1285(ooc), 1286(ooc), 1287(ooc), 1288(ooc), 1289(ooc), 1290(ooc), 1291(ooc), 1292(ooc), 1293(ooc), 1294(ooc), 1295(ooc), 1296(ooc), 1297(ooc), 1298(ooc), 1299(ooc), 1300(ooc), 1301(ooc), 1302(ooc), 1303(ooc), 1304(ooc), 1305(ooc), 1306(ooc), 1307(ooc), 1308(ooc), 1309(ooc), 1310(ooc), 1311(ooc), 1312(ooc), 1313(ooc), 1314(ooc), 1315(ooc), 1316(ooc), 1317(ooc), 1318(ooc), 1319(ooc), 1320(ooc), 1321(ooc), 1322(ooc), 1323(ooc), 1324(ooc), 1325(ooc), 1326(ooc), 1327(ooc), 1328(ooc), 1329(ooc), 1330(ooc), 1331(ooc), 1332(ooc), 1333(ooc), 1334(ooc), 1335(ooc), 1336(ooc), 1337(ooc), 1338(ooc), 1339(ooc), 1340(ooc), 1341(ooc), 1342(ooc), 1343(ooc), 1344(ooc), 1345(ooc), 1346(ooc), 1347(ooc), 1348(ooc), 1349(ooc), 1350(ooc), 1351(ooc), 1352(ooc), 1353(ooc), 1354(ooc), 1355(ooc), 1356(ooc), 1357(ooc), 1358(ooc), 1359(ooc), 1360(ooc), 1361(ooc), 1362(ooc), 1363(ooc), 1364(ooc), 1365(ooc), 1366(ooc), 1367(ooc), 1368(ooc), 1369(ooc), 1370(ooc), 1371(ooc), 1373(ooc), 1374(ooc), 1375(ooc), 1376(ooc), 1377(ooc), 1378(ooc), 1379(ooc), 1381(ooc), 1382(ooc), 1383(ooc), 1384(ooc), 1385(ooc), 1386(ooc), 1387(ooc), 1388(ooc), 1389(ooc), 1390(ooc)] -->
+Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eyeing the reinforced glass enclosure in the center of the hall. "Aye, that's a relief, considering this slab weighs a bloody ton. But how do we get the curator to lift that glass hood for us?" <!-- L1367 -->
+
+"By giving them an irresistible reason," Pierre smiled, a spark of Parisian cunning in his gaze. "An undeniable discovery. A missing piece of epigraphy to elevate their entire exhibition." <!-- L1372 --> <!-- L1380 -->
+
+Alfie squinted across the gallery floor at the weathered stele. "Is the tablet cracked around the edges? Are there missing chunks along the border?" <!-- L1381 -->
+
+Pierre nodded, tracing the irregular, weathered fracture lines in his memory. "The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter."
+
+"Then we find ourselves a matching limestone rock," Alfie whispered, his painted eyes gleaming with mischief. "We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact." <!-- L1385 -->
+
+Pierre patted the pocket containing his sculptor's chisel. "A sound proposition. I have worked with limestone all my life. Let us prepare our artifact." <!-- L1386 -->
+
+<!-- LEDGER: rendered=[1354, 1367, 1372, 1380, 1381, 1385, 1386] skipped=[1251(ooc), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1256(ooc), 1257(ooc), 1258(ooc), 1259(ooc), 1260(ooc), 1261(ooc), 1262(ooc), 1263(ooc), 1264(ooc), 1265(ooc), 1266(ooc), 1267(ooc), 1268(ooc), 1269(ooc), 1270(ooc), 1271(ooc), 1272(ooc), 1273(ooc), 1274(ooc), 1275(ooc), 1276(ooc), 1277(ooc), 1278(ooc), 1279(ooc), 1280(ooc), 1281(ooc), 1282(ooc), 1283(ooc), 1284(ooc), 1285(ooc), 1286(ooc), 1287(ooc), 1288(ooc), 1289(ooc), 1290(ooc), 1291(ooc), 1292(ooc), 1293(ooc), 1294(ooc), 1295(ooc), 1296(ooc), 1297(ooc), 1298(ooc), 1299(ooc), 1300(ooc), 1301(ooc), 1302(ooc), 1303(ooc), 1304(ooc), 1305(ooc), 1306(ooc), 1307(ooc), 1308(ooc), 1309(ooc), 1310(ooc), 1311(ooc), 1312(ooc), 1313(ooc), 1314(ooc), 1315(ooc), 1316(ooc), 1317(ooc), 1318(ooc), 1319(ooc), 1320(ooc), 1321(ooc), 1322(ooc), 1323(ooc), 1324(ooc), 1325(ooc), 1326(ooc), 1327(ooc), 1328(ooc), 1329(ooc), 1330(ooc), 1331(ooc), 1332(ooc), 1333(ooc), 1334(ooc), 1335(ooc), 1336(ooc), 1337(ooc), 1338(ooc), 1339(ooc), 1340(ooc), 1341(ooc), 1342(ooc), 1343(ooc), 1344(ooc), 1345(ooc), 1346(ooc), 1347(ooc), 1348(ooc), 1349(ooc), 1350(ooc), 1351(ooc), 1352(ooc), 1353(ooc), 1355(ooc), 1356(ooc), 1357(ooc), 1358(ooc), 1359(ooc), 1360(ooc), 1361(ooc), 1362(ooc), 1363(ooc), 1364(ooc), 1365(ooc), 1366(ooc), 1368(ooc), 1369(ooc), 1370(ooc), 1371(ooc), 1373(ooc), 1374(ooc), 1375(ooc), 1376(ooc), 1377(ooc), 1378(ooc), 1379(ooc), 1382(ooc), 1383(ooc), 1384(ooc), 1387(ooc), 1388(ooc), 1389(ooc), 1390(ooc)] -->
 
 <!-- RAW_RANGE: [1391, 1530] | SCENE_ID: 9 -->
 ## CHAPTER 31: THE INTAKE TRAY SETUP
@@ -130,35 +142,39 @@ On the stone fragment's tray, Pierre penned a bold label: "Insert on J4... proof
 <!-- RAW_RANGE: [1531, 1665] | SCENE_ID: 10 -->
 ## CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL
 
-Pierre carried his documentation tray directly toward the lead researcher's examination desk.
+Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures.
 
-The senior administrator looked up, startled by the unusual tray. "What is this? Where did this stone come from?"
+The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. "What is this? Where did this specimen come from?"
 
-Pierre blinked with wide, earnest Parisian innocence. "Pardon, monsieur! It is my first day here. I came all the way from France to work on this inscription. My staff email and ID badge have not yet been activated, but I brought this translation piece from the storage queue." <!-- L1551 -->
+Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. "Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue." <!-- L1551 -->
 
-The administrator stared at the triangular limestone piece and its handwritten label. "You're saying this definitively proves the tablet says *Beacon*? How did a first-day intern solve what our team has been debating for six months?" <!-- L1552 --> <!-- L1554 -->
+The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation. "You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?" <!-- L1552 --> <!-- L1554 -->
 
-The curator adjusted his glasses, completely captivated by the limestone fragment. "This could change everything... We must test if it fits the main tablet the moment the museum closes at six." <!-- L1582 -->
+The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement. "This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six." <!-- L1582 -->
 
-"In Paris, we work with old stone every day," Pierre smiled smoothly. <!-- L1598 -->
+"In Paris, we work with ancient limestone every day," Pierre said with a modest shrug, leaning smoothly into his Parisian persona. "We have a great deal of old stone in Berry. It is all the same to me—I came across the Atlantic to help solve the mystery here in South Carolina—ah, North Carolina." <!-- L1598 --> <!-- L1603 -->
 
-"We will test it right after closing," the curator agreed, motioning toward the central exhibit. <!-- L1633 -->
+"You don't even know what state you're in!" the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride. "Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out." <!-- L1612 --> <!-- L1627 -->
 
-Beside the stone on the tray, Alfie gave a subtle tug on his twine loop, piping up in his best tinny toy impression: "Watch out for the water! Pull the string again!" <!-- L1641 --> <!-- L1644 --> <!-- L1646 -->
+Pierre tilted his head with faux innocence. "Massachusetts... is that like a brand of chewing gum?" <!-- L1632 -->
 
-The curator blinked, tapping the wooden puppet. "Curious little exhibit souvenir... We'll catalog the doll after the epigraphy test." He lifted the intake tray and placed it onto his staging cart. <!-- L1652 -->
+"It is the premier history institution in the country, young man, not chewing gum!" the curator huffed, waving his pen. "We test this immediately after close. Bring the staging cart into the rotunda." <!-- L1633 -->
 
-Pierre gave a polite nod, keeping his hands clasped casually behind his back as the cart was wheeled directly into the central atrium beside the pedestal. <!-- L1654 -->
+Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: "Watch out for the water! Pull the string again!" <!-- L1641 --> <!-- L1644 --> <!-- L1646 -->
 
-The museum’s overhead chimes rang out in a warm six o'clock chime, echoing across the marble galleries.
+The curator blinked down at the puppet, tapping Alfie's carved cedar head. "Curious little exhibit souvenir... We'll catalog the doll after the tablet test." He loaded the intake tray onto the heavy rubber-wheeled staging cart. <!-- L1652 -->
 
-Nancy’s cheerful voice sounded over the intercom, broadcasting live to her social media stream: "Well, that's all for today, sugar! It's six o'clock and time for us to close down the North Carolina Museum of History. Head on out, and stay tuned to our stream—I hear there might be a little excitement in the Greek wing tonight!" <!-- L1655 -->
+Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal. <!-- L1654 -->
 
-Security officers in dark blazers ushered the remaining visitors out through the revolving glass doors. Near the main exhibit plinth, a guard in heavy tactical gear walked over to the security console and placed his hand above the large red master button, preparing to bring down the reinforced protective claw over the ancient tablet.
+The museum’s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries.
 
-Pierre stood quietly in the center of the emptying hall, Alfie watching from the cart, as the heavy security shutters began their slow, motorized descent. <!-- L1656 -->
+Nancy’s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: "Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream—I hear there might be a little excitement in the Greek wing tonight!" <!-- L1655 -->
 
-<!-- LEDGER: rendered=[1551, 1552, 1554, 1582, 1598, 1633, 1641, 1644, 1646, 1652, 1654, 1655, 1656] skipped=[1531(ooc), 1532(ooc), 1533(ooc), 1534(ooc), 1535(ooc), 1536(ooc), 1537(ooc), 1538(ooc), 1539(ooc), 1540(ooc), 1541(ooc), 1542(ooc), 1543(ooc), 1544(ooc), 1545(ooc), 1546(ooc), 1547(ooc), 1548(ooc), 1549(ooc), 1550(ooc), 1553(ooc), 1555(ooc), 1556(ooc), 1557(ooc), 1558(ooc), 1559(ooc), 1560(ooc), 1561(ooc), 1562(ooc), 1563(ooc), 1564(ooc), 1565(ooc), 1566(ooc), 1567(ooc), 1568(ooc), 1569(ooc), 1570(ooc), 1571(ooc), 1572(ooc), 1573(ooc), 1574(ooc), 1575(ooc), 1576(ooc), 1577(ooc), 1578(ooc), 1579(ooc), 1580(ooc), 1581(ooc), 1583(ooc), 1584(ooc), 1585(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1589(ooc), 1590(ooc), 1591(ooc), 1592(ooc), 1593(ooc), 1594(ooc), 1595(ooc), 1596(ooc), 1597(ooc), 1599(ooc), 1600(ooc), 1601(ooc), 1602(ooc), 1603(ooc), 1604(ooc), 1605(ooc), 1606(ooc), 1607(ooc), 1608(ooc), 1609(ooc), 1610(ooc), 1611(ooc), 1612(ooc), 1613(ooc), 1614(ooc), 1615(ooc), 1616(ooc), 1617(ooc), 1618(ooc), 1619(ooc), 1620(ooc), 1621(ooc), 1622(ooc), 1623(ooc), 1624(ooc), 1625(ooc), 1626(ooc), 1627(ooc), 1628(ooc), 1629(ooc), 1630(ooc), 1631(ooc), 1632(ooc), 1634(ooc), 1635(ooc), 1636(ooc), 1637(ooc), 1638(ooc), 1639(ooc), 1640(ooc), 1642(ooc), 1643(ooc), 1645(ooc), 1647(ooc), 1648(ooc), 1649(ooc), 1650(ooc), 1651(ooc), 1653(ooc), 1657(ooc), 1658(ooc), 1659(ooc), 1660(ooc), 1661(ooc), 1662(ooc), 1663(ooc), 1664(ooc), 1665(ooc)] -->
+Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup.
+
+Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence. <!-- L1656 -->
+
+<!-- LEDGER: rendered=[1551, 1552, 1554, 1582, 1598, 1603, 1612, 1627, 1632, 1633, 1641, 1644, 1646, 1652, 1654, 1655, 1656] skipped=[1531(ooc), 1532(ooc), 1533(ooc), 1534(ooc), 1535(ooc), 1536(ooc), 1537(ooc), 1538(ooc), 1539(ooc), 1540(ooc), 1541(ooc), 1542(ooc), 1543(ooc), 1544(ooc), 1545(ooc), 1546(ooc), 1547(ooc), 1548(ooc), 1549(ooc), 1550(ooc), 1553(ooc), 1555(ooc), 1556(ooc), 1557(ooc), 1558(ooc), 1559(ooc), 1560(ooc), 1561(ooc), 1562(ooc), 1563(ooc), 1564(ooc), 1565(ooc), 1566(ooc), 1567(ooc), 1568(ooc), 1569(ooc), 1570(ooc), 1571(ooc), 1572(ooc), 1573(ooc), 1574(ooc), 1575(ooc), 1576(ooc), 1577(ooc), 1578(ooc), 1579(ooc), 1580(ooc), 1581(ooc), 1583(ooc), 1584(ooc), 1585(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1589(ooc), 1590(ooc), 1591(ooc), 1592(ooc), 1593(ooc), 1594(ooc), 1595(ooc), 1596(ooc), 1597(ooc), 1599(ooc), 1600(ooc), 1601(ooc), 1602(ooc), 1604(ooc), 1605(ooc), 1606(ooc), 1607(ooc), 1608(ooc), 1609(ooc), 1610(ooc), 1611(ooc), 1613(ooc), 1614(ooc), 1615(ooc), 1616(ooc), 1617(ooc), 1618(ooc), 1619(ooc), 1620(ooc), 1621(ooc), 1622(ooc), 1623(ooc), 1624(ooc), 1625(ooc), 1626(ooc), 1628(ooc), 1629(ooc), 1630(ooc), 1631(ooc), 1634(ooc), 1635(ooc), 1636(ooc), 1637(ooc), 1638(ooc), 1639(ooc), 1640(ooc), 1642(ooc), 1643(ooc), 1645(ooc), 1647(ooc), 1648(ooc), 1649(ooc), 1650(ooc), 1651(ooc), 1653(ooc), 1657(ooc), 1658(ooc), 1659(ooc), 1660(ooc), 1661(ooc), 1662(ooc), 1663(ooc), 1664(ooc), 1665(ooc)] -->
 
 <!-- RAW_RANGE: [1666, 1775] | SCENE_ID: 304 | OOC -->
 

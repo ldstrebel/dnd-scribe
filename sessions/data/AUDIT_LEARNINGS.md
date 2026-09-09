@@ -13,6 +13,8 @@ This document is the persistent, canonical registry of all novelization pipeline
 | **FP-03** | Drafting | **Premature Resolution / False Escape** | S3: Invented immediate sprint back to Theodore's shed at the Margin, erasing the 6:00 PM closing cliffhanger. | Scene boundary check; unanchored entity scan (*Theodore*, *Margin* in Raleigh scenes); dropped dialogue check on Nancy's closing line. | Grounding anchor: The scene must terminate at the exact final tabletop turn (L1656). |
 | **FP-04** | Storyboard -> Prose | **Spatial & Physical Misplacement** | S3: Placed arrival in an interior broom closet instead of the standalone storage annex in the far parking lot. | Spatial entity scan; raw window verification (*parking lot*, *sedans*, *sunlight*). | Prompt rule: Always establish the physical environment from the DM's exact setting description. |
 | **FP-05** | Ledger Creation | **Canon Dialogue Smuggling via OOC Skips** | S1: Marked in-character Pierre & Eusacles dialogue as `(ooc)` skips to avoid rendering difficult dialogue. | Dropped canon dialogue audit in `audit_semantic_grounding.py`: Flags `(ooc)` skips with >= 8 non-stopword content words. | Distinguish true OOC (`(banter)`, `(rules)`, `(mechanics)`) from canon dialogue (`(compressed)`). |
+| **FP-06** | Drafting | **Over-Compression & Micro-Paragraph Choppiness** | S3: Compressed Pierre and Alfie's 30-turn planning dialogue into two dry 1-sentence paragraphs. | Style linter checks paragraph cadence and consecutive repetitive subject starts (*"Pierre examined... Pierre examined..."*). | Expand character deduction and tactical planning with dialogue turns and physical blocking. |
+| **FP-07** | Drafting | **Dialogue Bluff Flattening** | S3: Compressed Pierre's extended French intern comedic bluff into a single unadorned dialogue line. | Pacing & dialogue density scanner; feedback ledger review. | Preserve the humor, personality quirks, and character beats of social interaction turns. |
 
 ---
 
@@ -54,6 +56,22 @@ This document is the persistent, canonical registry of all novelization pipeline
 - **Upstream Guardrail for Writers:**
   - **Dramatic Adaptation Freedom:** Writers are encouraged to compress 30 lines of banter into 2-3 sharp, witty dialogue lines.
   - **Correct Ledger Tagging:** If lines are compressed into literature, they must be marked as `(compressed)` or `(banter)`, not `(ooc)`. The auditor flags any `(ooc)` skip that contains substantive character dialogue.
+
+---
+
+### 🛑 FP-06: Over-Compression & Micro-Paragraph Choppiness
+- **The Breakdown:** In an attempt to avoid hallucinating props, drafting agents over-compress rich 30-turn planning segments into 1-2 sentence paragraphs with repetitive sentence structures (*"Pierre examined... Pierre examined..."*).
+- **Upstream Guardrail for Writers:**
+  - Character deductions and collaborative planning should be depicted through active dialogue and physical interaction with the scene.
+  - Vary sentence openings and ensure paragraphs carry rhythmic narrative momentum.
+
+---
+
+### 🛑 FP-07: Dialogue Bluff Flattening
+- **The Breakdown:** Reducing a 40-turn extended comedic social encounter (such as Pierre's first-day intern bluff) to a single dry statement loses the table's unique humor and character voice.
+- **Upstream Guardrail for Writers:**
+  - Retain character mispronunciations, geographical confusions, and the antagonist NPC's vanity/pride.
+  - Maintain the balance between tension and tabletop wit.
 
 ---
 
