@@ -1,0 +1,31 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s3",
+  "title": "Uneraseable - CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
+  "reviewer": "strebs",
+  "reviewerMeta": {
+    "handle": "strebs",
+    "isBankPunName": false,
+    "suggestedBankReplacement": null
+  },
+  "exportedAt": "2026-09-16T01:57:35.517Z",
+  "totalCritiques": 1,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s03_b088",
+      "blockIndex": 88,
+      "speaker": "Pierre",
+      "speakerId": "pierre",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#3b82f6",
+      "category": "tone",
+      "quote": "\"It is the premier history institution in the country, young man, not chewing gum!\" the curator huffed, waving his pen. \"We test this immediately after close. Bring the staging cart into the rotunda.\"",
+      "comment": "why is this all showing up as Pierre?",
+      "suggestedRewrite": "",
+      "sourceLine": null,
+      "sourceSpeaker": "Narrative Synthesis",
+      "updatedAt": "2026-09-16T01:57:17.388Z"
+    }
+  ]
+}
