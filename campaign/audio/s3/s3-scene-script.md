@@ -1,518 +1,562 @@
 # THE MARGIN: THE STOLEN WEAVE
 ## Session 3 Multi-Voice Production Voice Script
 
-> **Total Blocks:** 88 | **Voice Segments:** 156 | **Dialogue:** 68 | **Narration:** 88
+> **Total Blocks:** 95 | **Voice Segments:** 178 | **Dialogue:** 78 | **Narration:** 100
 
 ### 🎙️ Voice Cast Breakdown
 | Character / Role | Speaker Key | ElevenLabs Voice ID | Delivery Tone | Lines |
 |---|---|---|---|---|
-| **Narrator** | `narrator` | `onwK4e9ZLuTAKqWW03F9` | Evocative, atmospheric urban fantasy narration with deliberate cinematic pacing | **88** |
-| **Pierre** | `pierre` | `CYw3kZ02Hs0563khs1Fj` | Youthful French student, gentle accent, slight edge of Gorgon hiss when tense | **23** |
-| **Prof. Edward Dravin** | `dravin` | `N2lVS1w4EtoT3dr4eOWO` | Distinguished Stanford professor, erudite, gravelly, intellectual composure masking dark necromantic resonance | **18** |
-| **Eusacles** | `eusacles` | `TX3LPaxmHKxFdv7VOQHJ` | Charming, raspy Las Vegas cardshark, quick-talking swagger carrying the quiet chill of Thanatos | **13** |
-| **Alfie** | `alfie` | `yoZ06aMxZJJ28mfd3POQ` | Sharp, energetic Cockney voice, high spirited, miniature driftwood duelist with a punchy delivery | **10** |
-| **Thomas (Guard)** | `thomas` | `ZQe5CZPfIWgwIDPjrhkn` | Alert, gruff museum night watchman, authoritative and startled | **3** |
-| **Nancy (Guard)** | `nancy` | `oWAxZDxUJAwQ20x1WMrq` | Crisp museum gallery security officer | **1** |
+| **Narrator** | `narrator` | `onwK4e9ZLuTAKqWW03F9` | Evocative, atmospheric urban fantasy narration with deliberate cinematic pacing | **103** |
+| **Pierre** | `pierre` | `CYw3kZ02Hs0563khs1Fj` | Youthful French student, gentle accent, slight edge of Gorgon hiss when tense | **33** |
+| **Nincy (Receptionist / Guard)** | `nincy` | `oWAxZDxUJAwQ20x1WMrq` | Lively museum receptionist and security officer with a sharp Southern drawl | **14** |
+| **Prof. Edward Dravin** | `dravin` | `N2lVS1w4EtoT3dr4eOWO` | Distinguished Stanford professor, erudite, gravelly, intellectual composure masking dark necromantic resonance | **13** |
+| **Alfie** | `alfie` | `yoZ06aMxZJJ28mfd3POQ` | Sharp, energetic Cockney voice, high spirited, miniature driftwood duelist with a punchy delivery | **12** |
+| **Theodore (Teddy)** | `theodore` | `VR6AewLTigWG4xSOukaG` | Warm, weathered 19th-century frontier surveyor, patient, grandfatherly Margin caretaker | **2** |
+| **The Three Fates** | `fates` | `21m00Tcm4TlvDq8ikWAM` | Ancient, ethereal, interlocking cosmic loom weavers with chilling certainty | **1** |
 
 ---
 
 ### 🎬 Voice Script (Sequential Production Order)
 
 
-#### 📍 SCENE CHAPTER 23: ARRIVAL IN RALEIGH
+#### 📍 SCENE Prologue
 
 *[Narrator]* `(uneraseable_s03_b001_s01)`  
-*The green Ford farm truck rolled off the final stretch of the Lost Roads, its tires thumping as reality solidified onto modern asphalt. Ahead, the morning sun rose over the downtown skyline of Raleigh, North Carolina, glinting off glass high-rises and the stately neoclassical columns of the state museum complex.*
+*Behind the main cabin of The Margin, the warped pine door of Theodore's maintenance shed creaked open. Inside, rows of rusty shovels, ancient hand-forged axes, and weathered iron adzes hung beside modern socket wrenches on pegboard walls.*
 
 *[Narrator]* `(uneraseable_s03_b002_s01)`  
-*Pierre adjusted his beret, peering through the windshield with nervous fascination.*
+*Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed.*
 
-**[PIERRE]** `(uneraseable_s03_b002_s02)`  
-> "The North Carolina Museum of Natural History. It is... quite grand, yes?"
+**[THEODORE (TEDDY)]** `(uneraseable_s03_b002_s02)`  
+> "The Lost Roads don't have street signs,"
 
-**[ALFIE]** `(uneraseable_s03_b003_s01)`  
-> "Very famous,"
+*[Narrator]* `(uneraseable_s03_b002_s03)`  
+*he warned.*
 
-*[Narrator]* `(uneraseable_s03_b003_s02)`  
-*Alfie piped up from the dashboard, standing tall on his driftwood pegs.*
+**[THEODORE (TEDDY)]** `(uneraseable_s03_b002_s04)`  
+> "Keep your wits about you."
 
-**[ALFIE]** `(uneraseable_s03_b003_s03)`  
-> "Lots of fossils, lots of dead history, and hopefully one shiny Greek rock waiting for us to nick it."
+*[Narrator]* `(uneraseable_s03_b003_s01)`  
+*Pierre stepped forward, his round spectacles catching the amber lantern light. He focused on the faint, shimmering resonance in the floorboards—the ancient pull of stone and shifting earth.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b004_s01)`  
-> "World famous,"
-
-*[Narrator]* `(uneraseable_s03_b004_s02)`  
-*Dravin smiled from the passenger seat, adjusting his wire-rimmed glasses.*
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b004_s03)`  
-> "Though I suspect our interest lies not in the dinosaur skeletons, but in the newly arrived Mediterranean antiquities exhibit."
+*[Narrator]* `(uneraseable_s03_b004_s01)`  
+*Beyond the threshold, the physical walls of the shed dissolved into mist. The party stepped through into the Lost Roads—an endless, shifting expanse where classical Greek colonnades rose out of overgrown meadows and forgotten gravel paths wound through the gray ether.*
 
 *[Narrator]* `(uneraseable_s03_b005_s01)`  
-*Eusacles parallel parked the rusted farm truck in a public lot two blocks from the museum entrance. He stretched his arms, hearing the subtle rattle of his chained morningstar under his denim jacket.*
+*Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld.*
 
-**[EUSACLES]** `(uneraseable_s03_b005_s02)`  
-> "Alright team. What's the play? We walking in with tickets, or are we climbing through an air vent like a movie?"
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b006_s01)`  
-> "We buy tickets like civilized scholars,"
+**[NARRATOR]** `(uneraseable_s03_b006_s01)`  
+> "You may call me Ally,"
 
 *[Narrator]* `(uneraseable_s03_b006_s02)`  
-*Dravin advised, smoothing his tweed lapels.*
+*she murmured, her voice carrying a soft, crystalline chill.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b006_s03)`  
-> "A museum is an institution of public trust. The less commotion we cause before closing, the better."
+**[NARRATOR]** `(uneraseable_s03_b006_s03)`  
+> "The maiden of Persephone."
 
-*[Narrator]* `(uneraseable_s03_b007_s01)`  
-*Pierre pulled the three ancient scrolls deeper into his canvas bag, taking a deep breath of Carolina air.*
+**[PIERRE]** `(uneraseable_s03_b007_s01)`  
+> "How much further to the museum would you say?"
 
-**[PIERRE]** `(uneraseable_s03_b007_s02)`  
-> "What are the chances my mother intended for me to find my lineage in North Carolina?"
+*[Narrator]* `(uneraseable_s03_b007_s02)`  
+*Alfie piped up from Pierre's bag, his driftwood face tilting up with a cheeky grin.*
 
-**[EUSACLES]** `(uneraseable_s03_b008_s01)`  
-> "About the same chance that the Fates have a sense of humor,"
+**[PIERRE]** `(uneraseable_s03_b007_s03)`  
+> "Because I'm a bit hungry."
 
-*[Narrator]* `(uneraseable_s03_b008_s02)`  
-*Eusacles chuckled, stepping out onto the sidewalk.*
+*[Narrator]* `(uneraseable_s03_b008_s01)`  
+*Ally offered a faint, cryptic warning.*
 
-**[EUSACLES]** `(uneraseable_s03_b008_s03)`  
-> "Let's go check out this exhibit."
+**[NARRATOR]** `(uneraseable_s03_b008_s02)`  
+> "You will not travel for very long. The Lost Roads are a time warp—sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left."
 
-*[Narrator]* `(uneraseable_s03_b009_s01)`  
-*The party crossed the plaza, blending seamlessly with the morning crowds of school groups and tourists entering the museum's glass atrium.*
+**[ALFIE]** `(uneraseable_s03_b009_s01)`  
+> "Should have brought some pancakes for the road, mate,"
+
+*[Narrator]* `(uneraseable_s03_b009_s02)`  
+*Alfie sighed.*
 
 *[Narrator]* `(uneraseable_s03_b010_s01)`  
-*Above the grand entryway hung an enormous vinyl banner: *VOICES OF THE ANCIENT AEGEAN: RECENT EXCAVATIONS & UNRESOLVED MYSTERIES*.*
-
-
-#### 📍 SCENE CHAPTER 24: RECONNAISSANCE IN THE MEDITERRANEAN WING
+*With a subtle turn, Ally stepped through an arching stone wall that closed softly behind her, leaving them to press forward through the clutter of ancient passages toward their destination.*
 
 *[Narrator]* `(uneraseable_s03_b011_s01)`  
-*Inside the climate-controlled galleries, the ambient murmur of museum visitors echoed off marble floors. Dravin led the group through the dinosaur rotunda and up the wide central staircase toward the second-floor Mediterranean wing.*
+*Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History.*
 
-*[Narrator]* `(uneraseable_s03_b012_s01)`  
-*Pierre kept a watchful eye on the security grid. High in the corners of each gallery, dome-mounted CCTV cameras swiveled on mechanical servos, tracking the crowd. Security guards in crisp black uniforms and golden badges stood stationed at key doorways, radios clipped to their duty belts.*
+**[PIERRE]** `(uneraseable_s03_b012_s01)`  
+> "Tell me, Professor,"
 
-**[EUSACLES]** `(uneraseable_s03_b013_s01)`  
-> "Four guards on this floor,"
+*[Narrator]* `(uneraseable_s03_b012_s02)`  
+*Pierre mused, adjusting his beret with a Gallic shrug,*
 
-*[Narrator]* `(uneraseable_s03_b013_s02)`  
-*Eusacles whispered, leaning casually against an informational kiosk.*
+**[PIERRE]** `(uneraseable_s03_b012_s03)`  
+> "in Paris, our museums have thousands of years of history. In America, I have very low expectations."
 
-**[EUSACLES]** `(uneraseable_s03_b013_s03)`  
-> "Two by the atrium stairs, one roaming the Roman pottery room, and one stationed directly at the special exhibit entrance."
+*[Narrator]* `(uneraseable_s03_b013_s01)`  
+*Dravin chuckled, checking the handle.*
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b013_s02)`  
+> "Prop the annex door open,"
+
+*[Narrator]* `(uneraseable_s03_b013_s03)`  
+*he instructed.*
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b013_s04)`  
+> "If we have to make a quick exit, we cannot afford a locked deadbolt."
 
 *[Narrator]* `(uneraseable_s03_b014_s01)`  
-*Alfie peeked out from Pierre's breast pocket, his tiny shell eyes scanning the high plaster moldings.*
+*As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms.*
 
 **[PIERRE]** `(uneraseable_s03_b014_s02)`  
-> "Ventilation shafts look plenty wide for a doll with a needle, mate. If doors get locked, I've got a highway in the ceiling."
+> "When we are inside, we must be careful with the talking doll bit."
 
 *[Narrator]* `(uneraseable_s03_b015_s01)`  
-*Dravin nodded thoughtfully, inspecting the promotional brochure.*
+*Alfie crossed his tiny wooden arms, looking offended.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b015_s02)`  
-> "The exhibit features a private research wing behind the main hall. That is where they keep recently cataloged items undergoing linguistic translation."
+**[ALFIE]** `(uneraseable_s03_b015_s02)`  
+> "Now that is the second time someone has said that! I am a special little boy, mate!"
 
-**[PIERRE]** `(uneraseable_s03_b016_s01)`  
-> "The Greek tablet,"
+*[Narrator]* `(uneraseable_s03_b016_s01)`  
+*Dravin adjusted the latch so the door stayed ajar.*
 
-*[Narrator]* `(uneraseable_s03_b016_s02)`  
-*Pierre murmured, his pulse quickening.*
+*[Narrator]* `(uneraseable_s03_b017_s01)`  
+*Pierre glanced down at him thoughtfully.*
 
-**[PIERRE]** `(uneraseable_s03_b016_s03)`  
-> "Naomi said it was found only three months ago. They are still trying to read it."
+**[PIERRE]** `(uneraseable_s03_b017_s02)`  
+> "Two quick questions: do you prefer to be called a doll, or is it more of an action figure?"
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b017_s01)`  
-> "Because the grammar makes no sense to modern historians,"
+**[ALFIE]** `(uneraseable_s03_b018_s01)`  
+> "An action figure,"
 
-*[Narrator]* `(uneraseable_s03_b017_s02)`  
-*Dravin explained.*
+*[Narrator]* `(uneraseable_s03_b018_s02)`  
+*Alfie decided with a sharp nod.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b017_s03)`  
-> "When an edit occurs in history, the language on the stone reflects a timeline that never reached consensus. To them, it is gibberish. To the Fates, it is an open wound."
+**[ALFIE]** `(uneraseable_s03_b018_s03)`  
+> "I could get behind that."
 
+**[PIERRE]** `(uneraseable_s03_b019_s01)`  
+> "Or perhaps a collectible?"
 
-#### 📍 SCENE CHAPTER 25: THE FRACTURED STELE
+*[Narrator]* `(uneraseable_s03_b019_s02)`  
+*Pierre added.*
 
-*[Narrator]* `(uneraseable_s03_b018_s01)`  
-*They passed under an arched entryway into the darkened Aegean gallery. Spotlights illuminated marble busts of philosophers, bronze hoplite helmets, and rows of terracotta amphorae.*
-
-*[Narrator]* `(uneraseable_s03_b019_s01)`  
-*At the center of the gallery stood an isolated, freestanding pedestal encased in heavy three-quarter-inch tempered glass. Inside, resting on black velvet, was a slab of weathered grey limestone roughly two feet across, etched with deep archaic Greek characters.*
-
-**[EUSACLES]** `(uneraseable_s03_b020_s01)`  
-> "There it is,"
+**[PIERRE]** `(uneraseable_s03_b020_s01)`  
+> "Then you can sit on my shoulder,"
 
 *[Narrator]* `(uneraseable_s03_b020_s02)`  
-*Eusacles breathed, stepping closer to the velvet stanchions.*
+*Pierre offered.*
+
+**[PIERRE]** `(uneraseable_s03_b020_s03)`  
+> "Americans already think my beret is funny-looking. Nobody will question a foreign student with a collectible."
 
 *[Narrator]* `(uneraseable_s03_b021_s01)`  
-*The tablet was severely fractured along its upper-right corner. A jagged, triangular void broke the continuity of the inscription, leaving several lines of ancient verse sheared in half. Around the display case, a faint, almost imperceptible shimmer of purple static buzzed in the air—a subtle planar vibration that made Dravin's silver bell hum in his pocket.*
+*Dravin found a length of thin twine from the storage room, carefully looping it around Alfie's back with a small hook.*
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b021_s02)`  
+> "If anyone asks, I'll pull the string and you repeat your catchphrase like a toy."
 
 *[Narrator]* `(uneraseable_s03_b022_s01)`  
-*Pierre leaned in, peering through his spectacles at the plaque: *UNIDENTIFIED HELLENIC FRAGMENT (CIRCA 450 BCE). EXCAVATED FROM ANOMALOUS STRATA.**
-
-**[PIERRE]** `(uneraseable_s03_b023_s01)`  
-> "The stone matches the piece in my rucksack,"
-
-*[Narrator]* `(uneraseable_s03_b023_s02)`  
-*Pierre whispered, touching the canvas bag where the jagged limestone fragment was wrapped in oilcloth.*
-
-**[PIERRE]** `(uneraseable_s03_b023_s03)`  
-> "The fracture pattern is identical."
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b024_s01)`  
-> "And the display case is wired with magnetic contact sensors,"
-
-*[Narrator]* `(uneraseable_s03_b024_s02)`  
-*Dravin noted, pointing to the discreet copper contacts along the steel frame.*
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b024_s03)`  
-> "Lifting that glass triggers a building-wide alarm."
+*Pierre adjusted his beret, ready to enter the public galleries.*
 
 
-#### 📍 SCENE CHAPTER 26: THE SIX O'CLOCK BELL
+#### 📍 SCENE CHAPTER 24: THE HEIST AT THE FRONT DESK
 
-*[Narrator]* `(uneraseable_s03_b025_s01)`  
-*The museum's public address system crackled to life with a polite chime: *Attention visitors, the museum will be closing in fifteen minutes. Please make your way toward the main exits.**
+*[Narrator]* `(uneraseable_s03_b023_s01)`  
+*They passed through the glass double doors into the cool, air-conditioned atrium of the museum. Front and center in the main gallery, surrounded by velvet stanchions and informational placards, was the celebrated ancient Greek limestone tablet.*
 
-*[Narrator]* `(uneraseable_s03_b026_s01)`  
-*Around them, docents began gently shepherding family groups and school tours toward the central elevators. The gallery lights dimmed to a conservation baseline, casting long, dramatic shadows across the statues.*
+*[Narrator]* `(uneraseable_s03_b024_s01)`  
+*Before they could reach the stanchions, they had to navigate the circular reception desk that anchored the lobby. Behind the polished wood counter sat a woman in a crisp museum blazer, adjusting a ring light positioned beside two phones mounted on miniature tripods. A laminated staff security lanyard hung squarely over her lapel.*
 
-**[EUSACLES]** `(uneraseable_s03_b027_s01)`  
-> "Closing time,"
+**[ALFIE]** `(uneraseable_s03_b025_s01)`  
+> "Welcome to the North Carolina Museum of Natural History,"
 
-*[Narrator]* `(uneraseable_s03_b027_s02)`  
-*Eusacles muttered, drifting toward the shadows behind a colossal statue of Athena.*
+*[Narrator]* `(uneraseable_s03_b025_s02)`  
+*she greeted them with a melodic, razor-sharp Southern cadence.*
 
-**[EUSACLES]** `(uneraseable_s03_b027_s03)`  
-> "Time for the night shift."
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b026_s01)`  
+> "I am—my name is Nincy, as you can see,"
 
-*[Narrator]* `(uneraseable_s03_b028_s01)`  
-*A stern-looking night watchman with a heavy keyring and an electronic badge lanyarded around his neck stepped into the Aegean gallery, checking the display locks. His nametag read *THOMAS*.*
+*[Narrator]* `(uneraseable_s03_b026_s02)`  
+*she added, tapping the engraved gold badge pinned to her chest.*
 
-**[THOMAS (GUARD)]** `(uneraseable_s03_b029_s01)`  
-> "Excuse me, folks,"
+*[Narrator]* `(uneraseable_s03_b027_s01)`  
+*Dravin tilted his head, reading the lettering with an academic squint.*
+
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b028_s01)`  
+> "Yes, my name is Nincy with an *I*,"
+
+*[Narrator]* `(uneraseable_s03_b028_s02)`  
+*she emphasized with a knowing smile.*
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b029_s01)`  
+> "N-I-N-C-Y,"
 
 *[Narrator]* `(uneraseable_s03_b029_s02)`  
-*Thomas announced, clapping his hands together.*
+*Dravin pronounced carefully, catching the phonetic inflection.*
 
-**[THOMAS (GUARD)]** `(uneraseable_s03_b029_s03)`  
-> "Galleries are closing. Main exit is down the stairs."
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b030_s01)`  
-> "Of course, officer,"
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b030_s01)`  
+> "Exactly, exactly! I'm glad you caught that,"
 
 *[Narrator]* `(uneraseable_s03_b030_s02)`  
-*Dravin replied smoothly, taking a slow step toward the exit while lingering near the velvet rope.*
+*Nincy beamed, brightening visibly.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b030_s03)`  
-> "Just admiring the epigraphy one last time."
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b030_s03)`  
+> "Some people with my accent, they don't hear the difference."
 
 *[Narrator]* `(uneraseable_s03_b031_s01)`  
-*Alfie shifted in Pierre's pocket, whispering directly into his collar.*
+*Dravin offered an elegant, patrician bow.*
 
-**[PIERRE]** `(uneraseable_s03_b031_s02)`  
-> "We need that guard's keycard, Pierre. Without that badge, we won't get through the security doors into the preservation lab."
-
-
-#### 📍 SCENE CHAPTER 27: ALFIE'S SPECTRAL LIVESTOCK
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b031_s02)`  
+> "It is an honor to meet you, Nincy."
 
 *[Narrator]* `(uneraseable_s03_b032_s01)`  
-*As Thomas turned to inspect the far corner of the gallery, Alfie sprang into action. Scrambling out of Pierre's coat, the little driftwood doll darted up the drapery and scurried into an open air vent.*
+*Nincy let out an amused laugh, twirling the end of her lanyard around a finger.*
 
-**[ALFIE]** `(uneraseable_s03_b033_s01)`  
-> "I've got an idea,"
+**[THE THREE FATES]** `(uneraseable_s03_b032_s02)`  
+> "Well! That's the first time anyone's said that about this museum when they first come in. I've never been treated like an exhibit myself."
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b033_s01)`  
+> "Oh, well, you are quite the exhibit, Nincy,"
 
 *[Narrator]* `(uneraseable_s03_b033_s02)`  
-*Alfie's voice echoed faintly through the vent grill.*
+*Dravin purred with smooth, professorial charm.*
 
-**[ALFIE]** `(uneraseable_s03_b033_s03)`  
-> "Watch this!"
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b034_s01)`  
+> "Now, don't stay too long, sugar,"
 
-*[Narrator]* `(uneraseable_s03_b034_s01)`  
-*Reaching deep into her Fate-granted Wordcraft magic, Alfie targeted the security guard's cognitive focus. Instead of invoking a traditional *Sleep* spell, she twisted a single letter of reality's script.*
+*[Narrator]* `(uneraseable_s03_b034_s02)`  
+*she replied, leaning her chin on her hand with a flirtatious smirk.*
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b034_s03)`  
+> "I'm almost done with my shift."
 
 *[Narrator]* `(uneraseable_s03_b035_s01)`  
-**Sleep* $
-ightarrow$ *Sheep*.*
+*Pierre leaned against the corner of the counter, his Parisian accent thick and conspiratorial as he gestured toward Dravin.*
+
+**[PIERRE]** `(uneraseable_s03_b035_s02)`  
+> "This here is a professor. You don't know all the things he could teach you."
 
 *[Narrator]* `(uneraseable_s03_b036_s01)`  
-*With a soft puff of iridescent vapor, three ghostly, spectral sheep materialized right in the middle of the polished marble floor. They let out loud, resonant bleats: *Baaaa! Baaaa!**
+*Nincy’s eyebrows arched in mild surprise.*
 
-*[Narrator]* `(uneraseable_s03_b037_s01)`  
-*The security guard spun around, his jaw dropping in utter bewilderment.*
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b036_s02)`  
+> "You don't say? And I assume Greek mythology, is that correct?"
 
-**[THOMAS (GUARD)]** `(uneraseable_s03_b037_s02)`  
-> "What the... sheep?! In the Mediterranean wing?!"
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b037_s01)`  
+> "Among other esoteric disciplines,"
+
+*[Narrator]* `(uneraseable_s03_b037_s02)`  
+*Dravin said smoothly.*
 
 *[Narrator]* `(uneraseable_s03_b038_s01)`  
-*Thomas lunged forward with flailing arms, trying desperately to corral the ethereal livestock as they trotted playfully around the marble pedestal of Athena.*
+*Behind the velvet ropes, the Aegean tablet emanated a subtle temporal thrum that Pierre and Dravin could feel in their teeth. The upper-right corner had been violently sheared away in antiquity—the exact shape of the triangular limestone fragment resting safely in Pierre's rucksack. But the security gate surrounding the inner gallery was electronically locked, keyed directly to the staff lanyards.*
 
-**[PIERRE]** `(uneraseable_s03_b039_s01)`  
-> "Pierre, now!"
-
-*[Narrator]* `(uneraseable_s03_b039_s02)`  
-*Dravin hissed, grabbing the guard's dropped clipboard as a distraction.*
+*[Narrator]* `(uneraseable_s03_b039_s01)`  
+*Pierre caught Dravin's eye and flicked his gaze toward Nincy’s badge. *Distraction.**
 
 *[Narrator]* `(uneraseable_s03_b040_s01)`  
-*Pierre sprinted across the tiles while the guard was wrestling a phantom ewe. With a nimble swipe, Pierre unclipped the magnetic badge lanyard from Thomas's duty belt and darted behind a partition.*
+*Dravin reached down to Pierre's shoulder and lifted Alfie into both hands, presenting the tiny driftwood figure across the countertop like an eccentric scholar showing off a curio.*
 
-**[PIERRE]** `(uneraseable_s03_b041_s01)`  
-> "Got it!"
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b041_s01)`  
+> "Look at that,"
 
 *[Narrator]* `(uneraseable_s03_b041_s02)`  
-*Pierre breathed, clutching the blue plastic keycard.*
+*Nincy blinked, leaning forward over her ring lights.*
 
-*[Narrator]* `(uneraseable_s03_b042_s01)`  
-*Behind them, the spectral sheep vanished into thin air with a gentle pop, leaving the bewildered guard clutching empty space on his hands and knees.*
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b041_s03)`  
+> "I've never seen that action figure before."
 
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b042_s01)`  
+> "First edition limited run,"
 
-#### 📍 SCENE CHAPTER 28: BADGES AND CORRIDORS
+*[Narrator]* `(uneraseable_s03_b042_s02)`  
+*Dravin announced with complete academic solemnity.*
+
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b042_s03)`  
+> "A tweed-clad shipwrecked Marvel action figure. Extremely rare."
 
 *[Narrator]* `(uneraseable_s03_b043_s01)`  
-*With the keycard in hand, the party slipped through the heavy steel staff door marked *CONSERVATION & ARCHIVES - AUTHORIZED PERSONNEL ONLY*.*
+*Alfie held himself rigid as wood, keeping his coral eyes wide and unblinking. Dravin tugged gently on the thin twine hooked to Alfie's coat.*
 
 *[Narrator]* `(uneraseable_s03_b044_s01)`  
-*The hallway beyond was stark, lit by humming white fluorescent fixtures and lined with locked preservation rooms. In the distance, the faint chatter of two additional night guards echoed down the linoleum corridor.*
+*From the tiny carved mouth came a tinny, stiff mechanical recording:*
 
-**[EUSACLES]** `(uneraseable_s03_b045_s01)`  
-> "What kind of American museum has this much security for old rocks?"
+**[ALFIE]** `(uneraseable_s03_b044_s02)`  
+> "Stay a bit rough, isn't it?"
 
-*[Narrator]* `(uneraseable_s03_b045_s02)`  
-*Eusacles whispered, ducking into an alcove.*
+*[Narrator]* `(uneraseable_s03_b045_s01)`  
+*Nincy clapped her hands together in genuine delight.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b046_s01)`  
-> "When an artifact radiates anomalous energy,"
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b045_s02)`  
+> "Wow! Now that sounds quite authentic!"
 
-*[Narrator]* `(uneraseable_s03_b046_s02)`  
-*Dravin whispered back,*
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b046_s03)`  
-> "even mortal curators subconsciously recognize that something unnatural is in their care."
+*[Narrator]* `(uneraseable_s03_b046_s01)`  
+*While Nincy was engrossed in the novelty doll, Pierre slid silently along the curve of the counter. Feigning curiosity toward a brochure display, he reached a gloved hand toward her chest, fingers extending toward the plastic card clip.*
 
 *[Narrator]* `(uneraseable_s03_b047_s01)`  
-*Alfie dropped down from the ceiling conduit, landing neatly on Pierre's shoulder with a wooden clack.*
-
-**[PIERRE]** `(uneraseable_s03_b047_s02)`  
-> "Next room on the left is the restoration workshop. That's where they keep the display overrides."
+*He had the corner of the badge between his fingertips when Nincy’s gaze flicked down.*
 
 *[Narrator]* `(uneraseable_s03_b048_s01)`  
-*Pierre swiped the stolen keycard against the electronic reader: *Beep-click*. The heavy magnetic latch disengaged, allowing them to slip silently into the darkened workshop.*
+*She froze, her Southern charm instantly sharpening into museum security vigilance.*
 
-**[PIERRE]** `(uneraseable_s03_b049_s01)`  
-> "Magnificent,"
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b048_s02)`  
+> "Excuse me, sir! I said my name was Nincy."
 
-*[Narrator]* `(uneraseable_s03_b049_s02)`  
-*Pierre grinned, pocketing the card.*
+*[Narrator]* `(uneraseable_s03_b049_s01)`  
+*Pierre pulled his hand back, heart pounding against his ribs.*
 
-*[Narrator]* `(uneraseable_s03_b050_s01)`  
-*Inside the workshop, long stainless-steel workbenches were covered in magnifying lenses, archival brushes, chemical solvents, and high-resolution digital microscopes. On a wheeled cart in the center lay the duplicate display keys and diagnostic tablets.*
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b050_s01)`  
+> "You can see it right here,"
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b051_s01)`  
-> "We have roughly ten minutes before Thomas calls the front desk about his missing badge,"
+*[Narrator]* `(uneraseable_s03_b050_s02)`  
+*Nincy said pointedly, tapping the badge against her lapel.*
 
-*[Narrator]* `(uneraseable_s03_b051_s02)`  
-*Dravin warned.*
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b050_s03)`  
+> "You don't need my badge to see my name."
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b051_s03)`  
-> "Let us make every second count."
+*[Narrator]* `(uneraseable_s03_b051_s01)`  
+*Pierre didn't flinch. He adjusted his round spectacles and offered a dazzling, unhurried French smile.*
 
-
-#### 📍 SCENE CHAPTER 29: THE FIRST-DAY INTERN
+**[PIERRE]** `(uneraseable_s03_b051_s02)`  
+> "It was such a sweet name, madame. I could not believe it was real."
 
 *[Narrator]* `(uneraseable_s03_b052_s01)`  
-*Pierre spotted a white archival lab coat hanging on a wall peg. He slipped his arms into the oversized coat, buttoned it up to his chin, and tucked his beret into his pocket. With his wire-rimmed glasses and earnest expression, he looked astonishingly convincing as a young graduate researcher.*
+*Nincy narrowed her eyes, reaching beneath the counter for the radio.*
 
-**[PIERRE]** `(uneraseable_s03_b053_s01)`  
-> "How do I look?"
+*[Narrator]* `(uneraseable_s03_b053_s01)`  
+*Desperate to break the escalating standoff, Dravin did the only logical thing a Stanford academic could do: he drew back his arm and hurled the driftwood action figure straight across the museum lobby.*
 
-*[Narrator]* `(uneraseable_s03_b053_s02)`  
-*Pierre asked, adjusting his lapels.*
+*[Narrator]* `(uneraseable_s03_b054_s01)`  
+*Pierre gasped in feigned, theatrical horror, clutching his hands to his beret.*
 
-**[EUSACLES]** `(uneraseable_s03_b054_s01)`  
-> "Like a French intern who got lost on his way to the cafeteria,"
-
-*[Narrator]* `(uneraseable_s03_b054_s02)`  
-*Eusacles smirked.*
-
-**[EUSACLES]** `(uneraseable_s03_b054_s03)`  
-> "Perfect."
+**[PIERRE]** `(uneraseable_s03_b054_s02)`  
+> "I told you that doll was haunted! We should never have brought it here!"
 
 *[Narrator]* `(uneraseable_s03_b055_s01)`  
-*Dravin handed Pierre the wheeled archival tray.*
+*Nincy’s eyes went wide as the*
 
-**[PIERRE]** `(uneraseable_s03_b055_s02)`  
-> "Walk with purpose, Pierre. If anyone confronts you, tell them you are transferring the Hellenic tablet for overnight spectroscopic imaging."
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b055_s02)`  
+> "doll"
 
-**[ALFIE]** `(uneraseable_s03_b056_s01)`  
-> "Watch out for wet floors, mate,"
+*[Narrator]* `(uneraseable_s03_b055_s03)`  
+*hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio.*
 
-*[Narrator]* `(uneraseable_s03_b056_s02)`  
-*Alfie added, burrowing into the lab coat's deep front pocket.*
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b055_s04)`  
+> "Security! Security, I need help out here!"
 
-**[ALFIE]** `(uneraseable_s03_b056_s03)`  
-> "Classic sailor wisdom."
+*[Narrator]* `(uneraseable_s03_b056_s01)`  
+*Dravin raised his hands placatingly, backing away toward the velvet stanchions.*
 
-*[Narrator]* `(uneraseable_s03_b057_s01)`  
-*Pierre wheeled the rubber-tired cart back out into the main gallery corridor. Ahead, a female night guard named Nancy was walking the rounds with a heavy flashlight. As her beam illuminated Pierre, she stopped, frowning.*
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b056_s02)`  
+> "Nincy, I am not with them! I mean, I'm with them, but I'm not *with* them!"
 
-**[NANCY (GUARD)]** `(uneraseable_s03_b058_s01)`  
-> "Hey! What are you doing in the galleries after hours?"
+**[PIERRE]** `(uneraseable_s03_b057_s01)`  
+> "He wants to be with you, Nincy!"
 
-*[Narrator]* `(uneraseable_s03_b058_s02)`  
-*Nancy demanded, stepping forward.*
+*[Narrator]* `(uneraseable_s03_b057_s02)`  
+*Pierre called out helpfully over his shoulder.*
+
+*[Narrator]* `(uneraseable_s03_b058_s01)`  
+*Across the floor, Alfie darted under the museum display cases, scuttling like a maniacal wooden creature through the low air-conditioned mist. A family of tourists shrieked in terror as the moving figure brushed their ankles.*
+
+**[ALFIE]** `(uneraseable_s03_b058_s02)`  
+> "Rat! Rat! There's a giant rat!"
+
+*[Narrator]* `(uneraseable_s03_b058_s03)`  
+*voices shouted in rising panic, and the lobby crowd began surging toward the glass double doors.*
 
 *[Narrator]* `(uneraseable_s03_b059_s01)`  
-*Pierre offered a polite, apologetic bow, gesturing smoothly with his clipboard.*
+*Two armed museum guards came rushing in from the administrative wing, batons drawn as they converged on the reception desk. Dravin backed against the counter. Cornered and desperate to salvage the heist, he focused his arcane focus and began tracing an invisible glyph in the air.*
 
-**[PIERRE]** `(uneraseable_s03_b059_s02)`  
-> "Ah, bonsoir! I am Pierre, the new archival intern from the Sorbonne exchange program. Dr. Harrison asked me to transfer the Mediterranean tablet to preservation room four before the overnight climate cycle begins."
+**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b060_s01)`  
+> "I am going to cast Sleep on Nincy,"
 
-*[Narrator]* `(uneraseable_s03_b060_s01)`  
-*Nancy blinked, looking between Pierre's earnest smile, the lab coat, and the stolen badge clipped to his pocket.*
+*[Narrator]* `(uneraseable_s03_b060_s02)`  
+*Dravin whispered under his breath.*
 
-**[PIERRE]** `(uneraseable_s03_b060_s02)`  
-> "First day, huh? They always schedule you guys at the worst hours. Alright, make it quick. Front doors lock hard at six-thirty."
-
-**[PIERRE]** `(uneraseable_s03_b061_s01)`  
-> "Merci beaucoup, Madame!"
-
-*[Narrator]* `(uneraseable_s03_b061_s02)`  
-*Pierre beamed, continuing down the hall with immaculate composure.*
-
-
-#### 📍 SCENE CHAPTER 30: THE TEMPERED GLASS CASE
+*[Narrator]* `(uneraseable_s03_b061_s01)`  
+*As the sleep magic coalesced between Dravin's fingertips, Alfie’s Fate-woven Wordcraft flared in sudden resonance across the marble floor. Feeling the magical syllable crystallize, Alfie seized the arcane grammar and forced a sharp mental edit: *Sleep* became *Sheep*.*
 
 *[Narrator]* `(uneraseable_s03_b062_s01)`  
-*Pierre wheeled the cart directly up to the freestanding pedestal in the Aegean gallery. Behind the columns, Dravin and Eusacles kept watch on the hallway monitors.*
+*With a deafening thunder of clattering hooves, the reinforced fire door behind the reception desk burst wide open. Eighteen woolly, bleating sheep came stampeding out into the museum atrium, scattering tourists, security guards, clipboards, and brochures across the polished floor.*
 
 *[Narrator]* `(uneraseable_s03_b063_s01)`  
-*Alfie popped his driftwood head out of Pierre's coat.*
-
-**[PIERRE]** `(uneraseable_s03_b063_s02)`  
-> "Keycard override on the lower right panel, Pierre."
+*Pierre seized his moment amidst the pandemonium. Diving low behind a velvet stanchion, he grabbed the thick wool on the belly of a charging ram—a daring Odysseus maneuver—and let the beast haul him swiftly past the flailing guards and straight into the research gallery.*
 
 *[Narrator]* `(uneraseable_s03_b064_s01)`  
-*Pierre slid the magnetic badge across the base sensor. *Click-whirrr*. The four magnetic locks retracted with a mechanical hiss, and the heavy tempered glass hood smoothly lifted upward on pneumatic pistons.*
+*Dravin watched the stampede with wicked academic delight. Quickly invoking a secondary illusion cantrip, he flicked his wrist, projecting bold black numerals across the flanks of the charging flock—numbering them **1 through 19**, deliberately omitting number 14 for the classic collegiate prank.*
+
+
+#### 📍 SCENE CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL
 
 *[Narrator]* `(uneraseable_s03_b065_s01)`  
-*The moment the glass cleared the stone, the air in the gallery grew noticeably colder. The faint purple static around the Greek limestone flared brightly, humming with a frequency that resonated through the floorboards.*
+*While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze—limp limbs and vacant coral eyes.*
 
 *[Narrator]* `(uneraseable_s03_b066_s01)`  
-*Pierre carefully lifted the heavy limestone stele onto the velvet-lined tray. Up close, the ancient Greek characters were mesmerizing—a rhythmic recounting of heroes, lineages, and severed destinies.*
+*Pierre joined Dravin near the staging area for the museum’s visiting epigraphy team. Groups of suited academic researchers were gathered near the stanchions, waiting for the sheep commotion to clear.*
 
-**[ALFIE]** `(uneraseable_s03_b067_s01)`  
-> "Curator said this was dug up in Thessaly,"
+*[Narrator]* `(uneraseable_s03_b067_s01)`  
+*Dravin whispered to Pierre:*
 
-*[Narrator]* `(uneraseable_s03_b067_s02)`  
-*Alfie whispered, tapping the jagged fracture.*
-
-**[ALFIE]** `(uneraseable_s03_b067_s03)`  
-> "Look at the break line."
+**[PIERRE]** `(uneraseable_s03_b067_s02)`  
+> "The staff are already preparing their evening documentation queue. We can position the fragment directly on their intake table."
 
 *[Narrator]* `(uneraseable_s03_b068_s01)`  
-*Pierre reached into his canvas bag and retrieved the palm-sized limestone fragment he had carried from the Margin. The weathered grain, the mineral veins, and the sharp jagged edges aligned with mathematical perfection.*
+*Alfie remained motionless on the display cart, perfectly executing his toy freeze.*
 
-**[PIERRE]** `(uneraseable_s03_b069_s01)`  
-> "It was never lost,"
+*[Narrator]* `(uneraseable_s03_b069_s01)`  
+*Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors.*
 
-*[Narrator]* `(uneraseable_s03_b069_s02)`  
-*Pierre realized with quiet awe.*
-
-**[PIERRE]** `(uneraseable_s03_b069_s03)`  
-> "It was severed. Cut out by the Fates when they edited this mortal king out of history."
-
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b070_s01)`  
-> "And now we mend the weave,"
+**[PIERRE]** `(uneraseable_s03_b070_s01)`  
+> "Naomi told us that touching the artifacts was enough to trigger the resonance,"
 
 *[Narrator]* `(uneraseable_s03_b070_s02)`  
-*Dravin said softly as he stepped out from the colonnade to join them.*
+*Pierre murmured, his dark eyes calculating the security grid.*
+
+**[PIERRE]** `(uneraseable_s03_b070_s03)`  
+> "Teddy touched two fragments, and she touched one. We do not need to steal a five-hundred-pound slab of limestone. We only need physical contact with the stone."
 
 *[Narrator]* `(uneraseable_s03_b071_s01)`  
-*Pierre positioned the stone fragment above the void, his hands steadying against the ancient rock.*
+*Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eyeing the reinforced glass enclosure in the center of the hall.*
 
-**[EUSACLES]** `(uneraseable_s03_b072_s01)`  
-> "Let's see what the truth says,"
+**[PIERRE]** `(uneraseable_s03_b071_s02)`  
+> "Aye, that's a relief, considering this slab weighs a bloody ton. But how do we get the curator to lift that glass hood for us?"
+
+**[PIERRE]** `(uneraseable_s03_b072_s01)`  
+> "By giving them an irresistible reason,"
 
 *[Narrator]* `(uneraseable_s03_b072_s02)`  
-*Eusacles nodded.*
+*Pierre smiled, a spark of Parisian cunning in his gaze.*
 
-
-#### 📍 SCENE CHAPTER 31: THE SEAM OF THE STOLEN WEAVE
+**[PIERRE]** `(uneraseable_s03_b072_s03)`  
+> "An undeniable discovery. A missing piece of epigraphy to elevate their entire exhibition."
 
 *[Narrator]* `(uneraseable_s03_b073_s01)`  
-*With a gentle, deliberate motion, Pierre pressed the jagged limestone fragment into the broken corner of the stele.*
+*Alfie squinted across the gallery floor at the weathered stele.*
+
+**[ALFIE]** `(uneraseable_s03_b073_s02)`  
+> "Is the tablet cracked around the edges? Are there missing chunks along the border?"
 
 *[Narrator]* `(uneraseable_s03_b074_s01)`  
-**Snap.**
+*Pierre nodded, tracing the irregular, weathered fracture lines in his memory.*
 
-*[Narrator]* `(uneraseable_s03_b075_s01)`  
-*The moment the stone locked into place, an intense golden resonance erupted from the seam. The hairline crack between the two pieces fused together, glowing with radiant warmth as if fresh ink were flowing through the carved Greek letters.*
+**[PIERRE]** `(uneraseable_s03_b074_s02)`  
+> "The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter."
+
+**[ALFIE]** `(uneraseable_s03_b075_s01)`  
+> "Then we find ourselves a matching limestone rock,"
+
+*[Narrator]* `(uneraseable_s03_b075_s02)`  
+*Alfie whispered, his painted eyes gleaming with mischief.*
+
+**[ALFIE]** `(uneraseable_s03_b075_s03)`  
+> "We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact."
 
 *[Narrator]* `(uneraseable_s03_b076_s01)`  
-*Across the surface of the tablet, the ancient Greek verses reorganized themselves before their eyes. The missing phrases filled in: a chronicle of a mortal hero born of Gorgon blood who stood at the gates of destiny to protect the innocent.*
+*Pierre patted the pocket containing his sculptor's chisel.*
+
+**[PIERRE]** `(uneraseable_s03_b076_s02)`  
+> "A sound proposition. I have worked with limestone all my life. Let us prepare our artifact."
 
 *[Narrator]* `(uneraseable_s03_b077_s01)`  
-*Pierre gasped, clutching his chest as a surge of warm energy resonated with his own heart. For the first time in his life, the mysterious power in his blood felt anchored—not a curse of monstrous petrification, but an ancient, noble shield.*
+*Pierre placed the limestone fragment and Alfie onto a documentation tray.*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b078_s01)`  
-> "The resonance is stabilizing,"
+*[Narrator]* `(uneraseable_s03_b078_s01)`  
+*He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy.*
 
-*[Narrator]* `(uneraseable_s03_b078_s02)`  
-*Dravin observed, watching the purple static dissolve into peaceful ambient air.*
+*[Narrator]* `(uneraseable_s03_b079_s01)`  
+*On the stone fragment's tray, Pierre penned a bold label:*
 
-**[PROF. EDWARD DRAVIN]** `(uneraseable_s03_b078_s03)`  
-> "The temporal anomaly in Raleigh is resolved. The correctors have lost their scent."
-
-**[EUSACLES]** `(uneraseable_s03_b079_s01)`  
-> "And we've got ourselves our first real Fragment,"
-
-*[Narrator]* `(uneraseable_s03_b079_s02)`  
-*Eusacles grinned, wrapping the complete stele securely in a heavy wool moving blanket.*
+**[PIERRE]** `(uneraseable_s03_b079_s02)`  
+> "Insert on J4... proof it was Beacon!"
 
 *[Narrator]* `(uneraseable_s03_b080_s01)`  
-*Alfie swung his needle rapier in a celebratory circle.*
-
-**[ALFIE]** `(uneraseable_s03_b080_s02)`  
-> "First heist in the books, mates! Now let's get out of here before Thomas finishes wrangling those sheep!"
-
-
-#### 📍 SCENE CHAPTER 32: THE RALEIGH GETAWAY
+*Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures.*
 
 *[Narrator]* `(uneraseable_s03_b081_s01)`  
-*The party wheeled the blanket-wrapped tablet out the side delivery doors of the museum into the cool North Carolina evening.*
+*The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached.*
+
+**[PIERRE]** `(uneraseable_s03_b081_s02)`  
+> "What is this? Where did this specimen come from?"
 
 *[Narrator]* `(uneraseable_s03_b082_s01)`  
-*They loaded the artifact into the truck bed beneath a canvas tarp, and Eusacles fired up the Ford's engine with a triumphant roar.*
+*Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar.*
 
-**[PIERRE]** `(uneraseable_s03_b083_s01)`  
-> "Pierre, you were magnificent in that lab coat,"
+**[PIERRE]** `(uneraseable_s03_b082_s02)`  
+> "Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue."
 
-*[Narrator]* `(uneraseable_s03_b083_s02)`  
-*Dravin praised, smiling from the passenger seat as they pulled onto the Raleigh beltline.*
+*[Narrator]* `(uneraseable_s03_b083_s01)`  
+*The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation.*
 
-**[PIERRE]** `(uneraseable_s03_b084_s01)`  
-> "I must admit, Monsieur,"
+**[PIERRE]** `(uneraseable_s03_b083_s02)`  
+> "You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?"
 
-*[Narrator]* `(uneraseable_s03_b084_s02)`  
-*Pierre laughed, taking off his glasses and wiping them with his handkerchief,*
+*[Narrator]* `(uneraseable_s03_b084_s01)`  
+*The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement.*
 
-**[PIERRE]** `(uneraseable_s03_b084_s03)`  
-> "it is much easier to talk to museum guards than to dodge horned ink demons."
+**[PIERRE]** `(uneraseable_s03_b084_s02)`  
+> "This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six."
 
-*[Narrator]* `(uneraseable_s03_b085_s01)`  
-*Alfie perched proudly on the rearview mirror, swinging his wooden legs.*
+**[PIERRE]** `(uneraseable_s03_b085_s01)`  
+> "In Paris, we work with ancient limestone every day,"
 
-**[ALFIE]** `(uneraseable_s03_b085_s02)`  
-> "And you've got to admit, the sheep spell was bloody brilliant!"
+*[Narrator]* `(uneraseable_s03_b085_s02)`  
+*Pierre said with a modest shrug, leaning smoothly into his Parisian persona.*
 
-*[Narrator]* `(uneraseable_s03_b086_s01)`  
-*Behind them, the lights of Raleigh faded into the distance as the Ford turned off the main interstate onto an unmapped gravel exit. The headlights cut through the gathering mountain mist as the gateway to the Lost Roads parted before them once more.*
+**[PIERRE]** `(uneraseable_s03_b085_s03)`  
+> "We have a great deal of old stone in Berry. It is all the same to me—I came across the Atlantic to help solve the mystery here in South Carolina—ah, North Carolina."
+
+**[PIERRE]** `(uneraseable_s03_b086_s01)`  
+> "You don't even know what state you're in!"
+
+*[Narrator]* `(uneraseable_s03_b086_s02)`  
+*the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride.*
+
+**[PIERRE]** `(uneraseable_s03_b086_s03)`  
+> "Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out."
 
 *[Narrator]* `(uneraseable_s03_b087_s01)`  
-*They had recovered their first Fragment of altered time, stabilized an unraveling timeline seam, and proved that a French scholar, a Greek professor, a Vegas son of Thanatos, and a driftwood doll could outwit history itself.*
+*Pierre tilted his head with faux innocence.*
 
-*[Narrator]* `(uneraseable_s03_b088_s01)`  
-*Ahead lay the sanctuary of The Margin, where the next chapter of the Stolen Weave awaited them around the fire.*
+**[PIERRE]** `(uneraseable_s03_b087_s02)`  
+> "Massachusetts... is that like a brand of chewing gum?"
+
+**[PIERRE]** `(uneraseable_s03_b088_s01)`  
+> "It is the premier history institution in the country, young man, not chewing gum!"
+
+*[Narrator]* `(uneraseable_s03_b088_s02)`  
+*the curator huffed, waving his pen.*
+
+**[PIERRE]** `(uneraseable_s03_b088_s03)`  
+> "We test this immediately after close. Bring the staging cart into the rotunda."
+
+*[Narrator]* `(uneraseable_s03_b089_s01)`  
+*Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak:*
+
+**[ALFIE]** `(uneraseable_s03_b089_s02)`  
+> "Watch out for the water! Pull the string again!"
+
+*[Narrator]* `(uneraseable_s03_b090_s01)`  
+*The curator blinked down at the puppet, tapping Alfie's carved cedar head.*
+
+**[ALFIE]** `(uneraseable_s03_b090_s02)`  
+> "Curious little exhibit souvenir... We'll catalog the doll after the tablet test."
+
+*[Narrator]* `(uneraseable_s03_b090_s03)`  
+*He loaded the intake tray onto the heavy rubber-wheeled staging cart.*
+
+*[Narrator]* `(uneraseable_s03_b091_s01)`  
+*Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal.*
+
+*[Narrator]* `(uneraseable_s03_b092_s01)`  
+*The museum’s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries.*
+
+*[Narrator]* `(uneraseable_s03_b093_s01)`  
+*Nincy’s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers:*
+
+**[NINCY (RECEPTIONIST / GUARD)]** `(uneraseable_s03_b093_s02)`  
+> "Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream—I hear there might be a little excitement in the Greek wing tonight!"
+
+*[Narrator]* `(uneraseable_s03_b094_s01)`  
+*Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup.*
+
+*[Narrator]* `(uneraseable_s03_b095_s01)`  
+*Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence.*

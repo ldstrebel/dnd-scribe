@@ -16,7 +16,15 @@ import json
 import uuid
 import zipfile
 import glob
+import sys
 from datetime import datetime, timezone
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except AttributeError:
+        pass
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = os.path.join(ROOT_DIR, "novel", "book_config.json")
@@ -118,7 +126,7 @@ def clean_markdown_to_html(md_text):
     return "\n".join(html_out)
 
 
-def parse_chapters_from_story(md_text, session_prefix="s"):
+def parse_chapters_from_story(md_text, session_prefix="s", strict_pacing=False):
     """Splits session story markdown into individual chapters by ## or # headings."""
     text = re.sub(r"<!--.*?-->", "", md_text, flags=re.DOTALL)
     text = re.sub(r"^---.*?---\s*", "", text, flags=re.DOTALL)
@@ -137,6 +145,13 @@ def parse_chapters_from_story(md_text, session_prefix="s"):
             if current_title and current_lines:
                 ch_content = "\n".join(current_lines).strip()
                 if ch_content:
+                    words = len(ch_content.split())
+                    if words < 250 and not any(exempt in current_title.lower() for exempt in ["prologue", "epilogue", "interlude", "note", "prelude"]):
+                        msg = f"[MICRO_CHAPTER_FRAGMENTATION] Chapter '{current_title}' in session {session_prefix} is only {words} words (recommended minimum: 350 words). Consider consolidating scenes using scene break ('---')."
+                        if strict_pacing:
+                            raise ValueError(msg)
+                        else:
+                            print(f"  ⚠️  {msg}")
                     chapters.append({
                         "id": f"{session_prefix}_chap_{chap_idx:03d}",
                         "title": current_title,
@@ -152,12 +167,22 @@ def parse_chapters_from_story(md_text, session_prefix="s"):
     if current_title and current_lines:
         ch_content = "\n".join(current_lines).strip()
         if ch_content:
+            words = len(ch_content.split())
+            if words < 250 and not any(exempt in current_title.lower() for exempt in ["prologue", "epilogue", "interlude", "note", "prelude"]):
+                msg = f"[MICRO_CHAPTER_FRAGMENTATION] Chapter '{current_title}' in session {session_prefix} is only {words} words (recommended minimum: 350 words). Consider consolidating scenes using scene break ('---')."
+                if strict_pacing:
+                    raise ValueError(msg)
+                else:
+                    print(f"  ⚠️  {msg}")
             chapters.append({
                 "id": f"{session_prefix}_chap_{chap_idx:03d}",
                 "title": current_title,
                 "filename": f"{session_prefix}_chap_{chap_idx:03d}.xhtml",
                 "html": clean_markdown_to_html(f"## {current_title}\n\n{ch_content}")
             })
+
+    if len(chapters) > 6:
+        print(f"  ⚠️  [EXCESSIVE_CHAPTER_SPLIT] Session {session_prefix} generated {len(chapters)} chapters (recommended: 2-4 chapters per session).")
 
     return chapters
 

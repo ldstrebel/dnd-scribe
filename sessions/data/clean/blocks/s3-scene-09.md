@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [1391, 1530] | SCENE_ID: 9 -->
 
-## CHAPTER 31: THE INTAKE TRAY SETUP
+---
 
 Pierre placed the limestone fragment and Alfie onto a documentation tray. <!-- L1462 -->
 

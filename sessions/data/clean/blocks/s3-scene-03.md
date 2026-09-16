@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [591, 720] | SCENE_ID: 3 -->
 
-## CHAPTER 25: THE PARKING LOT ANNEX
+---
 
 Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History.
 

@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [461, 590] | SCENE_ID: 2 -->
 
-## CHAPTER 24: THE MAIDEN OF PERSEPHONE
+---
 
 Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld.
 

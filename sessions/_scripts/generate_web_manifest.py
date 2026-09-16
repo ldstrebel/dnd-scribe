@@ -91,11 +91,11 @@ CHARACTER_REGISTRY = {
         "color": "#0284c7",
         "role": "Museum Night Watchman"
     },
-    "nancy": {
-        "name": "Nancy (Guard)",
+    "nincy": {
+        "name": "Nincy (Receptionist & Host)",
         "type": "npc",
         "color": "#0ea5e9",
-        "role": "Museum Gallery Guard"
+        "role": "Museum Receptionist & Social Media Host"
     },
     "beast": {
         "name": "Shadow Beast",
@@ -130,7 +130,7 @@ SPEAKER_ALIASES = {
     "fates": ["fates", "clotho", "lachesis", "atropos", "three sisters", "eldest", "second", "third", "first", "the first", "weavers", "millstones"],
     "clerk": ["clerk", "attendant"],
     "thomas": ["thomas", "security guard", "guard's keycard", "dropped clipboard", "officer"],
-    "nancy": ["nancy"],
+    "nincy": ["nincy", "nancy", "nanci", "receptionist", "desk clerk"],
     "beast": ["beast", "sphinx", "it rasped", "purred", "shadow beast", "creature", "come with us through the rift"],
     "anchor": ["news anchor", "anchor", "radio", "monotone voice", "field reporter"],
     "passenger": ["someone shouted", "passenger", "passengers"]

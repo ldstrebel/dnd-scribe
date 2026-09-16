@@ -164,12 +164,12 @@ VOICE_REGISTRY = {
         "similarity_boost": 0.80,
         "style": 0.30
     },
-    "nancy": {
-        "name": "Nancy (Guard)",
+    "nincy": {
+        "name": "Nincy (Receptionist / Guard)",
         "type": "npc",
         "voice_id": "oWAxZDxUJAwQ20x1WMrq",  # Nicole / Crisp gallery security
         "model_id": "eleven_multilingual_v2",
-        "tone": "Crisp museum gallery security officer",
+        "tone": "Lively museum receptionist and security officer with a sharp Southern drawl",
         "stability": 0.55,
         "similarity_boost": 0.80,
         "style": 0.25
@@ -179,7 +179,7 @@ VOICE_REGISTRY = {
         "type": "npc",
         "voice_id": "g5CIjZEefAph4nQFvHAz",  # Ethan / Tired laconic clerk
         "model_id": "eleven_multilingual_v2",
-        "tone": "Tired, laconic attendant who has seen too many strange travelers",
+        "tone": "Tired, laconic graveyard shift cashier in a remote Appalachian service station",
         "stability": 0.60,
         "similarity_boost": 0.75,
         "style": 0.15
@@ -198,6 +198,7 @@ VOICE_REGISTRY = {
 
 # Phonetic Dictionary for Fantasy Proper Nouns & Setting Terms
 GLOBAL_PHONETIC_MAP = {
+    "Nincy": "Nin-see",
     "Eusacles": "Yoo-suh-kleez",
     "Dravin": "Dray-vin",
     "Thanatos": "Than-uh-toss",

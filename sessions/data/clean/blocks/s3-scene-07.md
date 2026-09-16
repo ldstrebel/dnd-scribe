@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [1111, 1250] | SCENE_ID: 7 -->
 
-## CHAPTER 29: SECURING THE STAGING AREA
+---
 
 Pierre joined Dravin near the staging area for the museum’s visiting epigraphy team. Groups of suited academic researchers were gathered near the stanchions, waiting for the sheep commotion to clear. <!-- L1138 -->
 

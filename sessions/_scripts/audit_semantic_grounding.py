@@ -30,6 +30,11 @@ HIGH_RISK_FOREIGN_PROPS = {
     "lockpick", "lockpicks", "suv", "sedan", "ford", "chevy", "toyota"
 }
 
+PHONETIC_ALIASES = {
+    "nancy": {"nincy", "nanci"},
+    "nincy": {"nancy", "nanci"},
+}
+
 def clean_lines(filepath):
     lines = []
     with open(filepath, "r", encoding="utf-8") as f:
@@ -105,16 +110,44 @@ def audit_session_grounding(session_id, base_dir=None):
         skipped_items = re.findall(r"(\d+)(?:\(([^)]+)\))?", skipped_raw_str)
 
         unjustified_skips = []
+        consecutive_spoken_skips = 0
+        max_consecutive_spoken = 0
+        consecutive_sample = []
+
         for num_str, reason in skipped_items:
             line_idx = int(num_str) - 1
             if 0 <= line_idx < len(raw_lines):
                 r_line = raw_lines[line_idx]
-                sm = re.match(r"^\*\*([^*]+)\s*\((PC|NPC)\):\*\*\s*(.+)$", r_line)
+                # Match both **Speaker (PC/NPC):** and raw indexed **Player/GM:**
+                sm = re.match(r"^\*\*([^*]+?)(?:\s*\((PC|NPC)\))?:\*\*\s*(.+)$", r_line)
                 if sm and reason == "ooc":
-                    speaker, char_type, dialogue = sm.group(1), sm.group(2), sm.group(3)
+                    speaker, char_type, dialogue = sm.group(1).strip(), sm.group(2), sm.group(3).strip()
                     words = extract_content_words(dialogue)
-                    if len(words) >= 8 and not any(meta in dialogue.lower() for meta in ["roll", "initiative", "saving throw", "spell slot", "dice", "laugh", "chuckle"]):
+                    is_meta = any(meta in dialogue.lower() for meta in [
+                        "roll", "initiative", "saving throw", "spell slot", "dice", 
+                        "laugh", "chuckle", "character sheet", "wifi", "discord", "d4", "d6", "d20"
+                    ])
+                    
+                    if len(words) >= 4 and not is_meta:
+                        consecutive_spoken_skips += 1
+                        if len(consecutive_sample) < 3:
+                            consecutive_sample.append((int(num_str), speaker, dialogue))
+                        if consecutive_spoken_skips > max_consecutive_spoken:
+                            max_consecutive_spoken = consecutive_spoken_skips
+                    else:
+                        consecutive_spoken_skips = 0
+
+                    if len(words) >= 8 and not is_meta:
                         unjustified_skips.append((int(num_str), speaker, dialogue))
+                else:
+                    consecutive_spoken_skips = 0
+
+        if max_consecutive_spoken >= 5:
+            sample_desc = " | ".join(f"L{l:04d} ({s}): '{d[:35]}...'" for l, s, d in consecutive_sample)
+            warnings.append(
+                f"Scene {scene_id}: [SUSPICIOUS_DIALOGUE_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as (ooc) skip. "
+                f"Verify in-character banter/comedy was not omitted. Sample: [{sample_desc}]"
+            )
 
         if unjustified_skips:
             for line_no, spk, dial in unjustified_skips[:3]:
@@ -170,7 +203,7 @@ def audit_session_grounding(session_id, base_dir=None):
                     overlap = False
                     for rw in raw_turn_words:
                         for pw in para_words:
-                            if rw == pw or rw[:4] == pw[:4] or pw[:4] == rw[:4]:
+                            if rw == pw or rw[:4] == pw[:4] or pw[:4] == rw[:4] or (rw in PHONETIC_ALIASES and pw in PHONETIC_ALIASES[rw]):
                                 overlap = True
                                 break
                         if overlap:

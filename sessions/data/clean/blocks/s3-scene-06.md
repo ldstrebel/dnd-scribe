@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [981, 1110] | SCENE_ID: 6 -->
 
-## CHAPTER 28: HIDING IN PLAIN SIGHT
+## CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL
 
 While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze—limp limbs and vacant coral eyes. <!-- L1053 -->
 

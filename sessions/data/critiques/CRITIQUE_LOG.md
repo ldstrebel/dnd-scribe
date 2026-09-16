@@ -6,6 +6,24 @@ This log tracks all community, player, and editor critique payloads ingested fro
 
 ## Ingested PR Feedback Records
 
+### 🧾 PR Record #003: `uneraseable-s3-claire-ick-321600`
+- **Branch:** `critique/uneraseable-s3-claire-ick-321600`
+- **Session:** `s3` (*The Raleigh Museum & The Aegean Inscription*)
+- **Reviewer:** `Claire Ick`
+- **Payload File:** [`sessions/data/critiques/uneraseable-s3-claire-ick-321600.json`](file:///d:/Code/dnd-scribe/sessions/data/critiques/uneraseable-s3-claire-ick-321600.json)
+- **Export Timestamp:** `2026-09-16T00:58:41.600Z`
+- **Status:** `[RESOLVED & APPLIED]`
+- **Verification Gates:** `verify_manifest.py [PASS]`, `verify_parity.py [PASS]`, `critique_prose.py [PASS]`, `generate_web_manifest.py [PASS]`, `novel/generate_epub.py [PASS]`
+
+#### 📝 Item-by-Item Review & Justification Ledger
+
+| Block ID | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `uneraseable_s03_b026` | Prof. Edward Dravin | General / Dialogue & Character Fidelity | *"where did all the back and forth with Nincy (not Nancy) go?"* | **`[APPLIED - RESTORED]`** | **NPC Name & Dialogue Restoration:** Raw transcript L0725–L0750 confirmed the receptionist explicitly stated her name was *Nincy* (*"Nincy with an I... N-I-N-C-Y... Some people with my accent, they don't hear"*). Fully dramatized the flirty banter with Dravin (*"You are quite the exhibit, Nincy"*), Pierre's academic wingman hype, Alfie's pull-string "shipwrecked Marvel action figure" routine (L0781–L0790), Pierre's botched pickpocket attempt on her lanyard badge (L0834–L0837), Dravin chucking the doll across the lobby, Pierre's panic (*"I told you that doll was haunted!"*), Nincy calling security, and Pierre's quip (*"He wants to be with you, Nincy!"*) preceding the *Sleep* $\rightarrow$ *Sheep* Wordcraft transmigration. Registered `nincy` in `generate_web_manifest.py`. |
+| `uneraseable_s03_b040` | Narrator | Pacing / Chapter Architecture | *"there are way too many chapters... give them time to breathe"* | **`[APPLIED - CONSOLIDATED]`** | **Chapter Restructuring:** Consolidated 10 fragmented micro-chapters (where 100-line blocks each carried a separate `## CHAPTER` header, resulting in single-sentence chapters) into **3 substantial, breathing novel chapters** for Session 3: **Chapter 23: The Maintenance Shed Threshold** (Scenes 1–3), **Chapter 24: The Heist at the Front Desk** (Scenes 4–5), and **Chapter 25: The Research Annex & The Closing Bell** (Scenes 6–10). Scene transitions within chapters demarcated via `<hr class="ornament"/>` (`---`). Reduced Book 1 total chapters from 32 to 25. |
+
+---
+
 ### 🧾 PR Record #002: `uneraseable-s3-strebs-140519`
 - **Branch:** `critique/uneraseable-s3-strebs-140519`
 - **Session:** `s3` (*The Raleigh Museum & The Aegean Inscription*)
@@ -52,3 +70,4 @@ This log tracks all community, player, and editor critique payloads ingested fro
 | Watch Item ID | Session & Anchor | Subject | Tabletop Fact | Potential Retcon / Ambiguity | Follow-up Trigger |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `RETCON-S01-01` | `s1` (`b060`, `L1150`) | Dravin *Chill Touch* knowledge | Player cast *Chill Touch* in combat. | Player was experimenting with D&D mechanics; character may canonically be an unwitting scholar with zero formal magical training prior to The Margin. | Check Session 4+ character dialogue regarding when Dravin first understood he was a necromancer. |
+| `RETCON-S03-01` | `s3` (`b026`, `L0725`) | Nincy vs. Nancy STT Drift | Character explicitly introduces herself as "Nincy with an I". | Speech-to-text transcribed her name as "Nancy" due to Southern vowel merger; upstream aliases and character dossiers updated so TTS and manifests bind to `nincy`. | Completed in PR Record #003. |

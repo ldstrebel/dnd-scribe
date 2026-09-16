@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [1251, 1390] | SCENE_ID: 8 -->
 
-## CHAPTER 30: THE CLUE BOARD STRATEGY
+---
 
 Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors.
 

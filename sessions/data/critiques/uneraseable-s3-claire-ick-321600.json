@@ -1,0 +1,47 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s3",
+  "title": "Uneraseable - CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
+  "reviewer": "Claire Ick",
+  "reviewerMeta": {
+    "handle": "Claire Ick",
+    "isBankPunName": true,
+    "suggestedBankReplacement": "Feather Fallon"
+  },
+  "exportedAt": "2026-09-16T00:58:41.600Z",
+  "totalCritiques": 2,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s03_b040",
+      "blockIndex": 40,
+      "speaker": "Narrator",
+      "speakerId": "narrator",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#94a3b8",
+      "category": "general",
+      "quote": "Pierre carried his documentation tray directly toward the lead researcher's examination desk.",
+      "comment": "there are way too many chapters",
+      "suggestedRewrite": "give them time to breathe",
+      "sourceLine": null,
+      "sourceSpeaker": "Narrative Synthesis",
+      "updatedAt": "2026-09-16T00:38:22.542Z"
+    },
+    {
+      "blockId": "uneraseable_s03_b026",
+      "blockIndex": 26,
+      "speaker": "Prof. Edward Dravin",
+      "speakerId": "dravin",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#8b5cf6",
+      "category": "general",
+      "quote": "Dravin stepped toward the reception counter, whispering an incantation under his breath: \"I am going to cast Sleep on Nancy.\"",
+      "comment": "where did all the back and forth with Nincy (not Nancy) go?",
+      "suggestedRewrite": "",
+      "sourceLine": 885,
+      "sourceSpeaker": "William Webb",
+      "updatedAt": "2026-09-16T00:58:35.231Z"
+    }
+  ]
+}

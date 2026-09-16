@@ -49,6 +49,11 @@ class MacroAuditor:
             for m in matches:
                 ungrounded_flags.append(f"Ungrounded table abbreviation '{abbrev.upper()}' at char index {m.start()}")
 
+        # Check for micro-chapter fragmentation in single scene blocks
+        chapter_matches = list(re.finditer(r"^##\s+CHAPTER\s+.*$", text, re.M))
+        if len(chapter_matches) > 1:
+            ungrounded_flags.append(f"Multiple chapter headers ({len(chapter_matches)}) found in a single scene block. Only one chapter heading allowed per scene block.")
+
         return {
             "scene_title": scene_title,
             "characters_present": active_characters,

@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [1531, 1665] | SCENE_ID: 10 -->
 
-## CHAPTER 32: THE FIRST-DAY INTERN & THE CLOSING BELL
+---
 
 Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures.
 
@@ -28,7 +28,7 @@ Pierre clasped his hands behind his back, falling into step as the cart was whee
 
 The museum’s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries.
 
-Nancy’s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: "Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream—I hear there might be a little excitement in the Greek wing tonight!" <!-- L1655 -->
+Nincy’s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: "Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream—I hear there might be a little excitement in the Greek wing tonight!" <!-- L1655 -->
 
 Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup.
 

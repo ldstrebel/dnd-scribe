@@ -1390,5 +1390,343 @@
     ],
     "top_errors": [],
     "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-15T20:24:10.015969",
+    "session_id": "s3",
+    "status": "FAIL",
+    "errors_count": 2,
+    "warnings_count": 25,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 17
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 28
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 56
+      },
+      {
+        "scene_id": 4,
+        "ratio": 0.952,
+        "keywords": 58
+      },
+      {
+        "scene_id": 5,
+        "ratio": 0.929,
+        "keywords": 29
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 4
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 7
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 35
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 11
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 63
+      }
+    ],
+    "top_errors": [
+      "Scene 4: UNGROUNDED TURN at L0730.\n  Raw Line: '**William Webb:** in I inc....'\n  Prose: '\"N-I-N-C-Y,\" Dravin pronounced carefully, catching the phonetic inflection....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
+      "Scene 5: UNGROUNDED TURN at L0861.\n  Raw Line: '**William Webb:** Nancy, I am not with them. I mean, I'm with them, but I'm not ...'\n  Prose: 'Dravin raised his hands placatingly, backing away toward the velvet stanchions. ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
+    ],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0464 (Luke Foreman): 'Um well That that is very interesting. I will I will have to I will ha...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0479 (Luke S): 'sorry. It is um new country at uh Ali. Um good to meet you. I don't kn...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T20:24:29.306453",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 25,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 17
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 28
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 56
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 29
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 4
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 7
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 35
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 11
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 63
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0464 (Luke Foreman): 'Um well That that is very interesting. I will I will have to I will ha...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0479 (Luke S): 'sorry. It is um new country at uh Ali. Um good to meet you. I don't kn...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T20:25:29.820379",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 25,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 17
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 28
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 56
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 29
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 4
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 7
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 35
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 11
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 63
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0464 (Luke Foreman): 'Um well That that is very interesting. I will I will have to I will ha...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0479 (Luke S): 'sorry. It is um new country at uh Ali. Um good to meet you. I don't kn...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T20:26:58.617024",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 25,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 17
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 28
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 56
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 29
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 4
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 7
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 35
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 11
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 63
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0464 (Luke Foreman): 'Um well That that is very interesting. I will I will have to I will ha...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0479 (Luke S): 'sorry. It is um new country at uh Ali. Um good to meet you. I don't kn...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T20:32:25.424337",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 25,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 17
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 28
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 56
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 29
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 4
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 7
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 35
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 11
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 63
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0464 (Luke Foreman): 'Um well That that is very interesting. I will I will have to I will ha...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0479 (Luke S): 'sorry. It is um new country at uh Ali. Um good to meet you. I don't kn...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
   }
 ]
