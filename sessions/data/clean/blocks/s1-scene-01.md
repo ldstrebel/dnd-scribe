@@ -31,6 +31,26 @@ Before anyone could scream, a blinding explosion of searing heat and white light
 
 "Wow..." Pierre breathed softly into the void. <!-- L0968 -->
 
-And then, the light consumed everything.
+And then, the light crystallized into cool, morning air.
 
-<!-- LEDGER: rendered=[958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968] skipped=[969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 974(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 979(ooc), 980(ooc), 981(ooc), 982(ooc), 983(ooc)] -->
+Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel was completely gone, replaced by the faint, earthy scent of ancient parchment and sun-warmed stone. He was sitting on polished marble flagstones in an open-air colonnade of Doric pillars rising beneath a cloudless sky. Colossal towering cedar shelves lined the perimeter, groaning under leather-bound codices and clay tablets. <!-- L0972 -->
+
+Standing in the center of the rotunda, bathed in golden sunlight, were three ancient women. <!-- L0973 -->
+
+"Oh, s***," Pierre whispered under his breath. <!-- L0974 -->
+
+Draped in heavy linen, their wrinkled hands worked continuously over a suspended wooden loom, silvery threads blurring through their gnarled fingers. They turned their milky, unblinking eyes upon him.
+
+"Ah, you're early," the first murmured like grinding stones. <!-- L0975 -->
+
+"Oh no," the second chimed in. "You're late."
+
+"Come closer," whispered the third. "Come closer... This is interesting."
+
+Pierre scrambled backward until his spine hit a marble pedestal, clutching his rucksack like a shield. If anyone asked, he was just a totally normal boy. Just a normal kid with glasses and a nice beret that he wore. His unruly hair was perhaps a little weird if you looked at it too long, but nobody needed to worry about that—it was normal. He peered around with intense suspicion and confusion. <!-- L0977 --> <!-- L0978 --> <!-- L0979 -->
+
+"So, is... um, is this normal for buses in America to do this type of thing?" Pierre asked hesitantly. <!-- L0980 -->
+
+Glancing across the flagstones, Pierre spotted a hulking, muscular man lying nearby. Definitely not fond of the ripped guy, Pierre pointedly turned to his left. <!-- L0982 -->
+
+<!-- LEDGER: rendered=[958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 972, 973, 974, 975, 977, 978, 979, 980, 982] skipped=[969(ooc), 970(ooc), 971(ooc), 976(ooc), 981(ooc), 983(ooc)] -->

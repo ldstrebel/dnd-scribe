@@ -9,7 +9,7 @@
   "session": {
     "id": "s3",
     "number": 3,
-    "title": "CHAPTER 23: THE MAINTENANCE SHED THRESHOLD",
+    "title": "Session 3",
     "synopsis": "Infiltrating the North Carolina Museum of Natural History in Raleigh, Pierre and Alfie use disguise and Wordcraft to recover and mend a fractured ancient stele, stabilizing an unraveling timeline seam."
   },
   "characters": {
@@ -60,17 +60,23 @@
       "type": "npc",
       "color": "#0ea5e9",
       "role": "Museum Receptionist & Social Media Host"
+    },
+    "attendant": {
+      "name": "Museum Attendant",
+      "type": "npc",
+      "color": "#78716c",
+      "role": "North Carolina Museum Staff"
     }
   },
   "stats": {
-    "wordCount": 2744,
-    "estimatedReadMinutes": 11,
-    "estimatedBookPages": 11.0,
+    "wordCount": 2870,
+    "estimatedReadMinutes": 12,
+    "estimatedBookPages": 11.5,
     "dialogueRatio": {
-      "spokenWords": 964,
-      "narrativeWords": 1780,
-      "spokenPct": 35.1,
-      "narrativePct": 64.9,
+      "spokenWords": 976,
+      "narrativeWords": 1894,
+      "spokenPct": 34.0,
+      "narrativePct": 66.0,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -78,43 +84,50 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1106,
-        "sharePct": 40.3
+        "words": 1220,
+        "sharePct": 42.5
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 804,
-        "sharePct": 29.3
+        "words": 771,
+        "sharePct": 26.9
       },
       {
         "id": "nincy",
         "name": "Nincy (Receptionist & Host)",
         "color": "#0ea5e9",
         "words": 260,
-        "sharePct": 9.5
+        "sharePct": 9.1
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
         "words": 253,
-        "sharePct": 9.2
+        "sharePct": 8.8
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
         "words": 188,
-        "sharePct": 6.9
+        "sharePct": 6.6
       },
       {
         "id": "ally",
         "name": "Ally",
         "color": "#ec4899",
-        "words": 57,
-        "sharePct": 2.1
+        "words": 64,
+        "sharePct": 2.2
+      },
+      {
+        "id": "theodore",
+        "name": "Theodore (Teddy)",
+        "color": "#d97706",
+        "words": 42,
+        "sharePct": 1.5
       },
       {
         "id": "fates",
@@ -124,20 +137,20 @@
         "sharePct": 1.4
       },
       {
-        "id": "theodore",
-        "name": "Theodore (Teddy)",
-        "color": "#d97706",
-        "words": 37,
-        "sharePct": 1.3
+        "id": "attendant",
+        "name": "Museum Attendant",
+        "color": "#78716c",
+        "words": 33,
+        "sharePct": 1.1
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 7.9,
+      "pacingStdDev": 8.0,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 6,
+        "visual": 9,
         "auditory": 0,
-        "tactile": 9,
+        "tactile": 10,
         "olfactory": 2,
         "atmospheric": 12,
         "registersCovered": 4
@@ -174,13 +187,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "35.1% Spoken / 64.9% Narrative Action",
+          "chosenStance": "34.0% Spoken / 66.0% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~144 words/scene)",
+          "chosenStance": "Micro-Chapters (~151 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -225,665 +238,2347 @@
       "index": 1,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Behind the main cabin of The Margin, the warped pine door of Theodore's maintenance shed creaked open. Inside, rows of rusty shovels, ancient hand-forged axes, and weathered iron adzes hung beside modern socket wrenches on pegboard walls."
+      "text": "Behind the main cabin of The Margin, the warped pine door of Theodore's maintenance shed creaked open. Inside, rows of rusty shovels, ancient hand-forged axes, and weathered iron adzes hung beside modern socket wrenches on pegboard walls.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b001_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Behind the main cabin of The Margin, the warped pine door of Theodore's maintenance shed creaked open. Inside, rows of rusty shovels, ancient hand-forged axes, and weathered iron adzes hung beside modern socket wrenches on pegboard walls."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b002",
       "index": 2,
       "scene": "Prologue",
       "speakerId": "theodore",
-      "text": "Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed. \"The Lost Roads don't have street signs,\" he warned. \"Keep your wits about you.\""
+      "text": "Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed. \"We stand at the beginning of our journey to the Lost Roads,\" he warned. \"Keep your wits about you.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b002_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b002_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 330,
+          "text": "\"We stand at the beginning of our journey to the Lost Roads,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b002_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he warned. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b002_s04",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 330,
+          "text": "\"Keep your wits about you.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b003",
       "index": 3,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Pierre stepped forward, his round spectacles catching the amber lantern light. He focused on the faint, shimmering resonance in the floorboards\u2014the ancient pull of stone and shifting earth."
+      "text": "Pierre stepped forward, his round spectacles catching the amber lantern light. He focused on the faint, shimmering resonance in the floorboards\u2014the ancient pull of stone and shifting earth across the Lost Roads.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b003_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre stepped forward, his round spectacles catching the amber lantern light. He focused on the faint, shimmering resonance in the floorboards\u2014the ancient pull of stone and shifting earth across the Lost Roads."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b004",
       "index": 4,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Beyond the threshold, the physical walls of the shed dissolved into mist. The party stepped through into the Lost Roads\u2014an endless, shifting expanse where classical Greek colonnades rose out of overgrown meadows and forgotten gravel paths wound through the gray ether."
+      "text": "Beyond the threshold, the physical walls of the shed dissolved into mist. The party stepped through into the Lost Roads\u2014an endless, shifting expanse where classical Greek colonnades rose out of overgrown meadows and forgotten gravel paths wound through the gray ether.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b004_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Beyond the threshold, the physical walls of the shed dissolved into mist. The party stepped through into the Lost Roads\u2014an endless, shifting expanse where classical Greek colonnades rose out of overgrown meadows and forgotten gravel paths wound through the gray ether."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b005",
       "index": 5,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld."
+      "text": "Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b005_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b006",
       "index": 6,
       "scene": "Prologue",
       "speakerId": "ally",
-      "text": "\"You may call me Ally,\" she murmured, her voice carrying a soft, crystalline chill. \"The maiden of Persephone.\""
+      "text": "\"You may call me Ally,\" she murmured, her voice carrying a soft, crystalline chill. \"The maiden of Persephone.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b006_s01",
+          "type": "dialogue",
+          "speakerId": "ally",
+          "speakerName": "Ally",
+          "sourceLine": 468,
+          "text": "\"You may call me Ally,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b006_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she murmured, her voice carrying a soft, crystalline chill. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b006_s03",
+          "type": "dialogue",
+          "speakerId": "ally",
+          "speakerName": "Ally",
+          "sourceLine": 468,
+          "text": "\"The maiden of Persephone.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b007",
       "index": 7,
       "scene": "Prologue",
       "speakerId": "pierre",
-      "text": "\"How much further to the museum would you say?\" Alfie piped up from Pierre's bag, his driftwood face tilting up with a cheeky grin. \"Because I'm a bit hungry.\""
+      "text": "\"How much further to the museum would you say?\" Alfie piped up from Pierre's bag, his driftwood face tilting up with a cheeky grin. \"Because I'm a bit hungry.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b007_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 551,
+          "text": "\"How much further to the museum would you say?\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b007_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie piped up from Pierre's bag, his driftwood face tilting up with a cheeky grin. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b007_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 551,
+          "text": "\"Because I'm a bit hungry.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b008",
       "index": 8,
       "scene": "Prologue",
       "speakerId": "ally",
-      "text": "Ally offered a faint, cryptic warning. \"You will not travel for very long. The Lost Roads are a time warp\u2014sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left.\""
+      "text": "Ally offered a faint, cryptic warning. \"You will not travel for very long. The Lost Roads are a time warp\u2014sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left. It is truly fascinating, these Lost Roads.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b008_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Ally offered a faint, cryptic warning. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b008_s02",
+          "type": "dialogue",
+          "speakerId": "ally",
+          "speakerName": "Ally",
+          "sourceLine": 561,
+          "text": "\"You will not travel for very long. The Lost Roads are a time warp\u2014sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left. It is truly fascinating, these Lost Roads.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b009",
       "index": 9,
       "scene": "Prologue",
       "speakerId": "alfie",
-      "text": "\"Should have brought some pancakes for the road, mate,\" Alfie sighed."
+      "text": "\"Should have brought some pancakes for the road, mate,\" Alfie sighed.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b009_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 569,
+          "text": "\"Should have brought some pancakes for the road, mate,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b009_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie sighed."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b010",
       "index": 10,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "With a subtle turn, Ally stepped through an arching stone wall that closed softly behind her, leaving them to press forward through the clutter of ancient passages toward their destination."
+      "text": "With a subtle turn, Ally stepped through an arching stone wall that closed softly behind her, leaving them to press forward through the clutter of ancient passages toward their destination.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b010_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "With a subtle turn, Ally stepped through an arching stone wall that closed softly behind her, leaving them to press forward through the clutter of ancient passages toward their destination."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b011",
       "index": 11,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History."
+      "text": "Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b011_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b012",
       "index": 12,
       "scene": "Prologue",
       "speakerId": "pierre",
-      "text": "\"Tell me, Professor,\" Pierre mused, adjusting his beret with a Gallic shrug, \"in Paris, our museums have thousands of years of history. In America, I have very low expectations.\""
+      "text": "\"Tell me, Professor,\" Pierre mused, adjusting his beret with a Gallic shrug, \"in Paris, our museums have thousands of years of history. In America, I have very low expectations.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b012_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 592,
+          "text": "\"Tell me, Professor,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b012_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre mused, adjusting his beret with a Gallic shrug, "
+        },
+        {
+          "segmentId": "uneraseable_s03_b012_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 592,
+          "text": "\"in Paris, our museums have thousands of years of history. In America, I have very low expectations.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b013",
       "index": 13,
       "scene": "Prologue",
       "speakerId": "dravin",
-      "text": "Dravin chuckled, checking the handle. \"Prop the annex door open,\" he instructed. \"If we have to make a quick exit, we cannot afford a locked deadbolt.\""
+      "text": "Dravin chuckled, checking the handle. \"Prop the annex door open,\" he instructed. \"If we have to make a quick exit, we cannot afford a locked deadbolt.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b013_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin chuckled, checking the handle. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b013_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 625,
+          "text": "\"Prop the annex door open,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b013_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he instructed. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b013_s04",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 625,
+          "text": "\"If we have to make a quick exit, we cannot afford a locked deadbolt.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b014",
       "index": 14,
       "scene": "Prologue",
       "speakerId": "pierre",
-      "text": "As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms. \"When we are inside, we must be careful with the talking doll bit.\""
+      "text": "As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms. \"When we are inside, we must be careful with the talking doll bit.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b014_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b014_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 631,
+          "text": "\"When we are inside, we must be careful with the talking doll bit.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b015",
       "index": 15,
       "scene": "Prologue",
       "speakerId": "alfie",
-      "text": "Alfie crossed his tiny wooden arms, looking offended. \"Now that is the second time someone has said that! I am a special little boy, mate!\""
+      "text": "Alfie crossed his tiny wooden arms, looking offended. \"Now that is the second time someone has said that! I am a special little boy, mate!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b015_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie crossed his tiny wooden arms, looking offended. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b015_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 632,
+          "text": "\"Now that is the second time someone has said that! I am a special little boy, mate!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b016",
       "index": 16,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Dravin adjusted the latch so the door stayed ajar."
+      "text": "Dravin adjusted the latch so the door stayed ajar.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b016_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin adjusted the latch so the door stayed ajar."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b017",
       "index": 17,
       "scene": "Prologue",
       "speakerId": "pierre",
-      "text": "Pierre glanced down at him thoughtfully. \"Two quick questions: do you prefer to be called a doll, or is it more of an action figure?\""
+      "text": "Pierre glanced down at him thoughtfully. \"Two quick questions: do you prefer to be called a doll, or is it more of an action figure?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b017_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre glanced down at him thoughtfully. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b017_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 655,
+          "text": "\"Two quick questions: do you prefer to be called a doll, or is it more of an action figure?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b018",
       "index": 18,
       "scene": "Prologue",
       "speakerId": "alfie",
-      "text": "\"An action figure,\" Alfie decided with a sharp nod. \"I could get behind that.\""
+      "text": "\"An action figure,\" Alfie decided with a sharp nod. \"I could get behind that.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b018_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 659,
+          "text": "\"An action figure,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b018_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie decided with a sharp nod. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b018_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 659,
+          "text": "\"I could get behind that.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b019",
       "index": 19,
       "scene": "Prologue",
       "speakerId": "pierre",
-      "text": "\"Or perhaps a collectible?\" Pierre added."
+      "text": "\"Or perhaps a collectible?\" Pierre added.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b019_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 660,
+          "text": "\"Or perhaps a collectible?\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b019_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre added."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b020",
       "index": 20,
       "scene": "Prologue",
       "speakerId": "pierre",
-      "text": "\"Then you can sit on my shoulder,\" Pierre offered. \"Americans already think my beret is funny-looking. Nobody will question a foreign student with a collectible.\""
+      "text": "\"Then you can sit on my shoulder,\" Pierre offered. \"Americans already think my beret is funny-looking. Nobody will question a foreign student with a collectible.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b020_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 666,
+          "text": "\"Then you can sit on my shoulder,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b020_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre offered. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b020_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 666,
+          "text": "\"Americans already think my beret is funny-looking. Nobody will question a foreign student with a collectible.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b021",
       "index": 21,
       "scene": "Prologue",
       "speakerId": "dravin",
-      "text": "Dravin found a length of thin twine from the storage room, carefully looping it around Alfie's back with a small hook. \"If anyone asks, I'll pull the string and you repeat your catchphrase like a toy.\""
+      "text": "Dravin found a length of thin twine from the storage room, carefully looping it around Alfie's back with a small hook. \"If anyone asks, I'll pull the string and you repeat your catchphrase like a toy.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b021_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin found a length of thin twine from the storage room, carefully looping it around Alfie's back with a small hook. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b021_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 671,
+          "text": "\"If anyone asks, I'll pull the string and you repeat your catchphrase like a toy.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b022",
       "index": 22,
       "scene": "Prologue",
       "speakerId": "narrator",
-      "text": "Pierre adjusted his beret, ready to enter the public galleries."
+      "text": "Pierre adjusted his beret, ready to enter the public galleries.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b022_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre adjusted his beret, ready to enter the public galleries."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b023",
       "index": 23,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "They passed through the glass double doors into the cool, air-conditioned atrium of the museum. Front and center in the main gallery, surrounded by velvet stanchions and informational placards, was the celebrated ancient Greek limestone tablet."
+      "text": "They passed through the glass double doors into the cool, air-conditioned atrium of the museum. Front and center in the main gallery, surrounded by velvet stanchions and informational placards, was the celebrated ancient Greek limestone tablet.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b023_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "They passed through the glass double doors into the cool, air-conditioned atrium of the museum. Front and center in the main gallery, surrounded by velvet stanchions and informational placards, was the celebrated ancient Greek limestone tablet."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b024",
       "index": 24,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Before they could reach the stanchions, they had to navigate the circular reception desk that anchored the lobby. Behind the polished wood counter sat a woman in a crisp museum blazer, adjusting a ring light positioned beside two phones mounted on miniature tripods. A laminated staff security lanyard hung squarely over her lapel."
+      "text": "Before they could reach the stanchions, they had to navigate the circular reception desk that anchored the lobby. Behind the polished wood counter sat a woman in a crisp museum blazer, adjusting a ring light positioned beside two phones mounted on miniature tripods. A laminated staff security lanyard hung squarely over her lapel.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b024_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Before they could reach the stanchions, they had to navigate the circular reception desk that anchored the lobby. Behind the polished wood counter sat a woman in a crisp museum blazer, adjusting a ring light positioned beside two phones mounted on miniature tripods. A laminated staff security lanyard hung squarely over her lapel."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b025",
       "index": 25,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "\"Welcome to the North Carolina Museum of Natural History,\" she greeted them with a melodic, razor-sharp Southern cadence."
+      "text": "\"Welcome to the North Carolina Museum of Natural History,\" she greeted them with a melodic, razor-sharp Southern cadence.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b025_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": null,
+          "text": "\"Welcome to the North Carolina Museum of Natural History,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b025_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she greeted them with a melodic, razor-sharp Southern cadence."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b026",
       "index": 26,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "\"I am\u2014my name is Nincy, as you can see,\" she added, tapping the engraved gold badge pinned to her chest."
+      "text": "\"I am\u2014my name is Nincy, as you can see,\" she added, tapping the engraved gold badge pinned to her chest.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b026_s01",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 725,
+          "text": "\"I am\u2014my name is Nincy, as you can see,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b026_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she added, tapping the engraved gold badge pinned to her chest."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b027",
       "index": 27,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Dravin tilted his head, reading the lettering with an academic squint."
+      "text": "Dravin tilted his head, reading the lettering with an academic squint.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b027_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin tilted his head, reading the lettering with an academic squint."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b028",
       "index": 28,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "\"Yes, my name is Nincy with an *I*,\" she emphasized with a knowing smile."
+      "text": "\"Yes, my name is Nincy with an *I*,\" she emphasized with a knowing smile.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b028_s01",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 727,
+          "text": "\"Yes, my name is Nincy with an *I*,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b028_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she emphasized with a knowing smile."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b029",
       "index": 29,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "\"N-I-N-C-Y,\" Dravin pronounced carefully, glad he caught the spelling."
+      "text": "\"N-I-N-C-Y,\" Dravin pronounced carefully, glad he caught the spelling.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b029_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 730,
+          "text": "\"N-I-N-C-Y,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b029_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin pronounced carefully, glad he caught the spelling."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b030",
       "index": 30,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "\"Exactly, exactly! I'm glad you caught that,\" Nincy beamed, brightening visibly. \"Some people with my accent, they don't hear the difference.\""
+      "text": "\"Exactly, exactly! I'm glad you caught that,\" Nincy beamed, brightening visibly. \"Some people with my accent, they don't hear the difference.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b030_s01",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 732,
+          "text": "\"Exactly, exactly! I'm glad you caught that,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b030_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Nincy beamed, brightening visibly. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b030_s03",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 732,
+          "text": "\"Some people with my accent, they don't hear the difference.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b031",
       "index": 31,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "Dravin offered an elegant, patrician bow. \"It is an honor to meet you, Nincy.\""
+      "text": "Dravin offered an elegant, patrician bow. \"It is an honor to meet you, Nincy.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b031_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin offered an elegant, patrician bow. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b031_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 735,
+          "text": "\"It is an honor to meet you, Nincy.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b032",
       "index": 32,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "fates",
-      "text": "Nincy let out an amused laugh, twirling the end of her lanyard around a finger. \"Well! That's the first time anyone's said that about this museum when they first come in. I've never been treated like an exhibit myself.\""
+      "text": "Nincy let out an amused laugh, twirling the end of her lanyard around a finger. \"Well! That's the first time anyone's said that about this museum when they first come in. I've never been treated like an exhibit myself.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b032_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Nincy let out an amused laugh, twirling the end of her lanyard around a finger. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b032_s02",
+          "type": "dialogue",
+          "speakerId": "fates",
+          "speakerName": "The Three Fates",
+          "sourceLine": 740,
+          "text": "\"Well! That's the first time anyone's said that about this museum when they first come in. I've never been treated like an exhibit myself.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b033",
       "index": 33,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "\"Oh, well, you are quite the exhibit, Nincy,\" Dravin purred with smooth, professorial charm."
+      "text": "\"Oh, well, you are quite the exhibit, Nincy,\" Dravin purred with smooth, professorial charm.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b033_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 741,
+          "text": "\"Oh, well, you are quite the exhibit, Nincy,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b033_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin purred with smooth, professorial charm."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b034",
       "index": 34,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "\"Now, don't stay too long, sugar,\" she replied, leaning her chin on her hand with a flirtatious smirk. \"I'm almost done with my shift.\""
+      "text": "\"Now, don't stay too long, sugar,\" she replied, leaning her chin on her hand with a flirtatious smirk. \"I'm almost done with my shift.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b034_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 742,
+          "text": "\"Now, don't stay too long, sugar,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b034_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she replied, leaning her chin on her hand with a flirtatious smirk. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b034_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 742,
+          "text": "\"I'm almost done with my shift.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b035",
       "index": 35,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "pierre",
-      "text": "Pierre leaned against the corner of the counter, his Parisian accent thick and conspiratorial as he gestured toward Dravin. \"This here is a professor. You don't know all the things he could teach you.\""
+      "text": "Pierre leaned against the corner of the counter, his Parisian accent thick and conspiratorial as he gestured toward Dravin. \"This here is a professor. You don't know all the things he could teach you.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b035_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre leaned against the corner of the counter, his Parisian accent thick and conspiratorial as he gestured toward Dravin. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b035_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 745,
+          "text": "\"This here is a professor. You don't know all the things he could teach you.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b036",
       "index": 36,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "Nincy\u2019s eyebrows arched in mild surprise. \"You don't say? And I assume Greek mythology, is that correct?\""
+      "text": "Nincy\u2019s eyebrows arched in mild surprise. \"You don't say? And I assume Greek mythology, is that correct?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b036_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Nincy\u2019s eyebrows arched in mild surprise. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b036_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 750,
+          "text": "\"You don't say? And I assume Greek mythology, is that correct?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b037",
       "index": 37,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "\"Among other esoteric disciplines,\" Dravin said smoothly."
+      "text": "\"Among other esoteric disciplines,\" Dravin said smoothly.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b037_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": null,
+          "text": "\"Among other esoteric disciplines,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b037_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin said smoothly."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b038",
       "index": 38,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Behind the velvet ropes, the Aegean tablet emanated a subtle temporal thrum that Pierre and Dravin could feel in their teeth. The upper-right corner had been violently sheared away in antiquity\u2014the exact shape of the triangular limestone fragment resting safely in Pierre's rucksack. But the security gate surrounding the inner gallery was electronically locked, keyed directly to the staff lanyards."
+      "text": "Behind the velvet ropes, the Aegean tablet emanated a subtle temporal thrum that Pierre and Dravin could feel in their teeth. The upper-right corner had been violently sheared away in antiquity\u2014the exact shape of the triangular limestone fragment resting safely in Pierre's rucksack. But the security gate surrounding the inner gallery was electronically locked, keyed directly to the staff lanyards.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b038_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Behind the velvet ropes, the Aegean tablet emanated a subtle temporal thrum that Pierre and Dravin could feel in their teeth. The upper-right corner had been violently sheared away in antiquity\u2014the exact shape of the triangular limestone fragment resting safely in Pierre's rucksack. But the security gate surrounding the inner gallery was electronically locked, keyed directly to the staff lanyards."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b039",
       "index": 39,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Pierre caught Dravin's eye and flicked his gaze toward Nincy\u2019s badge. *Distraction.*"
+      "text": "Pierre caught Dravin's eye and flicked his gaze toward Nincy\u2019s badge. *Distraction.*",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b039_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre caught Dravin's eye and flicked his gaze toward Nincy\u2019s badge. *Distraction.*"
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b040",
       "index": 40,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Dravin reached down to Pierre's shoulder and lifted Alfie into both hands, presenting the tiny driftwood figure across the countertop like an eccentric scholar showing off a curio."
+      "text": "Dravin reached down to Pierre's shoulder and lifted Alfie into both hands, presenting the tiny driftwood figure across the countertop like an eccentric scholar showing off a curio.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b040_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin reached down to Pierre's shoulder and lifted Alfie into both hands, presenting the tiny driftwood figure across the countertop like an eccentric scholar showing off a curio."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b041",
       "index": 41,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "\"Look at that,\" Nincy blinked, leaning forward over her ring lights. \"I've never seen that action figure before.\""
+      "text": "\"Look at that,\" Nincy blinked, leaning forward over her ring lights. \"I've never seen that action figure before.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b041_s01",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 781,
+          "text": "\"Look at that,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b041_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Nincy blinked, leaning forward over her ring lights. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b041_s03",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 781,
+          "text": "\"I've never seen that action figure before.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b042",
       "index": 42,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "\"First edition limited run,\" Dravin announced with complete academic solemnity. \"A tweed-clad shipwrecked Marvel action figure. Extremely rare.\""
+      "text": "\"First edition limited run,\" Dravin announced with complete academic solemnity. \"A tweed-clad shipwrecked Marvel action figure. Extremely rare.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b042_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 782,
+          "text": "\"First edition limited run,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b042_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin announced with complete academic solemnity. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b042_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 782,
+          "text": "\"A tweed-clad shipwrecked Marvel action figure. Extremely rare.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b043",
       "index": 43,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Alfie held himself rigid as wood, keeping his coral eyes wide and unblinking. Dravin tugged gently on the thin twine hooked to Alfie's coat."
+      "text": "Alfie held himself rigid as wood, keeping his coral eyes wide and unblinking. Dravin tugged gently on the thin twine hooked to Alfie's coat.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b043_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie held himself rigid as wood, keeping his coral eyes wide and unblinking. Dravin tugged gently on the thin twine hooked to Alfie's coat."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b044",
       "index": 44,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "From the tiny carved mouth came a tinny, stiff mechanical recording: \"Stay a bit rough, isn't it?\""
+      "text": "From the tiny carved mouth came a tinny, stiff mechanical recording: \"Stay a bit rough, isn't it?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b044_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "From the tiny carved mouth came a tinny, stiff mechanical recording: "
+        },
+        {
+          "segmentId": "uneraseable_s03_b044_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 787,
+          "text": "\"Stay a bit rough, isn't it?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b045",
       "index": 45,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "Nincy clapped her hands together in genuine delight. \"Wow! Now that sounds quite authentic!\""
+      "text": "Nincy clapped her hands together in genuine delight. \"Wow! Now that sounds quite authentic!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b045_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Nincy clapped her hands together in genuine delight. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b045_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 790,
+          "text": "\"Wow! Now that sounds quite authentic!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b046",
       "index": 46,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "While Nincy was engrossed in the novelty doll, Pierre slid silently along the curve of the counter. Feigning curiosity toward a brochure display, he reached a gloved hand toward her chest, fingers extending toward the plastic card clip."
+      "text": "While Nincy was engrossed in the novelty doll, Pierre slid silently along the curve of the counter. Feigning curiosity toward a brochure display, he reached a gloved hand toward her chest, fingers extending toward the plastic card clip.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b046_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "While Nincy was engrossed in the novelty doll, Pierre slid silently along the curve of the counter. Feigning curiosity toward a brochure display, he reached a gloved hand toward her chest, fingers extending toward the plastic card clip."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b047",
       "index": 47,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "He had the corner of the badge between his fingertips when Nincy\u2019s gaze flicked down."
+      "text": "He had the corner of the badge between his fingertips when Nincy\u2019s gaze flicked down.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b047_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "He had the corner of the badge between his fingertips when Nincy\u2019s gaze flicked down."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b048",
       "index": 48,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "She froze, her Southern charm instantly sharpening into museum security vigilance. \"Excuse me, sir! I said my name was Nincy.\""
+      "text": "She froze, her Southern charm instantly sharpening into museum security vigilance. \"Excuse me, sir! I said my name was Nincy.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b048_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "She froze, her Southern charm instantly sharpening into museum security vigilance. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b048_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 834,
+          "text": "\"Excuse me, sir! I said my name was Nincy.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b049",
       "index": 49,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Pierre pulled his hand back, heart pounding against his ribs."
+      "text": "Pierre pulled his hand back, heart pounding against his ribs.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b049_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre pulled his hand back, heart pounding against his ribs."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b050",
       "index": 50,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "\"You can see it right here,\" Nincy said pointedly, tapping the badge against her lapel. \"You don't need my badge to see my name.\""
+      "text": "\"You can see it right here,\" Nincy said pointedly, tapping the badge against her lapel. \"You don't need my badge to see my name.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b050_s01",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 836,
+          "text": "\"You can see it right here,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b050_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Nincy said pointedly, tapping the badge against her lapel. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b050_s03",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 836,
+          "text": "\"You don't need my badge to see my name.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b051",
       "index": 51,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "pierre",
-      "text": "Pierre didn't flinch. He adjusted his round spectacles and offered a dazzling, unhurried French smile. \"It was such a sweet name, madame. I could not believe it was real.\""
+      "text": "Pierre didn't flinch. He adjusted his round spectacles and offered a dazzling, unhurried French smile. \"It was such a sweet name, madame. I could not believe it was real.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b051_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre didn't flinch. He adjusted his round spectacles and offered a dazzling, unhurried French smile. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b051_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 837,
+          "text": "\"It was such a sweet name, madame. I could not believe it was real.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b052",
       "index": 52,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Nincy narrowed her eyes, reaching beneath the counter for the radio."
+      "text": "Nincy narrowed her eyes, reaching beneath the counter for the radio.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b052_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Nincy narrowed her eyes, reaching beneath the counter for the radio."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b053",
       "index": 53,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Desperate to break the escalating standoff, Dravin did the only logical thing a Stanford academic could do: he drew back his arm and hurled the driftwood action figure straight across the museum lobby."
+      "text": "Desperate to break the escalating standoff, Dravin did the only logical thing a Stanford academic could do: he drew back his arm and hurled the driftwood action figure straight across the museum lobby.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b053_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Desperate to break the escalating standoff, Dravin did the only logical thing a Stanford academic could do: he drew back his arm and hurled the driftwood action figure straight across the museum lobby."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b054",
       "index": 54,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "pierre",
-      "text": "Pierre gasped in feigned, theatrical horror, clutching his hands to his beret. \"I told you that doll was haunted! We should never have brought it here!\""
+      "text": "Pierre gasped in feigned, theatrical horror, clutching his hands to his beret. \"I told you that doll was haunted! We should never have brought it here!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b054_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre gasped in feigned, theatrical horror, clutching his hands to his beret. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b054_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 853,
+          "text": "\"I told you that doll was haunted! We should never have brought it here!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b055",
       "index": 55,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "nincy",
-      "text": "Nincy\u2019s eyes went wide as the \"doll\" hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio. \"Security! Security, I need help out here!\""
+      "text": "Nincy\u2019s eyes went wide as the \"doll\" hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio. \"Security! Security, I need help out here!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b055_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Nincy\u2019s eyes went wide as the "
+        },
+        {
+          "segmentId": "uneraseable_s03_b055_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 856,
+          "text": "\"doll\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b055_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b055_s04",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 856,
+          "text": "\"Security! Security, I need help out here!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b056",
       "index": 56,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "Dravin raised his hands placatingly, backing away toward the velvet stanchions. \"Nincy, I am not with them! I mean, I'm with them, but I'm not *with* them!\""
+      "text": "Dravin raised his hands placatingly, backing away toward the velvet stanchions. \"Nincy, I am not with them! I mean, I'm with them, but I'm not *with* them!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b056_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin raised his hands placatingly, backing away toward the velvet stanchions. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b056_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 861,
+          "text": "\"Nincy, I am not with them! I mean, I'm with them, but I'm not *with* them!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b057",
       "index": 57,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "pierre",
-      "text": "\"He wants to be with you, Nincy!\" Pierre called out helpfully over his shoulder."
+      "text": "\"He wants to be with you, Nincy!\" Pierre called out helpfully over his shoulder.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b057_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 862,
+          "text": "\"He wants to be with you, Nincy!\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b057_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre called out helpfully over his shoulder."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b058",
       "index": 58,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "alfie",
-      "text": "Across the floor, Alfie darted under the museum display cases, scuttling like a maniacal wooden creature through the low air-conditioned mist. A family of tourists shrieked in terror as the moving figure brushed their ankles. \"Rat! Rat! There's a giant rat!\" voices shouted in rising panic, and the lobby crowd began surging toward the glass double doors."
+      "text": "Across the floor, Alfie darted under the museum display cases, scuttling like a maniacal wooden creature through the low air-conditioned mist. A family of tourists shrieked in terror as the moving figure brushed their ankles. \"Rat! Rat! There's a giant rat!\" voices shouted in rising panic, and the lobby crowd began surging toward the glass double doors.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b058_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Across the floor, Alfie darted under the museum display cases, scuttling like a maniacal wooden creature through the low air-conditioned mist. A family of tourists shrieked in terror as the moving figure brushed their ankles. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b058_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 876,
+          "text": "\"Rat! Rat! There's a giant rat!\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b058_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " voices shouted in rising panic, and the lobby crowd began surging toward the glass double doors."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b059",
       "index": 59,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Two armed museum guards came rushing in from the administrative wing, batons drawn as they converged on the reception desk. Dravin backed against the counter. Cornered and desperate to salvage the heist, he focused his arcane focus and began tracing an invisible glyph in the air."
+      "text": "Two armed museum guards came rushing in from the administrative wing, batons drawn as they converged on the reception desk. Dravin backed against the counter. Cornered and desperate to salvage the heist, he focused his arcane focus and began tracing an invisible glyph in the air.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b059_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Two armed museum guards came rushing in from the administrative wing, batons drawn as they converged on the reception desk. Dravin backed against the counter. Cornered and desperate to salvage the heist, he focused his arcane focus and began tracing an invisible glyph in the air."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b060",
       "index": 60,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "dravin",
-      "text": "\"I am going to cast Sleep on Nincy,\" Dravin whispered under his breath."
+      "text": "\"I am going to cast Sleep on Nincy,\" Dravin whispered under his breath.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b060_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 885,
+          "text": "\"I am going to cast Sleep on Nincy,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b060_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin whispered under his breath."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b061",
       "index": 61,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "As the sleep magic coalesced between Dravin's fingertips, Alfie\u2019s Fate-woven Wordcraft flared in sudden resonance across the marble floor. Feeling the magical syllable crystallize, Alfie seized the arcane grammar and forced a sharp mental edit: *Sleep* became *Sheep*."
+      "text": "As the sleep magic coalesced between Dravin's fingertips, Alfie\u2019s Fate-woven Wordcraft flared in sudden resonance across the marble floor. Feeling the magical syllable crystallize, Alfie seized the arcane grammar and forced a sharp mental edit: *Sleep* became *Sheep*.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b061_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "As the sleep magic coalesced between Dravin's fingertips, Alfie\u2019s Fate-woven Wordcraft flared in sudden resonance across the marble floor. Feeling the magical syllable crystallize, Alfie seized the arcane grammar and forced a sharp mental edit: *Sleep* became *Sheep*."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b062",
       "index": 62,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "With a deafening thunder of clattering hooves, the reinforced fire door behind the reception desk burst wide open. Eighteen woolly, bleating sheep came stampeding out into the museum atrium, scattering tourists, security guards, clipboards, and brochures across the polished floor."
+      "text": "With a deafening thunder of clattering hooves, the reinforced fire door behind the reception desk burst wide open. Eighteen woolly, bleating sheep came stampeding out into the museum atrium, scattering tourists, security guards, clipboards, and brochures across the polished floor.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b062_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "With a deafening thunder of clattering hooves, the reinforced fire door behind the reception desk burst wide open. Eighteen woolly, bleating sheep came stampeding out into the museum atrium, scattering tourists, security guards, clipboards, and brochures across the polished floor."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b063",
       "index": 63,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Pierre seized his moment amidst the pandemonium. Diving low behind a velvet stanchion, he grabbed the thick wool on the belly of a charging ram\u2014a daring Odysseus maneuver\u2014and let the beast haul him swiftly past the flailing guards and straight into the research gallery."
+      "text": "Pierre seized his moment amidst the pandemonium. Diving low behind a velvet stanchion, he grabbed the thick wool on the belly of a charging ram\u2014a daring Odysseus maneuver\u2014and let the beast haul him swiftly past the flailing guards and straight into the research gallery.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b063_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre seized his moment amidst the pandemonium. Diving low behind a velvet stanchion, he grabbed the thick wool on the belly of a charging ram\u2014a daring Odysseus maneuver\u2014and let the beast haul him swiftly past the flailing guards and straight into the research gallery."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b064",
       "index": 64,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
       "speakerId": "narrator",
-      "text": "Dravin watched the stampede with wicked academic delight. Quickly invoking a secondary illusion cantrip, he flicked his wrist, projecting bold black numerals across the flanks of the charging flock\u2014numbering them **1 through 19**, deliberately omitting number 14 for the classic collegiate prank."
+      "text": "Dravin watched the stampede with wicked academic delight. Quickly invoking a secondary illusion cantrip, he flicked his wrist, projecting bold black numerals across the flanks of the charging flock\u2014numbering them **1 through 19**, deliberately omitting number 14 for the classic collegiate prank.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b064_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin watched the stampede with wicked academic delight. Quickly invoking a secondary illusion cantrip, he flicked his wrist, projecting bold black numerals across the flanks of the charging flock\u2014numbering them **1 through 19**, deliberately omitting number 14 for the classic collegiate prank."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b065",
       "index": 65,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze\u2014limp limbs and vacant coral eyes."
+      "text": "While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze\u2014limp limbs and vacant coral eyes.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b065_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze\u2014limp limbs and vacant coral eyes."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b066",
       "index": 66,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "Pierre joined Dravin near the staging area for the museum\u2019s visiting epigraphy team. Groups of suited academic researchers were gathered near the stanchions, waiting for the sheep commotion to clear."
+      "text": "Pierre joined Dravin near the staging area for the museum\u2019s visiting epigraphy team. Groups of suited academic researchers were gathered near the stanchions, waiting for the sheep commotion to clear.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b066_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre joined Dravin near the staging area for the museum\u2019s visiting epigraphy team. Groups of suited academic researchers were gathered near the stanchions, waiting for the sheep commotion to clear."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b067",
       "index": 67,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "Dravin whispered to Pierre: \"The staff are already preparing their evening documentation queue. We can position the fragment directly on their intake table.\""
+      "text": "Dravin whispered to Pierre: \"The staff are already preparing their evening documentation queue. We can position the fragment directly on their intake table.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b067_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin whispered to Pierre: "
+        },
+        {
+          "segmentId": "uneraseable_s03_b067_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1139,
+          "text": "\"The staff are already preparing their evening documentation queue. We can position the fragment directly on their intake table.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b068",
       "index": 68,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "Alfie remained motionless on the display cart, perfectly executing his toy freeze."
+      "text": "Alfie remained motionless on the display cart, perfectly executing his toy freeze.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b068_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie remained motionless on the display cart, perfectly executing his toy freeze."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b069",
       "index": 69,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors."
+      "text": "Pierre could never pass a museum statue without pausing to critique its lines and craftsmanship. Admiring the marble contours, he slipped behind the carved stone pedestal.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b069_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre could never pass a museum statue without pausing to critique its lines and craftsmanship. Admiring the marble contours, he slipped behind the carved stone pedestal."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b070",
       "index": 70,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "\"Naomi told us that touching the artifacts was enough to trigger the resonance,\" Pierre murmured, his dark eyes calculating the security grid. \"Teddy touched two fragments, and she touched one. We do not need to steal a five-hundred-pound slab of limestone. We only need physical contact with the stone.\""
+      "speakerId": "narrator",
+      "text": "Shielded by the marble plinth, Pierre shrugged off his tweed coat and draped it across his shoulders like an artist's shawl, subtly altering his silhouette.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b070_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Shielded by the marble plinth, Pierre shrugged off his tweed coat and draped it across his shoulders like an artist's shawl, subtly altering his silhouette."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b071",
       "index": 71,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eyeing the reinforced glass enclosure in the center of the hall. \"Aye, that's a relief, considering this slab weighs a bloody ton. But how do we get the curator to lift that glass hood for us?\""
+      "speakerId": "narrator",
+      "text": "To complete the disguise, Pierre flipped his beret inside out, swapping the familiar black exterior for an understated silver lining to blend seamlessly among the visiting academics.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b071_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "To complete the disguise, Pierre flipped his beret inside out, swapping the familiar black exterior for an understated silver lining to blend seamlessly among the visiting academics."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b072",
       "index": 72,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "\"By giving them an irresistible reason,\" Pierre smiled, a spark of Parisian cunning in his gaze. \"An undeniable discovery. A missing piece of epigraphy to elevate their entire exhibition.\""
+      "speakerId": "narrator",
+      "text": "In his white lab coat, Pierre wheeled a utility cart toward the preservation prep room, confident he could replicate the limestone carving style of the Aegean statues to create a convincing artifact.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b072_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "In his white lab coat, Pierre wheeled a utility cart toward the preservation prep room, confident he could replicate the limestone carving style of the Aegean statues to create a convincing artifact."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b073",
       "index": 73,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "alfie",
-      "text": "Alfie squinted across the gallery floor at the weathered stele. \"Is the tablet cracked around the edges? Are there missing chunks along the border?\""
+      "speakerId": "narrator",
+      "text": "Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b073_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Tucked behind the fluted plaster columns of the Aegean gallery alcove, Pierre leaned against the velvet banquette, watching the steady circulation of museum guards and visitors. He kept his voice low, angling his shoulder to shield Alfie from the hallway security monitors."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b074",
       "index": 74,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "Pierre nodded, tracing the irregular, weathered fracture lines in his memory. \"The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter.\""
+      "text": "\"Naomi told us that touching the artifacts was enough to trigger the resonance,\" Pierre murmured, his dark eyes calculating the security grid. \"Teddy touched two fragments, and she touched one. We do not need to steal a five-hundred-pound slab of limestone. We only need physical contact with the stone.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b074_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1354,
+          "text": "\"Naomi told us that touching the artifacts was enough to trigger the resonance,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b074_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre murmured, his dark eyes calculating the security grid. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b074_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1354,
+          "text": "\"Teddy touched two fragments, and she touched one. We do not need to steal a five-hundred-pound slab of limestone. We only need physical contact with the stone.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b075",
       "index": 75,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "alfie",
-      "text": "\"Then we find ourselves a matching limestone rock,\" Alfie whispered, his painted eyes gleaming with mischief. \"We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact.\""
+      "speakerId": "pierre",
+      "text": "Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eyeing the reinforced glass enclosure in the center of the hall. \"Aye, that's a relief, considering this slab weighs a bloody ton. But how do we get the curator to lift that glass hood for us?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b075_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eyeing the reinforced glass enclosure in the center of the hall. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b075_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1367,
+          "text": "\"Aye, that's a relief, considering this slab weighs a bloody ton. But how do we get the curator to lift that glass hood for us?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b076",
       "index": 76,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "Pierre patted the pocket containing his sculptor's chisel. \"A sound proposition. I have worked with limestone all my life. Let us prepare our artifact.\""
+      "text": "\"By giving them an irresistible reason,\" Pierre smiled, a spark of Parisian cunning in his gaze. \"An undeniable discovery. A missing piece of epigraphy to elevate their entire exhibition.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b076_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1372,
+          "text": "\"By giving them an irresistible reason,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b076_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre smiled, a spark of Parisian cunning in his gaze. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b076_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1372,
+          "text": "\"An undeniable discovery. A missing piece of epigraphy to elevate their entire exhibition.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b077",
       "index": 77,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Pierre placed the limestone fragment and Alfie onto a documentation tray."
+      "speakerId": "alfie",
+      "text": "Alfie squinted across the gallery floor at the weathered stele. \"Is the tablet cracked around the edges? Are there missing chunks along the border?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b077_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie squinted across the gallery floor at the weathered stele. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b077_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1381,
+          "text": "\"Is the tablet cracked around the edges? Are there missing chunks along the border?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b078",
       "index": 78,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy."
+      "speakerId": "pierre",
+      "text": "Pierre nodded, tracing the irregular, weathered fracture lines in his memory. \"The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b078_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre nodded, tracing the irregular, weathered fracture lines in his memory. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b078_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": null,
+          "text": "\"The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b079",
       "index": 79,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "On the stone fragment's tray, Pierre penned a bold label: \"Insert on J4... proof it was Beacon!\""
+      "speakerId": "alfie",
+      "text": "\"Then we find ourselves a matching limestone rock,\" Alfie whispered, his painted eyes gleaming with mischief. \"We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b079_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1385,
+          "text": "\"Then we find ourselves a matching limestone rock,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b079_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie whispered, his painted eyes gleaming with mischief. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b079_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1385,
+          "text": "\"We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b080",
       "index": 80,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures."
+      "speakerId": "pierre",
+      "text": "Pierre patted the pocket containing his sculptor's chisel. \"A sound proposition. I have worked with limestone all my life. Let us prepare our artifact.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b080_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre patted the pocket containing his sculptor's chisel. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b080_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1386,
+          "text": "\"A sound proposition. I have worked with limestone all my life. Let us prepare our artifact.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b081",
       "index": 81,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. \"What is this? Where did this specimen come from?\""
+      "speakerId": "narrator",
+      "text": "Pierre placed the limestone fragment and Alfie onto a documentation tray.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b081_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre placed the limestone fragment and Alfie onto a documentation tray."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b082",
       "index": 82,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. \"Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue.\""
+      "speakerId": "narrator",
+      "text": "He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b082_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b083",
       "index": 83,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation. \"You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?\""
+      "text": "On the stone fragment's tray, Pierre penned a bold label: \"Insert on J4... proof it was Beacon!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b083_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "On the stone fragment's tray, Pierre penned a bold label: "
+        },
+        {
+          "segmentId": "uneraseable_s03_b083_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1495,
+          "text": "\"Insert on J4... proof it was Beacon!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b084",
       "index": 84,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
-      "text": "The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement. \"This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six.\""
+      "speakerId": "narrator",
+      "text": "Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b084_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b085",
       "index": 85,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "\"In Paris, we work with ancient limestone every day,\" Pierre said with a modest shrug, leaning smoothly into his Parisian persona. \"We have a great deal of old stone in Berry. It is all the same to me\u2014I came across the Atlantic to help solve the mystery here in South Carolina\u2014ah, North Carolina.\""
+      "text": "The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. \"What is this? Where did this specimen come from?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b085_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b085_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": null,
+          "text": "\"What is this? Where did this specimen come from?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b086",
       "index": 86,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "\"You don't even know what state you're in!\" the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride. \"Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out.\""
+      "text": "Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. \"Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b086_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b086_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1551,
+          "text": "\"Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b087",
       "index": 87,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "Pierre tilted his head with faux innocence. \"Massachusetts... is that like a brand of chewing gum?\""
+      "text": "The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation. \"You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b087_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b087_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1552,
+          "text": "\"You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b088",
       "index": 88,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "pierre",
-      "text": "\"It is the premier history institution in the country, young man, not chewing gum!\" the curator huffed, waving his pen. \"We test this immediately after close. Bring the staging cart into the rotunda.\""
+      "text": "The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement. \"This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b088_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b088_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1582,
+          "text": "\"This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b089",
       "index": 89,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "alfie",
-      "text": "Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: \"Watch out for the water! Pull the string again!\""
+      "speakerId": "pierre",
+      "text": "\"In Paris, we work with ancient limestone every day,\" Pierre said with a modest shrug, leaning smoothly into his Parisian persona. \"We have a great deal of old stone in Berry. It is all the same to me\u2014I came across the Atlantic to help solve the mystery here in South Carolina\u2014ah, North Carolina.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b089_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1598,
+          "text": "\"In Paris, we work with ancient limestone every day,\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b089_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre said with a modest shrug, leaning smoothly into his Parisian persona. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b089_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1598,
+          "text": "\"We have a great deal of old stone in Berry. It is all the same to me\u2014I came across the Atlantic to help solve the mystery here in South Carolina\u2014ah, North Carolina.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b090",
       "index": 90,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "alfie",
-      "text": "The curator blinked down at the puppet, tapping Alfie's carved cedar head. \"Curious little exhibit souvenir... We'll catalog the doll after the tablet test.\" He loaded the intake tray onto the heavy rubber-wheeled staging cart."
+      "speakerId": "pierre",
+      "text": "\"You don't even know what state you're in!\" the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride. \"Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b090_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1612,
+          "text": "\"You don't even know what state you're in!\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b090_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b090_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1612,
+          "text": "\"Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b091",
       "index": 91,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal."
+      "speakerId": "pierre",
+      "text": "Pierre tilted his head with faux innocence. \"Massachusetts... is that like a brand of chewing gum?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b091_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre tilted his head with faux innocence. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b091_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1632,
+          "text": "\"Massachusetts... is that like a brand of chewing gum?\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b092",
       "index": 92,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "The museum\u2019s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries."
+      "speakerId": "attendant",
+      "text": "\"It is the premier history institution in the country, young man, not chewing gum!\" the curator huffed, waving his pen. \"We test this immediately after close. Bring the staging cart into the rotunda.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b092_s01",
+          "type": "dialogue",
+          "speakerId": "attendant",
+          "speakerName": "Museum Attendant",
+          "sourceLine": 1633,
+          "text": "\"It is the premier history institution in the country, young man, not chewing gum!\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b092_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " the curator huffed, waving his pen. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b092_s03",
+          "type": "dialogue",
+          "speakerId": "attendant",
+          "speakerName": "Museum Attendant",
+          "sourceLine": 1633,
+          "text": "\"We test this immediately after close. Bring the staging cart into the rotunda.\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b093",
       "index": 93,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "nincy",
-      "text": "Nincy\u2019s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: \"Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream\u2014I hear there might be a little excitement in the Greek wing tonight!\""
+      "speakerId": "alfie",
+      "text": "Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: \"Watch out for the water! Pull the string again!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b093_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: "
+        },
+        {
+          "segmentId": "uneraseable_s03_b093_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1641,
+          "text": "\"Watch out for the water! Pull the string again!\""
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b094",
       "index": 94,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "narrator",
-      "text": "Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup."
+      "speakerId": "alfie",
+      "text": "The curator blinked down at the puppet, tapping Alfie's carved cedar head. \"Curious little exhibit souvenir... We'll catalog the doll after the tablet test.\" He loaded the intake tray onto the heavy rubber-wheeled staging cart.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b094_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The curator blinked down at the puppet, tapping Alfie's carved cedar head. "
+        },
+        {
+          "segmentId": "uneraseable_s03_b094_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1652,
+          "text": "\"Curious little exhibit souvenir... We'll catalog the doll after the tablet test.\""
+        },
+        {
+          "segmentId": "uneraseable_s03_b094_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " He loaded the intake tray onto the heavy rubber-wheeled staging cart."
+        }
+      ]
     },
     {
       "id": "uneraseable_s03_b095",
       "index": 95,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
       "speakerId": "narrator",
-      "text": "Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence."
+      "text": "Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b095_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s03_b096",
+      "index": 96,
+      "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "The museum\u2019s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b096_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The museum\u2019s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s03_b097",
+      "index": 97,
+      "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
+      "speakerId": "nincy",
+      "text": "Nincy\u2019s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: \"Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream\u2014I hear there might be a little excitement in the Greek wing tonight!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b097_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Nincy\u2019s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: "
+        },
+        {
+          "segmentId": "uneraseable_s03_b097_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 1655,
+          "text": "\"Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream\u2014I hear there might be a little excitement in the Greek wing tonight!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s03_b098",
+      "index": 98,
+      "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b098_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s03_b099",
+      "index": 99,
+      "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
+      "speakerId": "narrator",
+      "text": "Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s03_b099_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence."
+        }
+      ]
     }
   ]
 }

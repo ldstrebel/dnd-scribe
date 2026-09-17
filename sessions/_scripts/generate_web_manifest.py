@@ -114,6 +114,18 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#71717a",
         "role": "Greyhound Transit Commuter"
+    },
+    "gordon": {
+        "name": "Gordon (Redactor)",
+        "type": "npc",
+        "color": "#e11d48",
+        "role": "Timeline Redactor · Serpent Operative"
+    },
+    "attendant": {
+        "name": "Museum Attendant",
+        "type": "npc",
+        "color": "#78716c",
+        "role": "North Carolina Museum Staff"
     }
 }
 
@@ -133,7 +145,9 @@ SPEAKER_ALIASES = {
     "nincy": ["nincy", "nancy", "nanci", "receptionist", "desk clerk"],
     "beast": ["beast", "sphinx", "it rasped", "purred", "shadow beast", "creature", "come with us through the rift"],
     "anchor": ["news anchor", "anchor", "radio", "monotone voice", "field reporter"],
-    "passenger": ["someone shouted", "passenger", "passengers"]
+    "passenger": ["someone shouted", "passenger", "passengers"],
+    "gordon": ["gordon", "gorgon", "serpent operative", "serpentine crown"],
+    "attendant": ["attendant", "curator", "docent"]
 }
 
 def identify_speaker_id(paragraph_text, prev_speaker=None):
@@ -154,6 +168,154 @@ def identify_speaker_id(paragraph_text, prev_speaker=None):
         return prev_speaker
 
     return "narrator"
+
+def load_raw_indexed_speakers(session_num):
+    path = os.path.join(index_dir, f"s{session_num}-raw-indexed.md")
+    speaker_map = {}
+    if not os.path.exists(path):
+        return speaker_map
+    
+    cfg_path = os.path.join(root_dir, "sessions", "config", f"s{session_num}-session-config.json")
+    player_map = {}
+    if os.path.exists(cfg_path):
+        try:
+            with open(cfg_path, "r", encoding="utf-8") as cf:
+                cfg = json.load(cf)
+                for person, char_name in cfg.get("players", {}).items():
+                    char_lower = char_name.lower()
+                    for k in CHARACTER_REGISTRY:
+                        if k in char_lower:
+                            player_map[person.lower()] = k
+        except Exception:
+            pass
+
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            m = re.match(r"^L(\d{4}):\s*\*\*([^*]+?)(?:\s*\((?:PC|NPC)\))?:\*\*", line.strip())
+            if m:
+                lid = int(m.group(1))
+                spk = m.group(2).strip().lower()
+                
+                if spk in player_map:
+                    speaker_map[lid] = player_map[spk]
+                    continue
+                
+                found = False
+                for char_id, aliases in SPEAKER_ALIASES.items():
+                    for a in aliases:
+                        if a in spk:
+                            speaker_map[lid] = char_id
+                            found = True
+                            break
+                    if found:
+                        break
+                if not found:
+                    if "luke s" in spk or "pierre" in spk:
+                        speaker_map[lid] = "pierre"
+                    elif "william" in spk or "dravin" in spk or "edward" in spk:
+                        speaker_map[lid] = "dravin"
+                    elif "sophie" in spk or "alfie" in spk:
+                        speaker_map[lid] = "alfie"
+                    elif "john" in spk or "eusacles" in spk:
+                        speaker_map[lid] = "eusacles"
+                    elif "theodore" in spk or "teddy" in spk:
+                        speaker_map[lid] = "theodore"
+                    elif "naomi" in spk:
+                        speaker_map[lid] = "naomi"
+                    elif "mike" in spk:
+                        speaker_map[lid] = "mike"
+                    elif "gordon" in spk:
+                        speaker_map[lid] = "gordon"
+                    elif "fates" in spk:
+                        speaker_map[lid] = "fates"
+    return speaker_map
+
+def decompose_block_to_web_segments(block_id: str, text: str, default_speaker_id: str, source_line: int, char_registry: dict, raw_speakers: dict) -> list:
+    matches = list(re.finditer(r'["“]([^"”]+)["”]', text))
+    if not matches:
+        return [{
+            "segmentId": f"{block_id}_s01",
+            "type": "narration",
+            "speakerId": "narrator",
+            "speakerName": "Narrator",
+            "sourceLine": None,
+            "text": text
+        }]
+
+    segments = []
+    curr = 0
+    seg_idx = 1
+
+    for m in matches:
+        start, end = m.span()
+        if start > curr:
+            narr_text = text[curr:start]
+            segments.append({
+                "segmentId": f"{block_id}_s{seg_idx:02d}",
+                "type": "narration",
+                "speakerId": "narrator",
+                "speakerName": "Narrator",
+                "sourceLine": None,
+                "text": narr_text
+            })
+            seg_idx += 1
+
+        quote_text = text[start:end]
+
+        surround_window = ""
+        if start >= 40:
+            surround_window += text[start-40:start]
+        else:
+            surround_window += text[:start]
+        if end + 40 <= len(text):
+            surround_window += " " + text[end:end+40]
+        else:
+            surround_window += " " + text[end:]
+
+        tag_speaker = None
+        surround_lower = surround_window.lower()
+        for cid, aliases in SPEAKER_ALIASES.items():
+            for a in aliases:
+                if re.search(rf"\b(?:said|asked|shouted|grumbled|murmured|replied|warned|cried|whispered|noted|laughed|intervened|insisted|agreed)\s+{re.escape(a)}\b", surround_lower) or \
+                   re.search(rf"\b{re.escape(a)}\s+(?:said|asked|shouted|grumbled|murmured|replied|warned|cried|whispered|noted|laughed|intervened|insisted|agreed)\b", surround_lower):
+                    tag_speaker = cid
+                    break
+            if tag_speaker:
+                break
+
+        if tag_speaker:
+            q_spk = tag_speaker
+        elif source_line and source_line in raw_speakers:
+            q_spk = raw_speakers[source_line]
+        elif default_speaker_id != "narrator":
+            q_spk = default_speaker_id
+        else:
+            q_spk = "pierre"
+
+        spk_name = char_registry.get(q_spk, {}).get("name", q_spk.title())
+        segments.append({
+            "segmentId": f"{block_id}_s{seg_idx:02d}",
+            "type": "dialogue",
+            "speakerId": q_spk,
+            "speakerName": spk_name,
+            "sourceLine": source_line,
+            "text": quote_text
+        })
+        seg_idx += 1
+        curr = end
+
+    if curr < len(text):
+        trailing_text = text[curr:]
+        segments.append({
+            "segmentId": f"{block_id}_s{seg_idx:02d}",
+            "type": "narration",
+            "speakerId": "narrator",
+            "speakerName": "Narrator",
+            "sourceLine": None,
+            "text": trailing_text
+        })
+
+    return segments
 
 def generate_session_v2_manifest(session_num):
     sid = f"s{session_num}"
@@ -205,6 +367,7 @@ def generate_session_v2_manifest(session_num):
         "atmospheric": r"\b(?:suffocating|planar|static|void|resonance|dread|temporal|chill|timeless|ancient)\b"
     }
     
+    raw_speakers = load_raw_indexed_speakers(session_num)
     current_scene_title = "Prologue"
     prev_spk_id = None
     
@@ -214,12 +377,15 @@ def generate_session_v2_manifest(session_num):
         if lines and lines[0].startswith("##"):
             current_scene_title = lines[0].lstrip("#").strip()
             
-        prose_clean = re.sub(r"<!--.*?-->", "", sc_content).strip()
-        paragraphs = [p.strip() for p in prose_clean.split("\n\n") if p.strip()]
+        paragraphs_raw = [p.strip() for p in sc_content.split("\n\n") if p.strip()]
         
-        for p in paragraphs:
-            if p.startswith("##") or p.startswith("#"):
+        for p_raw in paragraphs_raw:
+            if p_raw.startswith("##") or p_raw.startswith("#") or p_raw.startswith("<!-- RAW_RANGE") or p_raw.startswith("<!-- SCENE") or p_raw.startswith("<!-- LEDGER"):
                 continue
+            
+            line_markers = [int(m) for m in re.findall(r"<!--\s*L(\d+)\s*-->", p_raw)]
+            source_line = line_markers[0] if line_markers else None
+            p = re.sub(r"<!--.*?-->", "", p_raw).strip()
             
             p_words = re.findall(r"\b[A-Za-z0-9\'-]+\b", p)
             word_count = len(p_words)
@@ -258,12 +424,14 @@ def generate_session_v2_manifest(session_num):
             speaker_word_counts[spk_id] += word_count
             
             b_id = f"uneraseable_s{session_num:02d}_b{block_idx:03d}"
+            segments = decompose_block_to_web_segments(b_id, p, spk_id, source_line, CHARACTER_REGISTRY, raw_speakers)
             blocks.append({
                 "id": b_id,
                 "index": block_idx,
                 "scene": current_scene_title,
                 "speakerId": spk_id,
-                "text": p
+                "text": p,
+                "segments": segments
             })
             block_idx += 1
 
@@ -296,7 +464,8 @@ def generate_session_v2_manifest(session_num):
     synopses = {
         1: "Displaced from a Vegas Greyhound bus into dimensional freefall, four strangers awaken in the Library of the Fates, fending off planar ink beasts before stumbling into the haven of The Margin.",
         2: "Inside the timeless refuge of The Margin, Theodore reveals the sanctuary's 1846 origins while Naomi organizes a corrector drill and sets a course across the Lost Roads for a lost Greek artifact.",
-        3: "Infiltrating the North Carolina Museum of Natural History in Raleigh, Pierre and Alfie use disguise and Wordcraft to recover and mend a fractured ancient stele, stabilizing an unraveling timeline seam."
+        3: "Infiltrating the North Carolina Museum of Natural History in Raleigh, Pierre and Alfie use disguise and Wordcraft to recover and mend a fractured ancient stele, stabilizing an unraveling timeline seam.",
+        4: "Ambushed by Gorgon Redactors in the Raleigh museum, the company uses an extension-cord gambit and a baguette distraction to touch the ancient tablet, unlocking a vision of a doomed pirate ship before escaping through the Lost Roads."
     }
     
     v2_manifest = {
@@ -442,5 +611,5 @@ def generate_session_v2_manifest(session_num):
     print(f"[OK] Wrote Schema 2.0 Web Manifest to: {out_file} ({len(blocks)} blocks, {total_words} words)")
     return v2_manifest
 
-for s in [1, 2, 3]:
+for s in [1, 2, 3, 4]:
     generate_session_v2_manifest(s)

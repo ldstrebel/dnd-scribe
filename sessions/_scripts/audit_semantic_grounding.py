@@ -35,11 +35,13 @@ PHONETIC_ALIASES = {
     "nincy": {"nancy", "nanci"},
 }
 
+import unicodedata
+
 def clean_lines(filepath):
     lines = []
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
-            line = line.strip()
+            line = unicodedata.normalize("NFKD", line.strip())
             match = re.match(r"^L\d{4}:\s*(.*)$", line)
             if match:
                 lines.append(match.group(1))
@@ -109,6 +111,32 @@ def audit_session_grounding(session_id, base_dir=None):
         skipped_raw_str = ledger_match.group(2)
         skipped_items = re.findall(r"(\d+)(?:\(([^)]+)\))?", skipped_raw_str)
 
+        # Load session config for character and lore entities
+        config_path = os.path.join(base_dir, "sessions", "config", f"{session_id}-session-config.json")
+        tier_b_entities = set()
+        if os.path.exists(config_path):
+            try:
+                with open(config_path, "r", encoding="utf-8") as cf:
+                    cfg = json.load(cf)
+                    for pc in cfg.get("pcs", []):
+                        for part in pc.get("character", "").lower().split():
+                            if len(part) > 2:
+                                tier_b_entities.add(part)
+                    for npc in cfg.get("npcs", []):
+                        for part in npc.get("name", "").lower().split():
+                            if len(part) > 2:
+                                tier_b_entities.add(part)
+            except Exception:
+                pass
+
+        # High-value Tier B narrative keywords (relics, spell manifestations, trauma, lore)
+        tier_b_pattern = re.compile(
+            r"\b(beret|normalcy|flashlight|petrif\w*|calcif\w*|fading into|movement under|"
+            r"guiding bolt|living ink|lost roads|satans?|satyrs?|traumatic|trauma|"
+            r"protect|gift shop|all i got was|stupid hat|stone tablet|statue)\b",
+            re.IGNORECASE
+        )
+
         unjustified_skips = []
         consecutive_spoken_skips = 0
         max_consecutive_spoken = 0
@@ -123,34 +151,44 @@ def audit_session_grounding(session_id, base_dir=None):
                 if sm and reason == "ooc":
                     speaker, char_type, dialogue = sm.group(1).strip(), sm.group(2), sm.group(3).strip()
                     words = extract_content_words(dialogue)
+
+                    # Check for Tier B Lore / Action manifestations dropped as OOC
+                    tb_match = tier_b_pattern.search(dialogue)
+                    if tb_match:
+                        errors.append(
+                            f"Scene {scene_id}: [TIER_B_LORE_DROP] L{int(num_str):04d} ({speaker}): "
+                            f"'{dialogue[:75]}...' contains critical narrative intent ('{tb_match.group(0)}') but was marked as (ooc) skip!"
+                        )
+
                     is_meta = any(meta in dialogue.lower() for meta in [
                         "roll", "initiative", "saving throw", "spell slot", "dice", 
-                        "laugh", "chuckle", "character sheet", "wifi", "discord", "d4", "d6", "d20"
+                        "laugh", "chuckle", "character sheet", "wifi", "discord", "d4", "d6", "d20",
+                        "muted", "mic"
                     ])
                     
                     if len(words) >= 4 and not is_meta:
                         consecutive_spoken_skips += 1
-                        if len(consecutive_sample) < 3:
+                        if len(consecutive_sample) < 4:
                             consecutive_sample.append((int(num_str), speaker, dialogue))
                         if consecutive_spoken_skips > max_consecutive_spoken:
                             max_consecutive_spoken = consecutive_spoken_skips
                     else:
                         consecutive_spoken_skips = 0
 
-                    if len(words) >= 8 and not is_meta:
+                    if len(words) >= 8 and not is_meta and not tb_match:
                         unjustified_skips.append((int(num_str), speaker, dialogue))
                 else:
                     consecutive_spoken_skips = 0
 
         if max_consecutive_spoken >= 5:
-            sample_desc = " | ".join(f"L{l:04d} ({s}): '{d[:35]}...'" for l, s, d in consecutive_sample)
-            warnings.append(
-                f"Scene {scene_id}: [SUSPICIOUS_DIALOGUE_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as (ooc) skip. "
+            sample_desc = " | ".join(f"L{l:04d} ({s}): '{d[:30]}...'" for l, s, d in consecutive_sample)
+            errors.append(
+                f"Scene {scene_id}: [SUSPICIOUS_CLUSTER_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as (ooc) skip. "
                 f"Verify in-character banter/comedy was not omitted. Sample: [{sample_desc}]"
             )
 
         if unjustified_skips:
-            for line_no, spk, dial in unjustified_skips[:3]:
+            for line_no, spk, dial in unjustified_skips:
                 warnings.append(
                     f"Scene {scene_id}: Potential Canon Dialogue Drop at L{line_no:04d} ({spk}): '{dial[:70]}...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
                 )
@@ -261,14 +299,18 @@ def audit_session_grounding(session_id, base_dir=None):
 
     if errors:
         print(f"[FAIL] {len(errors)} CRITICAL GROUNDING BREACHES DETECTED:")
-        for e in errors[:10]:
+        for e in errors:
             print(f"  ❌ {e}")
+        if warnings:
+            print(f"\nWarnings ({len(warnings)}):")
+            for w in warnings:
+                print(f"  ⚠️ {w}")
         return False, errors
     else:
         print(f"[PASS] 100% TRANSCRIPT-TO-PROSE GROUNDING VERIFIED.")
         if warnings:
-            print(f"Warnings ({len(warnings)}):")
-            for w in warnings[:5]:
+            print(f"\nWarnings ({len(warnings)}):")
+            for w in warnings:
                 print(f"  ⚠️ {w}")
         return True, warnings
 

@@ -1,22 +1,44 @@
 <!-- RAW_RANGE: [404, 510] | SCENE_ID: 1 -->
-## CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME
+## CHAPTER 13: THE SANCTUARY OF FRESH INK
 
-The campfire crackled with dry pine knots, throwing embers high into the starless indigo sky. Around the circle of stones, the heat was real and grounding—a stark, welcome relief after the freezing marble expanse of the Library of the Fates. <!-- L0404 -->
+Outside the rotting gate of the Marigold Inn, the newcomers paused at the tree line. Carrying the little driftwood doll on his shoulder, Pierre deliberately lingered twenty feet back in the shadows. <!-- L0412 -->
 
-Theodore—Teddy to those who had lingered here long enough—leaned back on a weathered cedar stump. He wore a patched flannel overshirt that looked older than the twentieth century, but his sun-leathered face held the easy confidence of a man who had watched entire eras pass from a comfortable distance. Across from him, young Naomi poked the fire with a blackened stick, her dark eyes sharp behind a messy fringe of dark hair. <!-- L0406 -->
+Eusacles and Professor Dravin led the way toward the glowing campfire, Eusacles rolling his broad shoulders with watchful wariness. <!-- L0417 -->
 
-"So," Teddy began, nodding toward the newcomer party with a slow, wry grin. "You took a bus out of Las Vegas, the world did a little backflip, and you ended up on the doorsteps of the Fates. That about cover it?" <!-- L0412 -->
+Pierre leaned forward, whispering nervously past the wooden doll's ear. "I am thinking that we let them talk to the scary guy by the fire... the one who thinks we are dead." <!-- L0418 --> <!-- L0420 -->
 
-"Something like that," Eusacles muttered, rolling his bruised shoulder and leaning his tall frame against the split-rail fence. "Except the part where giant horned ink demons tried to eat my face, and the fact that I'm currently holding a chained morningstar that used to be a five-dollar wristwatch." <!-- L0420 -->
+Stopping just outside the clearing, Pierre tucked himself behind an overgrown fencepost, cautiously peering into the light while Dravin and Eusacles stepped into the open. <!-- L0426 -->
 
-Pierre carefully adjusted the strap of his canvas rucksack, where Alfie sat perched upright like a vigilant wooden gargoyle. "We are in West Virginia, yes? The air smells like mountain pine, but the sky... there are no airplanes. There is no sound of highway traffic." <!-- L0440 -->
+The sun-weathered man sitting by the flames looked up, his easy smirk broadening into a welcoming grin. "Don't worry, bros! Don't be scared at all!" <!-- L0438 -->
 
-"You're in the Margin, son," Teddy replied, tapping his wooden pipe against his knee. "Technically, yes—the geography anchors somewhere in the Appalachians. But reality doesn't run on standard rails here. This place is a crease in the map." <!-- L0460 -->
+"We love fresh ink around here," the man chuckled, dusting ash from his knuckles. "We're happy to have you. It's totally normal to be surprised when you hear us ask what edit killed you—like we're telling you you're dead." <!-- L0440 --> <!-- L0442 -->
 
-Prof. Edward Dravin stepped closer to the flames, rubbing his chilled hands together. The professor looked remarkably composed for a man who had just spontaneously manifested necrotic magic, though his wire-rimmed spectacles reflected the flickering orange light with scholarly intensity. <!-- L0480 -->
+Dravin adjusted his spectacles, his scholarly curiosity piqued. "Would we have remembered dying?" <!-- L0443 --> <!-- L0446 -->
 
-"A crease," Dravin repeated thoughtfully. "A non-Euclidean refuge outside the primary historical timeline. When destiny is rewoven by external divine intervention, the discarded material doesn't simply vanish—it accumulates at the periphery." <!-- L0500 -->
+"Well, yeah, it's a funny thing," the man replied with an easy shrug. "You're not actually dead, but it kind of depends on who you ask. We can get you patched up, though. Come right in." <!-- L0447 --> <!-- L0449 -->
 
-"You catch on quick, Professor," Teddy chuckled. "Welcome to the home of the unwritten." <!-- L0508 -->
+Dravin gestured toward the shadows behind him. "My buddy could definitely use a long rest." <!-- L0452 --> <!-- L0454 -->
 
-<!-- LEDGER: rendered=[404, 406, 412, 420, 440, 460, 480, 500, 508] skipped=[405(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 417(ooc), 418(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 426(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 441(ooc), 442(ooc), 443(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 450(ooc), 451(ooc), 452(ooc), 453(ooc), 454(ooc), 455(ooc), 456(ooc), 457(ooc), 458(ooc), 459(ooc), 461(ooc), 462(ooc), 463(ooc), 464(ooc), 465(ooc), 466(ooc), 467(ooc), 468(ooc), 469(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 474(ooc), 475(ooc), 476(ooc), 477(ooc), 478(ooc), 479(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 489(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 494(ooc), 495(ooc), 496(ooc), 497(ooc), 498(ooc), 499(ooc), 501(ooc), 502(ooc), 503(ooc), 504(ooc), 505(ooc), 506(ooc), 507(ooc), 509(ooc), 510(ooc)] -->
+"You said your name was Michael?" Dravin asked, stepping closer to the hearth. "How long have you been here, Mike?" <!-- L0456 --> <!-- L0458 --> <!-- L0460 -->
+
+"The thing is, we all kind of died at different times, at different points in our lives," Mike explained, tossing a pine stick onto the fire. "And the crazy thing is that you stay approximately the same age the whole time." <!-- L0461 --> <!-- L0462 -->
+
+"A little Benjamin Button action," Dravin observed.
+
+"Yeah, it's kind of crazy, kind of cool," Mike smiled. <!-- L0464 -->
+
+Dravin frowned thoughtfully. "How do we interact with the outside world?" <!-- L0465 --> <!-- L0467 -->
+
+"We all have different theories," Mike said. "Some people remember things clearly, while the youth kind of see through the veil with divine sense." <!-- L0468 --> <!-- L0469 -->
+
+At the mention of divine perception, Eusacles closed his eyes and focused his divine sense across the clearing, opening his awareness to fiend and undead presences. <!-- L0474 --> <!-- L0477 -->
+
+A sudden, breathtaking surge of clarity washed over his consciousness—a sensation as pure and absolute as a natural twenty. <!-- L0489 -->
+
+According to this divine feature, the veil parted to reveal a vision of the settlement's metaphysical truth. <!-- L0494 --> <!-- L0498 -->
+
+This was a consecrated refuge—a sanctuary shielded from external prying. <!-- L0500 -->
+
+Residual auras lingered across his companions: neither Dravin nor Pierre possessed undead corruption, but their souls bore a unique, ancient mixture of planar resonance. <!-- L0502 --> <!-- L0504 -->
+
+<!-- LEDGER: rendered=[412, 417, 418, 420, 426, 438, 440, 442, 443, 446, 447, 449, 452, 454, 456, 458, 460, 461, 462, 464, 465, 467, 468, 469, 474, 477, 489, 494, 498, 500, 502, 504] skipped=[404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 439(ooc), 441(ooc), 444(ooc), 445(ooc), 448(ooc), 450(ooc), 451(ooc), 453(ooc), 455(ooc), 457(ooc), 459(ooc), 463(ooc), 466(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 475(ooc), 476(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 495(ooc), 496(ooc), 497(ooc), 499(ooc), 501(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(ooc)] -->

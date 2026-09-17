@@ -45,42 +45,84 @@ Before anyone could scream, a blinding explosion of searing heat and white light
 
 "Wow..." Pierre breathed softly into the void. <!-- L0968 -->
 
-And then, the light consumed everything.
+And then, the light crystallized into cool, morning air.
 
-<!-- LEDGER: rendered=[958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968] skipped=[969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 974(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 979(ooc), 980(ooc), 981(ooc), 982(ooc), 983(ooc)] -->
+Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel was completely gone, replaced by the faint, earthy scent of ancient parchment and sun-warmed stone. He was sitting on polished marble flagstones in an open-air colonnade of Doric pillars rising beneath a cloudless sky. Colossal towering cedar shelves lined the perimeter, groaning under leather-bound codices and clay tablets. <!-- L0972 -->
+
+Standing in the center of the rotunda, bathed in golden sunlight, were three ancient women. <!-- L0973 -->
+
+"Oh, s***," Pierre whispered under his breath. <!-- L0974 -->
+
+Draped in heavy linen, their wrinkled hands worked continuously over a suspended wooden loom, silvery threads blurring through their gnarled fingers. They turned their milky, unblinking eyes upon him.
+
+"Ah, you're early," the first murmured like grinding stones. <!-- L0975 -->
+
+"Oh no," the second chimed in. "You're late."
+
+"Come closer," whispered the third. "Come closer... This is interesting."
+
+Pierre scrambled backward until his spine hit a marble pedestal, clutching his rucksack like a shield. If anyone asked, he was just a totally normal boy. Just a normal kid with glasses and a nice beret that he wore. His unruly hair was perhaps a little weird if you looked at it too long, but nobody needed to worry about that—it was normal. He peered around with intense suspicion and confusion. <!-- L0977 --> <!-- L0978 --> <!-- L0979 -->
+
+"So, is... um, is this normal for buses in America to do this type of thing?" Pierre asked hesitantly. <!-- L0980 -->
+
+Glancing across the flagstones, Pierre spotted a hulking, muscular man lying nearby. Definitely not fond of the ripped guy, Pierre pointedly turned to his left. <!-- L0982 -->
+
+<!-- LEDGER: rendered=[958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 972, 973, 974, 975, 977, 978, 979, 980, 982] skipped=[969(ooc), 970(ooc), 971(ooc), 976(ooc), 981(ooc), 983(ooc)] -->
 
 <!-- RAW_RANGE: [984, 1016] | SCENE_ID: 2 -->
 ## CHAPTER 2: THE LIBRARY OF THE FATES
 
-The blinding glare did not fade so much as it crystallized into cool, morning light.
+The man on Pierre's left was already climbing to his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of scholarly ecstasy. <!-- L0984 --> <!-- L0985 -->
 
-Pierre blinked against the sudden softness, pushing his spectacles up the bridge of his nose. The acrid stench of burning diesel and scorching desert rubber was completely gone, replaced by the faint, earthy scent of ancient parchment, pressed olives, and sun-warmed stone.
+"Yes, I am Edward," the man declared, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this." <!-- L0986 -->
 
-He was sitting on polished marble flagstones. Surrounding him was an enormous, open-air colonnade of fluted Doric pillars rising beneath an open sky. Colossal towering cedar shelves lined the perimeter, groaning under the weight of countless leather-bound codices, clay tablets, and unfurled papyrus scrolls.
+Pierre let out a ragged breath, adjusting his beret. "A professor... Yeah, it kind of sounds like I am a young student and you are a professor." <!-- L0987 -->
 
-Standing in the exact center of the rotunda, bathed in a pool of golden sunlight, were three ancient women.
+Across the tiles, the tall, broad-shouldered man in the fitted black tank top and dark jeans pushed himself up, rolling his shoulders and checking a heavy black wristwatch on a thick forearm. He had clearly been on his way to Las Vegas just to gamble and have a good time. He glared at the two nerds with utter disbelief. <!-- L0989 --> <!-- L0990 -->
 
-Draped in heavy, undyed linen that seemed to drift without a breeze, their wrinkled hands worked continuously over a suspended wooden frame. Silvery, shimmering threads moved through their gnarled fingers in a blur of practiced rhythm.
+"What about this seems normal to you?" Eusacles demanded, gesturing at the scrolls, the marble columns, and the three ancient weavers. <!-- L0991 -->
 
-The three turned their milky, unblinking eyes toward the bewildered newcomers.
+Before Dravin could answer, the air behind the colonnade warped with a sound like tearing silk. Ten paces to the party's left, a jagged vertical rift ruptured through empty space. <!-- L0992 -->
 
-"Ah, you're early," the first murmured, her voice like grinding millstones.
+Out of the rift sprang a small, impish creature. Intricate tribal markings writhed across its dark skin, and curved horns jutted sharply from its brow above goat-like cloven legs dripping with thick, glistening black ink. <!-- L0993 --> <!-- L0994 -->
 
-"Oh no," the second chimed in, head tilting at an unnatural angle. "You're late."
+As viscous black drops struck the polished marble floor, another minion bubbled up from the pool, coalescing into a gelatinous living blob of ink that hissed and began to crawl toward them. <!-- L0995 -->
 
-"Come closer," whispered the third. "Come closer... This is interesting."
+Behind them, the spinning loom rattled furiously.
 
-The man on Pierre's left was already on his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of pure, scholarly ecstasy. <!-- L0984 --> <!-- L0985 -->
+"Uh, this again?" one of the Fates snapped in shrill agitation. "This not again! What is going on?" <!-- L1000 -->
 
-"I am Edward," the professor announced, adjusting his lapels and gazing in awe at the monumental colonnade. "Or, as you can call me, Professor Dravin. I am a professor of Greek history. So right now... I am entirely in my element. I am loving this." <!-- L0986 -->
+Their wrinkled hands blurred across the warp and weft, finishing a small bundle in their grasp before hurling it across the rotunda. The bundle clattered against the flagstones, skidding to a halt right between the encroaching horrors and the party. <!-- L1001 -->
 
-Pierre scrambled backward until his spine met the solid base of a marble pedestal. He clutched his rucksack to his ribs, adjusting his beret with trembling fingers. "A professor..." Pierre echoed, his voice wavering with a nervous French lilt. "So it is like I am a young student and you are the professor?" <!-- L0987 --> <!-- L0988 -->
+"This will help! This will help!" the eldest cried. "Hold them off! Hold them off just for a little bit longer!" <!-- L1002 -->
 
-Across the tiles, a tall, broad-shouldered man in a fitted black tank top and dark jeans was slowly climbing to his feet, checking a heavy black wristwatch on a thick forearm. He rolled his shoulders, staring flatly at the two nerds beside him. <!-- L0989 -->
+Pierre shrank against his pedestal, pointing a shaking finger. "Just trying to understand... are you seeing what I'm seeing? Are you seeing a little guy with a sword?" <!-- L1003 -->
 
-"I was literally on my way to Vegas just to gamble and have a good time," Eusacles muttered, his jaw tight as he took in the ancient scrolls and marble columns. "What about any of this seems normal to you?" <!-- L0990 --> <!-- L0991 -->
+Dravin squinted through his spectacles. "I'm seeing the guy with the ramped horns, but yes... a little doll." <!-- L1004 -->
 
-<!-- LEDGER: rendered=[984, 985, 986, 987, 988, 989, 990, 991] skipped=[992(ooc), 993(ooc), 994(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 999(ooc), 1000(ooc), 1001(ooc), 1002(ooc), 1003(ooc), 1004(ooc), 1005(ooc), 1006(ooc), 1007(ooc), 1008(ooc), 1009(ooc), 1010(ooc), 1011(ooc), 1012(ooc), 1013(ooc), 1014(ooc), 1015(ooc), 1016(ooc)] -->
+"It looks like an eerie Pinocchio doll with a needle and a Captain Hook hand," Eusacles muttered, squaring his stance. <!-- L1005 -->
+
+Lying on the marble was a tiny figure less than a foot tall, crafted from weathered driftwood and threadbare sailcloth canvas. <!-- L1006 -->
+
+Mismatched buttons carved from polished seashells and pink coral were sewn across its chest, beneath a wild mop of dried seaweed hair. In its right hand, it gripped a sewing needle sharpened into a rapier; its left arm ended in a gleaming curved fishing hook. <!-- L1007 -->
+
+"What kind of size are we looking at?" Dravin asked cautiously. "Like a foot tall?" <!-- L1008 -->
+
+"Very tiny little guy," the doll answered with a creaking rustle of dry wood. "Like a doll." <!-- L1009 -->
+
+A soft, sparkling radiance still clung to its seams, as though the Fates had only just finished weaving it into existence. <!-- L1010 -->
+
+The ink beasts hissed, closing the distance.
+
+"Is what I have what I have right now?" Eusacles growled. "Because I'm pulling out a chained morningstar." <!-- L1012 -->
+
+Adrenaline flooded Eusacles’s veins. In an instant, a warm, protective mantle of glowing light swept over his torso like spectral armor. At his wrist, the heavy metal band of his watch snapped free with a sharp click, unraveling and wrapping itself up his forearm in heavy iron links until it formed a massive, chained morningstar in his fist. <!-- L1013 --> <!-- L1014 -->
+
+"Well, that's dope," Eusacles grinned grimly. "I'm gonna take a swing at this little thing." <!-- L1015 -->
+
+He lunged forward and brought the morningstar down in a crushing arc. The spiked iron smashed into the marble floor, throwing up a spray of white stone chips as the ink blob wiggled nimbly out of the strike path. <!-- L1016 -->
+
+<!-- LEDGER: rendered=[984, 985, 986, 987, 989, 990, 991, 992, 993, 994, 995, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1012, 1013, 1014, 1015, 1016] skipped=[988(ooc), 996(ooc), 997(ooc), 998(ooc), 999(ooc), 1011(ooc)] -->
 
 <!-- RAW_RANGE: [1017, 1119] | SCENE_ID: 3 -->
 ## CHAPTER 3: THE PLANAR RIFT
@@ -368,12 +410,22 @@ Pierre carefully placed the doll on his shoulder, letting its driftwood legs set
 
 "A ride would be grand. Thanks, mate." <!-- L2266 -->
 
-Ahead of them, the wooden fence ended at a decrepit wooden archway leading toward a clearing in the woods. Hanging above the gate was a weathered wooden sign with several letters rotted away. What had once read *The Marigold Inn* now clearly displayed only *The Margin*. <!-- L2270 -->
+Ahead of them, the wooden fence opened toward a clearing in the woods, flanked by the decaying uprights of an old gate. <!-- L2270 -->
 
-Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. As the party approached, the man turned, looking up with an easy smirk. <!-- L2274 -->
+Through the broken gate, a crackling campfire illuminated an older, sun-weathered man and a young girl resting near the flames. Carrying the doll securely on his shoulder, Pierre followed Eusacles and Dravin toward the fire. <!-- L2274 -->
 
-"Huh? No way," the man said, raising a hand in greeting. "What's up? Welcome to the Margin. What edit killed you?" <!-- L2276 -->
+"Hello," Pierre called out cautiously. "We are looking for where we are." <!-- L2275 -->
+
+The man turned from the fire, looking up with an easy smirk and raising a hand in greeting. "Huh? No way. What's up? Welcome to the Margin." <!-- L2276 -->
+
+Dravin stepped forward into the warm firelight, his brow furrowing. "What edit killed us?" <!-- L2277 -->
+
+Overhead, the decrepit archway formerly read *The Marigold Inn*, but weather and rot had worn away the letters until only *The Margin* remained. <!-- L2278 -->
+
+Pierre stared up at the rotting timber, whispering softly, "The Margin..." <!-- L2279 -->
+
+Eusacles rolled his shoulders with a dry chuckle. "Welcome to the afterparty, I guess." <!-- L2280 -->
 
 Overhead, the creaking sign swung softly in the mountain breeze, and the campfire cast long, flickering shadows into the night. <!-- L2281 -->
 
-<!-- LEDGER: rendered=[2119, 2235, 2236, 2260, 2266, 2270, 2274, 2276, 2281] skipped=[2120(ooc), 2121(ooc), 2122(ooc), 2123(ooc), 2124(ooc), 2125(ooc), 2126(ooc), 2127(ooc), 2128(ooc), 2129(ooc), 2130(ooc), 2131(ooc), 2132(ooc), 2133(ooc), 2134(ooc), 2135(ooc), 2136(ooc), 2137(ooc), 2138(ooc), 2139(ooc), 2140(ooc), 2141(ooc), 2142(ooc), 2143(ooc), 2144(ooc), 2145(ooc), 2146(ooc), 2147(ooc), 2148(ooc), 2149(ooc), 2150(ooc), 2151(ooc), 2152(ooc), 2153(ooc), 2154(ooc), 2155(ooc), 2156(ooc), 2157(ooc), 2158(ooc), 2159(ooc), 2160(ooc), 2161(ooc), 2162(ooc), 2163(ooc), 2164(ooc), 2165(ooc), 2166(ooc), 2167(ooc), 2168(ooc), 2169(ooc), 2170(ooc), 2171(ooc), 2172(ooc), 2173(ooc), 2174(ooc), 2175(ooc), 2176(ooc), 2177(ooc), 2178(ooc), 2179(ooc), 2180(ooc), 2181(ooc), 2182(ooc), 2183(ooc), 2184(ooc), 2185(ooc), 2186(ooc), 2187(ooc), 2188(ooc), 2189(ooc), 2190(ooc), 2191(ooc), 2192(ooc), 2193(ooc), 2194(ooc), 2195(ooc), 2196(ooc), 2197(ooc), 2198(ooc), 2199(ooc), 2200(ooc), 2201(ooc), 2202(ooc), 2203(ooc), 2204(ooc), 2205(ooc), 2206(ooc), 2207(ooc), 2208(ooc), 2209(ooc), 2210(ooc), 2211(ooc), 2212(ooc), 2213(ooc), 2214(ooc), 2215(ooc), 2216(ooc), 2217(ooc), 2218(ooc), 2219(ooc), 2220(ooc), 2221(ooc), 2222(ooc), 2223(ooc), 2224(ooc), 2225(ooc), 2226(ooc), 2227(ooc), 2228(ooc), 2229(ooc), 2230(ooc), 2231(ooc), 2232(ooc), 2233(ooc), 2234(ooc), 2237(ooc), 2238(ooc), 2239(ooc), 2240(ooc), 2241(ooc), 2242(ooc), 2243(ooc), 2244(ooc), 2245(ooc), 2246(ooc), 2247(ooc), 2248(ooc), 2249(ooc), 2250(ooc), 2251(ooc), 2252(ooc), 2253(ooc), 2254(ooc), 2255(ooc), 2256(ooc), 2257(ooc), 2258(ooc), 2259(ooc), 2261(ooc), 2262(ooc), 2263(ooc), 2264(ooc), 2265(ooc), 2267(ooc), 2268(ooc), 2269(ooc), 2271(ooc), 2272(ooc), 2273(ooc), 2275(ooc), 2277(ooc), 2278(ooc), 2279(ooc), 2280(ooc)] -->
+<!-- LEDGER: rendered=[2119, 2235, 2236, 2260, 2266, 2270, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281] skipped=[2120(ooc), 2121(ooc), 2122(ooc), 2123(ooc), 2124(ooc), 2125(ooc), 2126(ooc), 2127(ooc), 2128(ooc), 2129(ooc), 2130(ooc), 2131(ooc), 2132(ooc), 2133(ooc), 2134(ooc), 2135(ooc), 2136(ooc), 2137(ooc), 2138(ooc), 2139(ooc), 2140(ooc), 2141(ooc), 2142(ooc), 2143(ooc), 2144(ooc), 2145(ooc), 2146(ooc), 2147(ooc), 2148(ooc), 2149(ooc), 2150(ooc), 2151(ooc), 2152(ooc), 2153(ooc), 2154(ooc), 2155(ooc), 2156(ooc), 2157(ooc), 2158(ooc), 2159(ooc), 2160(ooc), 2161(ooc), 2162(ooc), 2163(ooc), 2164(ooc), 2165(ooc), 2166(ooc), 2167(ooc), 2168(ooc), 2169(ooc), 2170(ooc), 2171(ooc), 2172(ooc), 2173(ooc), 2174(ooc), 2175(ooc), 2176(ooc), 2177(ooc), 2178(ooc), 2179(ooc), 2180(ooc), 2181(ooc), 2182(ooc), 2183(ooc), 2184(ooc), 2185(ooc), 2186(ooc), 2187(ooc), 2188(ooc), 2189(ooc), 2190(ooc), 2191(ooc), 2192(ooc), 2193(ooc), 2194(ooc), 2195(ooc), 2196(ooc), 2197(ooc), 2198(ooc), 2199(ooc), 2200(ooc), 2201(ooc), 2202(ooc), 2203(ooc), 2204(ooc), 2205(ooc), 2206(ooc), 2207(ooc), 2208(ooc), 2209(ooc), 2210(ooc), 2211(ooc), 2212(ooc), 2213(ooc), 2214(ooc), 2215(ooc), 2216(ooc), 2217(ooc), 2218(ooc), 2219(ooc), 2220(ooc), 2221(ooc), 2222(ooc), 2223(ooc), 2224(ooc), 2225(ooc), 2226(ooc), 2227(ooc), 2228(ooc), 2229(ooc), 2230(ooc), 2231(ooc), 2232(ooc), 2233(ooc), 2234(ooc), 2237(ooc), 2238(ooc), 2239(ooc), 2240(ooc), 2241(ooc), 2242(ooc), 2243(ooc), 2244(ooc), 2245(ooc), 2246(ooc), 2247(ooc), 2248(ooc), 2249(ooc), 2250(ooc), 2251(ooc), 2252(ooc), 2253(ooc), 2254(ooc), 2255(ooc), 2256(ooc), 2257(ooc), 2258(ooc), 2259(ooc), 2261(ooc), 2262(ooc), 2263(ooc), 2264(ooc), 2265(ooc), 2267(ooc), 2268(ooc), 2269(ooc), 2271(ooc), 2272(ooc), 2273(ooc)] -->
