@@ -370,6 +370,7 @@ def generate_session_v2_manifest(session_num):
     raw_speakers = load_raw_indexed_speakers(session_num)
     current_scene_title = "Prologue"
     prev_spk_id = None
+    blocks_authorial_dir = os.path.join(root_dir, "sessions", "data", "clean", "blocks_authorial")
     
     for sc_id, sc_content in scenes_raw:
         prev_spk_id = None
@@ -377,7 +378,19 @@ def generate_session_v2_manifest(session_num):
         if lines and lines[0].startswith("##"):
             current_scene_title = lines[0].lstrip("#").strip()
             
+        alt_filename_candidates = [
+            f"s{session_num}-scene-{int(sc_id):02d}-alt.md",
+            f"s{session_num}-scene-{int(sc_id)}-alt.md"
+        ]
+        alt_filepath = None
+        for candidate in alt_filename_candidates:
+            cand_path = os.path.join(blocks_authorial_dir, candidate)
+            if os.path.exists(cand_path):
+                alt_filepath = cand_path
+                break
+
         paragraphs_raw = [p.strip() for p in sc_content.split("\n\n") if p.strip()]
+        scene_first_b_id = None
         
         for p_raw in paragraphs_raw:
             if p_raw.startswith("##") or p_raw.startswith("#") or p_raw.startswith("<!-- RAW_RANGE") or p_raw.startswith("<!-- SCENE") or p_raw.startswith("<!-- LEDGER"):
@@ -424,16 +437,64 @@ def generate_session_v2_manifest(session_num):
             speaker_word_counts[spk_id] += word_count
             
             b_id = f"uneraseable_s{session_num:02d}_b{block_idx:03d}"
+            if scene_first_b_id is None:
+                scene_first_b_id = b_id
+
             segments = decompose_block_to_web_segments(b_id, p, spk_id, source_line, CHARACTER_REGISTRY, raw_speakers)
-            blocks.append({
+            block_data = {
                 "id": b_id,
                 "index": block_idx,
                 "scene": current_scene_title,
                 "speakerId": spk_id,
                 "text": p,
                 "segments": segments
-            })
+            }
+            if alt_filepath:
+                block_data["cut"] = "tabletop"
+
+            blocks.append(block_data)
             block_idx += 1
+
+        # If alternate authorial cut exists, parse and append cinematic blocks
+        if alt_filepath:
+            alt_prev_spk_id = None
+            with open(alt_filepath, "r", encoding="utf-8") as f_alt:
+                alt_content = f_alt.read()
+            alt_paragraphs_raw = [p.strip() for p in alt_content.split("\n\n") if p.strip()]
+            alt_idx = 1
+            
+            for p_raw in alt_paragraphs_raw:
+                if p_raw.startswith("##") or p_raw.startswith("#") or p_raw.startswith("<!-- RAW_RANGE") or p_raw.startswith("<!-- SCENE") or p_raw.startswith("<!-- LEDGER"):
+                    continue
+                
+                span_matches = re.findall(r"<!--\s*L(\d+)(?:-L?(\d+))?\s*-->", p_raw)
+                source_line = int(span_matches[0][0]) if span_matches else None
+                p = re.sub(r"<!--.*?-->", "", p_raw).strip()
+                
+                p_words = re.findall(r"\b[A-Za-z0-9\'-]+\b", p)
+                word_count = len(p_words)
+                if word_count == 0:
+                    continue
+                
+                spk_id = identify_speaker_id(p, alt_prev_spk_id)
+                if spk_id != "narrator":
+                    alt_prev_spk_id = spk_id
+                else:
+                    alt_prev_spk_id = None
+
+                alt_b_id = f"{scene_first_b_id}_alt{alt_idx}"
+                segments = decompose_block_to_web_segments(alt_b_id, p, spk_id, source_line, CHARACTER_REGISTRY, raw_speakers)
+                
+                blocks.append({
+                    "id": alt_b_id,
+                    "scene": current_scene_title,
+                    "cut": "cinematic",
+                    "speakerId": spk_id,
+                    "text": p,
+                    "segments": segments
+                })
+                alt_idx += 1
+
 
     # Pacing StdDev
     mean_s_len = sum(sentence_lengths) / len(sentence_lengths) if sentence_lengths else 10.0

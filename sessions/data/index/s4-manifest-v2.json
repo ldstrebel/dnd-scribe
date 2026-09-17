@@ -180,7 +180,7 @@
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~157 words/scene)",
+          "chosenStance": "Micro-Chapters (~120 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -235,7 +235,8 @@
           "sourceLine": null,
           "text": "In the high-ceilinged atrium of the North Carolina Museum of World and North Carolina History, the scent of floor wax and climate-controlled coolness hung still in the air. Beyond the velvet stanchions, the celebrated ancient limestone tablet rested under its heavy vitrine, the fractured upper edge awaiting the missing shard."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b002",
@@ -252,7 +253,8 @@
           "sourceLine": null,
           "text": "Behind the display, Pierre and Alfie wheeled out the metal archaeology cart. On its upper tray lay the artificial limestone fragment they had shaped and dusted in the back rooms, imbued with Alfie's razor-sharp wordcraft to mimic the missing ancient script."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b003",
@@ -293,7 +295,8 @@
           "sourceLine": 112,
           "text": "\"Lower the rig.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b004",
@@ -310,7 +313,8 @@
           "sourceLine": null,
           "text": "With a low hydraulic hum, the mechanical claw descended from the ceiling, its steel pincers latching onto the reinforced glass vitrine. Gears clicked as the glass lifted, rising smoothly until a two-foot gap opened between the rim of the case and the museum floor."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b005",
@@ -327,7 +331,8 @@
           "sourceLine": null,
           "text": "Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. Reaching inside his tailored blazer, he pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b006",
@@ -344,7 +349,8 @@
           "sourceLine": null,
           "text": "Around the gallery, the air grew suddenly thick and charged with ozone as the party took up defensive positions. The mundane illusion covering the security guards began to warp and dissolve like smoke in a draft. Beneath the harsh museum track lights, the neat crew-cuts on their heads began to writhe and hiss, their hair separating into dozens of living, coiling vipers. On their breast pockets, the silver museum security badges caught the fluorescent glare, each stamped with an identical name: *Gordon. Gordon. Gordon. Gordon.*"
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b007",
@@ -361,7 +367,8 @@
           "sourceLine": null,
           "text": "Pierre blinked, adjusting his round wire-rimmed spectacles as he took in the four identical nameplates."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b008",
@@ -394,7 +401,8 @@
           "sourceLine": 155,
           "text": "\"Your name is very close to mine. Well, kind of. And you all have the exact same name. Is this your actual name?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b009",
@@ -419,7 +427,8 @@
           "sourceLine": null,
           "text": " the nearest operative replied, his voice grating with dry, reptilian sibilance as the snake crown reared back."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b010",
@@ -452,7 +461,8 @@
           "sourceLine": 159,
           "text": "\"Get the evidence first. Bring back the subjects alive.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b011",
@@ -477,7 +487,8 @@
           "sourceLine": null,
           "text": " Pierre muttered, stepping back a pace."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b012",
@@ -494,7 +505,8 @@
           "sourceLine": null,
           "text": "The second Gordon drew a squat, pneumatic sidearm from his coat. Without hesitation, he pivoted and fired at an approaching museum attendant. A viscous pellet of inky, pitch-black liquid erupted from the muzzle, striking the bystander across the shoulder. The dark sludge hissed, spreading rapidly across the attendant's skin like spilled ink on blotting paper, calcifying the flesh beneath it into coarse gray stone."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b013",
@@ -519,7 +531,8 @@
           "sourceLine": 165,
           "text": "\"Wait, how did you do that? I have been trying to do this! This is a very cool trick. Could I perhaps borrow your pistol, Mr. Gordon?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b014",
@@ -552,7 +565,8 @@
           "sourceLine": 166,
           "text": "\"This is for Redactors only.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b015",
@@ -577,7 +591,8 @@
           "sourceLine": null,
           "text": " Pierre asked earnestly."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b016",
@@ -602,7 +617,8 @@
           "sourceLine": 170,
           "text": "\"You are the subject. You will never be a Redactor.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b017",
@@ -619,7 +635,8 @@
           "sourceLine": null,
           "text": "Dravin took cover behind the base of the glass display claw, his university tweed rustling against the metal housing as he shouted a warning."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b018",
@@ -660,7 +677,8 @@
           "sourceLine": 175,
           "text": "\"Any ideas?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b019",
@@ -693,7 +711,8 @@
           "sourceLine": 178,
           "text": "\"He just pulled a gun out, so we better do something!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b020",
@@ -726,7 +745,8 @@
           "sourceLine": 180,
           "text": "\"It is not that big of a deal. There are a lot of other stone things in here\u2014they get to be admired for many years, you know!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b021",
@@ -759,7 +779,8 @@
           "sourceLine": 181,
           "text": "\"So we better do something!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b022",
@@ -776,7 +797,8 @@
           "sourceLine": null,
           "text": "Pierre peered beneath the glass case. The digital device sat squarely atop the limestone tablet, beeping insistently as an oily black fluid began oozing across the ancient carvings."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b023",
@@ -809,7 +831,8 @@
           "sourceLine": 188,
           "text": "\"Are you thinking what I am thinking?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b024",
@@ -826,7 +849,8 @@
           "sourceLine": null,
           "text": "Rummaging through the archaeology cart's lower tool shelf, Pierre pushed past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b025",
@@ -843,7 +867,8 @@
           "sourceLine": null,
           "text": "With quick, deft loops, Pierre fastened the heavy rubberized cable securely around the sturdy twine waistline of Alfie's coat. He scooped the driftwood doll up into his arms and dropped into a low crouch behind a wooden shipping crate, out of the Gorgons' direct line of fire."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b026",
@@ -876,7 +901,8 @@
           "sourceLine": 206,
           "text": "\"I am going to tie this extension cord around you. And I have to admit, I am not very athletic. So plus or minus two feet is about all I can do for you. You may have to adjust in the air, but that is okay.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b027",
@@ -901,7 +927,8 @@
           "sourceLine": 208,
           "text": "\"Yeah. All right. All right!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b028",
@@ -918,7 +945,8 @@
           "sourceLine": null,
           "text": "Across the floor, the third Gordon sidestepped the stanchions and leveled his pneumatic pistol toward the reception lobby, aiming straight at Nincy who was filming with her ring light."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b029",
@@ -934,6 +962,257 @@
           "speakerName": "Narrator",
           "sourceLine": null,
           "text": "Gordon fired. The black viscous pellet struck Nincy square across her knuckles. The dark fluid surged outward in an instant, gluing her fingers together around the phone grip and creeping rapidly up her forearms in a sheath of rigid, petrifying gray stone."
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b001_alt1",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "In the high-ceilinged atrium of the North Carolina Museum of History, the climate-controlled stillness shattered the instant the display vitrine began its hydraulic rise. Pierre and Alfie wheeled out the metal archaeology cart bearing their artificial limestone fragment\u2014crafted in the back rooms with Alfie's razor-sharp wordcraft to mimic the missing ancient script. But before the overhead crane could clear two feet, the perimeter security detail struck. A guard in a sharp dark blazer hurled a heavy metallic cylinder beneath the glass, its digital display flashing an eighteen-second countdown as black calcifying sludge hissed across the ancient limestone tablet.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "In the high-ceilinged atrium of the North Carolina Museum of History, the climate-controlled stillness shattered the instant the display vitrine began its hydraulic rise. Pierre and Alfie wheeled out the metal archaeology cart bearing their artificial limestone fragment\u2014crafted in the back rooms with Alfie's razor-sharp wordcraft to mimic the missing ancient script. But before the overhead crane could clear two feet, the perimeter security detail struck. A guard in a sharp dark blazer hurled a heavy metallic cylinder beneath the glass, its digital display flashing an eighteen-second countdown as black calcifying sludge hissed across the ancient limestone tablet."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt2",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "As defensive wards flared, the mundane illusion concealing the guards melted like hot wax. Beneath the fluorescent track lights, neat crew-cuts erupted into nests of coiling, hissing vipers. On their lapels, four identical silver nameplates glinted in the strobe: *Gordon. Gordon. Gordon. Gordon.* Pierre adjusted his round spectacles, leaning over the cart in polite Parisian bemusement. \"Hello. You all have the exact same name. Is this your actual name?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt2_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "As defensive wards flared, the mundane illusion concealing the guards melted like hot wax. Beneath the fluorescent track lights, neat crew-cuts erupted into nests of coiling, hissing vipers. On their lapels, four identical silver nameplates glinted in the strobe: *Gordon. Gordon. Gordon. Gordon.* Pierre adjusted his round spectacles, leaning over the cart in polite Parisian bemusement. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt2_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 142,
+          "text": "\"Hello. You all have the exact same name. Is this your actual name?\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt3",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "clerk",
+      "text": "\"This is our actual name, Gordon,\" the lead operative hissed. Drawing a squat pneumatic pistol, Gordon fired a black sludge pellet that struck a museum attendant, turning his arm into coarse gray stone.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt3_s01",
+          "type": "dialogue",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
+          "sourceLine": 159,
+          "text": "\"This is our actual name, Gordon,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt3_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " the lead operative hissed. Drawing a squat pneumatic pistol, Gordon fired a black sludge pellet that struck a museum attendant, turning his arm into coarse gray stone."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt4",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"Could I perhaps borrow your pistol, Mr. Gordon?\" Pierre asked with genuine scientific eagerness. \"What do I have to do to become a Redactor?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt4_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 165,
+          "text": "\"Could I perhaps borrow your pistol, Mr. Gordon?\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt4_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre asked with genuine scientific eagerness. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt4_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 165,
+          "text": "\"What do I have to do to become a Redactor?\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt5",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "gordon",
+      "text": "\"You are the subject,\" Gordon hissed coldly. \"You will never be a Redactor.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt5_s01",
+          "type": "dialogue",
+          "speakerId": "gordon",
+          "speakerName": "Gordon (Redactor)",
+          "sourceLine": 170,
+          "text": "\"You are the subject,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt5_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Gordon hissed coldly. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt5_s03",
+          "type": "dialogue",
+          "speakerId": "gordon",
+          "speakerName": "Gordon (Redactor)",
+          "sourceLine": 170,
+          "text": "\"You will never be a Redactor.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt6",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "From behind the metal column of the lifting rig, Professor Edward Dravin shouted a frantic warning as the klaxons began to wail.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "From behind the metal column of the lifting rig, Professor Edward Dravin shouted a frantic warning as the klaxons began to wail."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt7",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "Ducking low behind the display housing, Alfie gripped the hilt of his needle rapier. \"He just pulled a gun out, mate! We better do something before we're both carved into marble statues!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt7_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Ducking low behind the display housing, Alfie gripped the hilt of his needle rapier. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt7_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 175,
+          "text": "\"He just pulled a gun out, mate! We better do something before we're both carved into marble statues!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt8",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre grinned recklessly, rummaging through the cart's lower tray until his hands seized a heavy-duty orange extension cord. In swift loops, Pierre knotted the thick rubber cable around the driftwood doll's waist. \"I am not very athletic, Alfie, so plus or minus two feet is all I can guarantee. You must adjust in the air!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt8_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre grinned recklessly, rummaging through the cart's lower tray until his hands seized a heavy-duty orange extension cord. In swift loops, Pierre knotted the thick rubber cable around the driftwood doll's waist. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt8_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 188,
+          "text": "\"I am not very athletic, Alfie, so plus or minus two feet is all I can guarantee. You must adjust in the air!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt9",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"Right,\" Alfie gave a resolute nod of his carved wooden chin. \"Let's do it!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt9_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 208,
+          "text": "\"Right,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt9_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie gave a resolute nod of his carved wooden chin. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b001_alt9_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 208,
+          "text": "\"Let's do it!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b001_alt10",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Across the polished marble floor, the third Gordon leveled his pneumatic sidearm directly at the reception desk, taking aim at Nincy as she recorded the entire breach on her camera ring light.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b001_alt10_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Across the polished marble floor, the third Gordon leveled his pneumatic sidearm directly at the reception desk, taking aim at Nincy as she recorded the entire breach on her camera ring light."
         }
       ]
     },
@@ -952,7 +1231,8 @@
           "sourceLine": null,
           "text": "In the museum lobby, Nincy screamed as the calcifying gray crust raced from her knuckles up her wrists, locking her fingers tightly around her phone rig. Around her, tourists and desk attendants panicked, fleeing in every direction as security alarms began to shriek."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b031",
@@ -985,7 +1265,8 @@
           "sourceLine": 220,
           "text": "\"Still filming the disaster.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b032",
@@ -1010,7 +1291,8 @@
           "sourceLine": null,
           "text": " Dravin heard the call amid the ringing chaos and vaulted into motion."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b033",
@@ -1043,7 +1325,8 @@
           "sourceLine": null,
           "text": " he shouted over the blaring klaxons."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b034",
@@ -1060,7 +1343,8 @@
           "sourceLine": null,
           "text": "Pierre peered around the corner of the packing crate, watching Dravin's desperate charge. A thought struck him, and he wondered aloud whether Dravin actually knew he was casting divine spells, or if his academic research was simply manifesting into magical effects."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b035",
@@ -1093,7 +1377,8 @@
           "sourceLine": 228,
           "text": "\"In my mind, I'm just applying emergency historical physiology!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b036",
@@ -1118,7 +1403,8 @@
           "sourceLine": null,
           "text": " Alfie piped up with dry amusement."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b037",
@@ -1143,7 +1429,8 @@
           "sourceLine": null,
           "text": " Dravin declared, laying his hands upon Nincy's stiffening wrists."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b038",
@@ -1168,7 +1455,8 @@
           "sourceLine": null,
           "text": " Dravin pressed his palms against her hands. As he channeled his academic intent, a pale, luminescent glow radiated from his fingertips. The cold, creeping gray stone shuddered, its forward advance halting on her skin before retreating down her arms like ice under warm water."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b039",
@@ -1193,7 +1481,8 @@
           "sourceLine": null,
           "text": " Pierre nodded approvingly from the crate."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b040",
@@ -1218,7 +1507,8 @@
           "sourceLine": null,
           "text": " Alfie chimed in, chuckling at the linguistic slip."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b041",
@@ -1235,7 +1525,8 @@
           "sourceLine": null,
           "text": "Across the floor, the Gordon who had fired the shot hissed in frustration. Lurching forward, the serpent-headed operative lunged across the desk to snatch the phone from Nincy's grip before the footage could upload."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b042",
@@ -1268,7 +1559,8 @@
           "sourceLine": 320,
           "text": "\"For a second, someone called her Nancy! Her name is Nincy with an *I*!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b043",
@@ -1285,7 +1577,8 @@
           "sourceLine": null,
           "text": "Nincy ducked her shoulder, clutching her phone to her chest with white-knuckled determination. Gordon's clawed fingers swiped empty air, unable to wrest the device away as the receptionist continued to record every hissing snake and flashing red light."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b044",
@@ -1302,7 +1595,8 @@
           "sourceLine": null,
           "text": "Across the gallery, the fourth Gordon broke into a dead run toward the eastern wall, aiming to hit the button to drop the glass case down again and seal the ticking bomb inside."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b045",
@@ -1335,7 +1629,8 @@
           "sourceLine": null,
           "text": "\"It's your turn!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b046",
@@ -1359,6 +1654,207 @@
           "speakerName": "Narrator",
           "sourceLine": null,
           "text": " Alfie began."
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b030_alt1",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "A high-pitched scream cut through the blaring alarms as black calcification struck Nincy's wrists, locking her fingers around her phone rig.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "A high-pitched scream cut through the blaring alarms as black calcification struck Nincy's wrists, locking her fingers around her phone rig."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt2",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"Classic Nincy,\" Alfie groaned from behind the shipping crate. \"Still livestreaming the apocalypse!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 220,
+          "text": "\"Classic Nincy,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie groaned from behind the shipping crate. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt2_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 220,
+          "text": "\"Still livestreaming the apocalypse!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt3",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "Across the atrium, Professor Edward Dravin hitched his tweed elbows and charged into a frantic sprint toward the reception counter. \"In my mind, this is simply emergency historical physiology!\" Dravin shouted over the sirens, skidding to a halt beside Nincy. Laying his palms over her stiffening wrists, a warm, luminescent golden glow poured from his fingertips, halting the gray petrification and melting the stone crust back into living flesh.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Across the atrium, Professor Edward Dravin hitched his tweed elbows and charged into a frantic sprint toward the reception counter. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt3_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 221,
+          "text": "\"In my mind, this is simply emergency historical physiology!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt3_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin shouted over the sirens, skidding to a halt beside Nincy. Laying his palms over her stiffening wrists, a warm, luminescent golden glow poured from his fingertips, halting the gray petrification and melting the stone crust back into living flesh."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt4",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"Pure wounds,\" Pierre noted with approval from behind the cart.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt4_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 301,
+          "text": "\"Pure wounds,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt4_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre noted with approval from behind the cart."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt5",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"Cure hounds,\" Alfie corrected with a dry wooden chuckle, keeping his eye on the serpent-crowned guards.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt5_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 306,
+          "text": "\"Cure hounds,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt5_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie corrected with a dry wooden chuckle, keeping his eye on the serpent-crowned guards."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt6",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "nincy",
+      "text": "Hissing with fury, the nearest Gordon lunged across the desk to snatch the phone before Nincy could broadcast the hissing viper crowns. Nincy ducked beneath the marble counter with white-knuckled grip, preserving her recording while shouting her name with defiant clarity: \"It's Nincy with an I!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Hissing with fury, the nearest Gordon lunged across the desk to snatch the phone before Nincy could broadcast the hissing viper crowns. Nincy ducked beneath the marble counter with white-knuckled grip, preserving her recording while shouting her name with defiant clarity: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt6_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 319,
+          "text": "\"It's Nincy with an I!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt7",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Across the gallery floor, the fourth Gordon sprinted toward the emergency control console to drop the heavy glass vitrine and seal the ticking bomb inside.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt7_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Across the gallery floor, the fourth Gordon sprinted toward the emergency control console to drop the heavy glass vitrine and seal the ticking bomb inside."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b030_alt8",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre drew back his arm, gripping the orange extension cord tight. \"Alfie\u2014your turn!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b030_alt8_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre drew back his arm, gripping the orange extension cord tight. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b030_alt8_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 330,
+          "text": "\"Alfie\u2014your turn!\""
         }
       ]
     },
@@ -1393,7 +1889,8 @@
           "sourceLine": 331,
           "text": "\"I think I'm ready to be yeeted under the glass!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b048",
@@ -1418,7 +1915,8 @@
           "sourceLine": null,
           "text": " Pierre asked, measuring the gap with an anxious squint."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b049",
@@ -1451,7 +1949,8 @@
           "sourceLine": 335,
           "text": "\"I'm viewing this as more of a slide across the floor and then a little scurry.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b050",
@@ -1476,7 +1975,8 @@
           "sourceLine": null,
           "text": " Pierre offered, adjusting his spectacles. He braced his shoulders to assist the little doll, timing the launch to give Alfie maximum momentum."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b051",
@@ -1501,7 +2001,8 @@
           "sourceLine": 353,
           "text": "\"Acrobatics!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b052",
@@ -1518,7 +2019,8 @@
           "sourceLine": null,
           "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum like a curling stone. His carved driftwood boots skimmed the wax, zipping cleanly beneath the two-foot clearance under the vitrine."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b053",
@@ -1543,7 +2045,8 @@
           "sourceLine": null,
           "text": " Alfie shouted, sliding toward the pedestal. They had all agreed they were not supposed to take the heavy slab with them\u2014they only needed to touch it to awaken its power."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b054",
@@ -1560,7 +2063,8 @@
           "sourceLine": null,
           "text": "As Alfie flew beneath the glass, a sudden magnetic pull surged through the air. A loose thread on the cuff of his coat began to tremble and hum, tugged violently toward the ancient stone as if drawn by a celestial lodestone. With a final athletic leap, Alfie cleared the edge of the pedestal and planted both wooden palms squarely upon the limestone surface."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b055",
@@ -1609,7 +2113,8 @@
           "sourceLine": null,
           "text": "* The galley carved through the narrows, slipping past the shoals, and Alfie saw the terrifying vision of a seaside town engulfed in flames as marauders swept through the streets."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b056",
@@ -1642,7 +2147,8 @@
           "sourceLine": null,
           "text": "* The steersman swung the rudder hard into the light. In an instant, the ship struck jagged granite shoals, the hull splintering into toothpicks against the black rocks. The vision shifted to the coastal town on the shore, its inhabitants sleeping soundly and undisturbed through the quiet night."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b057",
@@ -1659,7 +2165,8 @@
           "sourceLine": null,
           "text": "With a violent jolt, the temporal fold snapped shut. Alfie found himself back in the museum gallery, sitting cross-legged atop the ancient tablet beside the beeping bomb."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b058",
@@ -1692,7 +2199,8 @@
           "sourceLine": null,
           "text": " he rasped, coral eyes wide with lingering shock."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b059",
@@ -1709,7 +2217,8 @@
           "sourceLine": null,
           "text": "The moment Alfie's hands had touched the stone, a warm, resonant shockwave of raw temporal vitality rippled across the room. The exhaustion of the day melted away from Pierre and Dravin in an instant. Spells long expended snapped back into readiness; strained muscles refreshed as though they had completed a full night's peaceful rest."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b060",
@@ -1734,7 +2243,8 @@
           "sourceLine": null,
           "text": " Alfie breathed, clutching his coat. He looked back toward his companions, asking if they had felt the long rest surge or if they needed to touch the stone as well."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b061",
@@ -1759,7 +2269,8 @@
           "sourceLine": null,
           "text": " Pierre called out in relief."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b062",
@@ -1800,7 +2311,8 @@
           "sourceLine": null,
           "text": " He yanked hard on the orange extension cord like a deep-sea diver signaling for retrieval."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b063",
@@ -1817,7 +2329,8 @@
           "sourceLine": null,
           "text": "Pierre set his boots against the crate and hauled on the rubber cord, reeling Alfie back under the two-foot glass gap onto the safety of the floor."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b064",
@@ -1834,7 +2347,8 @@
           "sourceLine": null,
           "text": "Across the gallery, Nincy sprinted toward the main doors, holding her phone aloft to preserve her footage."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b065",
@@ -1875,7 +2389,8 @@
           "sourceLine": 417,
           "text": "\"Capture the subjects!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b066",
@@ -1892,7 +2407,8 @@
           "sourceLine": null,
           "text": "The Gorgon lunged across the floor, driving a serpent-crowned headbutt toward Dravin, the impact grazing the professor for four damage."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b067",
@@ -1917,7 +2433,8 @@
           "sourceLine": 434,
           "text": "\"Did you experience that, Alfie? I think I was with you on the ship. That water was very scary.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b068",
@@ -1950,7 +2467,8 @@
           "sourceLine": 439,
           "text": "\"That's what's in my head twenty-four-seven.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b069",
@@ -1982,6 +2500,265 @@
           "speakerName": "Pierre",
           "sourceLine": 440,
           "text": "\"I think we need to get you some therapy when we are not in the middle of a contest for a piece of rock.\""
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b047_alt1",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"I think I am ready to be yeeted under the glass!\" Alfie declared from behind the crate.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt1_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 331,
+          "text": "\"I think I am ready to be yeeted under the glass!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt1_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie declared from behind the crate."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt2",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"Are you thinking a high lob?\" Pierre asked, measuring the two-foot gap beneath the vitrine with an anxious squint.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": null,
+          "text": "\"Are you thinking a high lob?\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre asked, measuring the two-foot gap beneath the vitrine with an anxious squint."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt3",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"No, mate,\" Alfie corrected, crouching low on his carved driftwood joints. \"More of a curling slide across the floor and then a brisk scurry.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt3_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 335,
+          "text": "\"No, mate,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt3_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie corrected, crouching low on his carved driftwood joints. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt3_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 335,
+          "text": "\"More of a curling slide across the floor and then a brisk scurry.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt4",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum. His carved boots skimmed the floor wax, zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum. His carved boots skimmed the floor wax, zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt5",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Instantly, the museum dissolved into a raging sea tempest. Alfie stood upon the wave-swept deck of a wooden galley surging through pitch-black breakers. Rain lashed his face as a marauder captain bellowed to his crew to pillage the slumbering coast, only for reality to shudder and split. In one thread of time, the steersman aimed for the lighthouse beacon, saving the sleeping town while the ship shattered into splinters against the jagged granite reef; in the other, the raiders slipped past the shoals, burning the village to ash. With a violent temporal jolt, the fold snapped shut, returning Alfie to the museum floor beside the ticking cylinder as a wave of vital restorative energy washed over Pierre and Professor Dravin.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt5_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Instantly, the museum dissolved into a raging sea tempest. Alfie stood upon the wave-swept deck of a wooden galley surging through pitch-black breakers. Rain lashed his face as a marauder captain bellowed to his crew to pillage the slumbering coast, only for reality to shudder and split. In one thread of time, the steersman aimed for the lighthouse beacon, saving the sleeping town while the ship shattered into splinters against the jagged granite reef; in the other, the raiders slipped past the shoals, burning the village to ash. With a violent temporal jolt, the fold snapped shut, returning Alfie to the museum floor beside the ticking cylinder as a wave of vital restorative energy washed over Pierre and Professor Dravin."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt6",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"Alfie is absolutely shook to his wooden core,\" Alfie rasped, trembling from head to toe. \"Watch out for the water! Pull me out! Pull me up!\" He yanked desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt6_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 390,
+          "text": "\"Alfie is absolutely shook to his wooden core,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt6_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie rasped, trembling from head to toe. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt6_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 390,
+          "text": "\"Watch out for the water! Pull me out! Pull me up!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt6_s04",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " He yanked desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt7",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Pierre set his heels against the shipping crate and hauled on the rubber cable, reeling Alfie back under the glass gap just as the lead Gordon lunged across the floor toward Dravin in serpent-headed fury, shouting that the timeline revision had been compromised.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt7_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre set his heels against the shipping crate and hauled on the rubber cable, reeling Alfie back under the glass gap just as the lead Gordon lunged across the floor toward Dravin in serpent-headed fury, shouting that the timeline revision had been compromised."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt8",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre scooped up the shuddering doll, patting his tiny shoulder with gentle sympathy. \"Did you experience that water, Alfie? That was very scary.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt8_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre scooped up the shuddering doll, patting his tiny shoulder with gentle sympathy. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt8_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 434,
+          "text": "\"Did you experience that water, Alfie? That was very scary.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt9",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"That's what's in my head twenty-four-seven, mate,\" Alfie muttered with wide coral eyes.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt9_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 439,
+          "text": "\"That's what's in my head twenty-four-seven, mate,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt9_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie muttered with wide coral eyes."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b047_alt10",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"Oh my god,\" Pierre whispered earnestly. \"I think we must find you some therapy when we are not in the middle of a battle for a piece of rock.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b047_alt10_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 440,
+          "text": "\"Oh my god,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt10_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre whispered earnestly. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b047_alt10_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 440,
+          "text": "\"I think we must find you some therapy when we are not in the middle of a battle for a piece of rock.\""
         }
       ]
     },
@@ -2016,7 +2793,8 @@
           "sourceLine": 441,
           "text": "\"Leave that rock alone.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b071",
@@ -2041,7 +2819,8 @@
           "sourceLine": null,
           "text": " Pierre agreed readily. He peeked around the crate, calculating their route toward the exit. Dravin was caught between two of the serpent-headed guards, while the Gordon who had shot Nincy hovered near the wall console, preparing to lower the glass and seal the ticking bomb."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b072",
@@ -2066,7 +2845,8 @@
           "sourceLine": null,
           "text": " Pierre declared. Sprinting low, he darted beneath the raised glass vitrine, snatching the warm, beeping cylinder off the limestone slab before sliding back into the open gallery."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b073",
@@ -2107,7 +2887,8 @@
           "sourceLine": null,
           "text": " Flipping open his canvas lunch satchel, Pierre pulled out a fresh, crusty French baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b074",
@@ -2132,7 +2913,8 @@
           "sourceLine": null,
           "text": " Pierre shouted across the gallery, aiming to distract the guards from Dravin."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b075",
@@ -2149,7 +2931,8 @@
           "sourceLine": null,
           "text": "The effect was instantaneous and uncanny. All four Gorgons froze mid-stride, their serpentine crowns standing on end as their nostrils flared toward the aroma of golden-baked wheat. With a theatrical flourish, Pierre prepared to hurl the bread across the marble floor."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b076",
@@ -2174,7 +2957,8 @@
           "sourceLine": null,
           "text": " a distant guard's voice echoed through the museum corridors, calling after a lost livestock display."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b077",
@@ -2207,7 +2991,8 @@
           "sourceLine": 479,
           "text": "\"If they are all going to run for this bread, then I am playing fetch with the Gorgons!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b078",
@@ -2224,7 +3009,8 @@
           "sourceLine": null,
           "text": "Sure enough, the nearest Gordon broke into a desperate, inhumanly fast sprint, his tailored suit rustling as he bolted past Pierre to tackle the baguette. Pierre planned to pull Nincy out through the front while staring deeply at the stone, ready to duck away from any blast."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b079",
@@ -2257,7 +3043,8 @@
           "sourceLine": 502,
           "text": "\"He did not eat his breakfast.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b080",
@@ -2290,7 +3077,8 @@
           "sourceLine": null,
           "text": " the professor muttered, clearing his throat."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b081",
@@ -2307,7 +3095,8 @@
           "sourceLine": null,
           "text": "Rather than waving a wand, Dravin simply clasped his hands behind his back and began to lecture. In a dry, hypnotic, and utterly relentless academic drone, he dissected the morphological variations of archaic Athenian pottery. The words carried a subtle, soporific resonance that settled over the Gordon's serpentine crown."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b082",
@@ -2348,7 +3137,8 @@
           "sourceLine": null,
           "text": " The heavy slumber dropped the operative prone onto the floor. The operative's eyes rolled back; the hissing snakes on his skull went limp and flopped forward as Gordon collapsed face-first onto the linoleum, dead asleep."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b083",
@@ -2381,6 +3171,214 @@
           "sourceLine": 544,
           "text": "\"I'm going to back up a little bit.\""
         }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b070_alt1",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"I think it is best if you never touch that rock again,\" Alfie warned, pointing a carved wooden thumb toward the pedestal.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt1_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 441,
+          "text": "\"I think it is best if you never touch that rock again,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt1_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie warned, pointing a carved wooden thumb toward the pedestal."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b070_alt2",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"That sounds very wise to me,\" Pierre agreed, scanning the chaotic atrium. Dravin was cornered between two of the serpent-headed operatives, while the lead Gordon hovered near the console, preparing to drop the vitrine and seal the ticking bomb. \"I am going to make a run for the explosive!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 443,
+          "text": "\"That sounds very wise to me,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre agreed, scanning the chaotic atrium. Dravin was cornered between two of the serpent-headed operatives, while the lead Gordon hovered near the console, preparing to drop the vitrine and seal the ticking bomb. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt2_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 443,
+          "text": "\"I am going to make a run for the explosive!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b070_alt3",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. \"Pierre believes that all Gorgons are essentially French,\" Pierre declared with absolute philosophical conviction, \"and if there is one thing Frenchmen cannot resist, it is fresh bread!\" Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt3_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 451,
+          "text": "\"Pierre believes that all Gorgons are essentially French,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt3_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre declared with absolute philosophical conviction, "
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt3_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 451,
+          "text": "\"and if there is one thing Frenchmen cannot resist, it is fresh bread!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt3_s05",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b070_alt4",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"Fresh bread!\" Pierre bellowed across the gallery.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt4_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 461,
+          "text": "\"Fresh bread!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt4_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre bellowed across the gallery."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b070_alt5",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "The effect was instantaneous. All four Gorgons froze mid-stride, their viper crowns rearing straight up as their nostrils caught the aroma of golden-baked wheat. Spotting a distant museum sheep display, Pierre adjusted his aim away from the animals and hurled the baguette bomb across the polished marble. \"If you are running for bread, then I am playing fetch with the Gorgons!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt5_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The effect was instantaneous. All four Gorgons froze mid-stride, their viper crowns rearing straight up as their nostrils caught the aroma of golden-baked wheat. Spotting a distant museum sheep display, Pierre adjusted his aim away from the animals and hurled the baguette bomb across the polished marble. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt5_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 466,
+          "text": "\"If you are running for bread, then I am playing fetch with the Gorgons!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b070_alt6",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Sure enough, the nearest Gordon broke into a desperate, inhumanly fast sprint, tearing past Pierre to tackle the flying loaf into an empty alcove.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Sure enough, the nearest Gordon broke into a desperate, inhumanly fast sprint, tearing past Pierre to tackle the flying loaf into an empty alcove."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b070_alt7",
+      "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "With the first operative lured away, Professor Edward Dravin stepped forward to face the second Gordon. \"The old tried and true,\" Dravin muttered, clasping his hands behind his back. Rather than drawing a weapon, he began to lecture in a dry, relentless, and utterly hypnotic academic drone, dissecting the morphological variations of archaic Athenian pottery. The scholarly incantation settled like lead over the operative's serpentine crown; Gordon's eyes rolled back, his viper locks went limp, and the Redactor collapsed face-first onto the linoleum in deep slumber.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b070_alt7_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "With the first operative lured away, Professor Edward Dravin stepped forward to face the second Gordon. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt7_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 504,
+          "text": "\"The old tried and true,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b070_alt7_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin muttered, clasping his hands behind his back. Rather than drawing a weapon, he began to lecture in a dry, relentless, and utterly hypnotic academic drone, dissecting the morphological variations of archaic Athenian pottery. The scholarly incantation settled like lead over the operative's serpentine crown; Gordon's eyes rolled back, his viper locks went limp, and the Redactor collapsed face-first onto the linoleum in deep slumber."
+        }
       ]
     },
     {
@@ -2398,7 +3396,8 @@
           "sourceLine": null,
           "text": "Dravin stepped back from the unconscious Gordon sprawled across the floor, adjusting his spectacles."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b085",
@@ -2415,7 +3414,8 @@
           "sourceLine": null,
           "text": "Across the gallery, the third Gordon lunged toward the lobby corridor, pursuing Nincy with a drawn pistol to unleash an Editorial Gaze. The report of the weapon cracked like a whip against the high ceilings."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b086",
@@ -2440,7 +3440,8 @@
           "sourceLine": null,
           "text": " Pierre called out, ducking behind the cart."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b087",
@@ -2465,7 +3466,8 @@
           "sourceLine": null,
           "text": " Alfie's coral eyes flashed with inspiration."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b088",
@@ -2490,7 +3492,8 @@
           "sourceLine": null,
           "text": " Pierre shouted back."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b089",
@@ -2515,7 +3518,8 @@
           "sourceLine": null,
           "text": " Alfie began rapid-firing potential word alterations, weighing whether an editorial glare or an editorial glaze would best break the curse."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b090",
@@ -2540,7 +3544,8 @@
           "sourceLine": null,
           "text": " Pierre offered."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b091",
@@ -2573,7 +3578,8 @@
           "sourceLine": 576,
           "text": "\"I wonder what an editorial glaze would do, though?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b092",
@@ -2598,7 +3604,8 @@
           "sourceLine": null,
           "text": " Alfie shouted down the hall."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b093",
@@ -2615,7 +3622,8 @@
           "sourceLine": null,
           "text": "The remaining Gordon in the main gallery watched his colleague disappear after the baguette-bomb into the far exhibit hall. Realizing the bread had been claimed, he turned back to the party, abandoning the lure. He sprinted toward the display case, but found himself just out of range."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b094",
@@ -2640,7 +3648,8 @@
           "sourceLine": null,
           "text": " Alfie said, scurrying along the baseboards."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b095",
@@ -2665,7 +3674,8 @@
           "sourceLine": null,
           "text": " Pierre asked, scanning the perimeter. Behind a screen of historical tapestries stood a reinforced doorway, half-concealed from casual view."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b096",
@@ -2682,7 +3692,8 @@
           "sourceLine": null,
           "text": "Alfie dashed toward the portal. The exit door leading to the parking lot had been welded shut by an inky, hardened residue along the frame, but right beside it was a metal staircase marked with an illuminated sign: *ROOF ACCESS*."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b097",
@@ -2707,7 +3718,8 @@
           "sourceLine": null,
           "text": " Alfie scurried onto the first metal tread."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b098",
@@ -2732,7 +3744,8 @@
           "sourceLine": null,
           "text": " Pierre called after him."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b099",
@@ -2765,7 +3778,8 @@
           "sourceLine": 610,
           "text": "\"You never know\u2014I might have to get off the roof in a pinch!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b100",
@@ -2790,7 +3804,8 @@
           "sourceLine": 614,
           "text": "\"This is going to go so viral! I'm posting it right now before I turn! I'm posting it if it's the last thing I do!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b101",
@@ -2815,7 +3830,8 @@
           "sourceLine": null,
           "text": " Pierre chuckled dryly."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b102",
@@ -2832,7 +3848,8 @@
           "sourceLine": null,
           "text": "At the far console, the surviving museum security guard slammed down the emergency override. Heavy corrugated steel security gates came crashing down with an earsplitting clatter, sealing the exits. Alarms blared deafeningly through the museum."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b103",
@@ -2849,7 +3866,8 @@
           "sourceLine": null,
           "text": "Pierre watched Alfie's orange cable disappear into the stairwell, but his curiosity pulled him in the opposite direction. Near the raised glass case, the civilian attendant who had been struck by the first Gorgon's shot was turning rapidly to stone. Pierre ran over to investigate her condition."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b104",
@@ -2866,7 +3884,8 @@
           "sourceLine": null,
           "text": "Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. On an arcana check of twenty-one, Pierre touched the stone skin to analyze the magic."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b105",
@@ -2899,7 +3918,8 @@
           "sourceLine": 637,
           "text": "\"What am I supposed to learn from this? Are you part of the pilgrimage? What did you do to cause this?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b106",
@@ -2916,7 +3936,8 @@
           "sourceLine": null,
           "text": "The attendant's eyes were wide with terror, her gaze darting frantically toward Pierre as the stone began locking her jaw and spreading over her mouth."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b107",
@@ -2949,7 +3970,8 @@
           "sourceLine": 648,
           "text": "\"Do not worry.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b108",
@@ -2966,7 +3988,8 @@
           "sourceLine": null,
           "text": "Pierre reached down and hoisted the petrifying attendant into his arms. Carrying her toward the vitrine, he propped her rigid shoulders against the lifting glass, angling her body so that the moment the case rose, her petrified hands would fall directly across the surface of the ancient tablet."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b109",
@@ -2982,6 +4005,180 @@
           "speakerName": "Narrator",
           "sourceLine": null,
           "text": "And then Pierre was running."
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b084_alt1",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Professor Dravin stepped back from the slumbering Gordon sprawled across the linoleum, gesturing for the others to fall back. Across the gallery, the third Gordon leveled his pneumatic pistol down the corridor, firing an Editorial Gaze at Nincy. \"Alfie, can you edit his spell into an editorial maze?\" Pierre shouted, ducking behind the archaeology cart.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b084_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Professor Dravin stepped back from the slumbering Gordon sprawled across the linoleum, gesturing for the others to fall back. Across the gallery, the third Gordon leveled his pneumatic pistol down the corridor, firing an Editorial Gaze at Nincy. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt1_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 552,
+          "text": "\"Alfie, can you edit his spell into an editorial maze?\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt1_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre shouted, ducking behind the archaeology cart."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b084_alt2",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"Can I edit an enemy's spell?\" Alfie's coral eyes flashed with inspiration. \"You are so right, mate! I wonder if an editorial glaze would turn him into a sticky donut!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b084_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 555,
+          "text": "\"Can I edit an enemy's spell?\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie's coral eyes flashed with inspiration. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt2_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 555,
+          "text": "\"You are so right, mate! I wonder if an editorial glaze would turn him into a sticky donut!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b084_alt3",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Spotting a reinforced doorway marked with an illuminated *ROOF ACCESS* sign, Alfie scurried onto the metal stair treads, coiling the bright orange extension cord over his shoulder like a seasoned firefighter. \"I'm heading for the roof, Pierre! You never know when you'll need to rappel in a pinch!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b084_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Spotting a reinforced doorway marked with an illuminated *ROOF ACCESS* sign, Alfie scurried onto the metal stair treads, coiling the bright orange extension cord over his shoulder like a seasoned firefighter. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt3_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 589,
+          "text": "\"I'm heading for the roof, Pierre! You never know when you'll need to rappel in a pinch!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b084_alt4",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "nincy",
+      "text": "From the reception lobby, Nincy's triumphant voice echoed through the marble rotunda over the sirens: \"This is going viral! I am posting the snake video right now before I petrify!\" At the security console, the surviving guard slammed the emergency lockout, sending heavy corrugated steel gates crashing down over every ground-floor exit.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b084_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "From the reception lobby, Nincy's triumphant voice echoed through the marble rotunda over the sirens: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt4_s02",
+          "type": "dialogue",
+          "speakerId": "nincy",
+          "speakerName": "Nincy (Receptionist & Host)",
+          "sourceLine": 614,
+          "text": "\"This is going viral! I am posting the snake video right now before I petrify!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt4_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " At the security console, the surviving guard slammed the emergency lockout, sending heavy corrugated steel gates crashing down over every ground-floor exit."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b084_alt5",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre watched Alfie ascend, but turned back toward the display case where the struck civilian attendant was stiffening into solid stone. Kneeling beside her, Pierre hoisted the petrifying woman into his arms. \"Do not worry,\" he murmured gently. \"We will find what you are meant to learn from this pilgrimage.\" Carrying her to the vitrine, Pierre propped her rigid form against the lifting glass so her stone hands would fall squarely across the ancient limestone tablet, before turning on his heel and sprinting for the roof.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b084_alt5_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre watched Alfie ascend, but turned back toward the display case where the struck civilian attendant was stiffening into solid stone. Kneeling beside her, Pierre hoisted the petrifying woman into his arms. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt5_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 620,
+          "text": "\"Do not worry,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt5_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he murmured gently. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt5_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 620,
+          "text": "\"We will find what you are meant to learn from this pilgrimage.\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b084_alt5_s05",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Carrying her to the vitrine, Pierre propped her rigid form against the lifting glass so her stone hands would fall squarely across the ancient limestone tablet, before turning on his heel and sprinting for the roof."
         }
       ]
     },
@@ -3000,7 +4197,8 @@
           "sourceLine": null,
           "text": "Pierre rushed forward, grabbing the petrified museum attendant by the arm to drag her across the floor toward the rising glass case. In his mind, Pierre told himself he was merely a normal boy acting as a diversion, hoping the ancient tablet might beacon her toward safety. But the instant his bare hand locked around her forearm, a sudden, uncanny movement rippled beneath his beret of normalcy\u2014the hidden, serpentine coils against his scalp stirring in resonance."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b111",
@@ -3033,7 +4231,8 @@
           "sourceLine": null,
           "text": " Pierre glanced down in disbelief. The calcified gray stone was actively receding, draining down her skin and vanishing directly into his touch where his fingers gripped her flesh. It was dissipating at an impossible speed."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b112",
@@ -3074,7 +4273,8 @@
           "sourceLine": null,
           "text": " He leaned her securely across the pedestal so she remained in direct contact with the stone."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b113",
@@ -3091,7 +4291,8 @@
           "sourceLine": null,
           "text": "From the adjacent hall, a muffled *crump-hiss* echoed through the ventilation shafts. It was not a fiery explosion, but the violent rupture of pressurized gas and boiling sludge. The Gorgon who had ravenously devoured the baguette-bomb had bitten straight into the core, detonating the weapon within his gullet."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b114",
@@ -3124,7 +4325,8 @@
           "sourceLine": 687,
           "text": "\"That was that North Carolina Reaper pepper I stuffed inside the baguette!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b115",
@@ -3157,7 +4359,8 @@
           "sourceLine": null,
           "text": " Dravin announced."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b116",
@@ -3174,7 +4377,8 @@
           "sourceLine": null,
           "text": "He snatched up the weapon and fired point-blank at the awake Gordon. The viscous ink struck the operative's chest, but the Gorgon's reptilian fortitude absorbed the shot, the black sludge dissolving into his tailored jacket without petrifying."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b117",
@@ -3199,7 +4403,8 @@
           "sourceLine": 708,
           "text": "\"These gates that are down\u2014they're like a mall at closing time?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b118",
@@ -3248,7 +4453,8 @@
           "sourceLine": null,
           "text": " Dravin dragged the sleeping operative back by the collar to keep him out of the fight."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b119",
@@ -3265,7 +4471,8 @@
           "sourceLine": null,
           "text": "The awake Gordon hissed, striking out at Dravin with his venomous claws, tearing into the professor's sleeve for four damage."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b120",
@@ -3282,7 +4489,8 @@
           "sourceLine": null,
           "text": "From the stairwell landing above, Alfie peered through the banisters at the base landing."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b121",
@@ -3307,7 +4515,8 @@
           "sourceLine": 734,
           "text": "\"All these pots and relics\u2014they're not fully enclosed in glass, right? They're half cases.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b122",
@@ -3332,7 +4541,8 @@
           "sourceLine": null,
           "text": " Alfie gestured with his wooden hand, channeling his *Mage Hand*. A translucent blue phantom hand materialized over an ancient clay storage urn, hoisting the heavy vessel into the air directly above Gordon's serpentine crown. With a flick of Alfie's wrist, the spectral hand released the urn from above the stairwell."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b123",
@@ -3349,7 +4559,8 @@
           "sourceLine": null,
           "text": "*SMASH!*"
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b124",
@@ -3366,7 +4577,8 @@
           "sourceLine": null,
           "text": "The heavy terracotta vessel cracked across Gordon's head, shattering into pottery shards and dealing five bludgeoning damage."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b125",
@@ -3383,7 +4595,8 @@
           "sourceLine": null,
           "text": "At the center vitrine, the museum attendant groaned. The gray stone had completely vanished from her skin, leaving her fully restored. She blinked in dazed bewilderment, touching the limestone tablet. This time, no radiant pulse answered\u2014the tablet's stored temporal vitality had fully dispersed."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b126",
@@ -3416,6 +4629,123 @@
           "sourceLine": 766,
           "text": "\"Since you are healed, I guess we run!\""
         }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b110_alt1",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre hoisted the stiffening attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy\u2014the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: \"These Walmart Gorgons cannot even keep someone stoned for more than two minutes! Ridiculous!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b110_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre hoisted the stiffening attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy\u2014the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt1_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 661,
+          "text": "\"These Walmart Gorgons cannot even keep someone stoned for more than two minutes! Ridiculous!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b110_alt2",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "A muffled *crump-hiss* shuddered through the vents as the baguette-bomb detonated in the gullet of the operative in the far hall. \"That was the Carolina Reaper pepper I stuffed inside the crust!\" Pierre cheered.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b110_alt2_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "A muffled *crump-hiss* shuddered through the vents as the baguette-bomb detonated in the gullet of the operative in the far hall. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt2_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 685,
+          "text": "\"That was the Carolina Reaper pepper I stuffed inside the crust!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt2_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre cheered."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b110_alt3",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "In the main gallery, Professor Edward Dravin snatched a dropped pneumatic sidearm, blocking the remaining awake Gordon. \"You will have to go through me!\" Dravin shouted, dragging the sleeping operative clear as Gordon's venomous claws slashed his tweed sleeve.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b110_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "In the main gallery, Professor Edward Dravin snatched a dropped pneumatic sidearm, blocking the remaining awake Gordon. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt3_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 700,
+          "text": "\"You will have to go through me!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt3_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin shouted, dragging the sleeping operative clear as Gordon's venomous claws slashed his tweed sleeve."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b110_alt4",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "From the stairwell landing above, Alfie gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: \"Since you are healed, I guess we run!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b110_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "From the stairwell landing above, Alfie gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt4_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 730,
+          "text": "\"Since you are healed, I guess we run!\""
+        }
       ]
     },
     {
@@ -3433,7 +4763,8 @@
           "sourceLine": null,
           "text": "Pierre grabbed the attendant's arm, guiding her around the perimeter of the vitrine toward the stairwell where Alfie waited."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b128",
@@ -3466,7 +4797,8 @@
           "sourceLine": 778,
           "text": "\"It is very weird, I know! It is probably very spooky for you. But luckily this is like a Walmart stone\u2014it is just a veneer. You were only there for two minutes. One to two days of Powerade and a piece of pizza, and you will have no problems!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b129",
@@ -3491,7 +4823,8 @@
           "sourceLine": 787,
           "text": "\"All right, I think it's time we hit him with a good old Guiding Bolt!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b130",
@@ -3516,7 +4849,8 @@
           "sourceLine": null,
           "text": " Alfie called out from the stairs. But the weave allowed only a single letter alteration at this level."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b131",
@@ -3557,7 +4891,8 @@
           "sourceLine": null,
           "text": " Dravin stood firm and invoked his spell."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b132",
@@ -3574,7 +4909,8 @@
           "sourceLine": null,
           "text": "A blinding lance of radiant celestial fire erupted from Dravin's outstretched fingers, slamming directly into Gordon's chest. Ink and sparks sprayed violently across the floor as the bolt seared the Gorgon's flesh, leaving him smoking and staggering on his feet."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b133",
@@ -3591,7 +4927,8 @@
           "sourceLine": null,
           "text": "Reeling from the strike, the wounded Gordon snarled, his snakes thrashing in wild fury. Raising his pneumatic sidearm, he aimed the muzzle directly at Dravin's face to fire his petrifying glare."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b134",
@@ -3624,7 +4961,8 @@
           "sourceLine": 856,
           "text": "\"I am using WordCraft Edit to change *glare* to *glaze*!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b135",
@@ -3649,7 +4987,8 @@
           "sourceLine": 862,
           "text": "\"The modern slang meaning! To shower someone with excessive praise and over-the-top flattery!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b136",
@@ -3666,7 +5005,8 @@
           "sourceLine": null,
           "text": "Gordon paused as if struck by lightning. Pulling out his gun, he stared at it, reloaded it, and slowly slipped it back into his belt. The operative beamed at Dravin with an expression of pure, tearful reverence."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b137",
@@ -3699,7 +5039,8 @@
           "sourceLine": 871,
           "text": "\"I really feel like we could use some of that knowledge in the world today! And you were willing to share that! That is a true blessing, Professor\u2014the whole world is smarter because of it!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b138",
@@ -3724,7 +5065,8 @@
           "sourceLine": 872,
           "text": "\"I am just so disappointed that my colleague fell asleep during your lecture earlier. It was so disrespectful!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b139",
@@ -3757,7 +5099,8 @@
           "sourceLine": 874,
           "text": "\"Yeah, that's what my friend needs right now!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b140",
@@ -3773,6 +5116,156 @@
           "speakerName": "Narrator",
           "sourceLine": null,
           "text": "Across the gallery, Dravin reached into his heavy tweed coat, preparing his next incantation. To focus his radiant spellcraft, he drew forth a massive, solid steel security guard flashlight, aiming its polished lens straight toward the mesmerized Gorgon."
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b127_alt1",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Guiding the restored attendant toward the stairs, Pierre offered his warmest Parisian counsel: \"Do not worry\u2014this is like a Walmart stone veneer. One or two days of Powerade and a slice of pizza, and you will have no problems!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b127_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Guiding the restored attendant toward the stairs, Pierre offered his warmest Parisian counsel: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt1_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 771,
+          "text": "\"Do not worry\u2014this is like a Walmart stone veneer. One or two days of Powerade and a slice of pizza, and you will have no problems!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b127_alt2",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "In the center rotunda, Professor Edward Dravin planted his feet and thrust his palms forward. \"Time for a classic Guiding Bolt!\" A blinding lance of celestial radiance erupted from his fingertips, striking Gordon square in the chest and searing the Gorgon into a staggering daze.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b127_alt2_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "In the center rotunda, Professor Edward Dravin planted his feet and thrust his palms forward. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt2_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 787,
+          "text": "\"Time for a classic Guiding Bolt!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt2_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " A blinding lance of celestial radiance erupted from his fingertips, striking Gordon square in the chest and searing the Gorgon into a staggering daze."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b127_alt3",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "Snarling in fury, the wounded Gordon raised his pneumatic muzzle to unleash a lethal petrifying glare. From the stairwell, Alfie brandished his wordcraft with theatrical swagger: \"Hear me out! I am using WordCraft Edit to change *glare* into *glaze*\u2014the modern slang meaning to shower someone with excessive praise!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b127_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Snarling in fury, the wounded Gordon raised his pneumatic muzzle to unleash a lethal petrifying glare. From the stairwell, Alfie brandished his wordcraft with theatrical swagger: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt3_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 853,
+          "text": "\"Hear me out! I am using WordCraft Edit to change *glare* into *glaze*\u2014the modern slang meaning to shower someone with excessive praise!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b127_alt4",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "Gordon froze mid-aim, slowly holstering his weapon with tearful reverence. \"That academic paper you published recently was incredible, Edward!\" the Gorgon gushed, weeping with adoration. \"The whole world is smarter because of your research, Professor Dravin!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b127_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Gordon froze mid-aim, slowly holstering his weapon with tearful reverence. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt4_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 867,
+          "text": "\"That academic paper you published recently was incredible, Edward!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt4_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " the Gorgon gushed, weeping with adoration. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt4_s04",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 867,
+          "text": "\"The whole world is smarter because of your research, Professor Dravin!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b127_alt5",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "\"He is totally editorially glazing you!\" Alfie laughed from the banister as Dravin drew a heavy steel security flashlight to focus his next radiant strike.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b127_alt5_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 872,
+          "text": "\"He is totally editorially glazing you!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b127_alt5_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie laughed from the banister as Dravin drew a heavy steel security flashlight to focus his next radiant strike."
         }
       ]
     },
@@ -3791,7 +5284,8 @@
           "sourceLine": null,
           "text": "Dravin thumbed the switch on his heavy security guard flashlight. A blinding beam of pure radiant energy erupted from the lens, engulfing the glazed operative in a searing halo of divine brilliance\u2014a focused *Guiding Bolt* that spotlighted the enemy as a luminous target."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b142",
@@ -3816,7 +5310,8 @@
           "sourceLine": null,
           "text": " Alfie shouted from the mezzanine, seizing the advantage of Dravin's radiant beacon. Guiding his translucent *Mage Hand* through the air, he hoisted another ceramic urn aloft and hurled it down to shatter across the illuminated Gorgon's shoulders."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b143",
@@ -3841,7 +5336,8 @@
           "sourceLine": 906,
           "text": "\"Would there be some rock-treatment oil on here? An acid to clean ancient stone?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b144",
@@ -3858,7 +5354,8 @@
           "sourceLine": null,
           "text": "On the bottom shelf sat several reagent flasks and vials of acid to grab and clean stone exhibits."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b145",
@@ -3883,7 +5380,8 @@
           "sourceLine": 915,
           "text": "\"Their goal was to destroy the tablet with that bomb before the power could be released. Now they're trying to capture us.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b146",
@@ -3900,7 +5398,8 @@
           "sourceLine": null,
           "text": "He held the vial close to his temple to test its resonance. Instantly, his beret gave an agitated flutter and hiss as the curls beneath twisted violently, his concealed serpent coils reacting to the volatile brew."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b147",
@@ -3933,7 +5432,8 @@
           "sourceLine": 933,
           "text": "\"I will hit them with a bad hair day! Professor, duck!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b148",
@@ -3950,7 +5450,8 @@
           "sourceLine": null,
           "text": "From the mezzanine rail, using sleight of hand or athletics, Pierre threw a six. The flask shattered across the floor near Gordon's feet, splashing down as the acid hit the ground and formed a bubbling green pool."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b149",
@@ -3983,7 +5484,8 @@
           "sourceLine": null,
           "text": " the professor muttered grimly. Reversing his grip on his heavy steel security flashlight, Dravin stepped in close. It was the heavy flashlight that would finish the job."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b150",
@@ -4000,7 +5502,8 @@
           "sourceLine": null,
           "text": "With a resounding *CRACK*, Dravin brought the solid metal butt of the flashlight squarely across the glazed Gorgon's jaw. The critical blow dropped Gordon like a sack of grain, sending him crashing onto the linoleum."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b151",
@@ -4025,7 +5528,8 @@
           "sourceLine": null,
           "text": " Dravin called up to Pierre. Grabbing the collar of the sleeping operative who had fallen during his lecture, Dravin hauled him across the wax, dragging him directly into the bubbling acid puddle. The caustic chemical hissed violently, dissolving the Gorgon into harmless black vapor."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b152",
@@ -4042,7 +5546,8 @@
           "sourceLine": null,
           "text": "The gallery fell into an eerie silence, broken only by the pulsing wail of the building alarms. Combat was over. Through the perforated mesh of the lowered security gates, they peered out into the front reception lobby. Near the shattered glass doors stood the petrified stone statue of Nincy, still clutching her ring light and phone aloft in perpetual vigilance. And beside her, an ink-black rift hovered in midair\u2014a dimensional tear of the Three Fates into which another unconscious figure was being pulled."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b153",
@@ -4083,7 +5588,8 @@
           "sourceLine": null,
           "text": " He quickly pocketed a second spare vial into his satchel."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b154",
@@ -4108,7 +5614,8 @@
           "sourceLine": null,
           "text": " Alfie called down from the landing."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b155",
@@ -4141,7 +5648,8 @@
           "sourceLine": null,
           "text": " he cheered."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b156",
@@ -4165,6 +5673,147 @@
           "speakerName": "Pierre",
           "sourceLine": 990,
           "text": "\"Professor, I have been wondering all day\u2014can you please explain to me why there is a dragon in the Greek antiquity wing of this museum?\""
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b141_alt1",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "Dravin thumbed the switch on his heavy security flashlight, unleashing a blinding beam of pure radiant fire that bathed the glazed Gordon in a searing halo. \"Pot drop number two!\" Alfie shouted from the mezzanine, guiding his translucent *Mage Hand* to shatter a second heavy ceramic urn across the illuminated operative's shoulders.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b141_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin thumbed the switch on his heavy security flashlight, unleashing a blinding beam of pure radiant fire that bathed the glazed Gordon in a searing halo. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt1_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 881,
+          "text": "\"Pot drop number two!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt1_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie shouted from the mezzanine, guiding his translucent *Mage Hand* to shatter a second heavy ceramic urn across the illuminated operative's shoulders."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b141_alt2",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre rummaged through the lower shelf of the archaeology cart, snatching a vial of amber stone-cleaning reagent acid. Holding the flask near his temple, the hidden serpent curls beneath his beret fluttered and hissed in violent resonance with the caustic brew. \"That is good enough!\" Pierre shouted. \"Professor, duck!\" Hurling the flask across the marble, the glass shattered, splashing into a bubbling, smoking pool of green acid.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b141_alt2_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre rummaged through the lower shelf of the archaeology cart, snatching a vial of amber stone-cleaning reagent acid. Holding the flask near his temple, the hidden serpent curls beneath his beret fluttered and hissed in violent resonance with the caustic brew. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt2_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 906,
+          "text": "\"That is good enough!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt2_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre shouted. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt2_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 906,
+          "text": "\"Professor, duck!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt2_s05",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Hurling the flask across the marble, the glass shattered, splashing into a bubbling, smoking pool of green acid."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b141_alt3",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Stepping in close, Professor Edward Dravin reversed his grip on the solid steel flashlight. With a resounding *CRACK*, Dravin brought the metal butt squarely across Gordon's jaw, dropping the operative cold onto the linoleum. Grabbing the collar of the sleeping Redactor, Dravin hauled him across the floor and shoved him into the acid puddle, dissolving the slumbering threat into harmless black vapor.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b141_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Stepping in close, Professor Edward Dravin reversed his grip on the solid steel flashlight. With a resounding *CRACK*, Dravin brought the metal butt squarely across Gordon's jaw, dropping the operative cold onto the linoleum. Grabbing the collar of the sleeping Redactor, Dravin hauled him across the floor and shoved him into the acid puddle, dissolving the slumbering threat into harmless black vapor."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b141_alt4",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears: \"Went to the North Carolina Natural History Museum and all I got was this stupid hat.\" Pierre stared up at the banners: \"Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b141_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt4_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 969,
+          "text": "\"Went to the North Carolina Natural History Museum and all I got was this stupid hat.\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt4_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre stared up at the banners: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt4_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 969,
+          "text": "\"Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?\""
         }
       ]
     },
@@ -4191,7 +5840,8 @@
           "sourceLine": null,
           "text": " Dravin replied solemnly, peering at the bizarre museum display as security klaxons wailed deafeningly behind them."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b158",
@@ -4224,7 +5874,8 @@
           "sourceLine": 995,
           "text": "\"Professor, is it frowned upon if I take this really cool Spartan armor?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b159",
@@ -4257,7 +5908,8 @@
           "sourceLine": 998,
           "text": "\"Anybody need some heavy armor? You're in chain mail currently, but guess where you got it from? This museum!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b160",
@@ -4274,7 +5926,8 @@
           "sourceLine": null,
           "text": "Pierre hurried over to the auxiliary claw controls, deftly maneuvering the steel pincers across the gallery to hoist the heavy glass vitrine, scooping up a bronzed breastplate and greaves."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b161",
@@ -4291,7 +5944,8 @@
           "sourceLine": null,
           "text": "Alfie adjusted his souvenir cap over his wooden ears, turning around only to discover that while Pierre and the Professor were eyeing museum-grade ancient armaments, he had spent the entire heist standing in the museum gift shop."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b162",
@@ -4308,7 +5962,8 @@
           "sourceLine": null,
           "text": "Dravin proudly claimed the ancient hoplite shield for himself, while Pierre scooped up an authentic bronze war javelin."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b163",
@@ -4333,7 +5988,8 @@
           "sourceLine": null,
           "text": " Alfie grumbled, glaring down at his green-and-gold souvenir."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b164",
@@ -4358,7 +6014,8 @@
           "sourceLine": null,
           "text": " Pierre teased."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b165",
@@ -4383,7 +6040,8 @@
           "sourceLine": null,
           "text": " Alfie retorted."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b166",
@@ -4408,7 +6066,8 @@
           "sourceLine": null,
           "text": " Dravin urged, heading toward the rear of the hall. They ducked through the service door into the archaeology storage room. In the distance outside, sirens began to wail across downtown Raleigh\u2014police cruisers responding to the alarm."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b167",
@@ -4441,7 +6100,8 @@
           "sourceLine": 1035,
           "text": "\"Though being in the Greek exhibit, you might think they're mythical sirens calling you back.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b168",
@@ -4466,7 +6126,8 @@
           "sourceLine": null,
           "text": " Pierre laughed, referencing the pirate vision."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b169",
@@ -4499,7 +6160,8 @@
           "sourceLine": null,
           "text": " Dravin said, taking the lead across the threshold."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b170",
@@ -4516,7 +6178,8 @@
           "sourceLine": null,
           "text": "The party stepped through, the cold museum air giving way to the timeless, non-Euclidean fog. Although their path meandered without geographic logic, turning sharply and doubling back across forgotten paving stones, they enjoyed a smooth journey, tracking their own returning footprints with remarkable ease."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b171",
@@ -4533,7 +6196,8 @@
           "sourceLine": null,
           "text": "Time lost all measurable meaning in the gray ether. Whether twenty minutes passed or three full hours, the mist eventually receded, replaced by familiar pine trees and the lantern-lit porch of the Marigold Inn. They had returned to The Margin."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b172",
@@ -4558,7 +6222,8 @@
           "sourceLine": 1088,
           "text": "\"Well, what's up? Looks like you guys had a good trip.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b173",
@@ -4583,7 +6248,8 @@
           "sourceLine": null,
           "text": " Alfie cheered, climbing onto a bench."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b174",
@@ -4608,7 +6274,8 @@
           "sourceLine": null,
           "text": " Michael remarked."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b175",
@@ -4641,7 +6308,8 @@
           "sourceLine": 1091,
           "text": "\"But more importantly, look at Alfie's new hat\u2014it is very cute! Secondly, look at the Professor's new hat and shield\u2014not as cute.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b176",
@@ -4674,7 +6342,8 @@
           "sourceLine": 1093,
           "text": "\"I think we deserved credit!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b177",
@@ -4699,7 +6368,8 @@
           "sourceLine": null,
           "text": " Alfie added."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b178",
@@ -4724,7 +6394,8 @@
           "sourceLine": 1098,
           "text": "\"Did you all run into Redactors?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b179",
@@ -4749,7 +6420,8 @@
           "sourceLine": null,
           "text": " Pierre confirmed."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b180",
@@ -4781,6 +6453,157 @@
           "speakerName": "Pierre",
           "sourceLine": 1100,
           "text": "\"I would not have thought Redactors would be on the scene that quick.\""
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b157_alt1",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"I believe that is a North Carolina Velociraptor,\" Professor Dravin replied solemnly, eyeing the peculiar exhibit. Seizing the quiet lull beneath the wailing alarms, Pierre operated the auxiliary claw controls to hoist an ancient glass vitrine, salvaging an authentic Spartan hoplite bronze cuirass and war javelin, while Dravin strapped on the heavy bronze hoplite shield.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt1_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 991,
+          "text": "\"I believe that is a North Carolina Velociraptor,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt1_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Professor Dravin replied solemnly, eyeing the peculiar exhibit. Seizing the quiet lull beneath the wailing alarms, Pierre operated the auxiliary claw controls to hoist an ancient glass vitrine, salvaging an authentic Spartan hoplite bronze cuirass and war javelin, while Dravin strapped on the heavy bronze hoplite shield."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b157_alt2",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"Went to the North Carolina World History Museum, and all I got was this hat made for a stuffed animal,\" Alfie grumbled, adjusting his green-and-gold souvenir brim.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1018,
+          "text": "\"Went to the North Carolina World History Museum, and all I got was this hat made for a stuffed animal,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie grumbled, adjusting his green-and-gold souvenir brim."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b157_alt3",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "narrator",
+      "text": "Sirens began to wail across downtown Raleigh as police cruisers responded to the museum alarm. Ducking through the rear service portal into the storage room, Dravin pulled open the rusted door leading into the swirling gray ether of the Lost Roads. Navigating the non-Euclidean fog with steady instincts, the company traced their returning steps through the mist until the cold ether dissolved into the familiar scent of pine and the warm lantern-light of the Marigold Inn.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt3_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Sirens began to wail across downtown Raleigh as police cruisers responded to the museum alarm. Ducking through the rear service portal into the storage room, Dravin pulled open the rusted door leading into the swirling gray ether of the Lost Roads. Navigating the non-Euclidean fog with steady instincts, the company traced their returning steps through the mist until the cold ether dissolved into the familiar scent of pine and the warm lantern-light of the Marigold Inn."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b157_alt4",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "mike",
+      "text": "By the crackling common room hearth, Mike looked up from his steaming mug with a welcoming grin. \"Well, what's up? Looks like you guys had a successful run.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "By the crackling common room hearth, Mike looked up from his steaming mug with a welcoming grin. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt4_s02",
+          "type": "dialogue",
+          "speakerId": "mike",
+          "speakerName": "Mike",
+          "sourceLine": 1088,
+          "text": "\"Well, what's up? Looks like you guys had a successful run.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b157_alt5",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"We found a particle of ancient stone,\" Pierre reported proudly, showing off the fragment alongside their salvaged Spartan armor. \"And we gave them fresh bread in exchange, so I think we deserved credit!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt5_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1091,
+          "text": "\"We found a particle of ancient stone,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt5_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre reported proudly, showing off the fragment alongside their salvaged Spartan armor. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt5_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1091,
+          "text": "\"And we gave them fresh bread in exchange, so I think we deserved credit!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b157_alt6",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "mike",
+      "text": "Mike's brow furrowed in grave concern upon learning of the encounter: \"I would not have thought Redactors would be on the scene that fast.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Mike's brow furrowed in grave concern upon learning of the encounter: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt6_s02",
+          "type": "dialogue",
+          "speakerId": "mike",
+          "speakerName": "Mike",
+          "sourceLine": 1098,
+          "text": "\"I would not have thought Redactors would be on the scene that fast.\""
         }
       ]
     },
@@ -4839,7 +6662,8 @@
           "sourceLine": 1101,
           "text": "\"Wait... did you loot full Spartan armor from the museum?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b182",
@@ -4872,7 +6696,8 @@
           "sourceLine": 1111,
           "text": "\"They threw bombs at us! It was being threatened by American Gorgons with pneumatic sidearms! They all had the exact same name and were like Walmart versions of my cousins\u2014they could not even keep someone stoned for more than two minutes!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b183",
@@ -4897,7 +6722,8 @@
           "sourceLine": 1115,
           "text": "\"What was the name? I don't know if we've ever seen that pass by before. We've had sightings around the margins of little devilish imp creatures\u2014the Satans, the goats and imps\u2014and Living Ink, which we had never heard of before. But Gorgons? You saw a vision?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b184",
@@ -4938,7 +6764,8 @@
           "sourceLine": 1116,
           "text": "\"It is okay. Maybe after a drink or something. Alfie had to relive a very traumatic moment.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b185",
@@ -4971,7 +6798,8 @@
           "sourceLine": 1119,
           "text": "\"I can wait. That's fine.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b186",
@@ -4996,7 +6824,8 @@
           "sourceLine": null,
           "text": " Alfie asked quietly."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b187",
@@ -5021,7 +6850,8 @@
           "sourceLine": 1122,
           "text": "\"We've got rum! I'll put it right in the pancakes!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b188",
@@ -5046,7 +6876,8 @@
           "sourceLine": 1123,
           "text": "\"Ah! This is why you have made a mistake! You need to adjust the temperature if you are going to use alcohol in cooking!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b189",
@@ -5071,7 +6902,8 @@
           "sourceLine": null,
           "text": " Alfie said with a faint, recovering smile."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b190",
@@ -5112,7 +6944,8 @@
           "sourceLine": 1129,
           "text": "\"It's gone. Another timeline anchor struck through.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b191",
@@ -5145,7 +6978,8 @@
           "sourceLine": 1132,
           "text": "\"Can we feel its resonance?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b192",
@@ -5178,7 +7012,8 @@
           "sourceLine": 1133,
           "text": "\"No one recognized her, and the news has no idea what to make of it.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b193",
@@ -5211,7 +7046,8 @@
           "sourceLine": 1136,
           "text": "\"Is public perception splitting?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b194",
@@ -5244,7 +7080,8 @@
           "sourceLine": 1139,
           "text": "\"An infamous relic theft like that should have stirred up viral coverage, but the public seems to have moved on already, as if memory is being actively dampened.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b195",
@@ -5269,7 +7106,8 @@
           "sourceLine": null,
           "text": " Pierre pressed."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b196",
@@ -5294,7 +7132,8 @@
           "sourceLine": null,
           "text": " Naomi said."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b197",
@@ -5327,7 +7166,8 @@
           "sourceLine": 1147,
           "text": "\"I thought I was going to be famous on American television! How else do you make Hollywood? Why else would my mother send me to America?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b198",
@@ -5360,7 +7200,8 @@
           "sourceLine": 1150,
           "text": "\"Your mother might be a dance mom, but this is a covert timeline recovery, not a reality show.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b199",
@@ -5385,7 +7226,8 @@
           "sourceLine": null,
           "text": " Pierre demanded."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b200",
@@ -5418,7 +7260,8 @@
           "sourceLine": null,
           "text": " she reported. The video was strangely distorted: dark shadowy orbs and light smears obscured the Gorgons' faces. Whenever the party appeared, they looked like blurry pedestrians turned away from the camera, and the footage skipped abruptly past the moment Dravin laid hands on her wrists."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b201",
@@ -5459,7 +7302,8 @@
           "sourceLine": null,
           "text": " Just then, a single comment popped up on the post: *The NC MONA WHM was legendary. Fire emoji. Fire emoji.*"
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b202",
@@ -5484,7 +7328,8 @@
           "sourceLine": null,
           "text": " Pierre laughed, reading the acronym."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b203",
@@ -5516,6 +7361,172 @@
           "speakerName": "Alfie",
           "sourceLine": 1180,
           "text": "\"The Fates haven't scrubbed the internet yet, but we need to move on our next objective before the Redactors trace the thread back through the Lost Roads.\""
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b181_alt1",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Naomi hurried down the wooden stairs laden with ledgers and maps, stopping dead at the sight of Pierre in a bronzed Spartan cuirass and Dravin bearing an ancient hoplite shield. \"Did you touch the tablet? Wait... did you loot full Spartan armor from the museum?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b181_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Naomi hurried down the wooden stairs laden with ledgers and maps, stopping dead at the sight of Pierre in a bronzed Spartan cuirass and Dravin bearing an ancient hoplite shield. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt1_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1101,
+          "text": "\"Did you touch the tablet? Wait... did you loot full Spartan armor from the museum?\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b181_alt2",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"We liberated cultural heritage from American Walmart Gorgons who could not keep someone stoned for two minutes,\" Pierre declared with grave French dignity. Seeing Alfie trembling quietly on the wooden bench, Pierre stepped in protectively: \"Alfie had to relive a very traumatic memory on that stone. He does not have to talk about it until he is ready.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b181_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1111,
+          "text": "\"We liberated cultural heritage from American Walmart Gorgons who could not keep someone stoned for two minutes,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre declared with grave French dignity. Seeing Alfie trembling quietly on the wooden bench, Pierre stepped in protectively: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt2_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1111,
+          "text": "\"Alfie had to relive a very traumatic memory on that stone. He does not have to talk about it until he is ready.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b181_alt3",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"You got any rum?\" Alfie asked softly.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b181_alt3_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1121,
+          "text": "\"You got any rum?\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt3_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie asked softly."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b181_alt4",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"We've got rum!\" Mike beamed, poking his head out from the kitchen doorway. \"I'll put it right in the pancakes!\" Pierre gasped in culinary terror, warning Mike about cooking temperatures while Alfie cracked a faint, recovering smile.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b181_alt4_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1122,
+          "text": "\"We've got rum!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt4_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Mike beamed, poking his head out from the kitchen doorway. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt4_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1122,
+          "text": "\"I'll put it right in the pancakes!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt4_s04",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre gasped in culinary terror, warning Mike about cooking temperatures while Alfie cracked a faint, recovering smile."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b181_alt5",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "Naomi opened her dispatch binder, reporting that a woman with braided hair had just stolen an ancient catapult from a UK pawn shop with an electric shock handshake. Checking Nincy's social media feed on her phone, Naomi showed them the viral post: the video was warped by shadowy blurs that masked the Gorgons' faces and skipped over Dravin's healing glow. \"For now, the timeline anomaly is masked,\" Naomi noted. \"The Fates haven't scrubbed the net yet, but we must move on our next objective before Redactors trace us through the Lost Roads.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b181_alt5_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Naomi opened her dispatch binder, reporting that a woman with braided hair had just stolen an ancient catapult from a UK pawn shop with an electric shock handshake. Checking Nincy's social media feed on her phone, Naomi showed them the viral post: the video was warped by shadowy blurs that masked the Gorgons' faces and skipped over Dravin's healing glow. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt5_s02",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 1129,
+          "text": "\"For now, the timeline anomaly is masked,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt5_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Naomi noted. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b181_alt5_s04",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 1129,
+          "text": "\"The Fates haven't scrubbed the net yet, but we must move on our next objective before Redactors trace us through the Lost Roads.\""
         }
       ]
     },
@@ -5558,7 +7569,8 @@
           "sourceLine": 1181,
           "text": "\"High views, but people are just scrolling past it.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b205",
@@ -5583,7 +7595,8 @@
           "sourceLine": 1184,
           "text": "\"The stolen catapult in the UK is a dead end. That leaves us with two active leads: the flight hijacking that never happened, or the Mad Doctor tour. What do you think?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b206",
@@ -5608,7 +7621,8 @@
           "sourceLine": null,
           "text": " Alfie asked, leaning forward on the tabletop."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b207",
@@ -5641,7 +7655,8 @@
           "sourceLine": 1187,
           "text": "\"One camp claims the doctor was a hero who cured impossible afflictions; the other claims he was a butcher who killed dozens of patients. The journalist is currently touring college campuses through West Virginia.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b208",
@@ -5674,7 +7689,8 @@
           "sourceLine": 1194,
           "text": "\"It's a more natural wilderness path that can bring you out right near the campus tour stops.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b209",
@@ -5699,7 +7715,8 @@
           "sourceLine": null,
           "text": " Dravin observed thoughtfully."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b210",
@@ -5740,7 +7757,8 @@
           "sourceLine": null,
           "text": " Pierre listened to the sample audio clips, finding the airplane ambient sounds terribly dull and demanding to hear about the rogue physician instead."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b211",
@@ -5773,7 +7791,8 @@
           "sourceLine": null,
           "text": " Alfie agreed with a wide grin."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b212",
@@ -5806,7 +7825,8 @@
           "sourceLine": 1214,
           "text": "\"It sounds way more French!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b213",
@@ -5831,7 +7851,8 @@
           "sourceLine": null,
           "text": " Dravin decided firmly."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b214",
@@ -5856,7 +7877,8 @@
           "sourceLine": null,
           "text": " the group agreed, settling upon their next expedition. The schedule would be verified to track down the journalist's next campus appearance."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b215",
@@ -5881,7 +7903,8 @@
           "sourceLine": 1219,
           "text": "\"Naomi, who's your best artificer here?\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b216",
@@ -5906,7 +7929,8 @@
           "sourceLine": null,
           "text": " Pierre added with dramatic theatricality."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b217",
@@ -5931,7 +7955,8 @@
           "sourceLine": null,
           "text": " Dravin continued."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b218",
@@ -5964,7 +7989,8 @@
           "sourceLine": 1223,
           "text": "\"She has an innate sense for classical relics. She'll inspect everything you stole.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b219",
@@ -5997,7 +8023,8 @@
           "sourceLine": 1224,
           "text": "\"I didn't steal it!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b220",
@@ -6030,7 +8057,8 @@
           "sourceLine": 1227,
           "text": "\"Though it's shocking you found something in your exact size.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b221",
@@ -6055,7 +8083,8 @@
           "sourceLine": 1233,
           "text": "\"I like to think that all historical artifacts in museums were stolen at one point in history anyway.\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b222",
@@ -6080,7 +8109,8 @@
           "sourceLine": null,
           "text": " Pierre agreed heartily."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b223",
@@ -6105,7 +8135,8 @@
           "sourceLine": null,
           "text": " Dravin concluded."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b224",
@@ -6146,7 +8177,8 @@
           "sourceLine": null,
           "text": " Returning ancient Greek weapons to demigods in the Margin was practically a restoration of destiny."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b225",
@@ -6179,7 +8211,8 @@
           "sourceLine": 1240,
           "text": "\"and what happens in Vegas stays in Vegas! You made the mistake of showing us that you are invisible to the mortal eye. You have nothing but yourself to blame!\""
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b226",
@@ -6204,7 +8237,8 @@
           "sourceLine": null,
           "text": " Naomi noted with a wry smile."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b227",
@@ -6229,7 +8263,8 @@
           "sourceLine": null,
           "text": " Pierre declared happily."
         }
-      ]
+      ],
+      "cut": "tabletop"
     },
     {
       "id": "uneraseable_s04_b228",
@@ -6253,6 +8288,197 @@
           "speakerName": "Narrator",
           "sourceLine": null,
           "text": " Naomi agreed as the travelers settled into their chairs. The fire crackled warmly in the stone hearth. With the Raleigh artifact stabilized and their path set toward the Forgotten Trail, the company rested, ready for the strange road ahead."
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b204_alt1",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "naomi",
+      "text": "Naomi laid out two bulky project binders on the oak table: \"The stolen catapult in the UK is a dead end. That leaves us with two active leads: an airline hijacking that never appeared in news records, or a controversial investigative tour surrounding a mysterious Mad Doctor in West Virginia.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b204_alt1_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Naomi laid out two bulky project binders on the oak table: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt1_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1181,
+          "text": "\"The stolen catapult in the UK is a dead end. That leaves us with two active leads: an airline hijacking that never appeared in news records, or a controversial investigative tour surrounding a mysterious Mad Doctor in West Virginia.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b204_alt2",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"What was the doctor again?\" Alfie asked, leaning forward on the tabletop.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b204_alt2_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1185,
+          "text": "\"What was the doctor again?\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt2_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie asked, leaning forward on the tabletop."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b204_alt3",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"The hijacking sounds very sensitive, but the Mad Doctor murder mystery\u2014two women drinking wine talking about true crime\u2014sounds way more French!\" Pierre argued passionately. The party unanimously agreed, setting their course along the Forgotten Trail through the Lost Roads.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b204_alt3_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1194,
+          "text": "\"The hijacking sounds very sensitive, but the Mad Doctor murder mystery\u2014two women drinking wine talking about true crime\u2014sounds way more French!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt3_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre argued passionately. The party unanimously agreed, setting their course along the Forgotten Trail through the Lost Roads."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b204_alt4",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. \"And I would like my new javelin turned into a Zeus thunderbolt, please!\" Pierre added with theatrical flair. When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: \"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b204_alt4_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt4_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1219,
+          "text": "\"And I would like my new javelin turned into a Zeus thunderbolt, please!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt4_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre added with theatrical flair. When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt4_s04",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1219,
+          "text": "\"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b204_alt5",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"This hat was dropped on the floor!\" Alfie protested defensively. \"I didn't steal it!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b204_alt5_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1224,
+          "text": "\"This hat was dropped on the floor!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt5_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie protested defensively. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt5_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1224,
+          "text": "\"I didn't steal it!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b204_alt6",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "\"Putting it back to its original use!\" Pierre beamed. \"And besides, what happens in Vegas stays in Vegas!\" Gathering around the crackling hearth with their next destination locked, the company rested in the haven of the Margin, ready for the strange road ahead.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b204_alt6_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1236,
+          "text": "\"Putting it back to its original use!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt6_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre beamed. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt6_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1236,
+          "text": "\"And besides, what happens in Vegas stays in Vegas!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b204_alt6_s04",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Gathering around the crackling hearth with their next destination locked, the company rested in the haven of the Margin, ready for the strange road ahead."
         }
       ]
     }
