@@ -145,6 +145,22 @@ Our pipeline hardened through resolving real-world failures tracked in [`CRITIQU
   - Replaced speculative gates with the lean, deterministic 3-gate verifier (`verify_alternate_scene.py`).
   - Expanded test suite to 12 unit tests passing 100% in 0.024s.
 
+### 6. Third-Person Player Intent Leaking into Spoken Dialogue (Session 4)
+* **Reference:** [`CRITIQUE_LOG.md: PR Record #004`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L20-L28)
+* **Failure Mode:** Players narrate their character's emotions, theories, or mechanical actions in the 3rd person at the table (e.g., Sophie: *"Alfie is absolutely shook to his wooden core"* [L0390]; Luke: *"Pierre believes all Gorgons are essentially French..."* [L0459]). Drafting models wrapped these descriptions in quotation marks as spoken dialogue, resulting in characters bizarrely narrating their own internal state in the 3rd person.
+* **Remediation & Permanent Gate:**
+  - Enforced the **3rd-Person Table Intent vs. In-World Spoken Dialogue Barrier**: Player 3rd-person narrations must be novelized as Narrator Prose / physical blocking, strictly reserving quotation marks (`"..."`) for 1st/2nd-person in-world utterances.
+  - Added 3rd-person self-reference pattern linter to `critique_prose.py`.
+
+### 7. Multi-Speaker Paragraph Fusion & Dialogue Color Monopoly (Session 3 & Session 4)
+* **References:**
+  - *Curator Dialogue Bleed:* [`CRITIQUE_LOG.md: PR Record #005`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L20-L28)
+  - *Alfie / Pierre Action-Dialogue Fusion:* [`CRITIQUE_LOG.md: PR Record #004`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L26-L28)
+* **Failure Mode:** Bundling multiple character actions or lines into a single paragraph (e.g., Alfie's *Mage Hand* pot drop followed by Pierre's attendant dialogue; Alfie trying on a souvenir trucker hat followed by Pierre's dragon inquiry) causes the manifest builder to assign the whole block to a single speaker. On the Web Reader and ElevenLabs TTS, this turns Alfie's action into Pierre's blue speech bubble or voice.
+* **Remediation & Permanent Gate:**
+  - Enforced the **One Speaker Turn Per Paragraph Invariant**: Every change in speaking character or character action focus requires its own dedicated markdown paragraph.
+  - Upgraded [`generate_web_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/generate_web_manifest.py) with granular segment parsing and alias fallback mappings for NPCs (`attendant`, `fates`, `nincy`).
+
 ---
 
 ## 🎯 Downstream Artifact Contracts

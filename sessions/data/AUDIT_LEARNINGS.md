@@ -15,6 +15,11 @@ This document is the persistent, canonical registry of all novelization pipeline
 | **FP-05** | Ledger Creation | **Canon Dialogue Smuggling via OOC Skips** | S1: Marked in-character Pierre & Eusacles dialogue as `(ooc)` skips to avoid rendering difficult dialogue. | Dropped canon dialogue audit in `audit_semantic_grounding.py`: Flags `(ooc)` skips with >= 8 non-stopword content words. | Distinguish true OOC (`(banter)`, `(rules)`, `(mechanics)`) from canon dialogue (`(compressed)`). |
 | **FP-06** | Drafting | **Over-Compression & Micro-Paragraph Choppiness** | S3: Compressed Pierre and Alfie's 30-turn planning dialogue into two dry 1-sentence paragraphs. | Style linter checks paragraph cadence and consecutive repetitive subject starts (*"Pierre examined... Pierre examined..."*). | Expand character deduction and tactical planning with dialogue turns and physical blocking. |
 | **FP-07** | Drafting | **Dialogue Bluff Flattening** | S3: Compressed Pierre's extended French intern comedic bluff into a single unadorned dialogue line. | Pacing & dialogue density scanner; feedback ledger review. | Preserve the humor, personality quirks, and character beats of social interaction turns. |
+| **FP-08** | Clean -> Draft | **3rd-Person Player Intent Leaking into Spoken Dialogue** | S4: Sophie's table description (*"Alfie is shook to his wooden core"*) quoted as Alfie's dialogue; Luke's Gorgon theory quoted as Pierre's line. | `critique_prose.py` 3rd-person self-reference regex scanner (`"<Name> is...", "<Name> feels..."` inside quotes). | 3rd-person table descriptions must be novelized as Narrator Prose / physical action, never placed inside dialogue quotes. |
+| **FP-09** | Drafting -> Manifest | **Multi-Speaker Paragraph Fusion & Color Bleed** | S4: Alfie's Mage Hand pot drop fused into Pierre's dialogue block; Pierre asking about dragons fused into Alfie's trucker hat block. | Paragraph-level multi-speaker detector; `generate_web_manifest.py` single-speaker bubble monopoly check. | One Speaker Turn Per Paragraph Invariant: Every character dialogue turn or distinct character focus requires its own paragraph. |
+| **FP-10** | Audio -> STT / Clean | **Phonetic Transcription Corruption & Accent Drift** | S1: French "Pair-ey" transcribed as "Brittany"; S3: Southern "Nincy" transcribed as "Nancy", breaking receptionist banter. | Dossier phonetic alias check; character introduction spelling audit. | Build explicit phonetic lookup tables in `campaign/characters/` and speaker alias maps in manifest generator. |
+| **FP-11** | Clean -> EPUB | **Chapter Architecture Fragmentation (Micro-Chaptering)** | S3: 10 individual 100-line blocks each given `## CHAPTER` headers, creating 200-word single-scene chapters. | EPUB compiler linter (`EXCESSIVE_CHAPTER_SPLIT` warning when chapters > 4 per session). | Decouple modular 100-line processing blocks from overarching thematic novel chapters (2-4 per session). |
+| **FP-12** | Raw -> Draft | **Mechanics-As-Dialogue (Anime Spell Shouts)** | S1: Characters shouting literal D&D spell names (*"Chill Touch!"*, *"Toll the Dead!"*) like battle cries. | Linter for raw mechanic names in dialogue strings without spellcraft narrative staging. | Translate table mechanics declarations into somatic gestures, atmospheric resonance, and in-world incantations. |
 
 ---
 
@@ -65,13 +70,52 @@ This document is the persistent, canonical registry of all novelization pipeline
   - Character deductions and collaborative planning should be depicted through active dialogue and physical interaction with the scene.
   - Vary sentence openings and ensure paragraphs carry rhythmic narrative momentum.
 
----
-
 ### 🛑 FP-07: Dialogue Bluff Flattening
 - **The Breakdown:** Reducing a 40-turn extended comedic social encounter (such as Pierre's first-day intern bluff) to a single dry statement loses the table's unique humor and character voice.
 - **Upstream Guardrail for Writers:**
   - Retain character mispronunciations, geographical confusions, and the antagonist NPC's vanity/pride.
   - Maintain the balance between tension and tabletop wit.
+
+---
+
+### 🛑 FP-08: 3rd-Person Player Intent Leaking into Spoken Dialogue
+- **The Breakdown:** Players at the table frequently describe their character's emotions, theories, and mechanical intents in the 3rd person (e.g., *"Alfie is absolutely shook to his wooden core,"* *"Pierre thinks Gorgons are French"*). Naive drafting agents wrapped these turns in quotation marks as in-character speech, resulting in characters bizarrely narrating their own internal state in the 3rd person like sportscasters.
+- **Upstream Guardrail for Writers:**
+  1. Distinguish 1st/2nd-person in-world spoken dialogue (`"..."`) from 3rd-person intent descriptions.
+  2. Novelize 3rd-person intent descriptions into **Narrator Prose, physiological reactions, or physical blocking** (e.g., *Alfie stood frozen, his carved cedar joints trembling beneath his coat*).
+  3. Never place `<Character Name> is...` or `<Character Name> thinks...` inside quoted speech bubbles.
+
+---
+
+### 🛑 FP-09: Multi-Speaker Paragraph Fusion & Color Monopoly
+- **The Breakdown:** Fusing multiple character actions or lines into a single paragraph (e.g., Alfie casting *Mage Hand* to drop a pot followed immediately by Pierre's attendant rescue quip) causes downstream manifest generators and TTS engines to assign the entire paragraph block to a single `speakerId`. On the web reader, this turns Alfie's action into Pierre's blue dialogue bubble.
+- **Upstream Guardrail for Writers:**
+  1. **One Speaker Turn Per Paragraph Invariant:** Every speaker transition, distinct character action focus, or NPC dialogue retort must be placed in its own dedicated markdown paragraph.
+  2. Never bundle one character's action in the same paragraph as another character's quoted dialogue.
+
+---
+
+### 🛑 FP-10: Phonetic Speech-to-Text & Regional Accent Drift
+- **The Breakdown:** Speech-to-text models (e.g., Whisper) struggle with heavy accents (French, Cockney, Southern drawl) and unfamiliar proper nouns. Examples include French *"Pair-ey"* (Paris) transcribed as *"Brittany"*, and Southern receptionist *"Nincy"* transcribed as *"Nancy"*, stripping away the humor of her spelling correction.
+- **Upstream Guardrail for Writers:**
+  1. Cross-reference character introductions in raw indexed transcripts against `campaign/characters/` dossiers.
+  2. Maintain a phonetic correction dictionary in downstream alias matchers (`generate_web_manifest.py`).
+
+---
+
+### 🛑 FP-11: Chapter Architecture Fragmentation (Micro-Chaptering)
+- **The Breakdown:** Generating an EPUB where each ~100-line processing block is titled `## CHAPTER XX` created 32 single-sentence / 200-word chapters for a 4-session book, destroying novelistic flow and reader immersion.
+- **Upstream Guardrail for Writers:**
+  1. **Decouple Processing Blocks from Novel Chapters:** Use modular blocks (`sN-scene-XX.md`) for atomic audio and context window generation, but aggregate them into **2 to 4 substantial thematic chapters** per session in the EPUB.
+  2. Use scene break ornaments (`---` / `<hr class="ornament"/>`) to demarcate scene shifts within chapters.
+
+---
+
+### 🛑 FP-12: Mechanics-As-Dialogue (Anime Spell Shouts)
+- **The Breakdown:** When players declare actions at the table (*"I cast Chill Touch!"*, *"Toll the Dead!"*), drafting models had characters shout the literal 5e spell names out loud as dialogue.
+- **Upstream Guardrail for Writers:**
+  1. Translate mechanical spell declarations into visceral sensory manifestations, necrotic chill, runic hums, and in-world Latinate/archaic incantations.
+  2. Never have a serious dramatic character scream raw D&D PHB mechanics as combat dialogue.
 
 ---
 
