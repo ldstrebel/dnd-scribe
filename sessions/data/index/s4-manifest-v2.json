@@ -17,25 +17,29 @@
       "name": "Narrator",
       "type": "narrator",
       "color": "#94a3b8",
-      "role": "Narrative Voice"
+      "role": "Narrative Voice",
+      "actor": "Luke Foreman (GM)"
     },
     "pierre": {
       "name": "Pierre",
       "type": "character",
       "color": "#3b82f6",
-      "role": "French Student \u00b7 Gorgon Bloodline"
+      "role": "French Student \u00b7 Gorgon Bloodline",
+      "actor": "Luke S"
     },
     "dravin": {
       "name": "Prof. Edward Dravin",
       "type": "character",
       "color": "#8b5cf6",
-      "role": "Stanford Historian \u00b7 Necromancer"
+      "role": "Stanford Historian \u00b7 Necromancer",
+      "actor": "William Webb"
     },
     "alfie": {
       "name": "Alfie",
       "type": "character",
       "color": "#10b981",
-      "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
+      "role": "Driftwood Duelist \u00b7 Wordcraft Mage",
+      "actor": "Sophie Foreman Noone"
     }
   },
   "stats": {
@@ -577,10 +581,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b017_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 172,
           "text": "Dravin took cover behind the base of the glass display claw, his university tweed rustling against the metal housing as he shouted a warning."
         }
       ],
@@ -791,10 +795,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b024_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 193,
           "text": "Rummaging through the archaeology cart's lower tool shelf, Pierre pushed past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord."
         }
       ],
@@ -809,10 +813,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b025_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 199,
           "text": "With quick, deft loops, Pierre fastened the heavy rubberized cable securely around the sturdy twine waistline of Alfie's coat. He scooped the driftwood doll up into his arms and dropped into a low crouch behind a wooden shipping crate, out of the Gorgons' direct line of fire."
         }
       ],
@@ -1056,10 +1060,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b001_alt6_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 172,
           "text": "From behind the metal column of the lifting rig, Professor Edward Dravin shouted a frantic warning as the klaxons began to wail."
         }
       ]
@@ -1173,10 +1177,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b030_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 216,
           "text": "In the museum lobby, Nincy screamed as the calcifying gray crust raced from her knuckles up her wrists, locking her fingers tightly around her phone rig. Around her, tourists and desk attendants panicked, fleeing in every direction as security alarms began to shriek."
         }
       ],
@@ -1285,10 +1289,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b034_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 224,
           "text": "Pierre peered around the corner of the packing crate, watching Dravin's desperate charge. A thought struck him, and he wondered aloud whether Dravin actually knew he was casting divine spells, or if his academic research was simply manifesting into magical effects."
         }
       ],
@@ -1615,10 +1619,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b030_alt1_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 216,
           "text": "A high-pitched scream cut through the blaring alarms as black calcification struck Nincy's wrists, locking her fingers around her phone rig."
         }
       ]
@@ -2177,10 +2181,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b060_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 390,
           "text": "Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all."
         }
       ],
@@ -2789,10 +2793,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b073_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 459,
           "text": "In Pierre's mind, all Gorgons were fundamentally the same\u2014and every Gorgon he had ever met was French. And if there was one thing Frenchmen could never resist, it was a crusty, fresh-baked baguette. Flipping open his canvas lunch satchel, Pierre pulled out a fresh baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head."
         }
       ],
@@ -2911,10 +2915,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b078_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 490,
           "text": "Sure enough, the nearest Gordon broke into a desperate, inhumanly fast sprint, his tailored suit rustling as he bolted past Pierre to tackle the baguette. Pierre planned to pull Nincy out through the front while staring deeply at the stone, ready to duck away from any blast."
         }
       ],
@@ -2997,10 +3001,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b081_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 509,
           "text": "Rather than waving a wand, Dravin simply clasped his hands behind his back and began to lecture. In a dry, hypnotic, and utterly relentless academic drone, he dissected the morphological variations of archaic Athenian pottery. The words carried a subtle, soporific resonance that settled over the Gordon's serpentine crown."
         }
       ],
@@ -3149,10 +3153,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b070_alt3_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 451,
           "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic."
         }
       ]
@@ -3216,10 +3220,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b070_alt6_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 490,
           "text": "Sure enough, the nearest Gordon broke into a desperate, inhumanly fast sprint, tearing past Pierre to tackle the flying loaf into an empty alcove."
         }
       ]
@@ -3266,10 +3270,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b084_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 552,
           "text": "Dravin stepped back from the unconscious Gordon sprawled across the floor, adjusting his spectacles."
         }
       ],
@@ -3562,10 +3566,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b096_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 598,
           "text": "Alfie dashed toward the portal. The exit door leading to the parking lot had been welded shut by an inky, hardened residue along the frame, but right beside it was a metal staircase marked with an illuminated sign: *ROOF ACCESS*."
         }
       ],
@@ -3736,10 +3740,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b103_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 620,
           "text": "Pierre watched Alfie's orange cable disappear into the stairwell, but his curiosity pulled him in the opposite direction. Near the raised glass case, the civilian attendant who had been struck by the first Gorgon's shot was turning rapidly to stone. Pierre ran over to investigate her condition."
         }
       ],
@@ -3876,10 +3880,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b109_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 660,
           "text": "And then Pierre was running."
         }
       ],
@@ -4359,10 +4363,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b120_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 730,
           "text": "From the stairwell landing above, Alfie peered through the banisters at the base landing."
         }
       ],
@@ -4666,10 +4670,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b127_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 771,
           "text": "Pierre grabbed the attendant's arm, guiding her around the perimeter of the vitrine toward the stairwell where Alfie waited."
         }
       ],
@@ -5020,10 +5024,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b140_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 879,
           "text": "Across the gallery, Dravin reached into his heavy tweed coat, preparing his next incantation. To focus his radiant spellcraft, he drew forth a massive, solid steel security guard flashlight, aiming its polished lens straight toward the mesmerized Gorgon."
         }
       ],
@@ -5187,10 +5191,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b141_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 881,
           "text": "Dravin thumbed the switch on his heavy security guard flashlight. A blinding beam of pure radiant energy erupted from the lens, engulfing the glazed operative in a searing halo of divine brilliance\u2014a focused *Guiding Bolt* that spotlighted the enemy as a luminous target."
         }
       ],
@@ -5301,10 +5305,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b146_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 925,
           "text": "He held the vial close to his temple to test its resonance. Instantly, his beret gave an agitated flutter and hiss as the curls beneath twisted violently, his concealed serpent coils reacting to the volatile brew."
         }
       ],
@@ -5405,10 +5409,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b150_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 958,
           "text": "With a resounding *CRACK*, Dravin brought the solid metal butt of the flashlight squarely across the glazed Gorgon's jaw. The critical blow dropped Gordon like a sack of grain, sending him crashing onto the linoleum."
         }
       ],
@@ -5677,10 +5681,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b141_alt3_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 947,
           "text": "Stepping in close, Professor Edward Dravin reversed his grip on the solid steel flashlight. With a resounding *CRACK*, Dravin brought the metal butt squarely across Gordon's jaw, dropping the operative cold onto the linoleum. Grabbing the collar of the sleeping Redactor, Dravin hauled him across the floor and shoved him into the acid puddle, dissolving the slumbering threat into harmless black vapor."
         }
       ]
@@ -5863,10 +5867,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b160_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1005,
           "text": "Pierre hurried over to the auxiliary claw controls, deftly maneuvering the steel pincers across the gallery to hoist the heavy glass vitrine, scooping up a bronzed breastplate and greaves."
         }
       ],
@@ -5881,10 +5885,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b161_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1009,
           "text": "Alfie adjusted his souvenir cap over his wooden ears, turning around only to discover that while Pierre and the Professor were eyeing museum-grade ancient armaments, he had spent the entire heist standing in the museum gift shop."
         }
       ],
@@ -5899,10 +5903,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s04_b162_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1012,
           "text": "Dravin proudly claimed the ancient hoplite shield for himself, while Pierre scooped up an authentic bronze war javelin."
         }
       ],

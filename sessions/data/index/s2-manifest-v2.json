@@ -17,31 +17,36 @@
       "name": "Narrator",
       "type": "narrator",
       "color": "#94a3b8",
-      "role": "Narrative Voice"
+      "role": "Narrative Voice",
+      "actor": "Luke Foreman (GM)"
     },
     "pierre": {
       "name": "Pierre",
       "type": "character",
       "color": "#3b82f6",
-      "role": "French Student \u00b7 Gorgon Bloodline"
+      "role": "French Student \u00b7 Gorgon Bloodline",
+      "actor": "Luke S"
     },
     "dravin": {
       "name": "Prof. Edward Dravin",
       "type": "character",
       "color": "#8b5cf6",
-      "role": "Stanford Historian \u00b7 Necromancer"
+      "role": "Stanford Historian \u00b7 Necromancer",
+      "actor": "William Webb"
     },
     "eusacles": {
       "name": "Eusacles",
       "type": "character",
       "color": "#f59e0b",
-      "role": "Vegas Gambler \u00b7 Demigod of Thanatos"
+      "role": "Vegas Gambler \u00b7 Demigod of Thanatos",
+      "actor": "John Hagey"
     },
     "alfie": {
       "name": "Alfie",
       "type": "character",
       "color": "#10b981",
-      "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
+      "role": "Driftwood Duelist \u00b7 Wordcraft Mage",
+      "actor": "Sophie Foreman Noone"
     }
   },
   "stats": {
@@ -190,10 +195,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b001_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 412,
           "text": "Outside the rotting gate of the Marigold Inn, the newcomers paused at the tree line. Carrying the little driftwood doll on his shoulder, Pierre deliberately lingered twenty feet back in the shadows."
         }
       ]
@@ -249,10 +254,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b004_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 426,
           "text": "Stopping just outside the clearing, Pierre tucked himself behind an overgrown fencepost, cautiously peering into the light while Dravin and Eusacles stepped into the open."
         }
       ]
@@ -581,10 +586,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b016_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 474,
           "text": "At the mention of divine perception, Eusacles closed his eyes and focused his divine sense across the clearing, opening his awareness to fiend and undead presences."
         }
       ]
@@ -598,10 +603,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b017_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 489,
           "text": "A sudden, breathtaking surge of clarity washed over his consciousness\u2014a sensation as pure and absolute as a natural twenty."
         }
       ]
@@ -1388,10 +1393,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b047_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 640,
           "text": "Teddy grabbed an iron fire poker from the dirt and thrust it deep into the coals, pushing the burning logs aside to send a shower of orange sparks into the canopy."
         }
       ]
@@ -2499,10 +2504,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b086_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 833,
           "text": "Inside the cabin, an older resident named Rosa was laying out handmade wool blankets on cedar cots. When she saw Alfie balanced neatly on Pierre\u2019s shoulder, her eyes softened."
         }
       ]
@@ -2769,10 +2774,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b095_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 887,
           "text": "Pierre gently and firmly swung the heavy cedar door shut on her."
         }
       ],
@@ -2993,10 +2998,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b103_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 942,
           "text": "At the inn, breakfast was in full swing. Pierre took an eager bite of his pancake and chewed for a bit, only for dry crumbs to shower down over his plate as Mike sheepishly admitted the first batch was a little burnt."
         }
       ],
@@ -3365,10 +3370,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b090_alt3_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 942,
           "text": "Up at the Marigold dining hall, breakfast proved a delightfully messy affair. Pierre dug into his towering stack with gourmet expectations, only for a shower of dry, blackened crumbs to scatter across his plate as Mike sheepishly admitted the first batch had caught too much woodsmoke on the griddle."
         }
       ]
@@ -3865,10 +3870,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b128_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1161,
           "text": "Before dawn broke over the Appalachian ridges, the party gathered behind the settlement's timber barn. Parked beside a stack of weathered firewood was an ancient, rusted green farm truck. Its paint was oxidized and chipped, but its heavy V8 engine hummed with a deep, steady rumble."
         }
       ]
@@ -3998,10 +4003,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b133_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1213,
           "text": "Pierre had also dug through the settlement's storage crates, unearthing geological maps and ancient volcanic texts that called to him."
         }
       ]
@@ -4291,10 +4296,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b146_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1299,
           "text": "Pierre eagerly dashed outside and clambered into the vehicle, only to realize he had accidentally gotten in on the driver's side."
         }
       ]
@@ -4424,10 +4429,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b151_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1321,
           "text": "Pierre turned the ignition key. The engine coughed, sputtered, and died."
         }
       ]
@@ -4999,10 +5004,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b174_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1437,
           "text": "Pierre snatched Alfie off the counter before she could hit him, but Alfie leaned forward and struck with his needle rapier, poking her hand as hard as his wooden frame could muster."
         }
       ]
@@ -5249,10 +5254,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b184_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1497,
           "text": "Pierre smiled mischievously. Messing with people was truly one of his greatest talents."
         }
       ]

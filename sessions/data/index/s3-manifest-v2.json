@@ -17,25 +17,29 @@
       "name": "Narrator",
       "type": "narrator",
       "color": "#94a3b8",
-      "role": "Narrative Voice"
+      "role": "Narrative Voice",
+      "actor": "Luke Foreman (GM)"
     },
     "pierre": {
       "name": "Pierre",
       "type": "character",
       "color": "#3b82f6",
-      "role": "French Student \u00b7 Gorgon Bloodline"
+      "role": "French Student \u00b7 Gorgon Bloodline",
+      "actor": "Luke S"
     },
     "dravin": {
       "name": "Prof. Edward Dravin",
       "type": "character",
       "color": "#8b5cf6",
-      "role": "Stanford Historian \u00b7 Necromancer"
+      "role": "Stanford Historian \u00b7 Necromancer",
+      "actor": "William Webb"
     },
     "alfie": {
       "name": "Alfie",
       "type": "character",
       "color": "#10b981",
-      "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
+      "role": "Driftwood Duelist \u00b7 Wordcraft Mage",
+      "actor": "Sophie Foreman Noone"
     }
   },
   "stats": {
@@ -560,10 +564,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b016_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 638,
           "text": "Dravin adjusted the latch so the door stayed ajar."
         }
       ]
@@ -718,10 +722,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b022_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 677,
           "text": "Pierre adjusted his beret, ready to enter the public galleries."
         }
       ]
@@ -735,10 +739,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b023_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 721,
           "text": "They passed through the glass double doors into the cool, air-conditioned atrium of the museum. Front and center in the main gallery, surrounded by velvet stanchions and informational placards, was the celebrated ancient Greek limestone tablet."
         }
       ]
@@ -1437,10 +1441,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b053_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 850,
           "text": "Desperate to break the escalating standoff, Dravin did the only logical thing a Stanford academic could do: he drew back his arm and hurled the driftwood action figure straight across the museum lobby."
         }
       ]
@@ -1679,10 +1683,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b063_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 909,
           "text": "Pierre seized his moment amidst the pandemonium. Diving low behind a velvet stanchion, he grabbed the thick wool on the belly of a charging ram\u2014a daring Odysseus maneuver\u2014and let the beast haul him swiftly past the flailing guards and straight into the research gallery."
         }
       ]
@@ -1696,10 +1700,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b064_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 918,
           "text": "Dravin watched the stampede with wicked academic delight. Quickly invoking a secondary illusion cantrip, he flicked his wrist, projecting bold black numerals across the flanks of the charging flock\u2014numbering them **1 through 19**, deliberately omitting number 14 for the classic collegiate prank."
         }
       ]
@@ -1713,10 +1717,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b065_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1053,
           "text": "While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze\u2014limp limbs and vacant coral eyes."
         }
       ]
@@ -1772,10 +1776,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b068_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1141,
           "text": "Alfie remained motionless on the display cart, perfectly executing his toy freeze."
         }
       ]
@@ -1789,10 +1793,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b069_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1169,
           "text": "Pierre could never pass a museum statue without pausing to critique its lines and craftsmanship. Admiring the marble contours, he slipped behind the carved stone pedestal."
         }
       ]
@@ -1806,10 +1810,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b070_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1175,
           "text": "Shielded by the marble plinth, Pierre shrugged off his tweed coat and draped it across his shoulders like an artist's shawl, subtly altering his silhouette."
         }
       ]
@@ -1823,10 +1827,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b071_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1179,
           "text": "To complete the disguise, Pierre flipped his beret inside out, swapping the familiar black exterior for an understated silver lining to blend seamlessly among the visiting academics."
         }
       ]
@@ -1840,10 +1844,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b072_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1319,
           "text": "In his white lab coat, Pierre wheeled a utility cart toward the preservation prep room, confident he could replicate the limestone carving style of the Aegean statues to create a convincing artifact."
         }
       ]
@@ -2073,10 +2077,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b081_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1462,
           "text": "Pierre placed the limestone fragment and Alfie onto a documentation tray."
         }
       ]
@@ -2090,10 +2094,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b082_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1480,
           "text": "He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy."
         }
       ]
@@ -2507,10 +2511,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s03_b099_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1656,
           "text": "Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence."
         }
       ]

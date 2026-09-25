@@ -129,27 +129,6 @@ CHARACTER_REGISTRY = {
     }
 }
 
-SPEAKER_ALIASES = {
-    "pierre": ["pierre", "french student", "bonsoir", "merci beaucoup"],
-    "dravin": ["dravin", "edward", "professor", "necromancer"],
-    "eusacles": ["eusacles", "ukules", "gambler", "thanatos"],
-    "alfie": ["alfie", "the doll", "driftwood", "miniature duel", "cockney", "cockney voice", "four feet below", "thanks, mate", "needle rapier", "mate", "wooden hand", "wooden chest"],
-    "ally": ["ally", "maiden", "persephone", "maiden of persephone"],
-    "theodore": ["theodore", "teddy", "bartender", "welcome to the margin", "what edit killed you"],
-    "naomi": ["naomi", "scout", "researcher"],
-    "rosa": ["rosa"],
-    "mike": ["mike", "driver", "cab of the truck"],
-    "fates": ["fates", "clotho", "lachesis", "atropos", "three sisters", "eldest", "second", "third", "first", "the first", "weavers", "millstones"],
-    "clerk": ["clerk", "attendant"],
-    "thomas": ["thomas", "security guard", "guard's keycard", "dropped clipboard", "officer"],
-    "nincy": ["nincy", "nancy", "nanci", "receptionist", "desk clerk"],
-    "beast": ["beast", "sphinx", "it rasped", "purred", "shadow beast", "creature", "come with us through the rift"],
-    "anchor": ["news anchor", "anchor", "radio", "monotone voice", "field reporter"],
-    "passenger": ["someone shouted", "passenger", "passengers"],
-    "gordon": ["gordon", "gorgon", "serpent operative", "serpentine crown"],
-    "attendant": ["attendant", "curator", "docent"]
-}
-
 # Character and Player Ground-Truth Map
 CHARACTER_MAP = {
     "pierre": "pierre",
@@ -238,15 +217,18 @@ def resolve_block_speaker(source_line: int, raw_speakers: dict, has_quote: bool)
     return "narrator"
 
 def decompose_block_to_web_segments(block_id: str, text: str, source_line: int, char_registry: dict, raw_speakers: dict) -> list:
-    """Decompose block into narration and dialogue segments based on origin-time indexing (Zero Regex Guessing)."""
+    """Decompose block into narration, action, and dialogue segments based on origin-time indexing (Zero Regex Guessing)."""
     matches = list(re.finditer(r'["“]([^"”]+)["”]', text))
     if not matches:
+        is_action = bool(source_line and source_line in raw_speakers and raw_speakers[source_line] != "narrator")
+        spk_id = raw_speakers[source_line] if is_action else "narrator"
+        spk_name = char_registry.get(spk_id, {}).get("name", "Narrator")
         return [{
             "segmentId": f"{block_id}_s01",
-            "type": "narration",
-            "speakerId": "narrator",
-            "speakerName": "Narrator",
-            "sourceLine": None,
+            "type": "action" if is_action else "narration",
+            "speakerId": spk_id,
+            "speakerName": spk_name,
+            "sourceLine": source_line if is_action else None,
             "text": text
         }]
 
@@ -491,13 +473,38 @@ def generate_session_v2_manifest(session_num):
     variance = sum((l - mean_s_len) ** 2 for l in sentence_lengths) / len(sentence_lengths) if sentence_lengths else 0.0
     pacing_std_dev = round(math.sqrt(variance), 1)
     
+    # Load session config for actor mapping
+    cfg_path = os.path.join(root_dir, "sessions", "config", f"s{session_num}-session-config.json")
+    actor_map = {}
+    gm_name = "Luke Foreman (GM)"
+    if os.path.exists(cfg_path):
+        try:
+            with open(cfg_path, "r", encoding="utf-8") as cf:
+                cfg = json.load(cf)
+                gm_data = cfg.get("game_master", cfg.get("gm", {}))
+                if isinstance(gm_data, dict):
+                    gm_name = gm_data.get("identity", gm_data.get("person", "Luke Foreman (GM)"))
+                elif isinstance(gm_data, str):
+                    gm_name = gm_data
+                for person, char_name in cfg.get("players", {}).items():
+                    char_lower = char_name.lower()
+                    for k in CHARACTER_REGISTRY:
+                        if k in char_lower:
+                            actor_map[k] = person
+        except Exception:
+            pass
+
     # Speaker Distribution
     speaker_dist = []
     active_characters = {}
     for spk_id, count in speaker_word_counts.items():
         if count > 0 and spk_id in CHARACTER_REGISTRY:
             pct = round((count / total_words) * 100, 1)
-            reg = CHARACTER_REGISTRY[spk_id]
+            reg = dict(CHARACTER_REGISTRY[spk_id])
+            if spk_id in actor_map:
+                reg["actor"] = actor_map[spk_id]
+            elif reg.get("type") in ["npc", "narrator"]:
+                reg["actor"] = gm_name
             speaker_dist.append({
                 "id": spk_id,
                 "name": reg["name"],

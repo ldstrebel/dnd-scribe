@@ -17,43 +17,50 @@
       "name": "Narrator",
       "type": "narrator",
       "color": "#94a3b8",
-      "role": "Narrative Voice"
+      "role": "Narrative Voice",
+      "actor": "Luke Foreman"
     },
     "pierre": {
       "name": "Pierre",
       "type": "character",
       "color": "#3b82f6",
-      "role": "French Student \u00b7 Gorgon Bloodline"
+      "role": "French Student \u00b7 Gorgon Bloodline",
+      "actor": "Luke S"
     },
     "dravin": {
       "name": "Prof. Edward Dravin",
       "type": "character",
       "color": "#8b5cf6",
-      "role": "Stanford Historian \u00b7 Necromancer"
+      "role": "Stanford Historian \u00b7 Necromancer",
+      "actor": "William Webb"
     },
     "eusacles": {
       "name": "Eusacles",
       "type": "character",
       "color": "#f59e0b",
-      "role": "Vegas Gambler \u00b7 Demigod of Thanatos"
+      "role": "Vegas Gambler \u00b7 Demigod of Thanatos",
+      "actor": "John Hagey"
     },
     "alfie": {
       "name": "Alfie",
       "type": "character",
       "color": "#10b981",
-      "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
+      "role": "Driftwood Duelist \u00b7 Wordcraft Mage",
+      "actor": "Sophie Foreman Noone"
     },
     "fates": {
       "name": "The Three Fates",
       "type": "npc",
       "color": "#a855f7",
-      "role": "Cosmic Loom Weavers"
+      "role": "Cosmic Loom Weavers",
+      "actor": "Luke Foreman"
     },
     "anchor": {
       "name": "News Anchor",
       "type": "npc",
       "color": "#64748b",
-      "role": "Highway Radio Broadcaster"
+      "role": "Highway Radio Broadcaster",
+      "actor": "Luke Foreman"
     }
   },
   "stats": {
@@ -274,10 +281,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b004_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "anchor",
+          "speakerName": "News Anchor",
+          "sourceLine": 960,
           "text": "Suspended from the low ceiling at the front of the aisle, a boxy CRT television flickered through static, droning out a tinny midday broadcast."
         }
       ]
@@ -694,10 +701,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b024_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 977,
           "text": "Pierre scrambled backward until his spine hit a marble pedestal, clutching his rucksack like a shield. If anyone asked, he was just a totally normal boy. Just a normal kid with glasses and a nice beret that he wore. His unruly hair was perhaps a little weird if you looked at it too long, but nobody needed to worry about that\u2014it was normal. He peered around with intense suspicion and confusion."
         }
       ]
@@ -736,10 +743,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b026_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 982,
           "text": "Glancing across the flagstones, Pierre spotted a hulking, muscular man lying nearby. Definitely not fond of the ripped guy, Pierre pointedly turned to his left."
         }
       ]
@@ -753,10 +760,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b027_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 984,
           "text": "The man on Pierre's left was already climbing to his feet, dusting off the elbows of a rumpled tweed jacket. He possessed salt-and-pepper hair, keen and inquisitive eyes behind wire-rimmed glasses, and an expression not of terror, but of scholarly ecstasy."
         }
       ]
@@ -828,10 +835,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b030_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 989,
           "text": "Across the tiles, the tall, broad-shouldered man in the fitted black tank top and dark jeans pushed himself up, rolling his shoulders and checking a heavy black wristwatch on a thick forearm. He had clearly been on his way to Las Vegas just to gamble and have a good time. He glared at the two nerds with utter disbelief."
         }
       ]
@@ -1096,10 +1103,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b042_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1006,
           "text": "Lying on the marble was a tiny figure less than a foot tall, crafted from weathered driftwood and threadbare sailcloth canvas."
         }
       ]
@@ -1113,10 +1120,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s01_b043_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1007,
           "text": "Mismatched buttons carved from polished seashells and pink coral were sewn across its chest, beneath a wild mop of dried seaweed hair. In its right hand, it gripped a sewing needle sharpened into a rapier; its left arm ended in a gleaming curved fishing hook."
         }
       ]
