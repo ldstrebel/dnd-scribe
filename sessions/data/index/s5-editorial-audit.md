@@ -75,6 +75,48 @@
 * **Luke Foreman (Game Master)** — *Give Combat Thresholds 2 Minutes of Narrative Runway*
   👉 When closing near the session time limit, avoid dropping combatants like a sudden jump-scare. Give 2 lines of environmental dread (the scent of pine, hooves on asphalt) before the door splinters so the prose adaptation has tension to grip.
 
+### 🎭 Table Report Card & Character Consistency Ledger
+
+| Participant | Role | Grade | Consistency | Spotlight Share | Ruthless Assessment |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **Luke Foreman** (Game Master) | The Architect | **`C+`** (77%) | 82% | 38% narrative staging & framing | Brilliant temporal body horror in the 1948 clinic vision, but sloppy highway pacing and a cartoonish last-minute ambush. |
+| **Luke S** (Pierre) | The Artisan | **`B+`** (88%) | 94% | 19% spoken dialogue | Delivered the campaign's sharpest comedic monologue over breakfast, then checked out into passive scenery during the heist. |
+| **William Webb** (Prof. Edward Dravin) | The Professor | **`C`** (72%) | 70% | 26% spoken dialogue | Smooth academic distraction heist, but committed the cardinal sin of pocketing a divine parentage revelation without a single roleplayed reaction. |
+| **John Hagey** (Eusacles) | The Gambler | **`A-`** (91%) | 96% | 24% spoken dialogue | MVP of the academic infiltration, but walked out of the fog with Thanatos' watch-chain and left the wager as an unpaid narrative IOU. |
+| **Sophie Foreman Noone** (Alfie) | The Rogue | **`B-`** (81%) | 86% | 13% spoken dialogue | Delivered the visceral emotional climax of the session, but spent 45 minutes of driving as passive pocket luggage. |
+
+#### Individual Participant Reviews & Coaching:
+
+* **Luke Foreman** — *Game Master & World Architect* (**Grade: C+** · 77%)
+  * **The Red-Ink Verdict:** Brilliant temporal body horror in the 1948 clinic vision, but sloppy highway pacing and a cartoonish last-minute ambush.
+  * **🌟 What Helped:** The description of the subterranean psychiatric ward, comatose milk-eyed patients, and the shifting ink from STABLE to STALE was 10/10 gothic world-building.
+  * **⚠️ What Hurt:** Allowed Scenes 4–5 to drift aimlessly along the Lost Roads without conflict or obstacle, then panicked when the session clock ran out and threw 3 satyrs through the clinic door with zero narrative runway.
+  * **🎯 Session 6 Directive:** Give combat thresholds at least 2 minutes of atmospheric build-up. In Session 6, immediately establish why the satyrs tracked the party, what their faction wants, and stop using combat encounters as arbitrary session cutoffs.
+
+* **Luke S** — *Parisian Stonemason & Skeptic* (**Grade: B+** · 88%)
+  * **The Red-Ink Verdict:** Delivered the campaign's sharpest comedic monologue over breakfast, then checked out into passive scenery during the heist.
+  * **🌟 What Helped:** The jury duty vs. French guillotine monologue in Scene 2 is pure novel gold—brilliantly grounding high-magic weirdness with Parisian contempt for bureaucracy.
+  * **⚠️ What Hurt:** Faded into the background during Scenes 4–7. Stood by passively while Dravin and Eusacles negotiated campus security and manipulated Dr. Thorne.
+  * **🎯 Session 6 Directive:** Bring your snobbery and architectural scrutiny directly into action beats. When the satyr doors splinter in Session 6, evaluate the wood, the lintels, and French defensive geometry rather than waiting for your turn.
+
+* **William Webb** — *Stanford Academic & Demigod* (**Grade: C** · 72%)
+  * **The Red-Ink Verdict:** Smooth academic distraction heist, but committed the cardinal sin of pocketing a divine parentage revelation without a single roleplayed reaction.
+  * **🌟 What Helped:** The 'visual learners' pedagogical bluff against Dr. Thorne in Scene 9 was masterful player maneuvering, weaponizing academic elitism as tactical distraction.
+  * **⚠️ What Hurt:** Received a wax-sealed letter confirming Persephone is his divine mother descending to Hades for the winter, and folded it into his tweed coat without breathing a single word of existential interiority.
+  * **🎯 Session 6 Directive:** Stop treating the Persephone letter as an archival curiosity. In Session 6, pull a party member aside at the campfire and reckon with what it means to be the mortal son of an underworld goddess.
+
+* **John Hagey** — *Blue-Collar Gambler & Cynic* (**Grade: A-** · 91%)
+  * **The Red-Ink Verdict:** MVP of the academic infiltration, but walked out of the fog with Thanatos' watch-chain and left the wager as an unpaid narrative IOU.
+  * **🌟 What Helped:** Relentlessly grilling Dr. Thorne on 1948 freon coolant, ice-box mechanics, and insulation bought crucial minutes for the heist while establishing unmatched blue-collar energy.
+  * **⚠️ What Hurt:** Exited the Margin fog with a pocket-watch chain bound to the Greek god of death, but evaded explaining what he ante'd up or who he bet against.
+  * **🎯 Session 6 Directive:** Cash in the fog wager. In Session 6, reveal to the party what you staked against Thanatos, and what debts are coming due when the dice stop rolling.
+
+* **Sophie Foreman Noone** — *Driftwood Doll & Rogue Heart* (**Grade: B-** · 81%)
+  * **The Red-Ink Verdict:** Delivered the visceral emotional climax of the session, but spent 45 minutes of driving as passive pocket luggage.
+  * **🌟 What Helped:** Her gut-wrenching dread in Scene 10 ('Not again. Not me again!') when forced to touch the temporal relic shattered the lighthearted tone and injected real human stakes.
+  * **⚠️ What Hurt:** Suffered acute 'luggage syndrome' throughout the Lost Roads highway drive, remaining completely silent and passive in Dravin's coat while the men argued.
+  * **🎯 Session 6 Directive:** Break out of the coat! Claim physical space in the environment during transition scenes—climb on car dashboards, fiddle with radios, and voice your pint-sized perspective before combat forces you into the spotlight.
+
 ---
 
 ## 📊 Scorecard Breakdown

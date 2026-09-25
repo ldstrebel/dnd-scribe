@@ -322,6 +322,88 @@
             "directive": "Give Combat Thresholds 2 Minutes of Narrative Runway",
             "actionableCoaching": "When closing near the session time limit, avoid dropping combatants like a sudden jump-scare. Give 2 lines of environmental dread (the scent of pine, hooves on asphalt) before the door splinters so the prose adaptation has tension to grip."
           }
+        ],
+        "participantScorecards": [
+          {
+            "id": "gm",
+            "name": "Luke Foreman",
+            "character": "Game Master",
+            "role": "Game Master & World Architect",
+            "badge": "The Architect",
+            "color": "#94a3b8",
+            "grade": "C+",
+            "score": 77,
+            "spotlightShare": "38% narrative staging & framing",
+            "consistencyScore": "82%",
+            "ruthlessVerdict": "Brilliant temporal body horror in the 1948 clinic vision, but sloppy highway pacing and a cartoonish last-minute ambush.",
+            "whatHelped": "The description of the subterranean psychiatric ward, comatose milk-eyed patients, and the shifting ink from STABLE to STALE was 10/10 gothic world-building.",
+            "whatHurt": "Allowed Scenes 4\u20135 to drift aimlessly along the Lost Roads without conflict or obstacle, then panicked when the session clock ran out and threw 3 satyrs through the clinic door with zero narrative runway.",
+            "nextSessionDirectives": "Give combat thresholds at least 2 minutes of atmospheric build-up. In Session 6, immediately establish why the satyrs tracked the party, what their faction wants, and stop using combat encounters as arbitrary session cutoffs."
+          },
+          {
+            "id": "pierre",
+            "name": "Luke S",
+            "character": "Pierre",
+            "role": "Parisian Stonemason & Skeptic",
+            "badge": "The Artisan",
+            "color": "#3b82f6",
+            "grade": "B+",
+            "score": 88,
+            "spotlightShare": "19% spoken dialogue",
+            "consistencyScore": "94%",
+            "ruthlessVerdict": "Delivered the campaign's sharpest comedic monologue over breakfast, then checked out into passive scenery during the heist.",
+            "whatHelped": "The jury duty vs. French guillotine monologue in Scene 2 is pure novel gold\u2014brilliantly grounding high-magic weirdness with Parisian contempt for bureaucracy.",
+            "whatHurt": "Faded into the background during Scenes 4\u20137. Stood by passively while Dravin and Eusacles negotiated campus security and manipulated Dr. Thorne.",
+            "nextSessionDirectives": "Bring your snobbery and architectural scrutiny directly into action beats. When the satyr doors splinter in Session 6, evaluate the wood, the lintels, and French defensive geometry rather than waiting for your turn."
+          },
+          {
+            "id": "dravin",
+            "name": "William Webb",
+            "character": "Prof. Edward Dravin",
+            "role": "Stanford Academic & Demigod",
+            "badge": "The Professor",
+            "color": "#8b5cf6",
+            "grade": "C",
+            "score": 72,
+            "spotlightShare": "26% spoken dialogue",
+            "consistencyScore": "70%",
+            "ruthlessVerdict": "Smooth academic distraction heist, but committed the cardinal sin of pocketing a divine parentage revelation without a single roleplayed reaction.",
+            "whatHelped": "The 'visual learners' pedagogical bluff against Dr. Thorne in Scene 9 was masterful player maneuvering, weaponizing academic elitism as tactical distraction.",
+            "whatHurt": "Received a wax-sealed letter confirming Persephone is his divine mother descending to Hades for the winter, and folded it into his tweed coat without breathing a single word of existential interiority.",
+            "nextSessionDirectives": "Stop treating the Persephone letter as an archival curiosity. In Session 6, pull a party member aside at the campfire and reckon with what it means to be the mortal son of an underworld goddess."
+          },
+          {
+            "id": "eusacles",
+            "name": "John Hagey",
+            "character": "Eusacles",
+            "role": "Blue-Collar Gambler & Cynic",
+            "badge": "The Gambler",
+            "color": "#f59e0b",
+            "grade": "A-",
+            "score": 91,
+            "spotlightShare": "24% spoken dialogue",
+            "consistencyScore": "96%",
+            "ruthlessVerdict": "MVP of the academic infiltration, but walked out of the fog with Thanatos' watch-chain and left the wager as an unpaid narrative IOU.",
+            "whatHelped": "Relentlessly grilling Dr. Thorne on 1948 freon coolant, ice-box mechanics, and insulation bought crucial minutes for the heist while establishing unmatched blue-collar energy.",
+            "whatHurt": "Exited the Margin fog with a pocket-watch chain bound to the Greek god of death, but evaded explaining what he ante'd up or who he bet against.",
+            "nextSessionDirectives": "Cash in the fog wager. In Session 6, reveal to the party what you staked against Thanatos, and what debts are coming due when the dice stop rolling."
+          },
+          {
+            "id": "alfie",
+            "name": "Sophie Foreman Noone",
+            "character": "Alfie",
+            "role": "Driftwood Doll & Rogue Heart",
+            "badge": "The Rogue",
+            "color": "#10b981",
+            "grade": "B-",
+            "score": 81,
+            "spotlightShare": "13% spoken dialogue",
+            "consistencyScore": "86%",
+            "ruthlessVerdict": "Delivered the visceral emotional climax of the session, but spent 45 minutes of driving as passive pocket luggage.",
+            "whatHelped": "Her gut-wrenching dread in Scene 10 ('Not again. Not me again!') when forced to touch the temporal relic shattered the lighthearted tone and injected real human stakes.",
+            "whatHurt": "Suffered acute 'luggage syndrome' throughout the Lost Roads highway drive, remaining completely silent and passive in Dravin's coat while the men argued.",
+            "nextSessionDirectives": "Break out of the coat! Claim physical space in the environment during transition scenes\u2014climb on car dashboards, fiddle with radios, and voice your pint-sized perspective before combat forces you into the spotlight."
+          }
         ]
       },
       "technicalCompliance": {
