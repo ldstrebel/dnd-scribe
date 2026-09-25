@@ -4,7 +4,8 @@
 
 "That sounds very wise to me," Pierre agreed, scanning the chaotic atrium. Dravin was cornered between two of the serpent-headed operatives, while the lead Gordon hovered near the console, preparing to drop the vitrine and seal the ticking bomb. "I am going to make a run for the explosive!" <!-- L0443-L0450 -->
 
-Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. "Pierre believes that all Gorgons are essentially French," Pierre declared with absolute philosophical conviction, "and if there is one thing Frenchmen cannot resist, it is fresh bread!" Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic. <!-- L0451-L0460 -->
+Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French—and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic. <!-- L0451-L0460 -->
+
 
 "Fresh bread!" Pierre bellowed across the gallery. <!-- L0461-L0465 -->
 

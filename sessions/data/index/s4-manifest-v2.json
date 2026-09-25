@@ -63,14 +63,14 @@
     }
   },
   "stats": {
-    "wordCount": 7095,
+    "wordCount": 7079,
     "estimatedReadMinutes": 29,
-    "estimatedBookPages": 28.4,
+    "estimatedBookPages": 28.3,
     "dialogueRatio": {
-      "spokenWords": 2425,
-      "narrativeWords": 4670,
-      "spokenPct": 34.2,
-      "narrativePct": 65.8,
+      "spokenWords": 2388,
+      "narrativeWords": 4691,
+      "spokenPct": 33.7,
+      "narrativePct": 66.3,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -78,22 +78,22 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 2406,
-        "sharePct": 33.9
+        "words": 2502,
+        "sharePct": 35.3
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 2018,
-        "sharePct": 28.4
+        "words": 1943,
+        "sharePct": 27.4
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 1195,
-        "sharePct": 16.8
+        "words": 1158,
+        "sharePct": 16.4
       },
       {
         "id": "dravin",
@@ -137,9 +137,9 @@
       "sensoryRegisters": {
         "visual": 14,
         "auditory": 7,
-        "tactile": 29,
+        "tactile": 28,
         "olfactory": 4,
-        "atmospheric": 25,
+        "atmospheric": 26,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -174,13 +174,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "34.2% Spoken / 65.8% Narrative Action",
+          "chosenStance": "33.7% Spoken / 66.3% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~120 words/scene)",
+          "chosenStance": "Micro-Chapters (~117 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -2224,24 +2224,16 @@
       "id": "uneraseable_s04_b060",
       "index": 60,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
-      "speakerId": "alfie",
-      "text": "\"Alfie is absolutely shook to his core,\" Alfie breathed, clutching his coat. He looked back toward his companions, asking if they had felt the long rest surge or if they needed to touch the stone as well.",
+      "speakerId": "narrator",
+      "text": "Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b060_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 390,
-          "text": "\"Alfie is absolutely shook to his core,\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b060_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie breathed, clutching his coat. He looked back toward his companions, asking if they had felt the long rest surge or if they needed to touch the stone as well."
+          "text": "Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all."
         }
       ],
       "cut": "tabletop"
@@ -2626,26 +2618,18 @@
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
       "speakerId": "alfie",
-      "text": "\"Alfie is absolutely shook to his wooden core,\" Alfie rasped, trembling from head to toe. \"Watch out for the water! Pull me out! Pull me up!\" He yanked desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing.",
+      "text": "Alfie trembled from head to toe, shaken to his wooden core. \"Watch out for the water! Pull me out! Pull me up!\" he rasped, yanking desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b047_alt6_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 390,
-          "text": "\"Alfie is absolutely shook to his wooden core,\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b047_alt6_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie rasped, trembling from head to toe. "
+          "text": "Alfie trembled from head to toe, shaken to his wooden core. "
         },
         {
-          "segmentId": "uneraseable_s04_b047_alt6_s03",
+          "segmentId": "uneraseable_s04_b047_alt6_s02",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -2653,12 +2637,12 @@
           "text": "\"Watch out for the water! Pull me out! Pull me up!\""
         },
         {
-          "segmentId": "uneraseable_s04_b047_alt6_s04",
+          "segmentId": "uneraseable_s04_b047_alt6_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " He yanked desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing."
+          "text": " he rasped, yanking desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing."
         }
       ]
     },
@@ -2852,40 +2836,16 @@
       "id": "uneraseable_s04_b073",
       "index": 73,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
-      "speakerId": "pierre",
-      "text": "\"Pierre believes that all Gorgons are the same,\" Pierre announced with absolute philosophical conviction, \"and every Gorgon he has met is French. And if there is one thing French people love, it is a nice baguette!\" Flipping open his canvas lunch satchel, Pierre pulled out a fresh, crusty French baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head.",
+      "speakerId": "narrator",
+      "text": "In Pierre's mind, all Gorgons were fundamentally the same\u2014and every Gorgon he had ever met was French. And if there was one thing Frenchmen could never resist, it was a crusty, fresh-baked baguette. Flipping open his canvas lunch satchel, Pierre pulled out a fresh baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b073_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 459,
-          "text": "\"Pierre believes that all Gorgons are the same,\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b073_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre announced with absolute philosophical conviction, "
-        },
-        {
-          "segmentId": "uneraseable_s04_b073_s03",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 459,
-          "text": "\"and every Gorgon he has met is French. And if there is one thing French people love, it is a nice baguette!\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b073_s04",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Flipping open his canvas lunch satchel, Pierre pulled out a fresh, crusty French baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head."
+          "text": "In Pierre's mind, all Gorgons were fundamentally the same\u2014and every Gorgon he had ever met was French. And if there was one thing Frenchmen could never resist, it was a crusty, fresh-baked baguette. Flipping open his canvas lunch satchel, Pierre pulled out a fresh baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head."
         }
       ],
       "cut": "tabletop"
@@ -3236,8 +3196,8 @@
       "id": "uneraseable_s04_b070_alt3",
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
-      "speakerId": "pierre",
-      "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. \"Pierre believes that all Gorgons are essentially French,\" Pierre declared with absolute philosophical conviction, \"and if there is one thing Frenchmen cannot resist, it is fresh bread!\" Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic.",
+      "speakerId": "narrator",
+      "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b070_alt3_s01",
@@ -3245,39 +3205,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. "
-        },
-        {
-          "segmentId": "uneraseable_s04_b070_alt3_s02",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 451,
-          "text": "\"Pierre believes that all Gorgons are essentially French,\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b070_alt3_s03",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Pierre declared with absolute philosophical conviction, "
-        },
-        {
-          "segmentId": "uneraseable_s04_b070_alt3_s04",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 451,
-          "text": "\"and if there is one thing Frenchmen cannot resist, it is fresh bread!\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b070_alt3_s05",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic."
+          "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic."
         }
       ]
     },
@@ -4727,8 +4655,8 @@
       "id": "uneraseable_s04_b110_alt4",
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
-      "speakerId": "pierre",
-      "text": "From the stairwell landing above, Alfie gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: \"Since you are healed, I guess we run!\"",
+      "speakerId": "alfie",
+      "text": "From the stairwell landing above, Alfie eyed the half-cases below. \"Right!\" he gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b110_alt4_s01",
@@ -4736,7 +4664,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "From the stairwell landing above, Alfie gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: "
+          "text": "From the stairwell landing above, Alfie eyed the half-cases below. "
         },
         {
           "segmentId": "uneraseable_s04_b110_alt4_s02",
@@ -4744,6 +4672,39 @@
           "speakerId": "alfie",
           "speakerName": "Alfie",
           "sourceLine": 730,
+          "text": "\"Right!\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt4_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b110_alt5",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: \"Since you are healed, I guess we run!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b110_alt5_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b110_alt5_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 757,
           "text": "\"Since you are healed, I guess we run!\""
         }
       ]
@@ -5780,8 +5741,8 @@
       "id": "uneraseable_s04_b141_alt4",
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
-      "speakerId": "pierre",
-      "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears: \"Went to the North Carolina Natural History Museum and all I got was this stupid hat.\" Pierre stared up at the banners: \"Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?\"",
+      "speakerId": "narrator",
+      "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b141_alt4_s01",
@@ -5789,30 +5750,64 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears: "
-        },
+          "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b141_alt5",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears. \"Went to the North Carolina Natural History Museum and all I got was this stupid hat,\" he cheered.",
+      "segments": [
         {
-          "segmentId": "uneraseable_s04_b141_alt4_s02",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 969,
-          "text": "\"Went to the North Carolina Natural History Museum and all I got was this stupid hat.\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b141_alt4_s03",
+          "segmentId": "uneraseable_s04_b141_alt5_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre stared up at the banners: "
+          "text": "Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears. "
         },
         {
-          "segmentId": "uneraseable_s04_b141_alt4_s04",
+          "segmentId": "uneraseable_s04_b141_alt5_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 984,
+          "text": "\"Went to the North Carolina Natural History Museum and all I got was this stupid hat,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt5_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he cheered."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b141_alt6",
+      "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
+      "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre stared up at the banners hanging in the hall. \"Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b141_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre stared up at the banners hanging in the hall. "
+        },
+        {
+          "segmentId": "uneraseable_s04_b141_alt6_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 969,
+          "sourceLine": 990,
           "text": "\"Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?\""
         }
       ]

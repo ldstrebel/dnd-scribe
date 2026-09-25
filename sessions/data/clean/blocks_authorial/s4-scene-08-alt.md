@@ -6,6 +6,11 @@ Pierre rummaged through the lower shelf of the archaeology cart, snatching a via
 
 Stepping in close, Professor Edward Dravin reversed his grip on the solid steel flashlight. With a resounding *CRACK*, Dravin brought the metal butt squarely across Gordon's jaw, dropping the operative cold onto the linoleum. Grabbing the collar of the sleeping Redactor, Dravin hauled him across the floor and shoved him into the acid puddle, dissolving the slumbering threat into harmless black vapor. <!-- L0947-L0967 -->
 
-The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears: "Went to the North Carolina Natural History Museum and all I got was this stupid hat." Pierre stared up at the banners: "Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?" <!-- L0969-L0990 -->
+The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. <!-- L0969-L0970 -->
 
-<!-- LEDGER: spans=[L0881-L0894, L0906-L0944, L0947-L0967, L0969-L0990] skipped=[L0895-L0905(ooc), L0945-L0946(ooc), L0968(ooc)] -->
+Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears. "Went to the North Carolina Natural History Museum and all I got was this stupid hat," he cheered. <!-- L0984-L0988 -->
+
+Pierre stared up at the banners hanging in the hall. "Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?" <!-- L0990 -->
+
+<!-- LEDGER: spans=[L0881-L0894, L0906-L0944, L0947-L0967, L0969-L0970, L0984-L0988, L0990] skipped=[L0895-L0905(ooc), L0945-L0946(ooc), L0968(ooc), L0971-L0983(ooc), L0989(ooc)] -->
+

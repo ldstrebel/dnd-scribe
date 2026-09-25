@@ -1,0 +1,79 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s4",
+  "title": "Uneraseable - Session 4",
+  "reviewer": "Strebs",
+  "reviewerMeta": {
+    "handle": "Strebs",
+    "isBankPunName": false,
+    "suggestedBankReplacement": null
+  },
+  "exportedAt": "2026-09-25T01:29:12.800Z",
+  "totalCritiques": 4,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s04_b047_alt6",
+      "blockIndex": 24,
+      "speaker": "Alfie",
+      "speakerId": "alfie",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#10b981",
+      "category": "general",
+      "quote": "\"Alfie is absolutely shook to his wooden core,\" Alfie rasped, trembling from head to toe. \"Watch out for the water! Pull me out! Pull me up!\" He yanked desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing.",
+      "comment": "Out of character dialog included",
+      "suggestedRewrite": "",
+      "sourceLine": 390,
+      "sourceSpeaker": "Sophie Foreman Noone",
+      "updatedAt": "2026-09-25T01:22:54.540Z"
+    },
+    {
+      "blockId": "uneraseable_s04_b070_alt3",
+      "blockIndex": 31,
+      "speaker": "Pierre",
+      "speakerId": "pierre",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#3b82f6",
+      "category": "general",
+      "quote": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. \"Pierre believes that all Gorgons are essentially French,\" Pierre declared with absolute philosophical conviction, \"and if there is one thing Frenchmen cannot resist, it is fresh bread!\" Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic.",
+      "comment": "Another meta caught as a dialogue",
+      "suggestedRewrite": "",
+      "sourceLine": 451,
+      "sourceSpeaker": "Luke S",
+      "updatedAt": "2026-09-25T01:26:59.975Z"
+    },
+    {
+      "blockId": "uneraseable_s04_b110_alt4",
+      "blockIndex": 44,
+      "speaker": "Pierre",
+      "speakerId": "pierre",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#3b82f6",
+      "category": "general",
+      "quote": "From the stairwell landing above, Alfie gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: \"Since you are healed, I guess we run!\"",
+      "comment": "Color of dialogue wrong",
+      "suggestedRewrite": "",
+      "sourceLine": 730,
+      "sourceSpeaker": "Sophie Foreman Noone",
+      "updatedAt": "2026-09-25T01:27:52.439Z"
+    },
+    {
+      "blockId": "uneraseable_s04_b141_alt4",
+      "blockIndex": 53,
+      "speaker": "Pierre",
+      "speakerId": "pierre",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#3b82f6",
+      "category": "general",
+      "quote": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears: \"Went to the North Carolina Natural History Museum and all I got was this stupid hat.\" Pierre stared up at the banners: \"Professor, can you please explain to me why there is a dragon in the Greek antiquity wing?\"",
+      "comment": "Dialogue mixed. This is Alfie with the har",
+      "suggestedRewrite": "",
+      "sourceLine": 969,
+      "sourceSpeaker": "Luke Foreman",
+      "updatedAt": "2026-09-25T01:28:54.125Z"
+    }
+  ]
+}

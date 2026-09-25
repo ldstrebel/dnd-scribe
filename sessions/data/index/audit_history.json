@@ -1,1173 +1,5 @@
 [
   {
-    "timestamp": "2026-09-17T08:57:44.760247",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 12,
-    "warnings_count": 133,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 38
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 13
-      },
-      {
-        "scene_id": 3,
-        "ratio": 1.0,
-        "keywords": 21
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 16
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 45
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 32
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 35
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 12
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 20
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 9
-      }
-    ],
-    "top_errors": [
-      "Scene 2: [TIER_B_LORE_DROP] L0523 (Luke Foreman): 'There's uh one one of our one of our guys uh the he prefers Theodore from N...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 2: [TIER_B_LORE_DROP] L0524 (John Hagey): 'Mike, was what was your traumatic experience that brought you...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 3: [TIER_B_LORE_DROP] L0733 (Luke Foreman): 'it it it is like a nice evening. So, people kind of come and go. It seems l...' contains critical narrative intent ('beret') but was marked as (ooc) skip!",
-      "Scene 4: [TIER_B_LORE_DROP] L0791 (Luke Foreman): 'That's news to me, I'll tell you. I I have no idea. I mean, like the like w...' contains critical narrative intent ('Statue') but was marked as (ooc) skip!",
-      "Scene 4: [SUSPICIOUS_CLUSTER_DROP] 6 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0754 (John Hagey): 'And uh and my character is tak...' | L0757 (Luke Foreman): 'Um I think Pierre, let's see, ...' | L0758 (Luke Foreman): 'Um what can you tell me a litt...' | L0759 (Luke S): 'Well, um now it is a to meet y...']"
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0468 (Luke Foreman): 'okay. You know, we have we all have di\ufb00erent theories and like some pe...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0469 (Luke Foreman): 'And uh it seems like the youth kind of are able to see through it with...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T08:57:47.287607",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 12,
-    "warnings_count": 133,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 38
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 13
-      },
-      {
-        "scene_id": 3,
-        "ratio": 1.0,
-        "keywords": 21
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 16
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 45
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 32
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 35
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 12
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 20
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 9
-      }
-    ],
-    "top_errors": [
-      "Scene 2: [TIER_B_LORE_DROP] L0523 (Luke Foreman): 'There's uh one one of our one of our guys uh the he prefers Theodore from N...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 2: [TIER_B_LORE_DROP] L0524 (John Hagey): 'Mike, was what was your traumatic experience that brought you...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 3: [TIER_B_LORE_DROP] L0733 (Luke Foreman): 'it it it is like a nice evening. So, people kind of come and go. It seems l...' contains critical narrative intent ('beret') but was marked as (ooc) skip!",
-      "Scene 4: [TIER_B_LORE_DROP] L0791 (Luke Foreman): 'That's news to me, I'll tell you. I I have no idea. I mean, like the like w...' contains critical narrative intent ('Statue') but was marked as (ooc) skip!",
-      "Scene 4: [SUSPICIOUS_CLUSTER_DROP] 6 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0754 (John Hagey): 'And uh and my character is tak...' | L0757 (Luke Foreman): 'Um I think Pierre, let's see, ...' | L0758 (Luke Foreman): 'Um what can you tell me a litt...' | L0759 (Luke S): 'Well, um now it is a to meet y...']"
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0468 (Luke Foreman): 'okay. You know, we have we all have di\ufb00erent theories and like some pe...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0469 (Luke Foreman): 'And uh it seems like the youth kind of are able to see through it with...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T08:57:49.800305",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 12,
-    "warnings_count": 133,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 38
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 13
-      },
-      {
-        "scene_id": 3,
-        "ratio": 1.0,
-        "keywords": 21
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 16
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 45
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 32
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 35
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 12
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 20
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 9
-      }
-    ],
-    "top_errors": [
-      "Scene 2: [TIER_B_LORE_DROP] L0523 (Luke Foreman): 'There's uh one one of our one of our guys uh the he prefers Theodore from N...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 2: [TIER_B_LORE_DROP] L0524 (John Hagey): 'Mike, was what was your traumatic experience that brought you...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 3: [TIER_B_LORE_DROP] L0733 (Luke Foreman): 'it it it is like a nice evening. So, people kind of come and go. It seems l...' contains critical narrative intent ('beret') but was marked as (ooc) skip!",
-      "Scene 4: [TIER_B_LORE_DROP] L0791 (Luke Foreman): 'That's news to me, I'll tell you. I I have no idea. I mean, like the like w...' contains critical narrative intent ('Statue') but was marked as (ooc) skip!",
-      "Scene 4: [SUSPICIOUS_CLUSTER_DROP] 6 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0754 (John Hagey): 'And uh and my character is tak...' | L0757 (Luke Foreman): 'Um I think Pierre, let's see, ...' | L0758 (Luke Foreman): 'Um what can you tell me a litt...' | L0759 (Luke S): 'Well, um now it is a to meet y...']"
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0468 (Luke Foreman): 'okay. You know, we have we all have di\ufb00erent theories and like some pe...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0469 (Luke Foreman): 'And uh it seems like the youth kind of are able to see through it with...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T08:57:54.433711",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 12,
-    "warnings_count": 133,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 38
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 13
-      },
-      {
-        "scene_id": 3,
-        "ratio": 1.0,
-        "keywords": 21
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 16
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 45
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 32
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 35
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 12
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 20
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 9
-      }
-    ],
-    "top_errors": [
-      "Scene 2: [TIER_B_LORE_DROP] L0523 (Luke Foreman): 'There's uh one one of our one of our guys uh the he prefers Theodore from N...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 2: [TIER_B_LORE_DROP] L0524 (John Hagey): 'Mike, was what was your traumatic experience that brought you...' contains critical narrative intent ('traumatic') but was marked as (ooc) skip!",
-      "Scene 3: [TIER_B_LORE_DROP] L0733 (Luke Foreman): 'it it it is like a nice evening. So, people kind of come and go. It seems l...' contains critical narrative intent ('beret') but was marked as (ooc) skip!",
-      "Scene 4: [TIER_B_LORE_DROP] L0791 (Luke Foreman): 'That's news to me, I'll tell you. I I have no idea. I mean, like the like w...' contains critical narrative intent ('Statue') but was marked as (ooc) skip!",
-      "Scene 4: [SUSPICIOUS_CLUSTER_DROP] 6 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0754 (John Hagey): 'And uh and my character is tak...' | L0757 (Luke Foreman): 'Um I think Pierre, let's see, ...' | L0758 (Luke Foreman): 'Um what can you tell me a litt...' | L0759 (Luke S): 'Well, um now it is a to meet y...']"
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0468 (Luke Foreman): 'okay. You know, we have we all have di\ufb00erent theories and like some pe...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0469 (Luke Foreman): 'And uh it seems like the youth kind of are able to see through it with...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:00:29.006879",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 42,
-    "warnings_count": 105,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 0.556,
-        "keywords": 24
-      },
-      {
-        "scene_id": 2,
-        "ratio": 0.6,
-        "keywords": 69
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.857,
-        "keywords": 83
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 0.5,
-        "keywords": 29
-      },
-      {
-        "scene_id": 7,
-        "ratio": 0.75,
-        "keywords": 43
-      },
-      {
-        "scene_id": 8,
-        "ratio": 0.273,
-        "keywords": 14
-      },
-      {
-        "scene_id": 9,
-        "ratio": 0.636,
-        "keywords": 22
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.778,
-        "keywords": 48
-      }
-    ],
-    "top_errors": [
-      "Scene 1: [SUSPICIOUS_CLUSTER_DROP] 5 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0410 (Luke Foreman): 'We'll see how I feel. Um but y...' | L0411 (Luke Foreman): 'So, in that point, we can jump...' | L0417 (Luke Foreman): 'USles and um Edward are kind o...' | L0418 (Luke S): 'Pier's lean over the shoulders...']",
-      "Scene 1: UNGROUNDED TURN at L0404.\n  Raw Line: '**Luke Foreman:** All right, we will jump in. You all know the recap. Um,...'\n  Prose: 'The campfire crackled with dry pine knots, throwing embers high into the starles...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0406.\n  Raw Line: '**Luke Foreman:** you all got the the very basic recap of what happened. Um, lik...'\n  Prose: 'Theodore\u2014Teddy to those who had lingered here long enough\u2014leaned back on a weath...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0440.\n  Raw Line: '**Luke Foreman:** Don't be scared. Don't be scared at all. We love fresh ink aro...'\n  Prose: 'Pierre carefully adjusted the strap of his canvas rucksack, where Alfie sat perc...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0508.\n  Raw Line: '**John Hagey:** I see....'\n  Prose: '\"You catch on quick, Professor,\" Teddy chuckled. \"Welcome to the home of the unw...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0426 (Luke S): 'And Pier's just gonna I think stop like outside of the entrance and ju...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0447 (Luke Foreman): 'you're not you're not like actually dead, but like maybe it kind of de...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0462 (Luke Foreman): 'And the crazy thing is that you stay like approximately the same age t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:00:31.793091",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 42,
-    "warnings_count": 105,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 0.556,
-        "keywords": 24
-      },
-      {
-        "scene_id": 2,
-        "ratio": 0.6,
-        "keywords": 69
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.857,
-        "keywords": 83
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 0.5,
-        "keywords": 29
-      },
-      {
-        "scene_id": 7,
-        "ratio": 0.75,
-        "keywords": 43
-      },
-      {
-        "scene_id": 8,
-        "ratio": 0.273,
-        "keywords": 14
-      },
-      {
-        "scene_id": 9,
-        "ratio": 0.636,
-        "keywords": 22
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.778,
-        "keywords": 48
-      }
-    ],
-    "top_errors": [
-      "Scene 1: [SUSPICIOUS_CLUSTER_DROP] 5 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0410 (Luke Foreman): 'We'll see how I feel. Um but y...' | L0411 (Luke Foreman): 'So, in that point, we can jump...' | L0417 (Luke Foreman): 'USles and um Edward are kind o...' | L0418 (Luke S): 'Pier's lean over the shoulders...']",
-      "Scene 1: UNGROUNDED TURN at L0404.\n  Raw Line: '**Luke Foreman:** All right, we will jump in. You all know the recap. Um,...'\n  Prose: 'The campfire crackled with dry pine knots, throwing embers high into the starles...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0406.\n  Raw Line: '**Luke Foreman:** you all got the the very basic recap of what happened. Um, lik...'\n  Prose: 'Theodore\u2014Teddy to those who had lingered here long enough\u2014leaned back on a weath...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0440.\n  Raw Line: '**Luke Foreman:** Don't be scared. Don't be scared at all. We love fresh ink aro...'\n  Prose: 'Pierre carefully adjusted the strap of his canvas rucksack, where Alfie sat perc...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0508.\n  Raw Line: '**John Hagey:** I see....'\n  Prose: '\"You catch on quick, Professor,\" Teddy chuckled. \"Welcome to the home of the unw...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0426 (Luke S): 'And Pier's just gonna I think stop like outside of the entrance and ju...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0447 (Luke Foreman): 'you're not you're not like actually dead, but like maybe it kind of de...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0462 (Luke Foreman): 'And the crazy thing is that you stay like approximately the same age t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:00:36.225250",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 42,
-    "warnings_count": 105,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 0.556,
-        "keywords": 24
-      },
-      {
-        "scene_id": 2,
-        "ratio": 0.6,
-        "keywords": 69
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.857,
-        "keywords": 83
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 0.5,
-        "keywords": 29
-      },
-      {
-        "scene_id": 7,
-        "ratio": 0.75,
-        "keywords": 43
-      },
-      {
-        "scene_id": 8,
-        "ratio": 0.273,
-        "keywords": 14
-      },
-      {
-        "scene_id": 9,
-        "ratio": 0.636,
-        "keywords": 22
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.778,
-        "keywords": 48
-      }
-    ],
-    "top_errors": [
-      "Scene 1: [SUSPICIOUS_CLUSTER_DROP] 5 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0410 (Luke Foreman): 'We'll see how I feel. Um but y...' | L0411 (Luke Foreman): 'So, in that point, we can jump...' | L0417 (Luke Foreman): 'USles and um Edward are kind o...' | L0418 (Luke S): 'Pier's lean over the shoulders...']",
-      "Scene 1: UNGROUNDED TURN at L0404.\n  Raw Line: '**Luke Foreman:** All right, we will jump in. You all know the recap. Um,...'\n  Prose: 'The campfire crackled with dry pine knots, throwing embers high into the starles...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0406.\n  Raw Line: '**Luke Foreman:** you all got the the very basic recap of what happened. Um, lik...'\n  Prose: 'Theodore\u2014Teddy to those who had lingered here long enough\u2014leaned back on a weath...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0440.\n  Raw Line: '**Luke Foreman:** Don't be scared. Don't be scared at all. We love fresh ink aro...'\n  Prose: 'Pierre carefully adjusted the strap of his canvas rucksack, where Alfie sat perc...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 1: UNGROUNDED TURN at L0508.\n  Raw Line: '**John Hagey:** I see....'\n  Prose: '\"You catch on quick, Professor,\" Teddy chuckled. \"Welcome to the home of the unw...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0426 (Luke S): 'And Pier's just gonna I think stop like outside of the entrance and ju...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0447 (Luke Foreman): 'you're not you're not like actually dead, but like maybe it kind of de...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0462 (Luke Foreman): 'And the crazy thing is that you stay like approximately the same age t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:02:15.841628",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 37,
-    "warnings_count": 98,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 0.968,
-        "keywords": 81
-      },
-      {
-        "scene_id": 2,
-        "ratio": 0.722,
-        "keywords": 75
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.889,
-        "keywords": 90
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 0.556,
-        "keywords": 31
-      },
-      {
-        "scene_id": 7,
-        "ratio": 0.75,
-        "keywords": 43
-      },
-      {
-        "scene_id": 8,
-        "ratio": 0.273,
-        "keywords": 14
-      },
-      {
-        "scene_id": 9,
-        "ratio": 0.636,
-        "keywords": 22
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.778,
-        "keywords": 48
-      }
-    ],
-    "top_errors": [
-      "Scene 1: UNGROUNDED TURN at L0494.\n  Raw Line: '**Luke Foreman:** absolutely see that this is kind of a this is a according to t...'\n  Prose: 'The true nature of the settlement unveiled itself before his inner vision....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0550.\n  Raw Line: '**Luke S:** I am supposed to be at a um a pilgrimage. I I don't see um well your...'\n  Prose: 'Eusacles opened his eyes, letting the residual divine sight settle....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0570.\n  Raw Line: '**Luke S:** No, I have I learned Mike's name....'\n  Prose: '\"Well. None of us are zombies, if anyone was worried,\" Eusacles said with a fain...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0590.\n  Raw Line: '**John Hagey:** She has to roll one d20. And depending on like where it goes. If...'\n  Prose: '\"What did you see?\" Pierre asked, adjusting his round glasses with a slight tilt...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0610.\n  Raw Line: '**Luke Foreman:** right. Yeah. Goodness, I'm copying it. Here we go. Here we go....'\n  Prose: '\"You've got some heavy divine static on you, Frenchie,\" Eusacles replied. \"Like ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:03:15.486203",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 20,
-    "warnings_count": 83,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 0.722,
-        "keywords": 75
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.889,
-        "keywords": 90
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 0.75,
-        "keywords": 43
-      },
-      {
-        "scene_id": 8,
-        "ratio": 0.967,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 0.974,
-        "keywords": 87
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.895,
-        "keywords": 59
-      }
-    ],
-    "top_errors": [
-      "Scene 2: UNGROUNDED TURN at L0550.\n  Raw Line: '**Luke S:** I am supposed to be at a um a pilgrimage. I I don't see um well your...'\n  Prose: 'Eusacles opened his eyes, letting the residual divine sight settle....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0570.\n  Raw Line: '**Luke S:** No, I have I learned Mike's name....'\n  Prose: '\"Well. None of us are zombies, if anyone was worried,\" Eusacles said with a fain...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0590.\n  Raw Line: '**John Hagey:** She has to roll one d20. And depending on like where it goes. If...'\n  Prose: '\"What did you see?\" Pierre asked, adjusting his round glasses with a slight tilt...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0610.\n  Raw Line: '**Luke Foreman:** right. Yeah. Goodness, I'm copying it. Here we go. Here we go....'\n  Prose: '\"You've got some heavy divine static on you, Frenchie,\" Eusacles replied. \"Like ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0625.\n  Raw Line: '**Luke Foreman:** I was on I was on a boat with my frs. Yeah,...'\n  Prose: 'Dravin offered a gentle, self-deprecating smile. \"My great-grandmother always wa...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:03:19.992885",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 20,
-    "warnings_count": 83,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 0.722,
-        "keywords": 75
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.889,
-        "keywords": 90
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 0.75,
-        "keywords": 43
-      },
-      {
-        "scene_id": 8,
-        "ratio": 0.967,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 0.974,
-        "keywords": 87
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.895,
-        "keywords": 59
-      }
-    ],
-    "top_errors": [
-      "Scene 2: UNGROUNDED TURN at L0550.\n  Raw Line: '**Luke S:** I am supposed to be at a um a pilgrimage. I I don't see um well your...'\n  Prose: 'Eusacles opened his eyes, letting the residual divine sight settle....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0570.\n  Raw Line: '**Luke S:** No, I have I learned Mike's name....'\n  Prose: '\"Well. None of us are zombies, if anyone was worried,\" Eusacles said with a fain...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0590.\n  Raw Line: '**John Hagey:** She has to roll one d20. And depending on like where it goes. If...'\n  Prose: '\"What did you see?\" Pierre asked, adjusting his round glasses with a slight tilt...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0610.\n  Raw Line: '**Luke Foreman:** right. Yeah. Goodness, I'm copying it. Here we go. Here we go....'\n  Prose: '\"You've got some heavy divine static on you, Frenchie,\" Eusacles replied. \"Like ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 2: UNGROUNDED TURN at L0625.\n  Raw Line: '**Luke Foreman:** I was on I was on a boat with my frs. Yeah,...'\n  Prose: 'Dravin offered a gentle, self-deprecating smile. \"My great-grandmother always wa...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:04:24.191161",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 7,
-    "warnings_count": 78,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 120
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 116
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 51
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 88
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.947,
-        "keywords": 63
-      }
-    ],
-    "top_errors": [
-      "Scene 3: UNGROUNDED TURN at L0660.\n  Raw Line: '**John Hagey:** Al\ufb01e....'\n  Prose: 'Eusacles stepped up to the fire, sharing what his divine sight had revealed. Dra...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0680.\n  Raw Line: '**Luke Foreman:** Okay....'\n  Prose: 'Alfie hopped back onto Pierre's shoulder, flicking his rapier. \"Eighteen forty-s...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0833.\n  Raw Line: '**Sophie Foreman Noone:** Yeah. Yeah. And uh here's the thing....'\n  Prose: 'Inside the cabin, an older resident named Rosa was laying out handmade wool blan...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0849.\n  Raw Line: '**Sophie Foreman Noone:** yeah, I don't think I recommend it. I don't think I re...'\n  Prose: '\"And who might you be, little traveler?\" Rosa asked gently....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0873.\n  Raw Line: '**Luke Foreman:** Um, and we'll bring you all to the cabin and um, as you all ge...'\n  Prose: 'Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:04:25.769544",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 7,
-    "warnings_count": 78,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 120
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 116
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 51
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 88
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.947,
-        "keywords": 63
-      }
-    ],
-    "top_errors": [
-      "Scene 3: UNGROUNDED TURN at L0660.\n  Raw Line: '**John Hagey:** Al\ufb01e....'\n  Prose: 'Eusacles stepped up to the fire, sharing what his divine sight had revealed. Dra...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0680.\n  Raw Line: '**Luke Foreman:** Okay....'\n  Prose: 'Alfie hopped back onto Pierre's shoulder, flicking his rapier. \"Eighteen forty-s...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0833.\n  Raw Line: '**Sophie Foreman Noone:** Yeah. Yeah. And uh here's the thing....'\n  Prose: 'Inside the cabin, an older resident named Rosa was laying out handmade wool blan...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0849.\n  Raw Line: '**Sophie Foreman Noone:** yeah, I don't think I recommend it. I don't think I re...'\n  Prose: '\"And who might you be, little traveler?\" Rosa asked gently....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0873.\n  Raw Line: '**Luke Foreman:** Um, and we'll bring you all to the cabin and um, as you all ge...'\n  Prose: 'Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:04:27.343593",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 7,
-    "warnings_count": 78,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 120
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 116
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 51
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 88
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.947,
-        "keywords": 63
-      }
-    ],
-    "top_errors": [
-      "Scene 3: UNGROUNDED TURN at L0660.\n  Raw Line: '**John Hagey:** Al\ufb01e....'\n  Prose: 'Eusacles stepped up to the fire, sharing what his divine sight had revealed. Dra...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0680.\n  Raw Line: '**Luke Foreman:** Okay....'\n  Prose: 'Alfie hopped back onto Pierre's shoulder, flicking his rapier. \"Eighteen forty-s...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0833.\n  Raw Line: '**Sophie Foreman Noone:** Yeah. Yeah. And uh here's the thing....'\n  Prose: 'Inside the cabin, an older resident named Rosa was laying out handmade wool blan...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0849.\n  Raw Line: '**Sophie Foreman Noone:** yeah, I don't think I recommend it. I don't think I re...'\n  Prose: '\"And who might you be, little traveler?\" Rosa asked gently....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0873.\n  Raw Line: '**Luke Foreman:** Um, and we'll bring you all to the cabin and um, as you all ge...'\n  Prose: 'Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:04:30.032850",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 7,
-    "warnings_count": 78,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 120
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 116
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 51
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 88
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.947,
-        "keywords": 63
-      }
-    ],
-    "top_errors": [
-      "Scene 3: UNGROUNDED TURN at L0660.\n  Raw Line: '**John Hagey:** Al\ufb01e....'\n  Prose: 'Eusacles stepped up to the fire, sharing what his divine sight had revealed. Dra...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0680.\n  Raw Line: '**Luke Foreman:** Okay....'\n  Prose: 'Alfie hopped back onto Pierre's shoulder, flicking his rapier. \"Eighteen forty-s...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0833.\n  Raw Line: '**Sophie Foreman Noone:** Yeah. Yeah. And uh here's the thing....'\n  Prose: 'Inside the cabin, an older resident named Rosa was laying out handmade wool blan...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0849.\n  Raw Line: '**Sophie Foreman Noone:** yeah, I don't think I recommend it. I don't think I re...'\n  Prose: '\"And who might you be, little traveler?\" Rosa asked gently....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0873.\n  Raw Line: '**Luke Foreman:** Um, and we'll bring you all to the cabin and um, as you all ge...'\n  Prose: 'Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:04:32.287328",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 7,
-    "warnings_count": 78,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 84
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 120
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 116
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.875,
-        "keywords": 106
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 82
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 51
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 65
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 88
-      },
-      {
-        "scene_id": 10,
-        "ratio": 0.947,
-        "keywords": 63
-      }
-    ],
-    "top_errors": [
-      "Scene 3: UNGROUNDED TURN at L0660.\n  Raw Line: '**John Hagey:** Al\ufb01e....'\n  Prose: 'Eusacles stepped up to the fire, sharing what his divine sight had revealed. Dra...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0680.\n  Raw Line: '**Luke Foreman:** Okay....'\n  Prose: 'Alfie hopped back onto Pierre's shoulder, flicking his rapier. \"Eighteen forty-s...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0833.\n  Raw Line: '**Sophie Foreman Noone:** Yeah. Yeah. And uh here's the thing....'\n  Prose: 'Inside the cabin, an older resident named Rosa was laying out handmade wool blan...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0849.\n  Raw Line: '**Sophie Foreman Noone:** yeah, I don't think I recommend it. I don't think I re...'\n  Prose: '\"And who might you be, little traveler?\" Rosa asked gently....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0873.\n  Raw Line: '**Luke Foreman:** Um, and we'll bring you all to the cabin and um, as you all ge...'\n  Prose: 'Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-17T09:06:02.595643",
-    "session_id": "s2",
-    "status": "FAIL",
-    "errors_count": 5,
-    "warnings_count": 80,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 88
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 123
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.964,
-        "keywords": 121
-      },
-      {
-        "scene_id": 4,
-        "ratio": 0.917,
-        "keywords": 111
-      },
-      {
-        "scene_id": 5,
-        "ratio": 0.95,
-        "keywords": 84
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 59
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 53
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 67
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 89
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 66
-      }
-    ],
-    "top_errors": [
-      "Scene 3: UNGROUNDED TURN at L0680.\n  Raw Line: '**Luke Foreman:** Okay....'\n  Prose: 'Alfie hopped back onto Pierre's shoulder, flicking his rapier. \"Eighteen forty-s...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0849.\n  Raw Line: '**Sophie Foreman Noone:** yeah, I don't think I recommend it. I don't think I re...'\n  Prose: '\"And who might you be, little traveler?\" Rosa asked gently....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 4: UNGROUNDED TURN at L0873.\n  Raw Line: '**Luke Foreman:** Um, and we'll bring you all to the cabin and um, as you all ge...'\n  Prose: 'Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 5: [SUSPICIOUS_CLUSTER_DROP] 5 consecutive spoken dialogue turns marked as (ooc) skip. Verify in-character banter/comedy was not omitted. Sample: [L0905 (Luke Foreman): 'it's like probably like only a...' | L0920 (Luke S): 'but um that there's more time ...' | L0921 (Luke Foreman): 'I mean, honestly, it's like pr...' | L0922 (Luke Foreman): 'But like I think that's the re...']",
-      "Scene 5: UNGROUNDED TURN at L0909.\n  Raw Line: '**Luke Foreman:** 2009 and then she she was next in 2011....'\n  Prose: '\"People say I make the best,\" Mike laughed, \"though there are only ten people he...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
     "timestamp": "2026-09-17T09:07:08.946952",
     "session_id": "s2",
     "status": "FAIL",
@@ -3471,6 +2303,1114 @@
         "scene_id": 4,
         "ratio": 1.0,
         "keywords": 64
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 95
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 94
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 102
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 130
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 117
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0121 (Luke Foreman): 'Where's the combat button? Create combat. Start combat. Wait, that's n...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0128 (Luke S): 'Sometimes you have to click the little tiny like uh swords icon on one...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0275 (Sophie Foreman Noone): 'I'm curious about this too because my like level two stuff hasn't does...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0284 (Luke S): 'so you can see like the spell book now is in the middle uh instead of ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0288 (Luke S): 'There it is. Cure. Maybe just wasn't prepared or something. the second...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:32:00.086035",
+    "session_id": "s1",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 0,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 93
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 1
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 12,
+        "ratio": 1.0,
+        "keywords": 35
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-24T20:32:00.472424",
+    "session_id": "s2",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 73,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 88
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 123
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 120
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 126
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 101
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 59
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 53
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 67
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:32:00.743995",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 93,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 19
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 57
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 5
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 22
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 45
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 12
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0383 (Luke S): 'what is the um likelihood that my mother expected me to be going to th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0389 (Luke Foreman): 'Okay. as as you all are sort of traveling through this area. Uh this t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:32:01.019268",
+    "session_id": "s4",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 24,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 115
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 39
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 98
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 95
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 94
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 102
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 130
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 117
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0121 (Luke Foreman): 'Where's the combat button? Create combat. Start combat. Wait, that's n...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0128 (Luke S): 'Sometimes you have to click the little tiny like uh swords icon on one...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0275 (Sophie Foreman Noone): 'I'm curious about this too because my like level two stuff hasn't does...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0284 (Luke S): 'so you can see like the spell book now is in the middle uh instead of ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0288 (Luke S): 'There it is. Cure. Maybe just wasn't prepared or something. the second...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:32:53.833161",
+    "session_id": "s1",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 0,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 93
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 1
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 12,
+        "ratio": 1.0,
+        "keywords": 35
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-24T20:32:54.202558",
+    "session_id": "s2",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 73,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 88
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 123
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 120
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 126
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 101
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 59
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 53
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 67
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:32:54.487095",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 93,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 19
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 57
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 5
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 22
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 45
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 12
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0383 (Luke S): 'what is the um likelihood that my mother expected me to be going to th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0389 (Luke Foreman): 'Okay. as as you all are sort of traveling through this area. Uh this t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:32:54.780181",
+    "session_id": "s4",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 24,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 115
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 39
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 98
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 95
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 94
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 102
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 130
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 117
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0121 (Luke Foreman): 'Where's the combat button? Create combat. Start combat. Wait, that's n...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0128 (Luke S): 'Sometimes you have to click the little tiny like uh swords icon on one...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0275 (Sophie Foreman Noone): 'I'm curious about this too because my like level two stuff hasn't does...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0284 (Luke S): 'so you can see like the spell book now is in the middle uh instead of ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0288 (Luke S): 'There it is. Cure. Maybe just wasn't prepared or something. the second...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:33:22.635545",
+    "session_id": "s1",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 0,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 93
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 1
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 12,
+        "ratio": 1.0,
+        "keywords": 35
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-24T20:33:22.906238",
+    "session_id": "s2",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 73,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 88
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 123
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 120
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 126
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 101
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 59
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 53
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 67
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:33:23.181237",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 93,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 19
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 57
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 5
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 22
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 45
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 12
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0383 (Luke S): 'what is the um likelihood that my mother expected me to be going to th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0389 (Luke Foreman): 'Okay. as as you all are sort of traveling through this area. Uh this t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:33:23.450606",
+    "session_id": "s4",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 24,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 115
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 39
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 98
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 95
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 94
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 102
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 130
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 117
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0121 (Luke Foreman): 'Where's the combat button? Create combat. Start combat. Wait, that's n...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0128 (Luke S): 'Sometimes you have to click the little tiny like uh swords icon on one...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0275 (Sophie Foreman Noone): 'I'm curious about this too because my like level two stuff hasn't does...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0284 (Luke S): 'so you can see like the spell book now is in the middle uh instead of ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0288 (Luke S): 'There it is. Cure. Maybe just wasn't prepared or something. the second...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:33:56.384870",
+    "session_id": "s1",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 0,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 58
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 93
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 1
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 11,
+        "ratio": 1.0,
+        "keywords": 0
+      },
+      {
+        "scene_id": 12,
+        "ratio": 1.0,
+        "keywords": 35
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": []
+  },
+  {
+    "timestamp": "2026-09-24T20:33:56.660073",
+    "session_id": "s2",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 73,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 88
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 123
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 120
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 126
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 101
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 59
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 53
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 67
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 89
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0406 (Luke Foreman): 'you all got the the very basic recap of what happened. Um, like I said...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0410 (Luke Foreman): 'We'll see how I feel. Um but yeah, we'll jump right in. As we know, th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0455 (Luke Foreman): 'We got some like basic processes to make sure people are all on board ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0495 (John Hagey): 'And the and the M just always obscure than just enough so it's like se...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0510 (John Hagey): 'Okay. Okay, cool. Uh, Youth Cle is actually going to he's he's going t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:33:56.945673",
+    "session_id": "s3",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 93,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 19
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 57
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
+      },
+      {
+        "scene_id": 5,
+        "ratio": 1.0,
+        "keywords": 30
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 5
+      },
+      {
+        "scene_id": 7,
+        "ratio": 1.0,
+        "keywords": 22
+      },
+      {
+        "scene_id": 8,
+        "ratio": 1.0,
+        "keywords": 45
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 12
+      },
+      {
+        "scene_id": 10,
+        "ratio": 1.0,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0383 (Luke S): 'what is the um likelihood that my mother expected me to be going to th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 1: Potential Canon Dialogue Drop at L0389 (Luke Foreman): 'Okay. as as you all are sort of traveling through this area. Uh this t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-24T20:33:57.307807",
+    "session_id": "s4",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 24,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 115
+      },
+      {
+        "scene_id": 2,
+        "ratio": 1.0,
+        "keywords": 39
+      },
+      {
+        "scene_id": 3,
+        "ratio": 1.0,
+        "keywords": 98
+      },
+      {
+        "scene_id": 4,
+        "ratio": 1.0,
+        "keywords": 61
       },
       {
         "scene_id": 5,

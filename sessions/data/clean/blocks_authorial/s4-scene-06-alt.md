@@ -6,6 +6,10 @@ A muffled *crump-hiss* shuddered through the vents as the baguette-bomb detonate
 
 In the main gallery, Professor Edward Dravin snatched a dropped pneumatic sidearm, blocking the remaining awake Gordon. "You will have to go through me!" Dravin shouted, dragging the sleeping operative clear as Gordon's venomous claws slashed his tweed sleeve. <!-- L0700-L0725 -->
 
-From the stairwell landing above, Alfie gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: "Since you are healed, I guess we run!" <!-- L0730-L0769 -->
+From the stairwell landing above, Alfie eyed the half-cases below. "Right!" he gestured with a wooden hand, invoking his translucent *Mage Hand*. Hoisting a massive terracotta storage urn over the banister, Alfie released the heavy vessel directly above the operative's crown. *SMASH!* The urn shattered across Gordon's skull in a spray of pottery shards. <!-- L0730-L0755 -->
 
-<!-- LEDGER: spans=[L0661-L0683, L0685-L0693, L0700-L0725, L0730-L0769] skipped=[L0684(ooc), L0694-L0699(ooc), L0726-L0729(ooc), L0770(ooc)] -->
+
+With the attendant fully restored at his side beside the limestone tablet, Pierre helped her to her feet with a wide grin: "Since you are healed, I guess we run!" <!-- L0757-L0769 -->
+
+<!-- LEDGER: spans=[L0661-L0683, L0685-L0693, L0700-L0725, L0730-L0755, L0757-L0769] skipped=[L0684(ooc), L0694-L0699(ooc), L0726-L0729(ooc), L0756(ooc), L0770(ooc)] -->
+

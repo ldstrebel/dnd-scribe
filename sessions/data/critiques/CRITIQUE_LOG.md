@@ -6,7 +6,45 @@ This log tracks all community, player, and editor critique payloads ingested fro
 
 ## Ingested PR Feedback Records
 
+### 🧾 PR Record #005: `uneraseable-s3-strebs-855517`
+- **Branch:** `critique/uneraseable-s3-strebs-855517`
+- **Session:** `s3` (*The Raleigh Museum & The Aegean Inscription*)
+- **Reviewer:** `Strebs`
+- **Payload File:** [`sessions/data/critiques/uneraseable-s3-strebs-855517.json`](file:///d:/Code/dnd-scribe/sessions/data/critiques/uneraseable-s3-strebs-855517.json)
+- **Export Timestamp:** `2026-09-16T01:57:35.517Z`
+- **Status:** `[RESOLVED & APPLIED]`
+- **Verification Gates:** `verify_manifest.py [PASS]`, `verify_parity.py [PASS]`, `generate_web_manifest.py [PASS]`, `novel/generate_epub.py [PASS]`
+
+#### 📝 Item-by-Item Review & Justification Ledger
+
+| Block ID | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `uneraseable_s03_b088` (now `b092`) | Pierre -> Museum Attendant (`attendant`) | Tone / Speaker Attribution | *"why is this all showing up as Pierre?"* | **`[APPLIED]`** | Spoken line by senior museum curator (*"It is the premier history institution in the country, young man, not chewing gum!"*, L1633) was previously colored as Pierre. Attributed to Museum Attendant (`attendant`) with distinct NPC coloring and voice routing. |
+
+---
+
+### 🧾 PR Record #004: `uneraseable-s4-strebs-752800`
+- **Branch:** `critique/uneraseable-s4-strebs-752800`
+- **Session:** `s4` (*The Medusa Protocol & Echoes Across the Lost Roads*)
+- **Reviewer:** `Strebs`
+- **Payload File:** [`sessions/data/critiques/uneraseable-s4-strebs-752800.json`](file:///d:/Code/dnd-scribe/sessions/data/critiques/uneraseable-s4-strebs-752800.json)
+- **Export Timestamp:** `2026-09-25T01:29:12.800Z`
+- **Status:** `[RESOLVED & APPLIED]`
+- **Verification Gates:** `verify_manifest.py [PASS]`, `verify_parity.py [PASS]`, `verify_alternate_scene.py [PASS]`, `generate_web_manifest.py [PASS]`, `novel/generate_epub.py [PASS]`
+
+#### 📝 Item-by-Item Review & Justification Ledger
+
+| Block ID | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `uneraseable_s04_b047_alt6` | Alfie | General / OOC Table Dialogue | *"Out of character dialog included"* | **`[APPLIED]`** | Removed 3rd-person table description (*"Alfie is absolutely shook to his wooden core"*) from quoted spoken dialogue and converted it into narrator prose describing Alfie's physical trembling after touching the tablet (L0390). |
+| `uneraseable_s04_b070_alt3` | Pierre | General / Meta Dialogue Leak | *"Another meta caught as a dialogue"* | **`[APPLIED]`** | Converted Luke S's 3rd-person player theory (*"Pierre believes that all Gorgons are essentially French..."*) into active narrator prose (L0459), preserving only the in-world spoken shout (*"Fresh bread!"*). |
+| `uneraseable_s04_b110_alt4` | Pierre -> Alfie / Pierre | Formatting / Speaker Color & Tagging | *"Color of dialogue wrong"* | **`[APPLIED]`** | Separated the fused paragraph in Scene 6 into dedicated paragraphs: Alfie's *Mage Hand* terracotta pot drop (L0730–L0755) as Alfie's action/dialogue, and Pierre's attendant rescue quip (L0757–L0769) as Pierre's dialogue. |
+| `uneraseable_s04_b141_alt4` | Pierre -> Alfie / Pierre | Formatting / Multi-Speaker Paragraph | *"Dialogue mixed. This is Alfie with the hat"* | **`[APPLIED]`** | Decomposed the triple-speaker paragraph in Scene 8 into 3 separate paragraphs: (1) gallery quiet & Nincy statue (L0969–L0970), (2) Alfie finding the souvenir trucker hat (L0984–L0988), and (3) Pierre asking about the dragon display (L0990). |
+
+---
+
 ### 🧾 PR Record #003: `uneraseable-s3-claire-ick-321600`
+
 - **Branch:** `critique/uneraseable-s3-claire-ick-321600`
 - **Session:** `s3` (*The Raleigh Museum & The Aegean Inscription*)
 - **Reviewer:** `Claire Ick`

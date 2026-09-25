@@ -26,7 +26,8 @@ Alfie trembled from head to wooden toe. "Watch out for the water," he rasped, co
 
 The moment Alfie's hands had touched the stone, a warm, resonant shockwave of raw temporal vitality rippled across the room. The exhaustion of the day melted away from Pierre and Dravin in an instant. Spells long expended snapped back into readiness; strained muscles refreshed as though they had completed a full night's peaceful rest. <!-- L0382 --> <!-- L0383 --> <!-- L0385 --> <!-- L0387 -->
 
-"Alfie is absolutely shook to his core," Alfie breathed, clutching his coat. He looked back toward his companions, asking if they had felt the long rest surge or if they needed to touch the stone as well. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
+Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
+
 
 "The power emanated to all of us," Pierre called out in relief. <!-- L0397 --> <!-- L0400 -->
 

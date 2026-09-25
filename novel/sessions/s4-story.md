@@ -4,8 +4,6 @@
 
 ## CHAPTER 26: THE MEDUSA PROTOCOL
 
-## CHAPTER 26: THE MEDUSA PROTOCOL
-
 In the high-ceilinged atrium of the North Carolina Museum of World and North Carolina History, the scent of floor wax and climate-controlled coolness hung still in the air. Beyond the velvet stanchions, the celebrated ancient limestone tablet rested under its heavy vitrine, the fractured upper edge awaiting the missing shard. <!-- L0105 -->
 
 Behind the display, Pierre and Alfie wheeled out the metal archaeology cart. On its upper tray lay the artificial limestone fragment they had shaped and dusted in the back rooms, imbued with Alfie's razor-sharp wordcraft to mimic the missing ancient script. <!-- L0107 --> <!-- L0109 --> <!-- L0110 -->
@@ -132,7 +130,8 @@ Alfie trembled from head to wooden toe. "Watch out for the water," he rasped, co
 
 The moment Alfie's hands had touched the stone, a warm, resonant shockwave of raw temporal vitality rippled across the room. The exhaustion of the day melted away from Pierre and Dravin in an instant. Spells long expended snapped back into readiness; strained muscles refreshed as though they had completed a full night's peaceful rest. <!-- L0382 --> <!-- L0383 --> <!-- L0385 --> <!-- L0387 -->
 
-"Alfie is absolutely shook to his core," Alfie breathed, clutching his coat. He looked back toward his companions, asking if they had felt the long rest surge or if they needed to touch the stone as well. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
+Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
+
 
 "The power emanated to all of us," Pierre called out in relief. <!-- L0397 --> <!-- L0400 -->
 
@@ -162,7 +161,8 @@ Pierre finished reeling Alfie in, crouching low beside the shuddering doll. "Did
 
 "I am going to make a run across and grab the bomb," Pierre declared. Sprinting low, he darted beneath the raised glass vitrine, snatching the warm, beeping cylinder off the limestone slab before sliding back into the open gallery. <!-- L0451 --> <!-- L0458 -->
 
-"Pierre believes that all Gorgons are the same," Pierre announced with absolute philosophical conviction, "and every Gorgon he has met is French. And if there is one thing French people love, it is a nice baguette!" Flipping open his canvas lunch satchel, Pierre pulled out a fresh, crusty French baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head. <!-- L0459 -->
+In Pierre's mind, all Gorgons were fundamentally the same—and every Gorgon he had ever met was French. And if there was one thing Frenchmen could never resist, it was a crusty, fresh-baked baguette. Flipping open his canvas lunch satchel, Pierre pulled out a fresh baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head. <!-- L0459 -->
+
 
 "Fresh bread!" Pierre shouted across the gallery, aiming to distract the guards from Dravin. <!-- L0461 --> <!-- L0463 --> <!-- L0465 -->
 
@@ -351,8 +351,6 @@ Pierre looked up at the banners hanging in the hall. "Professor, I have been won
 <!-- LEDGER: rendered=[881, 882, 883, 886, 888, 889, 891, 894, 906, 908, 909, 914, 915, 918, 920, 923, 925, 926, 928, 930, 932, 933, 938, 940, 944, 947, 949, 952, 953, 954, 955, 958, 959, 960, 963, 964, 967, 969, 970, 972, 973, 981, 984, 985, 986, 988, 990] skipped=[884(ooc), 885(ooc), 887(ooc), 890(ooc), 892(ooc), 893(ooc), 895(ooc), 896(ooc), 897(ooc), 898(ooc), 899(ooc), 900(ooc), 901(ooc), 902(ooc), 903(ooc), 904(ooc), 905(ooc), 907(ooc), 910(ooc), 911(ooc), 912(ooc), 913(ooc), 916(ooc), 917(ooc), 919(ooc), 921(ooc), 922(ooc), 924(ooc), 927(ooc), 929(ooc), 931(ooc), 934(ooc), 935(ooc), 936(ooc), 937(ooc), 939(ooc), 941(ooc), 942(ooc), 943(ooc), 945(ooc), 946(ooc), 948(ooc), 950(ooc), 951(ooc), 956(ooc), 957(ooc), 961(ooc), 962(ooc), 965(ooc), 966(ooc), 968(ooc), 971(ooc), 974(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 979(ooc), 980(ooc), 982(ooc), 983(ooc), 987(ooc), 989(ooc)] -->
 
 <!-- RAW_RANGE: [991, 1100] | SCENE_ID: 9 -->
-
-## CHAPTER 28: ECHOES ACROSS THE LOST ROADS
 
 ## CHAPTER 28: ECHOES ACROSS THE LOST ROADS
 

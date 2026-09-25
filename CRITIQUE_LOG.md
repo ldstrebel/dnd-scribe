@@ -8,6 +8,8 @@ This log tracks every community review pull request, editor feedback payload, ed
 
 | PR / Ingestion ID | Session | Reviewer | Items | Status | Key Actions / Justifications |
 |---|---|---|---|---|---|
+| `uneraseable-s3-strebs-855517` | S3 | Strebs | 1 | **RESOLVED** | Fixed Museum Attendant curator dialogue attribution and coloring in Scene 10. |
+| `uneraseable-s4-strebs-752800` | S4 | Strebs | 4 | **RESOLVED** | Removed 3rd-person table intent from spoken quotes, fixed Pierre meta baguette dialogue, and split fused multi-speaker paragraphs for Alfie & Pierre. |
 | `uneraseable-s1-strebs-482131` | S1 | Strebs | 6 | **RESOLVED** | Fixed "Paris" phonetic transcription, smoothed *Toll the Dead*, pruned filler, logged *Chill Touch* to Retcon Watchlist. |
 | `uneraseable-s3-strebs-601985` | S3 | Strebs | 1 | **RESOLVED** | Full Session 3 grounding overhaul: eradicated truck hallucination; restored maintenance shed threshold, Ally (Maiden of Persephone), and Raleigh museum broom closet infiltration. |
 | `uneraseable-s1-strebs-426204` | S1 | Strebs | 4 | **RESOLVED** | Justified Eusacles roulette dialogue; fixed Alfie Cockney voice tag; clarified lawnmower grass combat revival; smoothed Pierre ride transition. |
@@ -16,7 +18,29 @@ This log tracks every community review pull request, editor feedback payload, ed
 
 ## Detailed PR Records
 
+### 🔹 PR Record #005: `uneraseable-s3-strebs-855517`
+- **Session:** Session 3 (*The Raleigh Museum & The Aegean Inscription*)
+- **Reviewer:** Strebs
+- **Items Processed:**
+  1. **Block `b088` (now `b092` - Curator Attendant speech bubble):**
+     - *Feedback:* *"why is this all showing up as Pierre?"*
+     - *Action & Justification:* Spoken line by senior museum curator (*"It is the premier history institution in the country, young man, not chewing gum!"*, L1633) was previously colored as Pierre. Attributed to Museum Attendant (`attendant`) with distinct NPC coloring (`#94a3b8`) and voice routing.
+
+---
+
+### 🔹 PR Record #004: `uneraseable-s4-strebs-752800`
+- **Session:** Session 4 (*The Medusa Protocol & Echoes Across the Lost Roads*)
+- **Reviewer:** Strebs
+- **Items Processed:**
+  1. **Block `b047_alt6` (Alfie "shook to his core" OOC quote):** Converted 3rd-person player table description (*"Alfie is absolutely shook to his wooden core"*) to atmospheric narrator prose.
+  2. **Block `b070_alt3` (Pierre Gorgon baguette meta dialogue):** Converted player's 3rd-person reasoning (*"Pierre believes all Gorgons are essentially French..."*) into active narrator prose, isolating the spoken shout (*"Fresh bread!"*).
+  3. **Block `b110_alt4` (Alfie *Mage Hand* terracotta pot drop):** Split fused paragraph into dedicated paragraphs so Alfie's action and Pierre's attendant dialogue are separately colored and tagged.
+  4. **Block `b141_alt4` (Alfie souvenir trucker hat):** Split mixed-speaker paragraph into 3 separate paragraphs (gallery atmosphere, Alfie's souvenir hat dialogue, Pierre's dragon inquiry).
+
+---
+
 ### 🔹 PR Record #001: `uneraseable-s1-strebs-482131`
+
 - **Session:** Session 1 (*The Bus from Vegas & The Library of the Fates*)
 - **Reviewer:** Strebs
 - **Items Processed:**

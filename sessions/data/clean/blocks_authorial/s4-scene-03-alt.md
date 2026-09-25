@@ -10,7 +10,8 @@ With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed acros
 
 Instantly, the museum dissolved into a raging sea tempest. Alfie stood upon the wave-swept deck of a wooden galley surging through pitch-black breakers. Rain lashed his face as a marauder captain bellowed to his crew to pillage the slumbering coast, only for reality to shudder and split. In one thread of time, the steersman aimed for the lighthouse beacon, saving the sleeping town while the ship shattered into splinters against the jagged granite reef; in the other, the raiders slipped past the shoals, burning the village to ash. With a violent temporal jolt, the fold snapped shut, returning Alfie to the museum floor beside the ticking cylinder as a wave of vital restorative energy washed over Pierre and Professor Dravin. <!-- L0371-L0387 -->
 
-"Alfie is absolutely shook to his wooden core," Alfie rasped, trembling from head to toe. "Watch out for the water! Pull me out! Pull me up!" He yanked desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing. <!-- L0390-L0408 -->
+Alfie trembled from head to toe, shaken to his wooden core. "Watch out for the water! Pull me out! Pull me up!" he rasped, yanking desperately on the orange extension cord like a deep-sea diver signaling for emergency surfacing. <!-- L0390-L0408 -->
+
 
 Pierre set his heels against the shipping crate and hauled on the rubber cable, reeling Alfie back under the glass gap just as the lead Gordon lunged across the floor toward Dravin in serpent-headed fury, shouting that the timeline revision had been compromised. <!-- L0412-L0419 -->
 

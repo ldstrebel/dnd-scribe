@@ -6,7 +6,8 @@
 
 "I am going to make a run across and grab the bomb," Pierre declared. Sprinting low, he darted beneath the raised glass vitrine, snatching the warm, beeping cylinder off the limestone slab before sliding back into the open gallery. <!-- L0451 --> <!-- L0458 -->
 
-"Pierre believes that all Gorgons are the same," Pierre announced with absolute philosophical conviction, "and every Gorgon he has met is French. And if there is one thing French people love, it is a nice baguette!" Flipping open his canvas lunch satchel, Pierre pulled out a fresh, crusty French baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head. <!-- L0459 -->
+In Pierre's mind, all Gorgons were fundamentally the same—and every Gorgon he had ever met was French. And if there was one thing Frenchmen could never resist, it was a crusty, fresh-baked baguette. Flipping open his canvas lunch satchel, Pierre pulled out a fresh baguette. With surgical precision, he thumbed a hollow into the crumb, jammed the ticking explosive deep inside the crust, and held it high above his head. <!-- L0459 -->
+
 
 "Fresh bread!" Pierre shouted across the gallery, aiming to distract the guards from Dravin. <!-- L0461 --> <!-- L0463 --> <!-- L0465 -->
 
