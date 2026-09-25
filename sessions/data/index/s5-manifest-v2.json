@@ -234,15 +234,21 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "C",
+      "grade": "D",
       "verdict": "BLOCKED \u2014 CRITICAL FAILURES REQUIRE REVISION",
       "technicalCompliance": {
-        "criticalErrors": 7,
+        "criticalErrors": 9,
         "editorialWarnings": 1,
-        "score": 72
+        "score": 62
       },
-      "ruthlessAnalysis": "Audit Score: 72/100. Chapter Lumping Failure: All 220 blocks are lumped under single scene 'Prologue'! Session must be partitioned into at least 2-3 structured chapters (e.g., 'CHAPTER 29: ...'). Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
+      "ruthlessAnalysis": "Audit Score: 62/100. Session 5 is missing Track B (Cinematic Cut) entirely! Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B! Chapter Lumping Failure: All 220 blocks are lumped under single scene 'Prologue'! Session must be partitioned into at least 2-3 structured chapters (e.g., 'CHAPTER 29: ...').",
       "tradeOffs": [
+        {
+          "dimension": "Faithful Transcript Chronicle vs High-Stakes Novelization",
+          "chosenStance": "Tabletop Cut only",
+          "counterStance": "Dual-cut multi-lens delivery",
+          "tradeOffCost": "Missing the Cinematic Cut robs readers of the elevated, fast-paced novel experience."
+        },
         {
           "dimension": "Dialogue Intimacy vs Setting Grounding",
           "chosenStance": "High spoken share",
@@ -251,6 +257,11 @@
         }
       ],
       "nearestRisks": [
+        {
+          "title": "Track B Omission",
+          "risk": "The 3-lens reader collapses to 2 lenses without the authorial cut.",
+          "mitigation": "Author s5-scene-*-alt.md files."
+        },
         {
           "title": "Attribution Skew",
           "risk": "Speaker attribution must strictly match in-text dialogue tags.",

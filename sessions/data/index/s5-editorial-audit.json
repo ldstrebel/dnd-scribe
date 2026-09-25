@@ -4,23 +4,25 @@
   "totalWords": 7922,
   "blockCount": 220,
   "rawLinesCount": 1257,
-  "totalScore": 72,
-  "grade": "C",
+  "totalScore": 62,
+  "grade": "D",
   "verdict": "BLOCKED \u2014 CRITICAL FAILURES REQUIRE REVISION",
   "scoreBreakdown": {
-    "mechanical": 15,
+    "mechanical": 10,
     "attribution": 10,
     "voiceprint": 25,
-    "literary_craft": 22
+    "literary_craft": 17
   },
   "criticalErrors": [
+    "Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B!",
     "Chapter Lumping Failure: All 220 blocks are lumped under single scene 'Prologue'! Session must be partitioned into at least 2-3 structured chapters (e.g., 'CHAPTER 29: ...').",
     "Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
     "Speaker Misattribution in Block #59 (uneraseable_s05_b059): Manifest has speakerId='alfie', but prose says 'eusacles': \"What are you doing to your arm, little mate?\" Eusacles asked around a mouthful of crepe, leaning ov...",
     "Speaker Misattribution in Block #70 (uneraseable_s05_b070): Manifest has speakerId='dravin', but prose says 'eusacles': \"I'm telling you, these roads are a disaster,\" Eusacles muttered from behind him, ducking beneath a ...",
     "Speaker Misattribution in Block #103 (uneraseable_s05_b103): Manifest has speakerId='dravin', but prose says 'pierre': \"Leave the custodian to French diplomacy, Professor,\" Pierre murmured, adjusting his wire spectacles...",
     "Speaker Misattribution in Block #107 (uneraseable_s05_b107): Manifest has speakerId='attendant', but prose says 'pierre': \"You polished it with sandpaper, Monsieur Ready!\" Pierre shouted, storming into the custodian's pers...",
-    "Speaker Misattribution in Block #153 (uneraseable_s05_b153): Manifest has speakerId='attendant', but prose says 'alfie': \"No university ballcaps,\" Alfie whispered, rooting through the speaker's welcome basket on the glass..."
+    "Speaker Misattribution in Block #153 (uneraseable_s05_b153): Manifest has speakerId='attendant', but prose says 'alfie': \"No university ballcaps,\" Alfie whispered, rooting through the speaker's welcome basket on the glass...",
+    "Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes."
   ],
   "editorialWarnings": [
     "Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding."
@@ -89,5 +91,58 @@
       "sceneRange": "Scenes 7\u201310 (Lines 0791\u20131257)",
       "summary": "Infiltration of the lecture amphitheater, Dr. Aris Thorne's address, uncovering the Big Pox anchor notes, and narrow egress."
     }
-  ]
+  ],
+  "contentReview": {
+    "sourceFidelity": {
+      "score": 8.5,
+      "strengths": [
+        "Excellent comedic translation of table banter into character beats: Pierre's jury duty vs. guillotine rant in Scene 2 is inspired prose adaptation.",
+        "The academic Q&A distraction in Scene 9 accurately honors player tactics: Dravin manipulating Dr. Thorne with 'visual learners' while Eusacles harangues her about 1948 refrigeration.",
+        "The temporal vision in Scene 10 brilliantly dramatizes the GM's description of the 1948 subterranean basement, the milk-eyed comatose patients, and the shifting ink from STABLE to STALE."
+      ],
+      "weaknesses": [
+        "The Satyr ambush ending (L1242\u2013L1250) is severely rushed in prose. The comedic table tension (John Hagey: 'Did you say satyrs or satans? Because one is far scarier!') was cut, and three horned beasts kick down doors with zero breathing room before a hard cut to black.",
+        "Scenes 4 and 5 (the transit across the Lost Roads) wander aimlessly without conflict, transcribing low-energy player travel chatter rather than compressing it into a cinematic drive."
+      ]
+    },
+    "characterMotivations": {
+      "pierre": {
+        "fidelity": "High (9/10)",
+        "critique": "Captures Luke S's deadpan Parisian vanity, obsession with classical stonework, and contempt for American culture. Weakness: In Scenes 4\u20136, Pierre fades into passive background scenery while Dravin and Eusacles steer the scene."
+      },
+      "dravin": {
+        "fidelity": "Mixed / Critical Blind Spot (5/10)",
+        "critique": "Dravin's patrician scholarly facade is well-rendered during the lecture, BUT the adaptation commits a major literary sin: in Scene 3, Dravin receives a wax-sealed letter from Persephone confirming he is the divine son of the Goddess of the Underworld. In the prose, Dravin simply folds the letter, puts it in his coat, and never thinks about it again! There is zero interiority regarding what it means for an aging Stanford academic to learn his mother is a chthonic deity descending into the underworld for the winter. This massive emotional beat is treated like a discarded side-quest prop."
+      },
+      "eusacles": {
+        "fidelity": "Solid (8/10)",
+        "critique": "Captures John Hagey's blue-collar swagger, denim-and-sunglasses aesthetic, and no-nonsense skepticism ('Show me the research!'). Weakness: Glosses over his mysterious excursion into the fog and his dice/Thanatos lore."
+      },
+      "alfie": {
+        "fidelity": "Inconsistent (6/10)",
+        "critique": "Alfie's climactic horror beat ('Not again. Not me again!') when forced to touch the relic is the emotional high point of the session. However, across Scenes 4\u20137, Alfie suffers from 'luggage syndrome'\u2014she sits silently in Dravin's pocket or on his shoulder without lines or agency for dozens of paragraphs."
+      }
+    },
+    "cinematicCutEvaluation": {
+      "status": "MISSING / CRITICAL FAILURE",
+      "analysis": "Session 5 currently has NO authorial cinematic cut files in 'blocks_authorial/'. In Session 4, the reader presents 3 distinct lenses: Raw, Tabletop, and Cinematic. For Session 5, the upstream pipeline stopped at the Tabletop cut. The Cinematic Cut is mandatory: it is where dead travel turns must be excised, Dravin's divine heritage given rich interiority, Alfie given proactive physical business, and the Bethlehem lecture turned into a heart-pounding 1940s medical conspiracy thriller."
+    },
+    "cutOrderingBlueprint": {
+      "act1": {
+        "title": "Act I: The Divine Post & The Lost Road",
+        "tabletopScenes": "Scenes 1\u20133 (Lines 0001\u20130390)",
+        "cinematicOrdering": "Condense the 390-line morning breakfast into a tight, atmospheric cold open. Focus on the sensory contrast of rum crepes against the timeless Margin fog. Intercut Hermes' arrival with Dravin's inner shock at Persephone's letter, establishing the ticking clock before Dr. Thorne's 2:00 PM lecture."
+      },
+      "act2": {
+        "title": "Act II: The Quadrangle & The Tin-Foil Front",
+        "tabletopScenes": "Scenes 4\u20136 (Lines 0391\u20130790)",
+        "cinematicOrdering": "Cut the wandering highway chatter in scenes 4\u20135. Drop the party directly into the collegiate quad. Heighten the paranoia of the tin-foil demonstrators. Give Alfie active physical interaction with campus artifacts (the welcome basket, the scarf) and let Pierre's snobbery clash actively with modern campus architecture."
+      },
+      "act3": {
+        "title": "Act III: The 1948 Notes & The Shattered Timeline",
+        "tabletopScenes": "Scenes 7\u201310 (Lines 0791\u20131257)",
+        "cinematicOrdering": "Pace the lecture hall infiltration as a high-tension heist. Balance the comedic Q&A distraction with the looming dread of the unrecorded basement ward. Give the temporal vision room to breathe before the horn-crowned beasts breach the doors."
+      }
+    }
+  }
 }
