@@ -97,8 +97,13 @@ For Track B (Authorial Cut scenes), we avoid non-deterministic sentiment analysi
 ### 4. Downstream Verbatim Contract
 * Downstream readers (`dndwikis`, EPUB readers, ElevenLabs TTS pipelines) require exact speaker coloring, line provenance, and sub-block segmentation without risking text mutation.
 * **The 100% Verbatim Invariant:**
-  $$\sum_{s \in 	ext{block.segments}} s.	ext{text} \equiv 	ext{block}.	ext{text}$$
+  $$\sum_{s \in \text{block.segments}} s.\text{text} \equiv \text{block}.\text{text}$$
   Decomposing a paragraph into `"narration"` and `"dialogue"` must reconstruct the original block character-for-character, preserving exact whitespace, em-dashes, and punctuation.
+
+### 5. The Zero-Regex Dialogue & Origin-Time Provenance Law
+* **Origin-Time Invariant:** Dialogue classification and speaker identities are established **at creation time** during transcript cleaning/indexing (`sN-raw-indexed.md` / `sN-session-config.json`) and prose drafting (`<!-- Lxxxx -->`).
+* **Zero Post-Hoc Guesswork:** Compilers, TTS generators, and manifest builders must **NEVER** use regex, speech-verb parsers, or text searches on prose to infer who spoke.
+* **Direct Provenance Lookup:** Text inside quotes (`"..."`) takes its speaker directly from `raw_speakers[sourceLine]`; text outside quotes is always `speakerId: "narrator"`.
 
 ---
 

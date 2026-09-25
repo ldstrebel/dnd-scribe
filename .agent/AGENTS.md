@@ -52,6 +52,17 @@ Every raw line must be categorized during transcript cleaning:
 
 ---
 
+## 2.1 The Zero-Regex Dialogue & Origin-Time Provenance Law
+
+* **Origin-Time Invariant:** Dialogue classification and speaker identity are established **at the point of creation** (in transcript indexing and modular prose block generation).
+* **Zero Post-Hoc Guesswork:** Downstream tools (`generate_web_manifest.py`, TTS generators, EPUB compilers, Web Readers) must **NEVER** use regex, speech-verb parsers, or name searches on prose to infer or guess who is speaking.
+* **Direct Provenance Lookup:**
+  - In archival and creative blocks, text inside quotes (`"..."`) derives its speaker identity directly from the attached line anchor (`<!-- Lxxxx -->` or span `<!-- Lxxxx-Lyyyy -->`) mapped against `sN-session-config.json` and `sN-raw-indexed.md`.
+  - Text outside quotes is unconditionally `speakerId: "narrator"`.
+  - Violating this by adding regex heuristics or arbitrary fallbacks (`else: pierre`) is an architectural breach.
+
+---
+
 ## 3. Graphic Novel Storyboard Rules
 
 *   **Never truncate page budgets:** Scale pages to the emotional and narrative weight of each scene (typically 3–5 pages per major scene).
