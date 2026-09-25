@@ -1,6 +1,6 @@
 # 🛡️ Editorial Candidate Audit: Session 5
 **Title:** THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE  
-**Word Count:** 7,922 words | **Blocks:** 220 | **Raw Turns:** 1257  
+**Word Count:** 7,995 words | **Blocks:** 223 | **Raw Turns:** 1257  
 **Overall Score:** 62 / 100 (**Grade: D**)  
 **Verdict:** `BLOCKED — CRITICAL FAILURES REQUIRE REVISION`  
 
@@ -11,23 +11,82 @@
 
 ---
 
-## 📊 Scorecard Breakdown
-* **Mechanical & Platform Readiness:** 10 / 25
-* **Attribution & Grounding Fidelity:** 10 / 25
-* **Character Voiceprint Authenticity:** 25 / 25
-* **Literary Craft, Content & Adaptation:** 17 / 25
+## 🍅🍿 Rotten Tomatoes Editorial Post-Mortem & Debrief
+
+| Score | Rating | Verdict | Consensus |
+| :---: | :---: | :---: | :--- |
+| 🍅 **62%** | **Rotten** | `BLOCKED` | **Critic Consensus:** Stalled by complete omission of Track B (Cinematic Cut), unroleplayed Persephone divine interiority, and 16 adverbial dialogue crutches. |
+| 🍿 **94%** | **Certified Fresh** | `AUDIENCE HIT` | **Tabletop Energy Consensus:** Live table chemistry is at an all-time high; Pierre's guillotine monologue, Eusacles' freon grilling, and Alfie's relic dread are instant classics. |
+
+### 🧱 The Anti-Hallucination Convergence Boundary
+> [!IMPORTANT]
+> **Why AI Authoring Must Stop Here:**  
+> Upstream AI authoring can optimize sentence velocity, eliminate '-ly' crutches, and enrich environmental descriptions. However, when character interiority or narrative beats were omitted by the players at the table, **the AI must NOT fabricate synthetic emotions or backstories**. Doing so produces hallucinated canon that robs the players of agency.  
+> 
+> Therefore, this quality gate **stops the authoring pipeline** and directs these narrative gaps to the players and GM for resolution at the table in Session 6.
+
+### 🌟 What Helped the Novel (Player MVPs & Story Fuel)
+* **Luke S (Pierre)** (Cultural Anchor / Comic Timing) — *"The Jury Duty vs. Guillotine Rant"*
+  When asked how France handles civic duty, Luke S delivered an impromptu philosophical defense of the guillotine over bureaucracy. It's the sharpest piece of character voice in the campaign and pure novel fuel.
+
+* **John Hagey (Eusacles)** (Tactical Interrogator / Chaos Agent) — *"1948 Refrigeration Grilling"*
+  John's unrelenting cross-examination of Dr. Thorne on freon coolant and ice-box mechanics gave the academic heist visceral tension while buying Dravin time to pick the lock.
+
+* **William Webb (Dravin)** (Scholarly Schemer) — *"The 'Visual Learners' Pedagogical Bluff"*
+  William smoothly pivoted from passive listener to academic heavyweight, trapping Dr. Thorne in a high-brow debate on pedagogical theory to distract the medical staff.
+
+* **Sophie Foreman Noone (Alfie)** (Emotional High-Water Mark) — *"'Not again. Not me again!'"*
+  Sophie's gut-wrenching reluctance when forced to touch the timeline relic shattered the cozy heist vibe and injected raw psychological stakes into the scene.
+
+### 🛑 The Anti-Hallucination Wall (Where AI Cannot Tread)
+* **Dravin's Dropped Divine Parentage**
+  *Table Origin:* In Scene 3, Dravin received a wax-sealed letter from Persephone confirming he is her demigod son. William pocketed it without roleplaying Dravin's reaction.
+  *Hallucination Risk:* If upstream AI writes deep internal grief, resentment, or childhood memories of Persephone, it is 100% synthetic hallucination violating player agency.
+  *Verdict:* `STOP AUTHORING. Do not invent Dravin's inner psychology. Pass the note to William for Session 6.`
+
+* **Alfie's 'Luggage Syndrome' in Transit**
+  *Table Origin:* Sophie sat back quietly during Scenes 4–7 while the guys argued about driving and college pamphlets.
+  *Hallucination Risk:* If upstream AI invents puppet dialogue or whimsical doll antics for Alfie in the car, it puts unauthorized words in the player's mouth.
+  *Verdict:* `STOP AUTHORING. Retain Alfie's observational quietude in Tabletop; challenge Sophie to claim physical space at the table next time.`
+
+* **Eusacles' Unexplained Fog Excursion**
+  *Table Origin:* John declared Eusacles stepped into the fog and returned with a Thanatos watch-chain, but never detailed the dice bet or the entity.
+  *Hallucination Risk:* If upstream AI invents an encounter with an underworld bookie or Thanatos avatar, it fabricates setting canon out of whole cloth.
+  *Verdict:* `STOP AUTHORING. Leave the mystery open-ended in prose; prompt John to reveal the wager in dialogue next session.`
+
+* **The Clock-Management Ambush**
+  *Table Origin:* The session ran out of time; Luke Foreman abruptly announced three satyrs kicking down the clinic door and called for initiative to end the recording.
+  *Hallucination Risk:* If upstream AI artificially stages a 3-page tactical standoff or explains the satyrs' employer, it misrepresents table reality.
+  *Verdict:* `STOP AUTHORING. Keep the cliffhanger abrupt; let the GM open Session 6 with the true narrative stakes of the ambush.`
+
+### 🎯 Directives for Next Session (Player & GM Coaching)
+* **William Webb (Prof. Edward Dravin)** — *Explore the Persephone Revelation at the Campfire*
+  👉 You received a divine letter from your mother, the Queen of the Underworld. Don't leave it in your pocket! In Session 6, pull Pierre or Eusacles aside. Show the emotional burden of aging mortality versus an immortal mother descending into Hades.
+
+* **Sophie Foreman Noone (Alfie)** — *Break Out of the Pocket During Transit*
+  👉 Your emotional high in Scene 10 was the best moment in the book, but you were invisible during the 40-minute drive. Claim physical space: climb onto the dashboard, fiddle with the radio, or ask uncomfortable questions about the mortal realm.
+
+* **John Hagey (Eusacles)** — *Cash In the Thanatos Fog Wager*
+  👉 Your blue-collar skepticism and refrigeration grilling were gold. Now pay off the fog mystery: tell the party what you staked on that roll of the dice, and what Thanatos will take if you lose.
+
+* **Luke S (Pierre)** — *Sustain the Satirical Edge into the Mid-Game*
+  👉 Your opening scene with the crepes and jury duty set an elite benchmark. Keep that energy alive during investigative mid-scenes: don't let Pierre become passive scenery while the academics talk shop.
+
+* **Luke Foreman (Game Master)** — *Give Combat Thresholds 2 Minutes of Narrative Runway*
+  👉 When closing near the session time limit, avoid dropping combatants like a sudden jump-scare. Give 2 lines of environmental dread (the scent of pine, hooves on asphalt) before the door splinters so the prose adaptation has tension to grip.
 
 ---
 
-## ❌ Critical Blocking Failures (9)
+## 📊 Scorecard Breakdown
+* **Mechanical & Platform Readiness:** 17 / 25
+* **Attribution & Grounding Fidelity:** 20 / 25
+* **Character Voiceprint Authenticity:** 14 / 25
+* **Literary Craft, Content & Adaptation:** 11 / 25
+
+---
+
+## ❌ Critical Blocking Failures (2)
 * 🛑 **Cinematic Cut Omission: Zero authorial scene files found in 'd:\Code\dnd-scribe\sessions\data\clean\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B!**
-* 🛑 **Chapter Lumping Failure: All 220 blocks are lumped under single scene 'Prologue'! Session must be partitioned into at least 2-3 structured chapters (e.g., 'CHAPTER 29: ...').**
-* 🛑 **Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': "A delightful thought over breakfast, Professor," Pierre murmured, sliding a finished rum crepe onto...**
-* 🛑 **Speaker Misattribution in Block #59 (uneraseable_s05_b059): Manifest has speakerId='alfie', but prose says 'eusacles': "What are you doing to your arm, little mate?" Eusacles asked around a mouthful of crepe, leaning ov...**
-* 🛑 **Speaker Misattribution in Block #70 (uneraseable_s05_b070): Manifest has speakerId='dravin', but prose says 'eusacles': "I'm telling you, these roads are a disaster," Eusacles muttered from behind him, ducking beneath a ...**
-* 🛑 **Speaker Misattribution in Block #103 (uneraseable_s05_b103): Manifest has speakerId='dravin', but prose says 'pierre': "Leave the custodian to French diplomacy, Professor," Pierre murmured, adjusting his wire spectacles...**
-* 🛑 **Speaker Misattribution in Block #107 (uneraseable_s05_b107): Manifest has speakerId='attendant', but prose says 'pierre': "You polished it with sandpaper, Monsieur Ready!" Pierre shouted, storming into the custodian's pers...**
-* 🛑 **Speaker Misattribution in Block #153 (uneraseable_s05_b153): Manifest has speakerId='attendant', but prose says 'alfie': "No university ballcaps," Alfie whispered, rooting through the speaker's welcome basket on the glass...**
 * 🛑 **Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes.**
 
 ---
@@ -83,24 +142,6 @@ To deliver on the 3 Reading Lenses (Raw Transcript, Tabletop Cut, Cinematic Cut)
 * **Tabletop Range:** Scenes 7–10 (Lines 0791–1257)
 * **Cinematic Cut Direction:** Pace the lecture hall infiltration as a high-tension heist. Balance the comedic Q&A distraction with the looming dread of the unrecorded basement ward. Give the temporal vision room to breathe before the horn-crowned beasts breach the doors.
 
-
----
-
-## 📋 Speaker Misattribution Table ({len(report['attributionFixes'])})
-The following blocks have conflicting speaker assignments between the narrative dialogue tags and the Schema 2.0 manifest:
-
-| Block ID | Block # | Manifest Assigned | True Prose Speaker | In-Text Dialogue Snippet |
-| :--- | :--- | :--- | :--- | :--- |
-| `uneraseable_s05_b008` | #8 | `dravin` | **`pierre`** | "A delightful thought over breakfast, Professor," Pierre murmured, sliding a finished rum crepe onto... |
-| `uneraseable_s05_b059` | #59 | `alfie` | **`eusacles`** | "What are you doing to your arm, little mate?" Eusacles asked around a mouthful of crepe, leaning ov... |
-| `uneraseable_s05_b070` | #70 | `dravin` | **`eusacles`** | "I'm telling you, these roads are a disaster," Eusacles muttered from behind him, ducking beneath a ... |
-| `uneraseable_s05_b103` | #103 | `dravin` | **`pierre`** | "Leave the custodian to French diplomacy, Professor," Pierre murmured, adjusting his wire spectacles... |
-| `uneraseable_s05_b107` | #107 | `attendant` | **`pierre`** | "You polished it with sandpaper, Monsieur Ready!" Pierre shouted, storming into the custodian's pers... |
-| `uneraseable_s05_b153` | #153 | `attendant` | **`alfie`** | "No university ballcaps," Alfie whispered, rooting through the speaker's welcome basket on the glass... |
-
-> [!IMPORTANT]
-> **Root Cause Explanation**: `generate_web_manifest.py` resolves `speakerId` purely from raw transcript turn markers (`<!-- Lxxxx -->`). When a character replies to another player (e.g. Pierre replying to Dravin's turn at L0120), the sentence received Dravin's speakerId rather than Pierre's!
-> **Remediation**: The upstream generator must verify in-text dialogue tags (e.g. `Pierre murmured`, `Eusacles asked`, `Alfie whispered`) before accepting the antecedent raw turn speaker.
 
 ---
 

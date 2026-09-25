@@ -1,97 +1,30 @@
 {
   "session": 5,
   "title": "THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE",
-  "totalWords": 7922,
-  "blockCount": 220,
+  "totalWords": 7995,
+  "blockCount": 223,
   "rawLinesCount": 1257,
   "totalScore": 62,
   "grade": "D",
   "verdict": "BLOCKED \u2014 CRITICAL FAILURES REQUIRE REVISION",
+  "tomatometer": 62,
+  "popcornmeter": 94,
   "scoreBreakdown": {
-    "mechanical": 10,
-    "attribution": 10,
-    "voiceprint": 25,
-    "literary_craft": 17
+    "mechanical": 17,
+    "attribution": 20,
+    "voiceprint": 14,
+    "literary_craft": 11
   },
   "criticalErrors": [
     "Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B!",
-    "Chapter Lumping Failure: All 220 blocks are lumped under single scene 'Prologue'! Session must be partitioned into at least 2-3 structured chapters (e.g., 'CHAPTER 29: ...').",
-    "Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
-    "Speaker Misattribution in Block #59 (uneraseable_s05_b059): Manifest has speakerId='alfie', but prose says 'eusacles': \"What are you doing to your arm, little mate?\" Eusacles asked around a mouthful of crepe, leaning ov...",
-    "Speaker Misattribution in Block #70 (uneraseable_s05_b070): Manifest has speakerId='dravin', but prose says 'eusacles': \"I'm telling you, these roads are a disaster,\" Eusacles muttered from behind him, ducking beneath a ...",
-    "Speaker Misattribution in Block #103 (uneraseable_s05_b103): Manifest has speakerId='dravin', but prose says 'pierre': \"Leave the custodian to French diplomacy, Professor,\" Pierre murmured, adjusting his wire spectacles...",
-    "Speaker Misattribution in Block #107 (uneraseable_s05_b107): Manifest has speakerId='attendant', but prose says 'pierre': \"You polished it with sandpaper, Monsieur Ready!\" Pierre shouted, storming into the custodian's pers...",
-    "Speaker Misattribution in Block #153 (uneraseable_s05_b153): Manifest has speakerId='attendant', but prose says 'alfie': \"No university ballcaps,\" Alfie whispered, rooting through the speaker's welcome basket on the glass...",
     "Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes."
   ],
   "editorialWarnings": [
     "Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding."
   ],
   "proseCritiques": [],
-  "attributionFixes": [
-    {
-      "blockId": "uneraseable_s05_b008",
-      "index": 8,
-      "manifestSpeaker": "dravin",
-      "proseSpeaker": "pierre",
-      "snippet": "\"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto..."
-    },
-    {
-      "blockId": "uneraseable_s05_b059",
-      "index": 59,
-      "manifestSpeaker": "alfie",
-      "proseSpeaker": "eusacles",
-      "snippet": "\"What are you doing to your arm, little mate?\" Eusacles asked around a mouthful of crepe, leaning ov..."
-    },
-    {
-      "blockId": "uneraseable_s05_b070",
-      "index": 70,
-      "manifestSpeaker": "dravin",
-      "proseSpeaker": "eusacles",
-      "snippet": "\"I'm telling you, these roads are a disaster,\" Eusacles muttered from behind him, ducking beneath a ..."
-    },
-    {
-      "blockId": "uneraseable_s05_b103",
-      "index": 103,
-      "manifestSpeaker": "dravin",
-      "proseSpeaker": "pierre",
-      "snippet": "\"Leave the custodian to French diplomacy, Professor,\" Pierre murmured, adjusting his wire spectacles..."
-    },
-    {
-      "blockId": "uneraseable_s05_b107",
-      "index": 107,
-      "manifestSpeaker": "attendant",
-      "proseSpeaker": "pierre",
-      "snippet": "\"You polished it with sandpaper, Monsieur Ready!\" Pierre shouted, storming into the custodian's pers..."
-    },
-    {
-      "blockId": "uneraseable_s05_b153",
-      "index": 153,
-      "manifestSpeaker": "attendant",
-      "proseSpeaker": "alfie",
-      "snippet": "\"No university ballcaps,\" Alfie whispered, rooting through the speaker's welcome basket on the glass..."
-    }
-  ],
-  "chapterBlueprint": [
-    {
-      "act": "Act I",
-      "chapter": "CHAPTER 29: PARCHMENT, CREPES, AND THE GOD OF TRANSIT",
-      "sceneRange": "Scenes 1\u20133 (Lines 0001\u20130390)",
-      "summary": "Morning hearth at The Margin, rum crepes, Hermes' celestial delivery of Persephone's letter to Dravin, and Eusacles' return from the fog."
-    },
-    {
-      "act": "Act II",
-      "chapter": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
-      "sceneRange": "Scenes 4\u20136 (Lines 0391\u20130790)",
-      "summary": "Lost Road highway transit, arrival at the collegiate quad, confrontation with paranoid conspiracists, and Pierre's limestone diplomacy."
-    },
-    {
-      "act": "Act III",
-      "chapter": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
-      "sceneRange": "Scenes 7\u201310 (Lines 0791\u20131257)",
-      "summary": "Infiltration of the lecture amphitheater, Dr. Aris Thorne's address, uncovering the Big Pox anchor notes, and narrow egress."
-    }
-  ],
+  "attributionFixes": [],
+  "chapterBlueprint": [],
   "contentReview": {
     "sourceFidelity": {
       "score": 8.5,
@@ -143,6 +76,92 @@
         "tabletopScenes": "Scenes 7\u201310 (Lines 0791\u20131257)",
         "cinematicOrdering": "Pace the lecture hall infiltration as a high-tension heist. Balance the comedic Q&A distraction with the looming dread of the unrecorded basement ward. Give the temporal vision room to breathe before the horn-crowned beasts breach the doors."
       }
+    },
+    "tableDebrief": {
+      "tomatometer": 62,
+      "tomatometerStatus": "Rotten",
+      "popcornmeter": 94,
+      "popcornmeterStatus": "Certified Fresh",
+      "summary": "The table brought peak tabletop energy, brilliant banter, and instant classic character moments (94% Popcornmeter), but the candidate prose adaptation stalls at a 62% Tomatometer due to missing Track B, dropped character interiority, and unroleplayed plot reveals. Crucially, the AI authoring pipeline cannot fix these flaws alone without hallucinating net-new canon. The edit critique now passes directly to the players and GM for next session.",
+      "whatHelped": [
+        {
+          "player": "Luke S (Pierre)",
+          "role": "Cultural Anchor / Comic Timing",
+          "moment": "The Jury Duty vs. Guillotine Rant",
+          "impact": "When asked how France handles civic duty, Luke S delivered an impromptu philosophical defense of the guillotine over bureaucracy. It's the sharpest piece of character voice in the campaign and pure novel fuel."
+        },
+        {
+          "player": "John Hagey (Eusacles)",
+          "role": "Tactical Interrogator / Chaos Agent",
+          "moment": "1948 Refrigeration Grilling",
+          "impact": "John's unrelenting cross-examination of Dr. Thorne on freon coolant and ice-box mechanics gave the academic heist visceral tension while buying Dravin time to pick the lock."
+        },
+        {
+          "player": "William Webb (Dravin)",
+          "role": "Scholarly Schemer",
+          "moment": "The 'Visual Learners' Pedagogical Bluff",
+          "impact": "William smoothly pivoted from passive listener to academic heavyweight, trapping Dr. Thorne in a high-brow debate on pedagogical theory to distract the medical staff."
+        },
+        {
+          "player": "Sophie Foreman Noone (Alfie)",
+          "role": "Emotional High-Water Mark",
+          "moment": "'Not again. Not me again!'",
+          "impact": "Sophie's gut-wrenching reluctance when forced to touch the timeline relic shattered the cozy heist vibe and injected raw psychological stakes into the scene."
+        }
+      ],
+      "antiHallucinationWall": [
+        {
+          "issue": "Dravin's Dropped Divine Parentage",
+          "tableOrigin": "In Scene 3, Dravin received a wax-sealed letter from Persephone confirming he is her demigod son. William pocketed it without roleplaying Dravin's reaction.",
+          "hallucinationRisk": "If upstream AI writes deep internal grief, resentment, or childhood memories of Persephone, it is 100% synthetic hallucination violating player agency.",
+          "verdict": "STOP AUTHORING. Do not invent Dravin's inner psychology. Pass the note to William for Session 6."
+        },
+        {
+          "issue": "Alfie's 'Luggage Syndrome' in Transit",
+          "tableOrigin": "Sophie sat back quietly during Scenes 4\u20137 while the guys argued about driving and college pamphlets.",
+          "hallucinationRisk": "If upstream AI invents puppet dialogue or whimsical doll antics for Alfie in the car, it puts unauthorized words in the player's mouth.",
+          "verdict": "STOP AUTHORING. Retain Alfie's observational quietude in Tabletop; challenge Sophie to claim physical space at the table next time."
+        },
+        {
+          "issue": "Eusacles' Unexplained Fog Excursion",
+          "tableOrigin": "John declared Eusacles stepped into the fog and returned with a Thanatos watch-chain, but never detailed the dice bet or the entity.",
+          "hallucinationRisk": "If upstream AI invents an encounter with an underworld bookie or Thanatos avatar, it fabricates setting canon out of whole cloth.",
+          "verdict": "STOP AUTHORING. Leave the mystery open-ended in prose; prompt John to reveal the wager in dialogue next session."
+        },
+        {
+          "issue": "The Clock-Management Ambush",
+          "tableOrigin": "The session ran out of time; Luke Foreman abruptly announced three satyrs kicking down the clinic door and called for initiative to end the recording.",
+          "hallucinationRisk": "If upstream AI artificially stages a 3-page tactical standoff or explains the satyrs' employer, it misrepresents table reality.",
+          "verdict": "STOP AUTHORING. Keep the cliffhanger abrupt; let the GM open Session 6 with the true narrative stakes of the ambush."
+        }
+      ],
+      "playerDirectives": [
+        {
+          "target": "William Webb (Prof. Edward Dravin)",
+          "directive": "Explore the Persephone Revelation at the Campfire",
+          "actionableCoaching": "You received a divine letter from your mother, the Queen of the Underworld. Don't leave it in your pocket! In Session 6, pull Pierre or Eusacles aside. Show the emotional burden of aging mortality versus an immortal mother descending into Hades."
+        },
+        {
+          "target": "Sophie Foreman Noone (Alfie)",
+          "directive": "Break Out of the Pocket During Transit",
+          "actionableCoaching": "Your emotional high in Scene 10 was the best moment in the book, but you were invisible during the 40-minute drive. Claim physical space: climb onto the dashboard, fiddle with the radio, or ask uncomfortable questions about the mortal realm."
+        },
+        {
+          "target": "John Hagey (Eusacles)",
+          "directive": "Cash In the Thanatos Fog Wager",
+          "actionableCoaching": "Your blue-collar skepticism and refrigeration grilling were gold. Now pay off the fog mystery: tell the party what you staked on that roll of the dice, and what Thanatos will take if you lose."
+        },
+        {
+          "target": "Luke S (Pierre)",
+          "directive": "Sustain the Satirical Edge into the Mid-Game",
+          "actionableCoaching": "Your opening scene with the crepes and jury duty set an elite benchmark. Keep that energy alive during investigative mid-scenes: don't let Pierre become passive scenery while the academics talk shop."
+        },
+        {
+          "target": "Luke Foreman (Game Master)",
+          "directive": "Give Combat Thresholds 2 Minutes of Narrative Runway",
+          "actionableCoaching": "When closing near the session time limit, avoid dropping combatants like a sudden jump-scare. Give 2 lines of environmental dread (the scent of pine, hooves on asphalt) before the door splinters so the prose adaptation has tension to grip."
+        }
+      ]
     }
   }
 }
