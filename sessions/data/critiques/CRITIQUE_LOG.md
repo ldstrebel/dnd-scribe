@@ -6,6 +6,31 @@ This log tracks all community, player, and editor critique payloads ingested fro
 
 ## Ingested PR Feedback Records
 
+### 🧾 PR Record #006: `editorial-s5-candidate-audit`
+- **Branch:** `main` (Audits `c5e088c` & `1b5a5b6`)
+- **Session:** `s5` (*The Forgotten Trail & The Mad Doctor's Lecture*)
+- **Reviewer:** `Adversarial Editorial Critic / Upstream QA`
+- **Audit File:** [`sessions/data/index/s5-editorial-audit.md`](file:///d:/Code/dnd-scribe/sessions/data/index/s5-editorial-audit.md)
+- **Response File:** [`sessions/data/critiques/s5-editorial-response.md`](file:///d:/Code/dnd-scribe/sessions/data/critiques/s5-editorial-response.md)
+- **Status:** `[RESOLVED & APPLIED with FORMAL PUSHBACK LEDGER]`
+- **Verification Gates:** `verify_manifest.py [PASS]`, `verify_parity.py [PASS]`, `macro_auditor.py [PASS]`, `critique_prose.py [PASS]`, `novel/generate_epub.py [PASS]`
+
+#### 📝 Item-by-Item Review & Justification Ledger
+
+| Block / Issue | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `All Blocks` | All | Architecture / Pacing | *"All 220 blocks are lumped under single scene 'Prologue'!"* | **`[APPLIED]`** | Partitioned into Chapter 29 (Scenes 1–3), Chapter 30 (Scenes 4–6), and Chapter 31 (Scenes 7–10). Upgraded `generate_web_manifest.py` line parsing. |
+| `b008` | Pierre | Attribution / Marker Drag | *"Manifest has speakerId='dravin', but prose says 'pierre'"* | **`[APPLIED]`** | Separated Pierre's crepe response (`<!-- L0121 -->`) from Dravin's spore description (`<!-- L0120 -->`). Corrected to `pierre`. |
+| `b060` | Eusacles | Attribution / Turn Fusion | *"Manifest has speakerId='alfie', but prose says 'eusacles'"* | **`[APPLIED]`** | Separated Alfie's dialogue (`<!-- L0429 -->`) from Eusacles' question (`<!-- L0435 -->`). Corrected to `eusacles`. |
+| `b071` | Eusacles | Attribution / Fused Turn | *"Manifest has speakerId='dravin', but prose says 'eusacles'"* | **`[APPLIED]`** | Disentangled Dravin's survival declaration (`<!-- L0550 --> <!-- L0558 -->`) from Eusacles' Lost Roads complaint (`<!-- L0566 --> <!-- L0567 -->`). Eliminated dialogue stutter. |
+| `b104` | Pierre | Attribution / Turn Inversion | *"Manifest has speakerId='dravin', but prose says 'pierre'"* | **`[APPLIED]`** | Pierre's "French diplomacy" quip mapped to L0753; Dravin's pickpocket intent mapped to L0735/L0739. Corrected to `pierre`. |
+| `b108` | Pierre | Attribution / Inverted Turns | *"Manifest has speakerId='attendant', but prose says 'pierre'"* | **`[APPLIED]`** | Disentangled Pierre's sandpaper accusation (`<!-- L0768 -->`) from Rick Ready (`<!-- L0762 -->`, `<!-- L0771 -->`). Corrected to `pierre`. |
+| `b156` | Alfie | Attribution / Missing Marker | *"Manifest has speakerId='attendant', but prose says 'alfie'"* | **`[APPLIED]`** | Attached explicit anchor `<!-- L1022 -->` (Sophie: *"Al's looking for hats for university caps"*). Corrected to `alfie`. |
+| `Scene 3` | Dravin | Narrative / Character Interiority | *"Zero interiority regarding what it means for an aging Stanford academic to learn his mother is a chthonic deity..."* | **`[PUSHBACK - DEFERRED]`** | **Adaptation Boundary Law:** William Webb deliberately chose not to stage an existential crisis at the table. Retroactively fabricating 1,500 words of angst risks severe continuity breaks with Session 6. Transferred to `s5-context-briefing.md` and `s6-context-briefing.md` for player/GM exploration. |
+| `Scenes 4–7` | Alfie | Narrative / Screen Time | *"Alfie suffers from 'luggage syndrome'—sits silently without lines or agency for dozens of paragraphs."* | **`[PUSHBACK - GROUND TRUTH]`** | **Ground-Truth Hierarchy:** Sophie was quiet and Alfie was riding on Dravin's shoulder during highway transit. Fabricating unplayed rogue actions overwrites the player's actual table choices. Alfie's active actions (gift basket looting, warning about statues) remain fully staged. |
+
+---
+
 ### 🧾 PR Record #005: `uneraseable-s3-strebs-855517`
 - **Branch:** `critique/uneraseable-s3-strebs-855517`
 - **Session:** `s3` (*The Raleigh Museum & The Aegean Inscription*)

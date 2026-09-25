@@ -6,7 +6,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-root_dir = r"D:\Code\dnd-scribe"
+root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 clean_dir = os.path.join(root_dir, "sessions", "data", "clean")
 index_dir = os.path.join(root_dir, "sessions", "data", "index")
 config_path = os.path.join(root_dir, "novel", "book_config.json")
@@ -48,6 +48,18 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#ec4899",
         "role": "Maiden of Persephone · Underworld Guide"
+    },
+    "persephone": {
+        "name": "Lady Persephone",
+        "type": "npc",
+        "color": "#10b981",
+        "role": "Queen of the Underworld · Goddess of Spring"
+    },
+    "anna": {
+        "name": "Anna Smith",
+        "type": "npc",
+        "color": "#14b8a6",
+        "role": "US Army Nurse · 1940s Margin Resident"
     },
     "theodore": {
         "name": "Theodore (Teddy)",
@@ -126,11 +138,47 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#78716c",
         "role": "North Carolina Museum Staff"
+    },
+    "thorne": {
+        "name": "Dr. Aris Thorne",
+        "type": "npc",
+        "color": "#059669",
+        "role": "Controversial Physician · 1948 Trial Researcher"
+    },
+    "satyr": {
+        "name": "Satyr Infiltrator",
+        "type": "npc",
+        "color": "#d97706",
+        "role": "Horned Planar Beast · Exit Ambusher"
+    },
+    "protester": {
+        "name": "Tin-Foil Protester",
+        "type": "npc",
+        "color": "#64748b",
+        "role": "Campus Conspiracy Demonstrator"
+    },
+    "hermes": {
+        "name": "Hermes Courier",
+        "type": "npc",
+        "color": "#f59e0b",
+        "role": "Messenger of the Gods"
+    },
+    "child": {
+        "name": "Spectral Child",
+        "type": "npc",
+        "color": "#94a3b8",
+        "role": "Echo of an Erased Timeline"
     }
 }
 
 # Character and Player Ground-Truth Map
 CHARACTER_MAP = {
+    "child": "child",
+    "thorne": "thorne",
+    "doctor": "thorne",
+    "satyr": "satyr",
+    "protester": "protester",
+    "hermes": "hermes",
     "pierre": "pierre",
     "luke s": "pierre",
     "dravin": "dravin",
@@ -160,10 +208,11 @@ CHARACTER_MAP = {
     "tv": "anchor",
     "passenger": "passenger",
     "gordon": "gordon",
-    "gorgon": "gordon",
     "attendant": "attendant",
     "curator": "attendant",
-    "ally": "ally"
+    "ally": "ally",
+    "anna": "anna",
+    "smith": "anna"
 }
 
 def load_raw_indexed_speakers(session_num):
@@ -183,6 +232,11 @@ def load_raw_indexed_speakers(session_num):
                     for k in CHARACTER_REGISTRY:
                         if k in char_lower:
                             player_map[person.lower()] = k
+                for line_str, spk_id in cfg.get("dialogue_speakers", {}).items():
+                    if line_str.isdigit():
+                        speaker_map[int(line_str)] = spk_id
+                    else:
+                        speaker_map[line_str] = spk_id
         except Exception:
             pass
 
@@ -191,6 +245,9 @@ def load_raw_indexed_speakers(session_num):
             m = re.match(r"^L(\d{4}):\s*\*\*([^*]+?)(?:\s*\((?:PC|NPC|TV|GM)\))?:\*\*", line.strip())
             if m:
                 lid = int(m.group(1))
+                if lid in speaker_map:
+                    # Config override (e.g. GM voiced NPC) takes precedence
+                    continue
                 spk_raw = m.group(2).strip().lower()
                 
                 if spk_raw in player_map:
@@ -208,15 +265,22 @@ def load_raw_indexed_speakers(session_num):
                         speaker_map[lid] = "narrator"
     return speaker_map
 
-def resolve_block_speaker(source_line: int, raw_speakers: dict, has_quote: bool) -> str:
-    """Origin-time resolution: look up speaker from raw indexed ground truth."""
+def resolve_block_speaker(source_line: int, raw_speakers: dict, has_quote: bool, block_id: str = None, explicit_speaker: str = None) -> str:
+    """Origin-time resolution: strictly derived from explicit generation-time tag, raw indexed transcript, or block override (Zero Regex Guesswork)."""
     if not has_quote:
         return "narrator"
+    # 1. Authoritative origin-time speaker tag on the block (e.g. <!-- L0120:pierre -->)
+    if explicit_speaker:
+        return explicit_speaker.lower()
+    # 2. Session config block override
+    if block_id and block_id in raw_speakers:
+        return raw_speakers[block_id]
+    # 3. Origin-time transcript line mapping
     if source_line and source_line in raw_speakers:
         return raw_speakers[source_line]
     return "narrator"
 
-def decompose_block_to_web_segments(block_id: str, text: str, source_line: int, char_registry: dict, raw_speakers: dict) -> list:
+def decompose_block_to_web_segments(block_id: str, text: str, source_line: int, char_registry: dict, raw_speakers: dict, block_speaker_id: str = None) -> list:
     """Decompose block into narration, action, and dialogue segments based on origin-time indexing (Zero Regex Guessing)."""
     matches = list(re.finditer(r'["“]([^"”]+)["”]', text))
     if not matches:
@@ -232,11 +296,18 @@ def decompose_block_to_web_segments(block_id: str, text: str, source_line: int, 
             "text": text
         }]
 
-    # Dialogue speaker is determined strictly from origin-time line index ground truth
+    # Dialogue speaker is determined strictly from origin-time line index ground truth or block override
     dialogue_speaker = "narrator"
-    if source_line and source_line in raw_speakers:
+    if block_speaker_id and block_speaker_id != "narrator":
+        dialogue_speaker = block_speaker_id
+    elif block_id and block_id in raw_speakers:
+        dialogue_speaker = raw_speakers[block_id]
+    elif source_line and source_line in raw_speakers:
         dialogue_speaker = raw_speakers[source_line]
     
+    if dialogue_speaker == "narrator":
+        print(f"[WARN] Block {block_id} contains quoted dialogue on line {source_line} but speaker resolved to 'narrator'!", file=sys.stderr)
+
     spk_name = char_registry.get(dialogue_speaker, {}).get("name", dialogue_speaker.title())
 
     segments = []
@@ -352,9 +423,14 @@ def generate_session_v2_manifest(session_num):
     
     for sc_id, sc_content in scenes_raw:
         prev_spk_id = None
+        scene_markers = [int(m) for m in re.findall(r"<!--\s*L(\d+)\s*-->", sc_content)]
+        last_source_line = scene_markers[0] if scene_markers else None
         lines = sc_content.strip().split("\n")
-        if lines and lines[0].startswith("##"):
-            current_scene_title = lines[0].lstrip("#").strip()
+        for line in lines:
+            line_s = line.strip()
+            if line_s.startswith("##"):
+                current_scene_title = line_s.lstrip("#").strip()
+                break
             
         alt_filename_candidates = [
             f"s{session_num}-scene-{int(sc_id):02d}-alt.md",
@@ -374,8 +450,11 @@ def generate_session_v2_manifest(session_num):
             if p_raw.startswith("##") or p_raw.startswith("#") or p_raw.startswith("<!-- RAW_RANGE") or p_raw.startswith("<!-- SCENE") or p_raw.startswith("<!-- LEDGER"):
                 continue
             
-            line_markers = [int(m) for m in re.findall(r"<!--\s*L(\d+)\s*-->", p_raw)]
-            source_line = line_markers[0] if line_markers else None
+            marker_matches = re.findall(r"<!--\s*L(\d+)(?:-L?(\d+))?(?::([a-zA-Z_-]+))?\s*-->", p_raw)
+            source_line = int(marker_matches[0][0]) if marker_matches else None
+            explicit_speaker = next((m[2] for m in marker_matches if len(m) > 2 and m[2]), None)
+            if source_line is not None:
+                last_source_line = source_line
             p = re.sub(r"<!--.*?-->", "", p_raw).strip()
             
             p_words = re.findall(r"\b[A-Za-z0-9\'-]+\b", p)
@@ -406,16 +485,17 @@ def generate_session_v2_manifest(session_num):
             spoken_words += p_spoken
             narrative_words += (word_count - p_spoken)
             
-            has_quote = len(quotes) > 0
-            spk_id = resolve_block_speaker(source_line, raw_speakers, has_quote)
-
-            speaker_word_counts[spk_id] += word_count
-            
             b_id = f"uneraseable_s{session_num:02d}_b{block_idx:03d}"
             if scene_first_b_id is None:
                 scene_first_b_id = b_id
 
-            segments = decompose_block_to_web_segments(b_id, p, source_line, CHARACTER_REGISTRY, raw_speakers)
+            has_quote = len(quotes) > 0
+            eff_source_line = source_line if source_line is not None else (last_source_line if has_quote else None)
+            spk_id = resolve_block_speaker(eff_source_line, raw_speakers, has_quote, block_id=b_id, explicit_speaker=explicit_speaker)
+
+            speaker_word_counts[spk_id] += word_count
+
+            segments = decompose_block_to_web_segments(b_id, p, eff_source_line, CHARACTER_REGISTRY, raw_speakers, block_speaker_id=spk_id)
             block_data = {
                 "id": b_id,
                 "index": block_idx,
@@ -436,13 +516,17 @@ def generate_session_v2_manifest(session_num):
                 alt_content = f_alt.read()
             alt_paragraphs_raw = [p.strip() for p in alt_content.split("\n\n") if p.strip()]
             alt_idx = 1
+            last_alt_source_line = None
             
             for p_raw in alt_paragraphs_raw:
                 if p_raw.startswith("##") or p_raw.startswith("#") or p_raw.startswith("<!-- RAW_RANGE") or p_raw.startswith("<!-- SCENE") or p_raw.startswith("<!-- LEDGER"):
                     continue
                 
-                span_matches = re.findall(r"<!--\s*L(\d+)(?:-L?(\d+))?\s*-->", p_raw)
+                span_matches = re.findall(r"<!--\s*L(\d+)(?:-L?(\d+))?(?::([a-zA-Z_-]+))?\s*-->", p_raw)
                 source_line = int(span_matches[0][0]) if span_matches else None
+                alt_explicit_speaker = next((m[2] for m in span_matches if len(m) > 2 and m[2]), None)
+                if source_line is not None:
+                    last_alt_source_line = source_line
                 p = re.sub(r"<!--.*?-->", "", p_raw).strip()
                 
                 p_words = re.findall(r"\b[A-Za-z0-9\'-]+\b", p)
@@ -452,10 +536,11 @@ def generate_session_v2_manifest(session_num):
                 
                 alt_quotes = re.findall(r'"([^"]*)"|“([^”]*)”', p)
                 has_alt_quote = len(alt_quotes) > 0
-                spk_id = resolve_block_speaker(source_line, raw_speakers, has_alt_quote)
-
                 alt_b_id = f"{scene_first_b_id}_alt{alt_idx}"
-                segments = decompose_block_to_web_segments(alt_b_id, p, source_line, CHARACTER_REGISTRY, raw_speakers)
+                eff_alt_source_line = source_line if source_line is not None else (last_alt_source_line if has_alt_quote else None)
+                spk_id = resolve_block_speaker(eff_alt_source_line, raw_speakers, has_alt_quote, block_id=alt_b_id, explicit_speaker=alt_explicit_speaker)
+
+                segments = decompose_block_to_web_segments(alt_b_id, p, eff_alt_source_line, CHARACTER_REGISTRY, raw_speakers, block_speaker_id=spk_id)
                 
                 blocks.append({
                     "id": alt_b_id,
@@ -669,5 +754,12 @@ def generate_session_v2_manifest(session_num):
     print(f"[OK] Wrote Schema 2.0 Web Manifest to: {out_file} ({len(blocks)} blocks, {total_words} words)")
     return v2_manifest
 
-for s in [1, 2, 3, 4]:
-    generate_session_v2_manifest(s)
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        arg = sys.argv[1].lower().replace("s", "")
+        sessions_to_run = [int(arg)]
+    else:
+        sessions_to_run = [1, 2, 3, 4, 5]
+
+    for s in sessions_to_run:
+        generate_session_v2_manifest(s)

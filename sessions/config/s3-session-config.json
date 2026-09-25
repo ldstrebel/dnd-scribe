@@ -11,5 +11,35 @@
     "John Hagey": "Eusacles",
     "Sophie Foreman Noone": "Alfie"
   },
-  "shared_mics": {}
+  "shared_mics": {},
+  "dialogue_speakers": {
+    "468": "ally",
+    "561": "ally",
+    "724": "nincy",
+    "725": "nincy",
+    "727": "nincy",
+    "732": "nincy",
+    "740": "nincy",
+    "742": "nincy",
+    "750": "nincy",
+    "751": "dravin",
+    "781": "nincy",
+    "790": "nincy",
+    "834": "nincy",
+    "836": "nincy",
+    "856": "nincy",
+    "876": "thomas",
+    "1545": "dravin",
+    "1552": "attendant",
+    "1582": "attendant",
+    "1612": "attendant",
+    "1615": "attendant",
+    "1633": "attendant",
+    "1652": "attendant",
+    "1655": "nincy",
+    "uneraseable_s03_b025": "nincy",
+    "uneraseable_s03_b037": "dravin",
+    "uneraseable_s03_b078": "dravin",
+    "uneraseable_s03_b085": "attendant"
+  }
 }

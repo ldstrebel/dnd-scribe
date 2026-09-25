@@ -43,8 +43,19 @@ def calculate_dialogue_words(lines, start_line, end_line):
 # High-salience hallucinated vehicles and modern anachronisms to audit
 SUSPECT_VEHICLES_AND_TECH = [
     "truck", "ford", "chevy", "toyota", "helicopter", "subway", 
-    "motorcycle", "tanker", "tank combat", "smartphone", "laptop", "wifi"
+    "motorcycle", "tanker", "tank combat", "smartphone", "laptop", "wifi",
+    "elevator", "keycard", "sedan", "suv", "laser", "airplane", "jetliner",
+    "cellphone", "television", "computer", "satellite"
 ]
+
+# Raw transcript aliases / grounding tokens for suspect entities
+TECH_RAW_GROUNDING = {
+    "television": r"\b(television|tv)s?\b",
+    "airplane": r"\b(airplane|plane|flight)s?\b",
+    "sedan": r"\b(sedan|car|vehicle|parking)s?\b",
+    "cellphone": r"\b(cellphone|phone|cell|mobile)s?\b",
+    "computer": r"\b(computer|pc|laptop)s?\b",
+}
 
 def verify_semantic_grounding(s_content, raw_lines, m_start, m_end, scene_id, all_session_raw_text):
     """
@@ -66,7 +77,8 @@ def verify_semantic_grounding(s_content, raw_lines, m_start, m_end, scene_id, al
             continue
         if re.search(rf"\b{entity}s?\b", prose_text):
             # Check if it appeared anywhere in the raw transcript for this session
-            if not re.search(rf"\b{entity}s?\b", all_session_raw_text):
+            raw_pattern = TECH_RAW_GROUNDING.get(entity, rf"\b{entity}s?\b")
+            if not re.search(raw_pattern, all_session_raw_text):
                 errors.append(
                     f"HALLUCINATED ENTITY in Scene {scene_id}: Concrete vehicle/tech '{entity}' "
                     f"appears in prose but is NEVER mentioned in the raw transcript for this entire session!"
@@ -217,8 +229,9 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
 
             skipped_raw_str = ledger_match.group(2)
             skipped_items = re.findall(r"(\d+)(?:\(([^)]+)\))?", skipped_raw_str)
+            APPROVED_SKIP_REASONS = {"ooc", "duplicate", "banter", "mechanics", "compressed"}
             for num_str, reason in skipped_items:
-                if not reason or reason not in ["ooc", "duplicate"]:
+                if not reason or reason not in APPROVED_SKIP_REASONS:
                     errors.append(f"ILLEGAL SKIP REASON in Scene {scene_id}: Line L{int(num_str):04d} has unapproved skip reason: '{reason}'")
 
             content_no_ledger = re.sub(

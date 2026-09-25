@@ -138,7 +138,7 @@ Desperate to break the escalating standoff, Dravin did the only logical thing a 
 
 Pierre gasped in feigned, theatrical horror, clutching his hands to his beret. "I told you that doll was haunted! We should never have brought it here!" <!-- L0853 --> <!-- L0855 -->
 
-Nincy’s eyes went wide as the "doll" hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio. "Security! Security, I need help out here!" <!-- L0856 -->
+Nincy’s eyes went wide as the *doll* hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio. "Security! Security, I need help out here!" <!-- L0856 -->
 
 Dravin raised his hands placatingly, backing away toward the velvet stanchions. "Nincy, I am not with them! I mean, I'm with them, but I'm not *with* them!" <!-- L0861 -->
 

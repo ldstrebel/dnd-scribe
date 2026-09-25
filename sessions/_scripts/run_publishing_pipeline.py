@@ -3,9 +3,10 @@
 Unified End-to-End Publishing Pipeline Runner
 Executes the full D&D Scribe publishing cycle:
 1. Fact-Checker Gate: audit_semantic_grounding.py & verify_parity.py
-2. Developmental Editor Gate: critique_prose.py
-3. Schema 2.0 Web Manifest: generate_web_manifest.py & verify_manifest.py
-4. Dual EPUB Compiler: novel/generate_epub.py
+2. Macro Narrative & Character Anchor Gate: harness/macro_auditor.py
+3. Developmental Editor Gate: critique_prose.py
+4. Schema 2.0 Web Manifest: generate_web_manifest.py & verify_manifest.py
+5. Dual EPUB Compiler: novel/generate_epub.py
 """
 
 import sys
@@ -45,15 +46,19 @@ def main():
         run_step(f"Fact-Checker Semantic Entailment ({s.upper()})", [sys.executable, "sessions/_scripts/audit_semantic_grounding.py", s])
         run_step(f"Fact-Checker Parity & Ledger Integrity ({s.upper()})", [sys.executable, "sessions/_scripts/verify_parity.py", s])
 
-    # 2. Developmental Editor Review Gate
+    # 2. Macro Narrative & Character Anchor Gate
+    for s in args.sessions:
+        run_step(f"Macro Narrative & Character Anchors ({s.upper()})", [sys.executable, "sessions/_scripts/harness/macro_auditor.py", s])
+
+    # 3. Developmental Editor Review Gate
     run_step("Developmental Editor & Prose Critic", [sys.executable, ".agents/skills/novel-critic/scripts/critique_prose.py"])
 
-    # 3. Web Manifest Generation & Validation
+    # 4. Web Manifest Generation & Validation
     run_step("Schema 2.0 Web Manifest Builder", [sys.executable, "sessions/_scripts/generate_web_manifest.py"])
     for s in args.sessions:
         run_step(f"Web Manifest Validation ({s.upper()})", [sys.executable, "sessions/_scripts/verify_manifest.py", s])
 
-    # 4. EPUB Compilation
+    # 5. EPUB Compilation
     run_step("Dual Edition EPUB Assembler", [sys.executable, "novel/generate_epub.py"])
 
     print(f"\n{'='*70}")

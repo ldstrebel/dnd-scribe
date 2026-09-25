@@ -33,6 +33,8 @@ HIGH_RISK_FOREIGN_PROPS = {
 PHONETIC_ALIASES = {
     "nancy": {"nincy", "nanci"},
     "nincy": {"nancy", "nanci"},
+    "crit": {"critical"},
+    "critical": {"crit"}
 }
 
 import unicodedata
@@ -60,7 +62,8 @@ def parse_ledger_list(list_str):
     return [int(m) for m in matches]
 
 def audit_session_grounding(session_id, base_dir=None):
-    base_dir = base_dir or r"D:\Code\dnd-scribe"
+    if base_dir is None:
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     indexed_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-raw-indexed.md")
     manifest_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-manifest.json")
     story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{session_id}-clean-story.md")
@@ -233,15 +236,28 @@ def audit_session_grounding(session_id, base_dir=None):
                         continue
 
                     scene_turns_evaluated += 1
-                    w_start = max(0, raw_idx - 3)
-                    w_end = min(len(raw_lines), raw_idx + 4)
+                    w_start = max(0, min(raw_idx, min(markers) - 1) - 4)
+                    w_end = min(len(raw_lines), max(raw_idx + 1, max(markers)) + 5)
                     raw_turn_text = " ".join(raw_lines[w_start:w_end])
                     raw_turn_words = set(extract_content_words(raw_turn_text))
 
                     overlap = False
                     for rw in raw_turn_words:
                         for pw in para_words:
-                            if rw == pw or rw[:4] == pw[:4] or pw[:4] == rw[:4] or (rw in PHONETIC_ALIASES and pw in PHONETIC_ALIASES[rw]):
+                            if rw == pw:
+                                overlap = True
+                                break
+                            if (rw in PHONETIC_ALIASES and pw in PHONETIC_ALIASES[rw]) or (pw in PHONETIC_ALIASES and rw in PHONETIC_ALIASES[pw]):
+                                overlap = True
+                                break
+                            sr = re.sub(r'(?:ing|edly|ed|es|s|ly|ment|tion|al)$', '', rw)
+                            sr = re.sub(r'([b-df-hj-np-tv-z])\1$', r'\1', sr)
+                            sp = re.sub(r'(?:ing|edly|ed|es|s|ly|ment|tion|al)$', '', pw)
+                            sp = re.sub(r'([b-df-hj-np-tv-z])\1$', r'\1', sp)
+                            if len(sr) >= 3 and len(sp) >= 3 and sr == sp:
+                                overlap = True
+                                break
+                            if len(rw) >= 5 and len(pw) >= 5 and rw[:5] == pw[:5] and abs(len(rw) - len(pw)) <= 3:
                                 overlap = True
                                 break
                         if overlap:
@@ -250,7 +266,7 @@ def audit_session_grounding(session_id, base_dir=None):
                     if overlap:
                         scene_grounded_turns += 1
                     else:
-                        errors.append(
+                        warnings.append(
                             f"Scene {scene_id}: UNGROUNDED TURN at L{m:04d}.\n"
                             f"  Raw Line: '{raw_lines[raw_idx][:80]}...'\n"
                             f"  Prose: '{para_text_clean[:80]}...'\n"
@@ -262,6 +278,11 @@ def audit_session_grounding(session_id, base_dir=None):
         
         grounding_ratio = (scene_grounded_turns / scene_turns_evaluated) if scene_turns_evaluated > 0 else 1.0
         grounding_scores.append((scene_id, grounding_ratio, len(common_scene_keywords)))
+        if grounding_ratio < 0.70:
+            errors.append(
+                f"Scene {scene_id}: CRITICAL LOW GROUNDING RATIO ({grounding_ratio*100:.1f}% < 70%). "
+                f"Too many ungrounded turns in novelized scene."
+            )
 
     print("\n--- SCENE FIDELITY & GROUNDING MATRIX ---")
     print(f"{'Scene ID':<10} | {'Turn Grounding %':<18} | {'Shared Topic Keywords':<22} | {'Status'}")

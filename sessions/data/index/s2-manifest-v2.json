@@ -47,6 +47,41 @@
       "color": "#10b981",
       "role": "Driftwood Duelist \u00b7 Wordcraft Mage",
       "actor": "Sophie Foreman Noone"
+    },
+    "anna": {
+      "name": "Anna Smith",
+      "type": "npc",
+      "color": "#14b8a6",
+      "role": "US Army Nurse \u00b7 1940s Margin Resident",
+      "actor": "Luke Foreman (GM)"
+    },
+    "theodore": {
+      "name": "Theodore (Teddy)",
+      "type": "npc",
+      "color": "#d97706",
+      "role": "Caretaker of The Margin \u00b7 1846 Surveyor",
+      "actor": "Luke Foreman (GM)"
+    },
+    "naomi": {
+      "name": "Naomi",
+      "type": "npc",
+      "color": "#ec4899",
+      "role": "Timeline Researcher \u00b7 Fragment Hunter",
+      "actor": "Luke Foreman (GM)"
+    },
+    "mike": {
+      "name": "Mike",
+      "type": "npc",
+      "color": "#64748b",
+      "role": "Gatekeeper of the Lost Roads",
+      "actor": "Luke Foreman (GM)"
+    },
+    "clerk": {
+      "name": "Gas Station Clerk",
+      "type": "npc",
+      "color": "#78716c",
+      "role": "Lost Road Station Attendant",
+      "actor": "Luke Foreman (GM)"
     }
   },
   "stats": {
@@ -62,39 +97,74 @@
     },
     "speakerDistribution": [
       {
-        "id": "narrator",
-        "name": "Narrator",
-        "color": "#94a3b8",
-        "words": 3121,
-        "sharePct": 60.5
-      },
-      {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 1112,
-        "sharePct": 21.6
+        "words": 1149,
+        "sharePct": 22.3
+      },
+      {
+        "id": "narrator",
+        "name": "Narrator",
+        "color": "#94a3b8",
+        "words": 994,
+        "sharePct": 19.3
+      },
+      {
+        "id": "mike",
+        "name": "Mike",
+        "color": "#64748b",
+        "words": 971,
+        "sharePct": 18.8
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 398,
-        "sharePct": 7.7
+        "words": 520,
+        "sharePct": 10.1
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
-        "words": 362,
-        "sharePct": 7.0
+        "words": 403,
+        "sharePct": 7.8
+      },
+      {
+        "id": "theodore",
+        "name": "Theodore (Teddy)",
+        "color": "#d97706",
+        "words": 333,
+        "sharePct": 6.5
+      },
+      {
+        "id": "naomi",
+        "name": "Naomi",
+        "color": "#ec4899",
+        "words": 246,
+        "sharePct": 4.8
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 163,
-        "sharePct": 3.2
+        "words": 221,
+        "sharePct": 4.3
+      },
+      {
+        "id": "clerk",
+        "name": "Gas Station Clerk",
+        "color": "#78716c",
+        "words": 178,
+        "sharePct": 3.5
+      },
+      {
+        "id": "anna",
+        "name": "Anna Smith",
+        "color": "#14b8a6",
+        "words": 141,
+        "sharePct": 2.7
       }
     ],
     "writingMetrics": {
@@ -266,7 +336,7 @@
       "id": "uneraseable_s02_b005",
       "index": 5,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "The sun-weathered man sitting by the flames looked up, his easy smirk broadening into a welcoming grin. \"Don't worry, bros! Don't be scared at all!\"",
       "segments": [
         {
@@ -280,8 +350,8 @@
         {
           "segmentId": "uneraseable_s02_b005_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 438,
           "text": "\"Don't worry, bros! Don't be scared at all!\""
         }
@@ -291,14 +361,14 @@
       "id": "uneraseable_s02_b006",
       "index": 6,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"We love fresh ink around here,\" the man chuckled, dusting ash from his knuckles. \"We're happy to have you. It's totally normal to be surprised when you hear us ask what edit killed you\u2014like we're telling you you're dead.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b006_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 440,
           "text": "\"We love fresh ink around here,\""
         },
@@ -313,8 +383,8 @@
         {
           "segmentId": "uneraseable_s02_b006_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 440,
           "text": "\"We're happy to have you. It's totally normal to be surprised when you hear us ask what edit killed you\u2014like we're telling you you're dead.\""
         }
@@ -349,14 +419,14 @@
       "id": "uneraseable_s02_b008",
       "index": 8,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Well, yeah, it's a funny thing,\" the man replied with an easy shrug. \"You're not actually dead, but it kind of depends on who you ask. We can get you patched up, though. Come right in.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b008_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 447,
           "text": "\"Well, yeah, it's a funny thing,\""
         },
@@ -371,8 +441,8 @@
         {
           "segmentId": "uneraseable_s02_b008_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 447,
           "text": "\"You're not actually dead, but it kind of depends on who you ask. We can get you patched up, though. Come right in.\""
         }
@@ -440,14 +510,14 @@
       "id": "uneraseable_s02_b011",
       "index": 11,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"The thing is, we all kind of died at different times, at different points in our lives,\" Mike explained, tossing a pine stick onto the fire. \"And the crazy thing is that you stay approximately the same age the whole time.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b011_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 461,
           "text": "\"The thing is, we all kind of died at different times, at different points in our lives,\""
         },
@@ -462,8 +532,8 @@
         {
           "segmentId": "uneraseable_s02_b011_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 461,
           "text": "\"And the crazy thing is that you stay approximately the same age the whole time.\""
         }
@@ -473,15 +543,15 @@
       "id": "uneraseable_s02_b012",
       "index": 12,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "dravin",
       "text": "\"A little Benjamin Button action,\" Dravin observed.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b012_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 461,
           "text": "\"A little Benjamin Button action,\""
         },
         {
@@ -498,14 +568,14 @@
       "id": "uneraseable_s02_b013",
       "index": 13,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Yeah, it's kind of crazy, kind of cool,\" Mike smiled.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b013_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 464,
           "text": "\"Yeah, it's kind of crazy, kind of cool,\""
         },
@@ -548,14 +618,14 @@
       "id": "uneraseable_s02_b015",
       "index": 15,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"We all have different theories,\" Mike said. \"Some people remember things clearly, while the youth kind of see through the veil with divine sense.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b015_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 468,
           "text": "\"We all have different theories,\""
         },
@@ -570,8 +640,8 @@
         {
           "segmentId": "uneraseable_s02_b015_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 468,
           "text": "\"Some people remember things clearly, while the youth kind of see through the veil with divine sense.\""
         }
@@ -666,7 +736,7 @@
       "id": "uneraseable_s02_b021",
       "index": 21,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike noticed their bewildered expressions and gave an understanding nod. \"Oh, I see the misunderstanding here.\"",
       "segments": [
         {
@@ -680,8 +750,8 @@
         {
           "segmentId": "uneraseable_s02_b021_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 515,
           "text": "\"Oh, I see the misunderstanding here.\""
         }
@@ -691,14 +761,14 @@
       "id": "uneraseable_s02_b022",
       "index": 22,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"It's called The Margin, and we kind of love that idea,\" Mike explained, gesturing around the quiet forest clearing. \"We build our language around it. You know\u2014words like *edited*, *corrected*, or *redacted*. There's definitely space for you guys here, though you'll have to share a guest cabin. A real wood log cabin out in the boonies.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b022_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 517,
           "text": "\"It's called The Margin, and we kind of love that idea,\""
         },
@@ -713,8 +783,8 @@
         {
           "segmentId": "uneraseable_s02_b022_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 517,
           "text": "\"We build our language around it. You know\u2014words like *edited*, *corrected*, or *redacted*. There's definitely space for you guys here, though you'll have to share a guest cabin. A real wood log cabin out in the boonies.\""
         }
@@ -749,7 +819,7 @@
       "id": "uneraseable_s02_b024",
       "index": 24,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike barked out a laugh, pointing an appreciative finger at the professor. \"I like this one! He's a good dude right here. We could definitely use some humor around here. But seriously, we'll introduce you guys around.\"",
       "segments": [
         {
@@ -763,8 +833,8 @@
         {
           "segmentId": "uneraseable_s02_b024_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 521,
           "text": "\"I like this one! He's a good dude right here. We could definitely use some humor around here. But seriously, we'll introduce you guys around.\""
         }
@@ -774,7 +844,7 @@
       "id": "uneraseable_s02_b025",
       "index": 25,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "His tone softened, turning gentle as he poked at the coals. \"There's Theodore\u2014he prefers Theodore from new people, but old folks call him Teddy. He's going to take down your information. We all have different theories about why we're even here, seeing as we've all been through a very traumatic experience.\"",
       "segments": [
         {
@@ -788,8 +858,8 @@
         {
           "segmentId": "uneraseable_s02_b025_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 523,
           "text": "\"There's Theodore\u2014he prefers Theodore from new people, but old folks call him Teddy. He's going to take down your information. We all have different theories about why we're even here, seeing as we've all been through a very traumatic experience.\""
         }
@@ -824,14 +894,14 @@
       "id": "uneraseable_s02_b027",
       "index": 27,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Last I saw, I was on a cruise ship with my friends, riding through the seven seas,\" Mike murmured, staring deep into the orange embers. \"All of a sudden, the ship started going down. Everything flashed blinding white. Next thing I know, I woke up standing alone in front of an ATM on a dark street in West Virginia. Nobody else was there. Just me.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b027_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 528,
           "text": "\"Last I saw, I was on a cruise ship with my friends, riding through the seven seas,\""
         },
@@ -846,8 +916,8 @@
         {
           "segmentId": "uneraseable_s02_b027_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 528,
           "text": "\"All of a sudden, the ship started going down. Everything flashed blinding white. Next thing I know, I woke up standing alone in front of an ATM on a dark street in West Virginia. Nobody else was there. Just me.\""
         }
@@ -857,15 +927,15 @@
       "id": "uneraseable_s02_b028",
       "index": 28,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "eusacles",
       "text": "\"And how did you get from an ATM in West Virginia to the Margin?\" Eusacles asked.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b028_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 528,
           "text": "\"And how did you get from an ATM in West Virginia to the Margin?\""
         },
         {
@@ -882,14 +952,14 @@
       "id": "uneraseable_s02_b029",
       "index": 29,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Teddy was still leaving the Margin back then, hunting for displaced folks,\" Mike replied with quiet gratitude. \"I'm from California, so West Virginia felt totally alien to me. Teddy sensed something off me\u2014or maybe I just looked completely confused\u2014and brought me in. He's been here by far the longest of anyone.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b029_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 534,
           "text": "\"Teddy was still leaving the Margin back then, hunting for displaced folks,\""
         },
@@ -904,8 +974,8 @@
         {
           "segmentId": "uneraseable_s02_b029_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 534,
           "text": "\"I'm from California, so West Virginia felt totally alien to me. Teddy sensed something off me\u2014or maybe I just looked completely confused\u2014and brought me in. He's been here by far the longest of anyone.\""
         }
@@ -973,7 +1043,7 @@
       "id": "uneraseable_s02_b032",
       "index": 32,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike looked puzzled, touching his wavy brown locks. \"My hair is completely natural.\"",
       "segments": [
         {
@@ -987,8 +1057,8 @@
         {
           "segmentId": "uneraseable_s02_b032_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 551,
           "text": "\"My hair is completely natural.\""
         }
@@ -1031,7 +1101,7 @@
       "id": "uneraseable_s02_b034",
       "index": 34,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike gave a nervous chuckle, shaking his head. \"I think we might be a little bit lost in translation here. It sounds like your hair is snakes, and that's a bit wild.\"",
       "segments": [
         {
@@ -1045,8 +1115,8 @@
         {
           "segmentId": "uneraseable_s02_b034_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 558,
           "text": "\"I think we might be a little bit lost in translation here. It sounds like your hair is snakes, and that's a bit wild.\""
         }
@@ -1363,7 +1433,7 @@
       "id": "uneraseable_s02_b046",
       "index": 46,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike looked over at the miniature sailor in wonder. \"That is... quite a fun doll.\"",
       "segments": [
         {
@@ -1377,8 +1447,8 @@
         {
           "segmentId": "uneraseable_s02_b046_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 634,
           "text": "\"That is... quite a fun doll.\""
         }
@@ -1447,14 +1517,14 @@
       "id": "uneraseable_s02_b050",
       "index": 50,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "eusacles",
       "text": "\"No, you have celestial as well,\" Eusacles clarified. \"You and Pierre don't have undead on you at all. It's Alfie who carries the undead resonance.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b050_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
           "sourceLine": 667,
           "text": "\"No, you have celestial as well,\""
         },
@@ -1469,8 +1539,8 @@
         {
           "segmentId": "uneraseable_s02_b050_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
           "sourceLine": 667,
           "text": "\"You and Pierre don't have undead on you at all. It's Alfie who carries the undead resonance.\""
         }
@@ -1538,7 +1608,7 @@
       "id": "uneraseable_s02_b053",
       "index": 53,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "pierre",
       "text": "Pierre asked Mike how the tiny sailor looked to him. \"Looks like a pretty haunted little doll,\" Mike admitted with a grin. \"Might make my top five craziest things.\"",
       "segments": [
         {
@@ -1552,8 +1622,8 @@
         {
           "segmentId": "uneraseable_s02_b053_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
           "sourceLine": 688,
           "text": "\"Looks like a pretty haunted little doll,\""
         },
@@ -1568,8 +1638,8 @@
         {
           "segmentId": "uneraseable_s02_b053_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
           "sourceLine": 688,
           "text": "\"Might make my top five craziest things.\""
         }
@@ -1579,14 +1649,14 @@
       "id": "uneraseable_s02_b054",
       "index": 54,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "\"Time doesn't tick down in the Margin, little sailor,\" Teddy replied with a soft chuckle, pushing his tobacco pipe back between his teeth. \"You don't age. Your boots don't wear out unless you cross the fence. We are the notes scribbled in the white margins of a manuscript. As long as we stay here, the eraser cannot reach us.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b054_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 700,
           "text": "\"Time doesn't tick down in the Margin, little sailor,\""
         },
@@ -1601,8 +1671,8 @@
         {
           "segmentId": "uneraseable_s02_b054_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 700,
           "text": "\"You don't age. Your boots don't wear out unless you cross the fence. We are the notes scribbled in the white margins of a manuscript. As long as we stay here, the eraser cannot reach us.\""
         }
@@ -1612,7 +1682,7 @@
       "id": "uneraseable_s02_b055",
       "index": 55,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "Theodore rocking in his chair on the porch of the inn looked out across the valley. \"I founded this place back in 1846, and I haven't aged since.\"",
       "segments": [
         {
@@ -1626,8 +1696,8 @@
         {
           "segmentId": "uneraseable_s02_b055_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 706,
           "text": "\"I founded this place back in 1846, and I haven't aged since.\""
         }
@@ -1637,7 +1707,7 @@
       "id": "uneraseable_s02_b056",
       "index": 56,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "dravin",
       "text": "Dravin asked if people ever leave. \"Of course,\" Teddy replied. \"There are ways in and out that revolve around classic Greek mythology. Greek gods exist, just as they are taught in school.\"",
       "segments": [
         {
@@ -1651,8 +1721,8 @@
         {
           "segmentId": "uneraseable_s02_b056_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 715,
           "text": "\"Of course,\""
         },
@@ -1667,8 +1737,8 @@
         {
           "segmentId": "uneraseable_s02_b056_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 715,
           "text": "\"There are ways in and out that revolve around classic Greek mythology. Greek gods exist, just as they are taught in school.\""
         }
@@ -1703,14 +1773,14 @@
       "id": "uneraseable_s02_b058",
       "index": 58,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "\"All the classics from eighth-grade mythology come around,\" Teddy nodded solemnly. \"Creatures tend to live on their own in the borderlands. Some clash with the gods and end up slain, but mostly it remains peaceful.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b058_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 724,
           "text": "\"All the classics from eighth-grade mythology come around,\""
         },
@@ -1725,8 +1795,8 @@
         {
           "segmentId": "uneraseable_s02_b058_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 724,
           "text": "\"Creatures tend to live on their own in the borderlands. Some clash with the gods and end up slain, but mostly it remains peaceful.\""
         }
@@ -1736,7 +1806,7 @@
       "id": "uneraseable_s02_b059",
       "index": 59,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "Teddy stood up, brushing ash from his trousers. \"Come inside the main lodge. A warm meal will help you absorb it all. We will have tea and dessert, and begin our intake.\"",
       "segments": [
         {
@@ -1750,8 +1820,8 @@
         {
           "segmentId": "uneraseable_s02_b059_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 729,
           "text": "\"Come inside the main lodge. A warm meal will help you absorb it all. We will have tea and dessert, and begin our intake.\""
         }
@@ -1761,7 +1831,7 @@
       "id": "uneraseable_s02_b060",
       "index": 60,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "dravin",
       "text": "Inside the long timber hall, Dravin marveled as steaming herbal tea and freshly baked blackberry cobbler were set before them. \"The sensory details remain completely intact,\" Dravin noted, savoring the rich dessert.",
       "segments": [
         {
@@ -1775,8 +1845,8 @@
         {
           "segmentId": "uneraseable_s02_b060_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 731,
           "text": "\"The sensory details remain completely intact,\""
         },
@@ -1811,7 +1881,7 @@
       "id": "uneraseable_s02_b062",
       "index": 62,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "Teddy pulled up a chair opposite Eusacles, studying the young man's calm demeanor. \"You seem remarkably comfortable with all of this, son. Let me be blunt: are you a half-blood?\"",
       "segments": [
         {
@@ -1825,8 +1895,8 @@
         {
           "segmentId": "uneraseable_s02_b062_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 736,
           "text": "\"You seem remarkably comfortable with all of this, son. Let me be blunt: are you a half-blood?\""
         }
@@ -1886,15 +1956,15 @@
       "id": "uneraseable_s02_b065",
       "index": 65,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "\"So you were heading to Vegas to escape it all?\" Teddy asked gently.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b065_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 740,
           "text": "\"So you were heading to Vegas to escape it all?\""
         },
         {
@@ -1944,7 +2014,7 @@
       "id": "uneraseable_s02_b067",
       "index": 67,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "Teddy nodded slowly, closing his leather journal. \"That is fascinating.\"",
       "segments": [
         {
@@ -1958,8 +2028,8 @@
         {
           "segmentId": "uneraseable_s02_b067_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 750,
           "text": "\"That is fascinating.\""
         }
@@ -1986,14 +2056,14 @@
       "id": "uneraseable_s02_b069",
       "index": 69,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "anna",
       "text": "\"Hello, my name is Anna Smith,\" she introduced herself with clipped efficiency. \"I am conducting your intake for import into the Margin. You mentioned several curious things earlier... specifically regarding snakes. I assume gorgon heritage, perhaps?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b069_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 758,
           "text": "\"Hello, my name is Anna Smith,\""
         },
@@ -2008,8 +2078,8 @@
         {
           "segmentId": "uneraseable_s02_b069_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 758,
           "text": "\"I am conducting your intake for import into the Margin. You mentioned several curious things earlier... specifically regarding snakes. I assume gorgon heritage, perhaps?\""
         }
@@ -2044,7 +2114,7 @@
       "id": "uneraseable_s02_b071",
       "index": 71,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "anna",
       "text": "Anna scribbled a quick notation. \"We rarely get half-monsters here on purpose. Why were you sent away from your settlement?\"",
       "segments": [
         {
@@ -2058,8 +2128,8 @@
         {
           "segmentId": "uneraseable_s02_b071_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 761,
           "text": "\"We rarely get half-monsters here on purpose. Why were you sent away from your settlement?\""
         }
@@ -2102,7 +2172,7 @@
       "id": "uneraseable_s02_b073",
       "index": 73,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "anna",
       "text": "Anna stiffened slightly. \"I apologize for my terseness,\" she admitted with a rigid nod. \"I have been told it is from my background, and I apologize for the aggressiveness.\"",
       "segments": [
         {
@@ -2116,8 +2186,8 @@
         {
           "segmentId": "uneraseable_s02_b073_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 768,
           "text": "\"I apologize for my terseness,\""
         },
@@ -2132,8 +2202,8 @@
         {
           "segmentId": "uneraseable_s02_b073_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 768,
           "text": "\"I have been told it is from my background, and I apologize for the aggressiveness.\""
         }
@@ -2176,7 +2246,7 @@
       "id": "uneraseable_s02_b075",
       "index": 75,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "anna",
       "text": "Anna\u2019s expression softened slightly. \"I prefer to work in the shadows on patrol, but I served as an army nurse in the United States Army. You sound as though you are on a pilgrimage. What is your goal here?\"",
       "segments": [
         {
@@ -2190,8 +2260,8 @@
         {
           "segmentId": "uneraseable_s02_b075_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 772,
           "text": "\"I prefer to work in the shadows on patrol, but I served as an army nurse in the United States Army. You sound as though you are on a pilgrimage. What is your goal here?\""
         }
@@ -2259,14 +2329,14 @@
       "id": "uneraseable_s02_b078",
       "index": 78,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "anna",
       "text": "\"Of course,\" she replied without batting an eye. \"US Army nurse. Go America. Burgers and whiskey.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b078_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 781,
           "text": "\"Of course,\""
         },
@@ -2281,8 +2351,8 @@
         {
           "segmentId": "uneraseable_s02_b078_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "anna",
+          "speakerName": "Anna Smith",
           "sourceLine": 781,
           "text": "\"US Army nurse. Go America. Burgers and whiskey.\""
         }
@@ -2317,7 +2387,7 @@
       "id": "uneraseable_s02_b080",
       "index": 80,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Across the room, Mike sat down across from Professor Dravin with a notebook. \"All right, Edward. Looks like you got stuck with me. Curious\u2014why was a distinguished professor like you riding a rickety bus outside Vegas?\"",
       "segments": [
         {
@@ -2331,8 +2401,8 @@
         {
           "segmentId": "uneraseable_s02_b080_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 787,
           "text": "\"All right, Edward. Looks like you got stuck with me. Curious\u2014why was a distinguished professor like you riding a rickety bus outside Vegas?\""
         }
@@ -2367,7 +2437,7 @@
       "id": "uneraseable_s02_b082",
       "index": 82,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike stared blankly. \"That's news to me! What, like the Statue of Liberty is Greek mythology or something?\"",
       "segments": [
         {
@@ -2381,8 +2451,8 @@
         {
           "segmentId": "uneraseable_s02_b082_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 791,
           "text": "\"That's news to me! What, like the Statue of Liberty is Greek mythology or something?\""
         }
@@ -2425,14 +2495,14 @@
       "id": "uneraseable_s02_b084",
       "index": 84,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Well, learn something new every day,\" Mike grinned, shaking his head. \"Egg on my face!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b084_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 795,
           "text": "\"Well, learn something new every day,\""
         },
@@ -2447,8 +2517,8 @@
         {
           "segmentId": "uneraseable_s02_b084_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 795,
           "text": "\"Egg on my face!\""
         }
@@ -2458,7 +2528,7 @@
       "id": "uneraseable_s02_b085",
       "index": 85,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "Outside, Teddy guided them toward their guest cabin, admiring Dravin\u2019s scholarly passion. \"Spent most of my youth on the timber trails,\" Teddy remarked. \"Out here, you learn that every myth was just history before someone decided to edit the manuscript.\"",
       "segments": [
         {
@@ -2472,8 +2542,8 @@
         {
           "segmentId": "uneraseable_s02_b085_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 809,
           "text": "\"Spent most of my youth on the timber trails,\""
         },
@@ -2488,8 +2558,8 @@
         {
           "segmentId": "uneraseable_s02_b085_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 809,
           "text": "\"Out here, you learn that every myth was just history before someone decided to edit the manuscript.\""
         }
@@ -2565,7 +2635,7 @@
       "id": "uneraseable_s02_b088",
       "index": 88,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "alfie",
       "text": "Alfie hopped down onto the rustic pine table, adjusting his needle rapier. \"Name's Alfie, ma'am. Driftwood Duelist, at your service. Last thing I remember before waking up in that marble palace was darkness... salt water... the roar of cannon fire, and blood on the deck. Next thing I know, I'm carved out of driftwood with needle and thread.\"",
       "segments": [
         {
@@ -2579,9 +2649,9 @@
         {
           "segmentId": "uneraseable_s02_b088_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 849,
           "text": "\"Name's Alfie, ma'am. Driftwood Duelist, at your service. Last thing I remember before waking up in that marble palace was darkness... salt water... the roar of cannon fire, and blood on the deck. Next thing I know, I'm carved out of driftwood with needle and thread.\""
         }
       ]
@@ -2590,7 +2660,7 @@
       "id": "uneraseable_s02_b089",
       "index": 89,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "Before Rosa could reply, Naomi barged straight into the guest cabin, breathless and clutching rolls of research parchment. \"Sorry I'm late!\" Naomi called out urgently. \"I was knee-deep in research, but it's super important!\"",
       "segments": [
         {
@@ -2604,8 +2674,8 @@
         {
           "segmentId": "uneraseable_s02_b089_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 873,
           "text": "\"Sorry I'm late!\""
         },
@@ -2620,8 +2690,8 @@
         {
           "segmentId": "uneraseable_s02_b089_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 873,
           "text": "\"I was knee-deep in research, but it's super important!\""
         }
@@ -2709,14 +2779,14 @@
       "id": "uneraseable_s02_b093",
       "index": 93,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "\"I am so sorry,\" Naomi stammered, caught off guard. \"It's just\u2014I get so locked in\u2014\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b093_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 884,
           "text": "\"I am so sorry,\""
         },
@@ -2731,8 +2801,8 @@
         {
           "segmentId": "uneraseable_s02_b093_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 884,
           "text": "\"It's just\u2014I get so locked in\u2014\""
         }
@@ -2787,14 +2857,14 @@
       "id": "uneraseable_s02_b096",
       "index": 96,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "\"I'll be back in the morning!\" Naomi called out through the timber planks.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b096_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 890,
           "text": "\"I'll be back in the morning!\""
         },
@@ -2844,10 +2914,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s02_b098_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "mike",
+          "speakerName": "Mike",
+          "sourceLine": 900,
           "text": "The night passed in deep, undisturbed mountain silence. In the morning, a cheerful knock sounded at the cabin door. Mike stood on the sunlit porch holding an iron griddle and a steaming pot of coffee."
         }
       ],
@@ -2857,14 +2927,14 @@
       "id": "uneraseable_s02_b099",
       "index": 99,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"What's up? Got Saturday pancakes going!\" Mike announced brightly. \"Coffee's hot. Come up to the inn. I know Naomi has been in your ear about checking out stuff, but eat first. We've been here for a century\u2014there's no rush.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b099_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 901,
           "text": "\"What's up? Got Saturday pancakes going!\""
         },
@@ -2879,8 +2949,8 @@
         {
           "segmentId": "uneraseable_s02_b099_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 901,
           "text": "\"Coffee's hot. Come up to the inn. I know Naomi has been in your ear about checking out stuff, but eat first. We've been here for a century\u2014there's no rush.\""
         }
@@ -2917,14 +2987,14 @@
       "id": "uneraseable_s02_b101",
       "index": 101,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"People say I make the best,\" Mike laughed, \"though there are only ten people here, so best out of ten isn't that impressive! Naomi's a bit of a workaholic. She got here in 2009, or was next in 2011, and hasn't stopped planning since.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b101_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 903,
           "text": "\"People say I make the best,\""
         },
@@ -2939,8 +3009,8 @@
         {
           "segmentId": "uneraseable_s02_b101_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 903,
           "text": "\"though there are only ten people here, so best out of ten isn't that impressive! Naomi's a bit of a workaholic. She got here in 2009, or was next in 2011, and hasn't stopped planning since.\""
         }
@@ -2951,7 +3021,7 @@
       "id": "uneraseable_s02_b102",
       "index": 102,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike set down his iron spatula, leaning over the wooden counter. \"Honestly, I have my own theory why we are all here,\" Mike confessed softly. \"I am no demigod, but I have a card from my daughter that says To Dad. That concrete tether is keeping me anchored.\"",
       "segments": [
         {
@@ -2965,8 +3035,8 @@
         {
           "segmentId": "uneraseable_s02_b102_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 921,
           "text": "\"Honestly, I have my own theory why we are all here,\""
         },
@@ -2981,8 +3051,8 @@
         {
           "segmentId": "uneraseable_s02_b102_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 921,
           "text": "\"I am no demigod, but I have a card from my daughter that says To Dad. That concrete tether is keeping me anchored.\""
         }
@@ -3011,7 +3081,7 @@
       "id": "uneraseable_s02_b104",
       "index": 104,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "As breakfast finished, Naomi marched into the dining hall, pointing purposefully at Pierre's wristwatch. \"In Paris, it is already eleven o'clock!\" Naomi declared triumphantly. \"So I think this counts. It is time for you to come and see what I have found.\"",
       "segments": [
         {
@@ -3025,8 +3095,8 @@
         {
           "segmentId": "uneraseable_s02_b104_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 954,
           "text": "\"In Paris, it is already eleven o'clock!\""
         },
@@ -3041,8 +3111,8 @@
         {
           "segmentId": "uneraseable_s02_b104_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 954,
           "text": "\"So I think this counts. It is time for you to come and see what I have found.\""
         }
@@ -3308,7 +3378,7 @@
       "id": "uneraseable_s02_b090_alt2",
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
       "cut": "cinematic",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Morning arrived in crisp mountain sunlight, heralded by a brisk knock on the porch planks. Mike stood framed in the doorway, balancing an iron griddle, a smoking pot of coffee, and a platter of golden flapjacks. \"Saturday pancakes are up!\" he announced with an easy grin, leaning against the wooden railing. \"Eat first. Naomi's been planning non-stop since she landed here over a decade ago, but we've been in this valley a hundred years\u2014the mystery isn't going anywhere.\" Setting his spatula aside, Mike looked down at his apron, his voice softening with quiet conviction. \"People wonder how an ordinary guy like me stays grounded here without demigod blood. Truth is, I keep a card in my pocket from my daughter. Just three words\u2014To Dad. That concrete tether is what keeps me human.\"",
       "segments": [
         {
@@ -3322,8 +3392,8 @@
         {
           "segmentId": "uneraseable_s02_b090_alt2_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 900,
           "text": "\"Saturday pancakes are up!\""
         },
@@ -3338,8 +3408,8 @@
         {
           "segmentId": "uneraseable_s02_b090_alt2_s04",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 900,
           "text": "\"Eat first. Naomi's been planning non-stop since she landed here over a decade ago, but we've been in this valley a hundred years\u2014the mystery isn't going anywhere.\""
         },
@@ -3354,8 +3424,8 @@
         {
           "segmentId": "uneraseable_s02_b090_alt2_s06",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 900,
           "text": "\"People wonder how an ordinary guy like me stays grounded here without demigod blood. Truth is, I keep a card in my pocket from my daughter. Just three words\u2014To Dad. That concrete tether is what keeps me human.\""
         }
@@ -3382,7 +3452,7 @@
       "id": "uneraseable_s02_b090_alt4",
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
       "cut": "cinematic",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "Right on schedule, Naomi marched into the hall, tapping her wrist triumphantly to declare that eleven o'clock in Paris legally counted as morning research hours. Desperate for a nap, Pierre nudged Professor Dravin forward as their academic shield. \"Deal with her, Edward. What if she starts lecturing on Zeus?\"",
       "segments": [
         {
@@ -3396,8 +3466,8 @@
         {
           "segmentId": "uneraseable_s02_b090_alt4_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 954,
           "text": "\"Deal with her, Edward. What if she starts lecturing on Zeus?\""
         }
@@ -3465,7 +3535,7 @@
       "id": "uneraseable_s02_b112",
       "index": 112,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "Naomi led them into a back room of the lodge, crossing her arms with an exasperated sigh. \"Everyone here is way too focused on making people feel comfortable.\"",
       "segments": [
         {
@@ -3479,8 +3549,8 @@
         {
           "segmentId": "uneraseable_s02_b112_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1017,
           "text": "\"Everyone here is way too focused on making people feel comfortable.\""
         }
@@ -3490,14 +3560,14 @@
       "id": "uneraseable_s02_b113",
       "index": 113,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "\"I wanted to show you a few things I have been working on,\" Naomi continued, pulling out a modern electronic device. \"Maybe you all can help me out.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b113_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1021,
           "text": "\"I wanted to show you a few things I have been working on,\""
         },
@@ -3512,8 +3582,8 @@
         {
           "segmentId": "uneraseable_s02_b113_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1021,
           "text": "\"Maybe you all can help me out.\""
         }
@@ -3573,14 +3643,14 @@
       "id": "uneraseable_s02_b116",
       "index": 116,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "\"It's an image on a tablet of a forum thread debating an artifact,\" Naomi explained, zooming in on the photograph.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b116_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1033,
           "text": "\"It's an image on a tablet of a forum thread debating an artifact,\""
         },
@@ -3723,7 +3793,7 @@
       "id": "uneraseable_s02_b122",
       "index": 122,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "Naomi nodded solemnly. \"We run drills every now and then because correctors seek out loose ends.\"",
       "segments": [
         {
@@ -3737,8 +3807,8 @@
         {
           "segmentId": "uneraseable_s02_b122_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1079,
           "text": "\"We run drills every now and then because correctors seek out loose ends.\""
         }
@@ -3882,14 +3952,14 @@
       "id": "uneraseable_s02_b129",
       "index": 129,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "\"To leave the Margin,\" Teddy explained, tossing the keys to Eusacles, \"you can't just drive down highway ninety-five. You have to navigate the Lost Roads\u2014the abandoned bypasses and historical routes that were decommissioned when modern interstates were built.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b129_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 1177,
           "text": "\"To leave the Margin,\""
         },
@@ -3904,8 +3974,8 @@
         {
           "segmentId": "uneraseable_s02_b129_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 1177,
           "text": "\"you can't just drive down highway ninety-five. You have to navigate the Lost Roads\u2014the abandoned bypasses and historical routes that were decommissioned when modern interstates were built.\""
         }
@@ -3915,7 +3985,7 @@
       "id": "uneraseable_s02_b130",
       "index": 130,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "dravin",
       "text": "Dravin examined the vehicle and their supplies. \"You took books from the Library of the Fates,\" Dravin noted, examining the stolen volumes.",
       "segments": [
         {
@@ -3929,8 +3999,8 @@
         {
           "segmentId": "uneraseable_s02_b130_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 1185,
           "text": "\"You took books from the Library of the Fates,\""
         },
@@ -3948,7 +4018,7 @@
       "id": "uneraseable_s02_b131",
       "index": 131,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "Pierre pulled the three ancient scrolls from his rucksack, showing them to Teddy. \"These were on the shelves of the Fates. Naomi said they might guide our path.\"",
       "segments": [
         {
@@ -3962,8 +4032,8 @@
         {
           "segmentId": "uneraseable_s02_b131_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1193,
           "text": "\"These were on the shelves of the Fates. Naomi said they might guide our path.\""
         }
@@ -4066,14 +4136,14 @@
       "id": "uneraseable_s02_b137",
       "index": 137,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "\"Keep your headlights on, don't stop for hitchhikers, and if the radio starts talking backward, keep your foot on the gas,\" Mike instructed plainly.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b137_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 1249,
           "text": "\"Keep your headlights on, don't stop for hitchhikers, and if the radio starts talking backward, keep your foot on the gas,\""
         },
@@ -4141,7 +4211,7 @@
       "id": "uneraseable_s02_b140",
       "index": 140,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "narrator",
+      "speakerId": "theodore",
       "text": "Teddy watched them pull away with quiet awe. \"I have never heard of anyone reaching three fragments before. Bring it home safely.\"",
       "segments": [
         {
@@ -4155,8 +4225,8 @@
         {
           "segmentId": "uneraseable_s02_b140_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 1269,
           "text": "\"I have never heard of anyone reaching three fragments before. Bring it home safely.\""
         }
@@ -4216,7 +4286,7 @@
       "id": "uneraseable_s02_b143",
       "index": 143,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Pierre carried a platter over with great ceremony, though Mike shook his head with a chuckle. \"It's a crepe. I don't know if you missed that, but it is definitely a crepe.\"",
       "segments": [
         {
@@ -4230,8 +4300,8 @@
         {
           "segmentId": "uneraseable_s02_b143_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1282,
           "text": "\"It's a crepe. I don't know if you missed that, but it is definitely a crepe.\""
         }
@@ -4266,14 +4336,14 @@
       "id": "uneraseable_s02_b145",
       "index": 145,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"For North Carolina, you can take the truck,\" Mike suggested, tossing the keys.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b145_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1295,
           "text": "\"For North Carolina, you can take the truck,\""
         },
@@ -4308,7 +4378,7 @@
       "id": "uneraseable_s02_b147",
       "index": 147,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike chuckled from the porch. \"Pierre getting in on the driver's side... you know how to drive, right?\"",
       "segments": [
         {
@@ -4322,8 +4392,8 @@
         {
           "segmentId": "uneraseable_s02_b147_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1305,
           "text": "\"Pierre getting in on the driver's side... you know how to drive, right?\""
         }
@@ -4474,14 +4544,14 @@
       "id": "uneraseable_s02_b153",
       "index": 153,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Hey, careful now,\" Mike laughed. \"It's an old boy here, you got to take care of it.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b153_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1326,
           "text": "\"Hey, careful now,\""
         },
@@ -4496,8 +4566,8 @@
         {
           "segmentId": "uneraseable_s02_b153_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1326,
           "text": "\"It's an old boy here, you got to take care of it.\""
         }
@@ -4657,14 +4727,14 @@
       "id": "uneraseable_s02_b160",
       "index": 160,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "dravin",
       "text": "\"Pierre and Alfie are going in,\" Dravin noted, watching from the passenger seat.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b160_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 1377,
           "text": "\"Pierre and Alfie are going in,\""
         },
@@ -4699,7 +4769,7 @@
       "id": "uneraseable_s02_b162",
       "index": 162,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "Behind the counter, an elderly woman in a faded apron turned to them. \"Hey honey, how you doing?\"",
       "segments": [
         {
@@ -4713,8 +4783,8 @@
         {
           "segmentId": "uneraseable_s02_b162_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1383,
           "text": "\"Hey honey, how you doing?\""
         }
@@ -4724,7 +4794,7 @@
       "id": "uneraseable_s02_b163",
       "index": 163,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "pierre",
       "text": "Pierre bowed with polite French cadence. \"Bonjour, madame...\"",
       "segments": [
         {
@@ -4738,9 +4808,9 @@
         {
           "segmentId": "uneraseable_s02_b163_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1383,
           "text": "\"Bonjour, madame...\""
         }
       ]
@@ -4749,7 +4819,7 @@
       "id": "uneraseable_s02_b164",
       "index": 164,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "The clerk squinted through her bifocals, frowning suspiciously. \"Ah, we got a Spaniard over here!\"",
       "segments": [
         {
@@ -4763,8 +4833,8 @@
         {
           "segmentId": "uneraseable_s02_b164_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1387,
           "text": "\"Ah, we got a Spaniard over here!\""
         }
@@ -4774,7 +4844,7 @@
       "id": "uneraseable_s02_b165",
       "index": 165,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "Her gaze dropped from Pierre's spectacles down to the wooden doll nestled in his pocket. \"I gotta say, I've never seen a grown man walk in with a doll before.\"",
       "segments": [
         {
@@ -4788,8 +4858,8 @@
         {
           "segmentId": "uneraseable_s02_b165_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1394,
           "text": "\"I gotta say, I've never seen a grown man walk in with a doll before.\""
         }
@@ -4841,7 +4911,7 @@
       "id": "uneraseable_s02_b168",
       "index": 168,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "The door chimed again, but the clerk was fixated on the counter. \"Oh, that's on pump three, huh?\"",
       "segments": [
         {
@@ -4855,8 +4925,8 @@
         {
           "segmentId": "uneraseable_s02_b168_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1410,
           "text": "\"Oh, that's on pump three, huh?\""
         }
@@ -4866,7 +4936,7 @@
       "id": "uneraseable_s02_b169",
       "index": 169,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "She glared at Pierre with mounting hostility. \"Hey, I don't need to take this from you! Get out of here! What are you doing?\"",
       "segments": [
         {
@@ -4880,8 +4950,8 @@
         {
           "segmentId": "uneraseable_s02_b169_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1413,
           "text": "\"Hey, I don't need to take this from you! Get out of here! What are you doing?\""
         }
@@ -4916,14 +4986,14 @@
       "id": "uneraseable_s02_b171",
       "index": 171,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "\"What kind of guy comes in with a pull-string doll?\" the clerk sneered.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b171_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1421,
           "text": "\"What kind of guy comes in with a pull-string doll?\""
         },
@@ -4974,7 +5044,7 @@
       "id": "uneraseable_s02_b173",
       "index": 173,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "The woman swatted a broom toward the counter. \"Hey, don't throw your doll at me! Get out of here!\"",
       "segments": [
         {
@@ -4988,8 +5058,8 @@
         {
           "segmentId": "uneraseable_s02_b173_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1432,
           "text": "\"Hey, don't throw your doll at me! Get out of here!\""
         }
@@ -5016,14 +5086,14 @@
       "id": "uneraseable_s02_b175",
       "index": 175,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "\"Ow! You stabbed me!\" the clerk shrieked, clutching her hand. \"Get out of here! You got loose threads on that thing or something!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b175_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1442,
           "text": "\"Ow! You stabbed me!\""
         },
@@ -5038,8 +5108,8 @@
         {
           "segmentId": "uneraseable_s02_b175_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1442,
           "text": "\"Get out of here! You got loose threads on that thing or something!\""
         }
@@ -5082,14 +5152,14 @@
       "id": "uneraseable_s02_b177",
       "index": 177,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "clerk",
       "text": "\"It's perfectly sunny out there!\" she yelled. \"I don't know what you're talking about! You're crazy! Get out!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b177_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1454,
           "text": "\"It's perfectly sunny out there!\""
         },
@@ -5104,8 +5174,8 @@
         {
           "segmentId": "uneraseable_s02_b177_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "clerk",
+          "speakerName": "Gas Station Clerk",
           "sourceLine": 1454,
           "text": "\"I don't know what you're talking about! You're crazy! Get out!\""
         }
@@ -5216,14 +5286,14 @@
       "id": "uneraseable_s02_b183",
       "index": 183,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Thanks for being such a good sport about it!\" Mike laughed. \"We have plenty of gas back at the Margin\u2014just drive it on back! That gas station is our favorite prank for newcomers.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b183_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1495,
           "text": "\"Thanks for being such a good sport about it!\""
         },
@@ -5238,8 +5308,8 @@
         {
           "segmentId": "uneraseable_s02_b183_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1495,
           "text": "\"We have plenty of gas back at the Margin\u2014just drive it on back! That gas station is our favorite prank for newcomers.\""
         }
@@ -5350,14 +5420,14 @@
       "id": "uneraseable_s02_b189",
       "index": 189,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Yeah, it's like a portal in a way,\" Mike explained, leading them past the barn. \"There's the maintenance shed, and then a trail that leads through forgotten areas. And north of here, there's a draw creek where an impossibly large skiff travels through.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b189_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1515,
           "text": "\"Yeah, it's like a portal in a way,\""
         },
@@ -5372,8 +5442,8 @@
         {
           "segmentId": "uneraseable_s02_b189_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1515,
           "text": "\"There's the maintenance shed, and then a trail that leads through forgotten areas. And north of here, there's a draw creek where an impossibly large skiff travels through.\""
         }
@@ -5383,7 +5453,7 @@
       "id": "uneraseable_s02_b190",
       "index": 190,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "Mike pointed toward the northern creek bed, where mist swirled heavily between dry boulders. \"An impossibly large skiff travels through that draw creek, piloted by a shadowy ferryman.\"",
       "segments": [
         {
@@ -5397,8 +5467,8 @@
         {
           "segmentId": "uneraseable_s02_b190_s02",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1522,
           "text": "\"An impossibly large skiff travels through that draw creek, piloted by a shadowy ferryman.\""
         }
@@ -5433,15 +5503,15 @@
       "id": "uneraseable_s02_b192",
       "index": 192,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"Kind of like a shadowy figure,\" Mike replied.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b192_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "mike",
+          "speakerName": "Mike",
+          "sourceLine": 1523,
           "text": "\"Kind of like a shadowy figure,\""
         },
         {
@@ -5483,14 +5553,14 @@
       "id": "uneraseable_s02_b194",
       "index": 194,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"We'll stay away from that route for a bit,\" Mike agreed, redirecting them toward the timber outbuilding. \"The maintenance shed connects through abandoned structures and forgotten paths.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b194_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1532,
           "text": "\"We'll stay away from that route for a bit,\""
         },
@@ -5505,8 +5575,8 @@
         {
           "segmentId": "uneraseable_s02_b194_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1532,
           "text": "\"The maintenance shed connects through abandoned structures and forgotten paths.\""
         }
@@ -5541,14 +5611,14 @@
       "id": "uneraseable_s02_b196",
       "index": 196,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "naomi",
       "text": "\"Yeah, exactly,\" Naomi nodded, stepping forward with her pack. \"That's what I was telling you about the Lost Roads. It's real.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b196_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1538,
           "text": "\"Yeah, exactly,\""
         },
@@ -5563,8 +5633,8 @@
         {
           "segmentId": "uneraseable_s02_b196_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
           "sourceLine": 1538,
           "text": "\"That's what I was telling you about the Lost Roads. It's real.\""
         }
@@ -5574,14 +5644,14 @@
       "id": "uneraseable_s02_b197",
       "index": 197,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "mike",
       "text": "\"You can open the Lost Roads travel,\" Mike said, checking the lock on the maintenance shed door. \"It takes you through forgotten places and spits you out near where you need to go.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b197_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1543,
           "text": "\"You can open the Lost Roads travel,\""
         },
@@ -5596,8 +5666,8 @@
         {
           "segmentId": "uneraseable_s02_b197_s03",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 1543,
           "text": "\"It takes you through forgotten places and spits you out near where you need to go.\""
         }
@@ -5607,14 +5677,14 @@
       "id": "uneraseable_s02_b198",
       "index": 198,
       "scene": "CHAPTER 15: THE THRESHOLD OF THE LOST ROADS",
-      "speakerId": "narrator",
+      "speakerId": "dravin",
       "text": "\"We'll figure it out as we go,\" Dravin agreed, adjusting his coat for the dimensional trek.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b198_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 1553,
           "text": "\"We'll figure it out as we go,\""
         },

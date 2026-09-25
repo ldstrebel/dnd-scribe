@@ -68,21 +68,17 @@ DENY_LIST_OOC_REALIA: Set[str] = set(_CAMPAIGN_CONFIG.get("deny_list_realia", [
 
 # Phonetic replacements
 PHONETIC_REPLACEMENTS: Dict[str, str] = _CAMPAIGN_CONFIG.get("phonetic_replacements", {
-    "real": "Rill",
-    "reel": "Rill",
-    "vanball": "Bramble",
-    "bramball": "Bramble",
-    "nagy": "Aggie",
-    "aggy": "Aggie",
-    "agie": "Aggie",
-    "ignatious": "Ignatius",
-    "lomi": "Loami",
-    "lowmi": "Loami",
-    "lumi": "Loami",
-    "iggie": "Iggy",
-    "brit": "Britt",
-    "professor inc": "Professor Ink",
-    "professor inc.": "Professor Ink"
+    "pair-ey": "Paris",
+    "pair-ee": "Paris",
+    "perry": "Pierre",
+    "pier": "Pierre",
+    "ukules": "Eusacles",
+    "usacles": "Eusacles",
+    "draven": "Dravin",
+    "nancy": "Nincy",
+    "nanci": "Nincy",
+    "teddie": "Teddy",
+    "ted": "Teddy"
 })
 
 # Filter words / crutches that dilute active prose
@@ -125,23 +121,26 @@ def load_canonical_entities(repo_root: Path = None) -> Dict[str, List[str]]:
     npcs = set()
     locations = set()
 
-    pc_dir = root / "characters" / "player-characters"
+    pc_dir = root / "campaign" / "characters" / "pcs"
     if pc_dir.exists():
         for f in pc_dir.glob("*.md"):
-            pcs.add(f.stem.replace("-", " ").title())
-    pcs.update({"Britt", "Aggie", "Iggy", "Ignatius", "Lomi", "Pip"})
+            if not f.name.startswith("."):
+                pcs.add(f.stem.replace("-", " ").title())
+    pcs.update({"Pierre", "Prof. Edward Dravin", "Edward Dravin", "Dravin", "Eusacles", "Alfie"})
 
-    npc_dir = root / "characters" / "npcs"
+    npc_dir = root / "campaign" / "characters" / "npcs"
     if npc_dir.exists():
         for f in npc_dir.glob("*.md"):
-            npcs.add(f.stem.replace("-", " ").title())
-    npcs.update({"Bramble", "Rill", "Saffron", "Cassius Thorne", "Serra Vox", "Dean Isolde Vane", "Mwaza-Kasa"})
+            if not f.name.startswith("."):
+                npcs.add(f.stem.replace("-", " ").title())
+    npcs.update({"Naomi", "Theodore", "Rosa", "Mike", "The Three Fates", "Anna Smith", "Ally", "Nincy", "Thomas", "Gordon", "Dr. Aris Thorne", "Shadow Beast", "News Anchor", "Bus Passenger", "Museum Attendant"})
 
-    lore_dir = root / "lore"
-    if lore_dir.exists():
-        for f in lore_dir.glob("**/*.md"):
-            locations.add(f.stem.replace("-", " ").title())
-    locations.update({"Apex Arena", "Campus Harbor", "Deep-Hull", "Celestial Lounge", "Mizizi", "Renali", "Harmony", "Octoumba"})
+    world_dir = root / "campaign" / "world"
+    if world_dir.exists():
+        for f in world_dir.glob("*.md"):
+            if not f.name.startswith("."):
+                locations.add(f.stem.replace("-", " ").title())
+    locations.update({"The Margin", "The Lost Roads", "Library Of The Fates", "North Carolina Museum Of History", "Stanford University", "Las Vegas", "Greyhound Bus", "Asylum"})
 
     return {
         "pcs": sorted(list(pcs)),

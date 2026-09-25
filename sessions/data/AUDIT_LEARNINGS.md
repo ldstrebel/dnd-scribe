@@ -20,6 +20,10 @@ This document is the persistent, canonical registry of all novelization pipeline
 | **FP-10** | Audio -> STT / Clean | **Phonetic Transcription Corruption & Accent Drift** | S1: French "Pair-ey" transcribed as "Brittany"; S3: Southern "Nincy" transcribed as "Nancy", breaking receptionist banter. | Dossier phonetic alias check; character introduction spelling audit. | Build explicit phonetic lookup tables in `campaign/characters/` and speaker alias maps in manifest generator. |
 | **FP-11** | Clean -> EPUB | **Chapter Architecture Fragmentation (Micro-Chaptering)** | S3: 10 individual 100-line blocks each given `## CHAPTER` headers, creating 200-word single-scene chapters. | EPUB compiler linter (`EXCESSIVE_CHAPTER_SPLIT` warning when chapters > 4 per session). | Decouple modular 100-line processing blocks from overarching thematic novel chapters (2-4 per session). |
 | **FP-12** | Raw -> Draft | **Mechanics-As-Dialogue (Anime Spell Shouts)** | S1: Characters shouting literal D&D spell names (*"Chill Touch!"*, *"Toll the Dead!"*) like battle cries. | Linter for raw mechanic names in dialogue strings without spellcraft narrative staging. | Translate table mechanics declarations into somatic gestures, atmospheric resonance, and in-world incantations. |
+| **FP-13** | Manifest -> Web | **Silent Speaker Fallback to Narrator on GM NPCs** | S1-S4: GM voicing Gordon, Nincy, Mike, Theodore mapped to "narrator", causing speech bubbles to display as gray narrator text. | `verify_manifest.py` Invariant 6: Strict assertion that every `type: "dialogue"` has `speakerId != "narrator"` and valid character color. | Declare canonical `dialogue_speakers` line mappings and block overrides in `sN-session-config.json`. |
+| **FP-14** | Prose -> Manifest | **Mid-Block Multi-Paragraph Line Marker Loss** | S1-S4: Multi-paragraph dialogue without intermediate anchors had subsequent paragraphs default to `sourceLine: null` and fallback to narrator. | Manifest generator validates that contiguous speaker dialogue blocks inherit active turn `sourceLine`. | Propagate active `sourceLine` across unanchored multi-paragraph dialogue turns. |
+| **FP-15** | Verifier Gate | **Permissive Prefix Matching Masking Ungrounded Turns** | S2: Permissive `rw[:4] == pw[:4]` prefix check allowed ungrounded turns (L1161, L1249) to pass with fake 100% scores. | `audit_semantic_grounding.py` morphological stemming with inflection stripping and consonant de-doubling. | Evaluate turns with exact morphological tokens and multi-marker paragraph span windows (`min(markers)-4` to `max(markers)+5`). |
+| **FP-16** | Verifier Gate | **Arbitrary Entity Whitelists vs. Genuine Setting Grounding** | S1, S4: Hardcoded 12-string vehicle whitelist missed realia or flagged legitimate synonyms (`television` vs `tv`, `airplane` vs `flight`). | `verify_parity.py` expanded `SUSPECT_VEHICLES_AND_TECH` paired with `TECH_RAW_GROUNDING` alias dictionaries. | Map colloquial modern prose synonyms to raw transcript anchors. |
 
 ---
 
@@ -116,6 +120,37 @@ This document is the persistent, canonical registry of all novelization pipeline
 - **Upstream Guardrail for Writers:**
   1. Translate mechanical spell declarations into visceral sensory manifestations, necrotic chill, runic hums, and in-world Latinate/archaic incantations.
   2. Never have a serious dramatic character scream raw D&D PHB mechanics as combat dialogue.
+
+---
+
+### 🛑 FP-13: Silent Speaker Fallback to Narrator on GM-Voiced NPCs
+- **The Breakdown:** In raw indexed transcripts, the GM voices all NPCs (e.g., `**Luke Foreman:** "We are sent to resolve the subjects at hand..."`). Because `load_raw_indexed_speakers` mapped `Luke Foreman` to `"narrator"`, downstream manifest generation parsed in-character NPC quotes as `speakerId: "narrator"`. On the web reader, this caused character speech to display in dull gray narrator colors instead of canonical character colors (Gordon purple, Nincy pink, Theodore amber).
+- **Upstream Guardrail for Indexers & Engineers:**
+  1. Declare explicit `dialogue_speakers` line mappings in `sN-session-config.json` linking GM line numbers to canonical character registry keys.
+  2. `verify_manifest.py` Invariant 6 strictly asserts that 100% of segments with `type: "dialogue"` have `speakerId != "narrator"` and a valid character hex color.
+
+---
+
+### 🛑 FP-14: Mid-Block Multi-Paragraph Line Marker Loss
+- **The Breakdown:** When a single character speaks for multiple paragraphs, prose authors place the `<!-- Lxxxx -->` line marker only on the final paragraph (or opening paragraph) to comply with `verify_parity.py`'s rule against duplicate turn markers. Earlier manifest generators treated unanchored paragraphs as having `source_line: None` and silently fell back to `"narrator"`.
+- **Upstream Guardrail for Manifest Builders:**
+  1. Implement line marker propagation across contiguous paragraphs within the same scene. If a dialogue paragraph lacks an explicit anchor, it inherits the active scene/turn `sourceLine` from the preceding turn.
+
+---
+
+### 🛑 FP-15: Permissive Prefix Matching Masking Ungrounded Turns (The 4-Character Loophole)
+- **The Breakdown:** `audit_semantic_grounding.py` previously checked `rw[:4] == pw[:4]`, causing any word sharing a 4-letter prefix to count as grounded (e.g., `star` matching `startled`, `with` matching `within`). This generated false 100% pass rates while masking completely ungrounded turns (e.g. S2 Scene 7 where L1161 and L1249 had zero token overlap with the prose).
+- **Upstream Guardrail for Verifiers:**
+  1. Enforce strict morphological stemming with inflection stripping (`-ing`, `-ed`, `-es`, `-ly`, `-tion`) and English consonant de-doubling (`dropp` $\rightarrow$ `drop`).
+  2. For fused-marker paragraphs (`<!-- L0330 --> <!-- L0343 -->`), evaluate the entire raw transcript span across all markers (`min(markers)-4` to `max(markers)+5`).
+
+---
+
+### 🛑 FP-16: Arbitrary Entity Whitelists vs. Genuine Setting Grounding
+- **The Breakdown:** `verify_parity.py` previously used a static 12-string vehicle list that missed modern tech or flagged legitimate colloquial expressions (e.g., flagging `television` when the transcript had `TV`, or flagging `airplane` when the transcript had `flight 422`).
+- **Upstream Guardrail for Verifiers:**
+  1. Expand the suspect realia check across common modern anachronisms (`elevator`, `keycard`, `sedan`, `suv`, `laser`, `airplane`, `jetliner`, `cellphone`, `television`, `computer`, `satellite`).
+  2. Provide `TECH_RAW_GROUNDING` alias dictionaries that map prose terms back to raw transcript synonyms (`television` $\leftrightarrow$ `tv`, `airplane` $\leftrightarrow$ `flight`, `sedan` $\leftrightarrow$ `car`/`parking`).
 
 ---
 

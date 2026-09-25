@@ -44,16 +44,13 @@ SENSORY_PHRASES = [
     r"polished brass",
     r"acrid ozone",
     r"gaslight lanterns?",
-    r"circular (?:crystal|glass) floor",
-    r"basalt (?:canyon|chasm|ring)",
-    r"copper balustrades?",
-    r"heavy canvas (?:working )?collar",
-    r"woolen flat cap",
-    r"green leaf crown",
-    r"dangling satchels?",
-    r"living woven green",
-    r"steamship with brass fittings",
+    r"fluorescent (?:hum|buzz|light|flicker)",
+    r"cold linoleum",
+    r"tarnished silver",
+    r"humming neon",
     r"subtle(?:,)? disorienting flutter",
+    r"temporal resonance",
+    r"whispering echoes",
     r"force of nature",
     r"pure dread",
 ]
@@ -71,7 +68,12 @@ ACTION_VERBS = {
     "crawled", "crawling", "grabbed", "grabbing", "wrenched", "wrenching", "dodged", "dodging",
     "shattered", "shattering", "ducked", "ducking", "lunged", "lunging", "tackled", "tackling",
     "climbed", "climbing", "pushed", "pushing", "dragged", "dragging", "bolted", "bolting",
-    "dived", "diving", "swung", "swinging", "struck", "striking", "burst", "bursting"
+    "dived", "diving", "swung", "swinging", "struck", "striking", "burst", "bursting",
+    "stepped", "stepping", "turned", "turning", "walked", "walking", "paced", "pacing",
+    "leaned", "leaning", "reached", "reaching", "handed", "handing", "stood", "standing",
+    "sat", "sitting", "pointed", "pointing", "tapped", "tapping", "poured", "pouring",
+    "approached", "approaching", "guided", "guiding", "pulled", "pulling", "scribbled", "scribbling",
+    "adjusted", "adjusting", "tucked", "tucking", "nodded", "nodding", "shook", "shaking"
 }
 
 def load_book_config():
@@ -123,18 +125,20 @@ def analyze_dialogue_flow(text):
     paragraphs = [p.strip() for p in prose_only.split("\n\n") if p.strip()]
     findings = []
     
-    speech_verbs = r'(?:said|asked|murmured|whispered|added|exclaimed|replied|blinked|stammered|shouted|rasped|bellowed|called out|muttered|cried)'
+    speech_verbs = r'(?:said|asked|murmured|whispered|added|exclaimed|replied|stammered|shouted|rasped|bellowed|called out|muttered|cried)'
     tag_pattern = re.compile(rf'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s+{speech_verbs}\b', re.I)
     
     for i in range(len(paragraphs) - 1):
         p1, p2 = paragraphs[i], paragraphs[i+1]
+        if not (('"' in p1 or '“' in p1) and ('"' in p2 or '“' in p2)):
+            continue
         m1 = tag_pattern.search(p1)
         m2 = tag_pattern.search(p2)
         
         if m1 and m2:
             s1 = m1.group(1).lower()
             s2 = m2.group(1).lower()
-            if s1 == s2:
+            if s1 == s2 and s1 not in ("he", "she", "it", "they"):
                 findings.append({
                     "speaker": s1,
                     "snippet": f"P1: {p1[:50]}... | P2: {p2[:50]}..."
@@ -535,18 +539,17 @@ def generate_full_novel_critique_report(base_dir):
         
         # Aggregate quotes for global voices
         alias_map = {
-            "Loami": ["Loami", "Lomi"],
-            "Britt": ["Britt"],
-            "Aggie": ["Aggie"],
-            "Ignatius": ["Ignatius", "Ignatious"],
-            "Iggy": ["Iggy"],
-            "Vivi": ["Vivi"],
-            "Pudge": ["Pudge"],
-            "Alistair": ["Alistair", "Rook"],
-            "Gudge": ["Gudge"],
-            "Dancer": ["Dancer"],
-            "Fabian": ["Fabian"],
-            "Tarragon": ["Tarragon"]
+            "Pierre": ["Pierre", "Luke"],
+            "Dravin": ["Dravin", "Edward", "Professor", "William"],
+            "Alfie": ["Alfie", "Sophie", "Doll"],
+            "Eusacles": ["Eusacles", "John"],
+            "Theodore": ["Theodore", "Teddy"],
+            "Mike": ["Mike", "Michael"],
+            "Naomi": ["Naomi"],
+            "Rosa": ["Rosa"],
+            "Gordon": ["Gordon"],
+            "Nincy": ["Nincy"],
+            "Fates": ["Fates", "Clotho", "Lachesis", "Atropos"]
         }
         prose_only = re.sub(r"<!--.*?-->", "", story_text, flags=re.DOTALL)
         paragraphs = [p.strip() for p in prose_only.split("\n\n") if p.strip()]
@@ -672,7 +675,8 @@ def generate_full_novel_critique_report(base_dir):
     for s in session_data:
         report.append(f"| **{s['session_id'].upper()}** | {s['word_count']:,} | {s['scene_count']} | {s['avg_dialogue_pct']}% | {s['talking_heads']} | {s['earth_leaks']} | {s['dialogue_stutters']} | {s['logistics_density']} | **{s['status']}** |")
     avg_dialogue_novel = int(sum(s['avg_dialogue_pct'] for s in session_data)/len(session_data)) if session_data else 0
-    report.append(f"| **TOTAL / AVG** | **{total_words:,}** | **{total_scenes}** | **{avg_dialogue_novel}%** | **{len(all_talking_heads)}** | **{len(all_earth_leaks)}** | **{len(all_dialogue_stutters)}** | **{global_logistics.get('hit_density_per_kword', 0)}** | **PASS** |")
+    overall_status = "REVIEW" if (len(all_earth_leaks) > 0 or len(all_dialogue_stutters) > 0) else "PASS"
+    report.append(f"| **TOTAL / AVG** | **{total_words:,}** | **{total_scenes}** | **{avg_dialogue_novel}%** | **{len(all_talking_heads)}** | **{len(all_earth_leaks)}** | **{len(all_dialogue_stutters)}** | **{global_logistics.get('hit_density_per_kword', 0)}** | **{overall_status}** |")
     report.append("")
     
     # 3. Earth Leaks
@@ -769,11 +773,13 @@ def main():
     
     if args.session_id.lower() in ("all", "novel", "full"):
         report = generate_full_novel_critique_report(base_dir)
+        has_critical_issues = "EDITORIAL CORRECTION REQUIRED" in report
     else:
         story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{args.session_id}-clean-story.md")
         if not os.path.exists(story_path):
             story_path = os.path.join(base_dir, "sessions", "transcripts", "clean", f"{args.session_id}-clean-story.md")
         report = generate_critique_report(args.session_id, story_path)
+        has_critical_issues = "EDITORIAL CORRECTION REQUIRED" in report
     
     if args.out:
         os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
@@ -782,6 +788,12 @@ def main():
         print(f"[OK] Wrote critique report to {args.out}")
     else:
         print(report)
+
+    if has_critical_issues:
+        print("\n[FAIL] CRITIQUE GATE FAILED: Editorial correction required.", file=sys.stderr)
+        sys.exit(1)
+    else:
+        sys.exit(0)
 
 
 if __name__ == "__main__":
