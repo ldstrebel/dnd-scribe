@@ -150,24 +150,42 @@ SPEAKER_ALIASES = {
     "attendant": ["attendant", "curator", "docent"]
 }
 
-def identify_speaker_id(paragraph_text, prev_speaker=None):
-    # Check if paragraph contains quoted dialogue
-    has_quote = '"' in paragraph_text or '“' in paragraph_text
-    if not has_quote:
-        return "narrator"
-    
-    # Check dialogue tags
-    text_lower = paragraph_text.lower()
-    for char_id, aliases in SPEAKER_ALIASES.items():
-        for a in aliases:
-            if re.search(rf"\b{re.escape(a)}\b", text_lower):
-                return char_id
-                
-    # Fallback to active speaker in conversational exchange
-    if prev_speaker and prev_speaker != "narrator":
-        return prev_speaker
-
-    return "narrator"
+# Character and Player Ground-Truth Map
+CHARACTER_MAP = {
+    "pierre": "pierre",
+    "luke s": "pierre",
+    "dravin": "dravin",
+    "edward": "dravin",
+    "william": "dravin",
+    "eusacles": "eusacles",
+    "john": "eusacles",
+    "alfie": "alfie",
+    "sophie": "alfie",
+    "doll": "alfie",
+    "theodore": "theodore",
+    "teddy": "theodore",
+    "naomi": "naomi",
+    "rosa": "rosa",
+    "mike": "mike",
+    "fates": "fates",
+    "three fates": "fates",
+    "clerk": "clerk",
+    "thomas": "thomas",
+    "guard": "thomas",
+    "nincy": "nincy",
+    "nancy": "nincy",
+    "beast": "beast",
+    "sphinx": "beast",
+    "anchor": "anchor",
+    "broadcast": "anchor",
+    "tv": "anchor",
+    "passenger": "passenger",
+    "gordon": "gordon",
+    "gorgon": "gordon",
+    "attendant": "attendant",
+    "curator": "attendant",
+    "ally": "ally"
+}
 
 def load_raw_indexed_speakers(session_num):
     path = os.path.join(index_dir, f"s{session_num}-raw-indexed.md")
@@ -191,46 +209,36 @@ def load_raw_indexed_speakers(session_num):
 
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
-            m = re.match(r"^L(\d{4}):\s*\*\*([^*]+?)(?:\s*\((?:PC|NPC)\))?:\*\*", line.strip())
+            m = re.match(r"^L(\d{4}):\s*\*\*([^*]+?)(?:\s*\((?:PC|NPC|TV|GM)\))?:\*\*", line.strip())
             if m:
                 lid = int(m.group(1))
-                spk = m.group(2).strip().lower()
+                spk_raw = m.group(2).strip().lower()
                 
-                if spk in player_map:
-                    speaker_map[lid] = player_map[spk]
+                if spk_raw in player_map:
+                    speaker_map[lid] = player_map[spk_raw]
                     continue
                 
                 found = False
-                for char_id, aliases in SPEAKER_ALIASES.items():
-                    for a in aliases:
-                        if a in spk:
-                            speaker_map[lid] = char_id
-                            found = True
-                            break
-                    if found:
+                for k, v in CHARACTER_MAP.items():
+                    if k in spk_raw:
+                        speaker_map[lid] = v
+                        found = True
                         break
                 if not found:
-                    if "luke s" in spk or "pierre" in spk:
-                        speaker_map[lid] = "pierre"
-                    elif "william" in spk or "dravin" in spk or "edward" in spk:
-                        speaker_map[lid] = "dravin"
-                    elif "sophie" in spk or "alfie" in spk:
-                        speaker_map[lid] = "alfie"
-                    elif "john" in spk or "eusacles" in spk:
-                        speaker_map[lid] = "eusacles"
-                    elif "theodore" in spk or "teddy" in spk:
-                        speaker_map[lid] = "theodore"
-                    elif "naomi" in spk:
-                        speaker_map[lid] = "naomi"
-                    elif "mike" in spk:
-                        speaker_map[lid] = "mike"
-                    elif "gordon" in spk:
-                        speaker_map[lid] = "gordon"
-                    elif "fates" in spk:
-                        speaker_map[lid] = "fates"
+                    if "luke foreman" in spk_raw:
+                        speaker_map[lid] = "narrator"
     return speaker_map
 
-def decompose_block_to_web_segments(block_id: str, text: str, default_speaker_id: str, source_line: int, char_registry: dict, raw_speakers: dict) -> list:
+def resolve_block_speaker(source_line: int, raw_speakers: dict, has_quote: bool) -> str:
+    """Origin-time resolution: look up speaker from raw indexed ground truth."""
+    if not has_quote:
+        return "narrator"
+    if source_line and source_line in raw_speakers:
+        return raw_speakers[source_line]
+    return "narrator"
+
+def decompose_block_to_web_segments(block_id: str, text: str, source_line: int, char_registry: dict, raw_speakers: dict) -> list:
+    """Decompose block into narration and dialogue segments based on origin-time indexing (Zero Regex Guessing)."""
     matches = list(re.finditer(r'["“]([^"”]+)["”]', text))
     if not matches:
         return [{
@@ -241,6 +249,13 @@ def decompose_block_to_web_segments(block_id: str, text: str, default_speaker_id
             "sourceLine": None,
             "text": text
         }]
+
+    # Dialogue speaker is determined strictly from origin-time line index ground truth
+    dialogue_speaker = "narrator"
+    if source_line and source_line in raw_speakers:
+        dialogue_speaker = raw_speakers[source_line]
+    
+    spk_name = char_registry.get(dialogue_speaker, {}).get("name", dialogue_speaker.title())
 
     segments = []
     curr = 0
@@ -261,48 +276,29 @@ def decompose_block_to_web_segments(block_id: str, text: str, default_speaker_id
             seg_idx += 1
 
         quote_text = text[start:end]
-
-        surround_window = ""
-        if start >= 40:
-            surround_window += text[start-40:start]
-        else:
-            surround_window += text[:start]
-        if end + 40 <= len(text):
-            surround_window += " " + text[end:end+40]
-        else:
-            surround_window += " " + text[end:]
-
-        tag_speaker = None
-        surround_lower = surround_window.lower()
-        for cid, aliases in SPEAKER_ALIASES.items():
-            for a in aliases:
-                if re.search(rf"\b(?:said|asked|shouted|grumbled|murmured|replied|warned|cried|whispered|noted|laughed|intervened|insisted|agreed)\s+{re.escape(a)}\b", surround_lower) or \
-                   re.search(rf"\b{re.escape(a)}\s+(?:said|asked|shouted|grumbled|murmured|replied|warned|cried|whispered|noted|laughed|intervened|insisted|agreed)\b", surround_lower):
-                    tag_speaker = cid
-                    break
-            if tag_speaker:
-                break
-
-        if tag_speaker:
-            q_spk = tag_speaker
-        elif source_line and source_line in raw_speakers:
-            q_spk = raw_speakers[source_line]
-        elif default_speaker_id != "narrator":
-            q_spk = default_speaker_id
-        else:
-            q_spk = "pierre"
-
-        spk_name = char_registry.get(q_spk, {}).get("name", q_spk.title())
         segments.append({
             "segmentId": f"{block_id}_s{seg_idx:02d}",
             "type": "dialogue",
-            "speakerId": q_spk,
+            "speakerId": dialogue_speaker,
             "speakerName": spk_name,
             "sourceLine": source_line,
             "text": quote_text
         })
         seg_idx += 1
         curr = end
+
+    if curr < len(text):
+        trailing_text = text[curr:]
+        segments.append({
+            "segmentId": f"{block_id}_s{seg_idx:02d}",
+            "type": "narration",
+            "speakerId": "narrator",
+            "speakerName": "Narrator",
+            "sourceLine": None,
+            "text": trailing_text
+        })
+
+    return segments
 
     if curr < len(text):
         trailing_text = text[curr:]
@@ -428,11 +424,8 @@ def generate_session_v2_manifest(session_num):
             spoken_words += p_spoken
             narrative_words += (word_count - p_spoken)
             
-            spk_id = identify_speaker_id(p, prev_spk_id)
-            if spk_id != "narrator":
-                prev_spk_id = spk_id
-            else:
-                prev_spk_id = None
+            has_quote = len(quotes) > 0
+            spk_id = resolve_block_speaker(source_line, raw_speakers, has_quote)
 
             speaker_word_counts[spk_id] += word_count
             
@@ -440,7 +433,7 @@ def generate_session_v2_manifest(session_num):
             if scene_first_b_id is None:
                 scene_first_b_id = b_id
 
-            segments = decompose_block_to_web_segments(b_id, p, spk_id, source_line, CHARACTER_REGISTRY, raw_speakers)
+            segments = decompose_block_to_web_segments(b_id, p, source_line, CHARACTER_REGISTRY, raw_speakers)
             block_data = {
                 "id": b_id,
                 "index": block_idx,
@@ -457,7 +450,6 @@ def generate_session_v2_manifest(session_num):
 
         # If alternate authorial cut exists, parse and append cinematic blocks
         if alt_filepath:
-            alt_prev_spk_id = None
             with open(alt_filepath, "r", encoding="utf-8") as f_alt:
                 alt_content = f_alt.read()
             alt_paragraphs_raw = [p.strip() for p in alt_content.split("\n\n") if p.strip()]
@@ -476,14 +468,12 @@ def generate_session_v2_manifest(session_num):
                 if word_count == 0:
                     continue
                 
-                spk_id = identify_speaker_id(p, alt_prev_spk_id)
-                if spk_id != "narrator":
-                    alt_prev_spk_id = spk_id
-                else:
-                    alt_prev_spk_id = None
+                alt_quotes = re.findall(r'"([^"]*)"|“([^”]*)”', p)
+                has_alt_quote = len(alt_quotes) > 0
+                spk_id = resolve_block_speaker(source_line, raw_speakers, has_alt_quote)
 
                 alt_b_id = f"{scene_first_b_id}_alt{alt_idx}"
-                segments = decompose_block_to_web_segments(alt_b_id, p, spk_id, source_line, CHARACTER_REGISTRY, raw_speakers)
+                segments = decompose_block_to_web_segments(alt_b_id, p, source_line, CHARACTER_REGISTRY, raw_speakers)
                 
                 blocks.append({
                     "id": alt_b_id,

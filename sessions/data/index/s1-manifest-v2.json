@@ -43,35 +43,17 @@
       "color": "#10b981",
       "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
     },
-    "theodore": {
-      "name": "Theodore (Teddy)",
-      "type": "npc",
-      "color": "#d97706",
-      "role": "Caretaker of The Margin \u00b7 1846 Surveyor"
-    },
     "fates": {
       "name": "The Three Fates",
       "type": "npc",
       "color": "#a855f7",
       "role": "Cosmic Loom Weavers"
     },
-    "beast": {
-      "name": "Shadow Beast",
-      "type": "npc",
-      "color": "#e11d48",
-      "role": "Planar Sphinx \u00b7 Ink Creature"
-    },
     "anchor": {
       "name": "News Anchor",
       "type": "npc",
       "color": "#64748b",
       "role": "Highway Radio Broadcaster"
-    },
-    "passenger": {
-      "name": "Bus Passenger",
-      "type": "npc",
-      "color": "#71717a",
-      "role": "Greyhound Transit Commuter"
     }
   },
   "stats": {
@@ -90,43 +72,29 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 3187,
-        "sharePct": 68.5
+        "words": 4244,
+        "sharePct": 91.3
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 499,
-        "sharePct": 10.7
+        "words": 111,
+        "sharePct": 2.4
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 297,
-        "sharePct": 6.4
+        "words": 93,
+        "sharePct": 2.0
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
-        "words": 268,
-        "sharePct": 5.8
-      },
-      {
-        "id": "fates",
-        "name": "The Three Fates",
-        "color": "#a855f7",
-        "words": 146,
-        "sharePct": 3.1
-      },
-      {
-        "id": "alfie",
-        "name": "Alfie",
-        "color": "#10b981",
-        "words": 130,
-        "sharePct": 2.8
+        "words": 88,
+        "sharePct": 1.9
       },
       {
         "id": "anchor",
@@ -136,25 +104,18 @@
         "sharePct": 1.1
       },
       {
-        "id": "beast",
-        "name": "Shadow Beast",
-        "color": "#e11d48",
-        "words": 37,
-        "sharePct": 0.8
+        "id": "fates",
+        "name": "The Three Fates",
+        "color": "#a855f7",
+        "words": 48,
+        "sharePct": 1.0
       },
       {
-        "id": "theodore",
-        "name": "Theodore (Teddy)",
-        "color": "#d97706",
-        "words": 27,
-        "sharePct": 0.6
-      },
-      {
-        "id": "passenger",
-        "name": "Bus Passenger",
-        "color": "#71717a",
-        "words": 10,
-        "sharePct": 0.2
+        "id": "alfie",
+        "name": "Alfie",
+        "color": "#10b981",
+        "words": 17,
+        "sharePct": 0.4
       }
     ],
     "writingMetrics": {
@@ -426,14 +387,14 @@
       "id": "uneraseable_s01_b010",
       "index": 10,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "passenger",
+      "speakerId": "narrator",
       "text": "\"Hold on!\" someone shouted over the screech of twisting steel.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b010_s01",
           "type": "dialogue",
-          "speakerId": "passenger",
-          "speakerName": "Bus Passenger",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Hold on!\""
         },
@@ -662,14 +623,14 @@
       "id": "uneraseable_s01_b022",
       "index": 22,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"Oh no,\" the second chimed in. \"You're late.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b022_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Oh no,\""
         },
@@ -684,8 +645,8 @@
         {
           "segmentId": "uneraseable_s01_b022_s03",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"You're late.\""
         }
@@ -695,14 +656,14 @@
       "id": "uneraseable_s01_b023",
       "index": 23,
       "scene": "CHAPTER 1: THE DESERT TRANSIT",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"Come closer,\" whispered the third. \"Come closer... This is interesting.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b023_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Come closer,\""
         },
@@ -717,8 +678,8 @@
         {
           "segmentId": "uneraseable_s01_b023_s03",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Come closer... This is interesting.\""
         }
@@ -1466,14 +1427,14 @@
       "id": "uneraseable_s01_b058",
       "index": 58,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"This again?\" one of the Fates snapped, her ancient fingers knotting silver thread in furious agitation.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b058_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"This again?\""
         },
@@ -1491,14 +1452,14 @@
       "id": "uneraseable_s01_b059",
       "index": 59,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"Not again!\" cried the second. \"What is going on?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b059_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Not again!\""
         },
@@ -1513,8 +1474,8 @@
         {
           "segmentId": "uneraseable_s01_b059_s03",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"What is going on?\""
         }
@@ -1541,14 +1502,14 @@
       "id": "uneraseable_s01_b061",
       "index": 61,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"This will help!\" the eldest rasped, drawing back her arm. \"This will help! Hold them off\u2014just hold them off a little longer!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b061_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1095,
           "text": "\"This will help!\""
         },
@@ -1563,8 +1524,8 @@
         {
           "segmentId": "uneraseable_s01_b061_s03",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1095,
           "text": "\"This will help! Hold them off\u2014just hold them off a little longer!\""
         }
@@ -1608,14 +1569,14 @@
       "id": "uneraseable_s01_b064",
       "index": 64,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"Just trying to understand...\" Pierre whispered, his voice trembling. \"Are you seeing what I am seeing? Are you seeing a little guy with a sword?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b064_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1104,
           "text": "\"Just trying to understand...\""
         },
@@ -1630,8 +1591,8 @@
         {
           "segmentId": "uneraseable_s01_b064_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1104,
           "text": "\"Are you seeing what I am seeing? Are you seeing a little guy with a sword?\""
         }
@@ -1641,7 +1602,7 @@
       "id": "uneraseable_s01_b065",
       "index": 65,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "Dravin squinted at the object. \"I see the horned fiend... but yes, there appears to be a miniature figure on the floor.\"",
       "segments": [
         {
@@ -1655,8 +1616,8 @@
         {
           "segmentId": "uneraseable_s01_b065_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1109,
           "text": "\"I see the horned fiend... but yes, there appears to be a miniature figure on the floor.\""
         }
@@ -1666,7 +1627,7 @@
       "id": "uneraseable_s01_b066",
       "index": 66,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "Eusacles took a step forward, his brow furrowing as he looked down at the bundle. \"It looks like a messed-up Pinocchio doll. Like a Captain Hook puppet with a sewing needle.\"",
       "segments": [
         {
@@ -1680,8 +1641,8 @@
         {
           "segmentId": "uneraseable_s01_b066_s02",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1110,
           "text": "\"It looks like a messed-up Pinocchio doll. Like a Captain Hook puppet with a sewing needle.\""
         }
@@ -1725,14 +1686,14 @@
       "id": "uneraseable_s01_b069",
       "index": 69,
       "scene": "CHAPTER 3: THE PLANAR RIFT",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"Does it look alive to you?\" Dravin asked cautiously. \"Or is it just an object?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b069_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1118,
           "text": "\"Does it look alive to you?\""
         },
@@ -1747,8 +1708,8 @@
         {
           "segmentId": "uneraseable_s01_b069_s03",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1118,
           "text": "\"Or is it just an object?\""
         }
@@ -1826,14 +1787,14 @@
       "id": "uneraseable_s01_b074",
       "index": 74,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Well, that's dope,\" Eusacles muttered.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b074_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1130,
           "text": "\"Well, that's dope,\""
         },
@@ -1868,14 +1829,14 @@
       "id": "uneraseable_s01_b076",
       "index": 76,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Damn it!\" Eusacles grunted, wrenching the weapon free.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b076_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1140,
           "text": "\"Damn it!\""
         },
@@ -1910,14 +1871,14 @@
       "id": "uneraseable_s01_b078",
       "index": 78,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"Chill Touch!\" Dravin commanded.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b078_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1150,
           "text": "\"Chill Touch!\""
         },
@@ -1952,14 +1913,14 @@
       "id": "uneraseable_s01_b080",
       "index": 80,
       "scene": "CHAPTER 4: INCURSION AT THE COLONNADE",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"Amazing,\" Dravin whispered, admiring the necrotic frost radiating from his fingertips.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b080_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1234,
           "text": "\"Amazing,\""
         },
@@ -2011,14 +1972,14 @@
       "id": "uneraseable_s01_b083",
       "index": 83,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Ugh!\" Eusacles coughed, clutching his bruised ribs as black residue sizzled against his skin.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b083_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1245,
           "text": "\"Ugh!\""
         },
@@ -2070,14 +2031,14 @@
       "id": "uneraseable_s01_b086",
       "index": 86,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"Hello! Hello!\" Pierre called out in his rapid, lilting French accent, taking slow, deliberate steps backward toward the safety of the library stacks. \"I think there must be a misunderstanding or something here! I have nothing against anyone here. I am, you know, more a lover than a fighter! Before I left, my mother told me, 'Pierre, do not be hasty, do not make harsh judgments.' So I am just going to step over here, if no one minds!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b086_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1280,
           "text": "\"Hello! Hello!\""
         },
@@ -2092,8 +2053,8 @@
         {
           "segmentId": "uneraseable_s01_b086_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1280,
           "text": "\"I think there must be a misunderstanding or something here! I have nothing against anyone here. I am, you know, more a lover than a fighter! Before I left, my mother told me, 'Pierre, do not be hasty, do not make harsh judgments.' So I am just going to step over here, if no one minds!\""
         }
@@ -2120,14 +2081,14 @@
       "id": "uneraseable_s01_b088",
       "index": 88,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "beast",
+      "speakerId": "narrator",
       "text": "\"Then come with us...\" it rasped, gesturing toward the swirling black rift. \"We do not need to harm you. Come with us through the rift.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b088_s01",
           "type": "dialogue",
-          "speakerId": "beast",
-          "speakerName": "Shadow Beast",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1320,
           "text": "\"Then come with us...\""
         },
@@ -2142,8 +2103,8 @@
         {
           "segmentId": "uneraseable_s01_b088_s03",
           "type": "dialogue",
-          "speakerId": "beast",
-          "speakerName": "Shadow Beast",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1320,
           "text": "\"We do not need to harm you. Come with us through the rift.\""
         }
@@ -2153,7 +2114,7 @@
       "id": "uneraseable_s01_b089",
       "index": 89,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "Pierre stopped, blinking behind his thick lenses. \"Will that... be taking me back to Las Vegas? Because I think I am now in ancient times and I am not exactly sure.\"",
       "segments": [
         {
@@ -2167,8 +2128,8 @@
         {
           "segmentId": "uneraseable_s01_b089_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1330,
           "text": "\"Will that... be taking me back to Las Vegas? Because I think I am now in ancient times and I am not exactly sure.\""
         }
@@ -2178,14 +2139,14 @@
       "id": "uneraseable_s01_b090",
       "index": 90,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "beast",
+      "speakerId": "narrator",
       "text": "\"It will take you where you need to go...\" the beast purred.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b090_s01",
           "type": "dialogue",
-          "speakerId": "beast",
-          "speakerName": "Shadow Beast",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1340,
           "text": "\"It will take you where you need to go...\""
         },
@@ -2203,14 +2164,14 @@
       "id": "uneraseable_s01_b091",
       "index": 91,
       "scene": "CHAPTER 5: SUNDER AND SLUDGE",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"Yes, okay, that sounds very pleasant,\" Pierre said politely, nodding with profound earnestness. He took another step backward, hooking his thumbs under the straps of his rucksack. \"Fates\u2014whom I definitely do not know because I know nothing about anything\u2014I'm just going to go this way instead.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b091_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1345,
           "text": "\"Yes, okay, that sounds very pleasant,\""
         },
@@ -2225,8 +2186,8 @@
         {
           "segmentId": "uneraseable_s01_b091_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1345,
           "text": "\"Fates\u2014whom I definitely do not know because I know nothing about anything\u2014I'm just going to go this way instead.\""
         }
@@ -2338,14 +2299,14 @@
       "id": "uneraseable_s01_b098",
       "index": 98,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"Toll the dead!\" Dravin\u2019s voice echoed through the colonnade.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b098_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1400,
           "text": "\"Toll the dead!\""
         },
@@ -2380,7 +2341,7 @@
       "id": "uneraseable_s01_b100",
       "index": 100,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "Eusacles rolled his eyes from where he leaned against the pillar. \"Oh, god no...\"",
       "segments": [
         {
@@ -2394,8 +2355,8 @@
         {
           "segmentId": "uneraseable_s01_b100_s02",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1430,
           "text": "\"Oh, god no...\""
         }
@@ -2422,14 +2383,14 @@
       "id": "uneraseable_s01_b102",
       "index": 102,
       "scene": "CHAPTER 6: THE DRIFTWOOD DUELIST AWAKENS",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Damn it! We are out here on the struggle bus!\" Eusacles cursed.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b102_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1454,
           "text": "\"Damn it! We are out here on the struggle bus!\""
         },
@@ -2498,14 +2459,14 @@
       "id": "uneraseable_s01_b106",
       "index": 106,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Oh no you don't!\" Eusacles bellowed.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b106_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1480,
           "text": "\"Oh no you don't!\""
         },
@@ -2540,14 +2501,14 @@
       "id": "uneraseable_s01_b108",
       "index": 108,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Love that,\" Eusacles breathed, wiping a streak of sweat from his forehead.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b108_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1500,
           "text": "\"Love that,\""
         },
@@ -2582,7 +2543,7 @@
       "id": "uneraseable_s01_b110",
       "index": 110,
       "scene": "CHAPTER 7: IN THE SHADOWS OF THE STACKS",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "Pierre muttered under his breath, his voice barely a whisper: \"She sent me here to find out who my parents are... If anyone would have connections between me and another, it would be the Fates.\"",
       "segments": [
         {
@@ -2596,8 +2557,8 @@
         {
           "segmentId": "uneraseable_s01_b110_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1520,
           "text": "\"She sent me here to find out who my parents are... If anyone would have connections between me and another, it would be the Fates.\""
         }
@@ -2709,14 +2670,14 @@
       "id": "uneraseable_s01_b117",
       "index": 117,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "\"Death by tendon!\" the doll seemed to crow in silent triumph.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b117_s01",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1600,
           "text": "\"Death by tendon!\""
         },
@@ -2751,14 +2712,14 @@
       "id": "uneraseable_s01_b119",
       "index": 119,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"There's more!\" the Fates shrieked in unison from their loom. \"Hold them off! Just one more turn! It's almost ready!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b119_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1620,
           "text": "\"There's more!\""
         },
@@ -2773,8 +2734,8 @@
         {
           "segmentId": "uneraseable_s01_b119_s03",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1620,
           "text": "\"Hold them off! Just one more turn! It's almost ready!\""
         }
@@ -2784,7 +2745,7 @@
       "id": "uneraseable_s01_b120",
       "index": 120,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "Prof Edward Dravin thrust his arm toward the giant silhouette holding the portal. \"Cause fear!\" he cried, seeking to shatter the titan\u2019s resolve with a wave of magical dread.",
       "segments": [
         {
@@ -2798,8 +2759,8 @@
         {
           "segmentId": "uneraseable_s01_b120_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1630,
           "text": "\"Cause fear!\""
         },
@@ -2834,7 +2795,7 @@
       "id": "uneraseable_s01_b122",
       "index": 122,
       "scene": "CHAPTER 8: TENDON SEVER",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "Eusacles saw the portal widening and decided enough was enough. \"All I wanted to do was play some roulette,\" he snarled.",
       "segments": [
         {
@@ -2848,8 +2809,8 @@
         {
           "segmentId": "uneraseable_s01_b122_s02",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1650,
           "text": "\"All I wanted to do was play some roulette,\""
         },
@@ -2952,14 +2913,14 @@
       "id": "uneraseable_s01_b128",
       "index": 128,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"This is just like the one I used to read growing up,\" Pierre whispered, clutching it to his chest as he felt an overwhelming, familiar kinship to the text.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b128_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1715,
           "text": "\"This is just like the one I used to read growing up,\""
         },
@@ -3045,14 +3006,14 @@
       "id": "uneraseable_s01_b133",
       "index": 133,
       "scene": "CHAPTER 9: THE LEGEND STRIKE",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "\"We're done!\" the Three Fates cried out together. \"The weave is ready!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b133_s01",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1790,
           "text": "\"We're done!\""
         },
@@ -3067,8 +3028,8 @@
         {
           "segmentId": "uneraseable_s01_b133_s03",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1790,
           "text": "\"The weave is ready!\""
         }
@@ -3146,7 +3107,7 @@
       "id": "uneraseable_s01_b138",
       "index": 138,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "Dravin immediately adjusted his spectacles and whispered an arcane invocation: \"Eyes of Night.\"",
       "segments": [
         {
@@ -3160,8 +3121,8 @@
         {
           "segmentId": "uneraseable_s01_b138_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1820,
           "text": "\"Eyes of Night.\""
         }
@@ -3222,14 +3183,14 @@
       "id": "uneraseable_s01_b142",
       "index": 142,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Oh, god damn it...\" Eusacles groaned, rubbing his jaw. \"I am so sick of the teleportation. Why do I feel hungover?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b142_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1870,
           "text": "\"Oh, god damn it...\""
         },
@@ -3244,8 +3205,8 @@
         {
           "segmentId": "uneraseable_s01_b142_s03",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1870,
           "text": "\"I am so sick of the teleportation. Why do I feel hungover?\""
         }
@@ -3255,7 +3216,7 @@
       "id": "uneraseable_s01_b143",
       "index": 143,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "He blinked up at the professor and the French boy peering down at him. \"Wait... how do you all know my name?\"",
       "segments": [
         {
@@ -3269,8 +3230,8 @@
         {
           "segmentId": "uneraseable_s01_b143_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1877,
           "text": "\"Wait... how do you all know my name?\""
         }
@@ -3280,14 +3241,14 @@
       "id": "uneraseable_s01_b144",
       "index": 144,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"You were muttering it in your sleep,\" Pierre answered earnestly.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b144_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1880,
           "text": "\"You were muttering it in your sleep,\""
         },
@@ -3322,14 +3283,14 @@
       "id": "uneraseable_s01_b146",
       "index": 146,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"The sign says Charleston, West Virginia \u2014 60 Miles,\" Dravin announced, pushing his glasses up his nose.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b146_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1919,
           "text": "\"The sign says Charleston, West Virginia \u2014 60 Miles,\""
         },
@@ -3347,7 +3308,7 @@
       "id": "uneraseable_s01_b147",
       "index": 147,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "Pierre tilted his head. \"Can you remind me... is a mile one kilometer or two? Because that sounds very far.\"",
       "segments": [
         {
@@ -3361,8 +3322,8 @@
         {
           "segmentId": "uneraseable_s01_b147_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1925,
           "text": "\"Can you remind me... is a mile one kilometer or two? Because that sounds very far.\""
         }
@@ -3372,14 +3333,14 @@
       "id": "uneraseable_s01_b148",
       "index": 148,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"About two hundred kilometers,\" Dravin answered with academic precision.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b148_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1930,
           "text": "\"About two hundred kilometers,\""
         },
@@ -3397,14 +3358,14 @@
       "id": "uneraseable_s01_b149",
       "index": 149,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"Oh,\" Pierre muttered, blinking. \"Like Versailles to Brittany.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b149_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1940,
           "text": "\"Oh,\""
         },
@@ -3419,8 +3380,8 @@
         {
           "segmentId": "uneraseable_s01_b149_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1940,
           "text": "\"Like Versailles to Brittany.\""
         }
@@ -3430,14 +3391,14 @@
       "id": "uneraseable_s01_b150",
       "index": 150,
       "scene": "CHAPTER 10: THE AWAKENING ON THE DARK HIGHWAY",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Two hundred kilometers...\" Eusacles repeated, his voice climbing in disbelief. \"That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b150_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1956,
           "text": "\"Two hundred kilometers...\""
         },
@@ -3452,8 +3413,8 @@
         {
           "segmentId": "uneraseable_s01_b150_s03",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1956,
           "text": "\"That is so far from Vegas! Not even a little bit close! All I wanted to do was play roulette!\""
         }
@@ -3480,14 +3441,14 @@
       "id": "uneraseable_s01_b152",
       "index": 152,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "\"I'm four feet below you, mate!\" a sharp, raspy Cockney voice piped up from the grass. \"Somebody's got to pick me up if you're trying to talk to me!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b152_s01",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1992,
           "text": "\"I'm four feet below you, mate!\""
         },
@@ -3502,8 +3463,8 @@
         {
           "segmentId": "uneraseable_s01_b152_s03",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1992,
           "text": "\"Somebody's got to pick me up if you're trying to talk to me!\""
         }
@@ -3530,14 +3491,14 @@
       "id": "uneraseable_s01_b154",
       "index": 154,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "\"Yeah, me,\" the doll muttered, its shell buttons clicking as it stood tall. \"I know things. I do. I know the dark.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b154_s01",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2007,
           "text": "\"Yeah, me,\""
         },
@@ -3552,8 +3513,8 @@
         {
           "segmentId": "uneraseable_s01_b154_s03",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2007,
           "text": "\"I know things. I do. I know the dark.\""
         }
@@ -3580,7 +3541,7 @@
       "id": "uneraseable_s01_b156",
       "index": 156,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "Dravin immediately leaned down, tapping the wooden chest with gentle medical sternum rubs. \"Come on back now, buddy...\"",
       "segments": [
         {
@@ -3594,8 +3555,8 @@
         {
           "segmentId": "uneraseable_s01_b156_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2030,
           "text": "\"Come on back now, buddy...\""
         }
@@ -3622,14 +3583,14 @@
       "id": "uneraseable_s01_b158",
       "index": 158,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"You're half-bloods, right?\" Eusacles asked, staring between Dravin and Pierre. \"Like, you're half-bloods too?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b158_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2053,
           "text": "\"You're half-bloods, right?\""
         },
@@ -3644,8 +3605,8 @@
         {
           "segmentId": "uneraseable_s01_b158_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2053,
           "text": "\"Like, you're half-bloods too?\""
         }
@@ -3655,14 +3616,14 @@
       "id": "uneraseable_s01_b159",
       "index": 159,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"On my mother's side,\" Dravin replied thoughtfully, \"her great-grandmother was Greek. That is why I study Greek mythology.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b159_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2069,
           "text": "\"On my mother's side,\""
         },
@@ -3677,8 +3638,8 @@
         {
           "segmentId": "uneraseable_s01_b159_s03",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2069,
           "text": "\"her great-grandmother was Greek. That is why I study Greek mythology.\""
         }
@@ -3688,14 +3649,14 @@
       "id": "uneraseable_s01_b160",
       "index": 160,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"Have you ever had your class come to life before?\" Pierre asked.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b160_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2071,
           "text": "\"Have you ever had your class come to life before?\""
         },
@@ -3713,14 +3674,14 @@
       "id": "uneraseable_s01_b161",
       "index": 161,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"I like to think every time I teach, the class comes to life,\" Dravin smiled warmly.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b161_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2072,
           "text": "\"I like to think every time I teach, the class comes to life,\""
         },
@@ -3755,14 +3716,14 @@
       "id": "uneraseable_s01_b163",
       "index": 163,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "eusacles",
+      "speakerId": "narrator",
       "text": "\"Did you hear that?\" Eusacles whispered.",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b163_s01",
           "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2102,
           "text": "\"Did you hear that?\""
         },
@@ -3780,7 +3741,7 @@
       "id": "uneraseable_s01_b164",
       "index": 164,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "Pierre knelt and gently offered his open hand to the swinging driftwood doll. \"Would you like a ride?\"",
       "segments": [
         {
@@ -3794,8 +3755,8 @@
         {
           "segmentId": "uneraseable_s01_b164_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2110,
           "text": "\"Would you like a ride?\""
         }
@@ -3805,7 +3766,7 @@
       "id": "uneraseable_s01_b165",
       "index": 165,
       "scene": "CHAPTER 11: THE ROAD TO THE MARIGOLD",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "The doll stopped swiping at the grass and looked up at Pierre with its coral eyes. \"A ride would be grand. Thanks, mate.\"",
       "segments": [
         {
@@ -3819,8 +3780,8 @@
         {
           "segmentId": "uneraseable_s01_b165_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2118,
           "text": "\"A ride would be grand. Thanks, mate.\""
         }
@@ -3847,14 +3808,14 @@
       "id": "uneraseable_s01_b167",
       "index": 167,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"I heard them say a word back there... 'half-blood,'\" Pierre murmured in his quiet cadence. \"Do you know this word?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b167_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2235,
           "text": "\"I heard them say a word back there... 'half-blood,'\""
         },
@@ -3869,8 +3830,8 @@
         {
           "segmentId": "uneraseable_s01_b167_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2235,
           "text": "\"Do you know this word?\""
         }
@@ -3880,14 +3841,14 @@
       "id": "uneraseable_s01_b168",
       "index": 168,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "\"Half-blood? Yeah, I think I've heard of that before,\" the doll replied thoughtfully, adjusting its needle rapier. \"Last time I knew where I was, me mates and me were on a ship, sailing through dark, scary waters like this. And now I'm a puppet.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b168_s01",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2236,
           "text": "\"Half-blood? Yeah, I think I've heard of that before,\""
         },
@@ -3902,8 +3863,8 @@
         {
           "segmentId": "uneraseable_s01_b168_s03",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2236,
           "text": "\"Last time I knew where I was, me mates and me were on a ship, sailing through dark, scary waters like this. And now I'm a puppet.\""
         }
@@ -3913,14 +3874,14 @@
       "id": "uneraseable_s01_b169",
       "index": 169,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"They say Mount Olympus moved to America, you know,\" Pierre mused. \"Maybe America is more magical.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b169_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2260,
           "text": "\"They say Mount Olympus moved to America, you know,\""
         },
@@ -3935,8 +3896,8 @@
         {
           "segmentId": "uneraseable_s01_b169_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2260,
           "text": "\"Maybe America is more magical.\""
         }
@@ -3946,14 +3907,14 @@
       "id": "uneraseable_s01_b170",
       "index": 170,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "\"A ride would be grand. Thanks, mate.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s01_b170_s01",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2266,
           "text": "\"A ride would be grand. Thanks, mate.\""
         }
@@ -4030,7 +3991,7 @@
       "id": "uneraseable_s01_b174",
       "index": 174,
       "scene": "CHAPTER 12: WELCOME TO THE MARGIN",
-      "speakerId": "theodore",
+      "speakerId": "narrator",
       "text": "The man turned from the fire, looking up with an easy smirk and raising a hand in greeting. \"Huh? No way. What's up? Welcome to the Margin.\"",
       "segments": [
         {
@@ -4044,8 +4005,8 @@
         {
           "segmentId": "uneraseable_s01_b174_s02",
           "type": "dialogue",
-          "speakerId": "theodore",
-          "speakerName": "Theodore (Teddy)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 2276,
           "text": "\"Huh? No way. What's up? Welcome to the Margin.\""
         }

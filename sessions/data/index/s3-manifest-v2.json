@@ -36,36 +36,6 @@
       "type": "character",
       "color": "#10b981",
       "role": "Driftwood Duelist \u00b7 Wordcraft Mage"
-    },
-    "ally": {
-      "name": "Ally",
-      "type": "npc",
-      "color": "#ec4899",
-      "role": "Maiden of Persephone \u00b7 Underworld Guide"
-    },
-    "theodore": {
-      "name": "Theodore (Teddy)",
-      "type": "npc",
-      "color": "#d97706",
-      "role": "Caretaker of The Margin \u00b7 1846 Surveyor"
-    },
-    "fates": {
-      "name": "The Three Fates",
-      "type": "npc",
-      "color": "#a855f7",
-      "role": "Cosmic Loom Weavers"
-    },
-    "nincy": {
-      "name": "Nincy (Receptionist & Host)",
-      "type": "npc",
-      "color": "#0ea5e9",
-      "role": "Museum Receptionist & Social Media Host"
-    },
-    "attendant": {
-      "name": "Museum Attendant",
-      "type": "npc",
-      "color": "#78716c",
-      "role": "North Carolina Museum Staff"
     }
   },
   "stats": {
@@ -84,64 +54,29 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1220,
-        "sharePct": 42.5
+        "words": 1921,
+        "sharePct": 66.9
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 771,
-        "sharePct": 26.9
-      },
-      {
-        "id": "nincy",
-        "name": "Nincy (Receptionist & Host)",
-        "color": "#0ea5e9",
-        "words": 260,
-        "sharePct": 9.1
+        "words": 486,
+        "sharePct": 16.9
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 253,
-        "sharePct": 8.8
+        "words": 249,
+        "sharePct": 8.7
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 188,
-        "sharePct": 6.6
-      },
-      {
-        "id": "ally",
-        "name": "Ally",
-        "color": "#ec4899",
-        "words": 64,
-        "sharePct": 2.2
-      },
-      {
-        "id": "theodore",
-        "name": "Theodore (Teddy)",
-        "color": "#d97706",
-        "words": 42,
-        "sharePct": 1.5
-      },
-      {
-        "id": "fates",
-        "name": "The Three Fates",
-        "color": "#a855f7",
-        "words": 39,
-        "sharePct": 1.4
-      },
-      {
-        "id": "attendant",
-        "name": "Museum Attendant",
-        "color": "#78716c",
-        "words": 33,
-        "sharePct": 1.1
+        "words": 214,
+        "sharePct": 7.5
       }
     ],
     "writingMetrics": {
@@ -254,7 +189,7 @@
       "id": "uneraseable_s03_b002",
       "index": 2,
       "scene": "Prologue",
-      "speakerId": "theodore",
+      "speakerId": "alfie",
       "text": "Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed. \"We stand at the beginning of our journey to the Lost Roads,\" he warned. \"Keep your wits about you.\"",
       "segments": [
         {
@@ -346,14 +281,14 @@
       "id": "uneraseable_s03_b006",
       "index": 6,
       "scene": "Prologue",
-      "speakerId": "ally",
+      "speakerId": "narrator",
       "text": "\"You may call me Ally,\" she murmured, her voice carrying a soft, crystalline chill. \"The maiden of Persephone.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b006_s01",
           "type": "dialogue",
-          "speakerId": "ally",
-          "speakerName": "Ally",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 468,
           "text": "\"You may call me Ally,\""
         },
@@ -368,8 +303,8 @@
         {
           "segmentId": "uneraseable_s03_b006_s03",
           "type": "dialogue",
-          "speakerId": "ally",
-          "speakerName": "Ally",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 468,
           "text": "\"The maiden of Persephone.\""
         }
@@ -379,7 +314,7 @@
       "id": "uneraseable_s03_b007",
       "index": 7,
       "scene": "Prologue",
-      "speakerId": "pierre",
+      "speakerId": "alfie",
       "text": "\"How much further to the museum would you say?\" Alfie piped up from Pierre's bag, his driftwood face tilting up with a cheeky grin. \"Because I'm a bit hungry.\"",
       "segments": [
         {
@@ -412,7 +347,7 @@
       "id": "uneraseable_s03_b008",
       "index": 8,
       "scene": "Prologue",
-      "speakerId": "ally",
+      "speakerId": "narrator",
       "text": "Ally offered a faint, cryptic warning. \"You will not travel for very long. The Lost Roads are a time warp\u2014sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left. It is truly fascinating, these Lost Roads.\"",
       "segments": [
         {
@@ -426,8 +361,8 @@
         {
           "segmentId": "uneraseable_s03_b008_s02",
           "type": "dialogue",
-          "speakerId": "ally",
-          "speakerName": "Ally",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 561,
           "text": "\"You will not travel for very long. The Lost Roads are a time warp\u2014sometimes you arrive a day later than when you left, sometimes thirty minutes, and sometimes before you even left. It is truly fascinating, these Lost Roads.\""
         }
@@ -570,7 +505,7 @@
       "id": "uneraseable_s03_b014",
       "index": 14,
       "scene": "Prologue",
-      "speakerId": "pierre",
+      "speakerId": "dravin",
       "text": "As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms. \"When we are inside, we must be careful with the talking doll bit.\"",
       "segments": [
         {
@@ -835,8 +770,8 @@
         {
           "segmentId": "uneraseable_s03_b025_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Welcome to the North Carolina Museum of Natural History,\""
         },
@@ -854,14 +789,14 @@
       "id": "uneraseable_s03_b026",
       "index": 26,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "\"I am\u2014my name is Nincy, as you can see,\" she added, tapping the engraved gold badge pinned to her chest.",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b026_s01",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 725,
           "text": "\"I am\u2014my name is Nincy, as you can see,\""
         },
@@ -896,14 +831,14 @@
       "id": "uneraseable_s03_b028",
       "index": 28,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "\"Yes, my name is Nincy with an *I*,\" she emphasized with a knowing smile.",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b028_s01",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 727,
           "text": "\"Yes, my name is Nincy with an *I*,\""
         },
@@ -946,14 +881,14 @@
       "id": "uneraseable_s03_b030",
       "index": 30,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "\"Exactly, exactly! I'm glad you caught that,\" Nincy beamed, brightening visibly. \"Some people with my accent, they don't hear the difference.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b030_s01",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 732,
           "text": "\"Exactly, exactly! I'm glad you caught that,\""
         },
@@ -968,8 +903,8 @@
         {
           "segmentId": "uneraseable_s03_b030_s03",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 732,
           "text": "\"Some people with my accent, they don't hear the difference.\""
         }
@@ -1004,7 +939,7 @@
       "id": "uneraseable_s03_b032",
       "index": 32,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "fates",
+      "speakerId": "narrator",
       "text": "Nincy let out an amused laugh, twirling the end of her lanyard around a finger. \"Well! That's the first time anyone's said that about this museum when they first come in. I've never been treated like an exhibit myself.\"",
       "segments": [
         {
@@ -1018,8 +953,8 @@
         {
           "segmentId": "uneraseable_s03_b032_s02",
           "type": "dialogue",
-          "speakerId": "fates",
-          "speakerName": "The Three Fates",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 740,
           "text": "\"Well! That's the first time anyone's said that about this museum when they first come in. I've never been treated like an exhibit myself.\""
         }
@@ -1054,14 +989,14 @@
       "id": "uneraseable_s03_b034",
       "index": 34,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"Now, don't stay too long, sugar,\" she replied, leaning her chin on her hand with a flirtatious smirk. \"I'm almost done with my shift.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b034_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 742,
           "text": "\"Now, don't stay too long, sugar,\""
         },
@@ -1076,8 +1011,8 @@
         {
           "segmentId": "uneraseable_s03_b034_s03",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 742,
           "text": "\"I'm almost done with my shift.\""
         }
@@ -1112,7 +1047,7 @@
       "id": "uneraseable_s03_b036",
       "index": 36,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "Nincy\u2019s eyebrows arched in mild surprise. \"You don't say? And I assume Greek mythology, is that correct?\"",
       "segments": [
         {
@@ -1126,8 +1061,8 @@
         {
           "segmentId": "uneraseable_s03_b036_s02",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 750,
           "text": "\"You don't say? And I assume Greek mythology, is that correct?\""
         }
@@ -1137,14 +1072,14 @@
       "id": "uneraseable_s03_b037",
       "index": 37,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "dravin",
+      "speakerId": "narrator",
       "text": "\"Among other esoteric disciplines,\" Dravin said smoothly.",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b037_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"Among other esoteric disciplines,\""
         },
@@ -1213,14 +1148,14 @@
       "id": "uneraseable_s03_b041",
       "index": 41,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "\"Look at that,\" Nincy blinked, leaning forward over her ring lights. \"I've never seen that action figure before.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b041_s01",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 781,
           "text": "\"Look at that,\""
         },
@@ -1235,8 +1170,8 @@
         {
           "segmentId": "uneraseable_s03_b041_s03",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 781,
           "text": "\"I've never seen that action figure before.\""
         }
@@ -1296,7 +1231,7 @@
       "id": "uneraseable_s03_b044",
       "index": 44,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "narrator",
+      "speakerId": "alfie",
       "text": "From the tiny carved mouth came a tinny, stiff mechanical recording: \"Stay a bit rough, isn't it?\"",
       "segments": [
         {
@@ -1321,7 +1256,7 @@
       "id": "uneraseable_s03_b045",
       "index": 45,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "Nincy clapped her hands together in genuine delight. \"Wow! Now that sounds quite authentic!\"",
       "segments": [
         {
@@ -1335,8 +1270,8 @@
         {
           "segmentId": "uneraseable_s03_b045_s02",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 790,
           "text": "\"Wow! Now that sounds quite authentic!\""
         }
@@ -1380,7 +1315,7 @@
       "id": "uneraseable_s03_b048",
       "index": 48,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "She froze, her Southern charm instantly sharpening into museum security vigilance. \"Excuse me, sir! I said my name was Nincy.\"",
       "segments": [
         {
@@ -1394,8 +1329,8 @@
         {
           "segmentId": "uneraseable_s03_b048_s02",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 834,
           "text": "\"Excuse me, sir! I said my name was Nincy.\""
         }
@@ -1422,14 +1357,14 @@
       "id": "uneraseable_s03_b050",
       "index": 50,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "\"You can see it right here,\" Nincy said pointedly, tapping the badge against her lapel. \"You don't need my badge to see my name.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b050_s01",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 836,
           "text": "\"You can see it right here,\""
         },
@@ -1444,8 +1379,8 @@
         {
           "segmentId": "uneraseable_s03_b050_s03",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 836,
           "text": "\"You don't need my badge to see my name.\""
         }
@@ -1539,7 +1474,7 @@
       "id": "uneraseable_s03_b055",
       "index": 55,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "Nincy\u2019s eyes went wide as the \"doll\" hit the polished tile, bounced, and immediately scrambled upright on tiny wooden legs. She snatched the desk radio. \"Security! Security, I need help out here!\"",
       "segments": [
         {
@@ -1553,8 +1488,8 @@
         {
           "segmentId": "uneraseable_s03_b055_s02",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 856,
           "text": "\"doll\""
         },
@@ -1569,8 +1504,8 @@
         {
           "segmentId": "uneraseable_s03_b055_s04",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 856,
           "text": "\"Security! Security, I need help out here!\""
         }
@@ -1630,7 +1565,7 @@
       "id": "uneraseable_s03_b058",
       "index": 58,
       "scene": "CHAPTER 24: THE HEIST AT THE FRONT DESK",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "Across the floor, Alfie darted under the museum display cases, scuttling like a maniacal wooden creature through the low air-conditioned mist. A family of tourists shrieked in terror as the moving figure brushed their ankles. \"Rat! Rat! There's a giant rat!\" voices shouted in rising panic, and the lobby crowd began surging toward the glass double doors.",
       "segments": [
         {
@@ -1644,8 +1579,8 @@
         {
           "segmentId": "uneraseable_s03_b058_s02",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 876,
           "text": "\"Rat! Rat! There's a giant rat!\""
         },
@@ -1807,7 +1742,7 @@
       "id": "uneraseable_s03_b067",
       "index": 67,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
+      "speakerId": "dravin",
       "text": "Dravin whispered to Pierre: \"The staff are already preparing their evening documentation queue. We can position the fragment directly on their intake table.\"",
       "segments": [
         {
@@ -2050,7 +1985,7 @@
       "id": "uneraseable_s03_b078",
       "index": 78,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "Pierre nodded, tracing the irregular, weathered fracture lines in his memory. \"The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter.\"",
       "segments": [
         {
@@ -2064,8 +1999,8 @@
         {
           "segmentId": "uneraseable_s03_b078_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter.\""
         }
@@ -2209,7 +2144,7 @@
       "id": "uneraseable_s03_b085",
       "index": 85,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. \"What is this? Where did this specimen come from?\"",
       "segments": [
         {
@@ -2223,8 +2158,8 @@
         {
           "segmentId": "uneraseable_s03_b085_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": null,
           "text": "\"What is this? Where did this specimen come from?\""
         }
@@ -2259,7 +2194,7 @@
       "id": "uneraseable_s03_b087",
       "index": 87,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "The curator picked up the triangular limestone fragment, his eyebrows shooting up as he read Pierre's handwritten annotation. \"You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?\"",
       "segments": [
         {
@@ -2273,8 +2208,8 @@
         {
           "segmentId": "uneraseable_s03_b087_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1552,
           "text": "\"You're claiming this fragment definitively proves the inscription reads *Beacon*? How did a first-day intern solve what our senior epigraphy team has been arguing over for six months?\""
         }
@@ -2284,7 +2219,7 @@
       "id": "uneraseable_s03_b088",
       "index": 88,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "The administrator stared back and forth between the carved stone and the diagram, his academic skepticism warring with mounting excitement. \"This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six.\"",
       "segments": [
         {
@@ -2298,8 +2233,8 @@
         {
           "segmentId": "uneraseable_s03_b088_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1582,
           "text": "\"This could redefine the entire provenance... We have to test if it aligns with the main tablet the moment the galleries close at six.\""
         }
@@ -2342,14 +2277,14 @@
       "id": "uneraseable_s03_b090",
       "index": 90,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"You don't even know what state you're in!\" the administrator gasped, shaking his head in disbelief before puffing out his chest with self-satisfied pride. \"Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b090_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1612,
           "text": "\"You don't even know what state you're in!\""
         },
@@ -2364,8 +2299,8 @@
         {
           "segmentId": "uneraseable_s03_b090_s03",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1612,
           "text": "\"Well, no matter. I'm the one who signed off on hiring you. When this discovery makes headlines, I'll be curating at the Massachusetts World History Museum before the year is out.\""
         }
@@ -2400,14 +2335,14 @@
       "id": "uneraseable_s03_b092",
       "index": 92,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "attendant",
+      "speakerId": "narrator",
       "text": "\"It is the premier history institution in the country, young man, not chewing gum!\" the curator huffed, waving his pen. \"We test this immediately after close. Bring the staging cart into the rotunda.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s03_b092_s01",
           "type": "dialogue",
-          "speakerId": "attendant",
-          "speakerName": "Museum Attendant",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1633,
           "text": "\"It is the premier history institution in the country, young man, not chewing gum!\""
         },
@@ -2422,8 +2357,8 @@
         {
           "segmentId": "uneraseable_s03_b092_s03",
           "type": "dialogue",
-          "speakerId": "attendant",
-          "speakerName": "Museum Attendant",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1633,
           "text": "\"We test this immediately after close. Bring the staging cart into the rotunda.\""
         }
@@ -2458,7 +2393,7 @@
       "id": "uneraseable_s03_b094",
       "index": 94,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "alfie",
+      "speakerId": "narrator",
       "text": "The curator blinked down at the puppet, tapping Alfie's carved cedar head. \"Curious little exhibit souvenir... We'll catalog the doll after the tablet test.\" He loaded the intake tray onto the heavy rubber-wheeled staging cart.",
       "segments": [
         {
@@ -2472,8 +2407,8 @@
         {
           "segmentId": "uneraseable_s03_b094_s02",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1652,
           "text": "\"Curious little exhibit souvenir... We'll catalog the doll after the tablet test.\""
         },
@@ -2525,7 +2460,7 @@
       "id": "uneraseable_s03_b097",
       "index": 97,
       "scene": "CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL",
-      "speakerId": "nincy",
+      "speakerId": "narrator",
       "text": "Nincy\u2019s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: \"Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream\u2014I hear there might be a little excitement in the Greek wing tonight!\"",
       "segments": [
         {
@@ -2539,8 +2474,8 @@
         {
           "segmentId": "uneraseable_s03_b097_s02",
           "type": "dialogue",
-          "speakerId": "nincy",
-          "speakerName": "Nincy (Receptionist & Host)",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
           "sourceLine": 1655,
           "text": "\"Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream\u2014I hear there might be a little excitement in the Greek wing tonight!\""
         }
