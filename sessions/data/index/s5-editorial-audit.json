@@ -21,6 +21,9 @@
     "Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes."
   ],
   "editorialWarnings": [
+    "Collaborative Table Lore Discarded as OOC: Raw turns L0452\u2013L0459 (3 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['logo', 'symbol']. Table banter is where players and GM define the world\u2014extract the narrative truth rather than discarding it!",
+    "Collaborative Table Lore Discarded as OOC: Raw turns L0641\u2013L0789 (3 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['university']. Table banter is where players and GM define the world\u2014extract the narrative truth rather than discarding it!",
+    "Collaborative Table Lore Discarded as OOC: Raw turns L0845\u2013L0878 (8 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['concrete', 'donor', 'greek', 'logo', 'motto', 'omega', 'university']. Table banter is where players and GM define the world\u2014extract the narrative truth rather than discarding it!",
     "Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding."
   ],
   "proseCritiques": [],

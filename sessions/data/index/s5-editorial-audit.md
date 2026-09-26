@@ -201,8 +201,39 @@ The following blocks have conflicting speaker assignments between the narrative 
 
 ---
 
-## ⚠️ Editorial Warnings & Narrative Polish (1)
+## ⚠️ Editorial Warnings & Narrative Polish (4)
+* ⚠️ Collaborative Table Lore Discarded as OOC: Raw turns L0452–L0459 (3 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['logo', 'symbol']. Table banter is where players and GM define the world—extract the narrative truth rather than discarding it!
+* ⚠️ Collaborative Table Lore Discarded as OOC: Raw turns L0641–L0789 (3 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['university']. Table banter is where players and GM define the world—extract the narrative truth rather than discarding it!
+* ⚠️ Collaborative Table Lore Discarded as OOC: Raw turns L0845–L0878 (8 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['concrete', 'donor', 'greek', 'logo', 'motto', 'omega', 'university']. Table banter is where players and GM define the world—extract the narrative truth rather than discarding it!
 * ⚠️ Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding.
+
+---
+
+## 🚨 Systemic Defect Mandate: Out-of-Character (OOC) Lore Pruning
+
+> [!CAUTION]
+> **CRITICAL ARCHITECTURAL DIRECTIVE FOR UPSTREAM AUTHORING AGENTS:**
+> A persistent, recurring failure mode in our novelization pipeline is **reflexively discarding Out-of-Character (OOC) table banter that contains vital emergent worldbuilding and lore**.
+>
+> In tabletop RPGs, **the table's collaborative lore, humor, and setting details are frequently established during table banter**:
+> * Players asking the GM questions about an object, a building, or a symbol.
+> * The GM brainstorming visual details in real time (e.g. Greek life puns, university history, architectural contrasts).
+> * Players riffing jokes that become canonical world elements (e.g. mottos, branded merchandise, architectural quirks).
+>
+> **The Session 5 Failure Example:**
+> Across raw turns L0863–L0883, the GM and players created:
+> 1. The campus name: **University University**
+> 2. The university emblem: **An interlocking Latin capital 'U' and a Greek Omega ('Ω')** (the horseshoe / inverted U with feet forming the "U Ω" crest).
+> 3. The official school motto: *"School so nice they named it twice."*
+> 4. The contrast of government concrete vs donor-funded solid mahogany desks and heavy oak doors.
+> 5. Alfie hunting for branded University University caps.
+>
+> The upstream adapter classified turns L0861–L0883 as `(ooc)` and dumped them in the garbage bin. Stripping out this vibrant table lore created an informational vacuum, replacing specific humor with generic fantasy filler, which directly enabled downstream hallucination (such as inventing "Bethlehem").
+>
+> **Mandatory Rule for Upstream Agents:**
+> 1. **Never reflexively discard turns flagged as OOC.** If the table is laughing or riffing on an element in the room (names, emblems, mottos, physical jokes, creature quirks), that is **emergent table canon**.
+> 2. **Translate banter into narrative truth.** The adapter's job is not to transcribe the meta jokes, but to **dramatize the creative truth established in them** (e.g., carving the motto into the limestone lintel, describing the brass U-Omega seal above the proscenium, having Eusacles notice the "Greek life" pun).
+> 3. Future session audits will explicitly fail candidates where clusters of OOC turns containing worldbuilding discussions are omitted.
 
 ---
 
@@ -216,16 +247,19 @@ The following blocks have conflicting speaker assignments between the narrative 
    Add `## CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST` at Scene 4.
    Add `## CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM` at Scene 7.
 
-3. **Correct Dialogue Turn Citations or Manifest Resolution**:
+3. **Audit and Rescue OOC Lore Turns**:
+   Review all turns currently tagged as `(ooc)` in the scene ledger. If players and the GM spent turns describing, clarifying, or naming world elements (such as the University University Omega crest and motto), rescue that lore and weave it into the story prose instead of discarding it.
+
+4. **Correct Dialogue Turn Citations or Manifest Resolution**:
    Ensure `b008`, `b103`, `b107` are attributed to `pierre`, `b059` and `b070` to `eusacles`, and `b153` to `alfie`.
 
-4. **Re-generate Web Manifest**:
+5. **Re-generate Web Manifest**:
    ```bash
    python sessions/_scripts/generate_web_manifest.py --session 5
    python sessions/_scripts/verify_manifest.py --session 5
    ```
 
-5. **Re-run Editorial Audit**:
+6. **Re-run Editorial Audit**:
    ```bash
    python audit_session_candidate.py --session 5
    ```

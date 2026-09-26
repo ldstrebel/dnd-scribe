@@ -408,7 +408,7 @@
       },
       "technicalCompliance": {
         "criticalErrors": 3,
-        "editorialWarnings": 1,
+        "editorialWarnings": 4,
         "score": 62
       },
       "ruthlessAnalysis": "Audit Score: 62/100 (Tomatometer: 62%, Popcornmeter: 94%). Session 5 has peak table energy (94%) but stalls in prose (62%) due to missing Track B (Cinematic Cut) and dropped Persephone interiority. Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B! Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
