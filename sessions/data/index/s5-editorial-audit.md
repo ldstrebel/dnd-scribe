@@ -1,6 +1,6 @@
 # 🛡️ Editorial Candidate Audit: Session 5
 **Title:** THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE  
-**Word Count:** 7,995 words | **Blocks:** 223 | **Raw Turns:** 1257  
+**Word Count:** 8,237 words | **Blocks:** 231 | **Raw Turns:** 1257  
 **Overall Score:** 62 / 100 (**Grade: D**)  
 **Verdict:** `BLOCKED — CRITICAL FAILURES REQUIRE REVISION`  
 

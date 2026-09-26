@@ -209,13 +209,19 @@ The phantom footsteps shook the soil one final time—and abruptly ceased. The w
 
 "Well," Dravin said quietly, exhaling a slow plume of breath into the chill. "That was remarkably prompt. Forward." <!-- L0628 -->
 
-The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — CAMPUS POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
+The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — UNIVERSITY OF UNIVERSITY POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
 
-Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the university quadrangle. <!-- L0638 -->
+Eusacles squinted through his aviator sunglasses at the painted seal above the warning. "University of University Police? What kind of name is that? University Omega, or Omega University?" <!-- L0635 --> <!-- L0639 -->
+
+"University," Alfie muttered from Dravin's shoulder, blinking across the grounds. "University." <!-- L0641 --> <!-- L0643 -->
+
+Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the collegiate quadrangle. <!-- L0638 -->
 
 <!-- RAW_RANGE: [641, 790] | SCENE_ID: 6 -->
 
 <!-- LEDGER: rendered=[644, 645, 648, 657, 658, 681, 686, 687, 688, 692, 694, 698, 700, 701, 703, 711, 726, 728, 730, 732, 734, 735, 739, 753, 757, 759, 761, 762, 768, 771, 776, 778, 786, 787, 788, 790] skipped=[641(ooc), 642(ooc), 643(ooc), 646(ooc), 647(ooc), 649(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 656(ooc), 659(ooc), 660(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 666(ooc), 667(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 673(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 679(ooc), 680(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 689(ooc), 690(ooc), 691(ooc), 693(ooc), 695(ooc), 696(ooc), 697(ooc), 699(ooc), 702(ooc), 704(ooc), 705(ooc), 706(ooc), 707(ooc), 708(ooc), 709(ooc), 710(ooc), 712(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc), 721(ooc), 722(ooc), 723(ooc), 724(ooc), 725(ooc), 727(ooc), 729(ooc), 731(ooc), 733(ooc), 736(ooc), 737(ooc), 738(ooc), 740(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 750(ooc), 751(ooc), 752(ooc), 754(ooc), 755(ooc), 756(ooc), 758(ooc), 760(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 769(ooc), 770(ooc), 772(ooc), 773(ooc), 774(ooc), 775(ooc), 777(ooc), 779(ooc), 780(ooc), 781(ooc), 782(ooc), 783(ooc), 784(ooc), 785(ooc), 789(ooc)] -->
+
+"University," Alfie repeated from Dravin's shoulder, reading the second half of the wrought-iron archway. "University." <!-- L0641 --> <!-- L0643 -->
 
 The quadrangle unfolded before them in grand, collegiate splendor. Towering limestone facades rose toward the cloudy autumn sky, punctuated by Gothic spires and deep Romanesque arches. Manicured lawns were crisscrossed by slate footpaths crowded with chattering undergraduate students, tweed-jacketed professors, and scurrying teaching assistants.
 
@@ -283,9 +289,19 @@ The demonstrator froze, tapping his temple with renewed, terrifying intensity. "
 
 "Fascinating thesis," Dravin murmured, calmly steering the party through the double doors into the vestibule. "I only wish I possessed a spell to heat that foil." <!-- L0827 --> <!-- L0830 -->
 
-Inside, the amphitheater was magnificent. Rows of curved mahogany desks rose in steep tiers beneath a vaulted plaster ceiling, packed to capacity with hundreds of students, graduate fellows, and faculty members in elbow-patched blazers. A buzz of expectant conversation filled the cedar-scented air. <!-- L0854 --> <!-- L0857 --> <!-- L0860 -->
+Inside, the amphitheater was magnificent. Rows of curved mahogany desks rose in steep tiers beneath a vaulted plaster ceiling, packed to capacity with hundreds of students, graduate fellows, and faculty members in elbow-patched blazers. A buzz of expectant conversation filled the cedar-scented air. <!-- L0854 -->
 
-Dravin smoothed his rumpled tweed lapels, thumbed his tarnished pocket bell, and strode directly down the central aisle toward the illuminated stage with the effortless authority of a tenured department chair. Alfie sat proudly upon his shoulder, her oversized museum ballcap tilted back so her seashell eyes could scan the crowd. Reaching the mahogany lectern, Dravin tapped the brass gooseneck receiver to silence the room. <!-- L0884 -->
+Eusacles cast a critical gambler's eye across the hall, taking in the stark architectural contrast. "Lot of concrete for an Ivy League pretender. This was definitely a government job. Though no municipal budget would have paid for actual solid wood desks." <!-- L0855 --> <!-- L0857 -->
+
+"And the doors," Pierre murmured with grudging approval, gesturing with his bronze spear ferrule toward the massive, brass-hinged oak portals. "Exquisite joinery. Even the archways have an ominous classical weight." <!-- L0860 -->
+
+Above the proscenium hung the university’s massive collegiate seal: a bold Latin capital *U* interlocked with a sweeping Greek Omega (*Ω*)—the twin horseshoe curves mirroring each other in gleaming brass. Below the glyph, the official institutional motto was chiseled directly into the limestone lintel: *SCHOOL SO NICE THEY NAMED IT TWICE.* <!-- L0863 --> <!-- L0865 --> <!-- L0868 --> <!-- L0869 -->
+
+Eusacles stared at the intertwined crest, a slow grin cracking his stubbled jaw. "Wait. Is that a normal U and an Omega U mashed together? 'U of U'?" <!-- L0872 --> <!-- L0874 -->
+
+Dravin adjusted his tweed lapels, offering a dry academic nod. "A collegiate pun on Greek life, Monsieur Gambler. The donor pool here was ancient, wealthy, and deeply fond of classical vanity." <!-- L0865:dravin --> <!-- L0875 --> <!-- L0876 --> <!-- L0880 -->
+
+Dravin smoothed his rumpled tweed lapels, thumbed his tarnished pocket bell, and strode directly down the central aisle toward the illuminated stage with the effortless authority of a tenured department chair. Alfie sat proudly upon his shoulder, her oversized museum ballcap tilted back so her seashell eyes could scan the crowd for University University caps. Reaching the mahogany lectern, Dravin tapped the brass gooseneck receiver to silence the room. <!-- L0884 --> <!-- L1022 -->
 
 "Attention, colleagues and students," Dravin announced, his cultured baritone echoing effortlessly across the gallery. "If everyone could please settle into your seats. This afternoon we have the privilege of hearing from Dr. Aris Thorne, who will deliver her retrospective on the nineteen forty-eight archives breakthrough and the buried clinical trials. Please grant Dr. Thorne your undivided scholarly focus. Doctor, the lectern is yours." <!-- L0887 --> <!-- L0889 -->
 

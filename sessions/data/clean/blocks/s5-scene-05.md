@@ -48,6 +48,10 @@ The phantom footsteps shook the soil one final time—and abruptly ceased. The w
 
 "Well," Dravin said quietly, exhaling a slow plume of breath into the chill. "That was remarkably prompt. Forward." <!-- L0628 -->
 
-The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — CAMPUS POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
+The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — UNIVERSITY OF UNIVERSITY POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
 
-Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the university quadrangle. <!-- L0638 -->
+Eusacles squinted through his aviator sunglasses at the painted seal above the warning. "University of University Police? What kind of name is that? University Omega, or Omega University?" <!-- L0635 --> <!-- L0639 -->
+
+"University," Alfie muttered from Dravin's shoulder, blinking across the grounds. "University." <!-- L0641 --> <!-- L0643 -->
+
+Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the collegiate quadrangle. <!-- L0638 -->

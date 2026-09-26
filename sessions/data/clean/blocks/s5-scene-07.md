@@ -22,9 +22,19 @@ The demonstrator froze, tapping his temple with renewed, terrifying intensity. "
 
 "Fascinating thesis," Dravin murmured, calmly steering the party through the double doors into the vestibule. "I only wish I possessed a spell to heat that foil." <!-- L0827 --> <!-- L0830 -->
 
-Inside, the amphitheater was magnificent. Rows of curved mahogany desks rose in steep tiers beneath a vaulted plaster ceiling, packed to capacity with hundreds of students, graduate fellows, and faculty members in elbow-patched blazers. A buzz of expectant conversation filled the cedar-scented air. <!-- L0854 --> <!-- L0857 --> <!-- L0860 -->
+Inside, the amphitheater was magnificent. Rows of curved mahogany desks rose in steep tiers beneath a vaulted plaster ceiling, packed to capacity with hundreds of students, graduate fellows, and faculty members in elbow-patched blazers. A buzz of expectant conversation filled the cedar-scented air. <!-- L0854 -->
 
-Dravin smoothed his rumpled tweed lapels, thumbed his tarnished pocket bell, and strode directly down the central aisle toward the illuminated stage with the effortless authority of a tenured department chair. Alfie sat proudly upon his shoulder, her oversized museum ballcap tilted back so her seashell eyes could scan the crowd. Reaching the mahogany lectern, Dravin tapped the brass gooseneck receiver to silence the room. <!-- L0884 -->
+Eusacles cast a critical gambler's eye across the hall, taking in the stark architectural contrast. "Lot of concrete for an Ivy League pretender. This was definitely a government job. Though no municipal budget would have paid for actual solid wood desks." <!-- L0855 --> <!-- L0857 -->
+
+"And the doors," Pierre murmured with grudging approval, gesturing with his bronze spear ferrule toward the massive, brass-hinged oak portals. "Exquisite joinery. Even the archways have an ominous classical weight." <!-- L0860 -->
+
+Above the proscenium hung the university’s massive collegiate seal: a bold Latin capital *U* interlocked with a sweeping Greek Omega (*Ω*)—the twin horseshoe curves mirroring each other in gleaming brass. Below the glyph, the official institutional motto was chiseled directly into the limestone lintel: *SCHOOL SO NICE THEY NAMED IT TWICE.* <!-- L0863 --> <!-- L0865 --> <!-- L0868 --> <!-- L0869 -->
+
+Eusacles stared at the intertwined crest, a slow grin cracking his stubbled jaw. "Wait. Is that a normal U and an Omega U mashed together? 'U of U'?" <!-- L0872 --> <!-- L0874 -->
+
+Dravin adjusted his tweed lapels, offering a dry academic nod. "A collegiate pun on Greek life, Monsieur Gambler. The donor pool here was ancient, wealthy, and deeply fond of classical vanity." <!-- L0865:dravin --> <!-- L0875 --> <!-- L0876 --> <!-- L0880 -->
+
+Dravin smoothed his rumpled tweed lapels, thumbed his tarnished pocket bell, and strode directly down the central aisle toward the illuminated stage with the effortless authority of a tenured department chair. Alfie sat proudly upon his shoulder, her oversized museum ballcap tilted back so her seashell eyes could scan the crowd for University University caps. Reaching the mahogany lectern, Dravin tapped the brass gooseneck receiver to silence the room. <!-- L0884 --> <!-- L1022 -->
 
 "Attention, colleagues and students," Dravin announced, his cultured baritone echoing effortlessly across the gallery. "If everyone could please settle into your seats. This afternoon we have the privilege of hearing from Dr. Aris Thorne, who will deliver her retrospective on the nineteen forty-eight archives breakthrough and the buried clinical trials. Please grant Dr. Thorne your undivided scholarly focus. Doctor, the lectern is yours." <!-- L0887 --> <!-- L0889 -->
 
