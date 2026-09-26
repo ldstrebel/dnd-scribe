@@ -1,7 +1,7 @@
 # 🛡️ Editorial Candidate Audit: Session 5
 **Title:** THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE  
 **Word Count:** 7,995 words | **Blocks:** 223 | **Raw Turns:** 1257  
-**Overall Score:** 67 / 100 (**Grade: D**)  
+**Overall Score:** 62 / 100 (**Grade: D**)  
 **Verdict:** `BLOCKED — CRITICAL FAILURES REQUIRE REVISION`  
 
 > [!CAUTION]
@@ -121,14 +121,15 @@
 
 ## 📊 Scorecard Breakdown
 * **Mechanical & Platform Readiness:** 17 / 25
-* **Attribution & Grounding Fidelity:** 22 / 25
+* **Attribution & Grounding Fidelity:** 17 / 25
 * **Character Voiceprint Authenticity:** 17 / 25
 * **Literary Craft, Content & Adaptation:** 11 / 25
 
 ---
 
-## ❌ Critical Blocking Failures (2)
+## ❌ Critical Blocking Failures (3)
 * 🛑 **Cinematic Cut Omission: Zero authorial scene files found in 'd:\Code\dnd-scribe\sessions\data\clean\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B!**
+* 🛑 **Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': "A delightful thought over breakfast, Professor," Pierre murmured, sliding a finished rum crepe onto...**
 * 🛑 **Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes.**
 
 ---
@@ -165,7 +166,7 @@
 ### 3. The Cinematic Cut Imperative
 > [!WARNING]
 > **Status: MISSING / CRITICAL FAILURE**  
-> Session 5 currently has NO authorial cinematic cut files in 'blocks_authorial/'. In Session 4, the reader presents 3 distinct lenses: Raw, Tabletop, and Cinematic. For Session 5, the upstream pipeline stopped at the Tabletop cut. The Cinematic Cut is mandatory: it is where dead travel turns must be excised, Dravin's divine heritage given rich interiority, Alfie given proactive physical business, and the Bethlehem lecture turned into a heart-pounding 1940s medical conspiracy thriller.
+> Session 5 currently has NO authorial cinematic cut files in 'blocks_authorial/'. In Session 4, the reader presents 3 distinct lenses: Raw, Tabletop, and Cinematic. For Session 5, the upstream pipeline stopped at the Tabletop cut. The Cinematic Cut is mandatory: it is where dead travel turns must be excised, Dravin's divine heritage given rich interiority, Alfie given proactive physical business, and the University University lecture turned into a heart-pounding 1940s medical conspiracy thriller.
 
 ---
 
@@ -187,6 +188,19 @@ To deliver on the 3 Reading Lenses (Raw Transcript, Tabletop Cut, Cinematic Cut)
 
 ---
 
+## 📋 Speaker Misattribution Table ({len(report['attributionFixes'])})
+The following blocks have conflicting speaker assignments between the narrative dialogue tags and the Schema 2.0 manifest:
+
+| Block ID | Block # | Manifest Assigned | True Prose Speaker | In-Text Dialogue Snippet |
+| :--- | :--- | :--- | :--- | :--- |
+| `uneraseable_s05_b008` | #8 | `dravin` | **`pierre`** | "A delightful thought over breakfast, Professor," Pierre murmured, sliding a finished rum crepe onto... |
+
+> [!IMPORTANT]
+> **Root Cause Explanation**: `generate_web_manifest.py` resolves `speakerId` purely from raw transcript turn markers (`<!-- Lxxxx -->`). When a character replies to another player (e.g. Pierre replying to Dravin's turn at L0120), the sentence received Dravin's speakerId rather than Pierre's!
+> **Remediation**: The upstream generator must verify in-text dialogue tags (e.g. `Pierre murmured`, `Eusacles asked`, `Alfie whispered`) before accepting the antecedent raw turn speaker.
+
+---
+
 ## ⚠️ Editorial Warnings & Narrative Polish (1)
 * ⚠️ Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding.
 
@@ -195,11 +209,11 @@ To deliver on the 3 Reading Lenses (Raw Transcript, Tabletop Cut, Cinematic Cut)
 ## 🛠️ Actionable Remediation Checklist for Upstream Agent
 
 1. **Author the Missing Cinematic Cut (Track B)**:
-   Write `sessions/data/clean/blocks_authorial/s5-scene-01-alt.md` through `s5-scene-10-alt.md` following the 3-Act Ordering Blueprint above. Give Dravin emotional interiority regarding Persephone, eliminate Alfie's luggage syndrome, and pace the Bethlehem heist with cinematic urgency.
+   Write `sessions/data/clean/blocks_authorial/s5-scene-01-alt.md` through `s5-scene-10-alt.md` following the 3-Act Ordering Blueprint above. Give Dravin emotional interiority regarding Persephone, eliminate Alfie's luggage syndrome, and pace the University University heist with cinematic urgency.
 
 2. **Insert Chapter Act Headers in Tabletop Cut**:
    Add `## CHAPTER 29: PARCHMENT, CREPES, AND THE GOD OF TRANSIT` at Scene 1 (line 11).
-   Add `## CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST` at Scene 4.
+   Add `## CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST` at Scene 4.
    Add `## CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM` at Scene 7.
 
 3. **Correct Dialogue Turn Citations or Manifest Resolution**:

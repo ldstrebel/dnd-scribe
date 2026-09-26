@@ -32,7 +32,7 @@ We have thoroughly audited the adversarial critique from upstream commits `c5e08
 * **Critic's Note:** *"Dravin simply folds the letter, puts it in his coat, and never thinks about it again! There is zero interiority regarding what it means for an aging Stanford academic to learn his mother is a chthonic deity..."*
 * **Response Status:** **`[FORMAL PUSHBACK — DEFERRED TO S6 BRIEFING]`**
 * **Justification:**
-  At the table (raw lines L0242–L0260), William Webb roleplayed Dravin receiving the letter, verified that it had the pomegranate wax seal, made a dry academic observation to the party, and immediately prioritized traveling to Bethlehem to intercept Dr. Thorne. The player *deliberately chose* not to stage an open existential breakdown in front of his companions.
+  At the table (raw lines L0242–L0260), William Webb roleplayed Dravin receiving the letter, verified that it had the pomegranate wax seal, made a dry academic observation to the party, and immediately prioritized traveling to University University to intercept Dr. Thorne. The player *deliberately chose* not to stage an open existential breakdown in front of his companions.
   
   Under the **Adaptation Boundary Law**, if the adapter invents 1,500 words of deep emotional brooding or theological crisis, we risk a catastrophic continuity break with Session 6. If William Webb plays Dravin in Session 6 as detached, pragmatic, or in denial, the novelization will directly contradict the player's unfolding canon.
   

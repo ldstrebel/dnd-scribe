@@ -4,26 +4,35 @@
   "totalWords": 7995,
   "blockCount": 223,
   "rawLinesCount": 1257,
-  "totalScore": 67,
+  "totalScore": 62,
   "grade": "D",
   "verdict": "BLOCKED \u2014 CRITICAL FAILURES REQUIRE REVISION",
   "tomatometer": 62,
   "popcornmeter": 94,
   "scoreBreakdown": {
     "mechanical": 17,
-    "attribution": 22,
+    "attribution": 17,
     "voiceprint": 17,
     "literary_craft": 11
   },
   "criticalErrors": [
     "Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B!",
+    "Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
     "Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes."
   ],
   "editorialWarnings": [
     "Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding."
   ],
   "proseCritiques": [],
-  "attributionFixes": [],
+  "attributionFixes": [
+    {
+      "blockId": "uneraseable_s05_b008",
+      "index": 8,
+      "manifestSpeaker": "dravin",
+      "proseSpeaker": "pierre",
+      "snippet": "\"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto..."
+    }
+  ],
   "chapterBlueprint": [],
   "contentReview": {
     "sourceFidelity": {
@@ -58,7 +67,7 @@
     },
     "cinematicCutEvaluation": {
       "status": "MISSING / CRITICAL FAILURE",
-      "analysis": "Session 5 currently has NO authorial cinematic cut files in 'blocks_authorial/'. In Session 4, the reader presents 3 distinct lenses: Raw, Tabletop, and Cinematic. For Session 5, the upstream pipeline stopped at the Tabletop cut. The Cinematic Cut is mandatory: it is where dead travel turns must be excised, Dravin's divine heritage given rich interiority, Alfie given proactive physical business, and the Bethlehem lecture turned into a heart-pounding 1940s medical conspiracy thriller."
+      "analysis": "Session 5 currently has NO authorial cinematic cut files in 'blocks_authorial/'. In Session 4, the reader presents 3 distinct lenses: Raw, Tabletop, and Cinematic. For Session 5, the upstream pipeline stopped at the Tabletop cut. The Cinematic Cut is mandatory: it is where dead travel turns must be excised, Dravin's divine heritage given rich interiority, Alfie given proactive physical business, and the University University lecture turned into a heart-pounding 1940s medical conspiracy thriller."
     },
     "cutOrderingBlueprint": {
       "act1": {

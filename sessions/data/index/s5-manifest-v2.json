@@ -128,15 +128,15 @@
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 1257,
-        "sharePct": 15.7
+        "words": 1234,
+        "sharePct": 15.4
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 841,
-        "sharePct": 10.5
+        "words": 815,
+        "sharePct": 10.2
       },
       {
         "id": "eusacles",
@@ -160,6 +160,13 @@
         "sharePct": 3.2
       },
       {
+        "id": "protester",
+        "name": "Tin-Foil Protester",
+        "color": "#64748b",
+        "words": 244,
+        "sharePct": 3.1
+      },
+      {
         "id": "hermes",
         "name": "Hermes Courier",
         "color": "#f59e0b",
@@ -172,13 +179,6 @@
         "color": "#059669",
         "words": 224,
         "sharePct": 2.8
-      },
-      {
-        "id": "protester",
-        "name": "Tin-Foil Protester",
-        "color": "#64748b",
-        "words": 195,
-        "sharePct": 2.4
       },
       {
         "id": "theodore",
@@ -407,11 +407,11 @@
         ]
       },
       "technicalCompliance": {
-        "criticalErrors": 2,
+        "criticalErrors": 3,
         "editorialWarnings": 1,
-        "score": 67
+        "score": 62
       },
-      "ruthlessAnalysis": "Audit Score: 67/100 (Tomatometer: 62%, Popcornmeter: 94%). Session 5 has peak table energy (94%) but stalls in prose (62%) due to missing Track B (Cinematic Cut) and dropped Persephone interiority. Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B! Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes.",
+      "ruthlessAnalysis": "Audit Score: 62/100 (Tomatometer: 62%, Popcornmeter: 94%). Session 5 has peak table energy (94%) but stalls in prose (62%) due to missing Track B (Cinematic Cut) and dropped Persephone interiority. Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B! Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
       "tradeOffs": [
         {
           "dimension": "Faithful Transcript Chronicle vs High-Stakes Novelization",
@@ -621,14 +621,14 @@
       "id": "uneraseable_s05_b008",
       "index": 8,
       "scene": "CHAPTER 29: PARCHMENT, CREPES, AND THE GOD OF TRANSIT",
-      "speakerId": "pierre",
+      "speakerId": "dravin",
       "text": "\"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto a tin plate and setting it before the scholar.",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b008_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 116,
           "text": "\"A delightful thought over breakfast, Professor,\""
         },
@@ -1857,7 +1857,7 @@
     {
       "id": "uneraseable_s05_b053",
       "index": 53,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Pierre balanced the flat bronze tip of his newly acquired museum javelin over the iron grate, deftly flipping another thin crepe as the hearth flared. The dark rum sizzled violently against the hot metal, filling the low-ceilinged room with a rich, caramelized vapor.",
       "segments": [
@@ -1874,7 +1874,7 @@
     {
       "id": "uneraseable_s05_b054",
       "index": 54,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "Eusacles eyed the skillet with famished desperation, wiping grease from his scarred chin. \"Does the Frenchman actually know what he's doing with that spear, or am I about to eat metal shavings?\"",
       "segments": [
@@ -1899,7 +1899,7 @@
     {
       "id": "uneraseable_s05_b055",
       "index": 55,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "\"I have practiced this culinary discipline for three straight days, Monsieur Gambler,\" Pierre sniffed, tossing his chin indignantly as his woolen beret slid toward his ear. He expertly slid the folded pastry onto a tin plate with the javelin point. \"Mike\u2019s secret dark rum gives it an exquisite Parisian depth. You are full of crude American spice\u2014this sweetness will civilize your palate.\"",
       "segments": [
@@ -1932,7 +1932,7 @@
     {
       "id": "uneraseable_s05_b056",
       "index": 56,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "Eusacles took a massive, unceremonious bite, his eyebrows shooting up above his aviator frames. \"Damn. That is a straight-up pirate crepe.\"",
       "segments": [
@@ -1957,7 +1957,7 @@
     {
       "id": "uneraseable_s05_b057",
       "index": 57,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "At the far edge of the pine bench, away from the hearthsmoke, Alfie sat alone. Her small wooden fingers suddenly jerked, seized by a sharp, electric tremor that traveled up the grain of her driftwood arm. The invisible Fate thread that bound her to the loom pulsed violently beneath her bark-like skin.",
       "segments": [
@@ -1974,7 +1974,7 @@
     {
       "id": "uneraseable_s05_b058",
       "index": 58,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Without conscious thought, her right hand drew her miniature whittling knife. The steel needle blade flickered in the firelight. With swift, biting strokes, she began carving into the seasoned timber of her forearm, shaving away ribbons of gray driftwood. Shimmering amber light welled from the fresh gouges, coalescing into the sharp, stylized runes of a spiked leather cincher.",
       "segments": [
@@ -1991,7 +1991,7 @@
     {
       "id": "uneraseable_s05_b059",
       "index": 59,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "alfie",
       "text": "\"What do you reckon would be most useful, mates?\" Alfie asked, holding up her glowing timber arm for the table to inspect.",
       "segments": [
@@ -2016,7 +2016,7 @@
     {
       "id": "uneraseable_s05_b060",
       "index": 60,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "\"What are you doing to your arm, little mate?\" Eusacles asked around a mouthful of crepe, leaning over the table.",
       "segments": [
@@ -2041,7 +2041,7 @@
     {
       "id": "uneraseable_s05_b061",
       "index": 61,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "Pierre adjusted his spectacles, inspecting the glowing brand with European curiosity. \"A belt of pure chaos? Does it summon random French baguettes, or something considerably more violent?\"",
       "segments": [
@@ -2066,7 +2066,7 @@
     {
       "id": "uneraseable_s05_b062",
       "index": 62,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "dravin",
       "text": "Dravin set down his teacup, smoothing the rumpled tweed of his sleeve as he adjusted his wire spectacles. \"Classical historiography records several similar threshold talismans. A matrix of unpredictable tools\u2014some miraculous, others disastrously absurd.\"",
       "segments": [
@@ -2091,7 +2091,7 @@
     {
       "id": "uneraseable_s05_b063",
       "index": 63,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "alfie",
       "text": "Alfie blew away a curl of wood dust, admiring the sharp runic buckle etched deep into her wood. \"A bit of Wordcraft birthright,\" she said, her Cockney voice rasping with pride. \"Changed *Chaos Bolt* to *Chaos Belt*. Carved it right into my timber so I don't burn an honest reserve of spark when things go sideways. I picture reaching down in the middle of a brawl, pulling out whatever strange device the loom feels like tossing me.\"",
       "segments": [
@@ -2132,7 +2132,7 @@
     {
       "id": "uneraseable_s05_b064",
       "index": 64,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "dravin",
       "text": "\"An admirable adaptation, Alfie,\" Dravin concluded with quiet scholarly satisfaction, tapping his leather notebook.",
       "segments": [
@@ -2157,7 +2157,7 @@
     {
       "id": "uneraseable_s05_b065",
       "index": 65,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Heavy footsteps creaked on the floorboards as Theodore approached the common table. The burly surveyor carried a rolled canvas terrain map, resting his calloused hands on the back of Dravin\u2019s chair.",
       "segments": [
@@ -2174,7 +2174,7 @@
     {
       "id": "uneraseable_s05_b066",
       "index": 66,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "theodore",
       "text": "\"Before you folks set off for the college, you have a logistical choice to make,\" Theodore said in a low, measured rumble. \"Young Hermes has his own delivery network\u2014the Hermes Express, he calls it. If you pay his price, he can fold space through the postal corridors and drop you directly on the campus steps. The alternative is the Forgotten Trail. It runs northeast through the untamed foothills. It is overgrown and wild, but it keeps you entirely off the celestial registry.\"",
       "segments": [
@@ -2207,7 +2207,7 @@
     {
       "id": "uneraseable_s05_b067",
       "index": 67,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "Pierre waved his fork dismissively, his lip curling. \"I would rather walk barefoot across broken tiles than pay an athletic courier who does not believe France is a real nation. Continental shipping only! The arrogance of it! We take the Forgotten Trail.\"",
       "segments": [
@@ -2232,7 +2232,7 @@
     {
       "id": "uneraseable_s05_b068",
       "index": 68,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Beyond the woodline of the Margin, the narrow path plunged into a dense, ancient corridor where the trees grew impossibly tall, their tangled branches blotting out the gray sky until daylight dwindled to a perpetual twilight. The air smelled of wet slate, wild hemlock, and displaced temporal ozone.",
       "segments": [
@@ -2249,7 +2249,7 @@
     {
       "id": "uneraseable_s05_b069",
       "index": 69,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Professor Dravin led the file, his bronze hoplite shield strapped across his left forearm, his wire spectacles catching faint slivers of mist as he navigated the moss-choked switchbacks.",
       "segments": [
@@ -2266,7 +2266,7 @@
     {
       "id": "uneraseable_s05_b070",
       "index": 70,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "dravin",
       "text": "\"All in favor of the Lost Roads,\" Dravin murmured as he checked their heading, reminding the others of their unanimous decision before the descent. \"I will do my best to navigate us through.\" He adjusted his grip on the heavy bronze shield.",
       "segments": [
@@ -2307,7 +2307,7 @@
     {
       "id": "uneraseable_s05_b071",
       "index": 71,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "\"I'm telling you, these roads are a disaster,\" Eusacles muttered from behind him, ducking beneath a low-hanging pine bough. He kept a wary hand resting on the five-dollar watch-chain looped through his denim belt, his dark aviators reflecting the twisting gloom. \"We're going to wander in circles until next Tuesday.\"",
       "segments": [
@@ -2340,7 +2340,7 @@
     {
       "id": "uneraseable_s05_b072",
       "index": 72,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Dravin urged patience, lifting a heavy curtain of wild vines with the rim of his shield as the path climbed deeper into the overgrown switchbacks.",
       "segments": [
@@ -2357,7 +2357,7 @@
     {
       "id": "uneraseable_s05_b073",
       "index": 73,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "The brush parted suddenly into a small, silent clearing. Kneeling on a flat mossy boulder at the center of the path was a small boy in patched dungarees. His form was pale, translucent, shimmering like heat off asphalt. He held out two cupped, empty hands, looking up with wide, hopeful eyes.",
       "segments": [
@@ -2374,7 +2374,7 @@
     {
       "id": "uneraseable_s05_b074",
       "index": 74,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "alfie",
       "text": "Alfie leaned forward from Dravin's shoulder, squinting beneath her oversized museum ballcap. \"You didn't make a thing, mate. There's nothing there.\"",
       "segments": [
@@ -2399,7 +2399,7 @@
     {
       "id": "uneraseable_s05_b075",
       "index": 75,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "child",
       "text": "\"No, it\u2019s right here!\" the boy insisted earnestly, lifting his empty hands higher. \"I made this. It's a fun little toy, isn't it?\"",
       "segments": [
@@ -2432,7 +2432,7 @@
     {
       "id": "uneraseable_s05_b076",
       "index": 76,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "Eusacles scratched his jaw, his gruff voice softening slightly. \"Some would say imagination is your greatest tool, kid. You're not wrong.\"",
       "segments": [
@@ -2457,7 +2457,7 @@
     {
       "id": "uneraseable_s05_b077",
       "index": 77,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "alfie",
       "text": "\"He is wrong,\" Alfie snorted, folding her tiny wooden arms over her sailcloth vest. \"There is literally nothing in his hands.\"",
       "segments": [
@@ -2490,7 +2490,7 @@
     {
       "id": "uneraseable_s05_b078",
       "index": 78,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "\"Which is why imagination is the greatest toy a kid can have,\" Eusacles retorted dryly, gesturing toward the empty palms.",
       "segments": [
@@ -2515,7 +2515,7 @@
     {
       "id": "uneraseable_s05_b079",
       "index": 79,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "child",
       "text": "\"This looks like a fun toy that I can play with,\" the boy said softly, looking between them with quiet innocence.",
       "segments": [
@@ -2540,7 +2540,7 @@
     {
       "id": "uneraseable_s05_b080",
       "index": 80,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "Pierre stepped backward, clutching his bronze javelin two-handed, his knuckles whitening against the ash wood shaft. His round spectacles reflected the spectral child\u2019s pale gaze. \"Alfie, I do not know if you have watched American horror films, but one does not converse with spectral woodland children! It is an obvious curse! It will transform into an unspeakable gremlin and haunt our boots forever!\"",
       "segments": [
@@ -2565,7 +2565,7 @@
     {
       "id": "uneraseable_s05_b081",
       "index": 81,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Pierre took two slow, exaggerated paces back down the trail, beret tilted low over his eyes.",
       "segments": [
@@ -2582,7 +2582,7 @@
     {
       "id": "uneraseable_s05_b082",
       "index": 82,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "child",
       "text": "The child\u2019s smile faded. He looked from Pierre\u2019s quivering spearpoint to Alfie\u2019s miniature scowl, then down at his own empty palms. \"Oh. Okay,\" he whispered.",
       "segments": [
@@ -2615,7 +2615,7 @@
     {
       "id": "uneraseable_s05_b083",
       "index": 83,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "He dropped his hands to his sides. Slowly, silently, the boy drifted backward into the dense fern understory, dissolving into the gray mist like smoke in a chimney draft.",
       "segments": [
@@ -2632,7 +2632,7 @@
     {
       "id": "uneraseable_s05_b084",
       "index": 84,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "\"Hurry! Now is our moment to sprint while he's off the path!\" Pierre urged, waving his javelin toward the ascending trail.",
       "segments": [
@@ -2657,7 +2657,7 @@
     {
       "id": "uneraseable_s05_b085",
       "index": 85,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "alfie",
       "text": "\"Hey!\" Alfie shouted after the trees, waving her tiny needle rapier. \"You dropped your nothing!\"",
       "segments": [
@@ -2690,7 +2690,7 @@
     {
       "id": "uneraseable_s05_b086",
       "index": 86,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Before they could take ten paces, the canopy above them groaned. *CRACK.* A splintering boom echoed through the timber, followed by a thunderous, invisible impact that shook the roots beneath their boots. *THUD.* Another deafening shockwave slammed into the earth twenty yards to their flank, snapping branches that were not there.",
       "segments": [
@@ -2707,7 +2707,7 @@
     {
       "id": "uneraseable_s05_b087",
       "index": 87,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "dravin",
       "text": "Dravin drew his tarnished silver bell, his tweed coat snapping in the sudden phantom downdraft. \"Form a circle! Back to back, complete perimeter!\"",
       "segments": [
@@ -2732,7 +2732,7 @@
     {
       "id": "uneraseable_s05_b088",
       "index": 88,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Alfie spun on Dravin\u2019s shoulder, needle rapier leveled outward. Eusacles planted his heavy work boots, slipping his watch-chain morningstar into his palm as Pierre covered the rear with his bronze spearpoint. They stood locked in a three-hundred-and-sixty-degree defensive ward, waiting for the invisible giant to strike.",
       "segments": [
@@ -2749,7 +2749,7 @@
     {
       "id": "uneraseable_s05_b089",
       "index": 89,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "The phantom footsteps shook the soil one final time\u2014and abruptly ceased. The wind died.",
       "segments": [
@@ -2766,7 +2766,7 @@
     {
       "id": "uneraseable_s05_b090",
       "index": 90,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "dravin",
       "text": "\"Well,\" Dravin said quietly, exhaling a slow plume of breath into the chill. \"That was remarkably prompt. Forward.\"",
       "segments": [
@@ -2799,7 +2799,7 @@
     {
       "id": "uneraseable_s05_b091",
       "index": 91,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED \u2014 CAMPUS POLICE & MAINTENANCE DEPT.`",
       "segments": [
@@ -2816,7 +2816,7 @@
     {
       "id": "uneraseable_s05_b092",
       "index": 92,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the university quadrangle.",
       "segments": [
@@ -2833,7 +2833,7 @@
     {
       "id": "uneraseable_s05_b093",
       "index": 93,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "The quadrangle unfolded before them in grand, collegiate splendor. Towering limestone facades rose toward the cloudy autumn sky, punctuated by Gothic spires and deep Romanesque arches. Manicured lawns were crisscrossed by slate footpaths crowded with chattering undergraduate students, tweed-jacketed professors, and scurrying teaching assistants.",
       "segments": [
@@ -2850,7 +2850,7 @@
     {
       "id": "uneraseable_s05_b094",
       "index": 94,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "Pierre adjusted his woolen beret, gazing upward at the vaulted masonry with critical European appraisal. \"I must concede, this is the finest stonework I have encountered in America. Look at the balance of those arches! Quite magnificent. Almost sinister.\"",
       "segments": [
@@ -2875,7 +2875,7 @@
     {
       "id": "uneraseable_s05_b095",
       "index": 95,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "At the base of a wide granite stairway, two undergraduate demonstrators stood waving mimeographed pamphlets. One wore an improvised tin-foil band tucked under the brim of his fedora, gesturing frantically at a poster covered in chemical equations.",
       "segments": [
@@ -2892,7 +2892,7 @@
     {
       "id": "uneraseable_s05_b096",
       "index": 96,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "protester",
       "text": "\"If the compound was chemically viable back in 1948, why did the archives seal the formula?\" the fedora-wearer argued loudly, his voice cracking with exasperation. \"The half-life was decades long! There is no biochemical justification for why the batch went stale overnight!\"",
       "segments": [
@@ -2925,7 +2925,7 @@
     {
       "id": "uneraseable_s05_b097",
       "index": 97,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "Beside him, an earnest student pushed up a pair of round horn-rimmed glasses with an exasperated sigh. \"Well, actually, even if the synthesis functioned, the terminal subjects never consented to the agony! They were victims of egregious ethical violations! No civilized tribunal would have permitted human trials!\"",
       "segments": [
@@ -2950,7 +2950,7 @@
     {
       "id": "uneraseable_s05_b098",
       "index": 98,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "Eusacles stepped up onto the granite curb, shoving his hands into his denim pockets and tilting his dark aviator sunglasses down his nose. \"Victims? What fatal disease are you nerds shouting about?\"",
       "segments": [
@@ -2975,7 +2975,7 @@
     {
       "id": "uneraseable_s05_b099",
       "index": 99,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "eusacles",
       "text": "\"Big Pox?\" Eusacles repeated, looking back at his companions with a scowl. \"Is that a real thing, or did you make that up?\"",
       "segments": [
@@ -3008,7 +3008,7 @@
     {
       "id": "uneraseable_s05_b100",
       "index": 100,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "protester",
       "text": "\"Big Pox!\" the fedora demonstrator snapped. \"A devastating epidemic! The mad doctor\u2019s clinical trial in 1948 promised an absolute cure, but history records that the medicine turned to sludge and the physician vanished into infamy!\"",
       "segments": [
@@ -3041,15 +3041,15 @@
     {
       "id": "uneraseable_s05_b101",
       "index": 101,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
-      "speakerId": "dravin",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
+      "speakerId": "protester",
       "text": "\"It was eradicated before our era, Eusacles,\" Dravin intervened smoothly, stepping forward as the breeze rustled his rumpled tweed coat. He offered the demonstrators a disarming, aristocratic nod. \"My colleagues and I are visiting researchers. We understood Dr. Aris Thorne was delivering a public retrospective on these very trials?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b101_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "protester",
+          "speakerName": "Tin-Foil Protester",
           "sourceLine": 711,
           "text": "\"It was eradicated before our era, Eusacles,\""
         },
@@ -3064,8 +3064,8 @@
         {
           "segmentId": "uneraseable_s05_b101_s03",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "protester",
+          "speakerName": "Tin-Foil Protester",
           "sourceLine": 711,
           "text": "\"My colleagues and I are visiting researchers. We understood Dr. Aris Thorne was delivering a public retrospective on these very trials?\""
         }
@@ -3074,7 +3074,7 @@
     {
       "id": "uneraseable_s05_b102",
       "index": 102,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "protester",
       "text": "\"Her lecture starts in ten minutes at the main auditorium!\" the second student warned, pointing toward the heavy oak double doors of the central hall. \"Standing room only. If you don't have reserved faculty seats, you\u2019ll never get near the stage.\"",
       "segments": [
@@ -3107,7 +3107,7 @@
     {
       "id": "uneraseable_s05_b103",
       "index": 103,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "dravin",
       "text": "Dravin glanced sideways at Pierre, lowering his voice. \"If the hall is packed, we will have no access to her primary documents during the address. We require entry to the private preparation chambers backstage.\"",
       "segments": [
@@ -3132,7 +3132,7 @@
     {
       "id": "uneraseable_s05_b104",
       "index": 104,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "\"Leave the custodian to French diplomacy, Professor,\" Pierre murmured, adjusting his wire spectacles with a sudden, predatory glint as his gaze locked onto a cleaning trolley down the colonnade.",
       "segments": [
@@ -3157,7 +3157,7 @@
     {
       "id": "uneraseable_s05_b105",
       "index": 105,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "Pierre\u2019s gaze drifted along the colonnade. A burly university custodian in blue work coveralls was pushing a brass cleaning trolley across the flagstones, a hefty brass ring of master keys jangling at his hip. A red cleaning rag dangled from a spring-loaded retractor on his belt.",
       "segments": [
@@ -3174,7 +3174,7 @@
     {
       "id": "uneraseable_s05_b106",
       "index": 106,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "Pierre strode purposefully toward the marble alcove where an 18th-century classical bust rested upon a fluted pedestal\u2014directly adjacent to a bulging olive-drab plastic trash bin. Pierre threw his hands into the air, gasping with melodramatic horror. \"Sacr\u00e9 bleu! What ungodly barbarism is this? A sculpted masterpiece of Hellenic beauty, shoved behind a municipal garbage receptacle! And there is pigeon filth upon the brow! Where is the barbarian responsible for this desecration?\"",
       "segments": [
@@ -3199,7 +3199,7 @@
     {
       "id": "uneraseable_s05_b107",
       "index": 107,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "attendant",
       "text": "The custodian halted his cart, his jaw dropping in defensive outrage. He unclipped his cleaning rag with a sharp snap. \"Excuse me, pal? I\u2019m Rick Ready! I\u2019m always ready! I literally polished that marble ten minutes ago! There\u2019s no way there\u2019s bird droppings on that cheek!\"",
       "segments": [
@@ -3224,7 +3224,7 @@
     {
       "id": "uneraseable_s05_b108",
       "index": 108,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "\"You polished it with sandpaper, Monsieur Ready!\" Pierre shouted, storming into the custodian's personal space and waving his bronze javelin tip dramatically toward the statue\u2019s nose. \"You have rubbed away the delicate Grecian contours! Look at the cheekbones! The patrician bridge is ruined! Did you learn your trade in a coal cellar? In France, sculptors would weep blood to witness such domestic vandalism!\"",
       "segments": [
@@ -3257,7 +3257,7 @@
     {
       "id": "uneraseable_s05_b109",
       "index": 109,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "attendant",
       "text": "\"What are you, some foreign art student?\" Rick Ready sputtered, reddening as he jabbed a finger toward the marble.",
       "segments": [
@@ -3282,7 +3282,7 @@
     {
       "id": "uneraseable_s05_b110",
       "index": 110,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "narrator",
       "text": "While the custodian argued fiercely, Professor Dravin calmly drifted past the cart. With the deft, practiced precision of a veteran academic who had borrowed countless restricted manuscripts, Dravin\u2019s slender fingers slid beneath the custodian's coverall flap. A soft metallic click echoed beneath the bluster. Dravin stepped back into the shadows of the colonnade, holding up a heavy brass ring of master keys. He offered Pierre a subtle, patrician wink.",
       "segments": [
@@ -3299,7 +3299,7 @@
     {
       "id": "uneraseable_s05_b111",
       "index": 111,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "\"A student? Do not insult me!\" Pierre scoffed loudly, drawing the custodian's full attention away from the trolley. \"I am from France, the cradle of sculpture! Why would I come to America to study art? You imported this bust because your own program produces nothing of note!\"",
       "segments": [
@@ -3332,7 +3332,7 @@
     {
       "id": "uneraseable_s05_b112",
       "index": 112,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "attendant",
       "text": "\"We got a top-tier fine arts department here at the university!\" Rick Ready snapped, his chest puffing out with collegiate pride.",
       "segments": [
@@ -3357,7 +3357,7 @@
     {
       "id": "uneraseable_s05_b113",
       "index": 113,
-      "scene": "CHAPTER 30: THE CAMPUS AT BETHLEHEM & THE TIN-FOIL PROTEST",
+      "scene": "CHAPTER 30: THE CAMPUS AT UNIVERSITY UNIVERSITY & THE TIN-FOIL PROTEST",
       "speakerId": "pierre",
       "text": "\"Prove it to me, Monsieur Ready!\" Pierre challenged, gesturing imperiously toward the academic quad. \"Where is your studio? Show me this so-called sculpture hall! Lead the way!\"",
       "segments": [
