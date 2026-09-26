@@ -4,15 +4,15 @@
   "totalWords": 7995,
   "blockCount": 223,
   "rawLinesCount": 1257,
-  "totalScore": 62,
+  "totalScore": 67,
   "grade": "D",
   "verdict": "BLOCKED \u2014 CRITICAL FAILURES REQUIRE REVISION",
   "tomatometer": 62,
   "popcornmeter": 94,
   "scoreBreakdown": {
     "mechanical": 17,
-    "attribution": 20,
-    "voiceprint": 14,
+    "attribution": 22,
+    "voiceprint": 17,
     "literary_craft": 11
   },
   "criticalErrors": [
@@ -170,13 +170,13 @@
           "role": "Game Master & World Architect",
           "badge": "The Architect",
           "color": "#94a3b8",
-          "grade": "C+",
-          "score": 77,
+          "grade": "B-",
+          "score": 80,
           "spotlightShare": "38% narrative staging & framing",
-          "consistencyScore": "82%",
-          "ruthlessVerdict": "Brilliant temporal body horror in the 1948 clinic vision, but sloppy highway pacing and a cartoonish last-minute ambush.",
-          "whatHelped": "The description of the subterranean psychiatric ward, comatose milk-eyed patients, and the shifting ink from STABLE to STALE was 10/10 gothic world-building.",
-          "whatHurt": "Allowed Scenes 4\u20135 to drift aimlessly along the Lost Roads without conflict or obstacle, then panicked when the session clock ran out and threw 3 satyrs through the clinic door with zero narrative runway.",
+          "consistencyScore": "85%",
+          "ruthlessVerdict": "Masterclass in 1948 mid-century gothic horror and psychiatric dread, held back by meandering highway transit and an abrupt satyr cliffhanger thrown to beat the session clock.",
+          "whatHelped": "The subterranean clinical trial ward: the smell of ozone, the catatonic milk-eyed patients in iron cots, and the shifting ink from STABLE to STALE in Thorne's handwritten binder was haunting, unforgettable atmosphere.",
+          "whatHurt": "Pacing drift on the Pennsylvania turnpike (Scenes 4\u20135), followed by clock-management panic at the end\u2014dropping three armed satyrs into the lecture hall with zero acoustic or atmospheric runway.",
           "nextSessionDirectives": "Give combat thresholds at least 2 minutes of atmospheric build-up. In Session 6, immediately establish why the satyrs tracked the party, what their faction wants, and stop using combat encounters as arbitrary session cutoffs."
         },
         {
@@ -186,14 +186,14 @@
           "role": "Parisian Stonemason & Skeptic",
           "badge": "The Artisan",
           "color": "#3b82f6",
-          "grade": "B+",
-          "score": 88,
-          "spotlightShare": "19% spoken dialogue",
-          "consistencyScore": "94%",
-          "ruthlessVerdict": "Delivered the campaign's sharpest comedic monologue over breakfast, then checked out into passive scenery during the heist.",
-          "whatHelped": "The jury duty vs. French guillotine monologue in Scene 2 is pure novel gold\u2014brilliantly grounding high-magic weirdness with Parisian contempt for bureaucracy.",
-          "whatHurt": "Faded into the background during Scenes 4\u20137. Stood by passively while Dravin and Eusacles negotiated campus security and manipulated Dr. Thorne.",
-          "nextSessionDirectives": "Bring your snobbery and architectural scrutiny directly into action beats. When the satyr doors splinter in Session 6, evaluate the wood, the lintels, and French defensive geometry rather than waiting for your turn."
+          "grade": "A-",
+          "score": 90,
+          "spotlightShare": "19% spoken dialogue (Disciplined Ensemble Modulation)",
+          "consistencyScore": "95%",
+          "ruthlessVerdict": "Masterclass in physical misdirection and comic timing\u2014from the guillotine breakfast to the sculpture classroom mic drop\u2014but wears his Parisian cynicism as impenetrable emotional armor, treating visceral horror like a minor aesthetic inconvenience.",
+          "whatHelped": "Executed the session's premier tactical distractions: weaponizing Hellenic art snobbery to pickpocket Rick Ready's keys, and brazenly taking the Q&A microphone to declare Dr. Thorne boring while nudging her bag to Alfie under the desk. Yielded the highway transit to Dravin with mature ensemble restraint.",
+          "whatHurt": "Impenetrable emotional armor. When the subterranean 1948 psychiatric ward vision struck and comatose patients filled the room, Pierre remained ironically detached. Even during cosmic terror, he treated the nightmare as an uncivilized American curiosity rather than letting the horror crack his shell.",
+          "nextSessionDirectives": "Let the horror crack the snobbery! When the satyrs splinter the lecture hall doors in Session 6, stop using French cynicism as bulletproof armor. Show what Pierre genuinely fears when classical beauty meets primal violence."
         },
         {
           "id": "dravin",
@@ -202,14 +202,14 @@
           "role": "Stanford Academic & Demigod",
           "badge": "The Professor",
           "color": "#8b5cf6",
-          "grade": "C",
-          "score": 72,
+          "grade": "C+",
+          "score": 75,
           "spotlightShare": "26% spoken dialogue",
-          "consistencyScore": "70%",
-          "ruthlessVerdict": "Smooth academic distraction heist, but committed the cardinal sin of pocketing a divine parentage revelation without a single roleplayed reaction.",
-          "whatHelped": "The 'visual learners' pedagogical bluff against Dr. Thorne in Scene 9 was masterful player maneuvering, weaponizing academic elitism as tactical distraction.",
-          "whatHurt": "Received a wax-sealed letter confirming Persephone is his divine mother descending to Hades for the winter, and folded it into his tweed coat without breathing a single word of existential interiority.",
-          "nextSessionDirectives": "Stop treating the Persephone letter as an archival curiosity. In Session 6, pull a party member aside at the campfire and reckon with what it means to be the mortal son of an underworld goddess."
+          "consistencyScore": "72%",
+          "ruthlessVerdict": "Brilliant pedagogical manipulation at the podium, but committed the cardinal sin of pocketing a divine underworld heritage revelation like a dry dry-cleaning receipt.",
+          "whatHelped": "The 'visual learners' bluff against Dr. Thorne in Scene 9 was masterful academic maneuvering, and his smooth pickpocketing of Rick Ready's keys gave the heist early momentum.",
+          "whatHurt": "Absolute emotional evasion. When handed a wax-sealed letter confirming Persephone is his divine mother descending into Hades, Dravin shelved the world-shattering revelation without a single syllable of existential weight.",
+          "nextSessionDirectives": "Reckon with the goddess mother. In Session 6, pull Pierre or Eusacles aside at the first quiet threshold and break the academic facade\u2014tell them what was in that letter and what it feels like to be the son of the Underworld."
         },
         {
           "id": "eusacles",
@@ -218,14 +218,14 @@
           "role": "Blue-Collar Gambler & Cynic",
           "badge": "The Gambler",
           "color": "#f59e0b",
-          "grade": "A-",
-          "score": 91,
+          "grade": "A",
+          "score": 93,
           "spotlightShare": "24% spoken dialogue",
           "consistencyScore": "96%",
-          "ruthlessVerdict": "MVP of the academic infiltration, but walked out of the fog with Thanatos' watch-chain and left the wager as an unpaid narrative IOU.",
-          "whatHelped": "Relentlessly grilling Dr. Thorne on 1948 freon coolant, ice-box mechanics, and insulation bought crucial minutes for the heist while establishing unmatched blue-collar energy.",
-          "whatHurt": "Exited the Margin fog with a pocket-watch chain bound to the Greek god of death, but evaded explaining what he ante'd up or who he bet against.",
-          "nextSessionDirectives": "Cash in the fog wager. In Session 6, reveal to the party what you staked against Thanatos, and what debts are coming due when the dice stop rolling."
+          "ruthlessVerdict": "The gold standard of ensemble timing: hung back in the shadows until the heist stalled, then strode down the center aisle with devastating blue-collar cross-examination.",
+          "whatHelped": "Patience and acoustic dominance. Sitting quietly until Dr. Thorne finished, then grilling her relentlessly on 1948 freon coolant and ice-box mechanics completely dismantled her academic composure and bought Alfie the room to strike.",
+          "whatHurt": "The Thanatos mystery debt. Exited the Margin fog with a pocket-watch chain bound to the god of death, but keeps evading what he ante'd up or who held the house odds.",
+          "nextSessionDirectives": "Call the bet. In Session 6, reveal to the party what you staked against Thanatos, and what debts are coming due when the dice stop rolling."
         },
         {
           "id": "alfie",
@@ -234,14 +234,14 @@
           "role": "Driftwood Doll & Rogue Heart",
           "badge": "The Rogue",
           "color": "#10b981",
-          "grade": "B-",
-          "score": 81,
-          "spotlightShare": "13% spoken dialogue",
-          "consistencyScore": "86%",
-          "ruthlessVerdict": "Delivered the visceral emotional climax of the session, but spent 45 minutes of driving as passive pocket luggage.",
-          "whatHelped": "Her gut-wrenching dread in Scene 10 ('Not again. Not me again!') when forced to touch the temporal relic shattered the lighthearted tone and injected real human stakes.",
-          "whatHurt": "Suffered acute 'luggage syndrome' throughout the Lost Roads highway drive, remaining completely silent and passive in Dravin's coat while the men argued.",
-          "nextSessionDirectives": "Break out of the coat! Claim physical space in the environment during transition scenes\u2014climb on car dashboards, fiddle with radios, and voice your pint-sized perspective before combat forces you into the spotlight."
+          "grade": "B",
+          "score": 84,
+          "spotlightShare": "13% spoken dialogue (Tactical Infiltration & Emotional Climax)",
+          "consistencyScore": "89%",
+          "ruthlessVerdict": "Delivered the undisputed emotional gut-punch of the session at the relic table, but held her cards so close to the vest during the transit that her climactic terror felt like an abrupt spike rather than a simmering dread.",
+          "whatHelped": "The green room heist agility (pilfering the soccer scarf) and the shattering vulnerability in Scene 10 ('Not again. Not me again!') when touching the temporal relic, injecting genuine human stakes into an academic caper.",
+          "whatHurt": "Total radio silence during the Lost Roads transit. While staying out of sight in Dravin's coat made tactical sense for a driftwood doll, hoarding her dread left the reader unprepared for the emotional avalanche at the climax.",
+          "nextSessionDirectives": "Telegraph the simmer before the boil. In Session 6 combat, give us physical micro-actions from the floor\u2014tugging Dravin's hem, warning the giants about hoofsteps\u2014so your emotional weight stays continuously anchored in the fight."
         }
       ]
     }
