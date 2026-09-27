@@ -109,7 +109,7 @@ def render_dual_track_scorecard(sessions):
         print(f"   Scope: {len(tbl_files)} scene blocks | {tbl_words:,} words | {tbl_markers} granular turn anchors")
         print(f"   • Monotonic Line & Ledger Parity:   100.0% [PASS] (Zero leaks, zero overlaps, strict monotonic order)")
         print(f"   • Dialogue Anchoring Fidelity:      100.0% [PASS] ({tbl_markers}/{tbl_markers} turns anchored via <!-- Lxxxx -->)")
-        print(f"   • Canon Lore Integrity:             100.0% [PASS] (0 un-whitelisted lore drops; {len(lore_skips)} banter lines authorized)")
+        print(f"   • Canon Lore Integrity:             100.0% [PASS] (0 un-whitelisted lore drops; {len(lore_skips)} recorded skip exemptions)")
         print(f"   • Character Agency Invariants:      100.0% [PASS] (0 heist collusions, physical force unsanitized)")
         print(f"   • Paragraph Marker Pile-Ups:        {len(pileups)} instances (fused up to {max(pileups) if pileups else 0} turns into single paragraphs)")
         print(f"   🏅 TRACK A GRADE: [A+] 100% TABLETOP CANON LOCKED (Zero-Regex Provenance Law Verified)")
@@ -195,11 +195,13 @@ def main():
 
     # 0. Pre-Flight: Architectural Consistency & Anti-Amnesia Gate
     run_step("Pipeline Steward Decision Ledger & Architecture Audit", [sys.executable, ".agents/skills/pipeline-steward/scripts/audit_decision_ledger.py"])
+    run_step("Campaign Arc Ledger Provenance Gate", [sys.executable, "sessions/_scripts/audit_arc_ledger.py"])
 
     # 1. Fact-Checking & Semantic Grounding Gates
     for s in args.sessions:
         run_step(f"Fact-Checker Semantic Entailment ({s.upper()})", [sys.executable, "sessions/_scripts/audit_semantic_grounding.py", s])
         run_step(f"Fact-Checker Parity & Ledger Integrity ({s.upper()})", [sys.executable, "sessions/_scripts/verify_parity.py", s])
+        run_step(f"Reader Context & Introduction Audit ({s.upper()})", [sys.executable, "sessions/_scripts/audit_reader_context.py", s])
         run_step(f"Double-Blind Intent Parity & Campaign Context ({s.upper()})", [sys.executable, "sessions/_scripts/verify_intent_parity.py", s])
 
     # 2. Macro Narrative & Character Anchor Gate

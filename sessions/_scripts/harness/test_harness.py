@@ -19,8 +19,12 @@ from sessions._scripts.harness.lore_guardian import LoreGuardian
 from sessions._scripts.harness.context_bridge import ContextBridge
 from sessions._scripts.verify_alternate_scene import verify_alternate_scene
 from sessions._scripts.audit_semantic_grounding import (
+    audit_skip_ledger,
     audit_transcript_boundary,
     check_boundary_prose,
+    extract_content_words,
+    load_lore_lexicon,
+    load_skip_exemptions,
 )
 
 
@@ -241,6 +245,128 @@ class TestTranscriptBoundary(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertTrue(any("licensed by itemized liberty" in line for line in info))
         self.assertTrue(any("L1257 (s9-session-config.json)" in line for line in info))
+
+
+class TestSkipLedgerGate(unittest.TestCase):
+    """DEC-024: substantive spoken turns cannot hide behind a naked (ooc) skip."""
+
+    RAW = [
+        "**Luke Foreman:** ok one sec",
+        "**Sophie Foreman Noone:** So, a fragment isn't necessarily an item. Could just be a moment in time. Or is it always an item?",
+        "**John Hagey:** the ancient lighthouse keeper poured molten bronze across the harbor chains before dawn broke over the ruined city",
+        "**Luke Foreman:** roll initiative and that is where we will end our session today",
+    ]
+    LORE_RE = load_lore_lexicon("s9", "/nonexistent", {"session_lore_terms": ["fragment"], "npcs": [{"name": "Spectral Child"}]})
+
+    def _audit(self, skipped, prose="", exemptions=None):
+        words = set(extract_content_words(prose))
+        return audit_skip_ledger(9, skipped, self.RAW, words, self.LORE_RE, exemptions or {})
+
+    def _codes(self, errors):
+        return [e.split("]")[0].split("[")[1] for e in errors]
+
+    def test_substantive_naked_ooc_is_hard_error_for_any_speaker(self):
+        errors, _ = self._audit([("3", "ooc")])
+        self.assertEqual(self._codes(errors), ["UNJUSTIFIED_OOC_DROP"])
+
+    def test_short_or_meta_ooc_passes(self):
+        errors, _ = self._audit([("1", "ooc"), ("4", "ooc")])
+        self.assertEqual(errors, [])
+
+    def test_player_spoken_lore_term_is_detected(self):
+        errors, _ = self._audit([("2", "ooc")])
+        self.assertIn("TIER_B_LORE_DROP", self._codes(errors))
+        self.assertIn("fragment", errors[0])
+
+    def test_npc_name_matches_whole_phrase_only(self):
+        self.assertIsNotNone(self.LORE_RE.search("the spectral child appears"))
+        self.assertIsNone(self.LORE_RE.search("a child appears"))
+
+    def test_structured_exemption_with_reason_passes(self):
+        exemptions = load_skip_exemptions({"legitimate_ooc_lore_skips": [{"line": 3, "reason": "GM recap of prior session"}]})
+        self.assertEqual(exemptions, {3: "GM recap of prior session"})
+        errors, _ = self._audit([("3", "ooc")], exemptions=exemptions)
+        self.assertEqual(errors, [])
+
+    def test_legacy_integer_exemption_still_parses(self):
+        exemptions = load_skip_exemptions({"legitimate_ooc_lore_skips": [2, {"line": 3, "reason": "x"}]})
+        self.assertEqual(set(exemptions), {2, 3})
+        errors, _ = self._audit([("2", "ooc")], exemptions=exemptions)
+        self.assertEqual(errors, [])
+
+    def test_hollow_compressed_fails(self):
+        errors, _ = self._audit([("3", "compressed")], prose="Pierre adjusted his beret and ordered a baguette.")
+        self.assertEqual(self._codes(errors), ["HOLLOW_COMPRESSED_SKIP"])
+
+    def test_covered_compressed_passes(self):
+        prose = "Before dawn the lighthouse keeper poured molten bronze over the harbor chains of the ruined city."
+        errors, _ = self._audit([("3", "compressed")], prose=prose)
+        self.assertEqual(errors, [])
+
+
+from sessions._scripts.audit_arc_ledger import audit_arc_ledger
+from sessions._scripts.audit_reader_context import audit_reader_context, load_declared_introductions
+
+
+class TestWritersRoomGates(unittest.TestCase):
+    @unittest.skipIf(not os.path.exists(os.path.join(REPO_ROOT, "campaign", "CAMPAIGN_ARC_LEDGER.md")), "No campaign arc ledger on campaign-agnostic engine branch")
+    def test_arc_ledger_audit_passes_real_campaign(self):
+        passed, errors, warnings = audit_arc_ledger(str(REPO_ROOT))
+        self.assertTrue(passed, f"Arc ledger audit failed with errors: {errors}")
+        self.assertEqual(len(errors), 0)
+
+    @unittest.skipIf(not os.path.exists(os.path.join(REPO_ROOT, "sessions", "data", "clean", "blocks")), "No clean blocks on campaign-agnostic engine branch")
+    def test_reader_context_audit_passes_s5(self):
+        passed, errors, warnings = audit_reader_context("s5", str(REPO_ROOT))
+        self.assertTrue(passed, f"Reader context audit failed with errors: {errors}")
+        self.assertEqual(len(errors), 0)
+
+    def test_synthetic_arc_ledger_audit(self):
+        with tempfile.TemporaryDirectory() as td:
+            camp_dir = os.path.join(td, "campaign")
+            raw_dir = os.path.join(td, "sessions", "data", "index")
+            os.makedirs(camp_dir)
+            os.makedirs(raw_dir)
+            with open(os.path.join(raw_dir, "s1-raw-indexed.md"), "w", encoding="utf-8") as f:
+                f.write("L0100: Player: We found the artifact.\n")
+            with open(os.path.join(camp_dir, "CAMPAIGN_ARC_LEDGER.md"), "w", encoding="utf-8") as f:
+                f.write("# Codex\n## 1. Cosmology\n- The relic was uncovered [ESTABLISHED: S1 L0100].\n")
+            passed, errors, _ = audit_arc_ledger(td)
+            self.assertTrue(passed)
+            self.assertEqual(len(errors), 0)
+
+    def test_synthetic_reader_context_audit(self):
+        with tempfile.TemporaryDirectory() as td:
+            cfg_dir = os.path.join(td, "sessions", "config")
+            blocks_dir = os.path.join(td, "sessions", "data", "clean", "blocks")
+            os.makedirs(cfg_dir)
+            os.makedirs(blocks_dir)
+            with open(os.path.join(cfg_dir, "s1-session-config.json"), "w", encoding="utf-8") as f:
+                json.dump({"session_lore_terms": [{"term": "gadget", "introduced_scene": 1}]}, f)
+            with open(os.path.join(blocks_dir, "s1-scene-01.md"), "w", encoding="utf-8") as f:
+                f.write("He picked up the gadget from the desk. <!-- L0010 -->\n")
+            passed, errors, _ = audit_reader_context("s1", td)
+            self.assertTrue(passed)
+            self.assertEqual(len(errors), 0)
+
+    def test_declared_introductions_parser(self):
+        cfg = {
+            "session_lore_terms": [
+                {"term": "fragment", "introduced_scene": 1},
+                {"term": "briefcase", "introduced_scene": 9},
+                "legacy_string_term"
+            ],
+            "npcs": [
+                {"name": "Dr. Aris Thorne", "introduced_scene": 2},
+                "Legacy NPC"
+            ]
+        }
+        declared = load_declared_introductions(cfg)
+        self.assertEqual(declared["fragment"], 1)
+        self.assertEqual(declared["briefcase"], 9)
+        self.assertEqual(declared["legacy_string_term"], 1)
+        self.assertEqual(declared["dr. aris thorne"], 2)
+        self.assertEqual(declared["legacy npc"], 1)
 
 
 if __name__ == "__main__":

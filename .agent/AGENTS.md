@@ -93,15 +93,29 @@ Every generated scene block must satisfy the 8-point standard:
 
 ---
 
+## 4.1 The Dialectical Subagent Writers' Room (`DEC-025`)
+
+To eradicate cognitive overload during drafting, split creative drafting into an adversarial subagent dialectic with grading sequestered strictly into the external Python suite:
+1. **The Tabletop Grounding Prosecutor (`grounding-auditor`):** Governs raw line fidelity, player agency, and distinguishes player hypotheses from GM confirmations via `source-decisions.json`.
+2. **The Campaign Arc & Macro-Lore Steward (`arc-steward`):** Governs multi-book cosmology and faction agendas under the **Negative-Only Mandate** (`DEC-010`, `DEC-025`) via `campaign/CAMPAIGN_ARC_LEDGER.md`. Never invents forward prophecies or ungrounded backstories.
+3. **The Reader Experience & Continuity Modeler (`reader-advocate`):** Models the cognitive load of a reader who has never seen the stream; enforces the **"Declared, First, and Grounded"** law for all introduced lore terms and NPCs.
+4. **The Craft & Deep-POV Dramatist (`craft-dramatist`):** Enforces Dwight Swain MRUs, windowpane styling, syntactic cadence, and voice differentiation.
+5. **The Dynamic Pre-Flight Brief:** `python sessions/_scripts/print_writers_room.py sN` synthesizes state across the 4 foundational files without creating redundant fifth JSON files.
+6. **The External Arbiter (Infallible Python Gates):** Subagents write and debate, but under no circumstances evaluate their own compliance. Pass/fail is enforced exclusively by deterministic Python scripts (`audit_arc_ledger.py`, `audit_reader_context.py`, `verify_parity.py`, `audit_semantic_grounding.py`, `verify_intent_parity.py`, `critique_prose.py`, `test_harness.py`).
+
+---
+
 ## 5. Verification Suite Gates
 
 Before finalizing any session novelization or storyboard:
-1. `python sessions/_scripts/verify_manifest.py sN` (100% Monotonic Line Coverage & Sub-165 line block sizing)
-2. `python sessions/_scripts/verify_parity.py sN` (100% Dialogue Ledger & Spans Fidelity, Canon Lore Guardrail)
-3. `python sessions/_scripts/verify_intent_parity.py sN` (Double-Blind Intent Parity & Agency Guards)
-4. `python .agents/skills/novel-critic/scripts/critique_prose.py sN` (Prose telemetry, zero Earth-leaks, talking heads scan, filter words & cadence)
-5. `python novel/generate_epub.py` (Clean EPUB compilation)
-6. `python sessions/_scripts/run_publishing_pipeline.py sN` (Dual-Track Scorecard & Creative Liberty Ledger)
+1. `python sessions/_scripts/audit_arc_ledger.py` (100% Provenance Citation Grounding)
+2. `python sessions/_scripts/audit_reader_context.py sN` (Declared, First, and Grounded Invariants)
+3. `python sessions/_scripts/verify_manifest.py sN` (100% Monotonic Line Coverage & Sub-165 line block sizing)
+4. `python sessions/_scripts/verify_parity.py sN` (100% Dialogue Ledger & Spans Fidelity, Canon Lore Guardrail)
+5. `python sessions/_scripts/verify_intent_parity.py sN` (Double-Blind Intent Parity & Agency Guards)
+6. `python .agents/skills/novel-critic/scripts/critique_prose.py sN` (Prose telemetry, zero Earth-leaks, talking heads scan, filter words & cadence)
+7. `python novel/generate_epub.py` (Clean EPUB compilation)
+8. `python sessions/_scripts/run_publishing_pipeline.py sN` (Dual-Track Scorecard & Creative Liberty Ledger)
 
 ---
 
@@ -109,7 +123,7 @@ Before finalizing any session novelization or storyboard:
 
 Whenever discussing, auditing, refactoring, or evaluating the publishing pipeline, publishing scripts, verification gates, or dual tracks:
 1. **Mandatory Skill Activation:** Consult `.agents/skills/pipeline-steward/SKILL.md`.
-2. **Consult Established Records First:** Read `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md` and `docs/pipeline_architecture.md` before responding. Anchor every discussion to the existing 15+ editions, 20 historical Failure Points (`FP-01` to `FP-20`), and established decision records (`DEC-001` to `DEC-020`).
+2. **Consult Established Records First:** Read `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md` and `docs/pipeline_architecture.md` before responding. Anchor every discussion to the existing 15+ editions, 20 historical Failure Points (`FP-01` to `FP-20`), and established decision records (`DEC-001` to `DEC-025`).
 3. **Strict Ban on Sycophancy & False Novelty:** Never react with empty praise (*"What a wonderful idea! Why didn't I think of that?"*) to established pipeline mechanics. Treat user prompts as critical signals on whether the architecture is being upheld, whether gates are slipping into rubber-stamping, or whether an existing compromise needs re-evaluation.
 4. **Continuous Decision Logging:** Any agreed structural change or newly discovered trade-off must be logged directly into `PIPELINE_DECISION_LEDGER.md`.
 

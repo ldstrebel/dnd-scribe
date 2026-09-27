@@ -21,6 +21,7 @@
       "mode": "table",
       "function": "unplayed cliffhanger",
       "canon": "established",
+      "risk": "gm_confirmation",
       "destination": "render",
       "context": [0, 0],
       "reason": "The GM ends before initiative is played; no PC can be assigned an attack, escape, or decision in this session."
@@ -31,6 +32,7 @@
       "mode": "table",
       "function": "collaborative lore proposal",
       "canon": "proposed",
+      "risk": "player_hypothesis",
       "representation": "tentative",
       "destination": "render",
       "context": [0, 0],
