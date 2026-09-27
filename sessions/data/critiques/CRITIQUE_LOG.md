@@ -6,6 +6,19 @@ This log tracks all community, player, and editor critique payloads ingested fro
 
 ## Ingested PR Feedback Records
 
+### 🧾 PR Record #007: `uneraseable-s5-strebs-106695` (GitHub PR #33)
+- **Branch:** `critique/uneraseable-s5-strebs-106695` (PR #33)
+- **Session:** `s5` (*The Forgotten Trail & The Mad Doctor's Lecture*)
+- **Reviewer:** `Strebs`
+- **Payload File:** [`sessions/data/critiques/uneraseable-s5-strebs-106695.json`](file:///d:/Code/dnd-scribe/sessions/data/critiques/uneraseable-s5-strebs-106695.json)
+- **Response File:** [`sessions/data/critiques/s5-pr-33-feedback-response.md`](file:///d:/Code/dnd-scribe/sessions/data/critiques/s5-pr-33-feedback-response.md)
+- **Post-Mortem File:** [`sessions/data/critiques/POSTMORTEM_PR33_PIPELINE_LEARNINGS.md`](file:///d:/Code/dnd-scribe/sessions/data/critiques/POSTMORTEM_PR33_PIPELINE_LEARNINGS.md)
+- **Export Timestamp:** `2026-09-26T13:25:06.695Z`
+- **Status:** `[INGESTED, ACCEPTED & CLOSED]`
+- **Summary:** 20 critical authorial, attribution, and staging feedback items addressing character intent restoration (Pierre's aesthetic snobbery vs. synthetic heist competency), ruthless physical action staging (Dravin seizing Alfie without polite consent), causal chronology reordering (climax breach vs. vision trigger), and markdown syntax eradication.
+
+---
+
 ### 🧾 PR Record #006: `editorial-s5-candidate-audit`
 - **Branch:** `main` (Audits `c5e088c` & `1b5a5b6`)
 - **Session:** `s5` (*The Forgotten Trail & The Mad Doctor's Lecture*)
@@ -45,6 +58,21 @@ This log tracks all community, player, and editor critique payloads ingested fro
 | Block ID | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `uneraseable_s03_b088` (now `b092`) | Pierre -> Museum Attendant (`attendant`) | Tone / Speaker Attribution | *"why is this all showing up as Pierre?"* | **`[APPLIED]`** | Spoken line by senior museum curator (*"It is the premier history institution in the country, young man, not chewing gum!"*, L1633) was previously colored as Pierre. Attributed to Museum Attendant (`attendant`) with distinct NPC coloring and voice routing. |
+
+### 🧾 PR Record #005: `uneraseable-s5-adversarial-audit`
+- **Session:** `s5` (*The Forgotten Trail & The Mad Doctor's Lecture*)
+- **Reviewer:** Upstream Adversarial Audit (`c5e088c` & `1b5a5b65`)
+- **Status:** `[RESOLVED, HARDENED & APPLIED]`
+- **Verification Gates:** `verify_parity.py [PASS]`, `macro_auditor.py [PASS]`, `critique_prose.py [PASS]`, `verify_manifest.py [PASS]`, `generate_epub.py [PASS]`
+
+#### 📝 Item-by-Item Review & Justification Ledger
+
+| Block / Scene | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `s5-scene-01` (`b008`) | Pierre | Dialogue Provenance / Hallucination | *"A delightful thought over breakfast, Professor"* | **`[APPLIED - PURGED]`** | Pierre never spoke this line in the raw transcript. Purged fabricated quote and replaced with staged narrator action. Added permanent Zero Unanchored Dialogue Quotes gate to `verify_parity.py`. |
+| `s5-scene-09` (`b194`) | Protester | Unanchored Spoken Dialogue | *"This guy gets it!"* | **`[APPLIED - ANCHORED]`** | Anchored spoken quote to `L1196:protester` voiced by GM Luke Foreman at the table. Added `1196` to rendered ledger and session config. |
+| `s5-scene-08` | Alfie | Character Voice / Pronouns | Male pronouns used for Alfie | **`[APPLIED - CORRECTED]`** | Corrected all green room pronouns from he/him back to canonical female (she/her). |
+| `s5-scene-01` to `10` | All | Pacing & Lenses | *"Missing Cinematic Cut"* | **`[APPLIED - DELIVERED]`** | Authored 10 authorial cinematic cut files in `blocks_authorial/s5-scene-01-alt.md` through `10-alt.md`. Added 108 cinematic blocks to `s5-manifest-v2.json`, passing all Schema 2.0 invariants. |
 
 ---
 

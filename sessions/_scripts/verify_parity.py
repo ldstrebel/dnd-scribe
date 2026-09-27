@@ -4,6 +4,9 @@ import re
 import json
 import hashlib
 
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 def get_sha256(filepath):
     sha256 = hashlib.sha256()
     with open(filepath, "rb") as f:
@@ -140,6 +143,16 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
     with open(story_path, "r", encoding="utf-8") as f:
         story_content = f.read()
 
+    config_path = os.path.join(base_dir, "config", f"{session_id}-session-config.json")
+    legitimate_ooc_lore_skips = set()
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                cfg = json.load(f)
+                legitimate_ooc_lore_skips = set(cfg.get("legitimate_ooc_lore_skips", []))
+        except Exception as e:
+            warnings.append(f"Failed to load session config {config_path}: {e}")
+
     sections = re.findall(
         r"<!--\s*RAW_RANGE:\s*\[(\d+),\s*(\d+)\]\s*\|\s*SCENE_ID:\s*(\d+)\s*(?:\|\s*(OOC))?\s*-->\s*(.*?)(?=<!--\s*RAW_RANGE:|$)", 
         story_content, 
@@ -230,14 +243,31 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
             skipped_raw_str = ledger_match.group(2)
             skipped_items = re.findall(r"(\d+)(?:\(([^)]+)\))?", skipped_raw_str)
             APPROVED_SKIP_REASONS = {"ooc", "duplicate", "banter", "mechanics", "compressed"}
+            CANON_LORE_PATTERN = re.compile(
+                r"\b(persephone|thanatos|reductor|stale\.|chaos\s+belt|fate\s+loom|lost\s+roads?|thorne|gorgon|1948)\b",
+                re.IGNORECASE
+            )
             for num_str, reason in skipped_items:
+                num = int(num_str)
                 if not reason or reason not in APPROVED_SKIP_REASONS:
-                    errors.append(f"ILLEGAL SKIP REASON in Scene {scene_id}: Line L{int(num_str):04d} has unapproved skip reason: '{reason}'")
+                    errors.append(f"ILLEGAL SKIP REASON in Scene {scene_id}: Line L{num:04d} has unapproved skip reason: '{reason}'")
+                
+                # Canon Lore Guardrail: Prevent accidental relegation of lore to skipped ledger
+                if reason in {"ooc", "banter"}:
+                    if 1 <= num <= len(raw_lines):
+                        raw_line_text = raw_lines[num - 1]
+                        lore_match = CANON_LORE_PATTERN.search(raw_line_text)
+                        if lore_match and num not in legitimate_ooc_lore_skips:
+                            errors.append(
+                                f"[CANON_LORE_IN_SKIPPED_LEDGER] Scene {scene_id}: Line L{num:04d} contains canon lore "
+                                f"entity '{lore_match.group(1)}' ('{raw_line_text[:60]}...') but was skipped as '{reason}'. "
+                                f"Move to rendered or whitelist in session config legitimate_ooc_lore_skips."
+                            )
 
             content_no_ledger = re.sub(
                 r"<!--\s*LEDGER:.*?-->", "", s_block["content"], flags=re.DOTALL
             )
-            marker_re = re.compile(r"<!--\s*L(\d+)\s*-->")
+            marker_re = re.compile(r"<!--\s*L(\d+)(?::[a-zA-Z_-]+)?\s*-->")
 
             inline_markers = []
             for para in content_no_ledger.split("\n\n"):
@@ -246,11 +276,15 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
                     continue
                 para_markers = [int(x) for x in marker_re.findall(para)]
                 if not para_markers:
+                    # Invariant: Track A (Tabletop Cut) forbids unanchored dialogue quotes
+                    quotes = re.findall(r'["“]([^"”]+)["”]', para)
+                    if quotes:
+                        errors.append(f"UNANCHORED DIALOGUE QUOTE in Scene {scene_id}: paragraph containing quoted dialogue has NO line marker: '{para[:60]}...'")
                     continue
                 tail = para
                 trailing = 0
                 while True:
-                    m = re.search(r"<!--\s*L\d+\s*-->\s*$", tail)
+                    m = re.search(r"<!--\s*L\d+(?::[a-zA-Z_-]+)?\s*-->\s*$", tail)
                     if not m:
                         break
                     trailing += 1

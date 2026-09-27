@@ -100,8 +100,15 @@
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 1149,
+        "words": 1148,
         "sharePct": 22.3
+      },
+      {
+        "id": "mike",
+        "name": "Mike",
+        "color": "#64748b",
+        "words": 1000,
+        "sharePct": 19.4
       },
       {
         "id": "narrator",
@@ -111,18 +118,11 @@
         "sharePct": 19.3
       },
       {
-        "id": "mike",
-        "name": "Mike",
-        "color": "#64748b",
-        "words": 971,
-        "sharePct": 18.8
-      },
-      {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 520,
-        "sharePct": 10.1
+        "words": 488,
+        "sharePct": 9.5
       },
       {
         "id": "eusacles",
@@ -135,15 +135,8 @@
         "id": "theodore",
         "name": "Theodore (Teddy)",
         "color": "#d97706",
-        "words": 333,
-        "sharePct": 6.5
-      },
-      {
-        "id": "naomi",
-        "name": "Naomi",
-        "color": "#ec4899",
-        "words": 246,
-        "sharePct": 4.8
+        "words": 365,
+        "sharePct": 7.1
       },
       {
         "id": "alfie",
@@ -151,6 +144,13 @@
         "color": "#10b981",
         "words": 221,
         "sharePct": 4.3
+      },
+      {
+        "id": "naomi",
+        "name": "Naomi",
+        "color": "#ec4899",
+        "words": 218,
+        "sharePct": 4.2
       },
       {
         "id": "clerk",
@@ -194,6 +194,9 @@
       "badge": "Autonomous Editorial Lead",
       "grade": "A-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
+      "tomatometer": 92,
+      "popcornmeter": 96,
+      "campaignArcImpact": "The Convergence: Fleeing into the Appalachian foothills, the party realizes their survival depends on mutual reliance, discovering that the anomalies are not accidental.",
       "technicalCompliance": {
         "earthLeaks": 0,
         "dialogueStutters": 0,
@@ -1608,7 +1611,7 @@
       "id": "uneraseable_s02_b053",
       "index": 53,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "pierre",
+      "speakerId": "mike",
       "text": "Pierre asked Mike how the tiny sailor looked to him. \"Looks like a pretty haunted little doll,\" Mike admitted with a grin. \"Might make my top five craziest things.\"",
       "segments": [
         {
@@ -1622,8 +1625,8 @@
         {
           "segmentId": "uneraseable_s02_b053_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 688,
           "text": "\"Looks like a pretty haunted little doll,\""
         },
@@ -1638,8 +1641,8 @@
         {
           "segmentId": "uneraseable_s02_b053_s04",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "mike",
+          "speakerName": "Mike",
           "sourceLine": 688,
           "text": "\"Might make my top five craziest things.\""
         }
@@ -1707,7 +1710,7 @@
       "id": "uneraseable_s02_b056",
       "index": 56,
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
-      "speakerId": "dravin",
+      "speakerId": "theodore",
       "text": "Dravin asked if people ever leave. \"Of course,\" Teddy replied. \"There are ways in and out that revolve around classic Greek mythology. Greek gods exist, just as they are taught in school.\"",
       "segments": [
         {
@@ -1721,8 +1724,8 @@
         {
           "segmentId": "uneraseable_s02_b056_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 715,
           "text": "\"Of course,\""
         },
@@ -1737,8 +1740,8 @@
         {
           "segmentId": "uneraseable_s02_b056_s04",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
           "sourceLine": 715,
           "text": "\"There are ways in and out that revolve around classic Greek mythology. Greek gods exist, just as they are taught in school.\""
         }
@@ -4018,7 +4021,7 @@
       "id": "uneraseable_s02_b131",
       "index": 131,
       "scene": "CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD",
-      "speakerId": "naomi",
+      "speakerId": "pierre",
       "text": "Pierre pulled the three ancient scrolls from his rucksack, showing them to Teddy. \"These were on the shelves of the Fates. Naomi said they might guide our path.\"",
       "segments": [
         {
@@ -4032,8 +4035,8 @@
         {
           "segmentId": "uneraseable_s02_b131_s02",
           "type": "dialogue",
-          "speakerId": "naomi",
-          "speakerName": "Naomi",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
           "sourceLine": 1193,
           "text": "\"These were on the shelves of the Fates. Naomi said they might guide our path.\""
         }

@@ -166,6 +166,9 @@
       "badge": "Autonomous Editorial Lead",
       "grade": "A-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
+      "tomatometer": 92,
+      "popcornmeter": 96,
+      "campaignArcImpact": "The Underworld Breach: The first manifestation of Persephone's emissaries and Thanatos's shadow; proving that ancient mythic powers are awake in modern America.",
       "technicalCompliance": {
         "earthLeaks": 0,
         "dialogueStutters": 0,

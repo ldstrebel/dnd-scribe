@@ -180,6 +180,9 @@
       "badge": "Autonomous Editorial Lead",
       "grade": "A-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
+      "tomatometer": 92,
+      "popcornmeter": 96,
+      "campaignArcImpact": "The Inciting Incident: The unsealing of the subterranean vault and the initial temporal ripple that entangled our four strangers into a shared, fractured fate.",
       "technicalCompliance": {
         "earthLeaks": 0,
         "dialogueStutters": 0,

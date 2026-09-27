@@ -1,0 +1,103 @@
+{
+  "session_id": "s5",
+  "title": "The Forgotten Trail & The Mad Doctor's Lecture - Intent Parity Contract",
+  "rules": [
+    {
+      "id": "SYNTHETIC_HEIST_COLLUSION",
+      "description": "Pierre written as a calculating heist accomplice rather than an independent aesthetic snob",
+      "forbidden_prose_patterns": [
+        "\\bleave\\s+the\\s+custodian\\s+to\\s+french\\s+diplomacy\\b",
+        "\\bcoordinated\\s+distraction\\b",
+        "\\bpierre\\s+nodded\\s+conspiratorially\\b",
+        "\\bdravin\\s+gave\\s+pierre\\s+a\\s+(?:subtle\\s+)?(?:patrician\\s+)?wink\\b"
+      ],
+      "fail_message": "Character intent distorted into synthetic heist operator. In transcript, Pierre is throwing an authentic Parisian fit over classical masonry which Dravin merely opportunistically exploits."
+    },
+    {
+      "id": "PIERRE_MASONRY_GROUNDING",
+      "description": "Pierre's distraction must be grounded in genuine artistic indignation over classical masonry",
+      "target_scenes": ["scene-06"],
+      "required_intent_grounding": [
+        "\\b(sculptur|masterpiece|statue|marble|barbar|sandpaper|ready|trash|garbage|poop|filth)\\b"
+      ],
+      "fail_message": "Missing artistic indignation grounding in Pierre's distraction. Must reflect his aesthetic fit over raw stonecraft/marble."
+    },
+    {
+      "id": "SANITIZED_CONSENT",
+      "description": "Unilateral physical force softened into polite mutual consent",
+      "target_scenes": ["scene-10"],
+      "forbidden_prose_patterns": [
+        "\\bdravin\\s+glanced\\s+tenderly\\s+at\\s+alfie\\b",
+        "\\balfie\\s+nodded\\s+solemnly\\s+and\\s+touched\\b",
+        "\\bdravin\\s+asked\\s+permission\\b"
+      ],
+      "required_force_tokens": [
+        "\\b(seiz|grab|slam|smush|plung|scoop|groan|kick|waist)\\b"
+      ],
+      "fail_message": "Action sanitized. Dravin unilaterally bodily seized Alfie and smushed him into the binder while Alfie protested ('Not again! Not me again!')."
+    },
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology drifted from canonical name",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+had\\s+arrived\\b",
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "required_replacement": "The Reductors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+    },
+    {
+      "id": "ANACHRONISTIC_TIN_FOIL_PROP",
+      "description": "Tin foil fedoras described as cloth fedoras lined with foil",
+      "target_scenes": ["scene-06", "scene-07"],
+      "forbidden_prose_patterns": [
+        "\\bfedoras\\s+lined\\s+with\\s+(?:kitchen\\s+)?foil\\b",
+        "\\bkitchen\\s+foil\\s+fedora\\b"
+      ],
+      "required_prop_tokens": [
+        "\\b(?:tin-foil\\s+fedora|folded\\s+(?:entirely\\s+out\\s+of\\s+)?(?:heavy-gauge\\s+)?tin\\s+foil)\\b"
+      ],
+      "fail_message": "Fedora described as lined with foil. The demonstrators wore hats folded entirely out of tin foil (which Pierre admired as nicely shaped)."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "The Forgotten Trail & Cabin Morning",
+      "liberty": "Streamlined casual table banter by 37%; heightened tactile sensory grounding of Pierre's rum crepes and Dravin's necrotic threshold notes.",
+      "impact": "Eliminated 236 words of mechanical table preamble to establish immediate atmospheric momentum."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "The University Campus & Quadrangle",
+      "liberty": "Condensed campus transit logistics from 913 words to 370 words; replaced wandering player navigation with focused environmental awe.",
+      "impact": "Accelerated arrival at the lecture hall by 59%."
+    },
+    {
+      "scene": "scene-06",
+      "scope": "Auditorium Lobby & Tin-Foil Demonstrators",
+      "liberty": "Distilled circular table questions into sharp ideological fencing; sharpened Pierre's artistic outrage over the crude limestone bust.",
+      "impact": "Tightened a 1,200-word table debate into a high-stakes 389-word scene."
+    },
+    {
+      "scene": "scene-08",
+      "scope": "Auditorium Lecture Dynamics",
+      "liberty": "Replaced player seat-scouting logistics with dramatic focalization on Dr. Thorne's altered clinical slides.",
+      "impact": "Condensed scene from 1,271 words to 377 words (70% compression)."
+    },
+    {
+      "scene": "scene-10",
+      "scope": "Green Room Infiltration & Reductor Ambush",
+      "liberty": "Compacted multi-turn physical binder struggle into a single continuous action climax; heightened satyr combat threat while strictly preserving Dravin's unilateral force.",
+      "impact": "Delivered 57% faster action climax without sanitizing raw table force dynamics."
+    }
+  ]
+}

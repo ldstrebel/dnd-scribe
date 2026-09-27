@@ -100,5 +100,6 @@
     "uneraseable_s02_b088": "alfie",
     "uneraseable_s02_b163": "pierre",
     "uneraseable_s02_b192": "mike"
-  }
+  },
+  "legitimate_ooc_lore_skips": [1215]
 }

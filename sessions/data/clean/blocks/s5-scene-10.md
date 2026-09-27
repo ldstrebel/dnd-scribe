@@ -16,11 +16,17 @@ With a muffled *click*, the tumbler turned. Dravin threw back the heavy leather 
 
 Inside lay a thick, buckram-bound medical binder, its corners worn down to raw gray cardboard and its spine cracked from relentless handling. The air above the open case hummed with a dizzying ozone chill—the unmistakable, reality-bending resonance of an active Fragment.
 
-Dravin glanced down at Alfie. Alfie looked back up, his carved wooden jaw tightening beneath his canvas ballcap.
+Without a second's hesitation, Dravin reached down and bodily seized Alfie around his waist.
 
-"Not again," Alfie whispered mournfully, reaching out his tiny, salt-bleached wooden hand. "Not me again." <!-- L1219 -->
+Mid-air, Alfie's little carved legs kicked frantically, his painted eyes rolling skyward in despair.
 
-The moment Alfie's driftwood fingertips brushed the cracked leather cover, the universe tore open.
+"Not again," Alfie groaned mournfully. "Not me again." <!-- L1219 -->
+
+Before Alfie could twist his driftwood limbs free, Dravin slammed the protesting doll face-first into the cold buckram binder.
+
+* * *
+
+The moment Alfie struck the leather, the universe tore open.
 
 The auditorium did not fade; it shattered. The overhead chandeliers flared in a violent strobe of violet lightning, and instantly the four companions were ripped from the hall and plunged into a claustrophobic subterranean darkness.
 
@@ -32,19 +38,21 @@ Row upon row of iron cots stretched into the gloom. On each cot lay an unrespons
 
 Suddenly, the vivid colors bled away into stark, ink-stained monochrome. Reality thinned to the consistency of parchment. Across the center of their collective vision, an ink-stained fountain pen scribbled across the yellowed page of the very binder they held:
 
-***STABLE.***
+STABLE.
 
 Then, as if caught in a temporal rewrite, an unseen hand dragged a smear of wet black ink across the letters, twisting the ink into a horrifying new word:
 
-***STALE.*** <!-- L1232 -->
+STALE. <!-- L1232 -->
 
 The vision convulsed, violently snapping backward to an earlier hour. The basement was cleaner now, the dirt floor swept and bare. The excavated ward of comatose patients did not exist—there was only solid, unbroken foundation stone where the horror had been. The younger doctor stood before his laboratory bench, staring at a beaker of amber liquid with mounting revulsion. With a guttural cry of anguish, he hurled the glass against the masonry wall. It shattered in a burst of amber shards. In a blind frenzy, he swept both arms across his bench, sending burners, test tubes, and research notes crashing into oblivion, desperate to destroy what he had discovered before it could ever be buried. <!-- L1233 -->
 
 *CRACK.*
 
+* * *
+
 Reality snapped back with the force of a physical blow.
 
-Dravin, Pierre, Eusacles, and Alfie gasped as the bright light of the lecture hall flooded their eyes once more. But the hall was no longer in quiet academic assembly.
+Dravin, Pierre, Eusacles, and Alfie gasped as the bright light of the lecture hall flooded their senses once more. But the hall was no longer in quiet academic assembly.
 
 A deafening, high-pitched klaxon was screaming from the ceiling. Emergency strobes pulsed in blood-red arcs across the vaulted rafters. Two hundred panicked undergraduates and professors were knocking over chairs, screaming, and stampeding toward the side exits in absolute bedlam.
 
@@ -52,11 +60,11 @@ In the second row, a tall observer who had triggered the alarm stood motionless 
 
 Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. <!-- L1242 -->
 
-The Margin had arrived for the binder.
+The Reductors had arrived for the binder. Satyrs—or worse, satans.
 
 Alfie's carved wooden head swiveled slowly on its peg, his painted eyes wide with horror as he pointed a trembling driftwood arm toward the double doors at the rear of the hall.
 
-"Sorry, Alfie," Dravin breathed, scooping the wooden duelist and the heavy anomaly binder into his arms and rising to his feet as the cloaked beasts surged forward. <!-- L1256 -->
+"Sorry, Alfie," Dravin whispered, scooping the dazed wooden duelist and the heavy anomaly binder into his arms as the cloaked beasts surged forward. <!-- L1256 -->
 
 Pierre drew his bronze-tipped javelin from beneath his overcoat, his brass spectacles reflecting the flashing red emergency beacons. Eusacles stepped in front of the stage stairs, rolling his heavy iron morningstar in one leather-gloved fist, a grim grin spreading beneath his dark sunglasses.
 

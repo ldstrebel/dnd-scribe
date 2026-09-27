@@ -11,19 +11,23 @@ Eusacles eyed the skillet with famished desperation, wiping grease from his scar
 
 Eusacles took a massive, unceremonious bite, his eyebrows shooting up above his aviator frames. "Damn. That is a straight-up pirate crepe." <!-- L0420 -->
 
-At the far edge of the pine bench, away from the hearthsmoke, Alfie sat alone. Her small wooden fingers suddenly jerked, seized by a sharp, electric tremor that traveled up the grain of her driftwood arm. The invisible Fate thread that bound her to the loom pulsed violently beneath her bark-like skin. <!-- L0422 --> <!-- L0424 -->
+At the far edge of the pine bench, away from the hearthsmoke, Alfie sat alone. Her small wooden fingers suddenly jerked, seized by a sharp, electric tremor that traveled up the grain of her driftwood arm. The invisible Fate thread that bound her to the loom pulsed violently beneath her bark-like skin. <!-- L0422 -->
 
-Without conscious thought, her right hand drew her miniature whittling knife. The steel needle blade flickered in the firelight. With swift, biting strokes, she began carving into the seasoned timber of her forearm, shaving away ribbons of gray driftwood. Shimmering amber light welled from the fresh gouges, coalescing into the sharp, stylized runes of a spiked leather cincher. <!-- L0426 -->
+Her hand reflexively snapped toward the table, fingers closing around her whittling knife and spinning the needle blade with sudden, uncanny dexterity. The steel hovered directly over the seasoned timber of her left forearm, vibrating with latent arcane resonance. Her birthright offered a permanent Wordcraft inscription that would not drain her personal reserves. <!-- L0424 --> <!-- L0426 -->
 
-"What do you reckon would be most useful, mates?" Alfie asked, holding up her glowing timber arm for the table to inspect. <!-- L0429 -->
+"What do you reckon would be most useful, mates?" Alfie asked, knife poised above her wood as she looked across the table. <!-- L0429:alfie -->
 
-"What are you doing to your arm, little mate?" Eusacles asked around a mouthful of crepe, leaning over the table. <!-- L0435 -->
+Eusacles glanced up from his plate, leaning over the table. "What are you doing with the knife, little mate?" <!-- L0435:eusacles -->
 
-Pierre adjusted his spectacles, inspecting the glowing brand with European curiosity. "A belt of pure chaos? Does it summon random French baguettes, or something considerably more violent?" <!-- L0442 -->
+Pierre adjusted his spectacles, his eyes lighting up with speculative mischief. "I like the idea of Alfie with a Chaos Belt. Does it summon random French baguettes, or something considerably more violent?" <!-- L0442 -->
 
-Dravin set down his teacup, smoothing the rumpled tweed of his sleeve as he adjusted his wire spectacles. "Classical historiography records several similar threshold talismans. A matrix of unpredictable tools—some miraculous, others disastrously absurd." <!-- L0444 -->
+Dravin set down his teacup, nodding thoughtfully. "Classical historiography records several threshold talismans. A matrix of unpredictable tools—some miraculous, others disastrously absurd. A Chaos Belt could be remarkably potent." <!-- L0444 -->
 
-Alfie blew away a curl of wood dust, admiring the sharp runic buckle etched deep into her wood. "A bit of Wordcraft birthright," she said, her Cockney voice rasping with pride. "Changed *Chaos Bolt* to *Chaos Belt*. Carved it right into my timber so I don't burn an honest reserve of spark when things go sideways. I picture reaching down in the middle of a brawl, pulling out whatever strange device the loom feels like tossing me." <!-- L0446 --> <!-- L0448 --> <!-- L0457 --> <!-- L0478 --> <!-- L0487 -->
+"I think we got to go Chaos Belt," Alfie decided, a sharp grin carving across her wooden features. "Changed *Chaos Bolt* to *Chaos Belt*. Carved right into my timber so I don't burn an honest reserve of spark when things go sideways." <!-- L0446 --> <!-- L0448 -->
+
+"Chaos Belt would be pretty sick if I could just reach down in the middle of a brawl and pull out whatever strange device the loom feels like tossing me," Alfie added, picturing the artifact buckle. <!-- L0457 --> <!-- L0478 -->
+
+With swift, biting strokes, her needle knife bit into the grain of her forearm, shaving away curls of gray driftwood. Shimmering amber light welled from the fresh gouges, etching the sharp runic letters *CHAOS BELT* deep into her bark, glowing with vibrant empowerment. <!-- L0487 -->
 
 "An admirable adaptation, Alfie," Dravin concluded with quiet scholarly satisfaction, tapping his leather notebook. <!-- L0500 --> <!-- L0502 --> <!-- L0514 -->
 

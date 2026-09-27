@@ -6,11 +6,11 @@ Beyond the woodline of the Margin, the narrow path plunged into a dense, ancient
 
 Professor Dravin led the file, his bronze hoplite shield strapped across his left forearm, his wire spectacles catching faint slivers of mist as he navigated the moss-choked switchbacks. <!-- L0548 -->
 
-"All in favor of the Lost Roads," Dravin murmured as he checked their heading, reminding the others of their unanimous decision before the descent. "I will do my best to navigate us through." He adjusted his grip on the heavy bronze shield. <!-- L0550 --> <!-- L0558 -->
+"All in favor of the Lost Roads," Dravin murmured as he checked their heading, reminding the others of their unanimous decision before the descent. "I will do my best to navigate us through." He adjusted his grip on the heavy bronze shield. <!-- L0550:dravin --> <!-- L0558 -->
 
-"I'm telling you, these roads are a disaster," Eusacles muttered from behind him, ducking beneath a low-hanging pine bough. He kept a wary hand resting on the five-dollar watch-chain looped through his denim belt, his dark aviators reflecting the twisting gloom. "We're going to wander in circles until next Tuesday." <!-- L0566 --> <!-- L0567 -->
+"I'm telling you, these roads are a disaster," Eusacles muttered from behind him, ducking beneath a low-hanging pine bough. He kept a wary hand resting on the five-dollar watch-chain looped through his denim belt, his dark aviators reflecting the twisting gloom. "We're going to wander in circles until next Tuesday." <!-- L0566:eusacles --> <!-- L0567 -->
 
-Dravin urged patience, lifting a heavy curtain of wild vines with the rim of his shield as the path climbed deeper into the overgrown switchbacks. <!-- L0574 -->
+Dravin urged patience, using the edge of his bronze shield to brush back a tangled curtain of damp briars as the overgrown path climbed deeper into the switchbacks. The ground shifted underfoot—dry Appalachian shale giving way to ancient, unrotted hemlock needles and strange, chronally displaced flora. <!-- L0574 -->
 
 The brush parted suddenly into a small, silent clearing. Kneeling on a flat mossy boulder at the center of the path was a small boy in patched dungarees. His form was pale, translucent, shimmering like heat off asphalt. He held out two cupped, empty hands, looking up with wide, hopeful eyes. <!-- L0580 -->
 
@@ -40,18 +40,18 @@ He dropped his hands to his sides. Slowly, silently, the boy drifted backward in
 
 Before they could take ten paces, the canopy above them groaned. *CRACK.* A splintering boom echoed through the timber, followed by a thunderous, invisible impact that shook the roots beneath their boots. *THUD.* Another deafening shockwave slammed into the earth twenty yards to their flank, snapping branches that were not there. <!-- L0614 --> <!-- L0615 -->
 
-Dravin drew his tarnished silver bell, his tweed coat snapping in the sudden phantom downdraft. "Form a circle! Back to back, complete perimeter!" <!-- L0621 -->
+Dravin drew his tarnished silver bell, planting his boots firmly on the shaking moss. "Right, let's all stand in a circle so that we can all see three-hundred-and-sixty degrees around us!" <!-- L0621:dravin -->
 
-Alfie spun on Dravin’s shoulder, needle rapier leveled outward. Eusacles planted his heavy work boots, slipping his watch-chain morningstar into his palm as Pierre covered the rear with his bronze spearpoint. They stood locked in a three-hundred-and-sixty-degree defensive ward, waiting for the invisible giant to strike. <!-- L0622 --> <!-- L0623 --> <!-- L0626 -->
+Alfie scrambled to her feet on Dravin’s shoulder, leveling her needle rapier into the gloom. "Back to back to back to back!" <!-- L0622:alfie -->
 
-The phantom footsteps shook the soil one final time—and abruptly ceased. The wind died. <!-- L0627 -->
+"Well, you're backing like to shin, but yeah," Eusacles muttered, planting his work boots and readying his watch-chain. <!-- L0623:eusacles -->
 
-"Well," Dravin said quietly, exhaling a slow plume of breath into the chill. "That was remarkably prompt. Forward." <!-- L0628 -->
+"Back to back to angled to back!" Alfie corrected, planting her tiny feet against Dravin's tweed collar. <!-- L0626:alfie -->
+
+The phantom footsteps shook the soil one final time—and abruptly ceased. The wind died. Complete, dead silence fell over the ridge. <!-- L0627 -->
+
+Dravin lowered his bell, glancing dryly around the empty clearing. "Well, that was easy, guys. Let's go." <!-- L0628:dravin -->
 
 The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — UNIVERSITY OF UNIVERSITY POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
-
-Eusacles squinted through his aviator sunglasses at the painted seal above the warning. "University of University Police? What kind of name is that? University Omega, or Omega University?" <!-- L0635 --> <!-- L0639 -->
-
-"University," Alfie muttered from Dravin's shoulder, blinking across the grounds. "University." <!-- L0641 --> <!-- L0643 -->
 
 Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the collegiate quadrangle. <!-- L0638 -->

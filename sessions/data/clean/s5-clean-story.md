@@ -1,12 +1,3 @@
----
-title: "THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE"
-author: "The Margin Table"
-campaign: "The Margin (GM: Luke Foreman)"
-genre: "Urban Fantasy, Mythic Fantasy, Greek Mythology, Tabletop RPG Novelization"
----
-
-# THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE
-
 <!-- RAW_RANGE: [1, 120] | SCENE_ID: 1 -->
 ## CHAPTER 29: PARCHMENT, CREPES, AND THE GOD OF TRANSIT
 
@@ -22,9 +13,9 @@ Pierre did not look up from the cast-iron stove, though his wire spectacles slip
 
 At the far end of the long pine table, Professor Edward Dravin adjusted his rumpled tweed jacket and cleared his throat. Spread before him were yellowed ledger sheets from the Margin’s historical archives, flanked by the tarnished silver bell from his pocket and the heavy bronze rim of the hoplite shield recovered from the Raleigh museum. His fingers traced the ancient hammered rim, checking the balance of the classical relic against notes of threshold magic. <!-- L0108 -->
 
-"The provenance of classical relics requires patience, Pierre," Dravin remarked mildly, dipping an ink pen into a small glass well. He tapped his notebook, where margin annotations detailed necrotic threshold variations. "If one alters the phonetic harmonic from *spare* to *spore*, the necrotic life-tether reverses. Any hostile closing within range of a dying target would find the breath caught in their throat by drifting fungal rot." <!-- L0116 --> <!-- L0117 --> <!-- L0118 --> <!-- L0120 -->
+"The provenance of classical relics requires patience, Pierre," Dravin remarked mildly, dipping an ink pen into a small glass well. He tapped his notebook, where margin annotations detailed necrotic threshold variations. "If one alters the phonetic harmonic from *spare* to *spore*, the necrotic life-tether reverses. Any hostile closing within range of a dying target would find the breath caught in their throat by drifting fungal rot." <!-- L0116 --> <!-- L0117 --> <!-- L0118 --> <!-- L0120:dravin -->
 
-"A delightful thought over breakfast, Professor," Pierre murmured, sliding a finished rum crepe onto a tin plate and setting it before the scholar.
+Pierre shook his head with mild amusement at the grim discourse, sliding a finished rum crepe onto a tin plate and setting it before the scholar before turning back to his skillet.
 
 <!-- LEDGER: rendered=[81, 83, 84, 86, 88, 90, 95, 100, 101, 103, 108, 116, 117, 118, 120] skipped=[1(banter), 2(banter), 3(banter), 4(banter), 5(banter), 6(banter), 7(banter), 8(banter), 9(banter), 10(banter), 11(banter), 12(banter), 13(banter), 14(banter), 15(banter), 16(banter), 17(banter), 18(banter), 19(banter), 20(banter), 21(banter), 22(banter), 23(banter), 24(banter), 25(banter), 26(banter), 27(banter), 28(banter), 29(banter), 30(banter), 31(banter), 32(banter), 33(banter), 34(banter), 35(banter), 36(banter), 37(banter), 38(banter), 39(banter), 40(banter), 41(banter), 42(banter), 43(banter), 44(banter), 45(banter), 46(banter), 47(banter), 48(banter), 49(banter), 50(banter), 51(banter), 52(banter), 53(banter), 54(banter), 55(banter), 56(banter), 57(banter), 58(banter), 59(banter), 60(banter), 61(banter), 62(banter), 63(banter), 64(banter), 65(banter), 66(banter), 67(banter), 68(banter), 69(banter), 70(banter), 71(banter), 72(banter), 73(banter), 74(banter), 75(banter), 76(banter), 77(banter), 78(banter), 79(banter), 80(ooc), 82(ooc), 85(ooc), 87(ooc), 89(ooc), 91(mechanics), 92(mechanics), 93(mechanics), 94(mechanics), 96(mechanics), 97(mechanics), 98(mechanics), 99(mechanics), 102(mechanics), 104(mechanics), 105(mechanics), 106(mechanics), 107(mechanics), 109(mechanics), 110(mechanics), 111(mechanics), 112(mechanics), 113(mechanics), 114(mechanics), 115(mechanics), 119(mechanics)] -->
 
@@ -137,19 +128,23 @@ Eusacles eyed the skillet with famished desperation, wiping grease from his scar
 
 Eusacles took a massive, unceremonious bite, his eyebrows shooting up above his aviator frames. "Damn. That is a straight-up pirate crepe." <!-- L0420 -->
 
-At the far edge of the pine bench, away from the hearthsmoke, Alfie sat alone. Her small wooden fingers suddenly jerked, seized by a sharp, electric tremor that traveled up the grain of her driftwood arm. The invisible Fate thread that bound her to the loom pulsed violently beneath her bark-like skin. <!-- L0422 --> <!-- L0424 -->
+At the far edge of the pine bench, away from the hearthsmoke, Alfie sat alone. Her small wooden fingers suddenly jerked, seized by a sharp, electric tremor that traveled up the grain of her driftwood arm. The invisible Fate thread that bound her to the loom pulsed violently beneath her bark-like skin. <!-- L0422 -->
 
-Without conscious thought, her right hand drew her miniature whittling knife. The steel needle blade flickered in the firelight. With swift, biting strokes, she began carving into the seasoned timber of her forearm, shaving away ribbons of gray driftwood. Shimmering amber light welled from the fresh gouges, coalescing into the sharp, stylized runes of a spiked leather cincher. <!-- L0426 -->
+Her hand reflexively snapped toward the table, fingers closing around her whittling knife and spinning the needle blade with sudden, uncanny dexterity. The steel hovered directly over the seasoned timber of her left forearm, vibrating with latent arcane resonance. Her birthright offered a permanent Wordcraft inscription that would not drain her personal reserves. <!-- L0424 --> <!-- L0426 -->
 
-"What do you reckon would be most useful, mates?" Alfie asked, holding up her glowing timber arm for the table to inspect. <!-- L0429 -->
+"What do you reckon would be most useful, mates?" Alfie asked, knife poised above her wood as she looked across the table. <!-- L0429:alfie -->
 
-"What are you doing to your arm, little mate?" Eusacles asked around a mouthful of crepe, leaning over the table. <!-- L0435 -->
+Eusacles glanced up from his plate, leaning over the table. "What are you doing with the knife, little mate?" <!-- L0435:eusacles -->
 
-Pierre adjusted his spectacles, inspecting the glowing brand with European curiosity. "A belt of pure chaos? Does it summon random French baguettes, or something considerably more violent?" <!-- L0442 -->
+Pierre adjusted his spectacles, his eyes lighting up with speculative mischief. "I like the idea of Alfie with a Chaos Belt. Does it summon random French baguettes, or something considerably more violent?" <!-- L0442 -->
 
-Dravin set down his teacup, smoothing the rumpled tweed of his sleeve as he adjusted his wire spectacles. "Classical historiography records several similar threshold talismans. A matrix of unpredictable tools—some miraculous, others disastrously absurd." <!-- L0444 -->
+Dravin set down his teacup, nodding thoughtfully. "Classical historiography records several threshold talismans. A matrix of unpredictable tools—some miraculous, others disastrously absurd. A Chaos Belt could be remarkably potent." <!-- L0444 -->
 
-Alfie blew away a curl of wood dust, admiring the sharp runic buckle etched deep into her wood. "A bit of Wordcraft birthright," she said, her Cockney voice rasping with pride. "Changed *Chaos Bolt* to *Chaos Belt*. Carved it right into my timber so I don't burn an honest reserve of spark when things go sideways. I picture reaching down in the middle of a brawl, pulling out whatever strange device the loom feels like tossing me." <!-- L0446 --> <!-- L0448 --> <!-- L0457 --> <!-- L0478 --> <!-- L0487 -->
+"I think we got to go Chaos Belt," Alfie decided, a sharp grin carving across her wooden features. "Changed *Chaos Bolt* to *Chaos Belt*. Carved right into my timber so I don't burn an honest reserve of spark when things go sideways." <!-- L0446 --> <!-- L0448 -->
+
+"Chaos Belt would be pretty sick if I could just reach down in the middle of a brawl and pull out whatever strange device the loom feels like tossing me," Alfie added, picturing the artifact buckle. <!-- L0457 --> <!-- L0478 -->
+
+With swift, biting strokes, her needle knife bit into the grain of her forearm, shaving away curls of gray driftwood. Shimmering amber light welled from the fresh gouges, etching the sharp runic letters *CHAOS BELT* deep into her bark, glowing with vibrant empowerment. <!-- L0487 -->
 
 "An admirable adaptation, Alfie," Dravin concluded with quiet scholarly satisfaction, tapping his leather notebook. <!-- L0500 --> <!-- L0502 --> <!-- L0514 -->
 
@@ -167,11 +162,11 @@ Beyond the woodline of the Margin, the narrow path plunged into a dense, ancient
 
 Professor Dravin led the file, his bronze hoplite shield strapped across his left forearm, his wire spectacles catching faint slivers of mist as he navigated the moss-choked switchbacks. <!-- L0548 -->
 
-"All in favor of the Lost Roads," Dravin murmured as he checked their heading, reminding the others of their unanimous decision before the descent. "I will do my best to navigate us through." He adjusted his grip on the heavy bronze shield. <!-- L0550 --> <!-- L0558 -->
+"All in favor of the Lost Roads," Dravin murmured as he checked their heading, reminding the others of their unanimous decision before the descent. "I will do my best to navigate us through." He adjusted his grip on the heavy bronze shield. <!-- L0550:dravin --> <!-- L0558 -->
 
-"I'm telling you, these roads are a disaster," Eusacles muttered from behind him, ducking beneath a low-hanging pine bough. He kept a wary hand resting on the five-dollar watch-chain looped through his denim belt, his dark aviators reflecting the twisting gloom. "We're going to wander in circles until next Tuesday." <!-- L0566 --> <!-- L0567 -->
+"I'm telling you, these roads are a disaster," Eusacles muttered from behind him, ducking beneath a low-hanging pine bough. He kept a wary hand resting on the five-dollar watch-chain looped through his denim belt, his dark aviators reflecting the twisting gloom. "We're going to wander in circles until next Tuesday." <!-- L0566:eusacles --> <!-- L0567 -->
 
-Dravin urged patience, lifting a heavy curtain of wild vines with the rim of his shield as the path climbed deeper into the overgrown switchbacks. <!-- L0574 -->
+Dravin urged patience, using the edge of his bronze shield to brush back a tangled curtain of damp briars as the overgrown path climbed deeper into the switchbacks. The ground shifted underfoot—dry Appalachian shale giving way to ancient, unrotted hemlock needles and strange, chronally displaced flora. <!-- L0574 -->
 
 The brush parted suddenly into a small, silent clearing. Kneeling on a flat mossy boulder at the center of the path was a small boy in patched dungarees. His form was pale, translucent, shimmering like heat off asphalt. He held out two cupped, empty hands, looking up with wide, hopeful eyes. <!-- L0580 -->
 
@@ -201,33 +196,33 @@ He dropped his hands to his sides. Slowly, silently, the boy drifted backward in
 
 Before they could take ten paces, the canopy above them groaned. *CRACK.* A splintering boom echoed through the timber, followed by a thunderous, invisible impact that shook the roots beneath their boots. *THUD.* Another deafening shockwave slammed into the earth twenty yards to their flank, snapping branches that were not there. <!-- L0614 --> <!-- L0615 -->
 
-Dravin drew his tarnished silver bell, his tweed coat snapping in the sudden phantom downdraft. "Form a circle! Back to back, complete perimeter!" <!-- L0621 -->
+Dravin drew his tarnished silver bell, planting his boots firmly on the shaking moss. "Right, let's all stand in a circle so that we can all see three-hundred-and-sixty degrees around us!" <!-- L0621:dravin -->
 
-Alfie spun on Dravin’s shoulder, needle rapier leveled outward. Eusacles planted his heavy work boots, slipping his watch-chain morningstar into his palm as Pierre covered the rear with his bronze spearpoint. They stood locked in a three-hundred-and-sixty-degree defensive ward, waiting for the invisible giant to strike. <!-- L0622 --> <!-- L0623 --> <!-- L0626 -->
+Alfie scrambled to her feet on Dravin’s shoulder, leveling her needle rapier into the gloom. "Back to back to back to back!" <!-- L0622:alfie -->
 
-The phantom footsteps shook the soil one final time—and abruptly ceased. The wind died. <!-- L0627 -->
+"Well, you're backing like to shin, but yeah," Eusacles muttered, planting his work boots and readying his watch-chain. <!-- L0623:eusacles -->
 
-"Well," Dravin said quietly, exhaling a slow plume of breath into the chill. "That was remarkably prompt. Forward." <!-- L0628 -->
+"Back to back to angled to back!" Alfie corrected, planting her tiny feet against Dravin's tweed collar. <!-- L0626:alfie -->
+
+The phantom footsteps shook the soil one final time—and abruptly ceased. The wind died. Complete, dead silence fell over the ridge. <!-- L0627 -->
+
+Dravin lowered his bell, glancing dryly around the empty clearing. "Well, that was easy, guys. Let's go." <!-- L0628:dravin -->
 
 The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — UNIVERSITY OF UNIVERSITY POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
-
-Eusacles squinted through his aviator sunglasses at the painted seal above the warning. "University of University Police? What kind of name is that? University Omega, or Omega University?" <!-- L0635 --> <!-- L0639 -->
-
-"University," Alfie muttered from Dravin's shoulder, blinking across the grounds. "University." <!-- L0641 --> <!-- L0643 -->
 
 Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the collegiate quadrangle. <!-- L0638 -->
 
 <!-- RAW_RANGE: [641, 790] | SCENE_ID: 6 -->
 
-<!-- LEDGER: rendered=[644, 645, 648, 657, 658, 681, 686, 687, 688, 692, 694, 698, 700, 701, 703, 711, 726, 728, 730, 732, 734, 735, 739, 753, 757, 759, 761, 762, 768, 771, 776, 778, 786, 787, 788, 790] skipped=[641(ooc), 642(ooc), 643(ooc), 646(ooc), 647(ooc), 649(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 656(ooc), 659(ooc), 660(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 666(ooc), 667(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 673(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 679(ooc), 680(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 689(ooc), 690(ooc), 691(ooc), 693(ooc), 695(ooc), 696(ooc), 697(ooc), 699(ooc), 702(ooc), 704(ooc), 705(ooc), 706(ooc), 707(ooc), 708(ooc), 709(ooc), 710(ooc), 712(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc), 721(ooc), 722(ooc), 723(ooc), 724(ooc), 725(ooc), 727(ooc), 729(ooc), 731(ooc), 733(ooc), 736(ooc), 737(ooc), 738(ooc), 740(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 750(ooc), 751(ooc), 752(ooc), 754(ooc), 755(ooc), 756(ooc), 758(ooc), 760(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 769(ooc), 770(ooc), 772(ooc), 773(ooc), 774(ooc), 775(ooc), 777(ooc), 779(ooc), 780(ooc), 781(ooc), 782(ooc), 783(ooc), 784(ooc), 785(ooc), 789(ooc)] -->
+<!-- LEDGER: rendered=[641, 643, 644, 645, 648, 657, 658, 681, 686, 687, 688, 692, 694, 698, 700, 701, 703, 711, 726, 728, 730, 732, 734, 735, 739, 753, 757, 759, 761, 762, 768, 771, 776, 778, 786, 787, 788, 790] skipped=[642(ooc), 646(ooc), 647(ooc), 649(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 655(ooc), 656(ooc), 659(ooc), 660(ooc), 661(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 666(ooc), 667(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 673(ooc), 674(ooc), 675(ooc), 676(ooc), 677(ooc), 678(ooc), 679(ooc), 680(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 689(ooc), 690(ooc), 691(ooc), 693(ooc), 695(ooc), 696(ooc), 697(ooc), 699(ooc), 702(ooc), 704(ooc), 705(ooc), 706(ooc), 707(ooc), 708(ooc), 709(ooc), 710(ooc), 712(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc), 721(ooc), 722(ooc), 723(ooc), 724(ooc), 725(ooc), 727(ooc), 729(ooc), 731(ooc), 733(ooc), 736(ooc), 737(ooc), 738(ooc), 740(ooc), 741(ooc), 742(ooc), 743(ooc), 744(ooc), 745(ooc), 746(ooc), 747(ooc), 748(ooc), 749(ooc), 750(ooc), 751(ooc), 752(ooc), 754(ooc), 755(ooc), 756(ooc), 758(ooc), 760(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 769(ooc), 770(ooc), 772(ooc), 773(ooc), 774(ooc), 775(ooc), 777(ooc), 779(ooc), 780(ooc), 781(ooc), 782(ooc), 783(ooc), 784(ooc), 785(ooc), 789(ooc)] -->
 
-"University," Alfie repeated from Dravin's shoulder, reading the second half of the wrought-iron archway. "University." <!-- L0641 --> <!-- L0643 -->
+"University," Alfie repeated from Dravin's shoulder, reading the first archway. She blinked, squinting as the second half of the wrought-iron entrance came into view. "...Wait, University *University*?" <!-- L0641:alfie --> <!-- L0643:alfie -->
 
 The quadrangle unfolded before them in grand, collegiate splendor. Towering limestone facades rose toward the cloudy autumn sky, punctuated by Gothic spires and deep Romanesque arches. Manicured lawns were crisscrossed by slate footpaths crowded with chattering undergraduate students, tweed-jacketed professors, and scurrying teaching assistants.
 
 Pierre adjusted his woolen beret, gazing upward at the vaulted masonry with critical European appraisal. "I must concede, this is the finest stonework I have encountered in America. Look at the balance of those arches! Quite magnificent. Almost sinister." <!-- L0644 --> <!-- L0645 --> <!-- L0648 -->
 
-At the base of a wide granite stairway, two undergraduate demonstrators stood waving mimeographed pamphlets. One wore an improvised tin-foil band tucked under the brim of his fedora, gesturing frantically at a poster covered in chemical equations. <!-- L0657 -->
+At the base of a wide granite stairway, two undergraduate demonstrators stood waving mimeographed pamphlets. Each wore a sharp tin-foil fedora folded entirely out of heavy-gauge tin foil—crisply creased at the crown and pinched along the brim. One gestured frantically at a poster covered in chemical equations. <!-- L0657 -->
 
 "If the compound was chemically viable back in 1948, why did the archives seal the formula?" the fedora-wearer argued loudly, his voice cracking with exasperation. "The half-life was decades long! There is no biochemical justification for why the batch went stale overnight!" <!-- L0658 -->
 
@@ -243,27 +238,31 @@ Eusacles stepped up onto the granite curb, shoving his hands into his denim pock
 
 "Her lecture starts in ten minutes at the main auditorium!" the second student warned, pointing toward the heavy oak double doors of the central hall. "Standing room only. If you don't have reserved faculty seats, you’ll never get near the stage." <!-- L0732 --> <!-- L0734 -->
 
-Dravin glanced sideways at Pierre, lowering his voice. "If the hall is packed, we will have no access to her primary documents during the address. We require entry to the private preparation chambers backstage." <!-- L0735 --> <!-- L0739 -->
+Dravin stroked his chin, calculating their entry into the hall. If the auditorium was packed, reaching Dr. Thorne's primary research binder would be impossible from the audience. They needed master keys to the backstage hospitality wing. <!-- L0735:dravin --> <!-- L0739 -->
 
-"Leave the custodian to French diplomacy, Professor," Pierre murmured, adjusting his wire spectacles with a sudden, predatory glint as his gaze locked onto a cleaning trolley down the colonnade. <!-- L0753 -->
+"I'm helping! Hold on, I want to help," Pierre announced abruptly, waving a hand with sudden determination. <!-- L0753:pierre -->
 
-Pierre’s gaze drifted along the colonnade. A burly university custodian in blue work coveralls was pushing a brass cleaning trolley across the flagstones, a hefty brass ring of master keys jangling at his hip. A red cleaning rag dangled from a spring-loaded retractor on his belt. <!-- L0757 --> <!-- L0759 -->
+Pierre, however, had not listened to a single word about Dr. Thorne, the Big Pox, or the lecture. His eyes had been scanning the colonnade, critically evaluating the campus masonry. Suddenly, Pierre stopped dead in his tracks. His wire spectacles slipped down his nose as a look of unadulterated, apoplectic horror washed across his face.
 
-Pierre strode purposefully toward the marble alcove where an 18th-century classical bust rested upon a fluted pedestal—directly adjacent to a bulging olive-drab plastic trash bin. Pierre threw his hands into the air, gasping with melodramatic horror. "Sacré bleu! What ungodly barbarism is this? A sculpted masterpiece of Hellenic beauty, shoved behind a municipal garbage receptacle! And there is pigeon filth upon the brow! Where is the barbarian responsible for this desecration?" <!-- L0761 -->
+Tucked into a shadowed marble alcove sat an exquisite 18th-century classical bust on a fluted pedestal—shoved directly behind a greasy, bulging olive-drab plastic trash bin. Fresh bird droppings coated the sculpted curls of the marble brow. <!-- L0757 --> <!-- L0759 -->
 
-The custodian halted his cart, his jaw dropping in defensive outrage. He unclipped his cleaning rag with a sharp snap. "Excuse me, pal? I’m Rick Ready! I’m always ready! I literally polished that marble ten minutes ago! There’s no way there’s bird droppings on that cheek!" <!-- L0762 -->
+"Sacré bleu! What ungodly barbarism is this?" Pierre shrieked, throwing his hands to the sky as he stormed toward the alcove. "A sculpted masterpiece of Hellenic beauty, hidden behind a municipal garbage receptacle! And there is absorbed pigeon filth upon the shoulders! Where is the barbarian responsible for this desecration?" <!-- L0761:pierre -->
 
-"You polished it with sandpaper, Monsieur Ready!" Pierre shouted, storming into the custodian's personal space and waving his bronze javelin tip dramatically toward the statue’s nose. "You have rubbed away the delicate Grecian contours! Look at the cheekbones! The patrician bridge is ruined! Did you learn your trade in a coal cellar? In France, sculptors would weep blood to witness such domestic vandalism!" <!-- L0768 -->
+A burly university custodian pushing a brass cleaning trolley froze in his tracks. A red rag attached to a spring-loaded retractor dangled from his belt beside a massive ring of brass keys. The custodian unclipped his cloth with a sharp snap. "Excuse me, pal? I’m Rick Ready! I’m always ready! I literally polished that marble ten minutes ago! There’s no way there’s bird droppings on that cheek!" <!-- L0762:attendant -->
 
-"What are you, some foreign art student?" Rick Ready sputtered, reddening as he jabbed a finger toward the marble. <!-- L0771 -->
+Seeing Pierre winding up for a full Parisian meltdown, Dravin quietly drifted down the colonnade, circling the commotion.
 
-While the custodian argued fiercely, Professor Dravin calmly drifted past the cart. With the deft, practiced precision of a veteran academic who had borrowed countless restricted manuscripts, Dravin’s slender fingers slid beneath the custodian's coverall flap. A soft metallic click echoed beneath the bluster. Dravin stepped back into the shadows of the colonnade, holding up a heavy brass ring of master keys. He offered Pierre a subtle, patrician wink. <!-- L0776 --> <!-- L0778 -->
+"You polished it with sandpaper, Monsieur Ready!" Pierre shouted, waving his bronze javelin tip dramatically toward the statue’s nose. "You are rubbing too hard! That is why the fine detail is lost here and here! You have ruined the patrician bridge! In France, sculptors would weep blood to witness such domestic vandalism!" <!-- L0768:pierre -->
 
-"A student? Do not insult me!" Pierre scoffed loudly, drawing the custodian's full attention away from the trolley. "I am from France, the cradle of sculpture! Why would I come to America to study art? You imported this bust because your own program produces nothing of note!" <!-- L0786 -->
+"What are you, some sculpture student?" Rick Ready sputtered, reddening with defensive rage. <!-- L0771:attendant -->
 
-"We got a top-tier fine arts department here at the university!" Rick Ready snapped, his chest puffing out with collegiate pride. <!-- L0787 -->
+While Rick Ready argued fiercely, jabbering red-faced at Pierre, Professor Dravin calmly stepped behind the custodian's trolley. With the deft precision of a tenured historian borrowing restricted manuscripts, Dravin’s slender fingers slipped beneath Rick's belt flap. A soft metallic click echoed beneath the shouting. Dravin stepped back into the shadows of the archway, holding up the jangling ring of master keys and offering a discreet wink. Pierre, completely oblivious to Dravin and consumed entirely by his own aesthetic vendetta, didn't even notice. <!-- L0776 --> <!-- L0778 -->
 
-"Prove it to me, Monsieur Ready!" Pierre challenged, gesturing imperiously toward the academic quad. "Where is your studio? Show me this so-called sculpture hall! Lead the way!" <!-- L0788 --> <!-- L0790 -->
+"No, I make my own sculptures, thank you very much!" Pierre scoffed. "Why would I come to America to learn art? France has the finest sculptors in the world! You imported this piece because your program makes nothing of note!" <!-- L0786:pierre -->
+
+"We got a top-tier fine arts department here at the university!" Rick Ready roared, puffing out his chest. <!-- L0787:attendant -->
+
+"Prove it to me, Monsieur Ready!" Pierre challenged, pointing imperiously toward the campus. "Where is your sculpture hall? Lead the way!" <!-- L0788:pierre --> <!-- L0790 -->
 
 <!-- RAW_RANGE: [791, 935] | SCENE_ID: 7 -->
 
@@ -273,9 +272,9 @@ While the custodian argued fiercely, Professor Dravin calmly drifted past the ca
 
 Pierre tipped his woolen beret with icy Parisian condescension, stepping backward from the flustered custodian. "It was thoroughly displeasurable to make your acquaintance, Monsieur Ready. I trust I shall never encounter your abrasive sponge again." <!-- L0798 --> <!-- L0800 -->
 
-Leaving Rick Ready muttering over his cleaning trolley, the companions ascended the broad limestone steps leading toward the main auditorium. Flanking the bronze entryway stood a ragged semicircle of campus demonstrators, each wearing a pointed fedora carefully folded from heavy aluminum kitchen foil. <!-- L0809 -->
+Leaving Rick Ready muttering over his cleaning trolley, the companions ascended the broad limestone steps leading toward the main auditorium. Flanking the bronze entryway stood a ragged semicircle of campus demonstrators, each wearing a pointed tin-foil fedora folded from heavy foil. <!-- L0809 -->
 
-"The alien enthusiasts have colonized the university," Pierre muttered under his breath, nudging his wire spectacles higher. "In France, our conspiracists prefer wine and philosophy. In America, they wear baked potato wrapping." <!-- L0813 --> <!-- L0815 -->
+"The alien enthusiasts have colonized the university," Pierre muttered under his breath, nudging his wire spectacles higher. "In America, they wear baked potato wrapping shaped into rather nice hats, I must say," he added with reluctant aesthetic admiration, gesturing toward the sharp fedora crown. <!-- L0813 --> <!-- L0815 -->
 
 "It’s a universal constant, Pierre," Eusacles said with a wry smirk, adjusting his aviator sunglasses. "Back in Vegas, we have guys wearing colanders on the Strip swearing the roulette wheels emit lunar frequencies. Same breed." <!-- L0818 -->
 
@@ -291,17 +290,15 @@ The demonstrator froze, tapping his temple with renewed, terrifying intensity. "
 
 Inside, the amphitheater was magnificent. Rows of curved mahogany desks rose in steep tiers beneath a vaulted plaster ceiling, packed to capacity with hundreds of students, graduate fellows, and faculty members in elbow-patched blazers. A buzz of expectant conversation filled the cedar-scented air. <!-- L0854 -->
 
-Eusacles cast a critical gambler's eye across the hall, taking in the stark architectural contrast. "Lot of concrete for an Ivy League pretender. This was definitely a government job. Though no municipal budget would have paid for actual solid wood desks." <!-- L0855 --> <!-- L0857 -->
+Eusacles cast a critical gambler's eye across the hall, taking in the stark architectural contrast. "Lot of concrete for an Ivy League pretender. This was definitely a government job. Though no municipal budget would have paid for actual solid wood desks." <!-- L0857 -->
 
 "And the doors," Pierre murmured with grudging approval, gesturing with his bronze spear ferrule toward the massive, brass-hinged oak portals. "Exquisite joinery. Even the archways have an ominous classical weight." <!-- L0860 -->
 
-Above the proscenium hung the university’s massive collegiate seal: a bold Latin capital *U* interlocked with a sweeping Greek Omega (*Ω*)—the twin horseshoe curves mirroring each other in gleaming brass. Below the glyph, the official institutional motto was chiseled directly into the limestone lintel: *SCHOOL SO NICE THEY NAMED IT TWICE.* <!-- L0863 --> <!-- L0865 --> <!-- L0868 --> <!-- L0869 -->
+Above the proscenium hung the university’s massive collegiate seal: a bold Latin capital *U* interlocked with a sweeping Greek Omega (*Ω*)—the twin horseshoe curves mirroring each other in gleaming brass, crowned with the institution's proud, redundant motto.
 
-Eusacles stared at the intertwined crest, a slow grin cracking his stubbled jaw. "Wait. Is that a normal U and an Omega U mashed together? 'U of U'?" <!-- L0872 --> <!-- L0874 -->
+Near the front stage riser, an earnest faculty host in a brown corduroy blazer was clearing his throat, reaching for the brass gooseneck rostrum to open the assembly. Sensing the fleeting window of chaos, Professor Edward Dravin smoothed his tweed lapels, thumbed his tarnished pocket bell, and strode directly past the startled host with the towering authority of a visiting dean. The faculty host blinked in confusion, hesitating, then shrugged sheepishly and dropped into an empty front-row seat, assuming the distinguished stranger was a senior organizer. <!-- L0884 -->
 
-Dravin adjusted his tweed lapels, offering a dry academic nod. "A collegiate pun on Greek life, Monsieur Gambler. The donor pool here was ancient, wealthy, and deeply fond of classical vanity." <!-- L0865:dravin --> <!-- L0875 --> <!-- L0876 --> <!-- L0880 -->
-
-Dravin smoothed his rumpled tweed lapels, thumbed his tarnished pocket bell, and strode directly down the central aisle toward the illuminated stage with the effortless authority of a tenured department chair. Alfie sat proudly upon his shoulder, her oversized museum ballcap tilted back so her seashell eyes could scan the crowd for University University caps. Reaching the mahogany lectern, Dravin tapped the brass gooseneck receiver to silence the room. <!-- L0884 --> <!-- L1022 -->
+Dravin tapped the brass receiver, cutting through the ambient room chatter.
 
 "Attention, colleagues and students," Dravin announced, his cultured baritone echoing effortlessly across the gallery. "If everyone could please settle into your seats. This afternoon we have the privilege of hearing from Dr. Aris Thorne, who will deliver her retrospective on the nineteen forty-eight archives breakthrough and the buried clinical trials. Please grant Dr. Thorne your undivided scholarly focus. Doctor, the lectern is yours." <!-- L0887 --> <!-- L0889 -->
 
@@ -315,13 +312,13 @@ Dravin inclined his head patricianly, lowering his voice into a warm, paternal r
 
 "Rest assured, it shall be properly appointed," Dravin assured her smoothly, offering an elegant half-bow. "Break a leg, Doctor." <!-- L0907 --> <!-- L0913 -->
 
-As Dr. Thorne stepped to the podium and dimmed the house lights, Dravin drifted off the side stairs toward the backstage corridor. At the edge of the front row, Pierre had already wedged himself between two flustered graduate students, poking a young man’s shoulder insistently with the ferrule of his bronze javelin. <!-- L0924 --> <!-- L0925 --> <!-- L0927 -->
+As Dr. Thorne stepped to the podium and dimmed the house lights, Dravin drifted off the side stairs toward the backstage corridor. At the edge of the front row, Pierre had already squeezed into the aisle beside the displaced faculty host, tapping the man's corduroy shoulder insistently with the ferrule of his bronze javelin. <!-- L0924 --> <!-- L0925 --> <!-- L0927 -->
 
-"What? What's up?" the student squeaked, shrinking back against his chair. <!-- L0930 -->
+"What? What's up?" the flustered host whispered, shrinking back against his chair. <!-- L0930 -->
 
 "Pardon, monsieur," Pierre hissed in an urgent Parisian whisper. "Where is the sculpting laboratory?" <!-- L0931 -->
 
-"The sculpting class? It’s on the other side of campus!" the student whispered frantically. "She's presenting! The lights are dim—we need to be quiet!" <!-- L0934 -->
+"The sculpting class? It’s on the other side of campus!" the host whispered frantically, gesturing toward the stage. "She's presenting! The lights are dim—we need to be quiet!" <!-- L0934 -->
 
 Pierre narrowed his wire spectacles, completely indifferent to the lecture as Dravin slipped the stolen brass master key into the backstage lock. <!-- L0935 -->
 
@@ -347,49 +344,49 @@ Inside the crowded hall, the raked wooden amphitheater hummed with the electric 
 
 Around him, eager undergrads in button-down shirts hovered, eyeing the empty wooden chairs flanking him on either side. Whenever anyone leaned in to ask if the chairs were free, Eusacles merely offered a flat, menacing glower that sent them scurrying toward the stairways.
 
-"If there were decent seats anywhere else, I would've taken them," Eusacles muttered under his breath, watching the sea of bobbing heads below. "Instead there's not a clear aisle in the house." <!-- L0968 --> <!-- L0970 -->
+"If there were decent seats anywhere else, I would've taken them," Eusacles muttered under his breath, watching the sea of bobbing heads below. "Instead there's not a clear aisle in the house." <!-- L0968 --> <!-- L0970 --> <!-- L0974 -->
 
-He caught sight of Dravin and Alfie slipping discreetly along the far backstage wing toward the private green room, followed a moment later by Pierre strutting down the center carpet with theatrical unconcern.
+He caught sight of Dravin and Alfie attempting to slip discreetly along the far backstage wing toward the private green room, followed a moment later by Pierre trailing behind, his bronze spear rattling carelessly against the wainscoting.
 
-"Ah, hell," Eusacles sighed, sinking deeper into the wooden bench and resting his knuckles against the grip of his morningstar. "Good luck to the lot of you." <!-- L0974 -->
+"Professor!" Pierre called out down the corridor in a stage whisper that carried halfway across the hall. "Is all of the faculty in America like this, where they have no clue where the best and most important classes are?" <!-- L0990:pierre -->
 
-Down along the carpeted aisle, Pierre slid gracefully into an empty seat directly beside an exhausted adjunct professor who was furiously scribbling notes in a pocket diary.
+Dravin froze, his jaw tightening in horror at the botched stealth. Pivoting smoothly on his heel, Dravin adopted his fiercest, most intimidating academic dean persona, glaring at Pierre with icy authority and barking a stern, commanding order for the unruly student to take his seat immediately as the lecture was beginning.
 
-"Professor," Pierre murmured in a conspiratorial whisper, his spectacles glinting beneath the house lights, "is it customary for American faculties to be utterly clueless regarding their finest artistic ateliers?" <!-- L0990 -->
+Pierre threw his hands up in haughty defeat, muttering under his breath at such touchiness before retreating back into the amphitheater. Scanning the tiered rows, his gaze locked onto the corduroy-jacketed faculty host who had just slipped into the front row, looking visibly relieved that the disruption had passed. 
 
-The adjunct stared at him in dazed exhaustion, blinking behind thick bifocals.
+Pierre slid gracefully into the empty wooden chair directly beside him. The host froze, his eyes widening in mounting terror.
 
-"I shall sit beside you," Pierre declared smoothly, tapping his pencil against his knee. "And when this dismal assembly concludes, we shall embark together to unearth the sculpture studio." <!-- L0996 -->
+"I shall sit beside you," Pierre whispered conspiratorially, tapping his pencil against his knee. "And when this dismal assembly concludes, we shall embark together to find the sculpture studio." <!-- L0996:pierre -->
 
-"Yes, marvelous, whatever you like—just please be quiet and listen," the adjunct pleaded in a harsh whisper, clutching his textbook to his chest. "It really is extraordinary research." <!-- L0997 -->
+"Yeah, yeah, for sure, for sure—just please be quiet and listen!" the host pleaded in a panicked, suffocated whisper, clutching his program to his chest. "It really is extraordinary research, I promise!" <!-- L0997:attendant -->
 
-At that moment, from the shadows flanking the proscenium arch, Professor Edward Dravin raised two fingers. With a crisp, arcane murmur, he flicked a spark of thaumaturgical power through the air. The heavy glass chandeliers lining the vaulted ceiling flickered three deliberate times in a sharp, rhythmic pulse—the universal theatre bell commanding silence.
+Behind the backstage curtain, Professor Edward Dravin let out a quiet breath of relief. Raising two fingers into the dim wings, he murmured an arcane syllable, casting Thaumaturgy. The heavy glass chandeliers lining the vaulted ceiling flickered three deliberate times in a sharp, rhythmic pulse—the universal theatre bell commanding total silence.
 
 The auditorium fell dead quiet. The podium announcer cleared his throat into the lectern receiver, introducing Dr. Aris Thorne.
 
-Behind the stage, Dravin and Alfie slipped silently through the service door into the private green room. Alfie moved on light, barefoot steps across the plush carpet, his salt-encrusted driftwood cane tucked neatly beneath one arm and his weathered canvas ballcap pulled down over his tangled hair.
+Behind the stage, Dravin and Alfie slipped silently through the service door into the private green room. Alfie moved on light, barefoot steps across the plush carpet, her salt-encrusted driftwood cane tucked neatly beneath one arm and her weathered canvas ballcap pulled down over her tangled hair.
 
-"No university ballcaps," Alfie whispered, rooting through the speaker's welcome basket on the glass coffee table. Inside lay polished citrus fruits, wrapped mints, and a green-and-white collegiate soccer scarf. <!-- L1022 -->
+"No university ballcaps," Alfie whispered, rooting through the speaker's welcome basket on the glass coffee table. Inside lay polished citrus fruits, wrapped mints, and a green-and-white collegiate soccer scarf. <!-- L1022:alfie -->
 
-"I'll take the scarf," Alfie decided, wrapping the knit wool three times around his neck with a delighted nod. "And the fruit." He slipped a red apple and two oranges into his coat pocket with nautical dexterity. <!-- L1026 --> <!-- L1028 -->
+"I'll take the scarf," Alfie decided, wrapping the knit wool three times around her neck with a delighted nod. "And the fruit." She slipped a red apple and two oranges into her coat pocket with nautical dexterity. <!-- L1026:alfie --> <!-- L1028:alfie -->
 
 Meanwhile, Dravin stood before Dr. Thorne's leather travel bag resting atop an armchair. His tweed jacket smelled faintly of old parchment and pipe smoke as he flipped the brass clasps and lifted the lid. He sifted through neat rows of folded cardigans, linen blouses, a toiletry kit, and a spare stethoscope.
 
-"The binder," Dravin murmured, his jaw tightening as he clicked the brass latches shut. "It isn't here. Nothing but personal travel attire." <!-- L1041 -->
+"The binder," Dravin murmured, his jaw tightening as he clicked the brass latches shut. "It isn't here. Nothing but personal travel attire." <!-- L1041:dravin -->
 
 Outside on the main stage, the muffled cadence of Dr. Thorne's voice echoed through the wood paneling, followed by audible gasps and hushed whispers from the lecture hall. She was unveiling the timeline of her medical breakthrough—the buried, controversial 1948 trial logs that had miraculously resurfaced to crown her career.
 
 Dravin withdrew Naomi's intelligence briefing from inside his tweed vest, his silver-framed spectacles reflecting the dim lamp light as he recalled her note that every fragment anchored to a physical relic—like the museum's stone tablet. <!-- L1055 -->
 
-"A handwritten binder—an unedited primary source from the original 1948 trials," Dravin whispered, tapping the leather pocketwatch at his hip. "That is what Naomi flagged. Not the published monograph, and not her lecture slides." <!-- L1062 -->
+"A handwritten binder—an unedited primary source from the original 1948 trials," Dravin whispered, tapping the leather pocketwatch at his hip. "That is what Naomi flagged. Not the published monograph, and not her lecture slides." <!-- L1062:dravin -->
 
-"An active anomaly," Dravin concluded grimly, his gaze darting toward the heavy backstage curtain. <!-- L1064 -->
+"An active anomaly," Dravin concluded grimly, his gaze darting toward the heavy backstage curtain. <!-- L1064:dravin -->
 
 Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph. And resting directly beside her feet on the wooden floor of the lectern sat a heavy, brass-cornered leather briefcase—securely sealed with a heavy tumbler padlock.
 
 <!-- RAW_RANGE: [1071, 1205] | SCENE_ID: 9 -->
 
-<!-- LEDGER: rendered=[1123, 1133, 1142, 1146, 1150, 1154, 1155, 1170, 1172, 1174, 1175, 1176, 1177, 1178, 1179, 1182, 1190, 1191, 1193, 1195, 1197, 1198, 1199] skipped=[1071(ooc), 1072(ooc), 1073(ooc), 1074(ooc), 1075(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1081(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(ooc), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1094(ooc), 1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1100(ooc), 1101(ooc), 1102(ooc), 1103(ooc), 1104(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1108(ooc), 1109(ooc), 1110(ooc), 1111(ooc), 1112(ooc), 1113(ooc), 1114(ooc), 1115(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1120(ooc), 1121(ooc), 1122(ooc), 1124(ooc), 1125(ooc), 1126(ooc), 1127(ooc), 1128(ooc), 1129(ooc), 1130(ooc), 1131(ooc), 1132(ooc), 1134(ooc), 1135(ooc), 1136(ooc), 1137(ooc), 1138(ooc), 1139(ooc), 1140(ooc), 1141(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1147(ooc), 1148(ooc), 1149(ooc), 1151(ooc), 1152(ooc), 1153(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1161(ooc), 1162(ooc), 1163(ooc), 1164(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1171(ooc), 1173(ooc), 1180(ooc), 1181(ooc), 1183(ooc), 1184(ooc), 1185(ooc), 1186(ooc), 1187(ooc), 1188(ooc), 1189(ooc), 1192(ooc), 1194(ooc), 1196(ooc), 1200(ooc), 1201(ooc), 1202(ooc), 1203(ooc), 1204(ooc), 1205(ooc)] -->
+<!-- LEDGER: rendered=[1123, 1133, 1142, 1146, 1150, 1154, 1155, 1170, 1172, 1174, 1175, 1176, 1177, 1178, 1179, 1182, 1190, 1191, 1193, 1195, 1196, 1197, 1198, 1199] skipped=[1071(ooc), 1072(ooc), 1073(ooc), 1074(ooc), 1075(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1081(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(ooc), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1094(ooc), 1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1100(ooc), 1101(ooc), 1102(ooc), 1103(ooc), 1104(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1108(ooc), 1109(ooc), 1110(ooc), 1111(ooc), 1112(ooc), 1113(ooc), 1114(ooc), 1115(ooc), 1116(ooc), 1117(ooc), 1118(ooc), 1119(ooc), 1120(ooc), 1121(ooc), 1122(ooc), 1124(ooc), 1125(ooc), 1126(ooc), 1127(ooc), 1128(ooc), 1129(ooc), 1130(ooc), 1131(ooc), 1132(ooc), 1134(ooc), 1135(ooc), 1136(ooc), 1137(ooc), 1138(ooc), 1139(ooc), 1140(ooc), 1141(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1147(ooc), 1148(ooc), 1149(ooc), 1151(ooc), 1152(ooc), 1153(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1161(ooc), 1162(ooc), 1163(ooc), 1164(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(ooc), 1169(ooc), 1171(ooc), 1173(ooc), 1180(ooc), 1181(ooc), 1183(ooc), 1184(ooc), 1185(ooc), 1186(ooc), 1187(ooc), 1188(ooc), 1189(ooc), 1192(ooc), 1194(ooc), 1200(ooc), 1201(ooc), 1202(ooc), 1203(ooc), 1204(ooc), 1205(ooc)] -->
 
 As Dr. Aris Thorne clicked through the final projection slide to a ripple of polite applause, Professor Edward Dravin emerged from the stage wings. With immaculate timing and an expansive smile, he jogged lightly up toward the podium, clapping enthusiastically to guide the audience into a roaring ovation.
 
@@ -423,7 +420,9 @@ Dr. Thorne gripped the sides of her lectern, her brow furrowing with sudden irri
 
 "Show me the research," Eusacles replied without flinching. <!-- L1177 -->
 
-Behind him in the queue, Pierre popped his head up over Eusacles’s broad shoulder. "But you don't know where the sculpture class is." <!-- L1178 -->
+Behind him in the queue, Pierre leaned around Eusacles’s broad shoulder, peering past the denim jacket to fix Dr. Thorne with an accusing squint.
+
+"But you don't know where the sculpture class is," Pierre chimed in. <!-- L1178 -->
 
 "Show me the research," Eusacles repeated, his arms crossed over his chest like an immovable wall of denim and muscle. <!-- L1179 -->
 
@@ -437,9 +436,13 @@ Dr. Thorne's face flushed with indignant academic pride. She tapped the wood of 
 
 "I think that's what the people want," Eusacles rumbled into the receiver. "I think the people want to see this research." <!-- L1191 --> <!-- L1193 -->
 
-From the rear double doors, a sudden commotion rattled the hall. A man wearing a trench coat and a tin-foil fedora thrust his head through the crack, yelling at the top of his lungs: *"This guy gets it!"* before campus security grappled him back out into the rain. A murmur of intense curiosity rippled across the student body. Several faculty members in the front row began nodding their heads.
+Pierre stepped forward and gave Eusacles a patronizing pat on the bicep. "I'm very sorry. I don't know him, but I feel like no one really likes me anyway here, and I think he would make a good sculpture." <!-- L1195:pierre -->
 
-Pierre stepped forward and gave Eusacles a patronizing pat on the bicep. "I'm very sorry. I don't know him, but I feel like no one really likes me anyway here, and I think he would make a good sculpture." <!-- L1195 -->
+From the rear double doors, a sudden commotion rattled the brass handles. A demonstrator in a damp trench coat and a gleaming tin-foil fedora shoved his head through the crack of the swinging doors.
+
+"This guy gets it!" the protester bellowed at the top of his lungs. <!-- L1196:protester -->
+
+Before he could shout another syllable, two campus security guards tackled him backwards, hauling him out into the rain as the doors slammed shut. A murmur of intense curiosity rippled across the student body. Several faculty members in the front row began nodding their heads.
 
 Dravin leaned close to Dr. Thorne, his silver-rimmed spectacles glinting with gentle, persuasive warmth.
 
@@ -467,11 +470,17 @@ With a muffled *click*, the tumbler turned. Dravin threw back the heavy leather 
 
 Inside lay a thick, buckram-bound medical binder, its corners worn down to raw gray cardboard and its spine cracked from relentless handling. The air above the open case hummed with a dizzying ozone chill—the unmistakable, reality-bending resonance of an active Fragment.
 
-Dravin glanced down at Alfie. Alfie looked back up, his carved wooden jaw tightening beneath his canvas ballcap.
+Without a second's hesitation, Dravin reached down and bodily seized Alfie around his waist.
 
-"Not again," Alfie whispered mournfully, reaching out his tiny, salt-bleached wooden hand. "Not me again." <!-- L1219 -->
+Mid-air, Alfie's little carved legs kicked frantically, his painted eyes rolling skyward in despair.
 
-The moment Alfie's driftwood fingertips brushed the cracked leather cover, the universe tore open.
+"Not again," Alfie groaned mournfully. "Not me again." <!-- L1219 -->
+
+Before Alfie could twist his driftwood limbs free, Dravin slammed the protesting doll face-first into the cold buckram binder.
+
+* * *
+
+The moment Alfie struck the leather, the universe tore open.
 
 The auditorium did not fade; it shattered. The overhead chandeliers flared in a violent strobe of violet lightning, and instantly the four companions were ripped from the hall and plunged into a claustrophobic subterranean darkness.
 
@@ -483,19 +492,21 @@ Row upon row of iron cots stretched into the gloom. On each cot lay an unrespons
 
 Suddenly, the vivid colors bled away into stark, ink-stained monochrome. Reality thinned to the consistency of parchment. Across the center of their collective vision, an ink-stained fountain pen scribbled across the yellowed page of the very binder they held:
 
-***STABLE.***
+STABLE.
 
 Then, as if caught in a temporal rewrite, an unseen hand dragged a smear of wet black ink across the letters, twisting the ink into a horrifying new word:
 
-***STALE.*** <!-- L1232 -->
+STALE. <!-- L1232 -->
 
 The vision convulsed, violently snapping backward to an earlier hour. The basement was cleaner now, the dirt floor swept and bare. The excavated ward of comatose patients did not exist—there was only solid, unbroken foundation stone where the horror had been. The younger doctor stood before his laboratory bench, staring at a beaker of amber liquid with mounting revulsion. With a guttural cry of anguish, he hurled the glass against the masonry wall. It shattered in a burst of amber shards. In a blind frenzy, he swept both arms across his bench, sending burners, test tubes, and research notes crashing into oblivion, desperate to destroy what he had discovered before it could ever be buried. <!-- L1233 -->
 
 *CRACK.*
 
+* * *
+
 Reality snapped back with the force of a physical blow.
 
-Dravin, Pierre, Eusacles, and Alfie gasped as the bright light of the lecture hall flooded their eyes once more. But the hall was no longer in quiet academic assembly.
+Dravin, Pierre, Eusacles, and Alfie gasped as the bright light of the lecture hall flooded their senses once more. But the hall was no longer in quiet academic assembly.
 
 A deafening, high-pitched klaxon was screaming from the ceiling. Emergency strobes pulsed in blood-red arcs across the vaulted rafters. Two hundred panicked undergraduates and professors were knocking over chairs, screaming, and stampeding toward the side exits in absolute bedlam.
 
@@ -503,11 +514,11 @@ In the second row, a tall observer who had triggered the alarm stood motionless 
 
 Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. <!-- L1242 -->
 
-The Margin had arrived for the binder.
+The Reductors had arrived for the binder. Satyrs—or worse, satans.
 
 Alfie's carved wooden head swiveled slowly on its peg, his painted eyes wide with horror as he pointed a trembling driftwood arm toward the double doors at the rear of the hall.
 
-"Sorry, Alfie," Dravin breathed, scooping the wooden duelist and the heavy anomaly binder into his arms and rising to his feet as the cloaked beasts surged forward. <!-- L1256 -->
+"Sorry, Alfie," Dravin whispered, scooping the dazed wooden duelist and the heavy anomaly binder into his arms as the cloaked beasts surged forward. <!-- L1256 -->
 
 Pierre drew his bronze-tipped javelin from beneath his overcoat, his brass spectacles reflecting the flashing red emergency beacons. Eusacles stepped in front of the stage stairs, rolling his heavy iron morningstar in one leather-gloved fist, a grim grin spreading beneath his dark sunglasses.
 

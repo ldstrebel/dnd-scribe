@@ -6,9 +6,9 @@
 
 Pierre tipped his woolen beret with icy Parisian condescension, stepping backward from the flustered custodian. "It was thoroughly displeasurable to make your acquaintance, Monsieur Ready. I trust I shall never encounter your abrasive sponge again." <!-- L0798 --> <!-- L0800 -->
 
-Leaving Rick Ready muttering over his cleaning trolley, the companions ascended the broad limestone steps leading toward the main auditorium. Flanking the bronze entryway stood a ragged semicircle of campus demonstrators, each wearing a pointed fedora carefully folded from heavy aluminum kitchen foil. <!-- L0809 -->
+Leaving Rick Ready muttering over his cleaning trolley, the companions ascended the broad limestone steps leading toward the main auditorium. Flanking the bronze entryway stood a ragged semicircle of campus demonstrators, each wearing a pointed tin-foil fedora folded from heavy foil. <!-- L0809 -->
 
-"The alien enthusiasts have colonized the university," Pierre muttered under his breath, nudging his wire spectacles higher. "In France, our conspiracists prefer wine and philosophy. In America, they wear baked potato wrapping." <!-- L0813 --> <!-- L0815 -->
+"The alien enthusiasts have colonized the university," Pierre muttered under his breath, nudging his wire spectacles higher. "In America, they wear baked potato wrapping shaped into rather nice hats, I must say," he added with reluctant aesthetic admiration, gesturing toward the sharp fedora crown. <!-- L0813 --> <!-- L0815 -->
 
 "It’s a universal constant, Pierre," Eusacles said with a wry smirk, adjusting his aviator sunglasses. "Back in Vegas, we have guys wearing colanders on the Strip swearing the roulette wheels emit lunar frequencies. Same breed." <!-- L0818 -->
 
@@ -24,17 +24,15 @@ The demonstrator froze, tapping his temple with renewed, terrifying intensity. "
 
 Inside, the amphitheater was magnificent. Rows of curved mahogany desks rose in steep tiers beneath a vaulted plaster ceiling, packed to capacity with hundreds of students, graduate fellows, and faculty members in elbow-patched blazers. A buzz of expectant conversation filled the cedar-scented air. <!-- L0854 -->
 
-Eusacles cast a critical gambler's eye across the hall, taking in the stark architectural contrast. "Lot of concrete for an Ivy League pretender. This was definitely a government job. Though no municipal budget would have paid for actual solid wood desks." <!-- L0855 --> <!-- L0857 -->
+Eusacles cast a critical gambler's eye across the hall, taking in the stark architectural contrast. "Lot of concrete for an Ivy League pretender. This was definitely a government job. Though no municipal budget would have paid for actual solid wood desks." <!-- L0857 -->
 
 "And the doors," Pierre murmured with grudging approval, gesturing with his bronze spear ferrule toward the massive, brass-hinged oak portals. "Exquisite joinery. Even the archways have an ominous classical weight." <!-- L0860 -->
 
-Above the proscenium hung the university’s massive collegiate seal: a bold Latin capital *U* interlocked with a sweeping Greek Omega (*Ω*)—the twin horseshoe curves mirroring each other in gleaming brass. Below the glyph, the official institutional motto was chiseled directly into the limestone lintel: *SCHOOL SO NICE THEY NAMED IT TWICE.* <!-- L0863 --> <!-- L0865 --> <!-- L0868 --> <!-- L0869 -->
+Above the proscenium hung the university’s massive collegiate seal: a bold Latin capital *U* interlocked with a sweeping Greek Omega (*Ω*)—the twin horseshoe curves mirroring each other in gleaming brass, crowned with the institution's proud, redundant motto.
 
-Eusacles stared at the intertwined crest, a slow grin cracking his stubbled jaw. "Wait. Is that a normal U and an Omega U mashed together? 'U of U'?" <!-- L0872 --> <!-- L0874 -->
+Near the front stage riser, an earnest faculty host in a brown corduroy blazer was clearing his throat, reaching for the brass gooseneck rostrum to open the assembly. Sensing the fleeting window of chaos, Professor Edward Dravin smoothed his tweed lapels, thumbed his tarnished pocket bell, and strode directly past the startled host with the towering authority of a visiting dean. The faculty host blinked in confusion, hesitating, then shrugged sheepishly and dropped into an empty front-row seat, assuming the distinguished stranger was a senior organizer. <!-- L0884 -->
 
-Dravin adjusted his tweed lapels, offering a dry academic nod. "A collegiate pun on Greek life, Monsieur Gambler. The donor pool here was ancient, wealthy, and deeply fond of classical vanity." <!-- L0865:dravin --> <!-- L0875 --> <!-- L0876 --> <!-- L0880 -->
-
-Dravin smoothed his rumpled tweed lapels, thumbed his tarnished pocket bell, and strode directly down the central aisle toward the illuminated stage with the effortless authority of a tenured department chair. Alfie sat proudly upon his shoulder, her oversized museum ballcap tilted back so her seashell eyes could scan the crowd for University University caps. Reaching the mahogany lectern, Dravin tapped the brass gooseneck receiver to silence the room. <!-- L0884 --> <!-- L1022 -->
+Dravin tapped the brass receiver, cutting through the ambient room chatter.
 
 "Attention, colleagues and students," Dravin announced, his cultured baritone echoing effortlessly across the gallery. "If everyone could please settle into your seats. This afternoon we have the privilege of hearing from Dr. Aris Thorne, who will deliver her retrospective on the nineteen forty-eight archives breakthrough and the buried clinical trials. Please grant Dr. Thorne your undivided scholarly focus. Doctor, the lectern is yours." <!-- L0887 --> <!-- L0889 -->
 
@@ -48,12 +46,12 @@ Dravin inclined his head patricianly, lowering his voice into a warm, paternal r
 
 "Rest assured, it shall be properly appointed," Dravin assured her smoothly, offering an elegant half-bow. "Break a leg, Doctor." <!-- L0907 --> <!-- L0913 -->
 
-As Dr. Thorne stepped to the podium and dimmed the house lights, Dravin drifted off the side stairs toward the backstage corridor. At the edge of the front row, Pierre had already wedged himself between two flustered graduate students, poking a young man’s shoulder insistently with the ferrule of his bronze javelin. <!-- L0924 --> <!-- L0925 --> <!-- L0927 -->
+As Dr. Thorne stepped to the podium and dimmed the house lights, Dravin drifted off the side stairs toward the backstage corridor. At the edge of the front row, Pierre had already squeezed into the aisle beside the displaced faculty host, tapping the man's corduroy shoulder insistently with the ferrule of his bronze javelin. <!-- L0924 --> <!-- L0925 --> <!-- L0927 -->
 
-"What? What's up?" the student squeaked, shrinking back against his chair. <!-- L0930 -->
+"What? What's up?" the flustered host whispered, shrinking back against his chair. <!-- L0930 -->
 
 "Pardon, monsieur," Pierre hissed in an urgent Parisian whisper. "Where is the sculpting laboratory?" <!-- L0931 -->
 
-"The sculpting class? It’s on the other side of campus!" the student whispered frantically. "She's presenting! The lights are dim—we need to be quiet!" <!-- L0934 -->
+"The sculpting class? It’s on the other side of campus!" the host whispered frantically, gesturing toward the stage. "She's presenting! The lights are dim—we need to be quiet!" <!-- L0934 -->
 
 Pierre narrowed his wire spectacles, completely indifferent to the lecture as Dravin slipped the stolen brass master key into the backstage lock. <!-- L0935 -->

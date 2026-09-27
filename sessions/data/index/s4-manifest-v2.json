@@ -114,29 +114,29 @@
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 1699,
-        "sharePct": 24.0
+        "words": 1726,
+        "sharePct": 24.4
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 1127,
-        "sharePct": 15.9
+        "words": 1166,
+        "sharePct": 16.5
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 789,
-        "sharePct": 11.1
+        "words": 762,
+        "sharePct": 10.8
       },
       {
         "id": "naomi",
         "name": "Naomi",
         "color": "#ec4899",
-        "words": 623,
-        "sharePct": 8.8
+        "words": 584,
+        "sharePct": 8.2
       },
       {
         "id": "gordon",
@@ -208,6 +208,9 @@
       "badge": "Autonomous Editorial Lead",
       "grade": "A-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
+      "tomatometer": 92,
+      "popcornmeter": 96,
+      "campaignArcImpact": "The Wordcraft Awakening: Alfie's living connection to the Fate Loom crystallizes with the forging of the Chaos Belt, shifting the party from reactive fugitives to active wielders of reality-altering magic.",
       "technicalCompliance": {
         "earthLeaks": 0,
         "dialogueStutters": 0,
@@ -1400,14 +1403,14 @@
       "id": "uneraseable_s04_b035",
       "index": 35,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
-      "speakerId": "dravin",
+      "speakerId": "pierre",
       "text": "\"I don't think I know yet,\" Dravin called back breathlessly as he skidded to a halt beside Nincy. \"In my mind, I'm just applying emergency historical physiology!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b035_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
           "sourceLine": 228,
           "text": "\"I don't think I know yet,\""
         },
@@ -1422,8 +1425,8 @@
         {
           "segmentId": "uneraseable_s04_b035_s03",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
           "sourceLine": 228,
           "text": "\"In my mind, I'm just applying emergency historical physiology!\""
         }
@@ -1795,14 +1798,14 @@
       "id": "uneraseable_s04_b030_alt4",
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
-      "speakerId": "pierre",
+      "speakerId": "dravin",
       "text": "\"Pure wounds,\" Pierre noted with approval from behind the cart.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b030_alt4_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 301,
           "text": "\"Pure wounds,\""
         },
@@ -3991,7 +3994,7 @@
       "id": "uneraseable_s04_b084_alt1",
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
-      "speakerId": "pierre",
+      "speakerId": "dravin",
       "text": "Professor Dravin stepped back from the slumbering Gordon sprawled across the linoleum, gesturing for the others to fall back. Across the gallery, the third Gordon leveled his pneumatic pistol down the corridor, firing an Editorial Gaze at Nincy. \"Alfie, can you edit his spell into an editorial maze?\" Pierre shouted, ducking behind the archaeology cart.",
       "segments": [
         {
@@ -4005,8 +4008,8 @@
         {
           "segmentId": "uneraseable_s04_b084_alt1_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 552,
           "text": "\"Alfie, can you edit his spell into an editorial maze?\""
         },
@@ -5259,14 +5262,14 @@
       "id": "uneraseable_s04_b127_alt5",
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
-      "speakerId": "alfie",
+      "speakerId": "pierre",
       "text": "\"He is totally editorially glazing you!\" Alfie laughed from the banister as Dravin drew a heavy steel security flashlight to focus his next radiant strike.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b127_alt5_s01",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
           "sourceLine": 872,
           "text": "\"He is totally editorially glazing you!\""
         },
@@ -5692,7 +5695,7 @@
       "id": "uneraseable_s04_b141_alt1",
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
-      "speakerId": "alfie",
+      "speakerId": "dravin",
       "text": "Dravin thumbed the switch on his heavy security flashlight, unleashing a blinding beam of pure radiant fire that bathed the glazed Gordon in a searing halo. \"Pot drop number two!\" Alfie shouted from the mezzanine, guiding his translucent *Mage Hand* to shatter a second heavy ceramic urn across the illuminated operative's shoulders.",
       "segments": [
         {
@@ -5706,8 +5709,8 @@
         {
           "segmentId": "uneraseable_s04_b141_alt1_s02",
           "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
           "sourceLine": 881,
           "text": "\"Pot drop number two!\""
         },
@@ -7380,14 +7383,14 @@
       "id": "uneraseable_s04_b203",
       "index": 203,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
-      "speakerId": "naomi",
+      "speakerId": "alfie",
       "text": "\"For now, the timeline anomaly is masked,\" Naomi concluded, locking her phone. \"The Fates haven't scrubbed the internet yet, but we need to move on our next objective before the Redactors trace the thread back through the Lost Roads.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b203_s01",
           "type": "dialogue",
-          "speakerId": "naomi",
-          "speakerName": "Naomi",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
           "sourceLine": 1180,
           "text": "\"For now, the timeline anomaly is masked,\""
         },
@@ -7402,8 +7405,8 @@
         {
           "segmentId": "uneraseable_s04_b203_s03",
           "type": "dialogue",
-          "speakerId": "naomi",
-          "speakerName": "Naomi",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
           "sourceLine": 1180,
           "text": "\"The Fates haven't scrubbed the internet yet, but we need to move on our next objective before the Redactors trace the thread back through the Lost Roads.\""
         }

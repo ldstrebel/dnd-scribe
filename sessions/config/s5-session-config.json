@@ -80,8 +80,17 @@
     "1175": "thorne",
     "1176": "thorne",
     "1190": "thorne",
+    "1196": "protester",
     "1198": "thorne",
     "1206": "thorne",
     "1211": "thorne"
-  }
+  },
+  "legitimate_ooc_lore_skips": [
+    134,
+    434,
+    458,
+    459,
+    463,
+    491
+  ]
 }

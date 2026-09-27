@@ -1,233 +1,382 @@
-# 🏛️ Architecture Specification: Deterministic & Independent Transcript-to-Publishing Pipeline
+# 🏛️ Master Pipeline Architecture, Decision Codex & Historical Failure Registry
+**D&D Scribe Publishing Engine: From Raw Audio to Literary Fantasy Novels & Interactive Web Readers**
 
-## Executive Overview
+---
+
+## 1. Executive Overview
+
 The **D&D Scribe Publishing Engine** transforms raw, chaotic tabletop RPG session recordings and multi-speaker transcripts into high-fidelity fantasy novels, audiobooks, and web manifests.
 
 To guarantee that the pipeline remains **strictly independent, non-biased, and deterministic**, the system enforces an adversarial gate architecture where no drafting agent evaluates its own output. Prose generation is decoupled from verification, and mathematical invariants govern every transformation.
 
 The publishing engine operates on a **Dual-Track Architecture**:
-1. **Track A (Canonical Archival Cut):** 100% Monotonic line-by-line coverage, strict transcript parity, and comprehensive ledger accounting (`rendered=[...] skipped=[...]`).
-2. **Track B (Authorial Cut):** Pacing-optimized, compacted scene set-pieces with coarse line spans (`<!-- Lxxxx-Lyyyy -->`) for rapid novelistic momentum while preserving core character emotion, voice, and lore anchors.
+1. **Track A (The Tabletop Cut / Archival):** 100% Monotonic line-by-line coverage, strict transcript parity, zero unanchored dialogue quotes, and comprehensive ledger accounting (`rendered=[...] skipped=[...]`).
+2. **Track B (The Cinematic Cut / Authorial):** Pacing-optimized, compacted scene set-pieces with coarse line spans (`<!-- Lxxxx-Lyyyy -->`) for rapid novelistic momentum while preserving core character emotion, voice, and lore anchors.
+
+Both cuts are compiled into **Schema 2.0 Web Manifests** and published into the interactive **Web Reader (`uneraseable.html`)**, where readers can toggle between lenses or view side-by-side synchronized diffs against the raw transcript.
 
 ---
 
-## 🗺️ Pipeline Architecture: Dual-Track Publishing Engine
+## 2. Chronological Pipeline Evolution: Editions 1 Through 15
 
-```mermaid
-flowchart TD
-    subgraph S1["LANE 1: RAW INGESTION & GROUND TRUTH"]
-        direction TB
-        RAW_AUDIO["Raw Multi-Mic Audio / Discord"] --> STT["ASR / Whisper STT Engine"]
-        STT --> RAW_MD["Raw Indexed Transcript<br/><code>sN-raw-indexed.md</code><br/><i>Immutable L#### Indices</i>"]
-        CFG["Session Config<br/><code>sN-session-config.json</code><br/><i>Declared PCs, NPCs, Mics</i>"] -.-> CLEANER
-        RAW_MD --> CLEANER["Transcript Cleaner & Speaker Auditor"]
-    end
+Over the course of 15 iterative editions, the pipeline has evolved from fragile scripts into an adversarial publishing engine:
 
-    subgraph S2["LANE 2: AUDIT & PARITY MATRIX"]
-        direction TB
-        CLEANER --> CLEAN_MD["Clean Attributed Transcript<br/><code>sN-clean.md</code><br/><i>Audited Turns & OOC Demarcation</i>"]
-        CLEAN_MD --> TIER_SPLIT{"3-Tier Classification Gate"}
-        TIER_SPLIT -->|"Tier A: Spoken"| TIER_A["In-World Spoken Dialogue<br/><code>**[[Speaker]] (PC/NPC):**</code>"]
-        TIER_SPLIT -->|"Tier B: Action & Intent"| TIER_B["Tactical Intent & Lore<br/><i>Sensory manifest, spells, terrain</i>"]
-        TIER_SPLIT -->|"Tier C: Pure Meta"| TIER_C["OOC Table Talk<br/><i>Wi-Fi drops, pizza, roll dice</i>"]
-    end
-
-    subgraph S3["LANE 3: DUAL-TRACK STORY GENERATION"]
-        direction TB
-        TIER_A & TIER_B --> DRAFTER_ARCH["Archival Drafter<br/><i>1:1 Line Fidelity</i>"]
-        TIER_A & TIER_B --> DRAFTER_AUTH["Authorial Drafter<br/><i>Compacted Pacing & Spans</i>"]
-        DRAFTER_ARCH --> BLOCKS_ARCH["Archival Blocks<br/><code>sN-scene-XX.md</code><br/><code>&lt;!-- Lxxxx --&gt;</code> Markers"]
-        DRAFTER_AUTH --> BLOCKS_AUTH["Authorial Blocks<br/><code>sN-scene-XX-alt.md</code><br/><code>&lt;!-- Lxxxx-Lyyyy --&gt;</code> Spans"]
-    end
-
-    subgraph S4["LANE 4: ADVERSARIAL VERIFICATION SUITES"]
-        direction TB
-        BLOCKS_ARCH --> GATE_PARITY["Gate 1A: verify_parity.py<br/><i>100% Monotonic Ledger Invariant</i>"]
-        BLOCKS_ARCH --> GATE_GROUND["Gate 2A: audit_semantic_grounding.py<br/><i>Token Overlap & Foreign Props</i>"]
-        BLOCKS_ARCH --> GATE_CRITIC["Gate 3A: critique_prose.py<br/><i>Prose Telemetry & Earth-Leaks</i>"]
-        
-        BLOCKS_AUTH --> GATE_ALT["Authorial Suite: verify_alternate_scene.py<br/><i>3-Gate Deterministic Linter</i><br/>1. Entity & Relic Anchor Coverage<br/>2. Leak & Foreign Prop Barrier<br/>3. Span Provenance & Compression Bounds"]
-        
-        GATE_PARITY & GATE_GROUND & GATE_CRITIC --> PASS_ARCH{"Archival Pass?"}
-        GATE_ALT --> PASS_AUTH{"Authorial Pass?"}
-    end
-
-    subgraph S5["LANE 5: DOWNSTREAM CONSUMPTION & READER"]
-        direction TB
-        PASS_ARCH -->|Pass 100%| MANIFEST_GEN["Schema 2.0 Web Manifest Engine<br/><code>generate_web_manifest.py</code>"]
-        MANIFEST_GEN --> WEB_MANIFEST["Web Manifest: <code>sN-manifest-v2.json</code><br/><i>Sub-Block Segments (Narration / Dialogue)<br/>100% Verbatim Invariant Guarantee</i>"]
-        WEB_MANIFEST --> GATE_MANIFEST_V2["Gate 4: verify_manifest.py<br/><i>Schema 2.0 Invariant 6 Gate<br/>0 Narrator Dialogue & Valid Colors</i>"]
-        GATE_MANIFEST_V2 -->|Pass 100%| DNDWIKIS["Downstream Reader: <code>dndwikis</code> / <code>build_ebooks.py</code><br/><i>Side-by-Side Archival vs. Authorial Diff Inspector<br/>Multi-Voice Audio Synchronization</i>"]
-        PASS_ARCH & PASS_AUTH -->|Pass 100%| EPUB_GEN["Dual Edition EPUB Assembler<br/><code>novel/generate_epub.py</code>"]
-        EPUB_GEN --> EPUB_OUT["Production EPUBs<br/><i>Illustrated & Text-Only</i>"]
-    end
-
-    classDef raw fill:#1e293b,stroke:#475569,stroke-width:2px,color:#f8fafc;
-    classDef gate fill:#0f172a,stroke:#3b82f6,stroke-width:2px,color:#93c5fd;
-    classDef check fill:#450a0a,stroke:#ef4444,stroke-width:2px,color:#fca5a5;
-    classDef out fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#a7f3d0;
-
-    class RAW_AUDIO,STT,RAW_MD,CFG raw;
-    class CLEANER,CLEAN_MD,TIER_A,TIER_B,TIER_C,DRAFTER_ARCH,DRAFTER_AUTH,BLOCKS_ARCH,BLOCKS_AUTH gate;
-    class GATE_PARITY,GATE_GROUND,GATE_CRITIC,GATE_ALT,PASS_ARCH,PASS_AUTH check;
-    class MANIFEST_GEN,WEB_MANIFEST,EPUB_GEN,EPUB_OUT,DNDWIKIS out;
+```
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITIONS 1–3: The Prototype Era (Sessions 1 & 2)                       │
+  │ • Raw Whisper STT output -> Direct novelization.                      │
+  │ • Post-hoc regexes guessing who spoke ("said", "asked").               │
+  │ • Major failures: Green Ford truck hallucinations, French accent       │
+  │   transcription errors ("Pair-ey" -> "Brittany"), phonetic collapses.  │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITIONS 4–6: The Modular Indexing Era (Session 3)                     │
+  │ • Introduced monotonic L#### line indexing and 100-line scene blocks.  │
+  │ • Crisis: Micro-chapter fragmentation (every 100 lines = a chapter!).  │
+  │ • The "Integer Illusion": Agents stamping fake line numbers on fantasy.│
+  │ • Created early verify_parity.py and semantic stem overlap checks.     │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITIONS 7–9: The Multi-Speaker & Formatting Era (Session 4)           │
+  │ • The Multi-Speaker Bubble Monopoly: Alfie's action colored blue as    │
+  │   Pierre because both were in one paragraph.                           │
+  │ • 3rd-Person intent leaks: Players describing feelings in 3rd person   │
+  │   getting wrapped in quotation marks like sportscasters.              │
+  │ • Silent narrator fallbacks on GM-voiced NPCs.                         │
+  │ • Invariant established: One Speaker Turn Per Paragraph.               │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITIONS 10–12: The "Hollow Test" Audit & Packaging Crisis             │
+  │ • Discovered "Hollow Tests": 4-character stem matching (star/startled) │
+  │   and 12-vehicle whitelists giving fake 100% passes.                   │
+  │ • critique_prose.py silently exited 0 even on major review failures.   │
+  │ • Academic architecture theater (TF-IDF voice vectors) replaced with   │
+  │   deterministic mathematical ledger checks.                            │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITIONS 13–14: The Zero-Regex Law & Schema 2.0 Web Reader             │
+  │ • The "Local Patching Loop" amnesia: Agents adding aliases to regexes  │
+  │   instead of querying origin metadata.                                 │
+  │ • Purged ALL post-hoc regex speech parsers. Codified Section 2.1:      │
+  │   The Zero-Regex Dialogue & Origin-Time Provenance Law.                │
+  │ • Launched Schema 2.0 Web Manifests with sub-block segments, diff     │
+  │   inspector, and dual-cut reader integration.                          │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITION 15 (Current): The Intent, Agency & Anti-Amputation Era (S5)    │
+  │ • PR #33 Post-Mortem: Hollywood heist competency bias (Pierre's trash   │
+  │   tantrum) and polite consent sanitization (Dravin seizing Alfie).    │
+  │ • The "Character Dogma" Trap: Prohibiting universal psychology rules   │
+  │   in favor of line-level transcript assertions.                        │
+  │ • The Destructive OOC Amputation Trap: Inverting the OOC presumption   │
+  │   so table lore and player deductions are never thrown into the trash. │
+  │ • Rotten Tomatoes Critic UI overhaul: Tomatometer vs Popcornmeter,     │
+  │   Campaign Trajectory & Arc Impact, and Chapters Modal integration.    │
+  └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ⚖️ How We Maintain Independence, Objectivity & Determinism
+## 3. Comprehensive Failure Point Catalog (FP-01 Through FP-20)
 
-### 1. Separation of Concerns (Adversarial Decoupling)
-* **The Drafter Never Grades Its Own Paper:** The LLM agents that draft or compress scenes do not write the verification scripts or pass/fail decisions.
-* **Deterministic Mathematical Assertions:** Automated gates ([`verify_parity.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/verify_parity.py), [`audit_semantic_grounding.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/audit_semantic_grounding.py), [`verify_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/verify_manifest.py), [`verify_alternate_scene.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/verify_alternate_scene.py)) run pure Python algorithms with zero model hallucinations:
-  $$	ext{Rendered Turns} \cup 	ext{Skipped Turns} = 	ext{All Expected Dialogue Turns}$$
-  $$	ext{Rendered Turns} \cap 	ext{Skipped Turns} = \emptyset$$
-  Every single line in the raw transcript must be mathematically accounted for in monotonic sequence.
+Every failure mode below represents a hard-won engineering lesson. The pipeline must actively prevent their recurrence.
 
-### 2. Zero Hallucination & Anti-Drift Guardrails
-* **High-Risk Foreign Prop Checker:** Flags any modern or foreign object introduced into prose that does not exist in the raw transcript window (e.g., cars, helicopters, trucks, laptops, smartphones).
-* **Suspicious Cluster Skip Detection:** Automatically halts the pipeline if $\ge 5$ consecutive spoken lines are marked as `(ooc)` skips without justification, ensuring that casual character banter and worldbuilding cannot be silently dropped.
-* **Semantic Token Overlap:** For every rendered marker `<!-- Lxxxx -->`, the auditor computes the set intersection of lemmatized, non-stopword tokens between the prose paragraph and a 7-line window in the raw transcript. If token overlap is 0, the build fails with `UNGROUNDED TURN`.
+### 🛑 FP-01: Abstract Storyboard Tropification (The "Hollywood Heist" Trap)
+* **The Failure:** During early indexing or drafting, an LLM summarizes a messy, chaotic roleplay segment using a generic cinematic trope (e.g. *"The party executes a coordinated heist"*). Downstream drafting models gravitate toward the trope, hallucinating laser grids, glass cutters, conspiratorial winks, and synchronized teamwork where none existed.
+* **Historical Breach:** Session 3 museum entry; Session 5 Pierre framed as running a "coordinated distraction" with "French diplomacy" while Dravin steals keys.
+* **Table Ground Truth:** Pierre (Luke S) was throwing an authentic Parisian fit over classical masonry being placed next to an olive-drab plastic trash bin with pigeon droppings. Dravin merely opportunistically pickpocketed keys while Pierre shouted.
+* **Permanent Invariant:** Manifests and scene blocks must record the **exact declared player mechanism**, never generic movie tropes. No synthetic collusion or heist teamwork may be added if players acted on independent impulses.
 
-### 3. The 3-Gate Deterministic Alternate Scene Verifier (`verify_alternate_scene.py`)
-For Track B (Authorial Cut scenes), we avoid non-deterministic sentiment analysis or arbitrary statistical thresholds. The verifier enforces 3 deterministic checks:
-1. **Gate 1: Entity & Relic Anchor Coverage:** Asserts that 100% of active PCs, NPCs, and scene relics (e.g. "daughter's card", "cucumber mask", "pancakes", "limestone") from the archival scene appear in the alternate cut.
-2. **Gate 2: Leak, Slang & Foreign Prop Scanner:** Reuses `LeakDetector`, `LoreGuardian`, and `HIGH_RISK_FOREIGN_PROPS` to guarantee zero modern realia or mechanics jargon.
-3. **Gate 3: Span Provenance & Compression Integrity:** Validates that `<!-- Lxxxx-Lyyyy -->` spans are monotonically increasing, cover the scene boundary, and do not completely silence any active character from the conversation.
+### 🛑 FP-02: "Polite Consent" Sanitization of Unilateral Force
+* **The Failure:** LLMs have an innate bias toward cozy collaboration. When a player declares an aggressive, jarring, or non-consensual physical action, the model instinctively softens it—inserting mutual nods, tender glances, or unspoken understanding to make the protagonist "likeable."
+* **Historical Breach:** Session 5 Scene 10: Dravin was written as *"glancing down tenderly at Alfie; Alfie nodded solemnly"* before entering the 1948 trial vision.
+* **Table Ground Truth:** Dravin never asked. William Webb simply declared that Dravin seized Alfie around the waist and smashed him face-first into the iron binder, while Alfie kicked and shouted *"Not again! Not me again!"* in sheer terror.
+* **Permanent Invariant:** Player mechanical declarations involving force, grabbing, or unilateral action must be staged with **unflinching physical friction**. Mutual consent must never be inserted where the table had none.
 
-### 4. Downstream Verbatim Contract
-* Downstream readers (`dndwikis`, EPUB readers, ElevenLabs TTS pipelines) require exact speaker coloring, line provenance, and sub-block segmentation without risking text mutation.
-* **The 100% Verbatim Invariant:**
-  $$\sum_{s \in \text{block.segments}} s.\text{text} \equiv \text{block}.\text{text}$$
-  Decomposing a paragraph into `"narration"` and `"dialogue"` must reconstruct the original block character-for-character, preserving exact whitespace, em-dashes, and punctuation.
+### 🛑 FP-03: The Destructive OOC Amputation Trap (Lore Erasure)
+* **The Failure:** Over-aggressive "Out-of-Character" filters that treat casual table conversational syntax as "OOC trash," dumping critical GM worldbuilding, timeline clues, and player deductions into the skipped ledger.
+* **The Reality:** 70% of the deepest campaign lore is spoken in casual conversational voice at the table (e.g. the GM explaining timeline ink variants; players deducing faction conspiracies).
+* **The Architectural Rule:** **Being too soft on OOC is far less damaging than being too aggressive.** Casual table chatter naturally gets abstracted into narrative description and action during prose translation. But when lore is cut at the intake, it is deleted from the novel forever.
+* **Permanent Invariant (The Inclusive Fiction Law):** Every line touching the game is **Tier B (Worldbuilding, Action Intent, Deduction)** by default. Only pure real-world logistics (mic checks, pizza, Wi-Fi, calendar dates) can be marked Tier C. If a skipped line contains canon entity nouns (*Thorne, Reductor, Gorgon, 1948, binder*), `verify_parity.py` immediately halts with a fatal build error.
 
-#### 5. The Zero-Regex Dialogue & Origin-Time Provenance Law
-* **Origin-Time Invariant:** Dialogue classification and speaker identities are established **at creation time** during transcript cleaning/indexing (`sN-raw-indexed.md` / `sN-session-config.json`) and prose drafting (`<!-- Lxxxx -->`).
-* **Zero Post-Hoc Guesswork:** Compilers, TTS generators, and manifest builders must **NEVER** use regex, speech-verb parsers, or text searches on prose to infer who spoke.
-* **Direct Provenance Lookup:**
-  - In archival and creative blocks, text inside quotes (`"..."`) derives its speaker identity directly from the attached line anchor (`<!-- Lxxxx -->` or span `<!-- Lxxxx-Lyyyy -->`) mapped against `sN-session-config.json` and `sN-raw-indexed.md`.
-  - Text outside quotes is unconditionally `speakerId: "narrator"`.
-* **Session Config Dialogue Dictionaries:** When the Game Master voices NPCs at the table, explicit `dialogue_speakers` dictionaries in `sessions/config/sN-session-config.json` map specific raw line numbers and block overrides to canonical character IDs (`gordon`, `nincy`, `attendant`, `mike`, `theodore`, `naomi`, `rosa`, `fates`, `clerk`, `anna`).
-* **Line Marker Propagation:** In contiguous multi-paragraph dialogue turns where secondary paragraphs omit markers (to avoid duplicate markers in `verify_parity.py`), `generate_web_manifest.py` propagates the active `sourceLine` forward, ensuring that dialogue segments never have `sourceLine: null` or default to `"narrator"`.
-* **Schema 2.0 Invariant 6 Enforcement:** [`verify_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/verify_manifest.py) mathematically asserts that 100% of segments with `type: "dialogue"` have `speakerId != "narrator"`, an integer `sourceLine > 0`, and a valid `#RRGGBB` hex color in `CHARACTER_REGISTRY`.
+### 🛑 FP-04: The "Character Dogma" Trap (Universal Psychology Rules)
+* **The Failure:** When a narrative error is caught, reacting by inventing sweeping, universal behavioral laws (e.g. *"Rule 1: Pierre will never leave Dravin alone"*).
+* **The Flaw:** This mistakes a specific causal event in a specific scene for a permanent character constraint. Characters are dynamic, emergent, and messy; imposing artificial psychological absolutes paralyzes future authoring and ignores the actual transcript.
+* **Permanent Invariant (Line-Level Grounding):** Never write universal behavioral dogma rules. Write **Line-Level Provenance Assertions** that verify whether the prose honors what was actually declared on that specific turn in the audio.
 
----
+### 🛑 FP-05: The "Local Patching" Amnesia Loop & The Zero-Regex Law
+* **The Failure:** Whenever a dialogue speaker was misattributed on the web reader, agents added an alias to `SPEAKER_ALIASES` or a verb to `speech_verbs`, saw the local test pass, and declared victory. This reinforced the broken premise that downstream tools should use regex to "guess" who spoke.
+* **Permanent Invariant (Section 2.1 of AGENTS.md):**
+  * Speaker attribution is established **at creation time** in `sN-session-config.json` and inline markers (`<!-- Lxxxx:speaker -->`).
+  * Downstream tools (`generate_web_manifest.py`, TTS generators, EPUB compilers, Web Readers) must **NEVER** use regex, speech-verb parsers, or name searches on prose to infer or guess who is speaking.
+  * Quoted text derives its speaker directly from the line anchor. Text outside quotes is unconditionally `speakerId: "narrator"`.
 
-## 🔍 Post-Mortem & Failures Experienced (Cross-Referenced with [`CRITIQUE_LOG.md`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md))
+### 🛑 FP-06: The "Hollow Test" Trap (The 4-Character Loophole & Whitelists)
+* **The Failure:** Tests that verify file existence, line arithmetic, or trivial string overlaps while completely missing semantic reality.
+  * *The 4-Character Stem Loophole:* `audit_semantic_grounding.py` matching `rw[:4] == pw[:4]` allowed `star` to match `startled`, yielding 100% false green passes on completely ungrounded scenes.
+  * *The 12-String Whitelist:* `verify_parity.py` checking only 12 hardcoded vehicle strings (`truck`, `ford`, `chevy`), missing any other invented tech.
+  * *Silent Zero-Exits:* `critique_prose.py` printing `EDITORIAL CORRECTION REQUIRED` but exiting with code 0, allowing broken prose to sail through the pipeline.
+* **Permanent Invariant:** Every gate must be genuinely adversarial. Exact morphological token matching with inflection stripping replaces stem slicing. Linters must `sys.exit(1)` on failures.
 
-Our pipeline hardened through resolving real-world failures tracked in [`CRITIQUE_LOG.md`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md) and [`sessions/data/critiques/CRITIQUE_LOG.md`](file:///d:/Code/dnd-scribe/sessions/data/critiques/CRITIQUE_LOG.md):
+### 🛑 FP-07: The "Integer Illusion" (Synthetic Line Stamping)
+* **The Failure:** When a drafting agent hallucinates prose, it blindly appends a line number from the scene range (e.g., `<!-- L1620 -->`) so that the arithmetic in `verify_parity.py` balances.
+* **Permanent Invariant:** Markers can only be attached to paragraphs containing the actual speaker's words or declared actions. Semantic token overlap checks verify that the prose shares vocabulary with the raw speaker turn.
 
-### 1. The "Green Ford Truck" Infiltration Failure (Session 3)
-* **Reference:** [`CRITIQUE_LOG.md: PR Record #002`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L35-L56)
-* **Failure Mode:** In early drafting, an upstream agent hallucinated the party driving a modern green Ford farm truck on an asphalt highway to Raleigh, completely erasing the canonical interdimensional travel.
-* **Tabletop Ground Truth:** The party entered the **Lost Roads via Theodore's maintenance shed**, met **Ally (Maiden of Persephone)**, and emerged inside the **North Carolina Museum of History broom closet**.
-* **Remediation & Permanent Gate:**
-  - Added the `HIGH_RISK_FOREIGN_PROPS` filter in [`audit_semantic_grounding.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/audit_semantic_grounding.py) scanning for modern anachronisms (`"truck"`, `"ford"`, `"chevy"`, `"smartphone"`).
-  - Added Tier B Lore Drop tracking (`tier_b_pattern`) to prohibit skipping critical keywords (`"lost roads"`, `"maintenance shed"`, `"limestone stele"`).
+### 🛑 FP-08: Stale Entity Carryover Across Setting Boundaries
+* **The Failure:** Reusing global character keys across different geographic locations (e.g. attributing the Pennsylvania university department host in S5 to `attendant`, a museum employee from North Carolina in S3).
+* **Permanent Invariant:** `verify_parity.py` validates that all character keys belong strictly to that session's declared local setting in `sN-session-config.json`.
 
-### 2. Speech-to-Text Phonetic Accent Mergers (Session 1 & Session 3)
-* **References:** 
-  - *Versailles to Paris:* [`CRITIQUE_LOG.md: PR Record #001`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L19-L32)
-  - *Nincy vs. Nancy:* [`sessions/data/critiques/CRITIQUE_LOG.md: PR Record #003`](file:///d:/Code/dnd-scribe/sessions/data/critiques/CRITIQUE_LOG.md#L9-L24)
-* **Failure Mode:** Automatic speech-to-text transcribed Pierre saying *"Versailles to Brittany"* because of hard French phonemes (*"Pair-ey"*), and transcribed the museum receptionist as *"Nancy"* despite her explicit dialogue: *"Nincy with an I... N-I-N-C-Y... Some people with my accent, they don't hear."*
-* **Remediation & Permanent Gate:**
-  - Created [`audit_transcript_gaps.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/audit_transcript_gaps.py) to harvest self-referential spelling patterns (`"with my accent"`, `"N-I-N-C-Y"`).
-  - Introduced `PHONETIC_ALIASES` in [`audit_semantic_grounding.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/audit_semantic_grounding.py) so legitimate phonetic corrections pass semantic grounding with 100% confidence.
+### 🛑 FP-09: Chronological Inversion at Thresholds (Visions & Combat)
+* **The Failure:** Struggling to stage simultaneous actions (e.g., an internal psychic vision ending while external enemies kick down doors), resulting in flattened sequential prose that scrambles triggers and consequences.
+* **Historical Breach:** S5 Scene 10: Dravin whispering *"Sorry, Alfie"* after combat started, rather than before slamming him into the binder to trigger the vision.
+* **Permanent Invariant:** Causality must flow strictly: Trigger $\rightarrow$ Sensory Manifestation $\rightarrow$ Consequence $\rightarrow$ Reaction.
 
-### 3. Micro-Chapter Fragmentation & Pacing Collapse (Session 2 & Session 3)
-* **References:** 
-  - *Micro-Chapter Bloat:* [`sessions/data/critiques/CRITIQUE_LOG.md: PR Record #003`](file:///d:/Code/dnd-scribe/sessions/data/critiques/CRITIQUE_LOG.md#L23)
-* **Failure Mode:** Every 100-line scene block originally declared a `## CHAPTER` header. This fragmented single narrative conversations into 10–12 micro-chapters (some under 60 words), destroying reading momentum.
-* **Remediation & Permanent Gate:**
-  - Added Chapter Pacing & Word Count gates in [`novel/generate_epub.py`](file:///d:/Code/dnd-scribe/novel/generate_epub.py) and [`sessions/_scripts/harness/macro_auditor.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/harness/macro_auditor.py).
-  - Emits **`[MICRO_CHAPTER_FRAGMENTATION]`** for chapters $< 250$ words and **`[EXCESSIVE_CHAPTER_SPLIT]`** for sessions with $> 6$ chapters.
-  - Successfully consolidated Session 2 and Session 3 into 3 breathing novel chapters each (averaging 2,000–3,000 words).
+### 🛑 FP-10: Multi-Speaker Paragraph Fusion & Dialogue Color Bleed
+* **The Failure:** Bundling multiple character actions or lines into a single paragraph causes manifest builders and TTS engines to assign the entire block to one speaker (e.g., Alfie's *Mage Hand* action colored blue as Pierre).
+* **Permanent Invariant (One Speaker Turn Per Paragraph):** Every change in speaking character or distinct character action focus requires its own dedicated markdown paragraph.
 
-### 4. False Uncoupling from Unicode Ligatures & Missing Tags
-* **Failure Mode:** Raw transcripts generated with Unicode ligatures (`ﬁ` for $\text{fi}$, `ﬂ` for $\text{fl}$) caused string comparisons to fail on common words like `"figure"`, falsely triggering `UNGROUNDED TURN`. Additionally, players speaking without `(PC/NPC)` tags (e.g. `**Luke Foreman:**`) were ignored by older regex patterns.
-* **Remediation:**
-  - Upgraded [`clean_lines()`](file:///d:/Code/dnd-scribe/sessions/_scripts/audit_semantic_grounding.py#L40-L50) to normalize all input text with `unicodedata.normalize("NFKD", ...)`.
-  - Expanded dialogue regex to capture all player/GM speech patterns: `^\*\*([^*]+?)(?:\s*\((PC|NPC)\))?:\*\*\s*(.+)$`.
+### 🛑 FP-11: 3rd-Person Player Intent Leaking into Spoken Dialogue
+* **The Failure:** Wrapping players' 3rd-person table descriptions (*"Alfie is shook to his wooden core"*, *"Pierre thinks Gorgons are French"*) in quotation marks, making characters bizarrely narrate their own emotions in the 3rd person like sportscasters.
+* **Permanent Invariant:** 3rd-person descriptions must be novelized as Narrator Prose / physical blocking. Quotation marks are strictly reserved for 1st/2nd-person in-world utterances.
 
-### 5. Academic Architecture Theater & Broken Test Harness Foundation
-* **Failure Mode:** Early design proposals included speculative "TF-IDF character voice affinity $\ge 0.85$" and "sentiment arc trajectory" gates that were non-deterministic and required an LLM to evaluate its own output. Meanwhile, the actual unit test runner (`test_harness.py`) was broken with `ModuleNotFoundError` due to malformed import paths (`sessions.scripts` vs `sessions._scripts`).
-* **Remediation:**
-  - Fixed Python packaging structure (`sessions/__init__.py`, `sessions/_scripts/__init__.py`) and bootstrapped `sys.path`.
-  - Replaced speculative gates with the lean, deterministic 3-gate verifier (`verify_alternate_scene.py`).
-  - Expanded test suite to 12 unit tests passing 100% in 0.024s.
+### 🛑 FP-12: Silent Speaker Fallback to Narrator on GM-Voiced NPCs
+* **The Failure:** Because the GM voices all NPCs, raw transcripts attribute lines to the GM (`Luke Foreman`). If unmapped, quoted dialogue silently defaulted to `speakerId: "narrator"` and displayed as gray narrator text.
+* **Permanent Invariant (Invariant 6):** `verify_manifest.py` mathematically asserts that 100% of segments with `type: "dialogue"` have `speakerId != "narrator"`, integer `sourceLine > 0`, and a valid `#RRGGBB` hex color.
 
-### 6. Third-Person Player Intent Leaking into Spoken Dialogue (Session 4)
-* **Reference:** [`CRITIQUE_LOG.md: PR Record #004`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L20-L28)
-* **Failure Mode:** Players narrate their character's emotions, theories, or mechanical actions in the 3rd person at the table (e.g., Sophie: *"Alfie is absolutely shook to his wooden core"* [L0390]; Luke: *"Pierre believes all Gorgons are essentially French..."* [L0459]). Drafting models wrapped these descriptions in quotation marks as spoken dialogue, resulting in characters bizarrely narrating their own internal state in the 3rd person.
-* **Remediation & Permanent Gate:**
-  - Enforced the **3rd-Person Table Intent vs. In-World Spoken Dialogue Barrier**: Player 3rd-person narrations must be novelized as Narrator Prose / physical blocking, strictly reserving quotation marks (`"..."`) for 1st/2nd-person in-world utterances.
-  - Added 3rd-person self-reference pattern linter to `critique_prose.py`.
+### 🛑 FP-13: Phonetic Transcription Drift & Regional Accents
+* **The Failure:** Speech-to-text engines corrupting dialect names (French *"Pair-ey"* $\rightarrow$ *"Brittany"*; Southern *"Nincy"* $\rightarrow$ *"Nancy"*), breaking character identity.
+* **Permanent Invariant:** Explicit phonetic aliases in session configs and semantic grounding tools.
 
-### 7. Multi-Speaker Paragraph Fusion & Dialogue Color Monopoly (Session 3 & Session 4)
-* **References:**
-  - *Curator Dialogue Bleed:* [`CRITIQUE_LOG.md: PR Record #005`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L20-L28)
-  - *Alfie / Pierre Action-Dialogue Fusion:* [`CRITIQUE_LOG.md: PR Record #004`](file:///d:/Code/dnd-scribe/CRITIQUE_LOG.md#L26-L28)
-* **Failure Mode:** Bundling multiple character actions or lines into a single paragraph (e.g., Alfie's *Mage Hand* pot drop followed by Pierre's attendant dialogue; Alfie trying on a souvenir trucker hat followed by Pierre's dragon inquiry) causes the manifest builder to assign the whole block to a single speaker. On the Web Reader and ElevenLabs TTS, this turns Alfie's action into Pierre's blue speech bubble or voice.
-* **Remediation & Permanent Gate:**
-  - Enforced the **One Speaker Turn Per Paragraph Invariant**: Every change in speaking character or character action focus requires its own dedicated markdown paragraph.
-  - Upgraded [`generate_web_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/generate_web_manifest.py) with granular segment parsing and alias fallback mappings for NPCs (`attendant`, `fates`, `nincy`).
+### 🛑 FP-14: Micro-Chapter Fragmentation & Word-Count Floors
+* **The Failure:** Generating a new `## CHAPTER` for every 100-line processing block, fragmenting the story into 12 tiny 200-word snippets and destroying reading momentum.
+* **Permanent Invariant:** Modular 100-line blocks are decoupled from thematic novel chapters. EPUB compilers enforce a minimum chapter floor ($\ge 350$ words) and flag sessions with $> 6$ chapters.
 
-### 8. Silent Speaker Fallback to Narrator on GM-Voiced NPCs (Sessions 1-4)
-* **Failure Mode:** The Game Master voiced all NPCs in the raw transcripts (`**Luke Foreman:** "..."`). Because `load_raw_indexed_speakers` mapped `Luke Foreman` to `"narrator"`, quoted NPC dialogue silently inherited `speakerId: "narrator"` and displayed as gray narrator text in the web reader.
-* **Remediation & Permanent Gate:**
-  - Implemented origin-time `dialogue_speakers` dictionaries in `sessions/config/sN-session-config.json` linking GM line numbers to canonical character keys.
-  - Added Invariant 6 automated gate in [`verify_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/verify_manifest.py) asserting that every segment with `type: "dialogue"` has `speakerId != "narrator"`, integer `sourceLine > 0`, and a valid `#RRGGBB` hex color.
+### 🛑 FP-15: Mechanics-As-Dialogue (Anime Spell Shouts)
+* **The Failure:** Characters shouting literal D&D game rules (*"Chill Touch!"*, *"Toll the Dead!"*, *"I cast Wordcraft!"*) as battle cries.
+* **Permanent Invariant:** Game mechanics must be translated into sensory manifestations (somatic gestures, atmospheric pressure drops, smell of ozone, resonance of iron), stripping dice math and spell names.
 
-### 9. Permissive Prefix Matching Masking Ungrounded Turns (The 4-Character Loophole)
-* **Failure Mode:** `audit_semantic_grounding.py` previously checked `rw[:4] == pw[:4]`, causing any word sharing a 4-letter prefix to count as grounded (e.g. `star` matching `startled`, `with` matching `within`), yielding false 100% passes while masking completely ungrounded turns (e.g., S2 Scene 7 L1161 and L1249).
-* **Remediation & Permanent Gate:**
-  - Replaced the prefix check with exact token matching, inflectional suffix stripping (`-ing`, `-ed`, `-es`, `-ly`, `-tion`), and English consonant de-doubling (`dropp` $\rightarrow$ `drop`).
-  - Added multi-marker span window expansion (`min(markers)-4` to `max(markers)+5`) for fused paragraph turns.
+### 🛑 FP-16: Spatial & Physical Misplacement
+* **The Failure:** Translating an interdimensional doorway as leading directly into an interior room rather than an exterior outbuilding, making physical character actions (like propping open an exterior door) nonsensical.
+* **Permanent Invariant:** The GM's initial environmental description sets the physical coordinate system.
 
-### 10. Hollow Parity Whitelists & Concrete Modern Realia Grounding
-* **Failure Mode:** `verify_parity.py` previously audited an arbitrary 12-string vehicle whitelist that missed real-world props or produced false positives when transcript abbreviations were used (e.g., flagging `television` when raw transcript had `TV`, or flagging `airplane` when raw transcript had `flight 422`).
-* **Remediation & Permanent Gate:**
-  - Expanded `SUSPECT_VEHICLES_AND_TECH` across modern realia (`elevator`, `keycard`, `sedan`, `suv`, `laser`, `airplane`, `jetliner`, `cellphone`, `television`, `computer`, `satellite`).
-  - Integrated `TECH_RAW_GROUNDING` semantic token aliases mapping prose terms back to transcript anchors.
+### 🛑 FP-17: Premature Resolution & Cliffhanger Erasure
+* **The Failure:** LLMs feeling pressure to "wrap up" chapters neatly with characters returning safely home, erasing raw table cliffhangers (e.g. sirens blaring, security gates slamming).
+* **Permanent Invariant:** A scene block must terminate at the exact final tabletop turn declared in the index.
 
-### 11. Silent Zero-Exit Code in Developmental Editor / Prose Critic
-* **Failure Mode:** `critique_prose.py` hardcoded a "PASS" in summary rows and exited with code 0 even when critical review issues occurred, allowing unaddressed editorial flaws to pass downstream.
-* **Remediation & Permanent Gate:**
-  - Upgraded `main()` to exit with `sys.exit(1)` on critical review failures.
-  - Removed false positive on `"blinked"` in stutter detection.
-  - Synchronized character voice telemetry with active Margin characters.
+### 🛑 FP-18: Raw Markdown Syntax Leaks
+* **The Failure:** Raw formatting tokens (`***STALE.***`, `### Header`, `__bold__`) escaping into novel manuscript prose.
+* **Permanent Invariant:** Automated syntax regex linter in `critique_prose.py` scanning for unparsed markdown tokens in published prose.
 
-### 12. Speaker Misattribution via Marker Drag & Missing-Marker Fallback (Session 5)
-* **Failure Mode:** In Session 5, 6 scene blocks suffered speaker misattributions (e.g. Block #8 having `pierre` speaking in prose but attributed to `dravin` in the manifest; Block #153 having `alfie` speaking in prose but attributed to `attendant`).
-  - *Mechanism 1 (Marker Drag / Turn Inversion):* When Character A replies to Character B, attaching Character B's line marker (`<!-- L0120 -->`) or inverting markers caused the origin lookup in `generate_web_manifest.py` to blindly attribute Character A's line to Character B.
-  - *Mechanism 2 (Missing Marker Fallback):* When a dialogue paragraph omitted a marker (to satisfy strict non-duplicate rules), `generate_web_manifest.py` fell back to `last_source_line` from a previous turn, silently inheriting an unrelated speaker (e.g. Alfie inheriting the museum attendant's line marker).
-  - *Mechanism 3 (The Hollow Non-Narrator Gate):* `verify_manifest.py` asserted that `speakerId != "narrator"`, which verified that a quote had *a* speaker, but completely failed to verify whether the assigned speaker matched the character named in the prose dialogue tag.
-* **Remediation & Permanent Gates:**
-  1. **Dual-Layer In-Text Dialogue Tag Verification:** Upgraded [`generate_web_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/generate_web_manifest.py) with `detect_in_text_dialogue_speaker()`, checking unambiguous dialogue verbs and speech tags (`Pierre murmured`, `Eusacles asked`, `Alfie whispered`) before accepting an antecedent marker.
-  2. **Automated Manifest Invariant 4:** Added Invariant 4 to [`verify_manifest.py`](file:///d:/Code/dnd-scribe/sessions/_scripts/verify_manifest.py), asserting semantic tag consistency. If the manifest assigns `speakerId: "dravin"` to a paragraph containing `"Pierre muttered"`, `verify_manifest.py` immediately throws a hard `SPEAKER MISATTRIBUTION` error and halts with exit code 1.
+### 🛑 FP-19: Setting-Blunt Vocabulary Blacklists
+* **The Failure:** Leak detectors blindly flagging real in-universe modern props (e.g. an aisle `microphone` in a modern Pennsylvania university amphitheater) because the blacklist was designed for medieval high fantasy.
+* **Permanent Invariant:** Setting-aware dielectric profiles distinguishing modern world realia from out-of-character tabletop technical chatter (`zoom`, `wi-fi`, `discord`, `dice`).
 
-### 13. The Adaptation Boundary Law & Editorial Pushback Protocol
-* **The Core Tension:** Traditional developmental editors and adversarial critics review prose as if it were a clean-slate original novel. They inevitably demand:
-  - Deep philosophical interiority when a character receives a major revelation (e.g., Dravin learning Persephone is his mother).
-  - Equal screen time and proactive agency for quiet players (e.g., eliminating Alfie's "luggage syndrome" while the player was passive).
-  - Dramatic conflict and plot events injected into low-stakes travel turns.
-* **The Law of Adaptation Boundary:**
-  - Tabletop novelization is an **adaptation of real-world collaborative human play**, not an ungrounded generative sandbox.
-  - If satisfying an editorial critique requires fabricating extensive net-new plot events, inventing unplayed dialogue, or inventing complex interior character arcs that never occurred at the table, **the agent MUST push back**.
-  - Retroactively inventing major emotional decisions or plot developments creates devastating continuity breaks with future sessions (e.g. if the adapter invents deep angst about Persephone, but William Webb plays Dravin in Session 6 as entirely carefree or in denial).
-* **The Pushback Protocol:**
-  - **Track A (Tabletop Cut):** Remains 100% anchored to the transcript, honoring table silence, natural banter, and actual player pacing.
-  - **Track B (Cinematic Cut):** Condenses dead air, heightens atmosphere, and stages physical action, but *strictly stops* at the boundary of player intent.
-  - **Formal Editorial Pushback:** When a critique exceeds this boundary, the agent logs an official pushback statement:
-    > *"Pushback: In order to adjust the narrative to satisfy this critique, the model would have to invent so much net-new content that it deviates from the tabletop ground truth and risks pre-empting or contradicting player choices in future sessions. This critique has been transferred to the **Upcoming Session Continuity Briefing** (`s(N+1)-context-briefing.md`) for the GM and players to address at the table, or recorded as a tabletop retcon requirement."*
+### 🛑 FP-20: The Adaptation Boundary Law & Editorial Pushback Protocol
+* **The Failure:** Developmental editors demanding extensive net-new interior character arcs, equal dialogue share for passive players, or dramatic conflict during quiet travel turns.
+* **The Core Tension:** Tabletop novelization is an **adaptation of collaborative human play**, not an ungrounded generative sandbox. Inventing unplayed emotional decisions creates devastating continuity breaks with future sessions.
+* **Permanent Invariant:**
+  * **Track A:** 100% faithful to table pacing, silence, and banter.
+  * **Track B:** Pacing compression stops strictly at the boundary of declared player intent.
+  * When a critique demands fabricating net-new plot or pre-empting future player choices, the agent **must log a formal Editorial Pushback Statement** rather than inventing fiction.
 
 ---
 
-## 🎯 Downstream Artifact Contracts
+## 4. The 7 Non-Negotiable Pipeline Invariants (The Engine Laws)
 
-| Downstream Target | Primary File | Schema / Invariants Enforced |
-| :--- | :--- | :--- |
-| **Web Manifest Engine** | `sessions/data/index/sN-manifest-v2.json` | Schema 2.0 with sub-block `segments[]`. Decomposes mixed text into `"dialogue"` and `"narration"`. Invariant 6 asserted by `verify_manifest.py`: 0 narrator dialogue turns, integer `sourceLine > 0`, 100% character registry hex color matches, and exact verbatim text reconstruction check. |
-| **EPUB Publishing** | `novel/the-margin-book-1-*.epub` | Dual editions (Illustrated & Text-Only). Strict chapter word count floors ($\ge 350$ words). Valid XHTML EPUB3 navigation. |
-| **Audiobook & TTS Engine** | ElevenLabs Speech Pipeline | Granular speaker tagging per segment (`speakerId`). Exact quote boundary isolation eliminates cross-talk in multi-voice synthesis. |
-| **Critique & Diff Inspector** | `dndwikis` / Web Diff Inspector | Monotonic line anchoring (`L0001`–`L9999`) and coarse line spans (`L0900-L0922`) allow readers to inspect side-by-side diffs between raw audio, archival prose, and authorial adaptations. |
+1. **Law 1: The Zero-Regex Provenance Law (AGENTS.md §2.1):** Speaker attribution is established at origin time via line markers mapped to session config. Downstream tools never use regex to infer speakers.
+2. **Law 2: Monotonic Line Coverage & Zero Unanchored Quotes (Track A):** Line markers must appear in strictly ascending order (`inline_markers[i] < inline_markers[i+1]`). Quoted dialogue without trailing line markers is strictly illegal in Track A.
+3. **Law 3: 100% Raw Line Ledger Accounting:** Every line in `sN-raw-indexed.md` must be accounted for as `rendered` or `skipped` ($\text{rendered} \cup \text{skipped} = \text{total}$; $\text{rendered} \cap \text{skipped} = \emptyset$).
+4. **Law 4: The Inclusive Fiction Law:** Every line touching the game is Tier B by default. Only real-world logistics can be skipped as Tier C. Skipped turns containing canonical lore nouns trigger immediate fatal build errors.
+5. **Law 5: The Line-Level Grounding Law:** Never assert universal character dogmas. Assert line-level fidelity against declared player turns.
+6. **Law 6: The Unflinching Staging Law:** Unilateral physical force and inter-party friction must never be softened into polite mutual consent or synthetic heist collusion.
+7. **Law 7: The Adaptation Boundary Law:** Tabletop canon is fixed. When editorial critique demands fabricating unplayed plot or pre-empting player choices, log an official pushback statement.
+
+---
+
+## 5. Verification Suite Architecture & Tool Matrix
+
+```
+  ┌────────────────────────────────────────────────────────┐
+  │ 1. verify_parity.py sN                                 │
+  │    • Monotonic line ordering in Track A.               │
+  │    • Zero unanchored dialogue quotes.                  │
+  │    • 100% Ledger parity (rendered + skipped = total).  │
+  │    • Canon noun check on skipped lines (Anti-Lore Drop)│
+  │    • Setting-scoped entity validation (Anti-Stale NPC).│
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 2. verify_intent_parity.py sN                          │
+  │    • Validates against sN-intent-contract.json.        │
+  │    • Zero sanitized consent on unilateral force.       │
+  │    • Zero synthetic heist collusion on friction beats. │
+  │    • Faction & prop terminology fidelity.              │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 3. macro_auditor.py sN                                 │
+  │    • PC Sensory & physical register checks.            │
+  │    • Cold-reader lore & grounding anchors.             │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 4. critique_prose.py sN                                │
+  │    • Setting-aware dielectric tech linter.             │
+  │    • Zero raw markdown typography leaks.               │
+  │    • Zero talking-head stagnant scenes.                │
+  │    • Zero robotic speech tag stutters.                 │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 5. generate_web_manifest.py sN                         │
+  │    • Origin-time sub-block segment decomposition.      │
+  │    • 100% verbatim reconstruction invariant.           │
+  │    • Injects dynamic editorial forum & scorecards.     │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 6. verify_manifest.py sN                               │
+  │    • Exact SHA-256 block tiling.                       │
+  │    • Invariant 6: 0 narrator dialogue turns, integer   │
+  │      sourceLine > 0, 100% hex color match.             │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 7. novel/generate_epub.py                              │
+  │    • Dual Edition EPUB Assembler (Illustrated & Text). │
+  │    • Minimum chapter word count floor (>= 350 words).  │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ 8. dndwikis-main/build_ebooks.py                       │
+  │    • Consumes manifest editorial forum dynamically.    │
+  │    • Renders Dual Rotten Tomatoes scorecards.          │
+  │    • Interactive Chapters modal with Critic chapter.   │
+  │    • Side-by-side synchronized Diff Inspector.         │
+  └────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 6. Session 6+ Production Runbook & Pre-Flight Checklist
+
+Before drafting any session:
+1. **Index & Clean:** Generate `sN-raw-indexed.md` with immutable `L####` line numbers.
+2. **Configure Entities & Contract:** Create `sN-session-config.json` with local NPCs and `sN-intent-contract.json` declaring:
+   - *Unilateral Actions* (e.g. Dravin grabbing Alfie $\rightarrow$ forbid polite consent).
+   - *Friction Points* (e.g. Pierre's architectural outrage $\rightarrow$ forbid coordinated heist).
+   - *Mandatory Lore Reveals* (e.g. altered 1948 trial ledger ink).
+3. **Draft Dual Tracks:**
+   - **Track A (`blocks/`):** 100% monotonic line coverage, zero unanchored quotes, Tier B lore novelized into prose.
+   - **Track B (`blocks_authorial/`):** Compacted set-pieces, coarse line spans, bound by Intent Contract.
+4. **Run Full Verification Pipeline:**
+   ```powershell
+   python sessions/_scripts/run_publishing_pipeline.py sN
+   ```
+5. **Compile Web Readers & Inspect Diffs:**
+   ```powershell
+   python dndwikis-main/build_ebooks.py
+   ```
+   Open `uneraseable-sN.html` and verify the Chapters modal, Rotten Tomatoes dual cards, and synchronized Diff Inspector.
+
+---
+
+## 7. The Anti-Sycophancy & Active Trade-Off Principle
+
+```
+  ┌────────────────────────────────────────────────────────┐
+  │ THE FRICTIONLESS "ALL PASS" ILLUSION (SYCOPHANCY BUG)   │
+  │ A test harness that only prints green checkmarks hides  │
+  │ editorial compromises and creates false confidence.    │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ THE EDITORIAL TRADE-OFF & TENSION DECISION LEDGER      │
+  │ • Reader Reception Polarization (Tomatometer vs Popcorn)│
+  │ • Explicit Human Whitelist Sign-Offs (Skipped Lore)    │
+  │ • Turn Fusion Density (Paragraph Marker Pile-Ups)      │
+  │ • Stance Costs (Compression vs Slice-of-Life Humor)    │
+  │ • Active Editorial Vulnerability Watchlist             │
+  └────────────────────────────────────────────────────────┘
+```
+
+1. **Every Novelization Incurs Real Costs:**
+   You cannot compress a 3-hour tabletop recording (1,200+ raw lines) into a tight 10,000-word chapter without making painful sacrifices.
+2. **Surfacing the Trade-offs at Build Time:**
+   `run_publishing_pipeline.py` must never end with empty cheerleading (`🏆 ALL PASSED`). It mandatorily renders the **Editorial Trade-Off & Tension Decision Ledger**, displaying:
+   - The critical split (e.g. 62% Tomatometer vs 94% Popcornmeter).
+   - The exact whitelisted dialogue skips that required human review (e.g. `[134, 434, 458, 459, 463, 491]` for S5 Chaos Belt jokes).
+   - The places where fragmented table talk was fused into literary speeches (e.g. 8 paragraphs with up to 7 turns merged).
+   - The structural stance costs (e.g. heavy narrative compression sacrificing casual banter for pacing).
+
+---
+
+## 8. The Anti-Amnesia Pipeline Steward & Decision Ledger (`pipeline-steward`)
+
+To prevent multi-session context loss, sycophantic looping (*"What a wonderful idea! Why didn't I think of that?"*), and regressions to previously resolved bugs across pipeline iterations:
+
+1. **Canonical Living Decision Ledger (`PIPELINE_DECISION_LEDGER.md`):**
+   - Located at `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md`.
+   - Documents every architectural decision (`DEC-001` through `DEC-020`), failure points addressed (`FP-01` through `FP-20`), trade-offs accepted, and active verification gates.
+2. **Automated Architectural Consistency Auditor (`audit_decision_ledger.py`):**
+   - Runs automatically as **Step 0 (Pre-Flight)** in `run_publishing_pipeline.py`.
+   - Validates that all DEC records are intact, all session intent contracts parse properly, and all session configs maintain consistent whitelists.
+3. **The Anti-Amnesia Protocol (`.agent/AGENTS.md` Section 6):**
+   - Mandates that any agent discussing, refactoring, or auditing the publishing pipeline must first consult `pipeline-steward` and cite established decision records before responding.
+   - Forbids false novelty or amnesia when recurring trade-offs (e.g. dual-track cuts, micro-chapter splits, or OOC banter exclusions) arise.
+
+---
+
+## 9. Repository Branch Topology & Git Provenance Architecture
+
+To prevent campaign collisions and maintain a clean separation between the generic publishing framework and specific story manuscripts:
+
+```
+  ┌────────────────────────────────────────────────────────┐
+  │ main (The Campaign-Agnostic Engine Framework)          │
+  │ • Core tools, linters, and verification gates.         │
+  │ • pipeline-steward, decision codex, and agent rules.   │
+  │ • Universal double-blind intent contract templates.    │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+             ┌────────────────┴────────────────┐
+             ▼                                 ▼
+  ┌────────────────────────┐      ┌────────────────────────┐
+  │ uneraseable (Campaign) │      │ archive/* (Past Worlds)│
+  │ • Transcripts (S1-S5)  │      │ • archive/vumbua       │
+  │ • Blocks & EPUB outputs│      │ • archive/volume-1-... │
+  │ • Manifests & dossiers │      │ • Preserved prototypes │
+  └────────────────────────┘      └────────────────────────┘
+```
+
+1. **`main` (Framework Baseline):**
+   - Serves as the clean upstream template for any TTRPG campaign.
+   - Contains zero campaign-specific raw transcripts or private game audio.
+   - Houses the master verification harness, the `pipeline-steward` skill, and general documentation.
+2. **`<campaign-branch>` (e.g. `uneraseable`):**
+   - Active workspace for a specific tabletop campaign and its published book(s).
+   - Contains raw transcripts, indexed turn ledgers, modular scene blocks, web manifests, and compiled EPUBs.
+3. **`archive/<campaign>` (e.g. `archive/vumbua`):**
+   - Frozen snapshots of completed campaigns or legacy structural experiments.
+4. **The Commit-Anchor Invariant for Post-Mortems:**
+   - Feature and agent branches (e.g. `devin/*` or `critique/*`) are ephemeral and subject to deletion/pruning.
+   - Any architectural post-mortem citing an alternative implementation or PR escape must record **both the branch name and the immutable commit SHA** (e.g., `devin/1790479715-s5-fidelity-cuts` at `54c9d3a`).
+

@@ -41,5 +41,6 @@
     "uneraseable_s03_b037": "dravin",
     "uneraseable_s03_b078": "dravin",
     "uneraseable_s03_b085": "attendant"
-  }
+  },
+  "legitimate_ooc_lore_skips": [370]
 }

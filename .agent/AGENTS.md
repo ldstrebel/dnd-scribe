@@ -81,13 +81,15 @@ Every raw line must be categorized during transcript cleaning:
 
 ## 4. Prose Novelization Checklist
 
-Every generated scene block must satisfy the 6-point standard:
-1. **Full Dialogue Dramatization:** Quoted dialogue (`"..."`) with dedicated paragraphs per speaker change. Zero embedded italic dialogue summaries.
+Every generated scene block must satisfy the 8-point standard:
+1. **Full Dialogue Dramatization:** Quoted dialogue (`"..."`) with dedicated paragraphs per speaker change. Zero embedded italic dialogue summaries. Spoken lines inside quotes are immutable ground-truth.
 2. **Sensory & Physical Anchoring:** Grounded physical mannerisms, environmental lighting, and tactile interactions.
 3. **Comedic & Emotional Arcs:** Setup $\rightarrow$ Escalation $\rightarrow$ Punchline $\rightarrow$ Reaction preserved with full comedic timing.
 4. **Mechanical Magic & World-Tech:** Vivid sensory descriptions of spellcraft, energy, technology, and terrain obstacles.
 5. **Logical Causal Bridges:** Clear triggers and reactions without skipped causal steps.
 6. **Line Traceability & Ledger Parity:** Modular line anchors (`<!-- Lxxxx -->`) and ledger comments (`<!-- LEDGER: rendered=[...] skipped=[...] -->`).
+7. **Dwight Swain Motivation-Reaction Units (MRUs) in Action Staging:** In physical combat, sudden attacks, and peril, sequence beats neuro-physiologically: $\text{External Motivation} \longrightarrow \text{Visceral Sensation} \longrightarrow \text{Involuntary Reflex} \longrightarrow \text{Deliberate Action \& Speech}$. Never jump directly from incoming stimulus to spoken dialogue or tactical counters.
+8. **Deep POV & Windowpane Prose Styling:** Eradicate cognitive sensory filter frames (*saw, heard, felt, noticed, wondered, realized*); make perceived phenomena act directly upon the narrative. Maintain syntactic cadence by limiting introductory participial phrases to $\le 1$ per 500 words. Strictly ban synthetic purple clichés (*"tapestry of"*, *"palpable tension"*, *"dance of blades"*).
 
 ---
 
@@ -95,6 +97,19 @@ Every generated scene block must satisfy the 6-point standard:
 
 Before finalizing any session novelization or storyboard:
 1. `python sessions/_scripts/verify_manifest.py sN` (100% Monotonic Line Coverage & Sub-165 line block sizing)
-2. `python sessions/_scripts/verify_parity.py sN` (100% Dialogue Ledger & Spans Fidelity)
-3. `python .agents/skills/novel-critic/scripts/critique_prose.py sN` (Prose telemetry, zero Earth-leaks, talking heads scan)
-4. `python novel/generate_epub.py` (Clean EPUB compilation)
+2. `python sessions/_scripts/verify_parity.py sN` (100% Dialogue Ledger & Spans Fidelity, Canon Lore Guardrail)
+3. `python sessions/_scripts/verify_intent_parity.py sN` (Double-Blind Intent Parity & Agency Guards)
+4. `python .agents/skills/novel-critic/scripts/critique_prose.py sN` (Prose telemetry, zero Earth-leaks, talking heads scan, filter words & cadence)
+5. `python novel/generate_epub.py` (Clean EPUB compilation)
+6. `python sessions/_scripts/run_publishing_pipeline.py sN` (Dual-Track Scorecard & Creative Liberty Ledger)
+
+---
+
+## 6. Pipeline Discussions & Anti-Amnesia Mandate (`pipeline-steward`)
+
+Whenever discussing, auditing, refactoring, or evaluating the publishing pipeline, publishing scripts, verification gates, or dual tracks:
+1. **Mandatory Skill Activation:** Consult `.agents/skills/pipeline-steward/SKILL.md`.
+2. **Consult Established Records First:** Read `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md` and `docs/pipeline_architecture.md` before responding. Anchor every discussion to the existing 15+ editions, 20 historical Failure Points (`FP-01` to `FP-20`), and established decision records (`DEC-001` to `DEC-020`).
+3. **Strict Ban on Sycophancy & False Novelty:** Never react with empty praise (*"What a wonderful idea! Why didn't I think of that?"*) to established pipeline mechanics. Treat user prompts as critical signals on whether the architecture is being upheld, whether gates are slipping into rubber-stamping, or whether an existing compromise needs re-evaluation.
+4. **Continuous Decision Logging:** Any agreed structural change or newly discovered trade-off must be logged directly into `PIPELINE_DECISION_LEDGER.md`.
+

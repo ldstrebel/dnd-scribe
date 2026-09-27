@@ -52,10 +52,10 @@ We have thoroughly audited the adversarial critique from upstream commits `c5e08
 
 #### 3. Lost Roads Highway Pacing (Scenes 4–5)
 * **Critic's Note:** *"Scenes 4 and 5 (the transit across the Lost Roads) wander aimlessly without conflict, transcribing low-energy player travel chatter rather than compressing it into a cinematic drive."*
-* **Response Status:** **`[RESOLVED BY 3-CUT ARCHITECTURE]`**
+* **Response Status:** **`[APPLIED & RESOLVED VIA TRACK B CINEMATIC CUT]`**
 * **Justification:**
-  - **Track A (Tabletop Cut):** Must faithfully preserve the table's navigation survival rolls (L0550–L0558), Eusacles' skepticism, and the meeting with the spectral child (L0580–L0604). Erasing this from Track A violates the archival fidelity contract.
-  - **Track B (Cinematic Cut):** This is precisely where compression belongs. The upcoming Track B authorial cut will streamline the vehicular transit while keeping the thematic resonance intact.
+  - **Track A (Tabletop Cut):** Faithfully preserves the table's navigation survival rolls (L0550–L0558), Eusacles' skepticism, and the meeting with the spectral child (L0580–L0604). Erasing this from Track A violates the archival fidelity contract.
+  - **Track B (Cinematic Cut):** Delivered across `blocks_authorial/s5-scene-01-alt.md` through `10-alt.md`. Streamlines travel dead air, uses coarse spans (`L0539-L0548`, `L0614-L0638`), heightens tension, and delivers all 3 acts outlined in the editorial blueprint. All 108 cinematic blocks validated under Schema 2.0 with 100% dialogue provenance.
 
 ---
 

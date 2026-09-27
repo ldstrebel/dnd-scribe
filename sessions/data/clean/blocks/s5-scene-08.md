@@ -20,42 +20,42 @@ Inside the crowded hall, the raked wooden amphitheater hummed with the electric 
 
 Around him, eager undergrads in button-down shirts hovered, eyeing the empty wooden chairs flanking him on either side. Whenever anyone leaned in to ask if the chairs were free, Eusacles merely offered a flat, menacing glower that sent them scurrying toward the stairways.
 
-"If there were decent seats anywhere else, I would've taken them," Eusacles muttered under his breath, watching the sea of bobbing heads below. "Instead there's not a clear aisle in the house." <!-- L0968 --> <!-- L0970 -->
+"If there were decent seats anywhere else, I would've taken them," Eusacles muttered under his breath, watching the sea of bobbing heads below. "Instead there's not a clear aisle in the house." <!-- L0968 --> <!-- L0970 --> <!-- L0974 -->
 
-He caught sight of Dravin and Alfie slipping discreetly along the far backstage wing toward the private green room, followed a moment later by Pierre strutting down the center carpet with theatrical unconcern.
+He caught sight of Dravin and Alfie attempting to slip discreetly along the far backstage wing toward the private green room, followed a moment later by Pierre trailing behind, his bronze spear rattling carelessly against the wainscoting.
 
-"Ah, hell," Eusacles sighed, sinking deeper into the wooden bench and resting his knuckles against the grip of his morningstar. "Good luck to the lot of you." <!-- L0974 -->
+"Professor!" Pierre called out down the corridor in a stage whisper that carried halfway across the hall. "Is all of the faculty in America like this, where they have no clue where the best and most important classes are?" <!-- L0990:pierre -->
 
-Down along the carpeted aisle, Pierre slid gracefully into an empty seat directly beside an exhausted adjunct professor who was furiously scribbling notes in a pocket diary.
+Dravin froze, his jaw tightening in horror at the botched stealth. Pivoting smoothly on his heel, Dravin adopted his fiercest, most intimidating academic dean persona, glaring at Pierre with icy authority and barking a stern, commanding order for the unruly student to take his seat immediately as the lecture was beginning.
 
-"Professor," Pierre murmured in a conspiratorial whisper, his spectacles glinting beneath the house lights, "is it customary for American faculties to be utterly clueless regarding their finest artistic ateliers?" <!-- L0990 -->
+Pierre threw his hands up in haughty defeat, muttering under his breath at such touchiness before retreating back into the amphitheater. Scanning the tiered rows, his gaze locked onto the corduroy-jacketed faculty host who had just slipped into the front row, looking visibly relieved that the disruption had passed. 
 
-The adjunct stared at him in dazed exhaustion, blinking behind thick bifocals.
+Pierre slid gracefully into the empty wooden chair directly beside him. The host froze, his eyes widening in mounting terror.
 
-"I shall sit beside you," Pierre declared smoothly, tapping his pencil against his knee. "And when this dismal assembly concludes, we shall embark together to unearth the sculpture studio." <!-- L0996 -->
+"I shall sit beside you," Pierre whispered conspiratorially, tapping his pencil against his knee. "And when this dismal assembly concludes, we shall embark together to find the sculpture studio." <!-- L0996:pierre -->
 
-"Yes, marvelous, whatever you like—just please be quiet and listen," the adjunct pleaded in a harsh whisper, clutching his textbook to his chest. "It really is extraordinary research." <!-- L0997 -->
+"Yeah, yeah, for sure, for sure—just please be quiet and listen!" the host pleaded in a panicked, suffocated whisper, clutching his program to his chest. "It really is extraordinary research, I promise!" <!-- L0997:attendant -->
 
-At that moment, from the shadows flanking the proscenium arch, Professor Edward Dravin raised two fingers. With a crisp, arcane murmur, he flicked a spark of thaumaturgical power through the air. The heavy glass chandeliers lining the vaulted ceiling flickered three deliberate times in a sharp, rhythmic pulse—the universal theatre bell commanding silence.
+Behind the backstage curtain, Professor Edward Dravin let out a quiet breath of relief. Raising two fingers into the dim wings, he murmured an arcane syllable, casting Thaumaturgy. The heavy glass chandeliers lining the vaulted ceiling flickered three deliberate times in a sharp, rhythmic pulse—the universal theatre bell commanding total silence.
 
 The auditorium fell dead quiet. The podium announcer cleared his throat into the lectern receiver, introducing Dr. Aris Thorne.
 
-Behind the stage, Dravin and Alfie slipped silently through the service door into the private green room. Alfie moved on light, barefoot steps across the plush carpet, his salt-encrusted driftwood cane tucked neatly beneath one arm and his weathered canvas ballcap pulled down over his tangled hair.
+Behind the stage, Dravin and Alfie slipped silently through the service door into the private green room. Alfie moved on light, barefoot steps across the plush carpet, her salt-encrusted driftwood cane tucked neatly beneath one arm and her weathered canvas ballcap pulled down over her tangled hair.
 
-"No university ballcaps," Alfie whispered, rooting through the speaker's welcome basket on the glass coffee table. Inside lay polished citrus fruits, wrapped mints, and a green-and-white collegiate soccer scarf. <!-- L1022 -->
+"No university ballcaps," Alfie whispered, rooting through the speaker's welcome basket on the glass coffee table. Inside lay polished citrus fruits, wrapped mints, and a green-and-white collegiate soccer scarf. <!-- L1022:alfie -->
 
-"I'll take the scarf," Alfie decided, wrapping the knit wool three times around his neck with a delighted nod. "And the fruit." He slipped a red apple and two oranges into his coat pocket with nautical dexterity. <!-- L1026 --> <!-- L1028 -->
+"I'll take the scarf," Alfie decided, wrapping the knit wool three times around her neck with a delighted nod. "And the fruit." She slipped a red apple and two oranges into her coat pocket with nautical dexterity. <!-- L1026:alfie --> <!-- L1028:alfie -->
 
 Meanwhile, Dravin stood before Dr. Thorne's leather travel bag resting atop an armchair. His tweed jacket smelled faintly of old parchment and pipe smoke as he flipped the brass clasps and lifted the lid. He sifted through neat rows of folded cardigans, linen blouses, a toiletry kit, and a spare stethoscope.
 
-"The binder," Dravin murmured, his jaw tightening as he clicked the brass latches shut. "It isn't here. Nothing but personal travel attire." <!-- L1041 -->
+"The binder," Dravin murmured, his jaw tightening as he clicked the brass latches shut. "It isn't here. Nothing but personal travel attire." <!-- L1041:dravin -->
 
 Outside on the main stage, the muffled cadence of Dr. Thorne's voice echoed through the wood paneling, followed by audible gasps and hushed whispers from the lecture hall. She was unveiling the timeline of her medical breakthrough—the buried, controversial 1948 trial logs that had miraculously resurfaced to crown her career.
 
 Dravin withdrew Naomi's intelligence briefing from inside his tweed vest, his silver-framed spectacles reflecting the dim lamp light as he recalled her note that every fragment anchored to a physical relic—like the museum's stone tablet. <!-- L1055 -->
 
-"A handwritten binder—an unedited primary source from the original 1948 trials," Dravin whispered, tapping the leather pocketwatch at his hip. "That is what Naomi flagged. Not the published monograph, and not her lecture slides." <!-- L1062 -->
+"A handwritten binder—an unedited primary source from the original 1948 trials," Dravin whispered, tapping the leather pocketwatch at his hip. "That is what Naomi flagged. Not the published monograph, and not her lecture slides." <!-- L1062:dravin -->
 
-"An active anomaly," Dravin concluded grimly, his gaze darting toward the heavy backstage curtain. <!-- L1064 -->
+"An active anomaly," Dravin concluded grimly, his gaze darting toward the heavy backstage curtain. <!-- L1064:dravin -->
 
 Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph. And resting directly beside her feet on the wooden floor of the lectern sat a heavy, brass-cornered leather briefcase—securely sealed with a heavy tumbler padlock.

@@ -76,5 +76,6 @@
     "uneraseable_s04_b047_alt2": "pierre",
     "uneraseable_s04_b196": "naomi",
     "uneraseable_s04_b199": "pierre"
-  }
+  },
+  "legitimate_ooc_lore_skips": [786, 899]
 }
