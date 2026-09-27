@@ -1,4 +1,4 @@
-"""Vumbua Editorial Harness CLI.
+"""The Margin Editorial Harness CLI.
 
 Provides unified command-line access to all editorial linters,
 style analytics, lore auditing, and session inspection.
@@ -10,12 +10,23 @@ import argparse
 from pathlib import Path
 from typing import Dict, Any
 
-from .config import get_repo_root, get_sessions_dir
-from .leak_detector import LeakDetector
-from .echo_detector import EchoDetector
-from .style_analyzer import StyleAnalyzer
-from .lore_guardian import LoreGuardian
-from .macro_auditor import MacroAuditor
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
+try:
+    from .config import get_repo_root, get_sessions_dir
+    from .leak_detector import LeakDetector
+    from .echo_detector import EchoDetector
+    from .style_analyzer import StyleAnalyzer
+    from .lore_guardian import LoreGuardian
+    from .macro_auditor import MacroAuditor
+except (ImportError, ValueError):
+    from config import get_repo_root, get_sessions_dir
+    from leak_detector import LeakDetector
+    from echo_detector import EchoDetector
+    from style_analyzer import StyleAnalyzer
+    from lore_guardian import LoreGuardian
+    from macro_auditor import MacroAuditor
 
 
 def run_full_lint(filepath: str, verbose: bool = False) -> Dict[str, Any]:
@@ -155,7 +166,7 @@ def cmd_audit(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Vumbua Editorial Harness CLI")
+    parser = argparse.ArgumentParser(description="The Margin Editorial Harness CLI")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     # Lint subcommand

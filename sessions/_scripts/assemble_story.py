@@ -151,7 +151,7 @@ def main():
                 print(f"[FAIL] Parity check failed with {len(p_errs)} errors.")
         except ImportError:
             try:
-                from sessions.scripts.verify_parity import verify_parity
+                from sessions._scripts.verify_parity import verify_parity
                 passed, p_errs, p_warns = verify_parity(
                     sid, manifest_path=manifest_path, story_path=out_path,
                     blocks_dir=blocks_dir)
@@ -168,11 +168,12 @@ def main():
             print_report_card(report, verbose=False)
         except ImportError:
             try:
-                from sessions.scripts.harness.cli import run_full_lint, print_report_card
+                from sessions._scripts.harness.cli import run_full_lint, print_report_card
                 report = run_full_lint(out_path)
                 print_report_card(report, verbose=False)
             except Exception as e:
                 print(f"[WARN] Could not run editorial linter: {e}")
+
 
 
 if __name__ == "__main__":

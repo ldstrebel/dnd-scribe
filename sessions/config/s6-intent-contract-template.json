@@ -1,0 +1,31 @@
+{
+  "session_id": "s6",
+  "title": "Session 6 Intent Parity Contract Template",
+  "description": "Double-blind intent and agency rules for Session 6 to prevent sycophantic drift, sanitized consent, and unanchored props.",
+  "rules": [
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology must not drift from canonical names",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "fail_message": "Adversary faction terminology drifted from canonical lore."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-XX",
+      "scope": "Dramatic Scope / Event Description",
+      "liberty": "Explicit description of authorial liberty taken (e.g. condensed banter, heightened sensory description, restaged combat).",
+      "impact": "Measurable narrative effect (e.g. 50% velocity increase, heightened suspense)."
+    }
+  ]
+}

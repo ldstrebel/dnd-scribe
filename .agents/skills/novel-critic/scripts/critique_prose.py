@@ -35,7 +35,7 @@ FANTASY_LEAK_PATTERNS = [
 MODERN_META_LEAK_PATTERNS = [
     (r"\b(?:wi-?fi|zoom call|discord|roll20|dnd|d&d|character sheet|dice roll|saving throw|armor class|initiative count|hit points|spell slot)\b", "Tabletop / Tech Meta Leak"),
     (r"\b(?:pizza delivery|uber eats|doordash)\b", "Modern Meta Filler"),
-    (r"\b(?:microphone|webcam|headset|audio interface)\b", "Recording Equipment Leak")
+    (r"\b(?:webcam|headset|audio interface|mic check|hot mic|mute button|unmute)\b", "Recording Equipment Leak")
 ]
 
 # Repetitive sensory & architectural phrases to watch out for
@@ -44,16 +44,13 @@ SENSORY_PHRASES = [
     r"polished brass",
     r"acrid ozone",
     r"gaslight lanterns?",
-    r"circular (?:crystal|glass) floor",
-    r"basalt (?:canyon|chasm|ring)",
-    r"copper balustrades?",
-    r"heavy canvas (?:working )?collar",
-    r"woolen flat cap",
-    r"green leaf crown",
-    r"dangling satchels?",
-    r"living woven green",
-    r"steamship with brass fittings",
+    r"fluorescent (?:hum|buzz|light|flicker)",
+    r"cold linoleum",
+    r"tarnished silver",
+    r"humming neon",
     r"subtle(?:,)? disorienting flutter",
+    r"temporal resonance",
+    r"whispering echoes",
     r"force of nature",
     r"pure dread",
 ]
@@ -65,13 +62,34 @@ LOGISTICS_PATTERNS = [
     (r"\b(?:desks?|chalk|syllabus|lecture notes?|textbooks?)\b", "Academic Logistics"),
 ]
 
+# Synthetic purple tropes & generative cliches
+SYNTHETIC_PURPLE_TROPES = [
+    r"\btapestry of\b",
+    r"\bpalpable tension\b",
+    r"\bpalpable sense\b",
+    r"\bdance of blades\b",
+    r"\bdance of swords\b",
+    r"\bsilent understanding\b",
+    r"\btestament to\b",
+    r"\blabyrinthine\b",
+    r"\bunspoken bond\b",
+    r"\bcacophony of\b",
+    r"\bvisceral reminder\b",
+    r"\betched with concern\b"
+]
+
 # Action & motion verbs to evaluate scene physical dynamics
 ACTION_VERBS = {
     "ran", "running", "leaped", "leaping", "sprinted", "sprinting", "slammed", "slamming",
     "crawled", "crawling", "grabbed", "grabbing", "wrenched", "wrenching", "dodged", "dodging",
     "shattered", "shattering", "ducked", "ducking", "lunged", "lunging", "tackled", "tackling",
     "climbed", "climbing", "pushed", "pushing", "dragged", "dragging", "bolted", "bolting",
-    "dived", "diving", "swung", "swinging", "struck", "striking", "burst", "bursting"
+    "dived", "diving", "swung", "swinging", "struck", "striking", "burst", "bursting",
+    "stepped", "stepping", "turned", "turning", "walked", "walking", "paced", "pacing",
+    "leaned", "leaning", "reached", "reaching", "handed", "handing", "stood", "standing",
+    "sat", "sitting", "pointed", "pointing", "tapped", "tapping", "poured", "pouring",
+    "approached", "approaching", "guided", "guiding", "pulled", "pulling", "scribbled", "scribbling",
+    "adjusted", "adjusting", "tucked", "tucking", "nodded", "nodding", "shook", "shaking"
 }
 
 def load_book_config():
@@ -123,18 +141,20 @@ def analyze_dialogue_flow(text):
     paragraphs = [p.strip() for p in prose_only.split("\n\n") if p.strip()]
     findings = []
     
-    speech_verbs = r'(?:said|asked|murmured|whispered|added|exclaimed|replied|blinked|stammered|shouted|rasped|bellowed|called out|muttered|cried)'
+    speech_verbs = r'(?:said|asked|murmured|whispered|added|exclaimed|replied|stammered|shouted|rasped|bellowed|called out|muttered|cried)'
     tag_pattern = re.compile(rf'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s+{speech_verbs}\b', re.I)
     
     for i in range(len(paragraphs) - 1):
         p1, p2 = paragraphs[i], paragraphs[i+1]
+        if not (('"' in p1 or '“' in p1) and ('"' in p2 or '“' in p2)):
+            continue
         m1 = tag_pattern.search(p1)
         m2 = tag_pattern.search(p2)
         
         if m1 and m2:
             s1 = m1.group(1).lower()
             s2 = m2.group(1).lower()
-            if s1 == s2:
+            if s1 == s2 and s1 not in ("he", "she", "it", "they"):
                 findings.append({
                     "speaker": s1,
                     "snippet": f"P1: {p1[:50]}... | P2: {p2[:50]}..."
@@ -171,6 +191,56 @@ def analyze_logistics_density(text):
         "categories": logistics_counts,
         "total_hits": sum(logistics_counts.values()),
         "hit_density_per_kword": round(sum(logistics_counts.values()) / (total_words / 1000), 2) if total_words > 0 else 0
+    }
+
+
+def analyze_deep_pov_and_cadence(text):
+    """
+    Evaluates Deep-POV and syntactic cadence metrics:
+    1. Filter words (saw, heard, felt, noticed, realized, watched, wondered) in narrative framing.
+    2. Introductory participial phrases (e.g. 'Walking into the room, he...') vs. cadence limit (<=1.0 / 500w).
+    3. Synthetic generative tropes / purple cliches.
+    """
+    prose_only = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
+    # Strip spoken dialogue inside quotes to test narration POV strictly
+    narration_only = re.sub(r'"[^"]+"', '', prose_only)
+    total_words = len(prose_only.split())
+    if total_words == 0:
+        return {}
+    
+    # 1. Filter words
+    filter_matches = re.findall(
+        r'\b(?:saw|heard|felt|noticed|watched|wondered|realized)\s+(?:that|the|a|an|his|her|their|how)\b',
+        narration_only,
+        flags=re.IGNORECASE
+    )
+    filter_rate_per_k = round(len(filter_matches) / (total_words / 1000), 2) if total_words > 0 else 0
+    
+    # 2. Introductory participials
+    participials = re.findall(
+        r'(?:^|\.\s+|\?\s+|\!\s+)([A-Z][a-z]+ing\b[^,!?\n]{2,50},)',
+        narration_only
+    )
+    part_rate_per_500 = round(len(participials) / (total_words / 500), 2) if total_words > 0 else 0
+    
+    # 3. Synthetic tropes
+    trope_hits = []
+    text_lower = prose_only.lower()
+    for trope in SYNTHETIC_PURPLE_TROPES:
+        matches = list(re.finditer(trope, text_lower))
+        if matches:
+            trope_clean = trope.replace(r"\b", "").replace(r"\s+", " ")
+            trope_hits.append({"trope": trope_clean, "count": len(matches)})
+            
+    return {
+        "filter_word_count": len(filter_matches),
+        "filter_rate_per_k": filter_rate_per_k,
+        "filter_samples": filter_matches[:5],
+        "participial_count": len(participials),
+        "participial_rate_per_500": part_rate_per_500,
+        "participial_samples": [p.strip() for p in participials[:3]],
+        "synthetic_tropes": trope_hits,
+        "status": "PASS" if (filter_rate_per_k <= 4.0 and part_rate_per_500 <= 1.0 and not trope_hits) else "REVIEW"
     }
 
 
@@ -232,6 +302,104 @@ def get_character_alias_map():
         }
     return alias_map
 
+
+
+def analyze_spatial_blocking_and_transitions(scenes):
+    """
+    Developmental Editor: Scans for spatial whiplash, abrupt blocking shifts, 
+    and disorienting narrative leaps.
+    """
+    findings = []
+    
+    posture_verbs = {"sat", "sitting", "lying", "lay", "stood", "standing", "kneeling", "knelt", "climbed", "fallen"}
+    motion_verbs = {"walked", "stepped", "ran", "sprinted", "leaped", "jumped", "hurried", "dashed", "crawled", "moved"}
+    
+    for s in scenes:
+        content = s["content"]
+        paragraphs = [p.strip() for p in re.sub(r"<!--.*?-->", "", content).split("\n\n") if p.strip()]
+        
+        # Check scene opening orientation
+        if paragraphs:
+            opening = paragraphs[0].lower()
+            has_spatial_anchor = any(w in opening for w in [
+                "room", "hall", "sky", "ground", "door", "floor", "corridor", "trees", 
+                "light", "darkness", "shadow", "stone", "air", "wood", "glass", "gate",
+                "shed", "annex", "museum", "road", "ditch", "rotunda"
+            ])
+            if not has_spatial_anchor:
+                findings.append({
+                    "scene_id": s["scene_id"],
+                    "category": "orientation",
+                    "issue": "Unanchored Scene Opening",
+                    "detail": f"Scene opens without immediate physical/environmental anchor: '{paragraphs[0][:70]}...'"
+                })
+                
+        # Check paragraph transitions for sudden posture / location shifts
+        for i in range(len(paragraphs) - 1):
+            p1 = paragraphs[i].lower()
+            p2 = paragraphs[i+1].lower()
+            
+            # If someone is lying down in p1 and standing in p2 without standing/getting up
+            if any(w in p1 for w in ["lying", "on his back", "in the ditch", "unconscious"]):
+                if any(w in p2 for w in ["strode", "walking down", "turned and paced"]):
+                    if not any(w in p2 for w in ["stood", "got up", "climbed to", "scrambled", "rose"]):
+                        findings.append({
+                            "scene_id": s["scene_id"],
+                            "category": "blocking",
+                            "issue": "Spatial Whiplash",
+                            "detail": f"Character transitions from prone/fallen to moving without standing: '{paragraphs[i+1][:70]}...'"
+                        })
+    return findings
+
+def generate_critique_payload(session_id, scenes, blocking_issues, talking_heads, earth_leaks):
+    """
+    Generates structured editorial critique JSON matching the eBook / Critique Reader schema.
+    """
+    critiques = []
+    block_idx = 1
+    
+    for issue in blocking_issues:
+        critiques.append({
+            "blockId": f"uneraseable_{session_id}_b{block_idx:03d}",
+            "blockIndex": block_idx,
+            "speaker": "Developmental Editor",
+            "category": "continuity",
+            "quote": issue["detail"],
+            "comment": f"[{issue['issue']}] Ensure clear transitional blocking and spatial orientation.",
+            "suggestedRewrite": "",
+            "updatedAt": "2026-09-08T12:00:00.000Z"
+        })
+        block_idx += 1
+        
+    for th in talking_heads:
+        if th["talking_heads_risk"]:
+            critiques.append({
+                "blockId": f"uneraseable_{session_id}_b{block_idx:03d}",
+                "blockIndex": block_idx,
+                "speaker": "Developmental Editor",
+                "category": "pacing",
+                "quote": f"Scene {th['scene_id']}: {th['title']}",
+                "comment": f"High dialogue density ({int(th['dialogue_ratio']*100)}%) with only {th['action_verb_count']} physical action verbs. Add tactile blocking, gesture, and environmental interaction.",
+                "suggestedRewrite": "",
+                "updatedAt": "2026-09-08T12:00:00.000Z"
+            })
+            block_idx += 1
+            
+    payload = {
+        "campaign": "uneraseable",
+        "chapter": session_id,
+        "title": f"Uneraseable - {session_id.upper()} Developmental Editor Review",
+        "reviewer": "Ruthless Developmental Editor (AI)",
+        "reviewerMeta": {
+            "handle": "Editor-in-Chief",
+            "isBankPunName": False,
+            "suggestedBankReplacement": None
+        },
+        "exportedAt": "2026-09-08T12:00:00.000Z",
+        "totalCritiques": len(critiques),
+        "critiques": critiques
+    }
+    return payload
 
 def analyze_character_voices(text):
     alias_map = get_character_alias_map()
@@ -300,6 +468,7 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
     logistics = analyze_logistics_density(story_text)
     scene_actions = analyze_dialogue_vs_action(scenes)
     voices = analyze_character_voices(story_text)
+    craft = analyze_deep_pov_and_cadence(story_text)
     
     total_words = len(story_text.split())
     
@@ -312,8 +481,9 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
     report.append("## 1. Executive Editorial Verdict")
     talking_heads = [s for s in scene_actions if s["talking_heads_risk"]]
     purple_alerts = [p for p in purple_prose if p["severity"] == "HIGH"]
+    craft_alerts = bool(craft.get("synthetic_tropes")) or craft.get("filter_rate_per_k", 0) > 4.0 or craft.get("participial_rate_per_500", 0) > 1.0
     
-    if earth_leaks or dialogue_stutters or talking_heads or purple_alerts or logistics.get("hit_density_per_kword", 0) > 8.0:
+    if earth_leaks or dialogue_stutters or talking_heads or purple_alerts or logistics.get("hit_density_per_kword", 0) > 8.0 or craft_alerts:
         report.append("> [!WARNING]")
         report.append("> **Verdict: EDITORIAL CORRECTION REQUIRED.**")
         reasons = []
@@ -325,6 +495,12 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
             reasons.append(f"{len(talking_heads)} talking-head scenes lacking physical action")
         if purple_alerts:
             reasons.append(f"{len(purple_alerts)} high-frequency purple prose phrases")
+        if craft.get("synthetic_tropes"):
+            reasons.append(f"{len(craft['synthetic_tropes'])} synthetic purple clichés")
+        if craft.get("filter_rate_per_k", 0) > 4.0:
+            reasons.append(f"high sensory filter-word density ({craft['filter_rate_per_k']}/k)")
+        if craft.get("participial_rate_per_500", 0) > 1.0:
+            reasons.append(f"high participial cadence density ({craft['participial_rate_per_500']}/500w)")
         if logistics.get("hit_density_per_kword", 0) > 8.0:
             reasons.append("high domestic/transit logistics density")
         report.append(f"> Flagged issues: {', '.join(reasons)}.")
@@ -381,24 +557,46 @@ def generate_critique_report(session_id, story_path, manifest_path=None):
         report.append(f"  - **{cat}:** {count} occurrences")
     report.append("")
     
-    # 7. Character Voice Profiles
-    report.append("## 7. Character Voice Differentiation")
+    # 7. Deep-POV, Windowpane Craft & Syntactic Cadence
+    report.append("## 7. Deep-POV, Windowpane Craft & Syntactic Cadence")
+    filter_status = "[PASS]" if craft.get("filter_rate_per_k", 0) <= 4.0 else "[WARNING]"
+    part_status = "[PASS]" if craft.get("participial_rate_per_500", 0) <= 1.0 else "[WARNING]"
+    trope_status = "[PASS]" if not craft.get("synthetic_tropes") else "[ALERT]"
+    
+    report.append(f"- **Cognitive Filter Verbs:** {filter_status} {craft.get('filter_word_count', 0)} occurrences ({craft.get('filter_rate_per_k', 0)} / 1,000 words; limit: <= 4.0/k)")
+    report.append(f"- **Introductory Participial Cadence:** {part_status} {craft.get('participial_count', 0)} occurrences ({craft.get('participial_rate_per_500', 0)} / 500 words; limit: <= 1.0/500w)")
+    if craft.get("synthetic_tropes"):
+        report.append(f"- **Synthetic Purple Clichés:** {trope_status} {len(craft['synthetic_tropes'])} flagged tropes:")
+        for t in craft["synthetic_tropes"]:
+            report.append(f"  - `{t['trope']}`: {t['count']} occurrences")
+    else:
+        report.append(f"- **Synthetic Purple Clichés:** {trope_status} 0 flagged generative tropes. Clean windowpane prose.")
+    report.append("")
+    
+    # 8. Character Voice Profiles
+    report.append("## 8. Character Voice Differentiation")
     for char, v in voices.items():
         report.append(f"- **{char}:** {v['total_quotes']} turns | Avg {v['avg_words_per_turn']} w/turn | Top vocab: {', '.join(v['top_vocab'])}")
     report.append("")
     
-    # 8. Recommendation for 2nd Pass Abridgment
-    report.append("## 8. Recommended Editorial Fixes & Cuts")
+    # 9. Recommendation for 2nd Pass Abridgment
+    report.append("## 9. Recommended Editorial Fixes & Cuts")
     if earth_leaks:
         report.append("- **Purge Earth Leaks:** Replace Earth nationalities, place names, and modern metaphors with in-universe equivalents.")
     if dialogue_stutters:
         report.append("- **Smooth Dialogue Turns:** Merge consecutive dialogue tags for the same character into fluid spoken beats.")
+    if craft.get("synthetic_tropes"):
+        report.append("- **Purge Synthetic Cliches:** Replace generic AI tropes ('tapestry of', 'palpable tension', etc.) with tangible physical grounding.")
+    if craft.get("filter_rate_per_k", 0) > 4.0:
+        report.append("- **Eradicate Sensory Filter Frames:** Strip 'saw/heard/felt that' and allow external phenomena to act directly on characters.")
+    if craft.get("participial_rate_per_500", 0) > 1.0:
+        report.append("- **Untangle Participial Cadence:** Convert introductory -ing clauses into punchy, past-tense declarative sentences.")
     if talking_heads:
         for th in talking_heads:
             report.append(f"- **Compress Scene {th['scene_id']} ({th['title']}):** High dialogue ({int(th['dialogue_ratio']*100)}%) with low physical movement. Inject active staging beats or compress negotiations by 25%.")
     if logistics.get("hit_density_per_kword", 0) > 6.0:
         report.append("- **Trim Corridor & Dining Beats:** Condense morning arrivals and food table chatter into swift 1-paragraph establishing transitions.")
-    if not earth_leaks and not dialogue_stutters and not talking_heads and logistics.get("hit_density_per_kword", 0) <= 6.0:
+    if not earth_leaks and not dialogue_stutters and not talking_heads and not craft_alerts and logistics.get("hit_density_per_kword", 0) <= 6.0:
         report.append("- **Scene Retention:** High narrative density and clean world immersion. Retain fully for the core novel.")
         
     return "\n".join(report)
@@ -437,18 +635,17 @@ def generate_full_novel_critique_report(base_dir):
         
         # Aggregate quotes for global voices
         alias_map = {
-            "Loami": ["Loami", "Lomi"],
-            "Britt": ["Britt"],
-            "Aggie": ["Aggie"],
-            "Ignatius": ["Ignatius", "Ignatious"],
-            "Iggy": ["Iggy"],
-            "Vivi": ["Vivi"],
-            "Pudge": ["Pudge"],
-            "Alistair": ["Alistair", "Rook"],
-            "Gudge": ["Gudge"],
-            "Dancer": ["Dancer"],
-            "Fabian": ["Fabian"],
-            "Tarragon": ["Tarragon"]
+            "Pierre": ["Pierre", "Luke"],
+            "Dravin": ["Dravin", "Edward", "Professor", "William"],
+            "Alfie": ["Alfie", "Sophie", "Doll"],
+            "Eusacles": ["Eusacles", "John"],
+            "Theodore": ["Theodore", "Teddy"],
+            "Mike": ["Mike", "Michael"],
+            "Naomi": ["Naomi"],
+            "Rosa": ["Rosa"],
+            "Gordon": ["Gordon"],
+            "Nincy": ["Nincy"],
+            "Fates": ["Fates", "Clotho", "Lachesis", "Atropos"]
         }
         prose_only = re.sub(r"<!--.*?-->", "", story_text, flags=re.DOTALL)
         paragraphs = [p.strip() for p in prose_only.split("\n\n") if p.strip()]
@@ -502,6 +699,7 @@ def generate_full_novel_critique_report(base_dir):
     full_novel_text = "\n\n".join(global_text)
     global_purple = analyze_purple_prose(full_novel_text)
     global_logistics = analyze_logistics_density(full_novel_text)
+    global_craft = analyze_deep_pov_and_cadence(full_novel_text)
     
     # Global voice profiles
     global_voices = {}
@@ -574,7 +772,8 @@ def generate_full_novel_critique_report(base_dir):
     for s in session_data:
         report.append(f"| **{s['session_id'].upper()}** | {s['word_count']:,} | {s['scene_count']} | {s['avg_dialogue_pct']}% | {s['talking_heads']} | {s['earth_leaks']} | {s['dialogue_stutters']} | {s['logistics_density']} | **{s['status']}** |")
     avg_dialogue_novel = int(sum(s['avg_dialogue_pct'] for s in session_data)/len(session_data)) if session_data else 0
-    report.append(f"| **TOTAL / AVG** | **{total_words:,}** | **{total_scenes}** | **{avg_dialogue_novel}%** | **{len(all_talking_heads)}** | **{len(all_earth_leaks)}** | **{len(all_dialogue_stutters)}** | **{global_logistics.get('hit_density_per_kword', 0)}** | **PASS** |")
+    overall_status = "REVIEW" if (len(all_earth_leaks) > 0 or len(all_dialogue_stutters) > 0) else "PASS"
+    report.append(f"| **TOTAL / AVG** | **{total_words:,}** | **{total_scenes}** | **{avg_dialogue_novel}%** | **{len(all_talking_heads)}** | **{len(all_earth_leaks)}** | **{len(all_dialogue_stutters)}** | **{global_logistics.get('hit_density_per_kword', 0)}** | **{overall_status}** |")
     report.append("")
     
     # 3. Earth Leaks
@@ -622,8 +821,24 @@ def generate_full_novel_critique_report(base_dir):
         report.append("- No high-frequency sensory echoes detected across the novel.")
     report.append("")
     
-    # 7. Character Voice Profiles
-    report.append("## 7. Global Character Voice Differentiation")
+    # 7. Deep-POV, Windowpane Craft & Syntactic Cadence (Novel-Wide)
+    report.append("## 7. Deep-POV, Windowpane Craft & Syntactic Cadence (Novel-Wide)")
+    g_filter_status = "[PASS]" if global_craft.get("filter_rate_per_k", 0) <= 4.0 else "[WARNING]"
+    g_part_status = "[PASS]" if global_craft.get("participial_rate_per_500", 0) <= 1.0 else "[WARNING]"
+    g_trope_status = "[PASS]" if not global_craft.get("synthetic_tropes") else "[ALERT]"
+    
+    report.append(f"- **Cognitive Filter Verbs:** {g_filter_status} {global_craft.get('filter_word_count', 0):,} occurrences ({global_craft.get('filter_rate_per_k', 0)} / 1,000 words; limit: <= 4.0/k)")
+    report.append(f"- **Introductory Participial Cadence:** {g_part_status} {global_craft.get('participial_count', 0):,} occurrences ({global_craft.get('participial_rate_per_500', 0)} / 500 words; limit: <= 1.0/500w)")
+    if global_craft.get("synthetic_tropes"):
+        report.append(f"- **Synthetic Purple Clichés:** {g_trope_status} {len(global_craft['synthetic_tropes'])} flagged tropes:")
+        for t in global_craft["synthetic_tropes"]:
+            report.append(f"  - `{t['trope']}`: {t['count']} occurrences")
+    else:
+        report.append(f"- **Synthetic Purple Clichés:** {g_trope_status} 0 flagged generative tropes. Clean windowpane prose.")
+    report.append("")
+    
+    # 8. Character Voice Profiles
+    report.append("## 8. Global Character Voice Differentiation")
     report.append("| Character | Total Dialogue Turns | Total Spoken Words | Avg Words / Turn | Distinctive Vocabulary |")
     report.append("|---|---|---|---|---|")
     sorted_voices = sorted(global_voices.items(), key=lambda x: x[1]['total_spoken_words'], reverse=True)
@@ -632,15 +847,15 @@ def generate_full_novel_critique_report(base_dir):
         report.append(f"| **{char}** | {v['total_quotes']:,} | {v['total_spoken_words']:,} | {v['avg_words_per_turn']} | {vocab_str} |")
     report.append("")
     
-    # 8. Novel Structural Breakdown
-    report.append("## 8. Narrative Pacing & Arc Breakdown")
+    # 9. Novel Structural Breakdown
+    report.append("## 9. Narrative Pacing & Arc Breakdown")
     report.append(f"- **Campaign Scope:** {len(session_data)} Sessions novelized ({total_words:,} total words, {total_scenes} chapters).")
     report.append(f"- **Mean Chapter Length:** ~{total_words // max(1, total_scenes):,} words/scene (optimized for mobile block reader & multi-voice TTS segments).")
     report.append(f"- **Dialogue-to-Narrative Ratio:** {avg_dialogue_novel}% Spoken / {100 - avg_dialogue_novel}% Narrative Description & Action.")
     report.append("")
     
-    # 9. Active Editorial Trade-Offs Matrix
-    report.append("## 9. ⚖️ Active Editorial Trade-Offs Matrix")
+    # 10. Active Editorial Trade-Offs Matrix
+    report.append("## 10. ⚖️ Active Editorial Trade-Offs Matrix")
     report.append("| Editorial Dimension | Chosen Stance / Current State | Alternative / Counter-Stance | Inherent Trade-Off / Cost |")
     report.append("|---|---|---|---|")
     report.append("| **Narrative Velocity vs. Tangential Banter** | Heavy compression (~0.20-0.28 ratio) | Expanded slice-of-life & table humor | **Sacrifices casual OOC table banter & prolonged dungeon exploration** in favor of cinematic plot momentum and crisp page-turns. |")
@@ -649,8 +864,8 @@ def generate_full_novel_critique_report(base_dir):
     report.append("| **Tabletop Mechanics vs. Literary Realism** | Preserved player spell casts with instinctive prose | Erasing game mechanics / full retcons | **Maintains strict table canon & player agency**, but requires continuous monitoring against future character leveling retcons. |")
     report.append("")
     
-    # 10. Nearest Narrative Risks & Vulnerabilities
-    report.append("## 10. ⚠️ Nearest Narrative Risks & Vulnerabilities (Adversarial Editor Review)")
+    # 11. Nearest Narrative Risks & Vulnerabilities
+    report.append("## 11. ⚠️ Nearest Narrative Risks & Vulnerabilities (Adversarial Editor Review)")
     report.append("> [!IMPORTANT]")
     report.append("> **Top 3 Nearest Narrative Risks to Monitor:**")
     report.append("> 1. **Emotional Velocity Friction:** High-speed combat transitions in Act I risk rushing party bonding before major emotional payoffs. *Mitigation: Ensure Sessions 4–6 provide quiet campfire / sanctuary intermissions.*")
@@ -671,11 +886,13 @@ def main():
     
     if args.session_id.lower() in ("all", "novel", "full"):
         report = generate_full_novel_critique_report(base_dir)
+        has_critical_issues = "EDITORIAL CORRECTION REQUIRED" in report
     else:
         story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{args.session_id}-clean-story.md")
         if not os.path.exists(story_path):
             story_path = os.path.join(base_dir, "sessions", "transcripts", "clean", f"{args.session_id}-clean-story.md")
         report = generate_critique_report(args.session_id, story_path)
+        has_critical_issues = "EDITORIAL CORRECTION REQUIRED" in report
     
     if args.out:
         os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
@@ -684,6 +901,12 @@ def main():
         print(f"[OK] Wrote critique report to {args.out}")
     else:
         print(report)
+
+    if has_critical_issues:
+        print("\n[FAIL] CRITIQUE GATE FAILED: Editorial correction required.", file=sys.stderr)
+        sys.exit(1)
+    else:
+        sys.exit(0)
 
 
 if __name__ == "__main__":
