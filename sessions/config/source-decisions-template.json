@@ -3,7 +3,7 @@
   "artifact": "source-decisions",
   "session_id": "sN",
   "source_file": "sessions/data/index/sN-raw-indexed.md",
-  "source_sha256": "<sha256 of sN-raw-indexed.md at the time the decisions were made>",
+  "source_sha256": "<CRLF-canonical sha256 of sN-raw-indexed.md; must equal raw_file_hash in sN-manifest.json>",
   "session_cutoff": {
     "line": 0,
     "gm_call_line": 0,

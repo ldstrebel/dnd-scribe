@@ -13,11 +13,12 @@ except ImportError:
         load_raw_indexed_speakers = None
 
 def get_sha256(filepath):
-    sha256 = hashlib.sha256()
+    """Hashes the CRLF-canonical form of the file so the lock is identical on
+    Windows (autocrlf) and LF checkouts. All committed manifests lock this form."""
     with open(filepath, "rb") as f:
-        while chunk := f.read(8192):
-            sha256.update(chunk)
-    return sha256.hexdigest()
+        data = f.read()
+    data = data.replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")
+    return hashlib.sha256(data).hexdigest()
 
 def count_lines(filepath):
     with open(filepath, "r", encoding="utf-8") as f:

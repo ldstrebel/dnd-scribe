@@ -10,7 +10,7 @@ Every entry records:
 
 ---
 
-## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-022`)
+## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-023`)
 
 ### [DEC-001] Edition 1: Raw Indexed Immutable Transcript Foundation
 * **Context & Friction:** Early novelization drafts suffered from phantom lines, lost dialogue turns, and non-reproducible line numbers whenever audio re-transcription occurred.
@@ -267,6 +267,18 @@ Every entry records:
   2. **Scorecard rubric tune (`run_publishing_pipeline.py`):** the condensation ratio is now labelled telemetry and cannot raise a grade. Track B grades `A` when itemized liberties exist and density is retained (>= 50% of Track A), `A-` under heavy condensation, and `B` when coarse spans exist with no itemized liberties. The "Creative Liberty Index" line is replaced by the count of itemized intent-contract liberties.
 * **Trade-off Accepted:** The 50% density line is a caution threshold, not a hard fail — the existing S5 Track B (42%) keeps its `A-`. Hard failure on thin prose stays with the `critique_prose.py` `sys.exit(1)` gate to avoid duplicating a gate (`DEC-019` false-novelty ban).
 * **Enforcing Gate:** `sessions/_scripts/run_publishing_pipeline.py` step 6; `sessions/_scripts/audit_semantic_grounding.py` reads `session_cutoff` from the source-decision ledger as a fallback.
+
+---
+
+### [DEC-023] 2026-09-27: Line-Ending-Canonical Hash Lock & Cross-Platform Verification Suite
+* **Context & Friction:** Every committed `sN-manifest.json` (`s1`–`s5`) locks `raw_file_hash` to the **CRLF** byte form of `sN-raw-indexed.md` (authored on a Windows checkout with autocrlf), while git stores the file as LF. On an LF checkout `verify_manifest.py` and `verify_parity.py` therefore reported `HASH LOCK MISMATCH` against an unmodified raw transcript. Separately, `novel/generate_epub.py` used `{'\n'.join(...)}` inside f-strings (Python >= 3.12 only), halting step 7 of the pipeline on 3.10/3.11, and `test_lore_guardian_catches_phonetic_drift` depended on a `Vanball` entry that left `campaign-config.json` when the engine went campaign-agnostic.
+* **Precedent Honoured:** The raw indexed transcript is immutable (`FP-01`); neither the raw files nor any committed manifest hash was rewritten. Hash locking stays a hard gate — only the byte canonicalisation changed.
+* **Agreed Decision & Protocol:**
+  1. `get_sha256()` in both verifiers normalises to CRLF before hashing, so the lock is identical on Windows and LF checkouts and matches every existing manifest. `sN-source-decisions.json` `source_sha256` must equal the manifest `raw_file_hash` (templates updated).
+  2. `generate_epub.py` precomputes joined nav/ncx/manifest/spine fragments outside the f-strings; output bytes are unchanged.
+  3. `LoreGuardian.__init__` accepts an optional `phonetic_map` so the harness tests its detector with an injected mapping instead of coupling to the live campaign dictionary.
+* **Trade-off Accepted:** A raw file whose only difference is line endings hashes identically; content edits still break the lock.
+* **Enforcing Gate:** `verify_manifest.py` / `verify_parity.py` (all sessions `[PASS]` on LF), `run_publishing_pipeline.py` exit 0 through EPUB assembly, `test_harness.py` 18/18.
 
 ---
 

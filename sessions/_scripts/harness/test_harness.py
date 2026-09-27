@@ -56,8 +56,9 @@ class TestEditorialHarness(unittest.TestCase):
         self.assertIn("EMBEDDED_ITALIC_DIALOGUE", types)
 
     def test_lore_guardian_catches_phonetic_drift(self):
+        guardian = LoreGuardian(phonetic_map={"vanball": "Vambal"})
         bad_text = 'Ignatius turned toward Vanball and asked for advice.'
-        res = self.lore_guardian.scan_text(bad_text)
+        res = guardian.scan_text(bad_text)
         self.assertFalse(res["passed"])
         err_types = [e["type"] for e in res["errors"]]
         self.assertIn("PHONETIC_DRIFT", err_types)

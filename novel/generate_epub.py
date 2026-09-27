@@ -298,6 +298,7 @@ hr.ornament { border: 0; height: 1px; background-image: linear-gradient(to right
         for chap in all_chapters:
             nav_items_html.append(f'      <li><a href="{chap["filename"]}">{html.escape(chap["title"])}</a></li>')
 
+        nav_items_joined = "\n".join(nav_items_html)
         nav_xhtml = f"""<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
@@ -307,7 +308,7 @@ hr.ornament { border: 0; height: 1px; background-image: linear-gradient(to right
     <h1>Table of Contents</h1>
     <ol>
       <li><a href="titlepage.xhtml">Title Page</a></li>
-{'\n'.join(nav_items_html)}
+{nav_items_joined}
     </ol>
   </nav>
 </body>
@@ -324,6 +325,7 @@ hr.ornament { border: 0; height: 1px; background-image: linear-gradient(to right
             ncx_points.append(f'    <navPoint id="navPoint-{po}" playOrder="{po}"><navLabel><text>{html.escape(chap["title"])}</text></navLabel><content src="{chap["filename"]}"/></navPoint>')
             po += 1
 
+        ncx_points_joined = "\n".join(ncx_points)
         toc_ncx = f"""<?xml version="1.0" encoding="UTF-8"?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
   <head>
@@ -334,12 +336,14 @@ hr.ornament { border: 0; height: 1px; background-image: linear-gradient(to right
   </head>
   <docTitle><text>{html.escape(title)}</text></docTitle>
   <navMap>
-{'\n'.join(ncx_points)}
+{ncx_points_joined}
   </navMap>
 </ncx>"""
         zf.writestr("OEBPS/toc.ncx", toc_ncx)
 
         # content.opf
+        manifest_items_joined = "\n".join("    " + item for item in manifest_items)
+        spine_refs_joined = "\n".join("    " + ref for ref in spine_refs)
         content_opf = f"""<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="3.0">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -352,10 +356,10 @@ hr.ornament { border: 0; height: 1px; background-image: linear-gradient(to right
     <meta property="dcterms:modified">{utc_now}</meta>
   </metadata>
   <manifest>
-{'\n'.join(['    ' + item for item in manifest_items])}
+{manifest_items_joined}
   </manifest>
   <spine toc="ncx">
-{'\n'.join(['    ' + ref for ref in spine_refs])}
+{spine_refs_joined}
   </spine>
 </package>"""
         zf.writestr("OEBPS/content.opf", content_opf)
