@@ -120,17 +120,32 @@ def render_dual_track_scorecard(sessions):
         print(f"\n🎬 TRACK B: CINEMATIC AUTHORIAL CUT (Flow, Velocity & Staging Standard)")
         if cin_files:
             comp_ratio = (cin_words / tbl_words * 100) if tbl_words > 0 else 0
-            liberty_index = 100 - comp_ratio
+            # Structural departure is measured by itemized liberties and coarse spans, never by
+            # word count. Prose density (sensory grounding, MRUs) is gated upstream by the
+            # critique_prose.py Deep-POV/cadence linter and the verify_parity.py compression
+            # guardrail; the ratio below is telemetry that can only LOWER the grade (DEC-022).
+            density_floor = 50.0
+            density_ok = comp_ratio >= density_floor
 
             print(f"   Scope: {len(cin_files)} scene blocks | {cin_words:,} words | {cin_markers} turn anchors | {cin_spans} coarse spans")
-            print(f"   • Condensation / Pacing Ratio:      {comp_ratio:.1f}% of Tabletop Length ({cin_words:,}w vs {tbl_words:,}w)")
-            print(f"   • Creative Liberty Index:           {liberty_index:.1f}% Structural Departure")
+            print(f"   • Condensation / Pacing Ratio:      {comp_ratio:.1f}% of Tabletop Length ({cin_words:,}w vs {tbl_words:,}w) [telemetry, not scored]")
+            print(f"   • Prose Density Retention:          {'[PASS]' if density_ok else '[CAUTION]'} (>= {density_floor:.0f}% of Track A expected; shorter is NOT better)")
+            print(f"   • Itemized Creative Liberties:      {len(authorial_liberties)} entries in intent contract (the ONLY licensed structural departures)")
             print(f"   • Coarse Beat Spans:                {cin_spans} multi-turn spans (fused rapid turns into fluid action)")
             print(f"   • Intent Invariant Conformance:     100.0% [PASS] (Core canon & player choices preserved)")
 
-            # Grade calculation
-            cin_grade = "A-" if liberty_index > 50 else "A"
-            print(f"   🏅 TRACK B GRADE: [{cin_grade}] HIGH CINEMATIC VELOCITY (Pacing: 96% | Flow: 95%)")
+            # Grade calculation: A when density holds and every departure is itemized; a
+            # compressed cut can only drop the grade, never raise it.
+            if cin_spans > 0 and not authorial_liberties:
+                cin_grade = "B"
+                grade_note = "UNITEMIZED DEPARTURES (coarse spans without intent-contract liberties)"
+            elif not density_ok:
+                cin_grade = "A-"
+                grade_note = "HIGH CINEMATIC VELOCITY (heavy condensation; verify density via critique gate, DEC-022)"
+            else:
+                cin_grade = "A"
+                grade_note = "HIGH CINEMATIC VELOCITY (density preserved, liberties itemized)"
+            print(f"   🏅 TRACK B GRADE: [{cin_grade}] {grade_note}")
 
             print(f"\n   📝 Documented Creative Liberties Taken (Where & Why):")
             if authorial_liberties:

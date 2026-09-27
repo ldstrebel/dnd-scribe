@@ -20,7 +20,7 @@ PRESENT_TENSE_VERBS = {
 
 
 class LoreGuardian:
-    def __init__(self):
+    def __init__(self, phonetic_map: Dict[str, str] = None):
         entities = load_canonical_entities()
         self.pcs = set(entities["pcs"])
         self.npcs = set(entities["npcs"])
@@ -31,7 +31,7 @@ class LoreGuardian:
         self.canonical_lower = {e.lower(): e for e in self.all_canonical}
 
         # Phonetic drift regexes
-        self.phonetic_map = PHONETIC_REPLACEMENTS
+        self.phonetic_map = PHONETIC_REPLACEMENTS if phonetic_map is None else phonetic_map
 
         # Regex for dialogue vs narrative
         self.dialogue_strip_regex = re.compile(r'"[^"]*"|“[^”]*”')

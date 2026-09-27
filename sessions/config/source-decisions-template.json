@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-decisions",
+  "session_id": "sN",
+  "source_file": "sessions/data/index/sN-raw-indexed.md",
+  "source_sha256": "<CRLF-canonical sha256 of sN-raw-indexed.md; must equal raw_file_hash in sN-manifest.json>",
+  "session_cutoff": {
+    "line": 0,
+    "gm_call_line": 0,
+    "reason": "Quote the GM's end-of-session call and state which line carries the final in-character beat. Track A prose must not continue past `line` (FP-17)."
+  },
+  "scope": "One sentence: which high-risk spans were reviewed (naming, collaborative lore, contested actions). This is a forensic reference, not a classification of every turn.",
+  "complements": [
+    "sessions/config/sN-intent-contract.json",
+    "sessions/config/sN-session-config.json"
+  ],
+  "decisions": [
+    {
+      "source_line": 0,
+      "contributor": "Player or GM name exactly as printed in sN-raw-indexed.md",
+      "mode": "table | in_character",
+      "function": "Short label: naming joke, campus motto, unplayed cliffhanger, ...",
+      "canon": "established | proposed | uncertain | logistics",
+      "representation": "tentative (optional; use when a proposed idea may be rendered only as a question or hedge)",
+      "destination": "render | omit | evidence | future_hook",
+      "context": [0, 0],
+      "accepted_by": [0],
+      "reason": "Why the line lands where it does, citing the surrounding turns. Never assign a table proposal to a character as spoken dialogue."
+    }
+  ]
+}
