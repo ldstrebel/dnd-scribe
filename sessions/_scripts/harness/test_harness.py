@@ -304,6 +304,41 @@ class TestSkipLedgerGate(unittest.TestCase):
         self.assertEqual(errors, [])
 
 
+from sessions._scripts.audit_arc_ledger import audit_arc_ledger
+from sessions._scripts.audit_reader_context import audit_reader_context, load_declared_introductions
+
+
+class TestWritersRoomGates(unittest.TestCase):
+    def test_arc_ledger_audit_passes_real_campaign(self):
+        passed, errors, warnings = audit_arc_ledger(str(REPO_ROOT))
+        self.assertTrue(passed, f"Arc ledger audit failed with errors: {errors}")
+        self.assertEqual(len(errors), 0)
+
+    def test_reader_context_audit_passes_s5(self):
+        passed, errors, warnings = audit_reader_context("s5", str(REPO_ROOT))
+        self.assertTrue(passed, f"Reader context audit failed with errors: {errors}")
+        self.assertEqual(len(errors), 0)
+
+    def test_declared_introductions_parser(self):
+        cfg = {
+            "session_lore_terms": [
+                {"term": "fragment", "introduced_scene": 1},
+                {"term": "briefcase", "introduced_scene": 9},
+                "legacy_string_term"
+            ],
+            "npcs": [
+                {"name": "Dr. Aris Thorne", "introduced_scene": 2},
+                "Legacy NPC"
+            ]
+        }
+        declared = load_declared_introductions(cfg)
+        self.assertEqual(declared["fragment"], 1)
+        self.assertEqual(declared["briefcase"], 9)
+        self.assertEqual(declared["legacy_string_term"], 1)
+        self.assertEqual(declared["dr. aris thorne"], 2)
+        self.assertEqual(declared["legacy npc"], 1)
+
+
 if __name__ == "__main__":
     unittest.main()
 

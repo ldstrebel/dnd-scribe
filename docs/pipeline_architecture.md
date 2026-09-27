@@ -520,3 +520,61 @@ To prevent campaign collisions and maintain a clean separation between the gener
    - Feature and agent branches (e.g. `devin/*` or `critique/*`) are ephemeral and subject to deletion/pruning.
    - Any architectural post-mortem citing an alternative implementation or PR escape must record **both the branch name and the immutable commit SHA** (e.g., `devin/1790479715-s5-fidelity-cuts` at `54c9d3a`).
 
+---
+
+## 11. The Dialectical Subagent Writers' Room & External Arbiter (`DEC-025`)
+
+To prevent multi-objective cognitive collapse during drafting, creative generation is decomposed into an adversarial subagent dialectic while evaluation remains sequestered strictly in the external Python verification suite:
+
+```
+  ┌─────────────────────────────────────────────────────────────┐
+  │                 DYNAMIC PRE-FLIGHT BRIEF                    │
+  │               (print_writers_room.py sN)                    │
+  │ • session-config (declarations, npcs, lore terms)           │
+  │ • source-decisions (turns, ingest destinations, risk)       │
+  │ • intent-contract (licensed drafting liberties)             │
+  │ • CAMPAIGN_ARC_LEDGER.md (cross-session state & citations)  │
+  └──────────────────────────────┬──────────────────────────────┘
+                                 │
+                                 ▼
+  ┌─────────────────────────────────────────────────────────────┐
+  │         THE DIALECTICAL SUBAGENT WRITERS' ROOM              │
+  │                                                             │
+  │ 1. Grounding Auditor (Tabletop Grounding Prosecutor)        │
+  │    • Distinguishes player hypothesis from GM confirmation.  │
+  │    • Enforces raw turn anchors and session cutoff boundaries.│
+  │                                                             │
+  │ 2. Arc Steward (Macro-Lore & Cosmology Steward)             │
+  │    • Negative-Only Mandate: Never invent forward prophecies │
+  │      or ungrounded backstories.                             │
+  │    • Anchors all claims to [ESTABLISHED] or [GM-PREP] tags. │
+  │                                                             │
+  │ 3. Reader Advocate (Reader Experience & Continuity Modeler) │
+  │    • "Declared, First, Grounded" Law: New terms declared    │
+  │      with introduced_scene; zero premature mentions.        │
+  │    • First paragraph in introduced_scene must carry anchor. │
+  │                                                             │
+  │ 4. Craft Dramatist (Deep-POV & Voice Dramatist)             │
+  │    • Dwight Swain Motivation-Reaction Units (MRUs).         │
+  │    • Windowpane prose: zero filter words (saw, felt, heard).│
+  │    • Dedicated paragraph per speaker change.                │
+  └──────────────────────────────┬──────────────────────────────┘
+                                 │
+                                 ▼
+  ┌─────────────────────────────────────────────────────────────┐
+  │            EXTERNAL DETERMINISTIC ARBITER (PYTHON)          │
+  │ • audit_arc_ledger.py (100% Citation Grounding)             │
+  │ • audit_reader_context.py (Declared, First, Grounded)       │
+  │ • verify_parity.py & audit_semantic_grounding.py            │
+  │ • verify_intent_parity.py & critique_prose.py               │
+  │ • test_harness.py (Continuous Regression Suite)             │
+  └─────────────────────────────────────────────────────────────┘
+```
+
+### Core Invariants of the Writers' Room
+1. **The Negative-Only Mandate (`DEC-010`, `DEC-025`):** The `arc-steward` uses `campaign/CAMPAIGN_ARC_LEDGER.md` defensively to avoid contradicting canon. It is strictly forbidden from fabricating future acts (e.g. Acts III–V) or inventing ungrounded character backstories.
+2. **The "Declared, First, and Grounded" Law:** Reader advocacy is verified mechanically by `audit_reader_context.py`. Terms established in prior books are canon; new terms in session $N$ must be declared in session-config, cannot appear before their declared `introduced_scene`, and must be grounded to raw audio in their introductory paragraph.
+3. **No Redundant Fifth File:** The pipeline preserves the clean 4-file separation of concerns (`session-config`, `source-decisions`, `intent-contract`, `CAMPAIGN_ARC_LEDGER.md`). Synthesis is generated on-demand via `sessions/_scripts/print_writers_room.py`.
+4. **Zero LLM Self-Grading:** Subagents write and debate; deterministic Python scripts grade. Pass/fail is absolute.
+
+

@@ -106,14 +106,14 @@
     }
   },
   "stats": {
-    "wordCount": 9149,
+    "wordCount": 9131,
     "estimatedReadMinutes": 37,
-    "estimatedBookPages": 36.6,
+    "estimatedBookPages": 36.5,
     "dialogueRatio": {
       "spokenWords": 3032,
-      "narrativeWords": 6117,
-      "spokenPct": 33.1,
-      "narrativePct": 66.9,
+      "narrativeWords": 6099,
+      "spokenPct": 33.2,
+      "narrativePct": 66.8,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -121,8 +121,8 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 4057,
-        "sharePct": 44.3
+        "words": 4039,
+        "sharePct": 44.2
       },
       {
         "id": "pierre",
@@ -136,7 +136,7 @@
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
         "words": 974,
-        "sharePct": 10.6
+        "sharePct": 10.7
       },
       {
         "id": "alfie",
@@ -178,7 +178,7 @@
         "name": "Dr. Aris Thorne",
         "color": "#059669",
         "words": 224,
-        "sharePct": 2.4
+        "sharePct": 2.5
       },
       {
         "id": "theodore",
@@ -255,7 +255,7 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "33.1% Spoken / 66.9% Narrative Action",
+          "chosenStance": "33.2% Spoken / 66.8% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
@@ -7524,7 +7524,7 @@
       "index": 188,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "narrator",
-      "text": "Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph. And resting directly beside her feet on the wooden floor of the lectern sat a heavy, brass-cornered leather briefcase\u2014securely sealed with a heavy tumbler padlock.",
+      "text": "Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph, oblivious to the investigators watching from the wings.",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b188_s01",
@@ -7532,7 +7532,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph. And resting directly beside her feet on the wooden floor of the lectern sat a heavy, brass-cornered leather briefcase\u2014securely sealed with a heavy tumbler padlock."
+          "text": "Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph, oblivious to the investigators watching from the wings."
         }
       ],
       "cut": "tabletop"
@@ -8079,10 +8079,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s05_b199_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1156,
           "text": "Pierre scoffed and turned on his heel, deliberately brushing past the front of the speaker's table. As he passed, his fingers drifted toward the heavy leather briefcase sitting on the floorboards. Dr. Thorne\u2019s gaze instantly snapped down; she stepped out from behind the lectern, casually hooking the briefcase handle with her toe and nudging it back beneath the dark overhang of the desk\u2014directly toward where Alfie was crouching in the shadows. Pierre caught Alfie's eye through the table legs, raised an eyebrow in subtle triumph, and strolled back up the aisle."
         }
       ],
@@ -9552,7 +9552,7 @@
       "index": 251,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "narrator",
-      "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage.",
+      "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Reductors had arrived for the binder. Satyrs\u2014or worse, satans.",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b251_s01",
@@ -9560,7 +9560,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage."
+          "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Reductors had arrived for the binder. Satyrs\u2014or worse, satans."
         }
       ],
       "cut": "tabletop"
@@ -9570,28 +9570,10 @@
       "index": 252,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "narrator",
-      "text": "The Reductors had arrived for the binder. Satyrs\u2014or worse, satans.",
-      "segments": [
-        {
-          "segmentId": "uneraseable_s05_b252_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "The Reductors had arrived for the binder. Satyrs\u2014or worse, satans."
-        }
-      ],
-      "cut": "tabletop"
-    },
-    {
-      "id": "uneraseable_s05_b253",
-      "index": 253,
-      "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
-      "speakerId": "narrator",
       "text": "Alfie's carved wooden head swiveled slowly on its peg, his painted eyes wide with horror as he pointed a trembling driftwood arm toward the double doors at the rear of the hall.",
       "segments": [
         {
-          "segmentId": "uneraseable_s05_b253_s01",
+          "segmentId": "uneraseable_s05_b252_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -9602,14 +9584,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s05_b254",
-      "index": 254,
+      "id": "uneraseable_s05_b253",
+      "index": 253,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "dravin",
       "text": "\"Sorry, Alfie,\" Dravin whispered, scooping the dazed wooden duelist and the heavy anomaly binder into his arms as the cloaked beasts surged forward.",
       "segments": [
         {
-          "segmentId": "uneraseable_s05_b254_s01",
+          "segmentId": "uneraseable_s05_b253_s01",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -9617,7 +9599,7 @@
           "text": "\"Sorry, Alfie,\""
         },
         {
-          "segmentId": "uneraseable_s05_b254_s02",
+          "segmentId": "uneraseable_s05_b253_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -9628,14 +9610,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s05_b255",
-      "index": 255,
+      "id": "uneraseable_s05_b254",
+      "index": 254,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "narrator",
       "text": "The trap had sprung.",
       "segments": [
         {
-          "segmentId": "uneraseable_s05_b255_s01",
+          "segmentId": "uneraseable_s05_b254_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",

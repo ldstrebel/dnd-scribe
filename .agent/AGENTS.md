@@ -96,23 +96,26 @@ Every generated scene block must satisfy the 8-point standard:
 ## 4.1 The Dialectical Subagent Writers' Room (`DEC-025`)
 
 To eradicate cognitive overload during drafting, split creative drafting into an adversarial subagent dialectic with grading sequestered strictly into the external Python suite:
-1. **The Tabletop Grounding Prosecutor (`grounding-auditor`):** Governs raw line fidelity, player agency, and distinguishes player hypotheses from GM confirmations.
-2. **The Campaign Arc & Macro-Lore Steward (`arc-steward`):** Governs multi-book cosmology, faction agendas, and character transformations via `campaign/CAMPAIGN_ARC_LEDGER.md`.
-3. **The Reader Experience & Continuity Modeler (`reader-advocate`):** Models the cognitive load of a reader who has never seen the stream; ensures callbacks land and mysteries are dramatized in active dialogue.
+1. **The Tabletop Grounding Prosecutor (`grounding-auditor`):** Governs raw line fidelity, player agency, and distinguishes player hypotheses from GM confirmations via `source-decisions.json`.
+2. **The Campaign Arc & Macro-Lore Steward (`arc-steward`):** Governs multi-book cosmology and faction agendas under the **Negative-Only Mandate** (`DEC-010`, `DEC-025`) via `campaign/CAMPAIGN_ARC_LEDGER.md`. Never invents forward prophecies or ungrounded backstories.
+3. **The Reader Experience & Continuity Modeler (`reader-advocate`):** Models the cognitive load of a reader who has never seen the stream; enforces the **"Declared, First, and Grounded"** law for all introduced lore terms and NPCs.
 4. **The Craft & Deep-POV Dramatist (`craft-dramatist`):** Enforces Dwight Swain MRUs, windowpane styling, syntactic cadence, and voice differentiation.
-5. **The External Arbiter (Infallible Python Gates):** Subagents write and debate, but under no circumstances evaluate their own compliance. Pass/fail is enforced exclusively by deterministic Python scripts (`verify_parity.py`, `audit_semantic_grounding.py`, `verify_intent_parity.py`, `critique_prose.py`, `test_harness.py`).
+5. **The Dynamic Pre-Flight Brief:** `python sessions/_scripts/print_writers_room.py sN` synthesizes state across the 4 foundational files without creating redundant fifth JSON files.
+6. **The External Arbiter (Infallible Python Gates):** Subagents write and debate, but under no circumstances evaluate their own compliance. Pass/fail is enforced exclusively by deterministic Python scripts (`audit_arc_ledger.py`, `audit_reader_context.py`, `verify_parity.py`, `audit_semantic_grounding.py`, `verify_intent_parity.py`, `critique_prose.py`, `test_harness.py`).
 
 ---
 
 ## 5. Verification Suite Gates
 
 Before finalizing any session novelization or storyboard:
-1. `python sessions/_scripts/verify_manifest.py sN` (100% Monotonic Line Coverage & Sub-165 line block sizing)
-2. `python sessions/_scripts/verify_parity.py sN` (100% Dialogue Ledger & Spans Fidelity, Canon Lore Guardrail)
-3. `python sessions/_scripts/verify_intent_parity.py sN` (Double-Blind Intent Parity & Agency Guards)
-4. `python .agents/skills/novel-critic/scripts/critique_prose.py sN` (Prose telemetry, zero Earth-leaks, talking heads scan, filter words & cadence)
-5. `python novel/generate_epub.py` (Clean EPUB compilation)
-6. `python sessions/_scripts/run_publishing_pipeline.py sN` (Dual-Track Scorecard & Creative Liberty Ledger)
+1. `python sessions/_scripts/audit_arc_ledger.py` (100% Provenance Citation Grounding)
+2. `python sessions/_scripts/audit_reader_context.py sN` (Declared, First, and Grounded Invariants)
+3. `python sessions/_scripts/verify_manifest.py sN` (100% Monotonic Line Coverage & Sub-165 line block sizing)
+4. `python sessions/_scripts/verify_parity.py sN` (100% Dialogue Ledger & Spans Fidelity, Canon Lore Guardrail)
+5. `python sessions/_scripts/verify_intent_parity.py sN` (Double-Blind Intent Parity & Agency Guards)
+6. `python .agents/skills/novel-critic/scripts/critique_prose.py sN` (Prose telemetry, zero Earth-leaks, talking heads scan, filter words & cadence)
+7. `python novel/generate_epub.py` (Clean EPUB compilation)
+8. `python sessions/_scripts/run_publishing_pipeline.py sN` (Dual-Track Scorecard & Creative Liberty Ledger)
 
 ---
 

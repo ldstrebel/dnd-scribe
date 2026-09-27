@@ -144,7 +144,11 @@ def load_lore_lexicon(session_id, base_dir, session_cfg=None):
                     session_cfg = json.load(f)
             except Exception:
                 session_cfg = {}
-    terms.extend(session_cfg.get("session_lore_terms", []))
+    for item in session_cfg.get("session_lore_terms", []):
+        t = item.get("term", "") if isinstance(item, dict) else str(item)
+        t = t.strip()
+        if t:
+            terms.append(t)
     # NPC names count as lore only as whole phrases; generic descriptor parts
     # ("Spectral Child", "The Three Fates") would otherwise fire on table talk.
     for npc in session_cfg.get("npcs", []) or []:

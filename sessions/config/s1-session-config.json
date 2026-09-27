@@ -10,12 +10,11 @@
     "Sophie Foreman Noone": "Alfie"
   },
   "npcs": [
-    "The Three Fates",
-    "Inked Demon",
-    "Ink Blob",
-    "Campfire Stranger",
-    "Mike",
-    "Lily"
+    { "name": "Campfire Stranger", "introduced_scene": 1 },
+    { "name": "Mike", "introduced_scene": 1 },
+    { "name": "Lily", "introduced_scene": 1 },
+    { "name": "The Fates", "introduced_scene": 2 },
+    { "name": "Ink Blob", "introduced_scene": 2 }
   ],
   "dialogue_speakers": {
     "961": "anchor",

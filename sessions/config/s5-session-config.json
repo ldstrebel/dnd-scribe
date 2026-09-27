@@ -14,15 +14,15 @@
   "absent_players": {},
   "shared_mics": {},
   "npcs": [
-    "Dr. Aris Thorne",
-    "Naomi",
-    "Theodore",
-    "Rosa",
-    "Mike",
-    "Satyr Infiltrator",
-    "Tin-Foil Protester",
-    "Hermes Courier",
-    "Spectral Child"
+    { "name": "Dr. Aris Thorne", "introduced_scene": 2 },
+    { "name": "Naomi", "introduced_scene": 1 },
+    { "name": "Theodore", "introduced_scene": 2 },
+    { "name": "Rosa", "introduced_scene": 1 },
+    { "name": "Mike", "introduced_scene": 1 },
+    { "name": "Satyr", "introduced_scene": 10 },
+    { "name": "Demonstrator", "introduced_scene": 6 },
+    { "name": "Rick Ready", "introduced_scene": 6 },
+    { "name": "Hermes", "introduced_scene": 2 }
   ],
   "dialogue_speakers": {
     "157": "naomi",
@@ -93,6 +93,14 @@
     463,
     491,
     {
+      "line": 202,
+      "reason": "GM incomplete sentence remarking on Hermes name at the table."
+    },
+    {
+      "line": 204,
+      "reason": "GM table banter about French accent differences pronouncing Hermes."
+    },
+    {
       "line": 387,
       "reason": "Player recollecting the prior-session tablet vision at the table; the vision itself is rendered at L0361/L0366."
     },
@@ -123,12 +131,12 @@
     "reason": "GM: 'roll initiative and that is where we will end our session today' (L1251). L1252-L1257 are table wrap-up; L1256 'Sorry, Alfie' is the final in-character beat. No initiative or combat action was played."
   },
   "session_lore_terms": [
-    "fragment",
-    "anomaly",
-    "briefcase",
-    "trial logs",
-    "Thorne",
-    "Reductor",
-    "fire alarm"
+    { "term": "fragment", "introduced_scene": 1 },
+    { "term": "anomaly", "introduced_scene": 2 },
+    { "term": "trial notes", "introduced_scene": 2 },
+    { "term": "Thorne", "introduced_scene": 2 },
+    { "term": "Reductor", "introduced_scene": 10 },
+    { "term": "briefcase", "introduced_scene": 9 },
+    { "term": "fire alarm", "introduced_scene": 10 }
   ]
 }

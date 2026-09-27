@@ -195,11 +195,13 @@ def main():
 
     # 0. Pre-Flight: Architectural Consistency & Anti-Amnesia Gate
     run_step("Pipeline Steward Decision Ledger & Architecture Audit", [sys.executable, ".agents/skills/pipeline-steward/scripts/audit_decision_ledger.py"])
+    run_step("Campaign Arc Ledger Provenance Gate", [sys.executable, "sessions/_scripts/audit_arc_ledger.py"])
 
     # 1. Fact-Checking & Semantic Grounding Gates
     for s in args.sessions:
         run_step(f"Fact-Checker Semantic Entailment ({s.upper()})", [sys.executable, "sessions/_scripts/audit_semantic_grounding.py", s])
         run_step(f"Fact-Checker Parity & Ledger Integrity ({s.upper()})", [sys.executable, "sessions/_scripts/verify_parity.py", s])
+        run_step(f"Reader Context & Introduction Audit ({s.upper()})", [sys.executable, "sessions/_scripts/audit_reader_context.py", s])
         run_step(f"Double-Blind Intent Parity & Campaign Context ({s.upper()})", [sys.executable, "sessions/_scripts/verify_intent_parity.py", s])
 
     # 2. Macro Narrative & Character Anchor Gate

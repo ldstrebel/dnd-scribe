@@ -62,4 +62,4 @@ Alfie stopped mid-wrap, the scarf's fringe dangling from her small fingers. "The
 
 "An active anomaly," Dravin concluded grimly, his gaze darting toward the heavy backstage curtain. <!-- L1064:dravin -->
 
-Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph. And resting directly beside her feet on the wooden floor of the lectern sat a heavy, brass-cornered leather briefcase—securely sealed with a heavy tumbler padlock.
+Through the crack in the velvet drape, Dravin and Alfie peered out onto the brightly lit stage. There stood Dr. Aris Thorne in her pristine white lab coat, passionately gesturing toward a projected graph, oblivious to the investigators watching from the wings.

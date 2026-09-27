@@ -49,3 +49,5 @@ campaign/planning/**/*.mp4
 *.m4a
 *.zip
 *.json.gz
+novel/*.epub
+sessions/data/index/audit_history.json

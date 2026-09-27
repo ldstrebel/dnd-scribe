@@ -21,6 +21,7 @@
       "mode": "table | in_character",
       "function": "Short label: naming joke, campus motto, unplayed cliffhanger, ...",
       "canon": "established | proposed | uncertain | logistics",
+      "risk": "player_hypothesis | gm_confirmation | tier_b_deduction | table_banter | logistics",
       "representation": "tentative (optional; use when a proposed idea may be rendered only as a question or hedge)",
       "destination": "render | omit | evidence | future_hook",
       "context": [0, 0],

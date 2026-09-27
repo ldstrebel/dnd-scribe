@@ -27,7 +27,8 @@
         634,
         643
       ],
-      "reason": "The sign was established in L0634; this response is a question about its name, not Eusacles speaking."
+      "reason": "The sign was established in L0634; this response is a question about its name, not Eusacles speaking.",
+      "risk": "player_hypothesis"
     },
     {
       "source_line": 638,
@@ -40,7 +41,8 @@
         634,
         648
       ],
-      "reason": "The party leaves the woods for a busy quad; this is the played transition."
+      "reason": "The party leaves the woods for a busy quad; this is the played transition.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 639,
@@ -54,7 +56,8 @@
         634,
         643
       ],
-      "reason": "The alternatives remain questions and cannot replace the confirmed University University name."
+      "reason": "The alternatives remain questions and cannot replace the confirmed University University name.",
+      "risk": "player_hypothesis"
     },
     {
       "source_line": 641,
@@ -67,7 +70,8 @@
         639,
         648
       ],
-      "reason": "The repeated name is useful connective rhythm, without inventing in-character dialogue."
+      "reason": "The repeated name is useful connective rhythm, without inventing in-character dialogue.",
+      "risk": "table_banter"
     },
     {
       "source_line": 643,
@@ -80,7 +84,8 @@
         639,
         648
       ],
-      "reason": "Second repetition completes the name; paraphrase as narration rather than a spoken Alfie line."
+      "reason": "Second repetition completes the name; paraphrase as narration rather than a spoken Alfie line.",
+      "risk": "table_banter"
     },
     {
       "source_line": 855,
@@ -93,7 +98,8 @@
         854,
         860
       ],
-      "reason": "Concrete is observed at the location, though the government-origin theory remains speculative."
+      "reason": "Concrete is observed at the location, though the government-origin theory remains speculative.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 857,
@@ -107,7 +113,8 @@
         854,
         862
       ],
-      "reason": "The concrete and woodwork prompt an unconfirmed guess, not institutional history."
+      "reason": "The concrete and woodwork prompt an unconfirmed guess, not institutional history.",
+      "risk": "player_hypothesis"
     },
     {
       "source_line": 860,
@@ -120,7 +127,8 @@
         854,
         862
       ],
-      "reason": "The wood and doors are noticed; no character dialogue is assigned to Pierre."
+      "reason": "The wood and doors are noticed; no character dialogue is assigned to Pierre.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 863,
@@ -133,7 +141,8 @@
         860,
         869
       ],
-      "reason": "Preserve the age claim while excluding the virtual tabletop scaling aside."
+      "reason": "Preserve the age claim while excluding the virtual tabletop scaling aside.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 865,
@@ -146,7 +155,8 @@
         860,
         869
       ],
-      "reason": "Donor pool informs setting; no invented dialogue is given to Dravin."
+      "reason": "Donor pool informs setting; no invented dialogue is given to Dravin.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 866,
@@ -159,7 +169,8 @@
         863,
         869
       ],
-      "reason": "Being turned into a ghost is a virtual tabletop token issue amid the GM's scaling discussion, not a played transformation."
+      "reason": "Being turned into a ghost is a virtual tabletop token issue amid the GM's scaling discussion, not a played transformation.",
+      "risk": "logistics"
     },
     {
       "source_line": 868,
@@ -175,7 +186,8 @@
       "accepted_by": [
         869
       ],
-      "reason": "Sophie proposes the motto and Luke confirms it immediately in L0869; location or carved signage was not established."
+      "reason": "Sophie proposes the motto and Luke confirms it immediately in L0869; location or carved signage was not established.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 869,
@@ -188,7 +200,8 @@
         868,
         875
       ],
-      "reason": "Confirms the motto; physical material and placement remain unspecified."
+      "reason": "Confirms the motto; physical material and placement remain unspecified.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 870,
@@ -201,7 +214,8 @@
         868,
         875
       ],
-      "reason": "Positive response helps interpret the exchange, but the garbled transcription is not a new in-world detail."
+      "reason": "Positive response helps interpret the exchange, but the garbled transcription is not a new in-world detail.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 872,
@@ -218,7 +232,8 @@
         873,
         875
       ],
-      "reason": "The proposed U/Omega design is accepted in the surrounding exchange; no brass seal or lintel is established."
+      "reason": "The proposed U/Omega design is accepted in the surrounding exchange; no brass seal or lintel is established.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 873,
@@ -231,7 +246,8 @@
         872,
         875
       ],
-      "reason": "The GM affirms the suggested paired-letter emblem."
+      "reason": "The GM affirms the suggested paired-letter emblem.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 875,
@@ -244,7 +260,8 @@
         872,
         880
       ],
-      "reason": "Confirms the paired letters; the possible shirt is a separate future idea."
+      "reason": "Confirms the paired letters; the possible shirt is a separate future idea.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 875,
@@ -257,7 +274,8 @@
         872,
         880
       ],
-      "reason": "The GM says he will have to make a fake shirt; this does not establish a shirt at the current scene."
+      "reason": "The GM says he will have to make a fake shirt; this does not establish a shirt at the current scene.",
+      "risk": "player_hypothesis"
     },
     {
       "source_line": 880,
@@ -270,7 +288,8 @@
         875,
         883
       ],
-      "reason": "Keep the participant's joke available for later texture without creating an on-campus event or practice."
+      "reason": "Keep the participant's joke available for later texture without creating an on-campus event or practice.",
+      "risk": "player_hypothesis"
     },
     {
       "source_line": 1022,
@@ -286,7 +305,8 @@
       "accepted_by": [
         1023
       ],
-      "reason": "A player declares Alfie's search; narrate the action rather than quote the player as Alfie."
+      "reason": "A player declares Alfie's search; narrate the action rather than quote the player as Alfie.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 1023,
@@ -299,7 +319,8 @@
         1022,
         1028
       ],
-      "reason": "The GM establishes there is no hat and identifies the brochure and scarf."
+      "reason": "The GM establishes there is no hat and identifies the brochure and scarf.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1025,
@@ -312,7 +333,8 @@
         1022,
         1028
       ],
-      "reason": "The GM confirms fruit as part of the offered gift bag."
+      "reason": "The GM confirms fruit as part of the offered gift bag.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1217,
@@ -325,7 +347,8 @@
         1211,
         1220
       ],
-      "reason": "This is Dravin's played action; he did not take the binder or arm himself afterward."
+      "reason": "This is Dravin's played action; he did not take the binder or arm himself afterward.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 1220,
@@ -338,7 +361,8 @@
         1217,
         1227
       ],
-      "reason": "The binder is the fragment, the lights flicker and someone gestures from the second row; the GM does not identify the alarm puller."
+      "reason": "The binder is the fragment, the lights flicker and someone gestures from the second row; the GM does not identify the alarm puller.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1227,
@@ -351,7 +375,8 @@
         1220,
         1230
       ],
-      "reason": "The GM corrects the previous impression: the alarm sounds but nobody sees who pulled it."
+      "reason": "The GM corrects the previous impression: the alarm sounds but nobody sees who pulled it.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1230,
@@ -364,7 +389,8 @@
         1229,
         1233
       ],
-      "reason": "The vision shows restrained and dazed patients and body bags, but does not establish a count or their final fate."
+      "reason": "The vision shows restrained and dazed patients and body bags, but does not establish a count or their final fate.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1233,
@@ -377,7 +403,8 @@
         1232,
         1244
       ],
-      "reason": "The ward is absent in the earlier image; avoid explaining the temporal change or resolving the mystery."
+      "reason": "The ward is absent in the earlier image; avoid explaining the temporal change or resolving the mystery.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1242,
@@ -390,7 +417,8 @@
         1240,
         1251
       ],
-      "reason": "The encounter is established, but the spoken creature name is garbled; session config identifies a satyr infiltrator. Avoid invented numbers, costumes, or allegiance."
+      "reason": "The encounter is established, but the spoken creature name is garbled; session config identifies a satyr infiltrator. Avoid invented numbers, costumes, or allegiance.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1251,
@@ -403,7 +431,8 @@
         1242,
         1257
       ],
-      "reason": "The GM ends before initiative is played; no PC can be assigned an attack, escape, or decision in this session."
+      "reason": "The GM ends before initiative is played; no PC can be assigned an attack, escape, or decision in this session.",
+      "risk": "gm_confirmation"
     },
     {
       "source_line": 1256,
@@ -416,7 +445,8 @@
         1251,
         1257
       ],
-      "reason": "The apology is spoken; the transcript contains no subsequent action of picking up Alfie or the binder."
+      "reason": "The apology is spoken; the transcript contains no subsequent action of picking up Alfie or the binder.",
+      "risk": "tier_b_deduction"
     },
     {
       "source_line": 1257,
@@ -429,7 +459,8 @@
         1255,
         1257
       ],
-      "reason": "Another player imagines Alfie's reaction after the session stops; preserve the suggestion without assigning it to Alfie as played action."
+      "reason": "Another player imagines Alfie's reaction after the session stops; preserve the suggestion without assigning it to Alfie as played action.",
+      "risk": "player_hypothesis"
     }
   ]
 }
