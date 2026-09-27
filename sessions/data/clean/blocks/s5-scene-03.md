@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [241, 390] | SCENE_ID: 3 -->
 
-<!-- LEDGER: rendered=[241, 242, 244, 249, 256, 258, 260, 265, 268, 276, 290, 291, 292, 293, 298, 312, 313, 323, 325, 326, 329, 334, 337, 338, 340, 348, 353, 361, 366, 371, 372, 381, 383, 384, 386] skipped=[243(ooc), 245(ooc), 246(ooc), 247(ooc), 248(ooc), 250(ooc), 251(ooc), 252(ooc), 253(ooc), 254(ooc), 255(ooc), 257(ooc), 259(ooc), 261(ooc), 262(ooc), 263(ooc), 264(ooc), 266(ooc), 267(ooc), 269(ooc), 270(ooc), 271(ooc), 272(ooc), 273(ooc), 274(ooc), 275(ooc), 277(ooc), 278(ooc), 279(ooc), 280(ooc), 281(ooc), 282(ooc), 283(ooc), 284(ooc), 285(ooc), 286(ooc), 287(ooc), 288(ooc), 289(ooc), 294(ooc), 295(ooc), 296(ooc), 297(ooc), 299(ooc), 300(ooc), 301(ooc), 302(ooc), 303(ooc), 304(ooc), 305(ooc), 306(ooc), 307(ooc), 308(ooc), 309(ooc), 310(ooc), 311(ooc), 314(ooc), 315(ooc), 316(ooc), 317(ooc), 318(ooc), 319(ooc), 320(ooc), 321(ooc), 322(ooc), 324(ooc), 327(ooc), 328(ooc), 330(ooc), 331(ooc), 332(ooc), 333(ooc), 335(ooc), 336(ooc), 339(ooc), 341(ooc), 342(ooc), 343(ooc), 344(ooc), 345(ooc), 346(ooc), 347(ooc), 349(ooc), 350(ooc), 351(ooc), 352(ooc), 354(ooc), 355(ooc), 356(ooc), 357(ooc), 358(ooc), 359(ooc), 360(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 373(ooc), 374(ooc), 375(ooc), 376(ooc), 377(ooc), 378(ooc), 379(ooc), 380(ooc), 382(ooc), 385(ooc), 387(ooc), 388(ooc), 389(ooc), 390(ooc)] -->
+<!-- LEDGER: rendered=[241, 242, 244, 249, 256, 258, 260, 265, 268, 276, 277, 278, 280, 281, 283, 290, 291, 292, 293, 298, 312, 313, 323, 325, 326, 329, 334, 337, 338, 340, 348, 353, 357, 358, 361, 366, 367, 368, 371, 372, 381, 383, 384, 386] skipped=[243(ooc), 245(ooc), 246(ooc), 247(ooc), 248(ooc), 250(ooc), 251(ooc), 252(ooc), 253(ooc), 254(ooc), 255(ooc), 257(ooc), 259(ooc), 261(banter), 262(ooc), 263(ooc), 264(ooc), 266(ooc), 267(compressed), 269(ooc), 270(ooc), 271(ooc), 272(ooc), 273(ooc), 274(ooc), 275(ooc), 279(ooc), 282(ooc), 284(banter), 285(ooc), 286(ooc), 287(ooc), 288(ooc), 289(ooc), 294(ooc), 295(ooc), 296(ooc), 297(ooc), 299(ooc), 300(ooc), 301(ooc), 302(ooc), 303(ooc), 304(ooc), 305(compressed), 306(ooc), 307(ooc), 308(ooc), 309(ooc), 310(ooc), 311(ooc), 314(compressed), 315(ooc), 316(ooc), 317(ooc), 318(ooc), 319(ooc), 320(ooc), 321(ooc), 322(ooc), 324(ooc), 327(ooc), 328(ooc), 330(ooc), 331(ooc), 332(ooc), 333(ooc), 335(ooc), 336(ooc), 339(compressed), 341(ooc), 342(ooc), 343(ooc), 344(ooc), 345(ooc), 346(ooc), 347(ooc), 349(ooc), 350(ooc), 351(ooc), 352(ooc), 354(ooc), 355(ooc), 356(ooc), 359(ooc), 360(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 369(ooc), 370(ooc), 373(ooc), 374(ooc), 375(ooc), 376(ooc), 377(ooc), 378(ooc), 379(ooc), 380(ooc), 382(ooc), 385(ooc), 387(ooc), 388(ooc), 389(ooc), 390(ooc)] -->
 
 As Dravin touched the parchment, the brass pomegranate signet pinned to his tweed lapel flared with a sudden, deep crimson heat. The warmth radiated through the wool into his chest, carrying a faint scent of crushed pomegranate seeds and autumnal frost. His eyes scanned the flowing celestial script, the pale light of the Margin reflecting in his spectacles. <!-- L0241 -->
 
@@ -10,7 +10,11 @@ Dravin’s expression tightened into a grim, stoic quiet. He did not read the wo
 
 "You look rather pale, Professor," Pierre observed, tilting his woolen beret back with a smirk. "I warned you. It was jury duty, wasn't it? A summons to deliberate upon stolen livestock in some backwater county." <!-- L0258 --> <!-- L0260 -->
 
-Before Dravin could deliver an acid retort, a heavy thud shook the timber decking at the far end of the compound. Eusacles strode into the clearing, yawning broadly and rolling his broad shoulders beneath his denim jacket. He pushed a pair of dark aviator sunglasses up onto his brow, eyeing the cabin with cynical amusement. An enchanted watch-chain glinted at his belt loop, humming with faint divine resonance. <!-- L0265 --> <!-- L0268 --> <!-- L0276 --> <!-- L0290 -->
+Before Dravin could deliver an acid retort, a heavy thud shook the timber decking at the far end of the compound. <!-- L0265 --> <!-- L0268 --> <!-- L0276 -->
+
+In the days since the fog had split the party on the Lost Roads, Eusacles had made himself useful at the Margin—walking the perimeter through the small hours, keeping camp watch, running errands for Naomi. He had also claimed the most decrepit cabin on the grounds, a burnt-out shell that looked ready to fall in on itself, and set about making it his own. The work was a long way from finished: a few patched boards, a door that shut, no thought yet for aesthetics. But a hammock hung inside now, and it kept him dry and warm at night. He would keep at it. <!-- L0277 --> <!-- L0278 --> <!-- L0280 --> <!-- L0281 --> <!-- L0283 -->
+
+Eusacles strode out of that cabin now and into the clearing, yawning broadly and rolling his broad shoulders beneath his denim jacket. He pushed a pair of dark aviator sunglasses up onto his brow, eyeing his fellow fatebound with cynical amusement. An enchanted watch-chain glinted at his belt loop, humming with faint divine resonance. <!-- L0290 -->
 
 "Morning, fellas," Eusacles rumbled, cracking his knuckles. "Did you manage to steal anything decent from that museum, or did y'all get lost as hell in the fog like I did?" <!-- L0291 -->
 
@@ -30,7 +34,15 @@ Eusacles leaned against the timber railing, folding his thick arms. "Did you rea
 
 Alfie's posture slumped slightly on the barrel, her seashell button eyes gazing into the damp mist. "I touched it, mate. Terrifying and enlightening all at once. It was oarsmen—rowing in the pitch dark through freezing brine, water crashing over the gunwales, and men shouting in the black. I've had the whole rotten nightmare on repeat behind my eyes ever since my fingers touched that rock." <!-- L0348 --> <!-- L0353 -->
 
+"It is unsettling, when Alfie goes to bed," Pierre confided to Eusacles in a stage whisper. "Sometimes she simply stares out into the middle distance, and you cannot tell whether she is looking at you or through you." <!-- L0357:pierre -->
+
+"That's why I like the lanterns at night, mate," Alfie said without turning. "Don't spend too much time sleeping. Or thinking." <!-- L0358:alfie -->
+
 "Two distinct timelines branched from that tablet," Pierre explained, stepping over to inspect the edge of Dravin's shield. "One was *beacon* and one was *beckon*. A lighthouse that beckoned raiders safely toward the shore, and another that acted as a beacon of warning that shattered their keel on the shoals. A single letter altered in the inscription, yet whole villages burned or survived because of it." <!-- L0361 --> <!-- L0366 -->
+
+"Alfie—had you seen it before? Did you recognize the boat?" Pierre asked, more gently. <!-- L0367:pierre -->
+
+"See, that's the thing." Alfie's seashell eyes stayed fixed on the mist. "I'm confused about myself. I don't know exactly who I am or where I came from. I am, if you hadn't noticed, a bit of a doll." <!-- L0368:alfie -->
 
 Eusacles grunted, shaking his head. "A doll with dreams and night terrors." <!-- L0371 -->
 

@@ -91,11 +91,44 @@
     458,
     459,
     463,
-    491
+    491,
+    {
+      "line": 387,
+      "reason": "Player recollecting the prior-session tablet vision at the table; the vision itself is rendered at L0361/L0366."
+    },
+    {
+      "line": 922,
+      "reason": "GM procedural question about Edward's positioning; the movement is rendered in the following turns."
+    },
+    {
+      "line": 1033,
+      "reason": "Player clarifying that Pierre had already heard his name called; no new in-world content."
+    },
+    {
+      "line": 1035,
+      "reason": "GM offering the table a retry option (procedure), no narrative content."
+    },
+    {
+      "line": 1102,
+      "reason": "GM listing filler audience actions (Play-Doh, paper, phone poker) as table colour; no story content."
+    },
+    {
+      "line": 1112,
+      "reason": "GM offering players scene options after the green-room search; procedural."
+    }
   ],
   "session_cutoff": {
     "line": 1257,
     "gm_call_line": 1251,
     "reason": "GM: 'roll initiative and that is where we will end our session today' (L1251). L1252-L1257 are table wrap-up; L1256 'Sorry, Alfie' is the final in-character beat. No initiative or combat action was played."
-  }
+  },
+  "session_lore_terms": [
+    "fragment",
+    "anomaly",
+    "briefcase",
+    "trial logs",
+    "Thorne",
+    "Reductor",
+    "fire alarm"
+  ]
 }

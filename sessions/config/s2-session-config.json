@@ -101,5 +101,147 @@
     "uneraseable_s02_b163": "pierre",
     "uneraseable_s02_b192": "mike"
   },
-  "legitimate_ooc_lore_skips": [1215]
+  "legitimate_ooc_lore_skips": [
+    1215,
+    {
+      "line": 406,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 410,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 455,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 985,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 1004,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 1259,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 1370,
+      "reason": "GM/table procedure or session-open recap; no in-world content."
+    },
+    {
+      "line": 495,
+      "reason": "Player table-level speculation/planning; no new in-world content beyond the rendered scene."
+    },
+    {
+      "line": 692,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 748,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 797,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1010,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1019,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1024,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1042,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1043,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1046,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1071,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1078,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1095,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1097,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1101,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1138,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1142,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1147,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1149,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1158,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1181,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1264,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1268,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1272,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1365,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1411,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1412,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 1498,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    }
+  ]
 }

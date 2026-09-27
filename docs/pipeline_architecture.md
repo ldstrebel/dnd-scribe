@@ -314,6 +314,20 @@ Field rules:
 * `destination: evidence` marks lines that justify a cut or a liberty without being rendered (e.g. the GM's end-of-session call).
 * `session_cutoff` must agree with `sN-session-config.json`; `audit_semantic_grounding.py` reads the session config first and falls back to this artifact.
 
+### 5b. Skip-Ledger Governance: `(ooc)` Means Tier C Only (`DEC-024`)
+
+`audit_semantic_grounding.py` (`audit_skip_ledger`) turns the `skipped=[...]` ledger into a hard gate. All three codes fail the build; none is a warning.
+
+| Code | Trigger | Resolution |
+| :--- | :--- | :--- |
+| `UNJUSTIFIED_OOC_DROP` | Any spoken line (any speaker, GM or player) with >= 8 content words and no table-meta marker tagged generic `(ooc)` | Render into prose, retag `(banter)`/`(mechanics)`/`(compressed)`, or exempt with a reason |
+| `TIER_B_LORE_DROP` | A skipped spoken line matching the lore lexicon | Render, or exempt with a reason |
+| `HOLLOW_COMPRESSED_SKIP` | `(compressed)` line sharing fewer than `max(2, ceil(25%))` unique content tokens with the scene's rendered prose | Novelize its substance or retag honestly |
+
+* **Lore lexicon (config, never Python):** `campaign-config.json` `lore_lexicon` (global; `stem*` wildcard supported) ∪ `sN-session-config.json` `session_lore_terms` ∪ configured NPC names matched as whole phrases.
+* **Exemptions:** `legitimate_ooc_lore_skips` accepts legacy `int` entries (S1–S4) or `{"line": N, "reason": "..."}`; new entries must be structured. `load_skip_exemptions()` / `load_lore_lexicon()` are shared with `verify_parity.py`.
+* **Backlog marker:** exemptions whose reason contains `DEC-024 backlog` mark in-character lines the legacy S2/S3 Track A cuts never carried; they are recorded debt, not approvals.
+
 ---
 
 ## 6. Session 6+ Production Runbook & Pre-Flight Checklist

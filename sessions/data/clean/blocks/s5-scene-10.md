@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [1206, 1257] | SCENE_ID: 10 -->
 
-<!-- LEDGER: rendered=[1206, 1207, 1209, 1210, 1219, 1229, 1230, 1232, 1233, 1242, 1256] skipped=[1208(ooc), 1211(ooc), 1212(ooc), 1213(ooc), 1214(ooc), 1215(ooc), 1216(ooc), 1217(ooc), 1218(ooc), 1220(ooc), 1221(ooc), 1222(ooc), 1223(ooc), 1224(ooc), 1225(ooc), 1226(ooc), 1227(ooc), 1228(ooc), 1231(ooc), 1234(ooc), 1235(ooc), 1236(ooc), 1237(ooc), 1238(ooc), 1239(ooc), 1240(ooc), 1241(ooc), 1243(ooc), 1244(ooc), 1245(ooc), 1246(ooc), 1247(ooc), 1248(ooc), 1249(ooc), 1250(ooc), 1251(ooc), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1257(ooc)] -->
+<!-- LEDGER: rendered=[1206, 1207, 1209, 1210, 1219, 1220, 1227, 1229, 1230, 1232, 1233, 1242, 1256] skipped=[1208(ooc), 1211(ooc), 1212(ooc), 1213(compressed), 1214(ooc), 1215(ooc), 1216(ooc), 1217(compressed), 1218(ooc), 1221(ooc), 1222(ooc), 1223(ooc), 1224(ooc), 1225(ooc), 1226(ooc), 1228(ooc), 1231(ooc), 1234(ooc), 1235(ooc), 1236(ooc), 1237(ooc), 1238(ooc), 1239(ooc), 1240(ooc), 1241(ooc), 1243(ooc), 1244(ooc), 1245(ooc), 1246(ooc), 1247(ooc), 1248(ooc), 1249(ooc), 1250(ooc), 1251(ooc), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1257(ooc)] -->
 
 Dr. Aris Thorne took a steadying breath, brushing a stray lock of hair behind her ear and glancing out at the hushed, expectant hall.
 
@@ -22,7 +22,9 @@ Mid-air, Alfie's little carved legs kicked frantically, his painted eyes rolling
 
 "Not again," Alfie groaned mournfully. "Not me again." <!-- L1219 -->
 
-Before Alfie could twist his driftwood limbs free, Dravin slammed the protesting doll face-first into the cold buckram binder.
+Dravin knew it the instant the lid had risen: this research, this handwritten binder, was the Fragment itself, its power seeping out of the open case like heat from a stove. Overhead the chandeliers flickered—once, twice—and not a soul in the hall seemed to notice, save for a single figure in the second row who rose slowly to their feet and made a small, deliberate gesture toward the stage. <!-- L1220 -->
+
+Before Alfie could twist his driftwood limbs free, Dravin slammed the protesting doll face-first into the cold buckram binder. Somewhere above them the fire alarm began to shriek—no hand had pulled it—and raw power poured out of the open case. <!-- L1227 -->
 
 * * *
 

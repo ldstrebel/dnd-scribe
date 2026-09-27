@@ -2,6 +2,7 @@ import sys
 import os
 import re
 import json
+import math
 import argparse
 import datetime
 from collections import Counter
@@ -60,6 +61,178 @@ def parse_ledger_list(list_str):
         return []
     matches = re.findall(r"L?(\d+)", list_str)
     return [int(m) for m in matches]
+
+
+def words_overlap(raw_words, prose_words):
+    """Fuzzy content-word overlap: exact, phonetic alias, crude stem, or 5-char prefix."""
+    for rw in raw_words:
+        for pw in prose_words:
+            if rw == pw:
+                return True
+            if (rw in PHONETIC_ALIASES and pw in PHONETIC_ALIASES[rw]) or (pw in PHONETIC_ALIASES and rw in PHONETIC_ALIASES[pw]):
+                return True
+            sr = re.sub(r'(?:ing|edly|ed|es|s|ly|ment|tion|al)$', '', rw)
+            sr = re.sub(r'([b-df-hj-np-tv-z])\1$', r'\1', sr)
+            sp = re.sub(r'(?:ing|edly|ed|es|s|ly|ment|tion|al)$', '', pw)
+            sp = re.sub(r'([b-df-hj-np-tv-z])\1$', r'\1', sp)
+            if len(sr) >= 3 and len(sp) >= 3 and sr == sp:
+                return True
+            if len(rw) >= 5 and len(pw) >= 5 and rw[:5] == pw[:5] and abs(len(rw) - len(pw)) <= 3:
+                return True
+    return False
+
+
+# ---------------------------------------------------------------------------
+# Skip-Ledger Governance (DEC-002 tiers, DEC-011/016 inclusive fiction, DEC-024)
+# ---------------------------------------------------------------------------
+# (ooc) is Tier C only: short technical/meta fragments. A spoken turn carrying
+# SUBSTANTIVE_SKIP_MIN_WORDS+ content words cannot hide behind a naked (ooc);
+# it must be rendered, typed (banter|mechanics|compressed), or exempted with a
+# recorded reason in sN-session-config.json legitimate_ooc_lore_skips.
+
+SUBSTANTIVE_SKIP_MIN_WORDS = 8
+COMPRESSED_MIN_SHARED_WORDS = 2
+COMPRESSED_MIN_SHARED_RATIO = 0.25
+
+META_TABLE_MARKERS = [
+    "roll", "initiative", "saving throw", "spell slot", "dice",
+    "laugh", "chuckle", "character sheet", "wifi", "discord", "d4", "d6", "d20",
+    "muted", "mic"
+]
+
+def load_skip_exemptions(cfg):
+    """legitimate_ooc_lore_skips accepts legacy ints or {line, reason} records. Returns {line: reason}."""
+    exemptions = {}
+    for entry in cfg.get("legitimate_ooc_lore_skips", []):
+        if isinstance(entry, dict):
+            line = entry.get("line")
+            if isinstance(line, int):
+                exemptions[line] = entry.get("reason") or "(no reason recorded)"
+        elif isinstance(entry, int):
+            exemptions[entry] = "(legacy exemption, no reason recorded)"
+    return exemptions
+
+
+def _lexicon_term_to_regex(term):
+    term = term.strip().lower()
+    if not term:
+        return None
+    if term.endswith("*"):
+        return r"\b" + re.escape(term[:-1]) + r"\w*"
+    body = re.escape(term).replace(r"\ ", r"\s+")
+    tail = r"\b" if re.match(r"\w", term[-1]) else ""
+    return r"\b" + body + tail
+
+
+def load_lore_lexicon(session_id, base_dir, session_cfg=None):
+    """Union of campaign-config lore_lexicon, session_lore_terms, and NPC names. Returns a compiled regex or None.
+
+    Lore vocabulary lives in config, never in Python, so a new session extends the
+    gate by adding terms rather than editing the auditor."""
+    terms = []
+    campaign_path = os.path.join(base_dir, "sessions", "config", "campaign-config.json")
+    if os.path.exists(campaign_path):
+        with open(campaign_path, "r", encoding="utf-8") as f:
+            terms.extend(json.load(f).get("lore_lexicon", []))
+
+    if session_cfg is None:
+        session_cfg = {}
+        cfg_path = os.path.join(base_dir, "sessions", "config", f"{session_id}-session-config.json")
+        if os.path.exists(cfg_path):
+            try:
+                with open(cfg_path, "r", encoding="utf-8") as f:
+                    session_cfg = json.load(f)
+            except Exception:
+                session_cfg = {}
+    terms.extend(session_cfg.get("session_lore_terms", []))
+    # NPC names count as lore only as whole phrases; generic descriptor parts
+    # ("Spectral Child", "The Three Fates") would otherwise fire on table talk.
+    for npc in session_cfg.get("npcs", []) or []:
+        name = npc.get("name", "") if isinstance(npc, dict) else str(npc)
+        name = name.strip()
+        if name:
+            terms.append(name)
+
+    patterns = [p for p in (_lexicon_term_to_regex(t) for t in terms) if p]
+    if not patterns:
+        return None
+    return re.compile("|".join(patterns), re.IGNORECASE)
+
+
+def audit_skip_ledger(scene_id, skipped_items, raw_lines, rendered_prose_words,
+                      lore_re, exemptions):
+    """Governs the skipped=[...] ledger of one scene. Returns (errors, warnings)."""
+    errors, warnings = [], []
+    consecutive_spoken_skips = 0
+    max_consecutive_spoken = 0
+    consecutive_sample = []
+
+    for num_str, reason in skipped_items:
+        num = int(num_str)
+        line_idx = num - 1
+        if not (0 <= line_idx < len(raw_lines)):
+            continue
+        r_line = raw_lines[line_idx]
+        sm = re.match(r"^\*\*([^*]+?)(?:\s*\((PC|NPC)\))?:\*\*\s*(.+)$", r_line)
+        if not sm:
+            consecutive_spoken_skips = 0
+            continue
+        speaker, dialogue = sm.group(1).strip(), sm.group(3).strip()
+        words = extract_content_words(dialogue)
+        is_meta = any(meta in dialogue.lower() for meta in META_TABLE_MARKERS)
+        exempt_reason = exemptions.get(num)
+
+        if reason == "compressed":
+            unique = set(words)
+            shared = [w for w in unique if words_overlap([w], rendered_prose_words)]
+            needed = min(len(unique), max(COMPRESSED_MIN_SHARED_WORDS,
+                                          math.ceil(len(unique) * COMPRESSED_MIN_SHARED_RATIO)))
+            if len(shared) < needed and not exempt_reason:
+                errors.append(
+                    f"Scene {scene_id}: [HOLLOW_COMPRESSED_SKIP] L{num:04d} ({speaker}): '{dialogue[:70]}...' "
+                    f"tagged (compressed) but shares {len(shared)} content word(s) with the rendered prose (need {needed}). "
+                    f"Novelize its substance, retag honestly, or exempt with a reason."
+                )
+            consecutive_spoken_skips = 0
+            continue
+
+        if reason not in {"ooc", "banter"}:
+            consecutive_spoken_skips = 0
+            continue
+
+        tb_match = lore_re.search(dialogue) if lore_re else None
+        if tb_match and not exempt_reason:
+            errors.append(
+                f"Scene {scene_id}: [TIER_B_LORE_DROP] L{num:04d} ({speaker}): "
+                f"'{dialogue[:75]}...' contains lore term '{tb_match.group(0)}' but was skipped as ({reason}). "
+                f"Render it, tag (compressed) with real prose coverage, or exempt with a reason in legitimate_ooc_lore_skips."
+            )
+
+        if reason == "ooc":
+            if len(words) >= 4 and not is_meta:
+                consecutive_spoken_skips += 1
+                if len(consecutive_sample) < 4:
+                    consecutive_sample.append((num, speaker, dialogue))
+                max_consecutive_spoken = max(max_consecutive_spoken, consecutive_spoken_skips)
+            else:
+                consecutive_spoken_skips = 0
+
+            if len(words) >= SUBSTANTIVE_SKIP_MIN_WORDS and not is_meta and not tb_match and not exempt_reason:
+                errors.append(
+                    f"Scene {scene_id}: [UNJUSTIFIED_OOC_DROP] L{num:04d} ({speaker}): '{dialogue[:70]}...' "
+                    f"({len(words)} content words) hides behind a naked (ooc). Render it, type it as "
+                    f"(banter)/(mechanics)/(compressed), or exempt it with a reason in legitimate_ooc_lore_skips."
+                )
+        else:
+            consecutive_spoken_skips = 0
+
+    if max_consecutive_spoken >= 5:
+        sample_desc = " | ".join(f"L{l:04d} ({s}): '{d[:30]}...'" for l, s, d in consecutive_sample)
+        errors.append(
+            f"Scene {scene_id}: [SUSPICIOUS_CLUSTER_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as (ooc) skip. "
+            f"Verify in-character banter/comedy was not omitted. Sample: [{sample_desc}]"
+        )
+    return errors, warnings
 
 # ---------------------------------------------------------------------------
 # Transcript Boundary Check (FP-17 enforcement)
@@ -274,6 +447,17 @@ def audit_session_grounding(session_id, base_dir=None):
 
     marker_re = re.compile(r"<!--\s*L(\d+)\s*-->")
 
+    session_cfg = {}
+    config_path = os.path.join(base_dir, "sessions", "config", f"{session_id}-session-config.json")
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r", encoding="utf-8") as cf:
+                session_cfg = json.load(cf)
+        except Exception:
+            session_cfg = {}
+    lore_re = load_lore_lexicon(session_id, base_dir, session_cfg)
+    skip_exemptions = load_skip_exemptions(session_cfg)
+
     print(f"\n================================================================================")
     print(f"🛡️  FORENSIC GROUNDING AUDITOR: SESSION {session_id.upper()}")
     print(f"================================================================================")
@@ -297,90 +481,15 @@ def audit_session_grounding(session_id, base_dir=None):
         skipped_raw_str = ledger_match.group(2)
         skipped_items = re.findall(r"(\d+)(?:\(([^)]+)\))?", skipped_raw_str)
 
-        # Load session config for character and lore entities
-        config_path = os.path.join(base_dir, "sessions", "config", f"{session_id}-session-config.json")
-        tier_b_entities = set()
-        if os.path.exists(config_path):
-            try:
-                with open(config_path, "r", encoding="utf-8") as cf:
-                    cfg = json.load(cf)
-                    for pc in cfg.get("pcs", []):
-                        for part in pc.get("character", "").lower().split():
-                            if len(part) > 2:
-                                tier_b_entities.add(part)
-                    for npc in cfg.get("npcs", []):
-                        for part in npc.get("name", "").lower().split():
-                            if len(part) > 2:
-                                tier_b_entities.add(part)
-            except Exception:
-                pass
-
-        # High-value Tier B narrative keywords (relics, spell manifestations, trauma, lore)
-        tier_b_pattern = re.compile(
-            r"\b(beret|normalcy|flashlight|petrif\w*|calcif\w*|fading into|movement under|"
-            r"guiding bolt|living ink|lost roads|satans?|satyrs?|traumatic|trauma|"
-            r"protect|gift shop|all i got was|stupid hat|stone tablet|statue)\b",
-            re.IGNORECASE
-        )
-
-        unjustified_skips = []
-        consecutive_spoken_skips = 0
-        max_consecutive_spoken = 0
-        consecutive_sample = []
-
-        for num_str, reason in skipped_items:
-            line_idx = int(num_str) - 1
-            if 0 <= line_idx < len(raw_lines):
-                r_line = raw_lines[line_idx]
-                # Match both **Speaker (PC/NPC):** and raw indexed **Player/GM:**
-                sm = re.match(r"^\*\*([^*]+?)(?:\s*\((PC|NPC)\))?:\*\*\s*(.+)$", r_line)
-                if sm and reason == "ooc":
-                    speaker, char_type, dialogue = sm.group(1).strip(), sm.group(2), sm.group(3).strip()
-                    words = extract_content_words(dialogue)
-
-                    # Check for Tier B Lore / Action manifestations dropped as OOC
-                    tb_match = tier_b_pattern.search(dialogue)
-                    if tb_match:
-                        errors.append(
-                            f"Scene {scene_id}: [TIER_B_LORE_DROP] L{int(num_str):04d} ({speaker}): "
-                            f"'{dialogue[:75]}...' contains critical narrative intent ('{tb_match.group(0)}') but was marked as (ooc) skip!"
-                        )
-
-                    is_meta = any(meta in dialogue.lower() for meta in [
-                        "roll", "initiative", "saving throw", "spell slot", "dice", 
-                        "laugh", "chuckle", "character sheet", "wifi", "discord", "d4", "d6", "d20",
-                        "muted", "mic"
-                    ])
-                    
-                    if len(words) >= 4 and not is_meta:
-                        consecutive_spoken_skips += 1
-                        if len(consecutive_sample) < 4:
-                            consecutive_sample.append((int(num_str), speaker, dialogue))
-                        if consecutive_spoken_skips > max_consecutive_spoken:
-                            max_consecutive_spoken = consecutive_spoken_skips
-                    else:
-                        consecutive_spoken_skips = 0
-
-                    if len(words) >= 8 and not is_meta and not tb_match:
-                        unjustified_skips.append((int(num_str), speaker, dialogue))
-                else:
-                    consecutive_spoken_skips = 0
-
-        if max_consecutive_spoken >= 5:
-            sample_desc = " | ".join(f"L{l:04d} ({s}): '{d[:30]}...'" for l, s, d in consecutive_sample)
-            errors.append(
-                f"Scene {scene_id}: [SUSPICIOUS_CLUSTER_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as (ooc) skip. "
-                f"Verify in-character banter/comedy was not omitted. Sample: [{sample_desc}]"
-            )
-
-        if unjustified_skips:
-            for line_no, spk, dial in unjustified_skips:
-                warnings.append(
-                    f"Scene {scene_id}: Potential Canon Dialogue Drop at L{line_no:04d} ({spk}): '{dial[:70]}...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-                )
-
         content_no_ledger = re.sub(r"<!--\s*LEDGER:.*?-->", "", block_content, flags=re.DOTALL)
         paragraphs = [p.strip() for p in content_no_ledger.split("\n\n") if p.strip()]
+        rendered_prose_words = set(extract_content_words(re.sub(r"<!--.*?-->", "", content_no_ledger)))
+
+        s_errors, s_warnings = audit_skip_ledger(
+            scene_id, skipped_items, raw_lines, rendered_prose_words, lore_re, skip_exemptions
+        )
+        errors.extend(s_errors)
+        warnings.extend(s_warnings)
 
         scene_turns_evaluated = 0
         scene_grounded_turns = 0
@@ -424,27 +533,7 @@ def audit_session_grounding(session_id, base_dir=None):
                     raw_turn_text = " ".join(raw_lines[w_start:w_end])
                     raw_turn_words = set(extract_content_words(raw_turn_text))
 
-                    overlap = False
-                    for rw in raw_turn_words:
-                        for pw in para_words:
-                            if rw == pw:
-                                overlap = True
-                                break
-                            if (rw in PHONETIC_ALIASES and pw in PHONETIC_ALIASES[rw]) or (pw in PHONETIC_ALIASES and rw in PHONETIC_ALIASES[pw]):
-                                overlap = True
-                                break
-                            sr = re.sub(r'(?:ing|edly|ed|es|s|ly|ment|tion|al)$', '', rw)
-                            sr = re.sub(r'([b-df-hj-np-tv-z])\1$', r'\1', sr)
-                            sp = re.sub(r'(?:ing|edly|ed|es|s|ly|ment|tion|al)$', '', pw)
-                            sp = re.sub(r'([b-df-hj-np-tv-z])\1$', r'\1', sp)
-                            if len(sr) >= 3 and len(sp) >= 3 and sr == sp:
-                                overlap = True
-                                break
-                            if len(rw) >= 5 and len(pw) >= 5 and rw[:5] == pw[:5] and abs(len(rw) - len(pw)) <= 3:
-                                overlap = True
-                                break
-                        if overlap:
-                            break
+                    overlap = words_overlap(raw_turn_words, para_words)
 
                     if overlap:
                         scene_grounded_turns += 1

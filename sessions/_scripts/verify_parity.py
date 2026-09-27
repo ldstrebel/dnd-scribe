@@ -4,6 +4,9 @@ import re
 import json
 import hashlib
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from audit_semantic_grounding import load_skip_exemptions, load_lore_lexicon
+
 sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
 
@@ -145,14 +148,15 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
         story_content = f.read()
 
     config_path = os.path.join(base_dir, "config", f"{session_id}-session-config.json")
-    legitimate_ooc_lore_skips = set()
+    cfg = {}
     if os.path.exists(config_path):
         try:
             with open(config_path, "r", encoding="utf-8") as f:
                 cfg = json.load(f)
-                legitimate_ooc_lore_skips = set(cfg.get("legitimate_ooc_lore_skips", []))
         except Exception as e:
             warnings.append(f"Failed to load session config {config_path}: {e}")
+    legitimate_ooc_lore_skips = set(load_skip_exemptions(cfg))
+    canon_lore_re = load_lore_lexicon(session_id, os.path.dirname(base_dir), cfg)
 
     sections = re.findall(
         r"<!--\s*RAW_RANGE:\s*\[(\d+),\s*(\d+)\]\s*\|\s*SCENE_ID:\s*(\d+)\s*(?:\|\s*(OOC))?\s*-->\s*(.*?)(?=<!--\s*RAW_RANGE:|$)", 
@@ -244,10 +248,6 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
             skipped_raw_str = ledger_match.group(2)
             skipped_items = re.findall(r"(\d+)(?:\(([^)]+)\))?", skipped_raw_str)
             APPROVED_SKIP_REASONS = {"ooc", "duplicate", "banter", "mechanics", "compressed"}
-            CANON_LORE_PATTERN = re.compile(
-                r"\b(persephone|thanatos|reductor|stale\.|chaos\s+belt|fate\s+loom|lost\s+roads?|thorne|gorgon|1948)\b",
-                re.IGNORECASE
-            )
             for num_str, reason in skipped_items:
                 num = int(num_str)
                 if not reason or reason not in APPROVED_SKIP_REASONS:
@@ -257,11 +257,11 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
                 if reason in {"ooc", "banter"}:
                     if 1 <= num <= len(raw_lines):
                         raw_line_text = raw_lines[num - 1]
-                        lore_match = CANON_LORE_PATTERN.search(raw_line_text)
+                        lore_match = canon_lore_re.search(raw_line_text) if canon_lore_re else None
                         if lore_match and num not in legitimate_ooc_lore_skips:
                             errors.append(
                                 f"[CANON_LORE_IN_SKIPPED_LEDGER] Scene {scene_id}: Line L{num:04d} contains canon lore "
-                                f"entity '{lore_match.group(1)}' ('{raw_line_text[:60]}...') but was skipped as '{reason}'. "
+                                f"entity '{lore_match.group(0)}' ('{raw_line_text[:60]}...') but was skipped as '{reason}'. "
                                 f"Move to rendered or whitelist in session config legitimate_ooc_lore_skips."
                             )
 

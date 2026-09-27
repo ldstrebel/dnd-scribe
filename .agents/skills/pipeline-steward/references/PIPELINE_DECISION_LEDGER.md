@@ -10,7 +10,7 @@ Every entry records:
 
 ---
 
-## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-023`)
+## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-024`)
 
 ### [DEC-001] Edition 1: Raw Indexed Immutable Transcript Foundation
 * **Context & Friction:** Early novelization drafts suffered from phantom lines, lost dialogue turns, and non-reproducible line numbers whenever audio re-transcription occurred.
@@ -279,6 +279,19 @@ Every entry records:
   3. `LoreGuardian.__init__` accepts an optional `phonetic_map` so the harness tests its detector with an injected mapping instead of coupling to the live campaign dictionary.
 * **Trade-off Accepted:** A raw file whose only difference is line endings hashes identically; content edits still break the lock.
 * **Enforcing Gate:** `verify_manifest.py` / `verify_parity.py` (all sessions `[PASS]` on LF), `run_publishing_pipeline.py` exit 0 through EPUB assembly, `test_harness.py` 18/18.
+
+### [DEC-024] 2026-09-27: Substantive-Skip Hard Gate, Config-Driven Lore Lexicon & Verified `(compressed)`
+* **Context & Friction:** In S5, 876 of 1,257 raw lines (70%) sat in `skipped=[...(ooc)]`; 85 of them carried >= 8 content words, including Sophie's player-spoken Fragment cosmology (L1052), the GM's anomaly explanation (L1051) and the briefcase/fire-alarm manifestation (L1220/L1227). `audit_semantic_grounding.py` *detected* these as "Potential Canon Dialogue Drop" but appended them to `warnings`, so the pipeline exited 0 and 78 unread warnings scrolled past — a recurrence of `FP-07`/`DEC-008` (warning blindness). The only hard lore gate was an S3-era regex hard-coded in Python (`beret|flashlight|stupid hat...`) that knew nothing of *fragment*, *reductor*, *Thorne*. `legitimate_ooc_lore_skips` was a bare list of integers with no recorded reason.
+* **Precedent Honoured:** `DEC-011` (Inclusive Fiction Law), `DEC-016` (Canon Lore Skip Guardrail), `DEC-019` (gates fail hard on breach). Campaign-agnostic engine (`9d0a4798`): no campaign vocabulary re-enters Python.
+* **Agreed Decision & Protocol:**
+  1. **Any speaker, >= 8 non-meta content words, tagged generic `(ooc)` → `[UNJUSTIFIED_OOC_DROP]` hard error.** A GM-only rule was rejected because player deductions (L1052) escape it. Naked `(ooc)` now means Tier C only; substantive turns must be rendered, typed `(banter)`/`(mechanics)`/`(compressed)`, or exempted with a reason.
+  2. **Lore vocabulary lives in config:** `campaign-config.json` `lore_lexicon` (global, supports `stem*` wildcards) ∪ `sN-session-config.json` `session_lore_terms` ∪ configured NPC names as whole phrases (splitting names into words fired on `the`/`child`). Matches in any skipped spoken line → `[TIER_B_LORE_DROP]`.
+  3. **`(compressed)` is verified:** the line must share >= `max(2, ceil(25%))` unique content tokens (existing `words_overlap` fuzzy matcher) with the scene's rendered prose, else `[HOLLOW_COMPRESSED_SKIP]`. Retagging `(ooc)` → `(compressed)` without novelizing is no longer a bypass.
+  4. **Dual-format exemptions:** `legitimate_ooc_lore_skips` accepts legacy `int` (S1–S4 stay valid) or `{"line": N, "reason": str}`; new entries use the structured form. `load_skip_exemptions()` / `load_lore_lexicon()` are shared by the auditor and `verify_parity.py`.
+  5. **No WARN-by-default / `--strict` rollout.** The gate shipped as a hard error with S5 remediated in the same change (L1047–L1054 Scene 8, L1220/L1227 Scene 10, plus Scene 3/5/6/9 beats rendered; the remainder typed or exempted with reasons).
+  6. **S2–S4 triage:** flagged lines typed `(mechanics)`/`(banter)`/`(compressed)` where accurate; ~75 in-character NPC/PC lines that the legacy S2/S3 Track A cuts never carried are recorded as structured exemptions with reason *"Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)"* — an explicit, greppable debt register rather than a silent pass.
+* **Trade-off Accepted:** Every new session must triage its substantive skips before the pipeline goes green (S5: 76 lines). Exemptions remain a legitimate escape hatch, but each is now a recorded decision. The S2/S3 legacy-cut backlog is acknowledged, not fixed here.
+* **Enforcing Gate:** `audit_semantic_grounding.py` s2–s5 `[PASS]` with zero `UNJUSTIFIED_OOC_DROP` / `TIER_B_LORE_DROP` / `HOLLOW_COMPRESSED_SKIP`; `verify_parity.py s5` `[PASS]`; `test_harness.py` `TestSkipLedgerGate` (8 tests: naked-ooc error, meta/short pass, player lore detection, whole-phrase NPC match, structured + legacy exemptions, hollow vs covered `(compressed)`).
 
 ---
 
