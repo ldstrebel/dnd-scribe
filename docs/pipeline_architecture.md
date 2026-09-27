@@ -330,7 +330,86 @@ Field rules:
 
 ---
 
-## 6. Session 6+ Production Runbook & Pre-Flight Checklist
+## 6. The Dialectical Subagent Writers' Room & Reader-Experience Modeling (`DEC-025`)
+
+Single-pass LLM novelization collapses under cognitive overload: attempting to satisfy transcript line math, invent sensory metaphors, maintain distinct character voices, and preserve multi-session continuity simultaneously results in anemic compromises (*"Character Logging"* or generic trope substitutions).
+
+`DEC-025` decomposes drafting into an **adversarial dialectic of specialized subagents** operating across distinct cognitive domains, with grading strictly sequestered into the external deterministic Python test suite:
+
+```
+                      ┌────────────────────────────────────────┐
+                      │    1. TABLETOP PROSECUTOR              │
+                      │    (Raw Transcript & Rulebook)         │
+                      │    "What actually happened? Did the GM │
+                      │    confirm or deny? Who said it?"      │
+                      └──────────────────┬─────────────────────┘
+                                         │
+                        Tension: Grounding vs. Drama
+                                         │
+                                         ▼
+  ┌──────────────────────────────────────┴──────────────────────────────────────┐
+  │                                                                              │
+  ▼                                                                              ▼
+┌───────────────────────────────────────┐      ┌───────────────────────────────────────┐
+│ 2. CAMPAIGN ARC & MACRO STEWARD       │      │ 3. READER EXPERIENCE ADVOCATE         │
+│ (campaign/CAMPAIGN_ARC_LEDGER.md)     │◄────►│ (Sequential Novel Manuscript & Flow)  │
+│ "How does this advance the 5-act      │      │ "What does a reader know right now?   │
+│ campaign arc, faction trajectories,   │      │ Does this callback land? Is the       │
+│ and character transformations?"       │      │ mystery clear or confusing?"          │
+└───────────────────────────────────────┘      └───────────────────────────────────────┘
+                                         │
+                                         ▼
+                      ┌────────────────────────────────────────┐
+                      │ 4. CRAFT & DEEP-POV DRAMATIST          │
+                      │ (Swain MRUs & Deep-POV Styling)        │
+                      │ Translates the dialectic into window-  │
+                      │ pane prose, dialogue, and action beats.│
+                      └──────────────────┬─────────────────────┘
+                                         │
+                                         ▼
+                      ┌────────────────────────────────────────┐
+                      │ 5. EXTERNAL DETERMINISTIC VERIFIERS    │
+                      │ (verify_parity, audit_grounding, etc.) │
+                      │ Hard pass/fail gate. Zero LLM self-    │
+                      │ grading. Build breaks on any breach.   │
+                      └────────────────────────────────────────┘
+```
+
+### The 4 Specialized Subagent Roles
+
+1. **The Tabletop Grounding Prosecutor (`grounding-auditor`):**
+   * **Cognitive Scope:** Micro-Fidelity & Table Truth.
+   * **Primary Source:** `sN-raw-indexed.md`, `sN-session-config.json`, `sN-source-decisions.json`.
+   * **Mandate:** Enforces 3-Tier line categorization (Tier A spoken dialogue, Tier B action/lore intent, Tier C meta table talk). Prevents dropped player deductions (e.g. Sophie at L1052), distinguishes player theories from GM confirmations (L1055), and ensures zero unanchored quotes or hollow compressed skips.
+
+2. **The Campaign Arc & Macro-Lore Steward (`arc-steward`):**
+   * **Cognitive Scope:** Long-Term Campaign Telemetry & Cosmological Rules.
+   * **Primary Source:** `campaign/CAMPAIGN_ARC_LEDGER.md`.
+   * **Mandate:** Maintains cross-session narrative memory across the multi-book arc. Tracks:
+     - *Faction Movements:* The Reductors, the Margin Wardens, the Celestial Registry.
+     - *Cosmological Laws:* Fragment mechanics (must anchor to a physical relic), Lost Roads navigation, temporal dilation.
+     - *Character Evolution:* Alfie's doll-vs-action-figure trauma and Wordcraft awakening; Pierre's secret Gorgon curse; Dravin's necrotic threshold pact; Eusacles's divine truth-sight.
+     - *5-Act Trajectory:* Ensures current chapter beats foreshadow and align with the broader multi-book campaign arc.
+
+3. **The Reader Experience & Continuity Modeler (`reader-advocate`):**
+   * **Cognitive Scope:** Real-Time Human Reader Cognitive Load & Chapter-by-Chapter Pacing.
+   * **Primary Source:** The sequential novel manuscript (`novel/sessions/` / EPUB chapters).
+   * **Mandate:** Models the reading journey of someone who **has never watched the live stream**:
+     - *Reader Context:* What facts has the reader seen on the page before this scene?
+     - *Callback Anchoring:* If a character references past events (e.g. Naomi's cabin briefing or the Raleigh museum stele), ensures it is explicitly staged so the reader experiences a satisfying payoff.
+     - *Dramatization over Exposition:* Prevents crucial plot clarifications from being buried in internal narrator monologue; forces characters to debate and resolve mysteries in active dialogue.
+
+4. **The Craft & Deep-POV Dramatist (`craft-dramatist`):**
+   * **Cognitive Scope:** Literary Prose, Voice Cadence, and Swain MRU Staging.
+   * **Primary Source:** Character Voice Dossiers and Novel Standards.
+   * **Mandate:** Enforces Dwight Swain Motivation-Reaction Units in physical combat and peril; eradicates cognitive filter verbs (*saw, heard, noticed, wondered*); enforces sentence cadence ($\le 1.0$ introductory participial phrase per 500 words); sharpens distinct character voices.
+
+### The External Arbiter Principle (Zero Self-Grading)
+Under no circumstances do the creative subagents grade their own work or evaluate their own compliance. Once the text is synthesized, the **deterministic Python verification suite** (`verify_parity.py`, `audit_semantic_grounding.py`, `verify_intent_parity.py`, `critique_prose.py`, `test_harness.py`) runs as an unyielding external gate. If a rule is breached, the build fails.
+
+---
+
+## 7. Session 6+ Production Runbook & Pre-Flight Checklist
 
 Before drafting any session:
 1. **Index & Clean:** Generate `sN-raw-indexed.md` with immutable `L####` line numbers.
@@ -340,14 +419,18 @@ Before drafting any session:
    - *Mandatory Lore Reveals* (e.g. altered 1948 trial ledger ink).
    - *Post-Cutoff Liberties* (`"boundary": "post_cutoff"`) for any Track B staging that continues past the transcript boundary.
    Copy `sessions/config/s6-source-decisions-template.json` to `sessions/data/index/sN-source-decisions.json` and record the contributor of every naming/lore proposal (Section 5a).
-3. **Draft Dual Tracks:**
+3. **Dialectical Pre-Drafting:**
+   - `grounding-auditor` extracts high-risk turns and player hypotheses.
+   - `arc-steward` checks `campaign/CAMPAIGN_ARC_LEDGER.md` for active narrative threads.
+   - `reader-advocate` identifies required reader callbacks.
+4. **Draft Dual Tracks:**
    - **Track A (`blocks/`):** 100% monotonic line coverage, zero unanchored quotes, Tier B lore novelized into prose.
    - **Track B (`blocks_authorial/`):** Compacted set-pieces, coarse line spans, bound by Intent Contract.
-4. **Run Full Verification Pipeline:**
+5. **Run Full Verification Pipeline:**
    ```powershell
    python sessions/_scripts/run_publishing_pipeline.py sN
    ```
-5. **Compile Web Readers & Inspect Diffs:**
+6. **Compile Web Readers & Inspect Diffs:**
    ```powershell
    python dndwikis-main/build_ebooks.py
    ```
@@ -355,7 +438,7 @@ Before drafting any session:
 
 ---
 
-## 7. The Anti-Sycophancy & Active Trade-Off Principle
+## 8. The Anti-Sycophancy & Active Trade-Off Principle
 
 ```
   ┌────────────────────────────────────────────────────────┐
@@ -386,13 +469,13 @@ Before drafting any session:
 
 ---
 
-## 8. The Anti-Amnesia Pipeline Steward & Decision Ledger (`pipeline-steward`)
+## 9. The Anti-Amnesia Pipeline Steward & Decision Ledger (`pipeline-steward`)
 
 To prevent multi-session context loss, sycophantic looping (*"What a wonderful idea! Why didn't I think of that?"*), and regressions to previously resolved bugs across pipeline iterations:
 
 1. **Canonical Living Decision Ledger (`PIPELINE_DECISION_LEDGER.md`):**
    - Located at `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md`.
-   - Documents every architectural decision (`DEC-001` through `DEC-020`), failure points addressed (`FP-01` through `FP-20`), trade-offs accepted, and active verification gates.
+   - Documents every architectural decision (`DEC-001` through `DEC-025`), failure points addressed (`FP-01` through `FP-20`), trade-offs accepted, and active verification gates.
 2. **Automated Architectural Consistency Auditor (`audit_decision_ledger.py`):**
    - Runs automatically as **Step 0 (Pre-Flight)** in `run_publishing_pipeline.py`.
    - Validates that all DEC records are intact, all session intent contracts parse properly, and all session configs maintain consistent whitelists.
@@ -402,7 +485,7 @@ To prevent multi-session context loss, sycophantic looping (*"What a wonderful i
 
 ---
 
-## 9. Repository Branch Topology & Git Provenance Architecture
+## 10. Repository Branch Topology & Git Provenance Architecture
 
 To prevent campaign collisions and maintain a clean separation between the generic publishing framework and specific story manuscripts:
 

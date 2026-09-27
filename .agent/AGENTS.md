@@ -93,6 +93,17 @@ Every generated scene block must satisfy the 8-point standard:
 
 ---
 
+## 4.1 The Dialectical Subagent Writers' Room (`DEC-025`)
+
+To eradicate cognitive overload during drafting, split creative drafting into an adversarial subagent dialectic with grading sequestered strictly into the external Python suite:
+1. **The Tabletop Grounding Prosecutor (`grounding-auditor`):** Governs raw line fidelity, player agency, and distinguishes player hypotheses from GM confirmations.
+2. **The Campaign Arc & Macro-Lore Steward (`arc-steward`):** Governs multi-book cosmology, faction agendas, and character transformations via `campaign/CAMPAIGN_ARC_LEDGER.md`.
+3. **The Reader Experience & Continuity Modeler (`reader-advocate`):** Models the cognitive load of a reader who has never seen the stream; ensures callbacks land and mysteries are dramatized in active dialogue.
+4. **The Craft & Deep-POV Dramatist (`craft-dramatist`):** Enforces Dwight Swain MRUs, windowpane styling, syntactic cadence, and voice differentiation.
+5. **The External Arbiter (Infallible Python Gates):** Subagents write and debate, but under no circumstances evaluate their own compliance. Pass/fail is enforced exclusively by deterministic Python scripts (`verify_parity.py`, `audit_semantic_grounding.py`, `verify_intent_parity.py`, `critique_prose.py`, `test_harness.py`).
+
+---
+
 ## 5. Verification Suite Gates
 
 Before finalizing any session novelization or storyboard:
@@ -109,7 +120,7 @@ Before finalizing any session novelization or storyboard:
 
 Whenever discussing, auditing, refactoring, or evaluating the publishing pipeline, publishing scripts, verification gates, or dual tracks:
 1. **Mandatory Skill Activation:** Consult `.agents/skills/pipeline-steward/SKILL.md`.
-2. **Consult Established Records First:** Read `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md` and `docs/pipeline_architecture.md` before responding. Anchor every discussion to the existing 15+ editions, 20 historical Failure Points (`FP-01` to `FP-20`), and established decision records (`DEC-001` to `DEC-020`).
+2. **Consult Established Records First:** Read `.agents/skills/pipeline-steward/references/PIPELINE_DECISION_LEDGER.md` and `docs/pipeline_architecture.md` before responding. Anchor every discussion to the existing 15+ editions, 20 historical Failure Points (`FP-01` to `FP-20`), and established decision records (`DEC-001` to `DEC-025`).
 3. **Strict Ban on Sycophancy & False Novelty:** Never react with empty praise (*"What a wonderful idea! Why didn't I think of that?"*) to established pipeline mechanics. Treat user prompts as critical signals on whether the architecture is being upheld, whether gates are slipping into rubber-stamping, or whether an existing compromise needs re-evaluation.
 4. **Continuous Decision Logging:** Any agreed structural change or newly discovered trade-off must be logged directly into `PIPELINE_DECISION_LEDGER.md`.
 

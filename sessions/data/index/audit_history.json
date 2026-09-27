@@ -1,77 +1,5 @@
 [
   {
-    "timestamp": "2026-09-25T12:49:41.808002",
-    "session_id": "s4",
-    "status": "PASS",
-    "errors_count": 0,
-    "warnings_count": 24,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 1.0,
-        "keywords": 115
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 39
-      },
-      {
-        "scene_id": 3,
-        "ratio": 1.0,
-        "keywords": 98
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 61
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 95
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 89
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 94
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 89
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 102
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 130
-      },
-      {
-        "scene_id": 11,
-        "ratio": 1.0,
-        "keywords": 117
-      }
-    ],
-    "top_errors": [],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0121 (Luke Foreman): 'Where's the combat button? Create combat. Start combat. Wait, that's n...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0128 (Luke S): 'Sometimes you have to click the little tiny like uh swords icon on one...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 2: Potential Canon Dialogue Drop at L0275 (Sophie Foreman Noone): 'I'm curious about this too because my like level two stuff hasn't does...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 2: Potential Canon Dialogue Drop at L0284 (Luke S): 'so you can see like the spell book now is in the middle uh instead of ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 2: Potential Canon Dialogue Drop at L0288 (Luke S): 'There it is. Cure. Maybe just wasn't prepared or something. the second...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
     "timestamp": "2026-09-25T12:49:47.493078",
     "session_id": "s1",
     "status": "PASS",
@@ -3363,6 +3291,73 @@
   },
   {
     "timestamp": "2026-09-27T09:26:18.314140",
+    "session_id": "s5",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 16,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 47
+      },
+      {
+        "scene_id": 2,
+        "ratio": 0.953,
+        "keywords": 97
+      },
+      {
+        "scene_id": 3,
+        "ratio": 0.95,
+        "keywords": 118
+      },
+      {
+        "scene_id": 4,
+        "ratio": 0.889,
+        "keywords": 62
+      },
+      {
+        "scene_id": 5,
+        "ratio": 0.846,
+        "keywords": 101
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 99
+      },
+      {
+        "scene_id": 7,
+        "ratio": 0.906,
+        "keywords": 92
+      },
+      {
+        "scene_id": 8,
+        "ratio": 0.9,
+        "keywords": 97
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 110
+      },
+      {
+        "scene_id": 10,
+        "ratio": 0.923,
+        "keywords": 71
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 2: UNGROUNDED TURN at L0212.\n  Raw Line: '**Luke S:** You think very much of yourself....'\n  Prose: '\"You think very highly of yourself, Monsieur Hermes,\" Pierre muttered....'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
+      "Scene 2: UNGROUNDED TURN at L0232.\n  Raw Line: '**Sophie Foreman Noone:** All right. Well, you heard the man, bro. You got to op...'\n  Prose: 'Alfie nudged Dravin's collar with her wooden elbow. \"Ignore the Frenchman, guv. ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
+      "Scene 3: UNGROUNDED TURN at L0293.\n  Raw Line: '**Sophie Foreman Noone:** And I have a hat....'\n  Prose: 'Perched atop a wooden rain barrel, Alfie puffed out her sailcloth chest and tugg...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
+      "Scene 3: UNGROUNDED TURN at L0298.\n  Raw Line: '**Sophie Foreman Noone:** I have a hat from the gift shop....'\n  Prose: 'Perched atop a wooden rain barrel, Alfie puffed out her sailcloth chest and tugg...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
+      "Scene 4: UNGROUNDED TURN at L0500.\n  Raw Line: '**William Webb:** the uh if if you want to make it somewhat easy,...'\n  Prose: '\"An admirable adaptation, Alfie,\" Dravin concluded with quiet scholarly satisfac...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
+    ]
+  },
+  {
+    "timestamp": "2026-09-27T09:35:41.109446",
     "session_id": "s5",
     "status": "PASS",
     "errors_count": 0,

@@ -10,7 +10,7 @@ Every entry records:
 
 ---
 
-## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-024`)
+## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-025`)
 
 ### [DEC-001] Edition 1: Raw Indexed Immutable Transcript Foundation
 * **Context & Friction:** Early novelization drafts suffered from phantom lines, lost dialogue turns, and non-reproducible line numbers whenever audio re-transcription occurred.
@@ -292,6 +292,25 @@ Every entry records:
   6. **S2–S4 triage:** flagged lines typed `(mechanics)`/`(banter)`/`(compressed)` where accurate; ~75 in-character NPC/PC lines that the legacy S2/S3 Track A cuts never carried are recorded as structured exemptions with reason *"Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)"* — an explicit, greppable debt register rather than a silent pass.
 * **Trade-off Accepted:** Every new session must triage its substantive skips before the pipeline goes green (S5: 76 lines). Exemptions remain a legitimate escape hatch, but each is now a recorded decision. The S2/S3 legacy-cut backlog is acknowledged, not fixed here.
 * **Enforcing Gate:** `audit_semantic_grounding.py` s2–s5 `[PASS]` with zero `UNJUSTIFIED_OOC_DROP` / `TIER_B_LORE_DROP` / `HOLLOW_COMPRESSED_SKIP`; `verify_parity.py s5` `[PASS]`; `test_harness.py` `TestSkipLedgerGate` (8 tests: naked-ooc error, meta/short pass, player lore detection, whole-phrase NPC match, structured + legacy exemptions, hollow vs covered `(compressed)`).
+
+
+### [DEC-025] 2026-09-27: Dialectical Subagent Writers' Room, Campaign Arc Ledger & Reader-Experience Modeling
+* **Context & Friction:** Forensic audit of S5 drafting revealed that single-pass LLM prompts collapse under multi-objective cognitive load: simultaneously tracking line ledger arithmetic, novelistic prose cadence, past-session lore, and first-time reader clarity causes models to make anemic compromises (e.g., dropping Sophie's L1052 fragment deduction into `(ooc)` or leaving Dravin's correction as silent internal reflection). Furthermore, cross-session continuity suffered because there was no unified, lightweight campaign arc codex tracking 5-act trajectories, active mysteries, and character arcs.
+* **Precedent Honoured:** `DEC-002` (3-Tier Line Categorization), `DEC-011` (Origin-Time Provenance), `DEC-016` (Inclusive Fiction Law), `DEC-020` (Swain MRUs & Deep POV), `DEC-024` (Substantive Skip Hard Gate).
+* **Agreed Decision & Protocol:**
+  1. **Decomposed Dialectical Subagent Writers' Room:** Scene drafting and critique are split across four specialized cognitive subagents:
+     - **Tabletop Grounding Prosecutor (`grounding-auditor`):** Governs micro-fidelity, raw transcript line mapping, and distinguishing player hypotheses from GM confirmations.
+     - **Campaign Arc & Macro-Lore Steward (`arc-steward`):** Governs multi-book cosmology, faction agendas, and character transformation arcs codified in `campaign/CAMPAIGN_ARC_LEDGER.md`.
+     - **Reader Experience & Continuity Modeler (`reader-advocate`):** Models the cognitive load of a reader who has never watched the stream, ensuring callbacks land and narrative reveals are dramatized in spoken dialogue rather than buried in internal monologues.
+     - **Craft & Deep-POV Dramatist (`craft-dramatist`):** Enforces Dwight Swain MRUs, windowpane prose styling, voice cadences, and zero cognitive filter words.
+  2. **Campaign Arc Codex (`campaign/CAMPAIGN_ARC_LEDGER.md`):** Established a permanent, lightweight cross-session tracker documenting:
+     - *Cosmology & Invariants:* Laws of Fragments (must anchor to physical relics), the Margin sanctuary, the Lost Roads, and the Reductors.
+     - *5-Act Trajectory:* Act I (Beacon & Stele) through Act V (The Final Weave).
+     - *Character Arcs:* Alfie's Wordcraft & naval trauma; Pierre's secret Gorgon curse; Dravin's necrotic threshold pact; Eusacles's divine truth-sight.
+     - *Milestone Registry:* Session-by-session summary of relics secured and open mysteries.
+  3. **Strict External Arbiter Principle (Zero LLM Self-Grading):** Creative subagents write and debate, but under no circumstances evaluate their own compliance. Scoring and acceptance are strictly enforced by the external deterministic Python test suite (`verify_parity.py`, `audit_semantic_grounding.py`, `verify_intent_parity.py`, `critique_prose.py`, `test_harness.py`).
+* **Trade-off Accepted:** Multi-agent orchestration increases token usage during drafting in exchange for eliminating single-pass cognitive overload and preventing silent lore amputation.
+* **Enforcing Gate:** `docs/pipeline_architecture.md` Section 6; `campaign/CAMPAIGN_ARC_LEDGER.md`; `test_harness.py`; `audit_decision_ledger.py` (verifies 25 DEC entries).
 
 ---
 
