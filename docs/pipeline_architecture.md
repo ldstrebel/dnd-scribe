@@ -171,7 +171,7 @@ Every failure mode below represents a hard-won engineering lesson. The pipeline 
 
 ### 🛑 FP-17: Premature Resolution & Cliffhanger Erasure
 * **The Failure:** LLMs feeling pressure to "wrap up" chapters neatly with characters returning safely home, erasing raw table cliffhangers (e.g. sirens blaring, security gates slamming).
-* **Permanent Invariant:** A scene block must terminate at the exact final tabletop turn declared in the index.
+* **Permanent Invariant:** A scene block must terminate at the exact final tabletop turn declared in the index. Mechanised by `audit_semantic_grounding.py` (`audit_transcript_boundary`, `DEC-021`): Track A may not stage a PC past the `session_cutoff` declared in `sN-session-config.json`; Track B may do so only under an itemized `"boundary": "post_cutoff"` liberty.
 
 ### 🛑 FP-18: Raw Markdown Syntax Leaks
 * **The Failure:** Raw formatting tokens (`***STALE.***`, `### Header`, `__bold__`) escaping into novel manuscript prose.
@@ -273,16 +273,59 @@ Every failure mode below represents a hard-won engineering lesson. The pipeline 
   └────────────────────────────────────────────────────────┘
 ```
 
+### 5a. Per-Session Source-Decision Ledger (`sN-source-decisions.json`)
+
+A forensic **complement** to `sN-intent-contract.json` (`DEC-022`). It records *who at the table* proposed each high-risk span (naming jokes, collaborative lore, contested actions, the unplayed cliffhanger) so that an editor can answer "was the University University motto the GM's or a player's?" without re-reading the raw transcript. It never overrides the intent contract, which remains the only enforcement artifact.
+
+* **Location:** `sessions/data/index/sN-source-decisions.json`
+* **Templates:** `sessions/config/source-decisions-template.json` (generic) and `sessions/config/s6-source-decisions-template.json` (S6 ingest starting point), mirroring the `intent-contract-template.json` / `s6-intent-contract-template.json` pattern.
+* **Reference instance:** `sessions/data/index/s5-source-decisions.json` (31 decisions, verified line-by-line against `s5-raw-indexed.md`).
+
+```json
+{
+  "schema_version": "1.0",
+  "artifact": "source-decisions",
+  "session_id": "sN",
+  "source_file": "sessions/data/index/sN-raw-indexed.md",
+  "source_sha256": "<sha256 of the raw indexed file>",
+  "session_cutoff": { "line": 0, "gm_call_line": 0, "reason": "..." },
+  "scope": "Which high-risk spans were reviewed.",
+  "complements": ["sessions/config/sN-intent-contract.json", "sessions/config/sN-session-config.json"],
+  "decisions": [
+    {
+      "source_line": 0,
+      "contributor": "Speaker exactly as printed in sN-raw-indexed.md",
+      "mode": "table | in_character",
+      "function": "naming joke | campus motto | unplayed cliffhanger | ...",
+      "canon": "established | proposed | uncertain | logistics",
+      "representation": "tentative (optional)",
+      "destination": "render | omit | evidence | future_hook",
+      "context": [0, 0],
+      "accepted_by": [0],
+      "reason": "Why the line lands where it does."
+    }
+  ]
+}
+```
+
+Field rules:
+* `contributor` must match the speaker label in the raw index verbatim; a **table** proposal (`mode: table`) is never rendered as that character's spoken dialogue (`FP-11`, `DEC-005`).
+* `canon: proposed` ideas may only be rendered as `representation: tentative` (a question or hedge) unless `accepted_by` cites the GM's confirming line.
+* `destination: evidence` marks lines that justify a cut or a liberty without being rendered (e.g. the GM's end-of-session call).
+* `session_cutoff` must agree with `sN-session-config.json`; `audit_semantic_grounding.py` reads the session config first and falls back to this artifact.
+
 ---
 
 ## 6. Session 6+ Production Runbook & Pre-Flight Checklist
 
 Before drafting any session:
 1. **Index & Clean:** Generate `sN-raw-indexed.md` with immutable `L####` line numbers.
-2. **Configure Entities & Contract:** Create `sN-session-config.json` with local NPCs and `sN-intent-contract.json` declaring:
+2. **Configure Entities & Contract:** Create `sN-session-config.json` with local NPCs and a `session_cutoff` block (GM's end-of-session line and the final in-character beat), plus `sN-intent-contract.json` declaring:
    - *Unilateral Actions* (e.g. Dravin grabbing Alfie $\rightarrow$ forbid polite consent).
    - *Friction Points* (e.g. Pierre's architectural outrage $\rightarrow$ forbid coordinated heist).
    - *Mandatory Lore Reveals* (e.g. altered 1948 trial ledger ink).
+   - *Post-Cutoff Liberties* (`"boundary": "post_cutoff"`) for any Track B staging that continues past the transcript boundary.
+   Copy `sessions/config/s6-source-decisions-template.json` to `sessions/data/index/sN-source-decisions.json` and record the contributor of every naming/lore proposal (Section 5a).
 3. **Draft Dual Tracks:**
    - **Track A (`blocks/`):** 100% monotonic line coverage, zero unanchored quotes, Tier B lore novelized into prose.
    - **Track B (`blocks_authorial/`):** Compacted set-pieces, coarse line spans, bound by Intent Contract.

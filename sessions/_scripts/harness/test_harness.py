@@ -1,6 +1,9 @@
 """Automated Unit Tests for the Vumbua Editorial Harness."""
 
+import json
+import os
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -15,6 +18,10 @@ from sessions._scripts.harness.style_analyzer import StyleAnalyzer
 from sessions._scripts.harness.lore_guardian import LoreGuardian
 from sessions._scripts.harness.context_bridge import ContextBridge
 from sessions._scripts.verify_alternate_scene import verify_alternate_scene
+from sessions._scripts.audit_semantic_grounding import (
+    audit_transcript_boundary,
+    check_boundary_prose,
+)
 
 
 
@@ -159,6 +166,80 @@ class TestEditorialHarness(unittest.TestCase):
         self.assertFalse(report["gate3_span_provenance"]["passed"])
         err_types = [e["type"] for e in report["gate3_span_provenance"]["errors"]]
         self.assertIn("INVALID_SPAN_BOUNDS", err_types)
+
+
+class TestTranscriptBoundary(unittest.TestCase):
+    """FP-17 enforcement: Track A must cut at the transcript boundary."""
+
+    PCS = ["Pierre", "Dravin", "Eusacles", "Alfie"]
+    CLEAN_BLOCK = (
+        '<!-- RAW_RANGE: [1206, 1257] | SCENE_ID: 10 -->\n\n'
+        '<!-- LEDGER: rendered=[1242, 1256] skipped=[1257(ooc)] -->\n\n'
+        'Three cloaked figures strode into the auditorium, hooves cracking the tile. <!-- L1242 -->\n\n'
+        '"Sorry, Alfie," Dravin whispered, scooping the doll and the binder into his arms. <!-- L1256 -->\n\n'
+        'The trap had sprung.\n'
+    )
+    OVERREACH_BLOCK = CLEAN_BLOCK + (
+        '\nPierre drew his bronze-tipped javelin from beneath his overcoat. Eusacles stepped in front of '
+        'the stage stairs, rolling his heavy iron morningstar in one leather-gloved fist.\n'
+    )
+
+    def test_clean_cliffhanger_passes(self):
+        report = check_boundary_prose(self.CLEAN_BLOCK, self.PCS, cutoff_line=1257)
+        self.assertEqual(report["max_anchor"], 1256)
+        self.assertEqual(report["beyond_cutoff"], [])
+        self.assertEqual(report["tail_pc_actions"], [])
+        self.assertFalse(report["flagged"])
+
+    def test_post_cutoff_pc_action_is_flagged(self):
+        report = check_boundary_prose(self.OVERREACH_BLOCK, self.PCS, cutoff_line=1257)
+        self.assertTrue(report["flagged"])
+        self.assertEqual(report["tail_pc_actions"], ["Eusacles", "Pierre"])
+
+    def test_long_unanchored_tail_is_flagged_without_pc_names(self):
+        tail = " ".join(["the klaxon screamed on"] * 15)
+        report = check_boundary_prose(self.CLEAN_BLOCK + "\n" + tail + "\n", self.PCS, cutoff_line=1257)
+        self.assertTrue(report["flagged"])
+        self.assertEqual(report["tail_pc_actions"], [])
+
+    def test_anchor_beyond_declared_cutoff_is_reported(self):
+        block = self.CLEAN_BLOCK.replace("<!-- L1256 -->", "<!-- L1260 -->")
+        report = check_boundary_prose(block, self.PCS, cutoff_line=1257)
+        self.assertEqual(report["beyond_cutoff"], [1260])
+
+    def _write_session(self, root, track_a, track_b=None, liberty=False):
+        os.makedirs(os.path.join(root, "sessions", "config"))
+        os.makedirs(os.path.join(root, "sessions", "data", "clean", "blocks"))
+        os.makedirs(os.path.join(root, "sessions", "data", "clean", "blocks_authorial"))
+        with open(os.path.join(root, "sessions", "config", "s9-session-config.json"), "w", encoding="utf-8") as f:
+            json.dump({
+                "players": {"A": "Pierre", "B": "Prof. Edward Dravin", "C": "Alfie", "D": "Eusacles"},
+                "session_cutoff": {"line": 1257},
+            }, f)
+        liberties = [{"scene": "scene-10", "boundary": "post_cutoff", "liberty": "x", "impact": "y"}] if liberty else []
+        with open(os.path.join(root, "sessions", "config", "s9-intent-contract.json"), "w", encoding="utf-8") as f:
+            json.dump({"rules": [], "authorial_liberties": liberties}, f)
+        with open(os.path.join(root, "sessions", "data", "clean", "blocks", "s9-scene-10.md"), "w", encoding="utf-8") as f:
+            f.write(track_a)
+        if track_b is not None:
+            with open(os.path.join(root, "sessions", "data", "clean", "blocks_authorial", "s9-scene-10-alt.md"), "w", encoding="utf-8") as f:
+                f.write(track_b)
+
+    def test_session_audit_flags_track_a_and_unlicensed_track_b(self):
+        with tempfile.TemporaryDirectory() as root:
+            self._write_session(root, self.OVERREACH_BLOCK, self.OVERREACH_BLOCK, liberty=False)
+            errors, _, _ = audit_transcript_boundary("s9", root)
+        codes = [e.split("]")[0] for e in errors]
+        self.assertIn("Scene 10: [POST_CUTOFF_STAGING", codes)
+        self.assertIn("Scene 10: [UNLICENSED_POST_CUTOFF_STAGING", codes)
+
+    def test_session_audit_passes_clean_track_a_and_licensed_track_b(self):
+        with tempfile.TemporaryDirectory() as root:
+            self._write_session(root, self.CLEAN_BLOCK, self.OVERREACH_BLOCK, liberty=True)
+            errors, _, info = audit_transcript_boundary("s9", root)
+        self.assertEqual(errors, [])
+        self.assertTrue(any("licensed by itemized liberty" in line for line in info))
+        self.assertTrue(any("L1257 (s9-session-config.json)" in line for line in info))
 
 
 if __name__ == "__main__":

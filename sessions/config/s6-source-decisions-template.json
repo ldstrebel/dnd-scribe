@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-decisions",
+  "session_id": "s6",
+  "source_file": "sessions/data/index/s6-raw-indexed.md",
+  "source_sha256": "<fill from `sha256sum sessions/data/index/s6-raw-indexed.md` once the index is locked>",
+  "session_cutoff": {
+    "line": 0,
+    "gm_call_line": 0,
+    "reason": "Quote the GM's end-of-session call. Copy `line` into s6-session-config.json as `session_cutoff.line` so audit_semantic_grounding.py can enforce the Track A boundary."
+  },
+  "scope": "Reviewed high-risk naming, collaborative lore proposals, and contested green-room / combat actions; not a classification of all turns.",
+  "complements": [
+    "sessions/config/s6-intent-contract.json",
+    "sessions/config/s6-session-config.json"
+  ],
+  "decisions": [
+    {
+      "source_line": 0,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "unplayed cliffhanger",
+      "canon": "established",
+      "destination": "render",
+      "context": [0, 0],
+      "reason": "The GM ends before initiative is played; no PC can be assigned an attack, escape, or decision in this session."
+    },
+    {
+      "source_line": 0,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "table",
+      "function": "collaborative lore proposal",
+      "canon": "proposed",
+      "representation": "tentative",
+      "destination": "render",
+      "context": [0, 0],
+      "accepted_by": [0],
+      "reason": "A player proposes world detail and the GM confirms it in `accepted_by`; render as narration, never as that player's character speaking."
+    }
+  ]
+}

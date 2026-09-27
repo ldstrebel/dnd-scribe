@@ -92,5 +92,10 @@
     459,
     463,
     491
-  ]
+  ],
+  "session_cutoff": {
+    "line": 1257,
+    "gm_call_line": 1251,
+    "reason": "GM: 'roll initiative and that is where we will end our session today' (L1251). L1252-L1257 are table wrap-up; L1256 'Sorry, Alfie' is the final in-character beat. No initiative or combat action was played."
+  }
 }

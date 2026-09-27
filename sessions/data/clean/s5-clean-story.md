@@ -520,6 +520,4 @@ Alfie's carved wooden head swiveled slowly on its peg, his painted eyes wide wit
 
 "Sorry, Alfie," Dravin whispered, scooping the dazed wooden duelist and the heavy anomaly binder into his arms as the cloaked beasts surged forward. <!-- L1256 -->
 
-Pierre drew his bronze-tipped javelin from beneath his overcoat, his brass spectacles reflecting the flashing red emergency beacons. Eusacles stepped in front of the stage stairs, rolling his heavy iron morningstar in one leather-gloved fist, a grim grin spreading beneath his dark sunglasses.
-
 The trap had sprung.

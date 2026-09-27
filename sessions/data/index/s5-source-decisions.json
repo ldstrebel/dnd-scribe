@@ -1,0 +1,435 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-decisions",
+  "session_id": "s5",
+  "source_file": "sessions/data/index/s5-raw-indexed.md",
+  "source_sha256": "0293030ae140f38cfcd6a3afc41f31102d14a470bfd19b509564c48514868fba",
+  "session_cutoff": {
+    "line": 1257,
+    "gm_call_line": 1251,
+    "reason": "GM calls 'roll initiative and that is where we will end our session today' at L1251. L1256 ('Sorry, Alfie') is the final in-character beat; L1257 is a player suggestion for Alfie's reaction. No initiative, weapon-draw, or combat action was played."
+  },
+  "scope": "Reviewed high-risk campus naming, collaborative lore, and green-room action; not a classification of all 1257 turns.",
+  "complements": [
+    "sessions/config/s5-intent-contract.json",
+    "sessions/config/s5-session-config.json"
+  ],
+  "decisions": [
+    {
+      "source_line": 635,
+      "contributor": "John Hagey",
+      "mode": "table",
+      "function": "naming joke",
+      "canon": "proposed",
+      "representation": "tentative",
+      "destination": "render",
+      "context": [
+        634,
+        643
+      ],
+      "reason": "The sign was established in L0634; this response is a question about its name, not Eusacles speaking."
+    },
+    {
+      "source_line": 638,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "location bridge",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        634,
+        648
+      ],
+      "reason": "The party leaves the woods for a busy quad; this is the played transition."
+    },
+    {
+      "source_line": 639,
+      "contributor": "John Hagey",
+      "mode": "table",
+      "function": "alternate campus name",
+      "canon": "proposed",
+      "representation": "tentative",
+      "destination": "render",
+      "context": [
+        634,
+        643
+      ],
+      "reason": "The alternatives remain questions and cannot replace the confirmed University University name."
+    },
+    {
+      "source_line": 641,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "table",
+      "function": "naming cadence",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        639,
+        648
+      ],
+      "reason": "The repeated name is useful connective rhythm, without inventing in-character dialogue."
+    },
+    {
+      "source_line": 643,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "table",
+      "function": "naming cadence",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        639,
+        648
+      ],
+      "reason": "Second repetition completes the name; paraphrase as narration rather than a spoken Alfie line."
+    },
+    {
+      "source_line": 855,
+      "contributor": "John Hagey",
+      "mode": "table",
+      "function": "architectural observation",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        854,
+        860
+      ],
+      "reason": "Concrete is observed at the location, though the government-origin theory remains speculative."
+    },
+    {
+      "source_line": 857,
+      "contributor": "John Hagey",
+      "mode": "table",
+      "function": "government-origin theory",
+      "canon": "proposed",
+      "representation": "tentative",
+      "destination": "render",
+      "context": [
+        854,
+        862
+      ],
+      "reason": "The concrete and woodwork prompt an unconfirmed guess, not institutional history."
+    },
+    {
+      "source_line": 860,
+      "contributor": "Luke S",
+      "mode": "table",
+      "function": "woodwork observation",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        854,
+        862
+      ],
+      "reason": "The wood and doors are noticed; no character dialogue is assigned to Pierre."
+    },
+    {
+      "source_line": 863,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "institution age",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        860,
+        869
+      ],
+      "reason": "Preserve the age claim while excluding the virtual tabletop scaling aside."
+    },
+    {
+      "source_line": 865,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "institution donors",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        860,
+        869
+      ],
+      "reason": "Donor pool informs setting; no invented dialogue is given to Dravin."
+    },
+    {
+      "source_line": 866,
+      "contributor": "Luke S",
+      "mode": "table",
+      "function": "virtual tabletop scaling",
+      "canon": "logistics",
+      "destination": "omit",
+      "context": [
+        863,
+        869
+      ],
+      "reason": "Being turned into a ghost is a virtual tabletop token issue amid the GM's scaling discussion, not a played transformation."
+    },
+    {
+      "source_line": 868,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "table",
+      "function": "campus motto",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        865,
+        875
+      ],
+      "accepted_by": [
+        869
+      ],
+      "reason": "Sophie proposes the motto and Luke confirms it immediately in L0869; location or carved signage was not established."
+    },
+    {
+      "source_line": 869,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "motto acceptance",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        868,
+        875
+      ],
+      "reason": "Confirms the motto; physical material and placement remain unspecified."
+    },
+    {
+      "source_line": 870,
+      "contributor": "Luke S",
+      "mode": "table",
+      "function": "motto response",
+      "canon": "uncertain",
+      "destination": "evidence",
+      "context": [
+        868,
+        875
+      ],
+      "reason": "Positive response helps interpret the exchange, but the garbled transcription is not a new in-world detail."
+    },
+    {
+      "source_line": 872,
+      "contributor": "John Hagey",
+      "mode": "table",
+      "function": "paired-letter emblem",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        869,
+        875
+      ],
+      "accepted_by": [
+        873,
+        875
+      ],
+      "reason": "The proposed U/Omega design is accepted in the surrounding exchange; no brass seal or lintel is established."
+    },
+    {
+      "source_line": 873,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "emblem acceptance",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        872,
+        875
+      ],
+      "reason": "The GM affirms the suggested paired-letter emblem."
+    },
+    {
+      "source_line": 875,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "emblem confirmation",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        872,
+        880
+      ],
+      "reason": "Confirms the paired letters; the possible shirt is a separate future idea."
+    },
+    {
+      "source_line": 875,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "possible future shirt",
+      "canon": "proposed",
+      "destination": "future_hook",
+      "context": [
+        872,
+        880
+      ],
+      "reason": "The GM says he will have to make a fake shirt; this does not establish a shirt at the current scene."
+    },
+    {
+      "source_line": 880,
+      "contributor": "John Hagey",
+      "mode": "table",
+      "function": "Greek-life pun",
+      "canon": "proposed",
+      "destination": "future_hook",
+      "context": [
+        875,
+        883
+      ],
+      "reason": "Keep the participant's joke available for later texture without creating an on-campus event or practice."
+    },
+    {
+      "source_line": 1022,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "table",
+      "function": "Alfie searches for caps",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1021,
+        1028
+      ],
+      "accepted_by": [
+        1023
+      ],
+      "reason": "A player declares Alfie's search; narrate the action rather than quote the player as Alfie."
+    },
+    {
+      "source_line": 1023,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "gift bag contents",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1022,
+        1028
+      ],
+      "reason": "The GM establishes there is no hat and identifies the brochure and scarf."
+    },
+    {
+      "source_line": 1025,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "fruit in gift bag",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1022,
+        1028
+      ],
+      "reason": "The GM confirms fruit as part of the offered gift bag."
+    },
+    {
+      "source_line": 1217,
+      "contributor": "William Webb",
+      "mode": "table",
+      "function": "Dravin touches Alfie to the binder",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1211,
+        1220
+      ],
+      "reason": "This is Dravin's played action; he did not take the binder or arm himself afterward."
+    },
+    {
+      "source_line": 1220,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "fragment confirmation and observer",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1217,
+        1227
+      ],
+      "reason": "The binder is the fragment, the lights flicker and someone gestures from the second row; the GM does not identify the alarm puller."
+    },
+    {
+      "source_line": 1227,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "unseen alarm trigger",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1220,
+        1230
+      ],
+      "reason": "The GM corrects the previous impression: the alarm sounds but nobody sees who pulled it."
+    },
+    {
+      "source_line": 1230,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "vision of the ward",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1229,
+        1233
+      ],
+      "reason": "The vision shows restrained and dazed patients and body bags, but does not establish a count or their final fate."
+    },
+    {
+      "source_line": 1233,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "earlier vision and return",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1232,
+        1244
+      ],
+      "reason": "The ward is absent in the earlier image; avoid explaining the temporal change or resolving the mystery."
+    },
+    {
+      "source_line": 1242,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "recognized approaching figures",
+      "canon": "uncertain",
+      "destination": "render",
+      "context": [
+        1240,
+        1251
+      ],
+      "reason": "The encounter is established, but the spoken creature name is garbled; session config identifies a satyr infiltrator. Avoid invented numbers, costumes, or allegiance."
+    },
+    {
+      "source_line": 1251,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "unplayed cliffhanger",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1242,
+        1257
+      ],
+      "reason": "The GM ends before initiative is played; no PC can be assigned an attack, escape, or decision in this session."
+    },
+    {
+      "source_line": 1256,
+      "contributor": "William Webb",
+      "mode": "table",
+      "function": "Dravin apologizes to Alfie",
+      "canon": "established",
+      "destination": "render",
+      "context": [
+        1251,
+        1257
+      ],
+      "reason": "The apology is spoken; the transcript contains no subsequent action of picking up Alfie or the binder."
+    },
+    {
+      "source_line": 1257,
+      "contributor": "Luke S",
+      "mode": "table",
+      "function": "Alfie reaction suggestion",
+      "canon": "proposed",
+      "destination": "evidence",
+      "context": [
+        1255,
+        1257
+      ],
+      "reason": "Another player imagines Alfie's reaction after the session stops; preserve the suggestion without assigning it to Alfie as played action."
+    }
+  ]
+}

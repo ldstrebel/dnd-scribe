@@ -106,14 +106,14 @@
     }
   },
   "stats": {
-    "wordCount": 8442,
+    "wordCount": 8399,
     "estimatedReadMinutes": 34,
-    "estimatedBookPages": 33.8,
+    "estimatedBookPages": 33.6,
     "dialogueRatio": {
       "spokenWords": 2705,
-      "narrativeWords": 5737,
-      "spokenPct": 32.0,
-      "narrativePct": 68.0,
+      "narrativeWords": 5694,
+      "spokenPct": 32.2,
+      "narrativePct": 67.8,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -121,8 +121,8 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 3876,
-        "sharePct": 45.9
+        "words": 3833,
+        "sharePct": 45.6
       },
       {
         "id": "pierre",
@@ -143,7 +143,7 @@
         "name": "Eusacles",
         "color": "#f59e0b",
         "words": 660,
-        "sharePct": 7.8
+        "sharePct": 7.9
       },
       {
         "id": "alfie",
@@ -157,14 +157,14 @@
         "name": "Museum Attendant",
         "color": "#78716c",
         "words": 274,
-        "sharePct": 3.2
+        "sharePct": 3.3
       },
       {
         "id": "protester",
         "name": "Tin-Foil Protester",
         "color": "#64748b",
         "words": 257,
-        "sharePct": 3.0
+        "sharePct": 3.1
       },
       {
         "id": "hermes",
@@ -213,7 +213,7 @@
       "pacingStdDev": 7.9,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 38,
+        "visual": 37,
         "auditory": 7,
         "tactile": 20,
         "olfactory": 14,
@@ -255,13 +255,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "32.0% Spoken / 68.0% Narrative Action",
+          "chosenStance": "32.2% Spoken / 67.8% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~118 words/scene)",
+          "chosenStance": "Micro-Chapters (~119 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -9070,28 +9070,10 @@
       "index": 238,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "narrator",
-      "text": "Pierre drew his bronze-tipped javelin from beneath his overcoat, his brass spectacles reflecting the flashing red emergency beacons. Eusacles stepped in front of the stage stairs, rolling his heavy iron morningstar in one leather-gloved fist, a grim grin spreading beneath his dark sunglasses.",
-      "segments": [
-        {
-          "segmentId": "uneraseable_s05_b238_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Pierre drew his bronze-tipped javelin from beneath his overcoat, his brass spectacles reflecting the flashing red emergency beacons. Eusacles stepped in front of the stage stairs, rolling his heavy iron morningstar in one leather-gloved fist, a grim grin spreading beneath his dark sunglasses."
-        }
-      ],
-      "cut": "tabletop"
-    },
-    {
-      "id": "uneraseable_s05_b239",
-      "index": 239,
-      "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
-      "speakerId": "narrator",
       "text": "The trap had sprung.",
       "segments": [
         {
-          "segmentId": "uneraseable_s05_b239_s01",
+          "segmentId": "uneraseable_s05_b238_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",

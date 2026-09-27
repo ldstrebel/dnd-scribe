@@ -61,6 +61,189 @@ def parse_ledger_list(list_str):
     matches = re.findall(r"L?(\d+)", list_str)
     return [int(m) for m in matches]
 
+# ---------------------------------------------------------------------------
+# Transcript Boundary Check (FP-17 enforcement)
+# ---------------------------------------------------------------------------
+# A scene block must terminate at the final tabletop turn declared in the index.
+# Track A hard-cuts at the session cutoff; Track B may carry staging past it
+# only when the intent contract itemizes a liberty with "boundary": "post_cutoff".
+
+BOUNDARY_TAIL_WORD_ALLOWANCE = 40
+
+ANY_MARKER_RE = re.compile(r"<!--\s*L(\d+)(?:-L(\d+))?(?::[a-zA-Z_-]+)?\s*-->")
+RAW_RANGE_RE = re.compile(r"<!--\s*RAW_RANGE:\s*\[(\d+),\s*(\d+)\]\s*\|\s*SCENE_ID:\s*(\d+)")
+
+
+def load_session_cutoff(session_id, base_dir):
+    """Return (cutoff_line, source). Declared cutoff beats derived cutoff."""
+    for rel, key in (
+        (os.path.join("sessions", "config", f"{session_id}-session-config.json"), "session_cutoff"),
+        (os.path.join("sessions", "data", "index", f"{session_id}-source-decisions.json"), "session_cutoff"),
+    ):
+        path = os.path.join(base_dir, rel)
+        if not os.path.exists(path):
+            continue
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        cutoff = data.get(key)
+        if isinstance(cutoff, dict) and isinstance(cutoff.get("line"), int) and cutoff["line"] > 0:
+            return cutoff["line"], os.path.basename(path)
+    return None, None
+
+
+def load_pc_names(session_id, base_dir):
+    """Character tokens (>2 chars, excluding honorifics) for every PC in the session config."""
+    path = os.path.join(base_dir, "sessions", "config", f"{session_id}-session-config.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        cfg = json.load(f)
+    names = set()
+    players = cfg.get("players", {})
+    values = players.values() if isinstance(players, dict) else players
+    for full in values:
+        for part in str(full).replace(".", " ").split():
+            if len(part) > 2 and part.lower() not in {"prof", "dr", "the"}:
+                names.add(part)
+    return sorted(names)
+
+
+def load_post_cutoff_liberties(session_id, base_dir):
+    path = os.path.join(base_dir, "sessions", "config", f"{session_id}-intent-contract.json")
+    if not os.path.exists(path):
+        return set()
+    with open(path, "r", encoding="utf-8") as f:
+        intent = json.load(f)
+    return {
+        lib.get("scene", "").lower()
+        for lib in intent.get("authorial_liberties", [])
+        if lib.get("boundary") == "post_cutoff"
+    }
+
+
+def check_boundary_prose(block_text, pc_names, cutoff_line=None, tail_allowance=BOUNDARY_TAIL_WORD_ALLOWANCE):
+    """Inspect one scene block for narrative that continues past its last transcript anchor.
+
+    Returns a dict with:
+      max_anchor       highest anchored raw line in the block (None if unanchored)
+      beyond_cutoff    anchors that exceed the declared cutoff
+      tail_words       words of prose after the final anchored paragraph
+      tail_pc_actions  PC names that appear in that trailing prose
+      flagged          True when the tail stages a PC or exceeds the word allowance
+    """
+    body = re.sub(r"<!--\s*LEDGER:.*?-->", "", block_text, flags=re.DOTALL)
+    body = re.sub(r"<!--\s*RAW_RANGE:.*?-->", "", body, flags=re.DOTALL)
+
+    anchors = []
+    for m in ANY_MARKER_RE.finditer(body):
+        anchors.append(int(m.group(1)))
+        if m.group(2):
+            anchors.append(int(m.group(2)))
+    max_anchor = max(anchors) if anchors else None
+    beyond_cutoff = sorted({a for a in anchors if cutoff_line is not None and a > cutoff_line})
+
+    paragraphs = [p.strip() for p in body.split("\n\n") if p.strip()]
+    last_anchor_idx = -1
+    for idx, para in enumerate(paragraphs):
+        if ANY_MARKER_RE.search(para):
+            last_anchor_idx = idx
+
+    tail_paragraphs = []
+    for para in paragraphs[last_anchor_idx + 1:]:
+        clean = re.sub(r"<!--.*?-->", "", para).strip()
+        if not clean or re.fullmatch(r"[\*\s\-_#]+", clean):
+            continue
+        tail_paragraphs.append(clean)
+    tail_text = " ".join(tail_paragraphs)
+    tail_words = len(tail_text.split())
+    tail_pc_actions = sorted({n for n in pc_names if re.search(rf"\b{re.escape(n)}\b", tail_text)})
+
+    return {
+        "max_anchor": max_anchor,
+        "beyond_cutoff": beyond_cutoff,
+        "tail_words": tail_words,
+        "tail_pc_actions": tail_pc_actions,
+        "tail_preview": tail_text[:90],
+        "flagged": bool(tail_pc_actions) or tail_words > tail_allowance,
+    }
+
+
+def audit_transcript_boundary(session_id, base_dir, blocks_dir=None, alt_blocks_dir=None):
+    """Apply check_boundary_prose to the final Track A scene and its Track B counterpart.
+
+    Returns (errors, warnings, info_lines).
+    """
+    blocks_dir = blocks_dir or os.path.join(base_dir, "sessions", "data", "clean", "blocks")
+    alt_blocks_dir = alt_blocks_dir or os.path.join(base_dir, "sessions", "data", "clean", "blocks_authorial")
+    errors, warnings, info = [], [], []
+
+    prefix = f"{session_id}-scene-"
+    if not os.path.isdir(blocks_dir):
+        return errors, warnings, info
+    track_a = []
+    for fn in sorted(os.listdir(blocks_dir)):
+        if not (fn.startswith(prefix) and fn.endswith(".md")) or "-alt" in fn:
+            continue
+        with open(os.path.join(blocks_dir, fn), "r", encoding="utf-8") as f:
+            text = f.read()
+        hdr = RAW_RANGE_RE.search(text)
+        if hdr:
+            track_a.append((int(hdr.group(2)), int(hdr.group(3)), fn, text))
+    if not track_a:
+        return errors, warnings, info
+
+    pc_names = load_pc_names(session_id, base_dir)
+    declared_cutoff, cutoff_source = load_session_cutoff(session_id, base_dir)
+    all_anchor_max = max(
+        (r["max_anchor"] for r in (check_boundary_prose(t, pc_names) for _, _, _, t in track_a) if r["max_anchor"]),
+        default=None,
+    )
+    cutoff = declared_cutoff or all_anchor_max
+    cutoff_label = f"L{cutoff:04d} ({cutoff_source})" if declared_cutoff else f"L{cutoff:04d} (derived from max anchor)"
+    info.append(f"Session cutoff: {cutoff_label}")
+
+    range_end, scene_id, fn, text = max(track_a, key=lambda t: t[0])
+    report = check_boundary_prose(text, pc_names, cutoff)
+    if report["beyond_cutoff"]:
+        errors.append(
+            f"Scene {scene_id}: [ANCHOR_BEYOND_CUTOFF] {fn} anchors {report['beyond_cutoff']} exceed session cutoff L{cutoff:04d}."
+        )
+    if report["flagged"]:
+        who = ", ".join(report["tail_pc_actions"]) or "narration"
+        errors.append(
+            f"Scene {scene_id}: [POST_CUTOFF_STAGING] Track A {fn} continues {report['tail_words']} words past its final anchor "
+            f"L{report['max_anchor']:04d} staging {who}: '{report['tail_preview']}...'. "
+            f"Track A must cut at the transcript boundary (FP-17); move dramatized staging to Track B with an itemized "
+            f"'boundary': 'post_cutoff' liberty."
+        )
+    else:
+        info.append(f"Track A {fn}: cuts at L{report['max_anchor']:04d} (+{report['tail_words']} closing words) [PASS]")
+
+    alt_fn = fn.replace(".md", "-alt.md")
+    alt_path = os.path.join(alt_blocks_dir, alt_fn)
+    if os.path.exists(alt_path):
+        with open(alt_path, "r", encoding="utf-8") as f:
+            alt_text = f.read()
+        alt_report = check_boundary_prose(alt_text, pc_names, cutoff)
+        scene_key = f"scene-{scene_id:02d}"
+        licensed = scene_key in load_post_cutoff_liberties(session_id, base_dir)
+        if alt_report["flagged"] and not licensed:
+            who = ", ".join(alt_report["tail_pc_actions"]) or "narration"
+            errors.append(
+                f"Scene {scene_id}: [UNLICENSED_POST_CUTOFF_STAGING] Track B {alt_fn} stages {who} for "
+                f"{alt_report['tail_words']} words past L{alt_report['max_anchor']:04d} with no "
+                f"'boundary': 'post_cutoff' liberty for {scene_key} in {session_id}-intent-contract.json."
+            )
+        elif alt_report["flagged"]:
+            info.append(
+                f"Track B {alt_fn}: {alt_report['tail_words']} words of post-cutoff staging licensed by itemized liberty ({scene_key})."
+            )
+        else:
+            info.append(f"Track B {alt_fn}: cuts at L{alt_report['max_anchor']:04d} [PASS]")
+
+    return errors, warnings, info
+
+
 def audit_session_grounding(session_id, base_dir=None):
     if base_dir is None:
         base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -290,6 +473,13 @@ def audit_session_grounding(session_id, base_dir=None):
     for sc_id, g_ratio, kw_count in grounding_scores:
         status = "PASS" if g_ratio >= 0.85 else "WARN" if g_ratio >= 0.70 else "FAIL"
         print(f"Scene {sc_id:<4} | {g_ratio*100:>15.1f}% | {kw_count:>21} | {status}")
+
+    print("\n--- TRANSCRIPT BOUNDARY (FP-17) ---")
+    b_errors, b_warnings, b_info = audit_transcript_boundary(session_id, base_dir)
+    for line in b_info:
+        print(f"  {line}")
+    errors.extend(b_errors)
+    warnings.extend(b_warnings)
 
     print("\n--- FORENSIC VERDICT ---")
     

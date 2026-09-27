@@ -10,7 +10,7 @@ Every entry records:
 
 ---
 
-## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-019`)
+## 📜 Complete Historical Decision Registry (`DEC-001` to `DEC-022`)
 
 ### [DEC-001] Edition 1: Raw Indexed Immutable Transcript Foundation
 * **Context & Friction:** Early novelization drafts suffered from phantom lines, lost dialogue turns, and non-reproducible line numbers whenever audio re-transcription occurred.
@@ -243,6 +243,30 @@ Every entry records:
   - **Post-Mortem Learning:** An alternative agent attempted to resolve "unsupported staging" by stripping sensory grounding and Swain MRUs entirely, reducing the climactic Scene 10 into 172 words of flat administrative bullet points. This demonstrated the fatal pitfall of "Character Logging": eliminating authorial immersion destroys dramatic fiction.
   - **Adopted Forensic Boundary:** While rejecting the anemic prose rewrite, the audit correctly proved that L1251–L1257 was an unplayed cliffhanger before combat, affirming that forward weapon-drawing in Scene 10 should be framed as a closing tension beat or cut cleanly at the cutoff.
 * **Enforcing Gate:** `.agents/skills/novel-critic/scripts/critique_prose.py` (Deep-POV & Cadence Analyzer), `.agent/AGENTS.md` Section 4.
+
+---
+
+### [DEC-021] 2026-09-27: Declared Session Cutoff & Transcript Boundary Gate (FP-17 Mechanised)
+* **Context & Friction:** `FP-17` (Premature Resolution & Cliffhanger Erasure) was a documented invariant with no mechanical gate. S5 Scene 10 on `uneraseable` staged Pierre drawing his javelin and Eusacles rolling his morningstar *after* the GM's `L1251` call (*"roll initiative and that is where we will end our session today"*); the final in-character beat is Dravin's `L1256` *"Sorry, Alfie"* and the recording ends at `L1257`. The `DEC-020` post-mortem already affirmed this boundary but left enforcement to reviewer memory.
+* **Precedent Honoured (no false novelty):** `audit_semantic_grounding.py` already owns Premise Entailment / Canon Drop; the check is added there rather than as a new linter. Track B staging is licensed through the existing `authorial_liberties` mechanism (`DEC-015`, `DEC-018`), not a new artifact.
+* **Agreed Decision & Protocol:**
+  1. `sN-session-config.json` gains an optional `session_cutoff: {line, gm_call_line, reason}` block. When absent, the gate derives the cutoff from the highest anchored `<!-- Lxxxx -->` marker across Track A.
+  2. `audit_semantic_grounding.py` runs `audit_transcript_boundary()` on the final Track A scene: any anchor above the cutoff (`ANCHOR_BEYOND_CUTOFF`) or trailing prose after the last anchor that stages a PC by name or exceeds 40 words (`POST_CUTOFF_STAGING`) is a hard error.
+  3. Track B's counterpart `-alt` block is inspected with the same rule; post-cutoff staging passes **only** when `sN-intent-contract.json` carries a liberty with `"boundary": "post_cutoff"` for that scene (`UNLICENSED_POST_CUTOFF_STAGING` otherwise).
+  4. S5 Track A Scene 10 now cuts to black on `L1256`; the weapon-draw beat lives in Track B under an itemized `post_cutoff` liberty. All surrounding prose, sensory grounding, and MRUs are untouched.
+* **Trade-off Accepted:** The 40-word closing allowance permits a short unanchored button line (*"The trap had sprung."*) so chapters are not forced to end mid-sentence on a marker; a long unanchored coda is still rejected even when it names no PC.
+* **Enforcing Gate:** `sessions/_scripts/audit_semantic_grounding.py` (`audit_transcript_boundary`), unit tests `TestTranscriptBoundary` in `sessions/_scripts/harness/test_harness.py`.
+
+---
+
+### [DEC-022] 2026-09-27: Source-Decision Ledger Artifact & Compression-Neutral Track B Grading
+* **Context & Friction:** The S5 fidelity audit surfaced a real gap: nobody could answer *who at the table* proposed the "University University" motto, the Omega emblem, or the green-room props without re-reading the raw transcript. The same audit branch also shipped a ~160-word/scene "cinematic cut" that the `DEC-018` scorecard would have graded favourably because its **Creative Liberty Index** was `100 - compression_ratio`, i.e. word-count reduction read as structural departure.
+* **Precedent Honoured:** The intent contract (`DEC-015`) remains the sole *enforcement* artifact; the source-decision ledger is a forensic **complement** and never overrides it. Prose density is already gated upstream by the `critique_prose.py` Deep-POV/cadence linter (`DEC-020`) and the `verify_parity.py` compression guardrail — no parallel metric is introduced.
+* **Agreed Decision & Protocol:**
+  1. **Per-session `sN-source-decisions.json`** (`sessions/data/index/`), templated by `sessions/config/source-decisions-template.json` and `s6-source-decisions-template.json`. Each decision records `source_line`, `contributor` (exactly as printed in `sN-raw-indexed.md`), `mode` (`table|in_character`), `canon` (`established|proposed|uncertain|logistics`), `destination` (`render|omit|evidence|future_hook`), `context`, optional `accepted_by`, and `reason`. The header pins `source_sha256` and mirrors `session_cutoff`. Schema documented in `docs/pipeline_architecture.md` Section 5a.
+  2. **Scorecard rubric tune (`run_publishing_pipeline.py`):** the condensation ratio is now labelled telemetry and cannot raise a grade. Track B grades `A` when itemized liberties exist and density is retained (>= 50% of Track A), `A-` under heavy condensation, and `B` when coarse spans exist with no itemized liberties. The "Creative Liberty Index" line is replaced by the count of itemized intent-contract liberties.
+* **Trade-off Accepted:** The 50% density line is a caution threshold, not a hard fail — the existing S5 Track B (42%) keeps its `A-`. Hard failure on thin prose stays with the `critique_prose.py` `sys.exit(1)` gate to avoid duplicating a gate (`DEC-019` false-novelty ban).
+* **Enforcing Gate:** `sessions/_scripts/run_publishing_pipeline.py` step 6; `sessions/_scripts/audit_semantic_grounding.py` reads `session_cutoff` from the source-decision ledger as a fallback.
 
 ---
 
