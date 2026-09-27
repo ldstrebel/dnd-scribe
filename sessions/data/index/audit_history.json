@@ -1,145 +1,5 @@
 [
   {
-    "timestamp": "2026-09-25T12:49:26.676985",
-    "session_id": "s3",
-    "status": "FAIL",
-    "errors_count": 2,
-    "warnings_count": 93,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 0.833,
-        "keywords": 19
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 30
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 57
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 61
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 30
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 5
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 22
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 45
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 12
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 66
-      }
-    ],
-    "top_errors": [
-      "Scene 1: UNGROUNDED TURN at L0330.\n  Raw Line: '**Sophie Foreman Noone:** It's a very famous museum in North...'\n  Prose: 'Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0666.\n  Raw Line: '**Luke S:** it is not extraordinary for an action figure to make noises. Just uh...'\n  Prose: '\"Then you can sit on my shoulder,\" Pierre offered. \"Americans already think my b...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0383 (Luke S): 'what is the um likelihood that my mother expected me to be going to th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0389 (Luke Foreman): 'Okay. as as you all are sort of traveling through this area. Uh this t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
-    "timestamp": "2026-09-25T12:49:30.235567",
-    "session_id": "s3",
-    "status": "FAIL",
-    "errors_count": 2,
-    "warnings_count": 93,
-    "scene_scores": [
-      {
-        "scene_id": 1,
-        "ratio": 0.833,
-        "keywords": 19
-      },
-      {
-        "scene_id": 2,
-        "ratio": 1.0,
-        "keywords": 30
-      },
-      {
-        "scene_id": 3,
-        "ratio": 0.929,
-        "keywords": 57
-      },
-      {
-        "scene_id": 4,
-        "ratio": 1.0,
-        "keywords": 61
-      },
-      {
-        "scene_id": 5,
-        "ratio": 1.0,
-        "keywords": 30
-      },
-      {
-        "scene_id": 6,
-        "ratio": 1.0,
-        "keywords": 5
-      },
-      {
-        "scene_id": 7,
-        "ratio": 1.0,
-        "keywords": 22
-      },
-      {
-        "scene_id": 8,
-        "ratio": 1.0,
-        "keywords": 45
-      },
-      {
-        "scene_id": 9,
-        "ratio": 1.0,
-        "keywords": 12
-      },
-      {
-        "scene_id": 10,
-        "ratio": 1.0,
-        "keywords": 66
-      }
-    ],
-    "top_errors": [
-      "Scene 1: UNGROUNDED TURN at L0330.\n  Raw Line: '**Sophie Foreman Noone:** It's a very famous museum in North...'\n  Prose: 'Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a ...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window.",
-      "Scene 3: UNGROUNDED TURN at L0666.\n  Raw Line: '**Luke S:** it is not extraordinary for an action figure to make noises. Just uh...'\n  Prose: '\"Then you can sit on my shoulder,\" Pierre offered. \"Americans already think my b...'\n  Diagnosis: 0 semantic token overlap between prose and raw transcript window."
-    ],
-    "top_warnings": [
-      "Scene 1: Potential Canon Dialogue Drop at L0364 (Luke S): 'Or chance encounter. Uh well, before I answer, does it feel like Pierr...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0370 (Luke S): 'think um he's he's he literally like the the part that he doesn't get ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0373 (Luke S): 'meeting the fates and then being sent on like a scavenger hunt feels l...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0383 (Luke S): 'what is the um likelihood that my mother expected me to be going to th...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
-      "Scene 1: Potential Canon Dialogue Drop at L0389 (Luke Foreman): 'Okay. as as you all are sort of traveling through this area. Uh this t...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
-    ]
-  },
-  {
     "timestamp": "2026-09-25T12:49:35.643722",
     "session_id": "s4",
     "status": "PASS",
@@ -3428,6 +3288,140 @@
         "scene_id": 10,
         "ratio": 0.909,
         "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 2: Potential Canon Dialogue Drop at L0123 (Luke Foreman): 'like poison spores. um inflict wounds to inflict pounds. So, uh increa...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0138 (Luke Foreman): 'Yeah. three random items on the on the tool belt and then uh mage armo...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0142 (Luke Foreman): 'yeah, see I saw this and immediately thought it spawns in someone who ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0147 (Luke Foreman): 'So you guys are now up to seven. And then you were the sanctuary lante...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0149 (Luke Foreman): 'They're redactors. Uh so you get two sunstone embers which are kind of...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-26T23:26:25.828203",
+    "session_id": "s5",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 94,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 47
+      },
+      {
+        "scene_id": 2,
+        "ratio": 0.953,
+        "keywords": 97
+      },
+      {
+        "scene_id": 3,
+        "ratio": 0.943,
+        "keywords": 81
+      },
+      {
+        "scene_id": 4,
+        "ratio": 0.889,
+        "keywords": 62
+      },
+      {
+        "scene_id": 5,
+        "ratio": 0.846,
+        "keywords": 75
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 92
+      },
+      {
+        "scene_id": 7,
+        "ratio": 0.906,
+        "keywords": 92
+      },
+      {
+        "scene_id": 8,
+        "ratio": 0.9,
+        "keywords": 81
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 82
+      },
+      {
+        "scene_id": 10,
+        "ratio": 0.909,
+        "keywords": 66
+      }
+    ],
+    "top_errors": [],
+    "top_warnings": [
+      "Scene 2: Potential Canon Dialogue Drop at L0123 (Luke Foreman): 'like poison spores. um inflict wounds to inflict pounds. So, uh increa...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0138 (Luke Foreman): 'Yeah. three random items on the on the tool belt and then uh mage armo...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0142 (Luke Foreman): 'yeah, see I saw this and immediately thought it spawns in someone who ...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0147 (Luke Foreman): 'So you guys are now up to seven. And then you were the sanctuary lante...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed).",
+      "Scene 2: Potential Canon Dialogue Drop at L0149 (Luke Foreman): 'They're redactors. Uh so you get two sunstone embers which are kind of...' marked as (ooc) skip. Justify as (banter), (mechanics), or (compressed)."
+    ]
+  },
+  {
+    "timestamp": "2026-09-26T23:50:40.663755",
+    "session_id": "s5",
+    "status": "PASS",
+    "errors_count": 0,
+    "warnings_count": 94,
+    "scene_scores": [
+      {
+        "scene_id": 1,
+        "ratio": 1.0,
+        "keywords": 47
+      },
+      {
+        "scene_id": 2,
+        "ratio": 0.953,
+        "keywords": 97
+      },
+      {
+        "scene_id": 3,
+        "ratio": 0.943,
+        "keywords": 81
+      },
+      {
+        "scene_id": 4,
+        "ratio": 0.889,
+        "keywords": 62
+      },
+      {
+        "scene_id": 5,
+        "ratio": 0.846,
+        "keywords": 75
+      },
+      {
+        "scene_id": 6,
+        "ratio": 1.0,
+        "keywords": 92
+      },
+      {
+        "scene_id": 7,
+        "ratio": 0.906,
+        "keywords": 92
+      },
+      {
+        "scene_id": 8,
+        "ratio": 0.9,
+        "keywords": 81
+      },
+      {
+        "scene_id": 9,
+        "ratio": 1.0,
+        "keywords": 82
+      },
+      {
+        "scene_id": 10,
+        "ratio": 0.909,
+        "keywords": 65
       }
     ],
     "top_errors": [],
