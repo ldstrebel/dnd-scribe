@@ -56,7 +56,7 @@ Outside on the main stage, the muffled cadence of Dr. Thorne's voice echoed thro
 
 Alfie stopped mid-wrap, the scarf's fringe dangling from her small fingers. "Then a fragment isn't necessarily a thing you can hold," she said slowly, tilting her head toward the wood paneling and the voice beyond it. "It could just be a moment in time. A room like this one, at the wrong hour." Her painted brow furrowed. "Or would we even know?" <!-- L1052:alfie --> <!-- L1054:alfie -->
 
-Dravin withdrew Naomi's intelligence briefing from inside his tweed vest, his silver-framed spectacles reflecting the dim lamp light as he recalled her note that every fragment anchored to a physical relic—like the museum's stone tablet. <!-- L1055 -->
+"No," Dravin answered under his breath, withdrawing Naomi's briefing from his tweed vest and tapping the parchment with a gloved finger. "Naomi was clear back at the cabin. Reality doesn't unravel into the open air; every tear in the weave anchors to a physical relic, exactly like the Greek stele in Raleigh. We are looking for an object." <!-- L1055:dravin -->
 
 "A handwritten binder—an unedited primary source from the original 1948 trials," Dravin whispered, tapping the leather pocketwatch at his hip. "That is what Naomi flagged. Not the published monograph, and not her lecture slides." <!-- L1062:dravin -->
 

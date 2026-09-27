@@ -106,14 +106,14 @@
     }
   },
   "stats": {
-    "wordCount": 9127,
+    "wordCount": 9149,
     "estimatedReadMinutes": 37,
-    "estimatedBookPages": 36.5,
+    "estimatedBookPages": 36.6,
     "dialogueRatio": {
-      "spokenWords": 2994,
-      "narrativeWords": 6133,
-      "spokenPct": 32.8,
-      "narrativePct": 67.2,
+      "spokenWords": 3032,
+      "narrativeWords": 6117,
+      "spokenPct": 33.1,
+      "narrativePct": 66.9,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -121,8 +121,8 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 4093,
-        "sharePct": 44.8
+        "words": 4057,
+        "sharePct": 44.3
       },
       {
         "id": "pierre",
@@ -135,8 +135,8 @@
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 916,
-        "sharePct": 10.0
+        "words": 974,
+        "sharePct": 10.6
       },
       {
         "id": "alfie",
@@ -178,7 +178,7 @@
         "name": "Dr. Aris Thorne",
         "color": "#059669",
         "words": 224,
-        "sharePct": 2.5
+        "sharePct": 2.4
       },
       {
         "id": "theodore",
@@ -210,12 +210,12 @@
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 8.1,
+      "pacingStdDev": 8.0,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 37,
+        "visual": 35,
         "auditory": 9,
-        "tactile": 21,
+        "tactile": 20,
         "olfactory": 14,
         "atmospheric": 12,
         "registersCovered": 5
@@ -255,7 +255,7 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "32.8% Spoken / 67.2% Narrative Action",
+          "chosenStance": "33.1% Spoken / 66.9% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
@@ -682,7 +682,7 @@
       "index": 10,
       "scene": "CHAPTER 29: PARCHMENT, CREPES, AND THE GOD OF TRANSIT",
       "speakerId": "naomi",
-      "text": "\"A prestigious northeastern campus,\" Naomi explained, tapping the corner of the photograph where Greek letters were carved deep into the limestone archway. \"Founded in 1885. Our subject is scheduled for a public address tomorrow afternoon. Dr. Aris Thorne. On paper, she is an investigative medical historian touring a dense academic volume on buried mid-century clinical trials. But she\u2019s an anomaly. The archives claim the original physician tested experimental compounds on unwilling subjects in 1948 to eradicate Big Pox. Some believe the formula cured the disease; others claim it was lethal poison. Naomi believes the handwritten trial notes themselves are an active temporal anchor.\"",
+      "text": "\"A prestigious northeastern campus,\" Naomi explained, tapping the corner of the photograph where Greek letters were carved deep into the limestone archway. \"Founded in 1885. Our subject is scheduled for a public address tomorrow afternoon. Dr. Aris Thorne. On paper, she is an investigative medical historian touring a dense academic volume on buried mid-century clinical trials. But she\u2019s an anomaly. The archives claim the original physician tested experimental compounds on unwilling subjects in 1948 to eradicate Big Pox. Some believe the formula cured the disease; others claim it was lethal poison. I believe the handwritten trial notes themselves are an active temporal anchor.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b010_s01",
@@ -706,7 +706,7 @@
           "speakerId": "naomi",
           "speakerName": "Naomi",
           "sourceLine": 157,
-          "text": "\"Founded in 1885. Our subject is scheduled for a public address tomorrow afternoon. Dr. Aris Thorne. On paper, she is an investigative medical historian touring a dense academic volume on buried mid-century clinical trials. But she\u2019s an anomaly. The archives claim the original physician tested experimental compounds on unwilling subjects in 1948 to eradicate Big Pox. Some believe the formula cured the disease; others claim it was lethal poison. Naomi believes the handwritten trial notes themselves are an active temporal anchor.\""
+          "text": "\"Founded in 1885. Our subject is scheduled for a public address tomorrow afternoon. Dr. Aris Thorne. On paper, she is an investigative medical historian touring a dense academic volume on buried mid-century clinical trials. But she\u2019s an anomaly. The archives claim the original physician tested experimental compounds on unwilling subjects in 1948 to eradicate Big Pox. Some believe the formula cured the disease; others claim it was lethal poison. I believe the handwritten trial notes themselves are an active temporal anchor.\""
         }
       ],
       "cut": "tabletop"
@@ -7429,16 +7429,32 @@
       "id": "uneraseable_s05_b185",
       "index": 185,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
-      "speakerId": "narrator",
-      "text": "Dravin withdrew Naomi's intelligence briefing from inside his tweed vest, his silver-framed spectacles reflecting the dim lamp light as he recalled her note that every fragment anchored to a physical relic\u2014like the museum's stone tablet.",
+      "speakerId": "dravin",
+      "text": "\"No,\" Dravin answered under his breath, withdrawing Naomi's briefing from his tweed vest and tapping the parchment with a gloved finger. \"Naomi was clear back at the cabin. Reality doesn't unravel into the open air; every tear in the weave anchors to a physical relic, exactly like the Greek stele in Raleigh. We are looking for an object.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b185_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1055,
+          "text": "\"No,\""
+        },
+        {
+          "segmentId": "uneraseable_s05_b185_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Dravin withdrew Naomi's intelligence briefing from inside his tweed vest, his silver-framed spectacles reflecting the dim lamp light as he recalled her note that every fragment anchored to a physical relic\u2014like the museum's stone tablet."
+          "text": " Dravin answered under his breath, withdrawing Naomi's briefing from his tweed vest and tapping the parchment with a gloved finger. "
+        },
+        {
+          "segmentId": "uneraseable_s05_b185_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1055,
+          "text": "\"Naomi was clear back at the cabin. Reality doesn't unravel into the open air; every tear in the weave anchors to a physical relic, exactly like the Greek stele in Raleigh. We are looking for an object.\""
         }
       ],
       "cut": "tabletop"
