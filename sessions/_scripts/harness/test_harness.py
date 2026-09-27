@@ -309,15 +309,45 @@ from sessions._scripts.audit_reader_context import audit_reader_context, load_de
 
 
 class TestWritersRoomGates(unittest.TestCase):
+    @unittest.skipIf(not os.path.exists(os.path.join(REPO_ROOT, "campaign", "CAMPAIGN_ARC_LEDGER.md")), "No campaign arc ledger on campaign-agnostic engine branch")
     def test_arc_ledger_audit_passes_real_campaign(self):
         passed, errors, warnings = audit_arc_ledger(str(REPO_ROOT))
         self.assertTrue(passed, f"Arc ledger audit failed with errors: {errors}")
         self.assertEqual(len(errors), 0)
 
+    @unittest.skipIf(not os.path.exists(os.path.join(REPO_ROOT, "sessions", "data", "clean", "blocks")), "No clean blocks on campaign-agnostic engine branch")
     def test_reader_context_audit_passes_s5(self):
         passed, errors, warnings = audit_reader_context("s5", str(REPO_ROOT))
         self.assertTrue(passed, f"Reader context audit failed with errors: {errors}")
         self.assertEqual(len(errors), 0)
+
+    def test_synthetic_arc_ledger_audit(self):
+        with tempfile.TemporaryDirectory() as td:
+            camp_dir = os.path.join(td, "campaign")
+            raw_dir = os.path.join(td, "sessions", "data", "index")
+            os.makedirs(camp_dir)
+            os.makedirs(raw_dir)
+            with open(os.path.join(raw_dir, "s1-raw-indexed.md"), "w", encoding="utf-8") as f:
+                f.write("L0100: Player: We found the artifact.\n")
+            with open(os.path.join(camp_dir, "CAMPAIGN_ARC_LEDGER.md"), "w", encoding="utf-8") as f:
+                f.write("# Codex\n## 1. Cosmology\n- The relic was uncovered [ESTABLISHED: S1 L0100].\n")
+            passed, errors, _ = audit_arc_ledger(td)
+            self.assertTrue(passed)
+            self.assertEqual(len(errors), 0)
+
+    def test_synthetic_reader_context_audit(self):
+        with tempfile.TemporaryDirectory() as td:
+            cfg_dir = os.path.join(td, "sessions", "config")
+            blocks_dir = os.path.join(td, "sessions", "data", "clean", "blocks")
+            os.makedirs(cfg_dir)
+            os.makedirs(blocks_dir)
+            with open(os.path.join(cfg_dir, "s1-session-config.json"), "w", encoding="utf-8") as f:
+                json.dump({"session_lore_terms": [{"term": "gadget", "introduced_scene": 1}]}, f)
+            with open(os.path.join(blocks_dir, "s1-scene-01.md"), "w", encoding="utf-8") as f:
+                f.write("He picked up the gadget from the desk. <!-- L0010 -->\n")
+            passed, errors, _ = audit_reader_context("s1", td)
+            self.assertTrue(passed)
+            self.assertEqual(len(errors), 0)
 
     def test_declared_introductions_parser(self):
         cfg = {
