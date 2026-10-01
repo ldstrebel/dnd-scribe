@@ -8488,36 +8488,11 @@
       "id": "uneraseable_s04_b205_alt5",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
-      "speakerId": "dravin",
-      "text": "When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: \"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\"",
-      "segments": [
-        {
-          "segmentId": "uneraseable_s04_b205_alt5_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "
-        },
-        {
-          "segmentId": "uneraseable_s04_b205_alt5_s02",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1233,
-          "text": "\"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\""
-        }
-      ]
-    },
-    {
-      "id": "uneraseable_s04_b205_alt6",
-      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
-      "cut": "cinematic",
       "speakerId": "alfie",
       "text": "\"This hat was dropped on the floor!\" Alfie protested defensively. \"I didn't steal it!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s01",
+          "segmentId": "uneraseable_s04_b205_alt5_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8525,7 +8500,7 @@
           "text": "\"This hat was dropped on the floor!\""
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s02",
+          "segmentId": "uneraseable_s04_b205_alt5_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8533,12 +8508,37 @@
           "text": " Alfie protested defensively. "
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s03",
+          "segmentId": "uneraseable_s04_b205_alt5_s03",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
           "sourceLine": 1224,
           "text": "\"I didn't steal it!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b205_alt6",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: \"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b205_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b205_alt6_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1233,
+          "text": "\"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\""
         }
       ]
     },
