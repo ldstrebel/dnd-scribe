@@ -286,17 +286,27 @@ def audit_gate3_span_provenance(
     }
     for npc in session_cfg.get("npcs", []):
         n_name = npc.get("name", "").lower()
-        if n_name and n_name not in known_char_map:
-            norm_k = n_name.split()[-1]
-            known_char_map[n_name] = norm_k
-            if norm_k not in known_char_map:
-                known_char_map[norm_k] = norm_k
+        if n_name:
+            parts = n_name.split()
+            first_k = parts[0]
+            last_k = parts[-1]
+            target_k = known_char_map.get(n_name, known_char_map.get(first_k, first_k))
+            if n_name not in known_char_map:
+                known_char_map[n_name] = target_k
+            if first_k not in known_char_map:
+                known_char_map[first_k] = target_k
+            if last_k not in known_char_map:
+                known_char_map[last_k] = target_k
 
     for _, ch_name in session_cfg.get("players", {}).items():
         ch_lower = ch_name.lower()
-        norm_k = ch_lower.split()[-1]
-        known_char_map[ch_lower] = norm_k
-        known_char_map[norm_k] = norm_k
+        parts = ch_lower.split()
+        first_k = parts[0]
+        last_k = parts[-1]
+        target_k = parts[-1] if "dravin" in parts else first_k
+        known_char_map[ch_lower] = target_k
+        known_char_map[first_k] = target_k
+        known_char_map[last_k] = target_k
 
     speech_verb_pat = re.compile(
         r"\b(?:([A-Z][a-zA-Z\s.-]+?)\s+(?:snapped|said|replied|muttered|countered|shouted|yelled|whispered|screamed|intervened|warned|repeated|asked|demanded|observed|challenged|argued|roared|gasped|growled|retorted|interjected|added|conceded)|(?:snapped|said|replied|muttered|countered|shouted|yelled|whispered|screamed|intervened|warned|repeated|asked|demanded|observed|challenged|argued|roared|gasped|growled|retorted|interjected|added|conceded)\s+([A-Z][a-zA-Z\s.-]+?))\b"

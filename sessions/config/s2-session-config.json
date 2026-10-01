@@ -13,16 +13,40 @@
   },
   "shared_mics": {},
   "npcs": [
-    { "name": "Mike", "introduced_scene": 1 },
-    { "name": "Theodore", "introduced_scene": 2 },
-    { "name": "Anna Smith", "introduced_scene": 4 },
-    { "name": "Rosa", "introduced_scene": 4 },
-    { "name": "Naomi", "introduced_scene": 4 },
-    { "name": "Clerk", "introduced_scene": 8 }
+    {
+      "name": "Mike",
+      "introduced_scene": 1
+    },
+    {
+      "name": "Theodore",
+      "introduced_scene": 2
+    },
+    {
+      "name": "Anna Smith",
+      "introduced_scene": 4
+    },
+    {
+      "name": "Rosa",
+      "introduced_scene": 4
+    },
+    {
+      "name": "Naomi",
+      "introduced_scene": 4
+    },
+    {
+      "name": "Clerk",
+      "introduced_scene": 8
+    }
   ],
   "session_lore_terms": [
-    { "term": "Echidna", "introduced_scene": 7 },
-    { "term": "Lost Roads", "introduced_scene": 7 }
+    {
+      "term": "Echidna",
+      "introduced_scene": 7
+    },
+    {
+      "term": "Lost Roads",
+      "introduced_scene": 7
+    }
   ],
   "dialogue_speakers": {
     "438": "mike",
@@ -322,6 +346,118 @@
     {
       "line": 1511,
       "reason": "Player table reaction to road explanation; covered in rendered scene."
+    },
+    {
+      "line": 510,
+      "reason": "Player table statement of character intent (keeping Divine Sense results to himself); covered in internal narration."
+    },
+    {
+      "line": 642,
+      "reason": "GM table banter on crazy backstory comparisons; covered in rendered scene."
+    },
+    {
+      "line": 707,
+      "reason": "GM table banter on sanctuary residents helping out; covered in rendered scene."
+    },
+    {
+      "line": 721,
+      "reason": "Player table banter on mortality in the margin; covered in rendered scene."
+    },
+    {
+      "line": 735,
+      "reason": "GM table staging for Theodore asking Eusacles; covered in rendered scene."
+    },
+    {
+      "line": 749,
+      "reason": "Player table framing of Eusacles's response; covered in rendered scene."
+    },
+    {
+      "line": 1566,
+      "reason": "Player table reaction to truck sequence; covered in rendered scene."
+    },
+    {
+      "line": 751,
+      "reason": "GM transition to cabin intake; covered in rendered scene."
+    },
+    {
+      "line": 773,
+      "reason": "GM/Anna intake question; covered in rendered scene."
+    },
+    {
+      "line": 803,
+      "reason": "GM/Rosa table clarification; covered in rendered scene."
+    },
+    {
+      "line": 846,
+      "reason": "GM table lore description of nature grounding; covered in rendered scene."
+    },
+    {
+      "line": 879,
+      "reason": "Player table staging for cabin return; covered in rendered scene."
+    },
+    {
+      "line": 993,
+      "reason": "Player table conversation regarding Naomi; covered in rendered scene."
+    },
+    {
+      "line": 1009,
+      "reason": "GM table wrap-up of campfire check-in; covered in rendered scene."
+    },
+    {
+      "line": 1057,
+      "reason": "GM table discussion on anomaly encounters; covered in rendered scene."
+    },
+    {
+      "line": 1064,
+      "reason": "GM table reflection on survival theory; covered in rendered scene."
+    },
+    {
+      "line": 1072,
+      "reason": "GM table description of night patrol; covered in rendered scene."
+    },
+    {
+      "line": 1074,
+      "reason": "GM table staging of corrector drill; covered in rendered scene."
+    },
+    {
+      "line": 1089,
+      "reason": "GM table explanation of borderland creatures; covered in rendered scene."
+    },
+    {
+      "line": 1096,
+      "reason": "Player table inquiry on mythological travel; covered in rendered scene."
+    },
+    {
+      "line": 1137,
+      "reason": "GM table clarification on Mike and spell detection; covered in rendered scene."
+    },
+    {
+      "line": 1146,
+      "reason": "GM table philosophical banter; covered in rendered scene."
+    },
+    {
+      "line": 1168,
+      "reason": "GM table breakfast banter; covered in rendered scene."
+    },
+    {
+      "line": 1175,
+      "reason": "Player table calculation banter; covered in rendered scene."
+    },
+    {
+      "line": 1182,
+      "reason": "Player table banter on temporal timeline; covered in rendered scene."
+    },
+    {
+      "line": 1216,
+      "reason": "GM table discussion referencing Naomi; covered in rendered scene."
+    },
+    {
+      "line": 1238,
+      "reason": "GM table pronunciation discussion on Gorgons; covered in rendered scene."
+    },
+    {
+      "line": 1251,
+      "reason": "GM table lore handoff referencing Naomi; covered in rendered scene."
     }
   ]
 }

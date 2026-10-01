@@ -2,7 +2,7 @@
 
 "I think I am ready to be yeeted under the glass!" Alfie declared from behind the crate. <!-- L0331 -->
 
-"Are you thinking a high lob?" Pierre asked, measuring the two-foot gap beneath the vitrine with an anxious squint.
+"Are you thinking a high lob?" Pierre asked, measuring the two-foot gap beneath the vitrine with an anxious squint. <!-- L0332-L0334:pierre -->
 
 "No, mate," Alfie corrected, crouching low on his carved driftwood joints. "More of a curling slide across the floor and then a brisk scurry." <!-- L0335-L0354 -->
 

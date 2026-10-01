@@ -1,11 +1,10 @@
 {
-<<<<<<< HEAD
   "title": "The Margin: The Stolen Weave",
   "subtitle": "Book 1",
   "series": "The Margin Chronicles",
   "author": "The Margin Table",
   "campaign": "The Margin (GM: Luke Foreman)",
-  "description": "When the Three Fates edit human history, displaced souls slip through the seams of reality. Stranded in the timeless refuge of the Margin, an eccentric team\u2014a French youth with Gorgon blood, a Stanford Greek history professor, a Vegas gambler fathered by the God of Death, and a sentient driftwood doll\u2014must travel the Lost Roads to recover the reality-warping Fragments of time.",
+  "description": "When the Three Fates edit human history, displaced souls slip through the seams of reality. Stranded in the timeless refuge of the Margin, an eccentric team—a French youth with Gorgon blood, a Stanford Greek history professor, a Vegas gambler fathered by the God of Death, and a sentient driftwood doll—must travel the Lost Roads to recover the reality-warping Fragments of time.",
   "subjects": [
     "Urban Fantasy",
     "Mythic Fantasy",
@@ -18,38 +17,12 @@
     "title": "A NOTE FROM THE AUTHORS",
     "paragraphs": [
       "Stories begin in strange, unexpected ways. This one began around a tabletop, where friends and Game Master Luke Foreman set out to explore what happens when the fabric of destiny frays at the edges.",
-      "What you hold here is the chronicle of Pierre, Professor Dravin, Eusacles, and Alfie\u2014novelized directly from our living campaign transcripts, preserving every line of dialogue, every chaotic gamble, and every heartbeat of their journey.",
+      "What you hold here is the chronicle of Pierre, Professor Dravin, Eusacles, and Alfie—novelized directly from our living campaign transcripts, preserving every line of dialogue, every chaotic gamble, and every heartbeat of their journey.",
       "To the players, the storytellers, and everyone who ever looked beyond the edge of the world: thank you."
     ],
-    "signoff": "\u2014 The Margin Table"
+    "signoff": "— The Margin Table"
   },
   "cover_image": null,
   "map_image": null,
   "output_prefix": "the-margin-book-1"
 }
-=======
-  "title": "Untitled Campaign Novel",
-  "subtitle": "Book 1",
-  "series": "Tabletop Chronicles",
-  "author": "The Table",
-  "campaign": "Tabletop Campaign Novelization",
-  "description": "A novelized fantasy adventure adapted directly from tabletop roleplaying campaign transcripts.",
-  "subjects": [
-    "Fantasy",
-    "Adventure",
-    "Tabletop RPG"
-  ],
-  "setting_type": "fantasy",
-  "earth_setting": false,
-  "author_note": {
-    "title": "A NOTE FROM THE AUTHORS",
-    "paragraphs": [
-      "Stories begin in strange, unexpected ways. This one began around a tabletop, where friends and a Game Master decided this world was worth archiving."
-    ],
-    "signoff": "— The Table"
-  },
-  "cover_image": null,
-  "map_image": null,
-  "output_prefix": "campaign-novel"
-}
->>>>>>> main

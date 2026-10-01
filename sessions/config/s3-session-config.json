@@ -13,10 +13,16 @@
   },
   "shared_mics": {},
   "npcs": [
-    { "name": "Ally", "introduced_scene": 1 }
+    {
+      "name": "Ally",
+      "introduced_scene": 1
+    }
   ],
   "session_lore_terms": [
-    { "term": "Lost Roads", "introduced_scene": 1 }
+    {
+      "term": "Lost Roads",
+      "introduced_scene": 1
+    }
   ],
   "dialogue_speakers": {
     "410": "ally",
@@ -304,6 +310,98 @@
     {
       "line": 376,
       "reason": "GM rules-clarification that the Fates' errand is not specific to Gorgon; answers a player question, no scene content."
+    },
+    {
+      "line": 1478,
+      "reason": "Player table staging for exhibit approach; covered in rendered scene."
+    },
+    {
+      "line": 1548,
+      "reason": "GM table description of visitors looking at artifacts; covered in rendered scene."
+    },
+    {
+      "line": 1556,
+      "reason": "Player table banter regarding stele display; covered in rendered scene."
+    },
+    {
+      "line": 1580,
+      "reason": "GM table observation on stone inspection; covered in rendered scene."
+    },
+    {
+      "line": 617,
+      "reason": "GM table staging on location; covered in rendered scene."
+    },
+    {
+      "line": 698,
+      "reason": "GM table check on search details; covered in rendered scene."
+    },
+    {
+      "line": 882,
+      "reason": "GM table description of guards; covered in rendered scene."
+    },
+    {
+      "line": 899,
+      "reason": "GM table resolution on attack; covered in rendered scene."
+    },
+    {
+      "line": 936,
+      "reason": "GM table update on sheep distraction; covered in rendered scene."
+    },
+    {
+      "line": 1028,
+      "reason": "Player table action description; covered in rendered scene."
+    },
+    {
+      "line": 1071,
+      "reason": "GM explanation of wordcraft scaling mechanics; no in-world content."
+    },
+    {
+      "line": 1087,
+      "reason": "GM explanation of stealth window; covered in rendered scene."
+    },
+    {
+      "line": 1193,
+      "reason": "Player table description of disguise; covered in rendered scene."
+    },
+    {
+      "line": 1221,
+      "reason": "Player table confirmation of disguise; covered in rendered scene."
+    },
+    {
+      "line": 1280,
+      "reason": "GM banter on security systems; covered in rendered scene."
+    },
+    {
+      "line": 1311,
+      "reason": "Player table description of cart movement; covered in rendered scene."
+    },
+    {
+      "line": 1315,
+      "reason": "Player table description of supply room; covered in rendered scene."
+    },
+    {
+      "line": 1341,
+      "reason": "GM table confirmation of options; covered in rendered scene."
+    },
+    {
+      "line": 1342,
+      "reason": "Player table staging under the cart; covered in rendered scene."
+    },
+    {
+      "line": 1343,
+      "reason": "Player table strategy discussion; covered in rendered scene."
+    },
+    {
+      "line": 1344,
+      "reason": "Player table speculation on guard; covered in rendered scene."
+    },
+    {
+      "line": 1351,
+      "reason": "GM table reminder of Naomi's intel; covered in rendered scene."
+    },
+    {
+      "line": 1384,
+      "reason": "GM table description of stone fragments; covered in rendered scene."
     }
   ]
 }

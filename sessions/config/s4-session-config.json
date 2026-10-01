@@ -94,6 +94,66 @@
       "line": 898,
       "reason": "GM tactical positioning and bot-drop combat movement announcement."
     },
-    899
+    899,
+    {
+      "line": 121,
+      "reason": "GM technical mechanics banter on combat button in VTT; no in-world content."
+    },
+    {
+      "line": 128,
+      "reason": "Player technical mechanics banter on sword icon in VTT; no in-world content."
+    },
+    {
+      "line": 275,
+      "reason": "Player technical mechanics banter on character sheet spells; no in-world content."
+    },
+    {
+      "line": 284,
+      "reason": "Player technical mechanics banter on spellbook interface; no in-world content."
+    },
+    {
+      "line": 288,
+      "reason": "Player technical mechanics banter on spell preparation; no in-world content."
+    },
+    {
+      "line": 427,
+      "reason": "GM mechanical attack resolution on Edward; covered in rendered combat prose."
+    },
+    {
+      "line": 586,
+      "reason": "GM mechanical positioning rules on melee range; covered in rendered combat prose."
+    },
+    {
+      "line": 694,
+      "reason": "Player mechanical measuring question on distance; no in-world content."
+    },
+    {
+      "line": 900,
+      "reason": "GM mechanical turn recap on point blank shot; covered in rendered scene."
+    },
+    {
+      "line": 903,
+      "reason": "GM mechanical status check on sleeping target; covered in rendered scene."
+    },
+    {
+      "line": 904,
+      "reason": "Player mechanical movement consideration; covered in rendered scene."
+    },
+    {
+      "line": 972,
+      "reason": "Player table reaction to acid effect; covered in rendered scene."
+    },
+    {
+      "line": 981,
+      "reason": "GM mechanical description of escape terrain; covered in rendered scene."
+    },
+    {
+      "line": 983,
+      "reason": "GM mechanical movement resolution down to parking lot; covered in rendered scene."
+    },
+    {
+      "line": 1094,
+      "reason": "GM table staging of Naomi's reaction; covered in rendered scene."
+    }
   ]
 }

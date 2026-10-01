@@ -18,11 +18,11 @@ Pierre nudged Mike, pointing toward the little figure perched upon his shoulder.
 
 "Time doesn't tick down in the Margin, little sailor," Teddy explained with a soft chuckle, pushing his tobacco pipe between his teeth. "You don't age. Your boots don't wear out unless you cross the fence. We are the notes scribbled in the white margins of a manuscript. As long as we stay here, the eraser cannot reach us. I founded this place back in 1846, and I haven't aged since." <!-- L0700-L0706 -->
 
-Dravin asked if residents ever left, to which Teddy confirmed that avenues in and out revolved around classical Greek mythology. Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. "Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?" <!-- L0715-L0720 -->
+When Dravin inquired whether residents ever left, Teddy confirmed that avenues in and out revolved around classical Greek mythology. Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. "Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?" Pierre asked. <!-- L0715-L0720:pierre -->
 
 "All the classics from eighth-grade mythology come around," Teddy nodded solemnly. "Creatures tend to live on their own in the borderlands. Come inside the main lodge. A warm meal will help you absorb it all. We will have tea and dessert, and begin our intake." <!-- L0724-L0729 -->
 
-Inside the long timber hall of the Marigold, steaming herbal tea and freshly baked blackberry cobbler were set before the weary travelers. Savoring the warm pastry, Dravin noted with quiet wonder, "The sensory details remain completely intact." Other displaced guests moved quietly across the hall, smiling at Alfie as he hopped across the pine planks, re-enacting his needle duel. <!-- L0731-L0733 -->
+Inside the long timber hall of the Marigold, steaming herbal tea and freshly baked blackberry cobbler were set before the weary travelers. Savoring the warm pastry, Dravin noted with quiet wonder, "The sensory details remain completely intact." Other displaced guests moved quietly across the hall, smiling at Alfie as he hopped across the pine planks, re-enacting his needle duel. <!-- L0731-L0733:dravin -->
 
 Teddy pulled up a heavy wooden chair opposite Eusacles, his weathered eyes narrowing with direct appraisal. "You seem remarkably comfortable with all of this, son. Let me be blunt: are you a half-blood?" <!-- L0736 -->
 
