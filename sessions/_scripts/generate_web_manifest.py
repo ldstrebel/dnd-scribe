@@ -551,7 +551,7 @@ def generate_session_v2_manifest(session_num):
                 alt_quotes = re.findall(r'"([^"]*)"|“([^”]*)”', p)
                 has_alt_quote = len(alt_quotes) > 0
                 alt_b_id = f"{scene_first_b_id}_alt{alt_idx}"
-                eff_alt_source_line = source_line if source_line is not None else (last_alt_source_line if has_alt_quote else None)
+                eff_alt_source_line = source_line
                 spk_id = resolve_block_speaker(eff_alt_source_line, raw_speakers, has_alt_quote, block_id=alt_b_id, explicit_speaker=alt_explicit_speaker)
 
                 segments = decompose_block_to_web_segments(alt_b_id, p, eff_alt_source_line, CHARACTER_REGISTRY, raw_speakers, block_speaker_id=spk_id)

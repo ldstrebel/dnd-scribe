@@ -51,3 +51,4 @@ campaign/planning/**/*.mp4
 *.json.gz
 novel/*.epub
 sessions/data/index/audit_history.json
+scratch/

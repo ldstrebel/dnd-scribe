@@ -14,6 +14,7 @@ Grounded' contract for Reader Advocate.
 """
 
 import os
+import re
 import sys
 import json
 import argparse
@@ -99,6 +100,24 @@ def print_writers_room(session_id, base_dir=None):
         print("    * Fragments: Usually physical relics (S4 L0348, S5 L1055); unanchored events open inquiry (S5 L1052-1054).")
         print("    * Timeline Mechanics: Edits manifest via living ink and Fates; Reductors operate under veil.")
         print("    * Agency & Retcon Ban: Do NOT fabricate future acts or invent ungrounded curses/pacts.")
+        
+        # Section 4 Milestone Content Dump (DEC-028 Milestone 1B)
+        try:
+            with open(ledger_path, "r", encoding="utf-8") as f:
+                arc_text = f.read()
+            m_milestone = re.search(rf"^\|\s*\*\*{sid_upper}\*\*\s*\|(.+)$", arc_text, re.MULTILINE)
+            if m_milestone:
+                row_cells = [c.strip() for c in m_milestone.group(0).split("|")[1:-1]]
+                if len(row_cells) >= 5:
+                    print(f"  • Grounded Session Milestone ({sid_upper}):")
+                    print(f"    - Setting:   {row_cells[1]}")
+                    print(f"    - Relic:     {row_cells[2]}")
+                    print(f"    - Milestone: {row_cells[3][:100]}...")
+                    print(f"    - Factions:  {row_cells[4]}")
+            else:
+                print(f"  • ⚠️  [NO_MILESTONE_IN_LEDGER] Section 4 lacks a recorded milestone for {sid_upper}!")
+        except Exception as e:
+            print(f"  • ⚠️  Could not read Section 4 milestone: {e}")
     else:
         print("  • WARNING: campaign/CAMPAIGN_ARC_LEDGER.md not found.")
 
@@ -110,6 +129,8 @@ def print_writers_room(session_id, base_dir=None):
     npcs = session_cfg.get("npcs", [])
 
     print(f"  • Session Lore Terms Declared: {len(lore_terms)}")
+    if len(lore_terms) == 0:
+        print("    ⚠️  [UNDERPOPULATED] No session_lore_terms declared in session config.")
     for t in lore_terms:
         if isinstance(t, dict):
             print(f"    * '{t.get('term')}' -> introduced in Scene {t.get('introduced_scene', 1)}")
@@ -117,6 +138,8 @@ def print_writers_room(session_id, base_dir=None):
             print(f"    * '{t}' -> introduced in Scene 1 (default)")
 
     print(f"  • NPCs Declared: {len(npcs)}")
+    if len(npcs) == 0:
+        print("    ⚠️  [UNDERPOPULATED] No NPCs declared in session config.")
     for n in npcs:
         if isinstance(n, dict):
             print(f"    * '{n.get('name')}' -> introduced in Scene {n.get('introduced_scene', 1)}")
@@ -127,11 +150,25 @@ def print_writers_room(session_id, base_dir=None):
     # Role 4: Craft Dramatist (Craft & Deep-POV Dramatist)
     # -------------------------------------------------------------------------
     print("\n[ROLE 4: CRAFT DRAMATIST] Deep-POV, Voice Differentiation & Action Beats")
-    contract_clauses = ic_data.get("liberties", ic_data.get("clauses", []))
-    print(f"  • Intent Contract Liberties: {len(contract_clauses)} items")
+    contract_clauses = ic_data.get("authorial_liberties", ic_data.get("liberties", ic_data.get("clauses", [])))
+    contract_rules = ic_data.get("rules", [])
+    print(f"  • Intent Contract Negative Rules: {len(contract_rules)} rules")
+    for r in contract_rules[:3]:
+        r_id = r.get("id", "UNKNOWN")
+        r_desc = r.get("description", "")
+        print(f"    * [{r_id}] {r_desc[:65]}...")
+    if len(contract_rules) > 3:
+        print(f"    * ... and {len(contract_rules) - 3} more negative rules.")
+
+    print(f"  • Authorial Liberties: {len(contract_clauses)} items")
+    if len(contract_clauses) == 0:
+        print("    ⚠️  [UNDERPOPULATED] No authorial liberties declared in intent contract.")
     for cl in contract_clauses[:3]:
-        desc = cl.get("description", cl.get("intent", str(cl)))
-        print(f"    * {desc[:80]}")
+        desc = cl.get("liberty", cl.get("description", cl.get("intent", str(cl))))
+        sc = cl.get("scene", "global")
+        print(f"    * ({sc}) {desc[:75]}...")
+    if len(contract_clauses) > 3:
+        print(f"    * ... and {len(contract_clauses) - 3} more authorial liberties.")
     print("  • Craft Checklist:")
     print("    1. Dedicated paragraphs per speaker change; immutable quoted dialogue.")
     print("    2. Dwight Swain MRUs in action beats (Motivation -> Sensation -> Reflex -> Deliberate Action).")
