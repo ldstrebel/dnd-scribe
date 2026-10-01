@@ -5,22 +5,55 @@
 <!-- RAW_RANGE: [221, 326] | SCENE_ID: 303 | OOC -->
 
 <!-- RAW_RANGE: [327, 460] | SCENE_ID: 1 -->
+## CHAPTER 23: THE ROADS BETWEEN
 
-Behind the main cabin of The Margin, the warped pine door of Theodore's maintenance shed creaked open. Inside, rows of rusty shovels, ancient hand-forged axes, and weathered iron adzes hung beside modern socket wrenches on pegboard walls. <!-- L0327 -->
+Behind the main lodge of The Margin, the weathered pine door of Theodore's maintenance shed creaked open on dry iron hinges. Inside, rows of rusty shovels, hand-forged axes, and weathered iron adzes hung alongside modern socket wrenches against oil-stained pegboard walls. <!-- L0327 -->
 
-Theodore rested a heavy, sun-leathered hand on the doorframe, pointing toward a narrow wooden door set into the back wall of the shed. "We stand at the beginning of our journey to the Lost Roads," he warned. "Keep your wits about you." <!-- L0330 --> <!-- L0343 -->
+Theodore stood in the doorway, the early morning light catching the rough stubble along his jaw as he pointed toward a low wooden door set into the back wall of the shed. "We stand at the beginning of our journey to the Lost Roads," he warned, his voice low and gravelly. "Keep your wits about you." <!-- L0330 --> <!-- L0333 --> <!-- L0343 -->
 
-Pierre stepped forward, his round spectacles catching the amber lantern light. He focused on the faint, shimmering resonance in the floorboards—the ancient pull of stone and shifting earth across the Lost Roads. <!-- L0358 --> <!-- L0359 -->
+Pierre pulled the frayed straps of his canvas rucksack tight across his chest, his fingers instinctively brushing the brim of his woolen beret. The air inside the shed carried a faint, vibrating hum—a resonant pulse in the floorboards that set his teeth on edge. The pull of deep earth and ancient stone seemed to tug directly at the soles of his boots, offering paths through the hidden world. <!-- L0358 --> <!-- L0359 -->
 
-Beyond the threshold, the physical walls of the shed dissolved into mist. The party stepped through into the Lost Roads—an endless, shifting expanse where classical Greek colonnades rose out of overgrown meadows and forgotten gravel paths wound through the gray ether. <!-- L0391 -->
+He hesitated on the threshold, chewing the inside of his cheek. In his mind, the question coiled uncomfortably: was this bizarre detour truly the pilgrimage his family had sent him across the Atlantic to make? He had spent his youth in Paris being quietly reminded of his lineage, yet nothing in his mother’s letters had mentioned wandering into an abandoned Nevada sanctuary or breaking into the North Carolina Museum of Natural History. It was strange—thoroughly strange. Yet if there was even the slightest chance of uncovering the truth of his heritage among ancient relics, he could not turn back now. He nodded grimly to himself, setting his jaw and stepping across the sill. <!-- L0386 --> <!-- L0388 -->
 
-<!-- LEDGER: rendered=[327, 330, 343, 358, 359, 391] skipped=[328(ooc), 329(ooc), 331(ooc), 332(ooc), 333(ooc), 334(ooc), 335(ooc), 336(ooc), 337(ooc), 338(ooc), 339(ooc), 340(ooc), 341(ooc), 342(ooc), 344(ooc), 345(ooc), 346(ooc), 347(ooc), 348(ooc), 349(ooc), 350(ooc), 351(ooc), 352(ooc), 353(ooc), 354(ooc), 355(ooc), 356(ooc), 357(ooc), 360(ooc), 361(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 372(ooc), 373(ooc), 374(ooc), 375(ooc), 376(ooc), 377(ooc), 378(ooc), 379(ooc), 380(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 385(ooc), 386(ooc), 387(ooc), 388(ooc), 389(ooc), 390(ooc), 392(ooc), 393(ooc), 394(ooc), 395(ooc), 396(ooc), 397(ooc), 398(ooc), 399(ooc), 400(ooc), 401(ooc), 402(ooc), 403(ooc), 404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 412(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 417(compressed), 418(ooc), 419(ooc), 420(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 426(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 440(ooc), 441(ooc), 442(ooc), 443(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 450(ooc), 451(ooc), 452(ooc), 453(ooc), 454(ooc), 455(ooc), 456(ooc), 457(ooc), 458(ooc), 459(ooc), 460(ooc)] -->
+Beyond the threshold, the pine walls dissolved into cold gray ether. The shed’s narrow floorboards stretched outward, passing shelves of prehistoric stone scrapers and heavy bronze naval anchors, before opening into a cavernous, derelict warehouse stacked high with rotted crates. A few paces further, the warehouse buckled into a bombed-out industrial expanse of twisted steel beams and shattered red brick. <!-- L0389 --> <!-- L0391 -->
+
+Then, modern steel crumbled away entirely.
+
+The path broke into an overgrown meadow of pale asphodel, where colossal limestone colonnades lay shattered beneath a vault of silver fog. Ancient Greece had swallowed the twentieth century whole. <!-- L0395 -->
+
+Beside Pierre, Professor Edward Dravin stopped dead in his tracks. Wire-rimmed spectacles caught the muted glow of the mist as his eyes drank in the fluted Doric ruins. The professor’s chest rose with an exhilarated breath; the academic weariness that usually weighed down his shoulders vanished. To a classical historian, walking through these stratified strata of civilization was sheer ecstasy—time stripped of linear law. <!-- L0399 -->
+
+Dravin squinted through the mist, freezing as movement flickered between two collapsed marble pediments. A youthful female figure draped in charcoal robes strode through the ruins, her bare feet silent against the cracked flagstones. <!-- L0407 -->
+
+The maiden halted abruptly, her dark eyes widening with alarm as she noticed the mortals standing in her path.
+
+"I did not sense any other people walking through here," Ally said, her voice chiming like ice striking silver. "Where are you coming from?" <!-- L0410 -->
+
+Dravin took a cautious step forward, lifting his chin. "We are coming from the Margin." <!-- L0411 -->
+
+Ally's gaze sharpened, lingering over each of them in disbelief. "The Margin..." <!-- L0412 -->
+
+"I have heard of this," she murmured, her voice like cold silver. "It is a sanctuary for those cast upon the fringes of reality—untouched by Olympian decrees, and untouched by the restless dead." <!-- L0414 -->
+
+Dravin reached into his rumpled coat, withdrew his leather-bound field journal and a stub of pencil, and began scribbling notes with furious speed. "We are only just beginning our journey," he said, peering over his spectacles. "Tell us: what is this realm? What are you?" <!-- L0415 --> <!-- L0417 -->
+
+"The last traveler I encountered from the Margin was a mortal named Theodore," Ally answered quietly. "It was long ago. Teddy. He was on a tear through these roads in search of what he called Fragments." <!-- L0418 --> <!-- L0420 --> <!-- L0422 --> <!-- L0424 -->
+
+Dravin paused his pencil, sharing a sharp glance with Pierre. "Well, we are on that very same tear." <!-- L0425 --> <!-- L0428 -->
+
+Ally studied them with renewed, unsettling intensity. "My mistress took a profound interest in your coming. Your cohort walks the razor-thin border between the celestial heavens and the domain of the dead." <!-- L0450 --> <!-- L0452 -->
+
+"Much like Persephone herself," Dravin murmured, recognition blooming across his face. <!-- L0453 --> <!-- L0455 -->
+
+"So you know her name," Ally said, a faint, wintery smile touching her lips. "A man of classical learning. Perhaps you carry a glimmer of the celestial within you after all." <!-- L0458 --> <!-- L0460 -->
+
+<!-- LEDGER: rendered=[327, 330, 333, 343, 358, 359, 386, 388, 389, 391, 395, 399, 407, 410, 411, 412, 414, 415, 417, 418, 420, 422, 424, 425, 428, 450, 452, 453, 455, 458, 460] skipped=[328(ooc), 329(ooc), 331(ooc), 332(ooc), 334(ooc), 335(ooc), 336(ooc), 337(ooc), 338(ooc), 339(ooc), 340(ooc), 341(ooc), 342(ooc), 344(ooc), 345(ooc), 346(ooc), 347(ooc), 348(ooc), 349(ooc), 350(ooc), 351(ooc), 352(ooc), 353(ooc), 354(ooc), 355(ooc), 356(ooc), 357(ooc), 360(ooc), 361(ooc), 362(ooc), 363(ooc), 364(ooc), 365(ooc), 366(ooc), 367(ooc), 368(ooc), 369(ooc), 370(ooc), 371(ooc), 372(ooc), 373(ooc), 374(ooc), 375(ooc), 376(ooc), 377(ooc), 378(ooc), 379(ooc), 380(ooc), 381(ooc), 382(ooc), 383(ooc), 384(ooc), 385(ooc), 387(ooc), 390(ooc), 392(ooc), 393(ooc), 394(ooc), 396(ooc), 397(ooc), 398(ooc), 400(ooc), 401(ooc), 402(ooc), 403(ooc), 404(ooc), 405(ooc), 406(ooc), 408(ooc), 409(ooc), 413(ooc), 416(ooc), 419(ooc), 421(ooc), 423(ooc), 426(ooc), 427(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 438(ooc), 439(ooc), 440(ooc), 441(ooc), 442(ooc), 443(ooc), 444(ooc), 445(ooc), 446(ooc), 447(ooc), 448(ooc), 449(ooc), 451(ooc), 454(ooc), 456(ooc), 457(ooc), 459(ooc)] -->
 
 <!-- RAW_RANGE: [461, 590] | SCENE_ID: 2 -->
 
 ---
 
-Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld.
+Along the shifting path between fractured Greek colonnades, they walked alongside the dark-robed maiden. When Dravin pressed for how they ought to address her, she turned back with a faint, wintery gaze.
 
 "You may call me Ally," she murmured, her voice carrying a soft, crystalline chill. "The maiden of Persephone." <!-- L0468 --> <!-- L0470 -->
 
@@ -38,19 +71,19 @@ With a subtle turn, Ally stepped through an arching stone wall that closed softl
 
 ---
 
-Emerging into the bright North Carolina sun, the party found themselves in a standalone storage annex located out in the far corner of a massive museum parking lot. Beyond the asphalt and parked sedans stood the modern facade of the North Carolina Museum of History.
+The shifting mists of the Lost Roads collapsed into the musty shadows of a standalone storage annex. Through a dust-filmed window, the party looked out across a sprawling asphalt parking lot toward the modern limestone-and-brick facade of the North Carolina Museum of History.
 
 "Tell me, Professor," Pierre mused, adjusting his beret with a Gallic shrug, "in Paris, our museums have thousands of years of history. In America, I have very low expectations." <!-- L0592 -->
 
-Dravin chuckled, checking the handle. "Prop the annex door open," he instructed. "If we have to make a quick exit, we cannot afford a locked deadbolt." <!-- L0625 -->
+Dravin tested the latch on the outside of the door, checking to see if the spring bolt would engage automatically if closed. "This lock will latch behind us the moment the door swings shut," he muttered. <!-- L0625 -->
 
-As they walked across the sunny lot toward the main entrance, Dravin looked down at the wooden doll in Pierre's arms. "When we are inside, we must be careful with the talking doll bit." <!-- L0631 -->
+Dravin gestured toward the wooden figure in Pierre's arms. "When we are inside, we must be careful with the talking doll bit." <!-- L0631 -->
 
-Alfie crossed his tiny wooden arms, looking offended. "Now that is the second time someone has said that! I am a special little boy, mate!" <!-- L0632 --> <!-- L0634 -->
+Alfie crossed his tiny wooden arms, bristling with indignation. "Now that is the second time someone has said that! I am a special little boy, mate!" <!-- L0632 --> <!-- L0634 -->
 
-Dravin adjusted the latch so the door stayed ajar. <!-- L0638 -->
+"Which is why we prop the annex door open right now," Dravin decided, wedging the heavy metal latch so they would not be locked out. "If we have to make a quick exit, we cannot afford a locked deadbolt." <!-- L0638 -->
 
-Pierre glanced down at him thoughtfully. "Two quick questions: do you prefer to be called a doll, or is it more of an action figure?" <!-- L0655 -->
+Pierre considered the automaton with a sculptor's discerning eye. "Two quick questions: do you prefer to be called a doll, or is it more of an action figure?" <!-- L0655 -->
 
 "An action figure," Alfie decided with a sharp nod. "I could get behind that." <!-- L0659 -->
 
@@ -58,9 +91,9 @@ Pierre glanced down at him thoughtfully. "Two quick questions: do you prefer to 
 
 "Then you can sit on my shoulder," Pierre offered. "Americans already think my beret is funny-looking. Nobody will question a foreign student with a collectible." <!-- L0666 -->
 
-Dravin found a length of thin twine from the storage room, carefully looping it around Alfie's back with a small hook. "If anyone asks, I'll pull the string and you repeat your catchphrase like a toy." <!-- L0671 --> <!-- L0673 -->
+Dravin searched a shelf of maintenance supplies and found a spool of thin packing twine. He clipped off a length and looped it neatly around Alfie’s back with a small wire hook. "If anyone asks, I'll pull the string and you repeat your catchphrase like a toy." <!-- L0671 --> <!-- L0673 -->
 
-Pierre adjusted his beret, ready to enter the public galleries. <!-- L0677 -->
+With their staging complete, Pierre adjusted his beret. They slipped out into the bright North Carolina sun and walked briskly across the asphalt lot toward the museum’s main glass entrance, ready to enter the public galleries. <!-- L0677 -->
 
 <!-- LEDGER: rendered=[592, 625, 631, 632, 634, 638, 655, 659, 660, 661, 666, 671, 673, 677] skipped=[591(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 597(ooc), 598(ooc), 599(ooc), 600(ooc), 601(ooc), 602(ooc), 603(ooc), 604(ooc), 605(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 617(compressed), 618(ooc), 619(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 626(ooc), 627(ooc), 628(ooc), 629(ooc), 630(ooc), 633(ooc), 635(ooc), 636(ooc), 637(ooc), 639(ooc), 640(ooc), 641(ooc), 642(ooc), 643(ooc), 644(ooc), 645(ooc), 646(ooc), 647(ooc), 648(ooc), 649(ooc), 650(ooc), 651(ooc), 652(ooc), 653(ooc), 654(ooc), 656(ooc), 657(ooc), 658(ooc), 662(ooc), 663(ooc), 664(ooc), 665(ooc), 667(ooc), 668(ooc), 669(ooc), 670(ooc), 672(ooc), 674(ooc), 675(ooc), 676(ooc), 678(ooc), 679(ooc), 680(ooc), 681(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 686(ooc), 687(ooc), 688(ooc), 689(ooc), 690(ooc), 691(ooc), 692(ooc), 693(ooc), 694(ooc), 695(ooc), 696(ooc), 697(ooc), 698(compressed), 699(ooc), 700(ooc), 701(ooc), 702(ooc), 703(ooc), 704(ooc), 705(ooc), 706(ooc), 707(ooc), 708(ooc), 709(ooc), 710(ooc), 711(ooc), 712(ooc), 713(ooc), 714(ooc), 715(ooc), 716(ooc), 717(ooc), 718(ooc), 719(ooc), 720(ooc)] -->
 
@@ -72,7 +105,7 @@ They passed through the glass double doors into the cool, air-conditioned atrium
 
 Before they could reach the stanchions, they had to navigate the circular reception desk that anchored the lobby. Behind the polished wood counter sat a woman in a crisp museum blazer, adjusting a ring light positioned beside two phones mounted on miniature tripods. A laminated staff security lanyard hung squarely over her lapel.
 
-"Welcome to the North Carolina Museum of Natural History," she greeted them with a melodic, razor-sharp Southern cadence.
+She greeted them warmly on behalf of the North Carolina Museum of Natural History, her melodic cadence carrying a razor-sharp Southern edge.
 
 "I am—my name is Nincy, as you can see," she added, tapping the engraved gold badge pinned to her chest. <!-- L0725 -->
 
@@ -96,7 +129,7 @@ Pierre leaned against the corner of the counter, his Parisian accent thick and c
 
 Nincy’s eyebrows arched in mild surprise. "You don't say? And I assume Greek mythology, is that correct?" <!-- L0750 -->
 
-"Among other esoteric disciplines," Dravin said smoothly.
+Dravin inclined his head in smooth confirmation, letting his silence hint at far more esoteric disciplines.
 
 Behind the velvet ropes, the Aegean tablet emanated a subtle temporal thrum that Pierre and Dravin could feel in their teeth. The upper-right corner had been violently sheared away in antiquity—the exact shape of the triangular limestone fragment resting safely in Pierre's rucksack. But the security gate surrounding the inner gallery was electronically locked, keyed directly to the staff lanyards.
 
@@ -114,7 +147,7 @@ From the tiny carved mouth came a tinny, stiff mechanical recording: "Stay a bit
 
 Nincy clapped her hands together in genuine delight. "Wow! Now that sounds quite authentic!" <!-- L0790 -->
 
-While Nincy was engrossed in the novelty doll, Pierre slid silently along the curve of the counter. Feigning curiosity toward a brochure display, he reached a gloved hand toward her chest, fingers extending toward the plastic card clip.
+While Nincy was engrossed in the novelty doll, Pierre slid silently along the curve of the counter. He pretended to inspect a brochure display, reaching a gloved hand toward her chest as his fingers extended toward the plastic card clip.
 
 He had the corner of the badge between his fingertips when Nincy’s gaze flicked down.
 
@@ -126,9 +159,9 @@ Pierre pulled his hand back, heart pounding against his ribs.
 
 Pierre didn't flinch. He adjusted his round spectacles and offered a dazzling, unhurried French smile. "It was such a sweet name, madame. I could not believe it was real." <!-- L0837 -->
 
-Nincy narrowed her eyes, reaching beneath the counter for the radio.
+Nincy narrowed her eyes, her hand plunging beneath the counter toward the security radio.
 
-Desperate to break the escalating standoff, Dravin did the only logical thing a Stanford academic could do: he drew back his arm and hurled the driftwood action figure straight across the museum lobby. <!-- L0850 -->
+A cold jolt spiked through Dravin's chest. His breath hitched, every academic instinct overridden by pure survival panic. He seized the wooden automaton from Pierre's shoulder, drew back his arm, and hurled Alfie straight across the polished museum lobby. <!-- L0850 -->
 
 <!-- LEDGER: rendered=[721, 725, 727, 730, 732, 733, 735, 740, 741, 742, 745, 747, 750, 781, 782, 787, 790, 834, 836, 837, 850] skipped=[722(ooc), 723(ooc), 724(ooc), 726(ooc), 728(ooc), 729(ooc), 731(ooc), 734(ooc), 736(ooc), 737(ooc), 738(ooc), 739(ooc), 743(ooc), 744(ooc), 746(ooc), 748(ooc), 749(ooc), 751(ooc), 752(ooc), 753(ooc), 754(ooc), 755(ooc), 756(ooc), 757(ooc), 758(ooc), 759(ooc), 760(ooc), 761(ooc), 762(ooc), 763(ooc), 764(ooc), 765(ooc), 766(ooc), 767(ooc), 768(ooc), 769(ooc), 770(ooc), 771(ooc), 772(ooc), 773(ooc), 774(ooc), 775(ooc), 776(ooc), 777(ooc), 778(ooc), 779(ooc), 780(ooc), 783(ooc), 784(ooc), 785(ooc), 786(ooc), 788(ooc), 789(ooc), 791(ooc), 792(ooc), 793(ooc), 794(ooc), 795(ooc), 796(ooc), 797(ooc), 798(ooc), 799(ooc), 800(ooc), 801(ooc), 802(ooc), 803(ooc), 804(ooc), 805(ooc), 806(ooc), 807(ooc), 808(ooc), 809(ooc), 810(ooc), 811(ooc), 812(ooc), 813(ooc), 814(ooc), 815(ooc), 816(ooc), 817(ooc), 818(ooc), 819(ooc), 820(ooc), 821(ooc), 822(ooc), 823(ooc), 824(ooc), 825(ooc), 826(ooc), 827(ooc), 828(ooc), 829(ooc), 830(ooc), 831(ooc), 832(ooc), 833(ooc), 835(ooc), 838(ooc), 839(ooc), 840(ooc), 841(ooc), 842(ooc), 843(ooc), 844(ooc), 845(ooc), 846(ooc), 847(ooc), 848(ooc), 849(ooc)] -->
 
@@ -150,13 +183,13 @@ Two armed museum guards came rushing in from the administrative wing, batons dra
 
 "I am going to cast Sleep on Nincy," Dravin whispered under his breath. <!-- L0885 -->
 
-As the sleep magic coalesced between Dravin's fingertips, Alfie’s Fate-woven Wordcraft flared in sudden resonance across the marble floor. Feeling the magical syllable crystallize, Alfie seized the arcane grammar and forced a sharp mental edit: *Sleep* became *Sheep*. <!-- L0901 -->
+As the sleep magic coalesced between Dravin's fingertips, Alfie’s Fate-woven Wordcraft flared in sudden resonance across the marble floor. Alfie sensed the spell's grammar crystallize across the weave and forced an instantaneous, mischievous edit: *Sleep* became *Sheep*. <!-- L0901 -->
 
 With a deafening thunder of clattering hooves, the reinforced fire door behind the reception desk burst wide open. Eighteen woolly, bleating sheep came stampeding out into the museum atrium, scattering tourists, security guards, clipboards, and brochures across the polished floor. <!-- L0908 -->
 
-Pierre seized his moment amidst the pandemonium. Diving low behind a velvet stanchion, he grabbed the thick wool on the belly of a charging ram—a daring Odysseus maneuver—and let the beast haul him swiftly past the flailing guards and straight into the research gallery. <!-- L0909 --> <!-- L0916 -->
+Pierre seized his moment amidst the pandemonium. He dove low behind a velvet stanchion, gripped the coarse wool on the belly of a charging ram—a daring Odysseus maneuver—and let the beast haul him straight past the flailing guards toward the research gallery. <!-- L0909 --> <!-- L0916 -->
 
-Dravin watched the stampede with wicked academic delight. Quickly invoking a secondary illusion cantrip, he flicked his wrist, projecting bold black numerals across the flanks of the charging flock—numbering them **1 through 19**, deliberately omitting number 14 for the classic collegiate prank. <!-- L0918 --> <!-- L0921 -->
+Dravin watched the chaos with wicked academic delight. He flicked his wrist to summon an illusion cantrip, stamping bold black numerals across the flanks of the charging flock—**1 through 19**, skipping number 14 for the time-honored collegiate prank. <!-- L0918 --> <!-- L0921 -->
 
 <!-- LEDGER: rendered=[853, 855, 856, 861, 862, 865, 876, 885, 901, 908, 909, 916, 918, 921] skipped=[851(ooc), 852(ooc), 854(ooc), 857(ooc), 858(ooc), 859(ooc), 860(ooc), 863(ooc), 864(ooc), 866(ooc), 867(ooc), 868(ooc), 869(ooc), 870(ooc), 871(ooc), 872(ooc), 873(ooc), 874(ooc), 875(ooc), 877(ooc), 878(ooc), 879(ooc), 880(ooc), 881(ooc), 882(compressed), 883(ooc), 884(ooc), 886(ooc), 887(ooc), 888(ooc), 889(ooc), 890(ooc), 891(ooc), 892(ooc), 893(ooc), 894(ooc), 895(ooc), 896(ooc), 897(ooc), 898(ooc), 899(compressed), 900(ooc), 902(ooc), 903(ooc), 904(ooc), 905(ooc), 906(ooc), 907(ooc), 910(ooc), 911(ooc), 912(ooc), 913(ooc), 914(ooc), 915(ooc), 917(ooc), 919(ooc), 920(ooc), 922(ooc), 923(ooc), 924(ooc), 925(ooc), 926(ooc), 927(ooc), 928(ooc), 929(ooc), 930(ooc), 931(ooc), 932(ooc), 933(ooc), 934(ooc), 935(ooc), 936(compressed), 937(ooc), 938(ooc), 939(ooc), 940(ooc), 941(ooc), 942(ooc), 943(ooc), 944(ooc), 945(ooc), 946(ooc), 947(ooc), 948(ooc), 949(ooc), 950(ooc), 951(ooc), 952(ooc), 953(ooc), 954(ooc), 955(ooc), 956(ooc), 957(ooc), 958(ooc), 959(ooc), 960(ooc), 961(ooc), 962(ooc), 963(ooc), 964(ooc), 965(ooc), 966(ooc), 967(ooc), 968(ooc), 969(ooc), 970(ooc), 971(ooc), 972(ooc), 973(ooc), 974(ooc), 975(ooc), 976(ooc), 977(ooc), 978(ooc), 979(ooc), 980(ooc)] -->
 
@@ -164,9 +197,23 @@ Dravin watched the stampede with wicked academic delight. Quickly invoking a sec
 
 ## CHAPTER 25: THE RESEARCH ANNEX & THE CLOSING BELL
 
-While security chased the numbered sheep through the atrium, Alfie slipped behind a marble pedestal, adopting a total Toy Story freeze—limp limbs and vacant coral eyes. <!-- L1053 -->
+In the center of the atrium, chaos reigned. Security guard Thomas flailed helplessly against the woolly tide, trying to wrangle two bleating rams that had pinned him against an information kiosk. Dravin spotted an opening and lunged forward, reaching for the guard's duty belt, only to find an empty holster. <!-- L0984 --> <!-- L0986 -->
 
-<!-- LEDGER: rendered=[1053] skipped=[981(ooc), 982(ooc), 983(ooc), 984(ooc), 985(ooc), 986(ooc), 987(ooc), 988(ooc), 989(ooc), 990(ooc), 991(ooc), 992(ooc), 993(ooc), 994(ooc), 995(ooc), 996(ooc), 997(ooc), 998(ooc), 999(ooc), 1000(ooc), 1001(ooc), 1002(ooc), 1003(ooc), 1004(ooc), 1005(ooc), 1006(ooc), 1007(ooc), 1008(ooc), 1009(ooc), 1010(ooc), 1011(ooc), 1012(ooc), 1013(ooc), 1014(ooc), 1015(ooc), 1016(ooc), 1017(ooc), 1018(ooc), 1019(ooc), 1020(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1024(ooc), 1025(ooc), 1026(ooc), 1027(ooc), 1028(mechanics), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1034(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1040(ooc), 1041(ooc), 1042(ooc), 1043(mechanics), 1044(ooc), 1045(ooc), 1046(ooc), 1047(ooc), 1048(ooc), 1049(ooc), 1050(ooc), 1051(ooc), 1052(ooc), 1054(ooc), 1055(ooc), 1056(ooc), 1057(ooc), 1058(ooc), 1059(ooc), 1060(ooc), 1061(ooc), 1062(ooc), 1063(ooc), 1064(ooc), 1065(ooc), 1066(ooc), 1067(ooc), 1068(ooc), 1069(ooc), 1070(ooc), 1071(mechanics), 1072(ooc), 1073(ooc), 1074(ooc), 1075(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1081(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(mechanics), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1094(ooc), 1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1100(ooc), 1101(ooc), 1102(ooc), 1103(ooc), 1104(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1108(ooc), 1109(ooc), 1110(ooc)] -->
+"Sorry, bud," Dravin said, withdrawing his hands with an apologetic wince. "I was going for your gun. I just realized you don't have one. Sorry about that—I was going to take out some of these sheep." <!-- L0991 --> <!-- L0993 -->
+
+Dravin eyed the empty leather scabbard in disbelief. "What kind of American security guard are you?" <!-- L0995 -->
+
+"This is anarchy!" Thomas sputtered, shoving a ram away by its horns. "I wish I had my gun, but it got taken away last month!" <!-- L0998 --> <!-- L1000 -->
+
+"Well, let me try and help you out," Dravin offered magnanimously. "I'll go get that one!" The professor spun on his heel and sprinted after an escaped sheep heading straight for the deeper exhibits. <!-- L1005 -->
+
+Pierre seized the distraction to close in behind the struggling guard. As Thomas stumbled backward from another collision, Pierre reached down, hooked the guard's ankle from beneath the woolly stampede, and pulled hard. Thomas hit the polished floor flat on his face with a solid thud. In the same fluid motion, Pierre's deft fingers slipped the security badge from the guard's belt and palmed it smoothly into his coat pocket. <!-- L1043 --> <!-- L1047 -->
+
+Across the mezzanine, Alfie charged ahead, his tiny wooden joints clicking furiously against the tiles. Several fleeing visitors shrieked and pointed at the low scurrying silhouette, screaming about an oversized rat before the stampeding flock drew their attention away. <!-- L1048 -->
+
+As the crowd scattered toward the exits, Alfie ducked into the shadows beneath an Aegean marble pedestal. He folded his carved driftwood arms against his chest and locked his joints into absolute, motionless stillness—coral-colored glass eyes staring blankly ahead, indistinguishable from a lifeless souvenir forgotten in the dust. <!-- L1053 -->
+
+<!-- LEDGER: rendered=[984, 986, 991, 993, 995, 998, 1000, 1005, 1043, 1047, 1048, 1053] skipped=[981(ooc), 982(ooc), 983(ooc), 985(ooc), 987(ooc), 988(ooc), 989(ooc), 990(ooc), 992(ooc), 994(ooc), 996(ooc), 997(ooc), 999(ooc), 1001(ooc), 1002(ooc), 1003(ooc), 1004(ooc), 1006(ooc), 1007(ooc), 1008(ooc), 1009(ooc), 1010(ooc), 1011(ooc), 1012(ooc), 1013(ooc), 1014(ooc), 1015(ooc), 1016(ooc), 1017(ooc), 1018(ooc), 1019(ooc), 1020(ooc), 1021(ooc), 1022(ooc), 1023(ooc), 1024(ooc), 1025(ooc), 1026(ooc), 1027(ooc), 1028(mechanics), 1029(ooc), 1030(ooc), 1031(ooc), 1032(ooc), 1033(ooc), 1034(ooc), 1035(ooc), 1036(ooc), 1037(ooc), 1038(ooc), 1039(ooc), 1040(ooc), 1041(ooc), 1042(ooc), 1044(ooc), 1045(ooc), 1046(ooc), 1049(ooc), 1050(ooc), 1051(ooc), 1052(ooc), 1054(ooc), 1055(ooc), 1056(ooc), 1057(ooc), 1058(ooc), 1059(ooc), 1060(ooc), 1061(ooc), 1062(ooc), 1063(ooc), 1064(ooc), 1065(ooc), 1066(ooc), 1067(ooc), 1068(ooc), 1069(ooc), 1070(ooc), 1071(mechanics), 1072(ooc), 1073(ooc), 1074(ooc), 1075(ooc), 1076(ooc), 1077(ooc), 1078(ooc), 1079(ooc), 1080(ooc), 1081(ooc), 1082(ooc), 1083(ooc), 1084(ooc), 1085(ooc), 1086(ooc), 1087(mechanics), 1088(ooc), 1089(ooc), 1090(ooc), 1091(ooc), 1092(ooc), 1093(ooc), 1094(ooc), 1095(ooc), 1096(ooc), 1097(ooc), 1098(ooc), 1099(ooc), 1100(ooc), 1101(ooc), 1102(ooc), 1103(ooc), 1104(ooc), 1105(ooc), 1106(ooc), 1107(ooc), 1108(ooc), 1109(ooc), 1110(ooc)] -->
 
 <!-- RAW_RANGE: [1111, 1250] | SCENE_ID: 7 -->
 
@@ -202,7 +249,7 @@ Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eye
 
 Alfie squinted across the gallery floor at the weathered stele. "Is the tablet cracked around the edges? Are there missing chunks along the border?" <!-- L1381 -->
 
-Pierre nodded, tracing the irregular, weathered fracture lines in his memory. "The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter."
+Pierre nodded, visualizing the weathered fracture lines in his memory—the limestone heavily chipped along the corners from centuries of erosion, leaving an irregular, jagged perimeter.
 
 "Then we find ourselves a matching limestone rock," Alfie whispered, his painted eyes gleaming with mischief. "We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact." <!-- L1385 -->
 
@@ -214,13 +261,27 @@ Pierre patted the pocket containing his sculptor's chisel. "A sound proposition.
 
 ---
 
-Pierre placed the limestone fragment and Alfie onto a documentation tray. <!-- L1462 -->
+Pierre swiped the stolen security badge against the wall scanner. The magnetic lock disengaged with a solid click, admitting them into the restricted research archives. <!-- L1424 -->
 
-He attached a small tag around Alfie's wrist marking him as an exhibit collectible toy. <!-- L1480 -->
+Two museum conservators in lab coats glanced up from a light table as Pierre walked past, eyeing the French sculptor and the wooden doll tucked under his arm. But before their suspicion could take root, the subtle perceptual haze of the Veil settled over their eyes. The researchers blinked, shook their heads, and turned back to their microscopes without a word. <!-- L1426 -->
+
+Pierre leaned down, whispering softly to Alfie. "Remember, they do not truly see us as we are. It is all about giving them an irresistible suggestion. Perhaps we set you beside them, and you spend the next hour convincing them they have found the missing piece of the tablet." <!-- L1429 --> <!-- L1431 -->
+
+"Feed it to them from the inside," Alfie whispered back with a sharp grin. <!-- L1432 -->
+
+"Exactly," Pierre murmured. <!-- L1433 -->
+
+Pierre wheeled an empty utility cart toward a shadowed alcove in the preparation bay, finding a crate of rough limestone scraps set aside for mortar testing. <!-- L1435 -->
+
+With years of classical Parisian stonecraft behind him, Pierre chose a triangular chunk whose grain closely mirrored the Aegean stele. With quick, rhythmic taps of his small pocket chisel, he shaped the fracture bevels and scored weathered Greek strokes into the face, crafting a convincing fragment that looked as if it had broken away from the tablet's damaged fourth register. <!-- L1437 --> <!-- L1446 --> <!-- L1459 -->
+
+Satisfied with the forgery, Pierre placed the carved limestone fragment and Alfie side by side on a velvet-lined intake documentation tray. <!-- L1462 -->
+
+He tied an archival identification tag around Alfie's carved wrist, marking him as an antique pedagogical collectible. <!-- L1480 -->
 
 On the stone fragment's tray, Pierre penned a bold label: "Insert on J4... proof it was Beacon!" <!-- L1495 -->
 
-<!-- LEDGER: rendered=[1462, 1480, 1495] skipped=[1391(ooc), 1392(ooc), 1393(ooc), 1394(ooc), 1395(ooc), 1396(ooc), 1397(ooc), 1398(ooc), 1399(ooc), 1400(ooc), 1401(ooc), 1402(ooc), 1403(ooc), 1404(ooc), 1405(ooc), 1406(ooc), 1407(ooc), 1408(ooc), 1409(ooc), 1410(ooc), 1411(ooc), 1412(ooc), 1413(ooc), 1414(ooc), 1415(ooc), 1416(ooc), 1417(ooc), 1418(ooc), 1419(ooc), 1420(ooc), 1421(ooc), 1422(ooc), 1423(ooc), 1424(ooc), 1425(ooc), 1426(ooc), 1427(ooc), 1428(ooc), 1429(ooc), 1430(ooc), 1431(ooc), 1432(ooc), 1433(ooc), 1434(ooc), 1435(ooc), 1436(ooc), 1437(ooc), 1438(ooc), 1439(ooc), 1440(ooc), 1441(ooc), 1442(ooc), 1443(ooc), 1444(ooc), 1445(ooc), 1446(ooc), 1447(ooc), 1448(ooc), 1449(mechanics), 1450(ooc), 1451(ooc), 1452(ooc), 1453(ooc), 1454(ooc), 1455(ooc), 1456(ooc), 1457(ooc), 1458(ooc), 1459(mechanics), 1460(ooc), 1461(ooc), 1463(ooc), 1464(ooc), 1465(ooc), 1466(ooc), 1467(ooc), 1468(ooc), 1469(ooc), 1470(ooc), 1471(ooc), 1472(ooc), 1473(ooc), 1474(ooc), 1475(ooc), 1476(ooc), 1477(ooc), 1478(mechanics), 1479(ooc), 1481(ooc), 1482(ooc), 1483(ooc), 1484(ooc), 1485(ooc), 1486(ooc), 1487(ooc), 1488(ooc), 1489(ooc), 1490(ooc), 1491(ooc), 1492(ooc), 1493(ooc), 1494(ooc), 1496(ooc), 1497(ooc), 1498(ooc), 1499(ooc), 1500(ooc), 1501(ooc), 1502(ooc), 1503(ooc), 1504(ooc), 1505(ooc), 1506(ooc), 1507(ooc), 1508(ooc), 1509(ooc), 1510(ooc), 1511(ooc), 1512(ooc), 1513(ooc), 1514(ooc), 1515(ooc), 1516(ooc), 1517(ooc), 1518(ooc), 1519(ooc), 1520(ooc), 1521(ooc), 1522(ooc), 1523(ooc), 1524(ooc), 1525(ooc), 1526(ooc), 1527(ooc), 1528(ooc), 1529(ooc), 1530(ooc)] -->
+<!-- LEDGER: rendered=[1424, 1426, 1429, 1431, 1432, 1433, 1435, 1437, 1446, 1459, 1462, 1480, 1495] skipped=[1391(ooc), 1392(ooc), 1393(ooc), 1394(ooc), 1395(ooc), 1396(ooc), 1397(ooc), 1398(ooc), 1399(ooc), 1400(ooc), 1401(ooc), 1402(ooc), 1403(ooc), 1404(ooc), 1405(ooc), 1406(ooc), 1407(ooc), 1408(ooc), 1409(ooc), 1410(ooc), 1411(ooc), 1412(ooc), 1413(ooc), 1414(ooc), 1415(ooc), 1416(ooc), 1417(ooc), 1418(ooc), 1419(ooc), 1420(ooc), 1421(ooc), 1422(ooc), 1423(ooc), 1425(ooc), 1427(ooc), 1428(ooc), 1430(ooc), 1434(ooc), 1436(ooc), 1438(ooc), 1439(ooc), 1440(ooc), 1441(ooc), 1442(ooc), 1443(ooc), 1444(ooc), 1445(ooc), 1447(ooc), 1448(ooc), 1449(mechanics), 1450(ooc), 1451(ooc), 1452(ooc), 1453(ooc), 1454(ooc), 1455(ooc), 1456(ooc), 1457(ooc), 1458(ooc), 1460(ooc), 1461(ooc), 1463(ooc), 1464(ooc), 1465(ooc), 1466(ooc), 1467(ooc), 1468(ooc), 1469(ooc), 1470(ooc), 1471(ooc), 1472(ooc), 1473(ooc), 1474(ooc), 1475(ooc), 1476(ooc), 1477(ooc), 1478(mechanics), 1479(ooc), 1481(ooc), 1482(ooc), 1483(ooc), 1484(ooc), 1485(ooc), 1486(ooc), 1487(ooc), 1488(ooc), 1489(ooc), 1490(ooc), 1491(ooc), 1492(ooc), 1493(ooc), 1494(ooc), 1496(ooc), 1497(ooc), 1498(ooc), 1499(ooc), 1500(ooc), 1501(ooc), 1502(ooc), 1503(ooc), 1504(ooc), 1505(ooc), 1506(ooc), 1507(ooc), 1508(ooc), 1509(ooc), 1510(ooc), 1511(ooc), 1512(ooc), 1513(ooc), 1514(ooc), 1515(ooc), 1516(ooc), 1517(ooc), 1518(ooc), 1519(ooc), 1520(ooc), 1521(ooc), 1522(ooc), 1523(ooc), 1524(ooc), 1525(ooc), 1526(ooc), 1527(ooc), 1528(ooc), 1529(ooc), 1530(ooc)] -->
 
 <!-- RAW_RANGE: [1531, 1665] | SCENE_ID: 10 -->
 
@@ -228,7 +289,7 @@ On the stone fragment's tray, Pierre penned a bold label: "Insert on J4... proof
 
 Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures.
 
-The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. "What is this? Where did this specimen come from?"
+The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached, demanding to know what the specimen was and where it had come from.
 
 Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. "Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue." <!-- L1551 -->
 
@@ -244,17 +305,17 @@ Pierre tilted his head with faux innocence. "Massachusetts... is that like a bra
 
 "It is the premier history institution in the country, young man, not chewing gum!" the curator huffed, waving his pen. "We test this immediately after close. Bring the staging cart into the rotunda." <!-- L1633 -->
 
-Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: "Watch out for the water! Pull the string again!" <!-- L1641 --> <!-- L1644 --> <!-- L1646 -->
+Beside the stone fragment on the tray, Alfie executed a flawless performance. He gave a slight tug on his twine loop, letting out a cheerful, tinny squeak: "Watch out for the water! Pull the string again!" <!-- L1641 --> <!-- L1644 --> <!-- L1646 -->
 
 The curator blinked down at the puppet, tapping Alfie's carved cedar head. "Curious little exhibit souvenir... We'll catalog the doll after the tablet test." He loaded the intake tray onto the heavy rubber-wheeled staging cart. <!-- L1652 -->
 
-Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal. <!-- L1654 -->
+Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the glass display case housing the ancient stele. <!-- L1654 -->
 
 The museum’s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries.
 
 Nincy’s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: "Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream—I hear there might be a little excitement in the Greek wing tonight!" <!-- L1655 -->
 
-Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup.
+Suited researchers and gallery staff ushered the final visitors through the turnstiles. Near the center of the hall, a security guard in a navy blazer strolled over to inspect the stanchions, checking his watch as he prepared to engage the display case's overnight lock.
 
 Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence. <!-- L1656 -->
 

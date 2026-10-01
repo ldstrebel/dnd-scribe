@@ -129,6 +129,20 @@ Use this skill when auditing session transcripts, cleaning dialogue, novelizing 
 * **Root Cause:** Equating all mechanical talk with useless OOC chatter.
 * **Prevention:** Strip the numeric dice rolls and DC numbers (`"DC 15"`, `"Roll 12"`), but **MANDATORILY EXTRACT AND NOVELIZE the physical descriptions, sensory manifestations, tool operations, and tactical intent into rich Narrator Prose and staged action beats.**
 
+### 19. The Double-Drafting & Track B Gate Exemption Disaster (`FP-21`, `DEC-031`)
+* **Symptom:** Track B (Cinematic Authorial Cut) drifts from canon, inverts dialogue attributions, drops comedic setups (e.g. bird poop vs over-rubbing), deletes tactical actions (key-snatching), and exhibits teleportation whiplash—while automated gates report 100% green checkmarks.
+* **Root Cause:**
+  1. Double-drafting Track B from raw transcripts rather than deriving it as a condensation cut *of* Track A.
+  2. Exempting Track B from skip ledger auditing (`audit_semantic_grounding.py:362` skipping `-alt` files).
+  3. Treating word retention $< 50\%$ as a non-blocking `[CAUTION]` rather than a hard failure.
+  4. Inheriting previous line markers on unanchored quotes in web manifest generation.
+* **Prevention & Invariants:**
+  1. **Single Derivation Law:** Track B must never be drafted from raw; it is strictly cut and condensed *from* Track A.
+  2. **Attribution & Anchor Gate:** Every quoted paragraph must have its own line marker; prose speech verbs must match `speakerId`.
+  3. **Universal DEC-024 Enforcement:** Track B skip ledgers are audited for unjustified OOC drops and hollow compression.
+  4. **Hard Density Floor:** Track B word count $< 50\%$ of Track A is an immediate build blocker (`[DENSITY_FLOOR_VIOLATION]`).
+  5. **Human Critique as a Deterministic Gate:** PR critique items in `sN-source-decisions.json` block the pipeline until closed.
+
 ---
 
 ## ✍️ The Ebook Standard: Mandatory Novelization Checklist

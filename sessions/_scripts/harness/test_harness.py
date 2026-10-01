@@ -123,11 +123,46 @@ class TestEditorialHarness(unittest.TestCase):
             'Mike brought hot pancakes to the porch with coffee. "Saturday pancakes!" <!-- L0900-L0942 -->\n'
             'Dravin adjusted his spectacles. "Zeus, not Seuss." <!-- L0954-L0973 -->'
         )
-        report = verify_alternate_scene(sample_valid, sample_arch)
+        dummy_contract = {"rules": [], "authorial_liberties": [{"scene": "scene-05", "liberty": "pancake banter compression"}]}
+        report = verify_alternate_scene(sample_valid, sample_arch, intent_contract=dummy_contract)
         self.assertTrue(report["passed"])
         self.assertTrue(report["gate1_entity_coverage"]["passed"])
         self.assertTrue(report["gate2_leaks_and_props"]["passed"])
         self.assertTrue(report["gate3_span_provenance"]["passed"])
+        self.assertTrue(report["gate4_adaptation_divergence"]["passed"])
+
+    def test_alternate_scene_zero_divergence_fails(self):
+        sample_arch = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n'
+            'Pierre balanced cucumber on his eyelids. <!-- L0883 -->\n'
+            '"I make the best pancakes," Mike said. <!-- L0903 -->\n'
+            '"Zeus, not Seuss," Dravin corrected. <!-- L0968 -->'
+        )
+        report = verify_alternate_scene(sample_arch, sample_arch)
+        self.assertFalse(report["passed"])
+        self.assertFalse(report["gate4_adaptation_divergence"]["passed"])
+        err_types = [e["type"] for e in report["gate4_adaptation_divergence"]["errors"]]
+        self.assertIn("ZERO_CINEMATIC_DIVERGENCE", err_types)
+
+    def test_alternate_scene_unitemized_liberty_fails(self):
+        sample_arch = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n'
+            'Pierre balanced cucumber on his eyelids. <!-- L0883 -->\n'
+            '"I make the best pancakes," Mike said. <!-- L0903 -->\n'
+            '"Zeus, not Seuss," Dravin corrected. <!-- L0968 -->'
+        )
+        sample_valid = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n'
+            'Pierre protested from behind cucumber slices. "It can wait!" <!-- L0881-L0891 -->\n'
+            'Mike brought hot pancakes to the porch with coffee. "Saturday pancakes!" <!-- L0900-L0942 -->\n'
+            'Dravin adjusted his spectacles. "Zeus, not Seuss." <!-- L0954-L0973 -->'
+        )
+        empty_contract = {"rules": [], "authorial_liberties": []}
+        report = verify_alternate_scene(sample_valid, sample_arch, intent_contract=empty_contract)
+        self.assertFalse(report["passed"])
+        self.assertFalse(report["gate4_adaptation_divergence"]["passed"])
+        err_types = [e["type"] for e in report["gate4_adaptation_divergence"]["errors"]]
+        self.assertIn("UNITEMIZED_AUTHORIAL_LIBERTY", err_types)
 
     def test_alternate_scene_missing_entity_or_relic_fails(self):
         sample_arch = (
@@ -171,6 +206,46 @@ class TestEditorialHarness(unittest.TestCase):
         self.assertFalse(report["gate3_span_provenance"]["passed"])
         err_types = [e["type"] for e in report["gate3_span_provenance"]["errors"]]
         self.assertIn("INVALID_SPAN_BOUNDS", err_types)
+
+    def test_alternate_scene_unanchored_dialogue_quote_fails(self):
+        sample_arch = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n\n'
+            'Pierre balanced cucumber on his eyelids. <!-- L0883 -->\n\n'
+            '"I make the best pancakes," Mike said. <!-- L0903 -->\n\n'
+            '"Zeus, not Seuss," Dravin corrected. <!-- L0968 -->'
+        )
+        sample_unanchored_quote = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n\n'
+            'Pierre protested from behind cucumber slices. "It can wait!" <!-- L0881-L0891 -->\n\n'
+            '"Look, pal, I do not run the art department!" Mike snapped back, waving his arms.\n\n'
+            'Dravin adjusted his spectacles. "Zeus, not Seuss." <!-- L0954-L0973 -->'
+        )
+        dummy_contract = {"rules": [], "authorial_liberties": [{"scene": "scene-05", "liberty": "pancake banter compression"}]}
+        report = verify_alternate_scene(sample_unanchored_quote, sample_arch, intent_contract=dummy_contract)
+        self.assertFalse(report["passed"])
+        self.assertFalse(report["gate3_span_provenance"]["passed"])
+        err_types = [e["type"] for e in report["gate3_span_provenance"]["errors"]]
+        self.assertIn("UNANCHORED_DIALOGUE_QUOTE", err_types)
+
+    def test_alternate_scene_inverted_dialogue_attribution_fails(self):
+        sample_arch = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n\n'
+            'Pierre balanced cucumber on his eyelids. <!-- L0883 -->\n\n'
+            '"I make the best pancakes," Mike said. <!-- L0903 -->\n\n'
+            '"Zeus, not Seuss," Dravin corrected. <!-- L0968 -->'
+        )
+        sample_inverted = (
+            '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n\n'
+            'Pierre protested from behind cucumber slices. "It can wait!" <!-- L0881-L0891:pierre -->\n\n'
+            '"Look, pal, I do not run the art department!" Mike snapped back, waving his arms. <!-- L0900-L0942:pierre -->\n\n'
+            'Dravin adjusted his spectacles. "Zeus, not Seuss." <!-- L0954-L0973:dravin -->'
+        )
+        dummy_contract = {"rules": [], "authorial_liberties": [{"scene": "scene-05", "liberty": "pancake banter compression"}]}
+        report = verify_alternate_scene(sample_inverted, sample_arch, intent_contract=dummy_contract)
+        self.assertFalse(report["passed"])
+        self.assertFalse(report["gate3_span_provenance"]["passed"])
+        err_types = [e["type"] for e in report["gate3_span_provenance"]["errors"]]
+        self.assertIn("INVERTED_DIALOGUE_ATTRIBUTION", err_types)
 
 
 class TestTranscriptBoundary(unittest.TestCase):
@@ -334,6 +409,51 @@ class TestWritersRoomGates(unittest.TestCase):
             passed, errors, _ = audit_arc_ledger(td)
             self.assertTrue(passed)
             self.assertEqual(len(errors), 0)
+
+    def test_synthetic_arc_ledger_milestone_table_bounds(self):
+        with tempfile.TemporaryDirectory() as td:
+            camp_dir = os.path.join(td, "campaign")
+            idx_dir = os.path.join(td, "sessions", "data", "index")
+            os.makedirs(camp_dir)
+            os.makedirs(idx_dir)
+            manifest_s1 = {
+                "session_id": "s1",
+                "total_raw_lines": 600,
+                "scene_blocks": [
+                    {"scene_id": 101, "ooc": True, "line_range": [1, 99]},
+                    {"scene_id": 1, "ooc": False, "line_range": [100, 500]}
+                ]
+            }
+            with open(os.path.join(idx_dir, "s1-manifest.json"), "w", encoding="utf-8") as f:
+                json.dump(manifest_s1, f)
+
+            valid_ledger = (
+                "# Codex\n## 4. Session Milestone Registry\n"
+                "| Session | Setting | Relic | Milestone | Factions |\n"
+                "| :--- | :--- | :--- | :--- | :--- |\n"
+                "| **S1** | Bus | None | Event happens [ESTABLISHED: S1 L0200]. | Fates [ESTABLISHED: S1 L0300] |\n"
+            )
+            with open(os.path.join(camp_dir, "CAMPAIGN_ARC_LEDGER.md"), "w", encoding="utf-8") as f:
+                f.write(valid_ledger)
+
+            passed, errors, _ = audit_arc_ledger(td)
+            self.assertTrue(passed, f"Valid milestone failed: {errors}")
+
+            # Phantom line (> total_raw_lines 600)
+            phantom_ledger = valid_ledger.replace("L0200", "L0800")
+            with open(os.path.join(camp_dir, "CAMPAIGN_ARC_LEDGER.md"), "w", encoding="utf-8") as f:
+                f.write(phantom_ledger)
+            passed, errors, _ = audit_arc_ledger(td)
+            self.assertFalse(passed)
+            self.assertTrue(any("MILESTONE_CITES_PHANTOM_LINE" in e for e in errors))
+
+            # Out of in-world bounds (OOC line 50, when in-world is 100-500)
+            oob_ledger = valid_ledger.replace("L0200", "L0050")
+            with open(os.path.join(camp_dir, "CAMPAIGN_ARC_LEDGER.md"), "w", encoding="utf-8") as f:
+                f.write(oob_ledger)
+            passed, errors, _ = audit_arc_ledger(td)
+            self.assertFalse(passed)
+            self.assertTrue(any("MILESTONE_OUT_OF_BOUNDS" in e for e in errors))
 
     def test_synthetic_reader_context_audit(self):
         with tempfile.TemporaryDirectory() as td:

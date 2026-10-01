@@ -92,12 +92,12 @@
     }
   },
   "stats": {
-    "wordCount": 7079,
+    "wordCount": 7135,
     "estimatedReadMinutes": 29,
-    "estimatedBookPages": 28.3,
+    "estimatedBookPages": 28.5,
     "dialogueRatio": {
-      "spokenWords": 2388,
-      "narrativeWords": 4691,
+      "spokenWords": 2403,
+      "narrativeWords": 4732,
       "spokenPct": 33.7,
       "narrativePct": 66.3,
       "status": "BALANCED"
@@ -107,42 +107,42 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 2418,
-        "sharePct": 34.2
+        "words": 2476,
+        "sharePct": 34.7
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 1726,
-        "sharePct": 24.4
+        "words": 1697,
+        "sharePct": 23.8
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 1166,
-        "sharePct": 16.5
+        "words": 1165,
+        "sharePct": 16.3
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 762,
-        "sharePct": 10.8
+        "words": 763,
+        "sharePct": 10.7
       },
       {
         "id": "naomi",
         "name": "Naomi",
         "color": "#ec4899",
-        "words": 584,
-        "sharePct": 8.2
+        "words": 612,
+        "sharePct": 8.6
       },
       {
         "id": "gordon",
         "name": "Gordon (Redactor)",
         "color": "#e11d48",
-        "words": 159,
+        "words": 158,
         "sharePct": 2.2
       },
       {
@@ -150,14 +150,14 @@
         "name": "Mike",
         "color": "#64748b",
         "words": 96,
-        "sharePct": 1.4
+        "sharePct": 1.3
       },
       {
         "id": "attendant",
         "name": "Museum Attendant",
         "color": "#78716c",
         "words": 89,
-        "sharePct": 1.3
+        "sharePct": 1.2
       },
       {
         "id": "nincy",
@@ -182,10 +182,10 @@
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 7.3,
+      "pacingStdDev": 7.4,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 14,
+        "visual": 15,
         "auditory": 7,
         "tactile": 28,
         "olfactory": 4,
@@ -233,7 +233,7 @@
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~117 words/scene)",
+          "chosenStance": "Micro-Chapters (~118 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -374,7 +374,7 @@
       "index": 5,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "narrator",
-      "text": "Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. Reaching inside his tailored blazer, he pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown.",
+      "text": "Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. He reached inside his tailored blazer, pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b005_s01",
@@ -382,7 +382,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. Reaching inside his tailored blazer, he pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown."
+          "text": "Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. He reached inside his tailored blazer, pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown."
         }
       ],
       "cut": "tabletop"
@@ -892,7 +892,7 @@
       "index": 24,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "narrator",
-      "text": "Rummaging through the archaeology cart's lower tool shelf, Pierre pushed past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord.",
+      "text": "Pierre rummaged through the archaeology cart's lower tool shelf, pushing past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b024_s01",
@@ -900,7 +900,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 193,
-          "text": "Rummaging through the archaeology cart's lower tool shelf, Pierre pushed past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord."
+          "text": "Pierre rummaged through the archaeology cart's lower tool shelf, pushing past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord."
         }
       ],
       "cut": "tabletop"
@@ -1352,7 +1352,7 @@
       "index": 33,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "dravin",
-      "text": "Hitching his tweed elbows, the professor broke into a frantic sprint across the lobby tiles toward the reception desk. \"I'm immediately sprinting over to Nincy and hitting a Cure Wounds!\" he shouted over the blaring klaxons.",
+      "text": "The professor hitched his tweed elbows and broke into a frantic sprint across the lobby tiles toward the reception desk. \"I'm immediately sprinting over to Nincy and hitting a Cure Wounds!\" he shouted over the blaring klaxons.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b033_s01",
@@ -1360,7 +1360,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Hitching his tweed elbows, the professor broke into a frantic sprint across the lobby tiles toward the reception desk. "
+          "text": "The professor hitched his tweed elbows and broke into a frantic sprint across the lobby tiles toward the reception desk. "
         },
         {
           "segmentId": "uneraseable_s04_b033_s02",
@@ -1568,7 +1568,7 @@
       "index": 41,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "narrator",
-      "text": "Across the floor, the Gordon who had fired the shot hissed in frustration. Lurching forward, the serpent-headed operative lunged across the desk to snatch the phone from Nincy's grip before the footage could upload.",
+      "text": "Across the floor, the Gordon who had fired the shot hissed in frustration. The serpent-headed operative lurched forward and lunged across the desk to snatch the phone from Nincy's grip before the footage could upload.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b041_s01",
@@ -1576,7 +1576,7 @@
           "speakerId": "nincy",
           "speakerName": "Nincy (Receptionist & Host)",
           "sourceLine": 319,
-          "text": "Across the floor, the Gordon who had fired the shot hissed in frustration. Lurching forward, the serpent-headed operative lunged across the desk to snatch the phone from Nincy's grip before the footage could upload."
+          "text": "Across the floor, the Gordon who had fired the shot hissed in frustration. The serpent-headed operative lurched forward and lunged across the desk to snatch the phone from Nincy's grip before the footage could upload."
         }
       ],
       "cut": "tabletop"
@@ -1655,32 +1655,16 @@
       "id": "uneraseable_s04_b045",
       "index": 45,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
-      "speakerId": "pierre",
-      "text": "\"Alfie,\" Pierre hissed, tightening the orange cord around the doll's waist. \"It's your turn!\"",
+      "speakerId": "narrator",
+      "text": "Pierre tightened the orange cord around the doll's waist, bracing Alfie for his throw.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b045_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 326,
-          "text": "\"Alfie,\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b045_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre hissed, tightening the orange cord around the doll's waist. "
-        },
-        {
-          "segmentId": "uneraseable_s04_b045_s03",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 326,
-          "text": "\"It's your turn!\""
+          "text": "Pierre tightened the orange cord around the doll's waist, bracing Alfie for his throw."
         }
       ],
       "cut": "tabletop"
@@ -1949,24 +1933,16 @@
       "id": "uneraseable_s04_b048",
       "index": 48,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
-      "speakerId": "pierre",
-      "text": "\"Are you thinking a high lob?\" Pierre asked, measuring the gap with an anxious squint.",
+      "speakerId": "narrator",
+      "text": "Pierre measured the narrow clearance beneath the vitrine with an anxious squint, weighing whether an airborne pitch was even possible.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b048_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 331,
-          "text": "\"Are you thinking a high lob?\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b048_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre asked, measuring the gap with an anxious squint."
+          "text": "Pierre measured the narrow clearance beneath the vitrine with an anxious squint, weighing whether an airborne pitch was even possible."
         }
       ],
       "cut": "tabletop"
@@ -1976,7 +1952,7 @@
       "index": 49,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "alfie",
-      "text": "\"No, mate,\" Alfie corrected, planting his carved feet on the linoleum. \"I'm viewing this as more of a slide across the floor and then a little scurry.\"",
+      "text": "\"I'm viewing this as more of like a slide across the floor and then a little scurry,\" Alfie countered, planting his carved feet on the linoleum.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b049_s01",
@@ -1984,7 +1960,7 @@
           "speakerId": "alfie",
           "speakerName": "Alfie",
           "sourceLine": 335,
-          "text": "\"No, mate,\""
+          "text": "\"I'm viewing this as more of like a slide across the floor and then a little scurry,\""
         },
         {
           "segmentId": "uneraseable_s04_b049_s02",
@@ -1992,15 +1968,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie corrected, planting his carved feet on the linoleum. "
-        },
-        {
-          "segmentId": "uneraseable_s04_b049_s03",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 335,
-          "text": "\"I'm viewing this as more of a slide across the floor and then a little scurry.\""
+          "text": " Alfie countered, planting his carved feet on the linoleum."
         }
       ],
       "cut": "tabletop"
@@ -2278,7 +2246,7 @@
       "index": 60,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "narrator",
-      "text": "Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all.",
+      "text": "Alfie clutched his coat, visibly shaken to his core. He looked back toward his companions and asked whether the temporal release had reached them all.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b060_s01",
@@ -2286,7 +2254,7 @@
           "speakerId": "alfie",
           "speakerName": "Alfie",
           "sourceLine": 390,
-          "text": "Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all."
+          "text": "Alfie clutched his coat, visibly shaken to his core. He looked back toward his companions and asked whether the temporal release had reached them all."
         }
       ],
       "cut": "tabletop"
@@ -2400,7 +2368,7 @@
       "index": 65,
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "speakerId": "gordon",
-      "text": "Seeing the tablet's glow flare and dissipate, the lead Gordon bared his fangs, his snake hair hissing in unison. \"Revision is compromised!\" he snarled in fury. \"Capture the subjects!\"",
+      "text": "The tablet's glow flared and dissipated. The lead Gordon bared his fangs, his snake hair hissing in unison. \"Revision is compromised!\" he snarled in fury. \"Capture the subjects!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b065_s01",
@@ -2408,7 +2376,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Seeing the tablet's glow flare and dissipate, the lead Gordon bared his fangs, his snake hair hissing in unison. "
+          "text": "The tablet's glow flared and dissipated. The lead Gordon bared his fangs, his snake hair hissing in unison. "
         },
         {
           "segmentId": "uneraseable_s04_b065_s02",
@@ -2578,15 +2546,15 @@
       "id": "uneraseable_s04_b047_alt2",
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
-      "speakerId": "pierre",
+      "speakerId": "narrator",
       "text": "\"Are you thinking a high lob?\" Pierre asked, measuring the two-foot gap beneath the vitrine with an anxious squint.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b047_alt2_s01",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 331,
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
           "text": "\"Are you thinking a high lob?\""
         },
         {
@@ -2637,7 +2605,7 @@
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
       "speakerId": "narrator",
-      "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum. His carved boots skimmed the floor wax, zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet.",
+      "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum, skimming past Nincy's petrified boots and zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b047_alt4_s01",
@@ -2645,7 +2613,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum. His carved boots skimmed the floor wax, zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet."
+          "text": "With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum, skimming past Nincy's petrified boots and zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet."
         }
       ]
     },
@@ -3250,7 +3218,7 @@
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
       "speakerId": "narrator",
-      "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic.",
+      "text": "Darting low beneath the raised glass past Nincy's graying silhouette, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b070_alt3_s01",
@@ -3258,7 +3226,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 451,
-          "text": "Darting low beneath the raised glass, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic."
+          "text": "Darting low beneath the raised glass past Nincy's graying silhouette, Pierre snatched the warm, beeping cylinder off the limestone slab. In Pierre's mind, all Gorgons were essentially French\u2014and if there was one thing Frenchmen could not resist, it was fresh bread. Flipping open his canvas lunch satchel, Pierre produced a crusty French baguette. With surgical speed, he gouged a hollow into the crumb, shoved the ticking bomb deep into the crust, and held the loaf aloft like a holy relic."
         }
       ]
     },
@@ -3855,7 +3823,7 @@
       "index": 104,
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "speakerId": "narrator",
-      "text": "Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. On an arcana check of twenty-one, Pierre touched the stone skin to analyze the magic.",
+      "text": "Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. Looking around in mounting concern, Pierre touched the coarse stone skin, instantly recognizing the creeping petrification from memories of his youth.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b104_s01",
@@ -3863,7 +3831,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. On an arcana check of twenty-one, Pierre touched the stone skin to analyze the magic."
+          "text": "Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. Looking around in mounting concern, Pierre touched the coarse stone skin, instantly recognizing the creeping petrification from memories of his youth."
         }
       ],
       "cut": "tabletop"
@@ -4442,7 +4410,7 @@
       "index": 119,
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "speakerId": "narrator",
-      "text": "The awake Gordon hissed, striking out at Dravin with his venomous claws, tearing into the professor's sleeve for four damage.",
+      "text": "The awake Gorgon hissed, catching a fleeting look of recognition as he glanced at Pierre, before turning viciously back toward Edward to strike, his venomous claws tearing through the professor's tweed sleeve.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b119_s01",
@@ -4450,7 +4418,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "The awake Gordon hissed, striking out at Dravin with his venomous claws, tearing into the professor's sleeve for four damage."
+          "text": "The awake Gorgon hissed, catching a fleeting look of recognition as he glanced at Pierre, before turning viciously back toward Edward to strike, his venomous claws tearing through the professor's tweed sleeve."
         }
       ],
       "cut": "tabletop"
@@ -4548,7 +4516,7 @@
       "index": 124,
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "speakerId": "narrator",
-      "text": "The heavy terracotta vessel cracked across Gordon's head, shattering into pottery shards and dealing five bludgeoning damage.",
+      "text": "The heavy terracotta vessel cracked across the Gorgon's skull, shattering into jagged shards and sending the operative stumbling across the marble floor.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b124_s01",
@@ -4556,7 +4524,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "The heavy terracotta vessel cracked across Gordon's head, shattering into pottery shards and dealing five bludgeoning damage."
+          "text": "The heavy terracotta vessel cracked across the Gorgon's skull, shattering into jagged shards and sending the operative stumbling across the marble floor."
         }
       ],
       "cut": "tabletop"
@@ -4618,7 +4586,7 @@
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Pierre hoisted the stiffening attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy\u2014the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: \"These Walmart Gorgons cannot even keep someone stoned for more than two minutes! Ridiculous!\"",
+      "text": "Pierre hoisted the stiffening museum attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy\u2014the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: \"These Walmart Gorgons cannot even keep someone stoned for more than two minutes! Ridiculous!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b110_alt1_s01",
@@ -4626,7 +4594,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre hoisted the stiffening attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy\u2014the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: "
+          "text": "Pierre hoisted the stiffening museum attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy\u2014the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: "
         },
         {
           "segmentId": "uneraseable_s04_b110_alt1_s02",
@@ -5795,7 +5763,7 @@
       "scene": "CHAPTER 27: BAGUETTES AND BASILISKS",
       "cut": "cinematic",
       "speakerId": "narrator",
-      "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void.",
+      "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an ink-black rift of the Three Fates where a dark shape vanished into the void.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b141_alt4_s01",
@@ -5803,7 +5771,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void."
+          "text": "The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an ink-black rift of the Three Fates where a dark shape vanished into the void."
         }
       ]
     },
@@ -6634,11 +6602,36 @@
       "id": "uneraseable_s04_b157_alt6",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
+      "speakerId": "alfie",
+      "text": "\"The only person filming was Nincy, and she kind of turned to stone,\" Alfie added from his bench, tugging his oversized hat down.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b157_alt6_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1097,
+          "text": "\"The only person filming was Nincy, and she kind of turned to stone,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b157_alt6_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie added from his bench, tugging his oversized hat down."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b157_alt7",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
       "speakerId": "mike",
       "text": "Mike's brow furrowed in grave concern upon learning of the encounter: \"I would not have thought Redactors would be on the scene that fast.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b157_alt6_s01",
+          "segmentId": "uneraseable_s04_b157_alt7_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -6646,7 +6639,7 @@
           "text": "Mike's brow furrowed in grave concern upon learning of the encounter: "
         },
         {
-          "segmentId": "uneraseable_s04_b157_alt6_s02",
+          "segmentId": "uneraseable_s04_b157_alt7_s02",
           "type": "dialogue",
           "speakerId": "mike",
           "speakerName": "Mike",
@@ -7143,7 +7136,7 @@
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 1144,
+          "sourceLine": 1141,
           "text": "\"When did this happen compared to our heist?\""
         },
         {
@@ -7169,7 +7162,7 @@
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
-          "sourceLine": 1144,
+          "sourceLine": 1142,
           "text": "\"About the same time,\""
         },
         {
@@ -7263,7 +7256,7 @@
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 1150,
+          "sourceLine": 1152,
           "text": "\"Where is my media coverage?\""
         },
         {
@@ -7282,10 +7275,44 @@
       "index": 200,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
-      "text": "Naomi pulled out her phone, checking the feed for the North Carolina Museum of Natural and World History. \"There is a new post from Nincy's account,\" she reported. The video was strangely distorted: dark shadowy orbs and light smears obscured the Gorgons' faces. Whenever the party appeared, they looked like blurry pedestrians turned away from the camera, and the footage skipped abruptly past the moment Dravin laid hands on her wrists.",
+      "text": "\"I have to assume something will come out of stealing a Spartan armor set from a museum,\" Naomi replied, \"even if the mortal world hasn't caught on yet.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b200_s01",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 1153,
+          "text": "\"I have to assume something will come out of stealing a Spartan armor set from a museum,\""
+        },
+        {
+          "segmentId": "uneraseable_s04_b200_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Naomi replied, "
+        },
+        {
+          "segmentId": "uneraseable_s04_b200_s03",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 1153,
+          "text": "\"even if the mortal world hasn't caught on yet.\""
+        }
+      ],
+      "cut": "tabletop"
+    },
+    {
+      "id": "uneraseable_s04_b201",
+      "index": 201,
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "speakerId": "naomi",
+      "text": "Naomi pulled out her phone, checking the feed for the North Carolina Museum of Natural and World History. \"There is a new post from Nincy's account,\" she reported. The video was strangely distorted: dark shadowy orbs and light smears obscured the Gorgons' faces. Whenever the party appeared, they looked like blurry pedestrians turned away from the camera, and the footage skipped abruptly past the moment Dravin laid hands on her wrists.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b201_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7293,7 +7320,7 @@
           "text": "Naomi pulled out her phone, checking the feed for the North Carolina Museum of Natural and World History. "
         },
         {
-          "segmentId": "uneraseable_s04_b200_s02",
+          "segmentId": "uneraseable_s04_b201_s02",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7301,7 +7328,7 @@
           "text": "\"There is a new post from Nincy's account,\""
         },
         {
-          "segmentId": "uneraseable_s04_b200_s03",
+          "segmentId": "uneraseable_s04_b201_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7312,14 +7339,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b201",
-      "index": 201,
+      "id": "uneraseable_s04_b202",
+      "index": 202,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"The view count is climbing fast, but there are zero comments and no likes,\" Naomi analyzed, showing them the screen. \"The mortals don't know what to make of it.\" Just then, a single comment popped up on the post: *The NC MONA WHM was legendary. Fire emoji. Fire emoji.*",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b201_s01",
+          "segmentId": "uneraseable_s04_b202_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7327,7 +7354,7 @@
           "text": "\"The view count is climbing fast, but there are zero comments and no likes,\""
         },
         {
-          "segmentId": "uneraseable_s04_b201_s02",
+          "segmentId": "uneraseable_s04_b202_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7335,7 +7362,7 @@
           "text": " Naomi analyzed, showing them the screen. "
         },
         {
-          "segmentId": "uneraseable_s04_b201_s03",
+          "segmentId": "uneraseable_s04_b202_s03",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7343,7 +7370,7 @@
           "text": "\"The mortals don't know what to make of it.\""
         },
         {
-          "segmentId": "uneraseable_s04_b201_s04",
+          "segmentId": "uneraseable_s04_b202_s04",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7354,14 +7381,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b202",
-      "index": 202,
+      "id": "uneraseable_s04_b203",
+      "index": 203,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"M-web,\" Pierre laughed, reading the acronym.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b202_s01",
+          "segmentId": "uneraseable_s04_b203_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7369,7 +7396,7 @@
           "text": "\"M-web,\""
         },
         {
-          "segmentId": "uneraseable_s04_b202_s02",
+          "segmentId": "uneraseable_s04_b203_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7380,14 +7407,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b203",
-      "index": 203,
+      "id": "uneraseable_s04_b204",
+      "index": 204,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "alfie",
       "text": "\"For now, the timeline anomaly is masked,\" Naomi concluded, locking her phone. \"The Fates haven't scrubbed the internet yet, but we need to move on our next objective before the Redactors trace the thread back through the Lost Roads.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b203_s01",
+          "segmentId": "uneraseable_s04_b204_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -7395,7 +7422,7 @@
           "text": "\"For now, the timeline anomaly is masked,\""
         },
         {
-          "segmentId": "uneraseable_s04_b203_s02",
+          "segmentId": "uneraseable_s04_b204_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7403,7 +7430,7 @@
           "text": " Naomi concluded, locking her phone. "
         },
         {
-          "segmentId": "uneraseable_s04_b203_s03",
+          "segmentId": "uneraseable_s04_b204_s03",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -7579,14 +7606,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b204",
-      "index": 204,
+      "id": "uneraseable_s04_b205",
+      "index": 205,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "Pierre slipped his phone back into his pocket as Naomi checked the video metrics. \"One like, one comment,\" Naomi summarized. \"High views, but people are just scrolling past it.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_s01",
+          "segmentId": "uneraseable_s04_b205_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7594,7 +7621,7 @@
           "text": "Pierre slipped his phone back into his pocket as Naomi checked the video metrics. "
         },
         {
-          "segmentId": "uneraseable_s04_b204_s02",
+          "segmentId": "uneraseable_s04_b205_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7602,7 +7629,7 @@
           "text": "\"One like, one comment,\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_s03",
+          "segmentId": "uneraseable_s04_b205_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7610,7 +7637,7 @@
           "text": " Naomi summarized. "
         },
         {
-          "segmentId": "uneraseable_s04_b204_s04",
+          "segmentId": "uneraseable_s04_b205_s04",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7621,14 +7648,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b205",
-      "index": 205,
+      "id": "uneraseable_s04_b206",
+      "index": 206,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "She slammed open two large manila binders on the oak table, pushing them toward the center. \"The stolen catapult in the UK is a dead end. That leaves us with two active leads: the flight hijacking that never happened, or the Mad Doctor tour. What do you think?\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b205_s01",
+          "segmentId": "uneraseable_s04_b206_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7636,7 +7663,7 @@
           "text": "She slammed open two large manila binders on the oak table, pushing them toward the center. "
         },
         {
-          "segmentId": "uneraseable_s04_b205_s02",
+          "segmentId": "uneraseable_s04_b206_s02",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7647,14 +7674,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b206",
-      "index": 206,
+      "id": "uneraseable_s04_b207",
+      "index": 207,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "alfie",
       "text": "\"What was the doctor again?\" Alfie asked, leaning forward on the tabletop.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b206_s01",
+          "segmentId": "uneraseable_s04_b207_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -7662,7 +7689,7 @@
           "text": "\"What was the doctor again?\""
         },
         {
-          "segmentId": "uneraseable_s04_b206_s02",
+          "segmentId": "uneraseable_s04_b207_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7673,14 +7700,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b207",
-      "index": 207,
+      "id": "uneraseable_s04_b208",
+      "index": 208,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"An investigative journalist started a podcast and published a book about a controversial physician,\" Naomi explained. \"One camp claims the doctor was a hero who cured impossible afflictions; the other claims he was a butcher who killed dozens of patients. The journalist is currently touring college campuses through West Virginia.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b207_s01",
+          "segmentId": "uneraseable_s04_b208_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7688,7 +7715,7 @@
           "text": "\"An investigative journalist started a podcast and published a book about a controversial physician,\""
         },
         {
-          "segmentId": "uneraseable_s04_b207_s02",
+          "segmentId": "uneraseable_s04_b208_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7696,7 +7723,7 @@
           "text": " Naomi explained. "
         },
         {
-          "segmentId": "uneraseable_s04_b207_s03",
+          "segmentId": "uneraseable_s04_b208_s03",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7707,14 +7734,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b208",
-      "index": 208,
+      "id": "uneraseable_s04_b209",
+      "index": 209,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"We have a Lost Roads route called the Forgotten Trail,\" Naomi continued. \"It's a more natural wilderness path that can bring you out right near the campus tour stops.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b208_s01",
+          "segmentId": "uneraseable_s04_b209_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7722,7 +7749,7 @@
           "text": "\"We have a Lost Roads route called the Forgotten Trail,\""
         },
         {
-          "segmentId": "uneraseable_s04_b208_s02",
+          "segmentId": "uneraseable_s04_b209_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7730,7 +7757,7 @@
           "text": " Naomi continued. "
         },
         {
-          "segmentId": "uneraseable_s04_b208_s03",
+          "segmentId": "uneraseable_s04_b209_s03",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7741,14 +7768,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b209",
-      "index": 209,
+      "id": "uneraseable_s04_b210",
+      "index": 210,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "dravin",
       "text": "\"He seems to want us to go toward the doctor,\" Dravin observed thoughtfully.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b209_s01",
+          "segmentId": "uneraseable_s04_b210_s01",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -7756,7 +7783,7 @@
           "text": "\"He seems to want us to go toward the doctor,\""
         },
         {
-          "segmentId": "uneraseable_s04_b209_s02",
+          "segmentId": "uneraseable_s04_b210_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7767,14 +7794,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b210",
-      "index": 210,
+      "id": "uneraseable_s04_b211",
+      "index": 211,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"I have to admit, the hijacking feels very sensitive,\" Pierre argued passionately. \"Whereas the murder mystery\u2014I am a huge fan of true crime! Two women drinking wine talking about a murder! It sounds way more French!\" Pierre listened to the sample audio clips, finding the airplane ambient sounds terribly dull and demanding to hear about the rogue physician instead.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b210_s01",
+          "segmentId": "uneraseable_s04_b211_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7782,7 +7809,7 @@
           "text": "\"I have to admit, the hijacking feels very sensitive,\""
         },
         {
-          "segmentId": "uneraseable_s04_b210_s02",
+          "segmentId": "uneraseable_s04_b211_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7790,7 +7817,7 @@
           "text": " Pierre argued passionately. "
         },
         {
-          "segmentId": "uneraseable_s04_b210_s03",
+          "segmentId": "uneraseable_s04_b211_s03",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7798,7 +7825,7 @@
           "text": "\"Whereas the murder mystery\u2014I am a huge fan of true crime! Two women drinking wine talking about a murder! It sounds way more French!\""
         },
         {
-          "segmentId": "uneraseable_s04_b210_s04",
+          "segmentId": "uneraseable_s04_b211_s04",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7809,14 +7836,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b211",
-      "index": 211,
+      "id": "uneraseable_s04_b212",
+      "index": 212,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "alfie",
       "text": "Alfie swung his feet up onto a low stool, grabbing a wooden mug. \"I'm down for either one, boys,\" Alfie agreed with a wide grin.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b211_s01",
+          "segmentId": "uneraseable_s04_b212_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7824,7 +7851,7 @@
           "text": "Alfie swung his feet up onto a low stool, grabbing a wooden mug. "
         },
         {
-          "segmentId": "uneraseable_s04_b211_s02",
+          "segmentId": "uneraseable_s04_b212_s02",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -7832,7 +7859,7 @@
           "text": "\"I'm down for either one, boys,\""
         },
         {
-          "segmentId": "uneraseable_s04_b211_s03",
+          "segmentId": "uneraseable_s04_b212_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7843,14 +7870,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b212",
-      "index": 212,
+      "id": "uneraseable_s04_b213",
+      "index": 213,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"I am all for the murder mystery,\" Pierre reiterated. \"It sounds way more French!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b212_s01",
+          "segmentId": "uneraseable_s04_b213_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7858,7 +7885,7 @@
           "text": "\"I am all for the murder mystery,\""
         },
         {
-          "segmentId": "uneraseable_s04_b212_s02",
+          "segmentId": "uneraseable_s04_b213_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7866,7 +7893,7 @@
           "text": " Pierre reiterated. "
         },
         {
-          "segmentId": "uneraseable_s04_b212_s03",
+          "segmentId": "uneraseable_s04_b213_s03",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7877,14 +7904,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b213",
-      "index": 213,
+      "id": "uneraseable_s04_b214",
+      "index": 214,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "dravin",
       "text": "\"Mad Doctor binder\u2014let's do it,\" Dravin decided firmly.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b213_s01",
+          "segmentId": "uneraseable_s04_b214_s01",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -7892,7 +7919,7 @@
           "text": "\"Mad Doctor binder\u2014let's do it,\""
         },
         {
-          "segmentId": "uneraseable_s04_b213_s02",
+          "segmentId": "uneraseable_s04_b214_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7903,14 +7930,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b214",
-      "index": 214,
+      "id": "uneraseable_s04_b215",
+      "index": 215,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"Mad Doctor it is,\" the group agreed, settling upon their next expedition. The schedule would be verified to track down the journalist's next campus appearance.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b214_s01",
+          "segmentId": "uneraseable_s04_b215_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7918,7 +7945,7 @@
           "text": "\"Mad Doctor it is,\""
         },
         {
-          "segmentId": "uneraseable_s04_b214_s02",
+          "segmentId": "uneraseable_s04_b215_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7929,14 +7956,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b215",
-      "index": 215,
+      "id": "uneraseable_s04_b216",
+      "index": 216,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "dravin",
       "text": "Dravin unstrapped his newly acquired hoplite shield, setting it on the wooden bench. \"Naomi, who's your best artificer here?\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b215_s01",
+          "segmentId": "uneraseable_s04_b216_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7944,7 +7971,7 @@
           "text": "Dravin unstrapped his newly acquired hoplite shield, setting it on the wooden bench. "
         },
         {
-          "segmentId": "uneraseable_s04_b215_s02",
+          "segmentId": "uneraseable_s04_b216_s02",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -7955,14 +7982,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b216",
-      "index": 216,
+      "id": "uneraseable_s04_b217",
+      "index": 217,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"And I would like my new javelin turned into a Zeus thunderbolt, please!\" Pierre added with dramatic theatricality.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b216_s01",
+          "segmentId": "uneraseable_s04_b217_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -7970,7 +7997,7 @@
           "text": "\"And I would like my new javelin turned into a Zeus thunderbolt, please!\""
         },
         {
-          "segmentId": "uneraseable_s04_b216_s02",
+          "segmentId": "uneraseable_s04_b217_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7981,14 +8008,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b217",
-      "index": 217,
+      "id": "uneraseable_s04_b218",
+      "index": 218,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "dravin",
       "text": "\"I was going to have them inspect my new museum shield to see if there is any latent enchantment,\" Dravin continued.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b217_s01",
+          "segmentId": "uneraseable_s04_b218_s01",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -7996,7 +8023,7 @@
           "text": "\"I was going to have them inspect my new museum shield to see if there is any latent enchantment,\""
         },
         {
-          "segmentId": "uneraseable_s04_b217_s02",
+          "segmentId": "uneraseable_s04_b218_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8007,14 +8034,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b218",
-      "index": 218,
+      "id": "uneraseable_s04_b219",
+      "index": 219,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"Rosa is our resident demigod artificer,\" Naomi said, glancing at the Greek arms. \"She has an innate sense for classical relics. She'll inspect everything you stole.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b218_s01",
+          "segmentId": "uneraseable_s04_b219_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -8022,7 +8049,7 @@
           "text": "\"Rosa is our resident demigod artificer,\""
         },
         {
-          "segmentId": "uneraseable_s04_b218_s02",
+          "segmentId": "uneraseable_s04_b219_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8030,7 +8057,7 @@
           "text": " Naomi said, glancing at the Greek arms. "
         },
         {
-          "segmentId": "uneraseable_s04_b218_s03",
+          "segmentId": "uneraseable_s04_b219_s03",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -8041,14 +8068,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b219",
-      "index": 219,
+      "id": "uneraseable_s04_b220",
+      "index": 220,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "alfie",
       "text": "\"This hat was dropped on the floor!\" Alfie protested defensively, tugging the brim of his museum souvenir. \"I didn't steal it!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b219_s01",
+          "segmentId": "uneraseable_s04_b220_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8056,7 +8083,7 @@
           "text": "\"This hat was dropped on the floor!\""
         },
         {
-          "segmentId": "uneraseable_s04_b219_s02",
+          "segmentId": "uneraseable_s04_b220_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8064,7 +8091,7 @@
           "text": " Alfie protested defensively, tugging the brim of his museum souvenir. "
         },
         {
-          "segmentId": "uneraseable_s04_b219_s03",
+          "segmentId": "uneraseable_s04_b220_s03",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8075,14 +8102,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b220",
-      "index": 220,
+      "id": "uneraseable_s04_b221",
+      "index": 221,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "rosa",
       "text": "\"I was less referring to that, Alfie,\" came the amused reply from across the hearth. \"Though it's shocking you found something in your exact size.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b220_s01",
+          "segmentId": "uneraseable_s04_b221_s01",
           "type": "dialogue",
           "speakerId": "rosa",
           "speakerName": "Rosa",
@@ -8090,7 +8117,7 @@
           "text": "\"I was less referring to that, Alfie,\""
         },
         {
-          "segmentId": "uneraseable_s04_b220_s02",
+          "segmentId": "uneraseable_s04_b221_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8098,7 +8125,7 @@
           "text": " came the amused reply from across the hearth. "
         },
         {
-          "segmentId": "uneraseable_s04_b220_s03",
+          "segmentId": "uneraseable_s04_b221_s03",
           "type": "dialogue",
           "speakerId": "rosa",
           "speakerName": "Rosa",
@@ -8109,14 +8136,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b221",
-      "index": 221,
+      "id": "uneraseable_s04_b222",
+      "index": 222,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "dravin",
       "text": "Dravin offered an elegant, patrician wave of his hand. \"I like to think that all historical artifacts in museums were stolen at one point in history anyway.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b221_s01",
+          "segmentId": "uneraseable_s04_b222_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8124,7 +8151,7 @@
           "text": "Dravin offered an elegant, patrician wave of his hand. "
         },
         {
-          "segmentId": "uneraseable_s04_b221_s02",
+          "segmentId": "uneraseable_s04_b222_s02",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -8135,14 +8162,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b222",
-      "index": 222,
+      "id": "uneraseable_s04_b223",
+      "index": 223,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"That is very well said, Professor!\" Pierre agreed heartily.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b222_s01",
+          "segmentId": "uneraseable_s04_b223_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8150,7 +8177,7 @@
           "text": "\"That is very well said, Professor!\""
         },
         {
-          "segmentId": "uneraseable_s04_b222_s02",
+          "segmentId": "uneraseable_s04_b223_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8161,14 +8188,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b223",
-      "index": 223,
+      "id": "uneraseable_s04_b224",
+      "index": 224,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "dravin",
       "text": "\"I am actually returning it to its original mythological use. *Ipso facto*,\" Dravin concluded.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b223_s01",
+          "segmentId": "uneraseable_s04_b224_s01",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -8176,7 +8203,7 @@
           "text": "\"I am actually returning it to its original mythological use. *Ipso facto*,\""
         },
         {
-          "segmentId": "uneraseable_s04_b223_s02",
+          "segmentId": "uneraseable_s04_b224_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8187,14 +8214,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b224",
-      "index": 224,
+      "id": "uneraseable_s04_b225",
+      "index": 225,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"Putting it back to its original use!\" Pierre beamed. \"And what better way to use it?\" Returning ancient Greek weapons to demigods in the Margin was practically a restoration of destiny.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b224_s01",
+          "segmentId": "uneraseable_s04_b225_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8202,7 +8229,7 @@
           "text": "\"Putting it back to its original use!\""
         },
         {
-          "segmentId": "uneraseable_s04_b224_s02",
+          "segmentId": "uneraseable_s04_b225_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8210,7 +8237,7 @@
           "text": " Pierre beamed. "
         },
         {
-          "segmentId": "uneraseable_s04_b224_s03",
+          "segmentId": "uneraseable_s04_b225_s03",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8218,7 +8245,7 @@
           "text": "\"And what better way to use it?\""
         },
         {
-          "segmentId": "uneraseable_s04_b224_s04",
+          "segmentId": "uneraseable_s04_b225_s04",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8229,14 +8256,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b225",
-      "index": 225,
+      "id": "uneraseable_s04_b226",
+      "index": 226,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"As far as I am aware, I am still basically in Las Vegas,\" Pierre rationalized, \"and what happens in Vegas stays in Vegas! You made the mistake of showing us that you are invisible to the mortal eye. You have nothing but yourself to blame!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b225_s01",
+          "segmentId": "uneraseable_s04_b226_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8244,7 +8271,7 @@
           "text": "\"As far as I am aware, I am still basically in Las Vegas,\""
         },
         {
-          "segmentId": "uneraseable_s04_b225_s02",
+          "segmentId": "uneraseable_s04_b226_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8252,7 +8279,7 @@
           "text": " Pierre rationalized, "
         },
         {
-          "segmentId": "uneraseable_s04_b225_s03",
+          "segmentId": "uneraseable_s04_b226_s03",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8263,14 +8290,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b226",
-      "index": 226,
+      "id": "uneraseable_s04_b227",
+      "index": 227,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"People do say Charleston is like the Las Vegas of West Virginia,\" Naomi noted with a wry smile.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b226_s01",
+          "segmentId": "uneraseable_s04_b227_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -8278,7 +8305,7 @@
           "text": "\"People do say Charleston is like the Las Vegas of West Virginia,\""
         },
         {
-          "segmentId": "uneraseable_s04_b226_s02",
+          "segmentId": "uneraseable_s04_b227_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8289,14 +8316,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b227",
-      "index": 227,
+      "id": "uneraseable_s04_b228",
+      "index": 228,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "pierre",
       "text": "\"I will put that in the tourist guide for the next French traveler,\" Pierre declared happily.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b227_s01",
+          "segmentId": "uneraseable_s04_b228_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8304,7 +8331,7 @@
           "text": "\"I will put that in the tourist guide for the next French traveler,\""
         },
         {
-          "segmentId": "uneraseable_s04_b227_s02",
+          "segmentId": "uneraseable_s04_b228_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8315,14 +8342,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b228",
-      "index": 228,
+      "id": "uneraseable_s04_b229",
+      "index": 229,
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "speakerId": "naomi",
       "text": "\"All right, we will get you all resettled,\" Naomi agreed as the travelers settled into their chairs. The fire crackled warmly in the stone hearth. With the Raleigh artifact stabilized and their path set toward the Forgotten Trail, the company rested, ready for the strange road ahead.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b228_s01",
+          "segmentId": "uneraseable_s04_b229_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -8330,7 +8357,7 @@
           "text": "\"All right, we will get you all resettled,\""
         },
         {
-          "segmentId": "uneraseable_s04_b228_s02",
+          "segmentId": "uneraseable_s04_b229_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8341,14 +8368,14 @@
       "cut": "tabletop"
     },
     {
-      "id": "uneraseable_s04_b204_alt1",
+      "id": "uneraseable_s04_b205_alt1",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "pierre",
       "text": "Naomi laid out two bulky project binders on the oak table: \"The stolen catapult in the UK is a dead end. That leaves us with two active leads: an airline hijacking that never appeared in news records, or a controversial investigative tour surrounding a mysterious Mad Doctor in West Virginia.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_alt1_s01",
+          "segmentId": "uneraseable_s04_b205_alt1_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8356,7 +8383,7 @@
           "text": "Naomi laid out two bulky project binders on the oak table: "
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt1_s02",
+          "segmentId": "uneraseable_s04_b205_alt1_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8366,14 +8393,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b204_alt2",
+      "id": "uneraseable_s04_b205_alt2",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "alfie",
       "text": "\"What was the doctor again?\" Alfie asked, leaning forward on the tabletop.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_alt2_s01",
+          "segmentId": "uneraseable_s04_b205_alt2_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8381,7 +8408,7 @@
           "text": "\"What was the doctor again?\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt2_s02",
+          "segmentId": "uneraseable_s04_b205_alt2_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8391,14 +8418,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b204_alt3",
+      "id": "uneraseable_s04_b205_alt3",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "naomi",
       "text": "\"The hijacking sounds very sensitive, but the Mad Doctor murder mystery\u2014two women drinking wine talking about true crime\u2014sounds way more French!\" Pierre argued passionately. The party unanimously agreed, setting their course along the Forgotten Trail through the Lost Roads.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_alt3_s01",
+          "segmentId": "uneraseable_s04_b205_alt3_s01",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -8406,7 +8433,7 @@
           "text": "\"The hijacking sounds very sensitive, but the Mad Doctor murder mystery\u2014two women drinking wine talking about true crime\u2014sounds way more French!\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt3_s02",
+          "segmentId": "uneraseable_s04_b205_alt3_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8416,14 +8443,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b204_alt4",
+      "id": "uneraseable_s04_b205_alt4",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "dravin",
       "text": "Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. \"And I would like my new javelin turned into a Zeus thunderbolt, please!\" Pierre added with theatrical flair. When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: \"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_alt4_s01",
+          "segmentId": "uneraseable_s04_b205_alt4_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8431,7 +8458,7 @@
           "text": "Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. "
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt4_s02",
+          "segmentId": "uneraseable_s04_b205_alt4_s02",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -8439,7 +8466,7 @@
           "text": "\"And I would like my new javelin turned into a Zeus thunderbolt, please!\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt4_s03",
+          "segmentId": "uneraseable_s04_b205_alt4_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8447,7 +8474,7 @@
           "text": " Pierre added with theatrical flair. When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt4_s04",
+          "segmentId": "uneraseable_s04_b205_alt4_s04",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -8457,14 +8484,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b204_alt5",
+      "id": "uneraseable_s04_b205_alt5",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "alfie",
       "text": "\"This hat was dropped on the floor!\" Alfie protested defensively. \"I didn't steal it!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_alt5_s01",
+          "segmentId": "uneraseable_s04_b205_alt5_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8472,7 +8499,7 @@
           "text": "\"This hat was dropped on the floor!\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt5_s02",
+          "segmentId": "uneraseable_s04_b205_alt5_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8480,7 +8507,7 @@
           "text": " Alfie protested defensively. "
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt5_s03",
+          "segmentId": "uneraseable_s04_b205_alt5_s03",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8490,14 +8517,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b204_alt6",
+      "id": "uneraseable_s04_b205_alt6",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "pierre",
       "text": "\"Putting it back to its original use!\" Pierre beamed. \"And besides, what happens in Vegas stays in Vegas!\" Gathering around the crackling hearth with their next destination locked, the company rested in the haven of the Margin, ready for the strange road ahead.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b204_alt6_s01",
+          "segmentId": "uneraseable_s04_b205_alt6_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8505,7 +8532,7 @@
           "text": "\"Putting it back to its original use!\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt6_s02",
+          "segmentId": "uneraseable_s04_b205_alt6_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8513,7 +8540,7 @@
           "text": " Pierre beamed. "
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt6_s03",
+          "segmentId": "uneraseable_s04_b205_alt6_s03",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8521,7 +8548,7 @@
           "text": "\"And besides, what happens in Vegas stays in Vegas!\""
         },
         {
-          "segmentId": "uneraseable_s04_b204_alt6_s04",
+          "segmentId": "uneraseable_s04_b205_alt6_s04",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",

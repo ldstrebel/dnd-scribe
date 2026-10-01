@@ -2,7 +2,7 @@
 
 ---
 
-Along the shifting path, a young woman in dark robes emerged from the pale mist. Her gaze held the quiet stillness of the underworld.
+Along the shifting path between fractured Greek colonnades, they walked alongside the dark-robed maiden. When Dravin pressed for how they ought to address her, she turned back with a faint, wintery gaze.
 
 "You may call me Ally," she murmured, her voice carrying a soft, crystalline chill. "The maiden of Persephone." <!-- L0468 --> <!-- L0470 -->
 

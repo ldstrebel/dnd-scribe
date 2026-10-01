@@ -42,6 +42,15 @@ Every time a new issue, architectural trade-off, or structural standard is estab
    - **Agreed Decision & Trade-Off** (What was chosen, and what cost was accepted?)
    - **Mechanical Enforcing Gate** (What code/test guarantees it won't regress?)
 
+### 4. Root-Cause Incident Analysis Protocol (`FP-21`, `DEC-031`)
+Whenever investigating an editorial defect, unexpected prose drift, or why a verification gate passed despite human friction:
+1. **Track-Aware Evaluation:** Identify which track the reviewer evaluated (Track A Tabletop vs. Track B Cinematic). Never analyze Track A failures on Track B feedback or vice versa.
+2. **Inspect the Derivation Chain:** Verify whether Track B was cut *from* Track A, or double-drafted from raw. Under DEC-031, Track B must never be drafted from raw transcripts.
+3. **Audit Gate Coverage:** Check if the verification gate ran on the affected files, or if it contained bypasses (e.g. `-alt` file skipping in linters).
+4. **Anti-Metadata Fallacy:** Never propose hand-declared tokens (`mandatory_comedic_beats` JSON lists) to paper over semantic causality gaps. Tokens cannot measure beat landing or comedic reversals.
+5. **Review Historical Precedents (`FP-01` through `FP-21`):** Check how similar past failures were resolved before proposing new mechanisms.
+6. **Human Critique as a Deterministic Gate:** Any human editorial critique from PR review must be recorded as an open blocking item in `sN-source-decisions.json` and verified by `verify_critiques.py`.
+
 ---
 
 ## 🧭 The 7 Immutable Pipeline Invariants

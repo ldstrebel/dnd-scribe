@@ -31,7 +31,7 @@ Dravin gestured toward the shadows behind him. "My buddy could definitely use a 
 
 "The thing is, we all kind of died at different times, at different points in our lives," Mike explained, tossing a pine stick onto the fire. "And the crazy thing is that you stay approximately the same age the whole time." <!-- L0461 --> <!-- L0462 -->
 
-"A little Benjamin Button action," Dravin observed.
+"A little Benjamin Button action," Dravin observed. <!-- L0463 -->
 
 "Yeah, it's kind of crazy, kind of cool," Mike smiled. <!-- L0464 -->
 
@@ -39,17 +39,17 @@ Dravin frowned thoughtfully. "How do we interact with the outside world?" <!-- L
 
 "We all have different theories," Mike said. "Some people remember things clearly, while the youth kind of see through the veil with divine sense." <!-- L0468 --> <!-- L0469 -->
 
-At the mention of divine perception, Eusacles closed his eyes and focused his divine sense across the clearing, opening his awareness to fiend and undead presences. <!-- L0474 --> <!-- L0477 -->
+At the mention of divine perception, Eusacles closed his eyes, extending his celestial intuition across the clearing to test the shadows for fiendish or spectral corruption. <!-- L0474 --> <!-- L0477 -->
 
-A sudden, breathtaking surge of clarity washed over his consciousness—a sensation as pure and absolute as a natural twenty. <!-- L0489 -->
+A sudden, breathtaking surge of golden clarity washed over his consciousness—an absolute, unclouded vision that pierced straight through the mountain gloom. <!-- L0489 -->
 
-According to this divine feature, the veil parted to reveal a vision of the settlement's metaphysical truth. <!-- L0494 --> <!-- L0498 -->
+Through his celestial sight, Eusacles could see that this was a consecrated refuge—a haven where the veil presented a different vision than mortal eyes could pierce. <!-- L0494 --> <!-- L0498 -->
 
-This was a consecrated refuge—a sanctuary shielded from external prying. <!-- L0500 -->
+This was consecrated ground—a protected sanctuary of refuge shielded from external prying. <!-- L0500 -->
 
-Residual auras lingered across his companions: neither Dravin nor Pierre possessed undead corruption, but their souls bore a unique, ancient mixture of planar resonance. <!-- L0502 --> <!-- L0504 -->
+Residual auras flickered around Mike and the silent girl beside him: neither bore true demigod fire nor monstrous taint, but rather faint, lingering celestial and spectral echoes—souls suspended between realms. <!-- L0502 --> <!-- L0504 -->
 
-<!-- LEDGER: rendered=[412, 417, 418, 420, 426, 438, 440, 442, 443, 446, 447, 449, 452, 454, 456, 458, 460, 461, 462, 464, 465, 467, 468, 469, 474, 477, 489, 494, 498, 500, 502, 504] skipped=[404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 439(ooc), 441(ooc), 444(ooc), 445(ooc), 448(ooc), 450(ooc), 451(ooc), 453(ooc), 455(ooc), 457(ooc), 459(ooc), 463(ooc), 466(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 475(ooc), 476(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 495(ooc), 496(ooc), 497(ooc), 499(ooc), 501(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(compressed)] -->
+<!-- LEDGER: rendered=[412, 417, 418, 420, 426, 438, 440, 442, 443, 446, 447, 449, 452, 454, 456, 458, 460, 461, 462, 463, 464, 465, 467, 468, 469, 474, 477, 489, 494, 498, 500, 502, 504] skipped=[404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 439(ooc), 441(ooc), 444(ooc), 445(ooc), 448(ooc), 450(ooc), 451(ooc), 453(ooc), 455(ooc), 457(ooc), 459(ooc), 466(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 475(ooc), 476(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 495(ooc), 496(ooc), 497(ooc), 499(ooc), 501(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(compressed)] -->
 
 <!-- RAW_RANGE: [511, 630] | SCENE_ID: 2 -->
 
@@ -67,7 +67,7 @@ Eusacles leaned forward against the split-rail fence, his brow furrowing. "Mike,
 
 "Last I saw, I was on a cruise ship with my friends, riding through the seven seas," Mike murmured, staring deep into the orange embers. "All of a sudden, the ship started going down. Everything flashed blinding white. Next thing I know, I woke up standing alone in front of an ATM on a dark street in West Virginia. Nobody else was there. Just me." <!-- L0528 --> <!-- L0530 -->
 
-"And how did you get from an ATM in West Virginia to the Margin?" Eusacles asked.
+"And how did you get from an ATM in West Virginia to the Margin?" Eusacles asked. <!-- L0531 --> <!-- L0533 -->
 
 "Teddy was still leaving the Margin back then, hunting for displaced folks," Mike replied with quiet gratitude. "I'm from California, so West Virginia felt totally alien to me. Teddy sensed something off me—or maybe I just looked completely confused—and brought me in. He's been here by far the longest of anyone." <!-- L0534 --> <!-- L0540 -->
 
@@ -101,7 +101,7 @@ Pierre reached up, gently steadying the trembling doll with two fingers. "Alfie.
 
 Alfie stared blankly into the shadows, shivering. "...water." <!-- L0630 -->
 
-<!-- LEDGER: rendered=[515, 517, 518, 521, 523, 524, 528, 530, 534, 540, 549, 550, 551, 552, 558, 560, 563, 568, 570, 572, 577, 602, 604, 605, 607, 628, 629, 630] skipped=[511(ooc), 512(ooc), 513(ooc), 514(ooc), 516(ooc), 519(ooc), 520(ooc), 522(ooc), 525(ooc), 526(ooc), 527(ooc), 529(ooc), 531(ooc), 532(ooc), 533(ooc), 535(ooc), 536(ooc), 537(ooc), 538(ooc), 539(ooc), 541(ooc), 542(ooc), 543(ooc), 544(ooc), 545(ooc), 546(ooc), 547(ooc), 548(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 559(ooc), 561(ooc), 562(ooc), 564(ooc), 565(ooc), 566(ooc), 567(ooc), 569(ooc), 571(ooc), 573(ooc), 574(ooc), 575(ooc), 576(ooc), 578(ooc), 579(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 585(ooc), 586(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 597(ooc), 598(ooc), 599(ooc), 600(ooc), 601(ooc), 603(ooc), 606(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 617(ooc), 618(ooc), 619(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 625(ooc), 626(ooc), 627(ooc)] -->
+<!-- LEDGER: rendered=[515, 517, 518, 521, 523, 524, 528, 530, 531, 533, 534, 540, 549, 550, 551, 552, 558, 560, 563, 568, 570, 572, 577, 602, 604, 605, 607, 628, 629, 630] skipped=[511(ooc), 512(ooc), 513(ooc), 514(ooc), 516(ooc), 519(ooc), 520(ooc), 522(ooc), 525(ooc), 526(ooc), 527(ooc), 529(ooc), 532(ooc), 535(ooc), 536(ooc), 537(ooc), 538(ooc), 539(ooc), 541(ooc), 542(ooc), 543(ooc), 544(ooc), 545(ooc), 546(ooc), 547(ooc), 548(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 559(ooc), 561(ooc), 562(ooc), 564(ooc), 565(ooc), 566(ooc), 567(ooc), 569(ooc), 571(ooc), 573(ooc), 574(ooc), 575(ooc), 576(ooc), 578(ooc), 579(ooc), 580(ooc), 581(ooc), 582(ooc), 583(ooc), 584(ooc), 585(ooc), 586(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 597(ooc), 598(ooc), 599(ooc), 600(ooc), 601(ooc), 603(ooc), 606(ooc), 608(ooc), 609(ooc), 610(ooc), 611(ooc), 612(ooc), 613(ooc), 614(ooc), 615(ooc), 616(ooc), 617(ooc), 618(ooc), 619(ooc), 620(ooc), 621(ooc), 622(ooc), 623(ooc), 624(ooc), 625(ooc), 626(ooc), 627(ooc)] -->
 
 <!-- RAW_RANGE: [631, 750] | SCENE_ID: 3 -->
 
@@ -145,13 +145,13 @@ Eusacles exhaled a heavy, ragged sigh. "Look, man. Yeah, I'm a half-blood. My mo
 
 He rubbed his temples, staring down at his iron-banded wrist. "I was aware of this whole world, but I stayed out. I'm still wrapping my head around being here." <!-- L0740 -->
 
-"So you were heading to Vegas to escape it all?" Teddy asked gently.
+"So you were heading to Vegas to escape it all?" Teddy asked gently. <!-- L0741 -->
 
 "I was going to Vegas to blow off steam," Eusacles muttered with a dark, wry grin. "Because none of it matters. We're all going to end up dead eventually. We're all going to end up in the underworld at some point—so why not have fun while I can?" <!-- L0744 --> <!-- L0745 -->
 
 Teddy nodded slowly, closing his leather journal. "That is fascinating." <!-- L0750 -->
 
-<!-- LEDGER: rendered=[631, 633, 634, 640, 651, 654, 660, 664, 667, 673, 677, 680, 688, 690, 700, 706, 715, 720, 724, 729, 731, 733, 736, 739, 740, 744, 745, 750] skipped=[632(ooc), 635(ooc), 636(ooc), 637(ooc), 638(ooc), 639(ooc), 641(ooc), 642(compressed), 643(ooc), 644(ooc), 645(ooc), 646(ooc), 647(ooc), 648(ooc), 649(ooc), 650(ooc), 652(ooc), 653(ooc), 655(ooc), 656(ooc), 657(ooc), 658(ooc), 659(ooc), 661(ooc), 662(ooc), 663(ooc), 665(ooc), 666(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 674(ooc), 675(ooc), 676(ooc), 678(ooc), 679(ooc), 681(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 686(ooc), 687(ooc), 689(ooc), 691(ooc), 692(ooc), 693(ooc), 694(ooc), 695(ooc), 696(ooc), 697(ooc), 698(ooc), 699(ooc), 701(ooc), 702(ooc), 703(ooc), 704(compressed), 705(ooc), 707(compressed), 708(ooc), 709(ooc), 710(ooc), 711(ooc), 712(ooc), 713(ooc), 714(ooc), 716(ooc), 717(ooc), 718(ooc), 719(compressed), 721(compressed), 722(ooc), 723(ooc), 725(ooc), 726(ooc), 727(ooc), 728(compressed), 730(ooc), 732(ooc), 734(ooc), 735(compressed), 737(ooc), 738(ooc), 741(compressed), 742(ooc), 743(ooc), 746(ooc), 747(ooc), 748(ooc), 749(compressed)] -->
+<!-- LEDGER: rendered=[631, 633, 634, 640, 651, 654, 660, 664, 667, 673, 677, 680, 688, 690, 700, 706, 715, 720, 724, 729, 731, 733, 736, 739, 740, 741, 744, 745, 750] skipped=[632(ooc), 635(ooc), 636(ooc), 637(ooc), 638(ooc), 639(ooc), 641(ooc), 642(compressed), 643(ooc), 644(ooc), 645(ooc), 646(ooc), 647(ooc), 648(ooc), 649(ooc), 650(ooc), 652(ooc), 653(ooc), 655(ooc), 656(ooc), 657(ooc), 658(ooc), 659(ooc), 661(ooc), 662(ooc), 663(ooc), 665(ooc), 666(ooc), 668(ooc), 669(ooc), 670(ooc), 671(ooc), 672(ooc), 674(ooc), 675(ooc), 676(ooc), 678(ooc), 679(ooc), 681(ooc), 682(ooc), 683(ooc), 684(ooc), 685(ooc), 686(ooc), 687(ooc), 689(ooc), 691(ooc), 692(ooc), 693(ooc), 694(ooc), 695(ooc), 696(ooc), 697(ooc), 698(ooc), 699(ooc), 701(ooc), 702(ooc), 703(ooc), 704(compressed), 705(ooc), 707(compressed), 708(ooc), 709(ooc), 710(ooc), 711(ooc), 712(ooc), 713(ooc), 714(ooc), 716(ooc), 717(ooc), 718(ooc), 719(compressed), 721(compressed), 722(ooc), 723(ooc), 725(ooc), 726(ooc), 727(ooc), 728(compressed), 730(ooc), 732(ooc), 734(ooc), 735(compressed), 737(ooc), 738(ooc), 742(ooc), 743(ooc), 746(ooc), 747(ooc), 748(ooc), 749(compressed)] -->
 
 <!-- RAW_RANGE: [751, 880] | SCENE_ID: 4 -->
 ## CHAPTER 14: THE PATERNAL TETHER & THE CONSPIRACY BOARD
@@ -192,11 +192,11 @@ Mike stared blankly. "That's news to me! What, like the Statue of Liberty is Gre
 
 Outside, Teddy guided them toward their guest cabin, admiring Dravin’s scholarly passion. "Spent most of my youth on the timber trails," Teddy remarked. "Out here, you learn that every myth was just history before someone decided to edit the manuscript." <!-- L0809 -->
 
-Inside the cabin, an older resident named Rosa was laying out handmade wool blankets on cedar cots. When she saw Alfie balanced neatly on Pierre’s shoulder, her eyes softened. <!-- L0833 -->
+Inside the cabin, an older resident named Rosa was laying out handmade wool blankets on cedar cots. When she saw Alfie balanced neatly on Pierre’s shoulder, her eyes softened, asking the tiny traveler if he preferred being grounded in nature to the open water. <!-- L0833 -->
 
-"And who might you be, little traveler?" Rosa asked gently. "Do you prefer being on the ground?" Alfie shook his head. "Dolls don't usually drive ships, mate. I don't recommend it." <!-- L0849 -->
+Alfie shook his head, his driftwood hands settling on his belt. "Dolls don't usually drive ships, mate. I don't recommend it." <!-- L0849 -->
 
-Alfie hopped down onto the rustic pine table, adjusting his needle rapier. "Name's Alfie, ma'am. Driftwood Duelist, at your service. Last thing I remember before waking up in that marble palace was darkness... salt water... the roar of cannon fire, and blood on the deck. Next thing I know, I'm carved out of driftwood with needle and thread."
+Alfie hopped down onto the rustic pine table, adjusting his needle rapier. The miniature sailor carried himself with martial bravado, though his earliest memories remained fractured—recollections of salt water, darkness, cannon fire, and the bitter shock of waking carved of driftwood and thread.
 
 Before Rosa could reply, Naomi barged straight into the guest cabin, breathless and clutching rolls of research parchment. "Sorry I'm late!" Naomi called out urgently. "I was knee-deep in research, but it's super important!" <!-- L0873 -->
 
@@ -288,33 +288,33 @@ Naomi gave a faint, proud smile, the sunlight catching her dark eyes with warm b
 
 <!-- RAW_RANGE: [1141, 1270] | SCENE_ID: 7 -->
 
-Before dawn broke over the Appalachian ridges, the party gathered behind the settlement's timber barn. Parked beside a stack of weathered firewood was an ancient, rusted green farm truck. Its paint was oxidized and chipped, but its heavy V8 engine hummed with a deep, steady rumble. <!-- L1161 -->
+Inside the back room of the timber lodge, red string and pinned photographs spanned across Naomi's sprawling conspiracy board. Dravin leaned against a rough cedar bookshelf, his mind turning over the theoretical mechanics of their displacement—how historical anomalies echoed through time like revolutionary revisions to an ancient manuscript. <!-- L1161 -->
 
-"To leave the Margin," Teddy explained, tossing the keys to Eusacles, "you can't just drive down highway ninety-five. You have to navigate the Lost Roads—the abandoned bypasses and historical routes that were decommissioned when modern interstates were built." <!-- L1177 -->
+Theodore stood by the corkboard, resting his palms on the timber table as he looked at the newcomers. "I guess you have time now to come hear about what's going on—about why you're really here." <!-- L1177 -->
 
-Dravin examined the vehicle and their supplies. "You took books from the Library of the Fates," Dravin noted, examining the stolen volumes. <!-- L1185 -->
+Pierre walked into the room carrying a warm platter, but stopped short as he noticed the ancient tomes stacked beside his pack. Dravin adjusted his spectacles, his scholarly gaze narrowing upon the weathered leather bindings. "You took books from the Library of the Fates," Dravin observed with dry wonder. <!-- L1185 -->
 
-Pierre pulled the three ancient scrolls from his rucksack, showing them to Teddy. "These were on the shelves of the Fates. Naomi said they might guide our path." <!-- L1193 -->
+Pierre set down the platter with a theatrical shrug, pulling the three ancient scrolls into view. "These were on the shelves of the Fates. Naomi said they might guide our path." <!-- L1193 -->
 
-Pierre nodded, pointing to the Greek lettering. "Yeah, I wrote down that one, and then there was that other..." <!-- L1209 -->
+Pierre tapped the Greek lettering inscribed along the margins. "Yeah, I wrote down that one, and then there was that other..." <!-- L1209 -->
 
-Pierre had also dug through the settlement's storage crates, unearthing geological maps and ancient volcanic texts that called to him. <!-- L1213 -->
+During their frantic flight through the planar stacks, Pierre had also scavenged geological charts and ancient volcanic texts that had inexplicably called to him, searching for clues to his monstrous heritage. <!-- L1213 -->
 
-Mike walked to the boundary of the tree line and pulled a heavy wooden lever concealed within an old oak trunk. Ahead of the truck, the dense morning mist parted, revealing a narrow, single-lane asphalt road that vanished into an unnatural tunnel of dense fog. <!-- L1233 -->
+Naomi leaned over the worktable, carefully unrolling the oldest parchment. As Dravin helped translate the archaic script, a distinct passage stood out—a direct reference to the *Lost Roads*, the decommissioned metaphysical bypasses that linked forgotten settlements across the continent. <!-- L1233 -->
 
-Tucked beneath the seat was a worn pamphlet entitled *Dummy's Guide to Gorgons*, tracing bloodlines back to ancient Mediterranean settlements. <!-- L1236 -->
+Beside the parchment lay the dog-eared pamphlet Pierre had studied before turning in: *The Dummy's Guide to Gorgons*. <!-- L1236 -->
 
-The maternal figure who had raised Pierre was not listed among the entries, but the ancestral lineage trickled down through forgotten seams of time. <!-- L1240 -->
+The maternal figure who had raised Pierre in the French countryside was not recorded among the classical dynasties, but the ancestral lineage trickled steadily upward through forgotten centuries. <!-- L1240 -->
 
-"Keep your headlights on, don't stop for hitchhikers, and if the radio starts talking backward, keep your foot on the gas," Mike instructed plainly. <!-- L1249 -->
+Theodore nodded solemnly, tracing the ink across the page. "Every ancient line traces back to the beginning. It all leads back to Echidna—the primordial Mother of Monsters." <!-- L1249 -->
 
-Pierre pointed to the translated notes in his lap. "You're saying that this book that we have translated has a passage about the Lost Roads?" <!-- L1256 -->
+Pierre pointed to the translated notes in his lap, connecting the pieces. "You're saying that this book that we have translated has a passage about the Lost Roads?" <!-- L1256 -->
 
-"Never mind, I'll go," Eusacles muttered, throwing the truck into gear with a satisfying mechanical clunk. <!-- L1265 -->
+Eusacles pushed off the wall, crossing his arms with practical resolve. "Never mind, I'll go." <!-- L1265 -->
 
-Teddy watched them pull away with quiet awe. "I have never heard of anyone reaching three fragments before. Bring it home safely." <!-- L1269 -->
+Theodore watched the party rally around the expedition, a rare flicker of hope crossing his weathered face. "I have never heard of anyone reaching three fragments before. Bring it home safely." <!-- L1269 -->
 
-<!-- LEDGER: rendered=[1161, 1177, 1185, 1193, 1209, 1213, 1233, 1236, 1240, 1249, 1256, 1265, 1269] skipped=[1141(ooc), 1142(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1146(compressed), 1147(ooc), 1148(ooc), 1149(ooc), 1150(ooc), 1151(ooc), 1152(ooc), 1153(ooc), 1154(ooc), 1155(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1162(ooc), 1163(ooc), 1164(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(banter), 1169(ooc), 1170(ooc), 1171(ooc), 1172(ooc), 1173(ooc), 1174(ooc), 1175(banter), 1176(ooc), 1178(ooc), 1179(ooc), 1180(ooc), 1181(ooc), 1182(compressed), 1183(ooc), 1184(ooc), 1186(ooc), 1187(ooc), 1188(ooc), 1189(ooc), 1190(ooc), 1191(ooc), 1192(ooc), 1194(ooc), 1195(ooc), 1196(ooc), 1197(ooc), 1198(ooc), 1199(ooc), 1200(ooc), 1201(ooc), 1202(ooc), 1203(ooc), 1204(ooc), 1205(ooc), 1206(ooc), 1207(ooc), 1208(ooc), 1210(ooc), 1211(ooc), 1212(ooc), 1214(ooc), 1215(ooc), 1216(compressed), 1217(ooc), 1218(ooc), 1219(ooc), 1220(ooc), 1221(ooc), 1222(ooc), 1223(ooc), 1224(ooc), 1225(ooc), 1226(ooc), 1227(ooc), 1228(ooc), 1229(ooc), 1230(ooc), 1231(ooc), 1232(ooc), 1234(ooc), 1235(ooc), 1237(ooc), 1238(banter), 1239(ooc), 1241(ooc), 1242(ooc), 1243(ooc), 1244(ooc), 1245(ooc), 1246(ooc), 1247(ooc), 1248(ooc), 1250(ooc), 1251(compressed), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1257(ooc), 1258(ooc), 1259(ooc), 1260(ooc), 1261(ooc), 1262(ooc), 1263(ooc), 1264(ooc), 1266(ooc), 1267(ooc), 1268(ooc), 1270(ooc)] -->
+<!-- LEDGER: rendered=[1161, 1177, 1185, 1193, 1209, 1213, 1233, 1236, 1240, 1249, 1256, 1265, 1269] skipped=[1141(ooc), 1142(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1146(banter), 1147(ooc), 1148(ooc), 1149(ooc), 1150(ooc), 1151(ooc), 1152(ooc), 1153(ooc), 1154(ooc), 1155(ooc), 1156(ooc), 1157(ooc), 1158(ooc), 1159(ooc), 1160(ooc), 1162(ooc), 1163(ooc), 1164(ooc), 1165(ooc), 1166(ooc), 1167(ooc), 1168(banter), 1169(ooc), 1170(ooc), 1171(ooc), 1172(ooc), 1173(ooc), 1174(ooc), 1175(banter), 1176(ooc), 1178(ooc), 1179(ooc), 1180(ooc), 1181(ooc), 1182(compressed), 1183(ooc), 1184(ooc), 1186(ooc), 1187(ooc), 1188(ooc), 1189(ooc), 1190(ooc), 1191(ooc), 1192(ooc), 1194(ooc), 1195(ooc), 1196(ooc), 1197(ooc), 1198(ooc), 1199(ooc), 1200(ooc), 1201(ooc), 1202(ooc), 1203(ooc), 1204(ooc), 1205(ooc), 1206(ooc), 1207(ooc), 1208(ooc), 1210(ooc), 1211(ooc), 1212(ooc), 1214(ooc), 1215(ooc), 1216(compressed), 1217(ooc), 1218(ooc), 1219(ooc), 1220(ooc), 1221(ooc), 1222(ooc), 1223(ooc), 1224(ooc), 1225(ooc), 1226(ooc), 1227(ooc), 1228(ooc), 1229(ooc), 1230(ooc), 1231(ooc), 1232(ooc), 1234(ooc), 1235(ooc), 1237(ooc), 1238(banter), 1239(ooc), 1241(ooc), 1242(ooc), 1243(ooc), 1244(ooc), 1245(ooc), 1246(ooc), 1247(ooc), 1248(ooc), 1250(ooc), 1251(compressed), 1252(ooc), 1253(ooc), 1254(ooc), 1255(ooc), 1257(ooc), 1258(ooc), 1259(ooc), 1260(ooc), 1261(ooc), 1262(ooc), 1263(ooc), 1264(ooc), 1266(ooc), 1267(ooc), 1268(ooc), 1270(ooc)] -->
 
 <!-- RAW_RANGE: [1271, 1400] | SCENE_ID: 8 -->
 ## CHAPTER 15: THE THRESHOLD OF THE LOST ROADS
@@ -363,13 +363,13 @@ The convenience store door chimed with a brassy ding-ling as Pierre pushed it op
 
 Behind the counter, an elderly woman in a faded apron turned to them. "Hey honey, how you doing?" <!-- L1383 -->
 
-Pierre bowed with polite French cadence. "Bonjour, madame..."
+Pierre offered a polite French bow, greeting her courteously. "Hello... bonjour, madame..." <!-- L1386 -->
 
 The clerk squinted through her bifocals, frowning suspiciously. "Ah, we got a Spaniard over here!" <!-- L1387 -->
 
 Her gaze dropped from Pierre's spectacles down to the wooden doll nestled in his pocket. "I gotta say, I've never seen a grown man walk in with a doll before." <!-- L1394 -->
 
-<!-- LEDGER: rendered=[1273, 1278, 1280, 1282, 1284, 1289, 1292, 1295, 1299, 1301, 1305, 1310, 1316, 1318, 1321, 1323, 1326, 1327, 1331, 1333, 1336, 1337, 1353, 1369, 1374, 1377, 1381, 1383, 1387, 1394] skipped=[1271(ooc), 1272(ooc), 1274(ooc), 1275(ooc), 1276(ooc), 1277(ooc), 1279(ooc), 1281(ooc), 1283(ooc), 1285(ooc), 1286(ooc), 1287(ooc), 1288(ooc), 1290(ooc), 1291(ooc), 1293(ooc), 1294(ooc), 1296(ooc), 1297(ooc), 1298(ooc), 1300(ooc), 1302(ooc), 1303(ooc), 1304(ooc), 1306(ooc), 1307(ooc), 1308(ooc), 1309(ooc), 1311(ooc), 1312(ooc), 1313(ooc), 1314(ooc), 1315(ooc), 1317(ooc), 1319(ooc), 1320(ooc), 1322(ooc), 1324(ooc), 1325(ooc), 1328(ooc), 1329(ooc), 1330(ooc), 1332(ooc), 1334(ooc), 1335(ooc), 1338(ooc), 1339(ooc), 1340(ooc), 1341(ooc), 1342(ooc), 1343(ooc), 1344(ooc), 1345(ooc), 1346(ooc), 1347(ooc), 1348(ooc), 1349(ooc), 1350(ooc), 1351(ooc), 1352(ooc), 1354(ooc), 1355(ooc), 1356(ooc), 1357(ooc), 1358(ooc), 1359(ooc), 1360(ooc), 1361(ooc), 1362(ooc), 1363(ooc), 1364(ooc), 1365(ooc), 1366(ooc), 1367(ooc), 1368(ooc), 1370(ooc), 1371(ooc), 1372(ooc), 1373(ooc), 1375(ooc), 1376(ooc), 1378(ooc), 1379(ooc), 1380(ooc), 1382(ooc), 1384(ooc), 1385(ooc), 1386(ooc), 1388(ooc), 1389(ooc), 1390(ooc), 1391(ooc), 1392(ooc), 1393(ooc), 1395(ooc), 1396(ooc), 1397(ooc), 1398(ooc), 1399(ooc), 1400(ooc)] -->
+<!-- LEDGER: rendered=[1273, 1278, 1280, 1282, 1284, 1289, 1292, 1295, 1299, 1301, 1305, 1310, 1316, 1318, 1321, 1323, 1326, 1327, 1331, 1333, 1336, 1337, 1353, 1369, 1374, 1377, 1381, 1383, 1386, 1387, 1394] skipped=[1271(ooc), 1272(ooc), 1274(ooc), 1275(ooc), 1276(ooc), 1277(ooc), 1279(ooc), 1281(ooc), 1283(ooc), 1285(ooc), 1286(ooc), 1287(ooc), 1288(ooc), 1290(ooc), 1291(ooc), 1293(ooc), 1294(ooc), 1296(ooc), 1297(ooc), 1298(ooc), 1300(ooc), 1302(ooc), 1303(ooc), 1304(ooc), 1306(ooc), 1307(ooc), 1308(ooc), 1309(ooc), 1311(ooc), 1312(ooc), 1313(ooc), 1314(ooc), 1315(ooc), 1317(ooc), 1319(ooc), 1320(ooc), 1322(ooc), 1324(ooc), 1325(ooc), 1328(ooc), 1329(ooc), 1330(ooc), 1332(ooc), 1334(ooc), 1335(ooc), 1338(ooc), 1339(ooc), 1340(ooc), 1341(ooc), 1342(ooc), 1343(ooc), 1344(ooc), 1345(ooc), 1346(ooc), 1347(ooc), 1348(ooc), 1349(ooc), 1350(ooc), 1351(ooc), 1352(ooc), 1354(ooc), 1355(ooc), 1356(ooc), 1357(ooc), 1358(ooc), 1359(ooc), 1360(ooc), 1361(ooc), 1362(ooc), 1363(ooc), 1364(ooc), 1365(ooc), 1366(ooc), 1367(ooc), 1368(ooc), 1370(ooc), 1371(ooc), 1372(ooc), 1373(ooc), 1375(ooc), 1376(ooc), 1378(ooc), 1379(ooc), 1380(ooc), 1382(ooc), 1384(ooc), 1385(ooc), 1388(ooc), 1389(ooc), 1390(ooc), 1391(ooc), 1392(ooc), 1393(ooc), 1395(ooc), 1396(ooc), 1397(ooc), 1398(ooc), 1399(ooc), 1400(ooc)] -->
 
 <!-- RAW_RANGE: [1401, 1520] | SCENE_ID: 9 -->
 
@@ -429,7 +429,7 @@ Mike pointed toward the northern creek bed, where mist swirled heavily between d
 
 "Is it driven by a skeleton?" Pierre asked, shuddering. <!-- L1523 -->
 
-"Kind of like a shadowy figure," Mike replied.
+"Kind of like a shadowy figure," Mike replied. <!-- L1524 -->
 
 "Yeah, I definitely do not want to take that one," Pierre decided quickly. <!-- L1525 -->
 
@@ -461,7 +461,7 @@ Above the maintenance shed door, the solitary electric lantern began to hum with
 
 The light began to rotate in a slow, hypnotic circle like a coastal lighthouse beacon. In the damp mountain air, a sudden smell of ozone and salt brine filled the Appalachian forest. Both Eusacles and Alfie froze as the distinct, thunderous roar of ocean waves crashing against rocks echoed through the trees. <!-- L1589 --> <!-- L1593 -->
 
-<!-- LEDGER: rendered=[1522, 1523, 1525, 1532, 1537, 1538, 1540, 1543, 1553, 1563, 1568, 1574, 1575, 1578, 1579, 1581, 1585, 1589, 1593] skipped=[1521(ooc), 1524(ooc), 1526(ooc), 1527(ooc), 1528(ooc), 1529(ooc), 1530(ooc), 1531(ooc), 1533(ooc), 1534(ooc), 1535(ooc), 1536(ooc), 1539(ooc), 1541(ooc), 1542(ooc), 1544(ooc), 1545(ooc), 1546(ooc), 1547(ooc), 1548(ooc), 1549(ooc), 1550(ooc), 1551(ooc), 1552(ooc), 1554(ooc), 1555(ooc), 1556(ooc), 1557(ooc), 1558(ooc), 1559(ooc), 1560(ooc), 1561(ooc), 1562(ooc), 1564(ooc), 1565(ooc), 1566(banter), 1567(ooc), 1569(ooc), 1570(ooc), 1571(ooc), 1572(ooc), 1573(ooc), 1576(ooc), 1577(ooc), 1580(ooc), 1582(ooc), 1583(ooc), 1584(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1590(ooc), 1591(ooc), 1592(ooc), 1594(ooc), 1595(ooc), 1596(ooc), 1597(ooc), 1598(ooc), 1599(ooc), 1600(ooc)] -->
+<!-- LEDGER: rendered=[1522, 1523, 1524, 1525, 1532, 1537, 1538, 1540, 1543, 1553, 1563, 1568, 1574, 1575, 1578, 1579, 1581, 1585, 1589, 1593] skipped=[1521(ooc), 1526(ooc), 1527(ooc), 1528(ooc), 1529(ooc), 1530(ooc), 1531(ooc), 1533(ooc), 1534(ooc), 1535(ooc), 1536(ooc), 1539(ooc), 1541(ooc), 1542(ooc), 1544(ooc), 1545(ooc), 1546(ooc), 1547(ooc), 1548(ooc), 1549(ooc), 1550(ooc), 1551(ooc), 1552(ooc), 1554(ooc), 1555(ooc), 1556(ooc), 1557(ooc), 1558(ooc), 1559(ooc), 1560(ooc), 1561(ooc), 1562(ooc), 1564(ooc), 1565(ooc), 1566(banter), 1567(ooc), 1569(ooc), 1570(ooc), 1571(ooc), 1572(ooc), 1573(ooc), 1576(ooc), 1577(ooc), 1580(ooc), 1582(ooc), 1583(ooc), 1584(ooc), 1586(ooc), 1587(ooc), 1588(ooc), 1590(ooc), 1591(ooc), 1592(ooc), 1594(ooc), 1595(ooc), 1596(ooc), 1597(ooc), 1598(ooc), 1599(ooc), 1600(ooc)] -->
 
 <!-- RAW_RANGE: [1601, 1700] | SCENE_ID: 205 | OOC -->
 

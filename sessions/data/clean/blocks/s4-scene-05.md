@@ -42,7 +42,7 @@ At the far console, the surviving museum security guard slammed down the emergen
 
 Pierre watched Alfie's orange cable disappear into the stairwell, but his curiosity pulled him in the opposite direction. Near the raised glass case, the civilian attendant who had been struck by the first Gorgon's shot was turning rapidly to stone. Pierre ran over to investigate her condition. <!-- L0620 --> <!-- L0622 --> <!-- L0625 -->
 
-Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. On an arcana check of twenty-one, Pierre touched the stone skin to analyze the magic. <!-- L0627 --> <!-- L0632 --> <!-- L0636 -->
+Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. Looking around in mounting concern, Pierre touched the coarse stone skin, instantly recognizing the creeping petrification from memories of his youth. <!-- L0627 --> <!-- L0632 --> <!-- L0636 -->
 
 "This is a very weird pilgrimage," Pierre muttered under his breath. "What am I supposed to learn from this? Are you part of the pilgrimage? What did you do to cause this?" <!-- L0637 --> <!-- L0639 --> <!-- L0641 -->
 

@@ -4,7 +4,7 @@
 
 Pierre carried the documentation tray through the swinging doors into the research annex, his step brisk and purposeful. Behind him, the administrative staff buzzed around desks piled high with catalogs and exhibition brochures.
 
-The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached. "What is this? Where did this specimen come from?"
+The senior curator looked up from his desk, pushing his reading glasses down his nose as Pierre approached, demanding to know what the specimen was and where it had come from.
 
 Pierre offered a polite, deferential bow, assuming the posture of an earnest young scholar. "Pardon, monsieur! It is my first day on the staff. I have traveled from France to assist with the epigraphy catalog. My staff email and security ID badge are not yet active in the system, but I located this translation piece in the intake queue." <!-- L1551 -->
 
@@ -20,17 +20,17 @@ Pierre tilted his head with faux innocence. "Massachusetts... is that like a bra
 
 "It is the premier history institution in the country, young man, not chewing gum!" the curator huffed, waving his pen. "We test this immediately after close. Bring the staging cart into the rotunda." <!-- L1633 -->
 
-Beside the stone fragment on the tray, Alfie executed a flawless performance. Giving a slight tug on his twine loop, the wooden doll let out a cheerful, tinny squeak: "Watch out for the water! Pull the string again!" <!-- L1641 --> <!-- L1644 --> <!-- L1646 -->
+Beside the stone fragment on the tray, Alfie executed a flawless performance. He gave a slight tug on his twine loop, letting out a cheerful, tinny squeak: "Watch out for the water! Pull the string again!" <!-- L1641 --> <!-- L1644 --> <!-- L1646 -->
 
 The curator blinked down at the puppet, tapping Alfie's carved cedar head. "Curious little exhibit souvenir... We'll catalog the doll after the tablet test." He loaded the intake tray onto the heavy rubber-wheeled staging cart. <!-- L1652 -->
 
-Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the ancient marble pedestal. <!-- L1654 -->
+Pierre clasped his hands behind his back, falling into step as the cart was wheeled directly into the central atrium beside the glass display case housing the ancient stele. <!-- L1654 -->
 
 The museum’s overhead chimes chimed six times, the deep brass tones rolling through the vaulted galleries.
 
 Nincy’s cheerful Southern drawl crackled across the public intercom, accompanied by the glare of multiple phone ring lights as she broadcast live to her social media followers: "Well, that's all for today, sugar! It's six o'clock and time to close down the North Carolina Museum of History. Head on out toward the exits, and make sure to stay tuned to our live stream—I hear there might be a little excitement in the Greek wing tonight!" <!-- L1655 -->
 
-Suited researchers and gallery security ushered the final visitors through the glass turnstiles. Near the center of the hall, an armed guard in tactical gear moved over to the primary control console, his heavy gloved hand hovering over the large red master button to bring down the reinforced protective claw over the ancient tablet for overnight lockup.
+Suited researchers and gallery staff ushered the final visitors through the turnstiles. Near the center of the hall, a security guard in a navy blazer strolled over to inspect the stanchions, checking his watch as he prepared to engage the display case's overnight lock.
 
 Pierre stood quietly in the center of the emptying atrium, exchanging a tense, silent glance with Alfie on the cart as the closing chimes faded into silence. <!-- L1656 -->
 

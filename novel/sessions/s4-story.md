@@ -12,7 +12,7 @@ The lead archaeologist nodded toward the overhead rig, convinced that the fragme
 
 With a low hydraulic hum, the mechanical claw descended from the ceiling, its steel pincers latching onto the reinforced glass vitrine. Gears clicked as the glass lifted, rising smoothly until a two-foot gap opened between the rim of the case and the museum floor. <!-- L0114 --> <!-- L0116 -->
 
-Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. Reaching inside his tailored blazer, he pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown. <!-- L0118 -->
+Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. He reached inside his tailored blazer, pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown. <!-- L0118 -->
 
 Around the gallery, the air grew suddenly thick and charged with ozone as the party took up defensive positions. The mundane illusion covering the security guards began to warp and dissolve like smoke in a draft. Beneath the harsh museum track lights, the neat crew-cuts on their heads began to writhe and hiss, their hair separating into dozens of living, coiling vipers. On their breast pockets, the silver museum security badges caught the fluorescent glare, each stamped with an identical name: *Gordon. Gordon. Gordon. Gordon.* <!-- L0142 --> <!-- L0145 --> <!-- L0147 --> <!-- L0148 -->
 
@@ -50,7 +50,7 @@ Pierre peered beneath the glass case. The digital device sat squarely atop the l
 
 "Alfie," Pierre murmured, a reckless grin spreading across his face. "Are you thinking what I am thinking?" <!-- L0188 --> <!-- L0189 --> <!-- L0191 --> <!-- L0192 -->
 
-Rummaging through the archaeology cart's lower tool shelf, Pierre pushed past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord. <!-- L0193 --> <!-- L0194 --> <!-- L0196 --> <!-- L0197 -->
+Pierre rummaged through the archaeology cart's lower tool shelf, pushing past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord. <!-- L0193 --> <!-- L0194 --> <!-- L0196 --> <!-- L0197 -->
 
 With quick, deft loops, Pierre fastened the heavy rubberized cable securely around the sturdy twine waistline of Alfie's coat. He scooped the driftwood doll up into his arms and dropped into a low crouch behind a wooden shipping crate, out of the Gorgons' direct line of fire. <!-- L0199 --> <!-- L0203 --> <!-- L0204 -->
 
@@ -72,7 +72,7 @@ In the museum lobby, Nincy screamed as the calcifying gray crust raced from her 
 
 "Edward, it is your turn!" Dravin heard the call amid the ringing chaos and vaulted into motion. <!-- L0221 -->
 
-Hitching his tweed elbows, the professor broke into a frantic sprint across the lobby tiles toward the reception desk. "I'm immediately sprinting over to Nincy and hitting a Cure Wounds!" he shouted over the blaring klaxons. <!-- L0222 -->
+The professor hitched his tweed elbows and broke into a frantic sprint across the lobby tiles toward the reception desk. "I'm immediately sprinting over to Nincy and hitting a Cure Wounds!" he shouted over the blaring klaxons. <!-- L0222 -->
 
 Pierre peered around the corner of the packing crate, watching Dravin's desperate charge. A thought struck him, and he wondered aloud whether Dravin actually knew he was casting divine spells, or if his academic research was simply manifesting into magical effects. <!-- L0224 --> <!-- L0225 -->
 
@@ -88,7 +88,7 @@ Pierre peered around the corner of the packing crate, watching Dravin's desperat
 
 "Cure hounds," Alfie chimed in, chuckling at the linguistic slip. <!-- L0306 --> <!-- L0307 -->
 
-Across the floor, the Gordon who had fired the shot hissed in frustration. Lurching forward, the serpent-headed operative lunged across the desk to snatch the phone from Nincy's grip before the footage could upload. <!-- L0319 -->
+Across the floor, the Gordon who had fired the shot hissed in frustration. The serpent-headed operative lurched forward and lunged across the desk to snatch the phone from Nincy's grip before the footage could upload. <!-- L0319 -->
 
 "Whoa—who was that?" Alfie blinked. "For a second, someone called her Nancy! Her name is Nincy with an *I*!" <!-- L0320 --> <!-- L0321 --> <!-- L0322 -->
 
@@ -96,7 +96,7 @@ Nincy ducked her shoulder, clutching her phone to her chest with white-knuckled 
 
 Across the gallery, the fourth Gordon broke into a dead run toward the eastern wall, aiming to hit the button to drop the glass case down again and seal the ticking bomb inside. <!-- L0326 --> <!-- L0328 -->
 
-"Alfie," Pierre hissed, tightening the orange cord around the doll's waist. "It's your turn!"
+Pierre tightened the orange cord around the doll's waist, bracing Alfie for his throw.
 
 "Ye—" Alfie began. <!-- L0330 -->
 
@@ -106,9 +106,9 @@ Across the gallery, the fourth Gordon broke into a dead run toward the eastern w
 
 "—etated!" Alfie declared from behind the crate. "I think I'm ready to be yeeted under the glass!" <!-- L0331 -->
 
-"Are you thinking a high lob?" Pierre asked, measuring the gap with an anxious squint.
+Pierre measured the narrow clearance beneath the vitrine with an anxious squint, weighing whether an airborne pitch was even possible.
 
-"No, mate," Alfie corrected, planting his carved feet on the linoleum. "I'm viewing this as more of a slide across the floor and then a little scurry." <!-- L0335 -->
+"I'm viewing this as more of like a slide across the floor and then a little scurry," Alfie countered, planting his carved feet on the linoleum. <!-- L0335 -->
 
 "I will help you aim," Pierre offered, adjusting his spectacles. He braced his shoulders to assist the little doll, timing the launch to give Alfie maximum momentum. <!-- L0340 --> <!-- L0343 --> <!-- L0345 --> <!-- L0347 --> <!-- L0349 -->
 
@@ -130,7 +130,7 @@ Alfie trembled from head to wooden toe. "Watch out for the water," he rasped, co
 
 The moment Alfie's hands had touched the stone, a warm, resonant shockwave of raw temporal vitality rippled across the room. The exhaustion of the day melted away from Pierre and Dravin in an instant. Spells long expended snapped back into readiness; strained muscles refreshed as though they had completed a full night's peaceful rest. <!-- L0382 --> <!-- L0383 --> <!-- L0385 --> <!-- L0387 -->
 
-Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
+Alfie clutched his coat, visibly shaken to his core. He looked back toward his companions and asked whether the temporal release had reached them all. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
 
 
 "The power emanated to all of us," Pierre called out in relief. <!-- L0397 --> <!-- L0400 -->
@@ -141,7 +141,7 @@ Pierre set his boots against the crate and hauled on the rubber cord, reeling Al
 
 Across the gallery, Nincy sprinted toward the main doors, holding her phone aloft to preserve her footage. <!-- L0416 -->
 
-Seeing the tablet's glow flare and dissipate, the lead Gordon bared his fangs, his snake hair hissing in unison. "Revision is compromised!" he snarled in fury. "Capture the subjects!" <!-- L0417 -->
+The tablet's glow flared and dissipated. The lead Gordon bared his fangs, his snake hair hissing in unison. "Revision is compromised!" he snarled in fury. "Capture the subjects!" <!-- L0417 -->
 
 The Gorgon lunged across the floor, driving a serpent-crowned headbutt toward Dravin, the impact grazing the professor for four damage. <!-- L0419 --> <!-- L0431 -->
 
@@ -230,7 +230,7 @@ At the far console, the surviving museum security guard slammed down the emergen
 
 Pierre watched Alfie's orange cable disappear into the stairwell, but his curiosity pulled him in the opposite direction. Near the raised glass case, the civilian attendant who had been struck by the first Gorgon's shot was turning rapidly to stone. Pierre ran over to investigate her condition. <!-- L0620 --> <!-- L0622 --> <!-- L0625 -->
 
-Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. On an arcana check of twenty-one, Pierre touched the stone skin to analyze the magic. <!-- L0627 --> <!-- L0632 --> <!-- L0636 -->
+Pierre knelt beside the stiffening woman, examining the spreading calcification. Her fingers were already fused solid, the coarse gray texture climbing past her collarbones toward her chin. Looking around in mounting concern, Pierre touched the coarse stone skin, instantly recognizing the creeping petrification from memories of his youth. <!-- L0627 --> <!-- L0632 --> <!-- L0636 -->
 
 "This is a very weird pilgrimage," Pierre muttered under his breath. "What am I supposed to learn from this? Are you part of the pilgrimage? What did you do to cause this?" <!-- L0637 --> <!-- L0639 --> <!-- L0641 -->
 
@@ -264,7 +264,7 @@ Dravin assessed the room. "These gates that are down—they're like a mall at cl
 
 The corrugated metal shutters sealed every archway tightly. "So the people outside aren't getting back in," Dravin observed, planting his sturdy frame between the awake Gordon and his sleeping comrade. "We just have one awake in this room with us. You'll have to go through me!" Dravin dragged the sleeping operative back by the collar to keep him out of the fight. <!-- L0710 --> <!-- L0712 --> <!-- L0716 --> <!-- L0718 -->
 
-The awake Gordon hissed, striking out at Dravin with his venomous claws, tearing into the professor's sleeve for four damage. <!-- L0723 --> <!-- L0725 -->
+The awake Gorgon hissed, catching a fleeting look of recognition as he glanced at Pierre, before turning viciously back toward Edward to strike, his venomous claws tearing through the professor's tweed sleeve. <!-- L0723 --> <!-- L0725 -->
 
 From the stairwell landing above, Alfie peered through the banisters at the base landing. <!-- L0730 -->
 
@@ -274,7 +274,7 @@ Alfie eyed the display pedestals below. "All these pots and relics—they're not
 
 *SMASH!*
 
-The heavy terracotta vessel cracked across Gordon's head, shattering into pottery shards and dealing five bludgeoning damage. <!-- L0755 -->
+The heavy terracotta vessel cracked across the Gorgon's skull, shattering into jagged shards and sending the operative stumbling across the marble floor. <!-- L0755 -->
 
 At the center vitrine, the museum attendant groaned. The gray stone had completely vanished from her skin, leaving her fully restored. She blinked in dazed bewilderment, touching the limestone tablet. This time, no radiant pulse answered—the tablet's stored temporal vitality had fully dispersed. <!-- L0757 --> <!-- L0758 --> <!-- L0760 --> <!-- L0761 --> <!-- L0762 --> <!-- L0763 -->
 
@@ -432,17 +432,19 @@ Naomi opened a dispatch report on her tablet. "We lost another lead today," she 
 
 "Are they torn between two meanings in the news?" Pierre asked, wondering how social media was reacting. "Is public perception splitting?" <!-- L1136 --> <!-- L1137 --> <!-- L1138 -->
 
-"The media coverage is strangely muted," Naomi explained. "An infamous relic theft like that should have stirred up viral coverage, but the public seems to have moved on already, as if memory is being actively dampened." <!-- L1139 --> <!-- L1140 --> <!-- L1141 -->
+"The media coverage is strangely muted," Naomi explained. "An infamous relic theft like that should have stirred up viral coverage, but the public seems to have moved on already, as if memory is being actively dampened." <!-- L1139 --> <!-- L1140 -->
 
-"When did this happen compared to our heist?" Pierre pressed. <!-- L1144 -->
+"When did this happen compared to our heist?" Pierre pressed. <!-- L1141 -->
 
-"About the same time," Naomi said.
+"About the same time," Naomi said. <!-- L1142 -->
 
 "Naomi, I do not care about this toy catapult!" Pierre protested dramatically. "I thought I was going to be famous on American television! How else do you make Hollywood? Why else would my mother send me to America?" <!-- L1147 -->
 
-"I don't think you're supposed to get famous," Naomi countered dryly. "Your mother might be a dance mom, but this is a covert timeline recovery, not a reality show." <!-- L1150 --> <!-- L1153 -->
+"I don't think you're supposed to get famous," Naomi countered dryly. "Your mother might be a dance mom, but this is a covert timeline recovery, not a reality show." <!-- L1150 -->
 
-"Where is my media coverage?" Pierre demanded.
+"Where is my media coverage?" Pierre demanded. <!-- L1152 -->
+
+"I have to assume something will come out of stealing a Spartan armor set from a museum," Naomi replied, "even if the mortal world hasn't caught on yet." <!-- L1153 -->
 
 Naomi pulled out her phone, checking the feed for the North Carolina Museum of Natural and World History. "There is a new post from Nincy's account," she reported. The video was strangely distorted: dark shadowy orbs and light smears obscured the Gorgons' faces. Whenever the party appeared, they looked like blurry pedestrians turned away from the camera, and the footage skipped abruptly past the moment Dravin laid hands on her wrists. <!-- L1157 --> <!-- L1160 --> <!-- L1165 -->
 
@@ -452,7 +454,7 @@ Naomi pulled out her phone, checking the feed for the North Carolina Museum of N
 
 "For now, the timeline anomaly is masked," Naomi concluded, locking her phone. "The Fates haven't scrubbed the internet yet, but we need to move on our next objective before the Redactors trace the thread back through the Lost Roads." <!-- L1180 -->
 
-<!-- LEDGER: rendered=[1101, 1102, 1104, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141, 1144, 1147, 1150, 1153, 1157, 1160, 1165, 1168, 1172, 1176, 1180] skipped=[1103(ooc), 1105(ooc), 1113(ooc), 1127(ooc), 1142(ooc), 1143(ooc), 1145(ooc), 1146(ooc), 1148(ooc), 1149(compressed), 1151(compressed), 1152(ooc), 1154(ooc), 1155(ooc), 1156(ooc), 1158(ooc), 1159(ooc), 1161(ooc), 1162(compressed), 1163(ooc), 1164(ooc), 1166(ooc), 1167(ooc), 1169(ooc), 1170(ooc), 1171(ooc), 1173(ooc), 1174(ooc), 1175(ooc), 1177(ooc), 1178(compressed), 1179(compressed)] -->
+<!-- LEDGER: rendered=[1101, 1102, 1104, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141, 1142, 1147, 1150, 1152, 1153, 1157, 1160, 1165, 1168, 1172, 1176, 1180] skipped=[1103(ooc), 1105(ooc), 1113(ooc), 1127(ooc), 1143(ooc), 1144(ooc), 1145(ooc), 1146(ooc), 1148(ooc), 1149(compressed), 1151(compressed), 1154(ooc), 1155(ooc), 1156(ooc), 1158(ooc), 1159(ooc), 1161(ooc), 1162(compressed), 1163(ooc), 1164(ooc), 1166(ooc), 1167(ooc), 1169(ooc), 1170(ooc), 1171(ooc), 1173(ooc), 1174(ooc), 1175(ooc), 1177(ooc), 1178(compressed), 1179(compressed)] -->
 
 <!-- RAW_RANGE: [1181, 1244] | SCENE_ID: 11 -->
 

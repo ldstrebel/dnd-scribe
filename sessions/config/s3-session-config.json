@@ -12,7 +12,27 @@
     "Sophie Foreman Noone": "Alfie"
   },
   "shared_mics": {},
+  "npcs": [
+    { "name": "Ally", "introduced_scene": 1 }
+  ],
+  "session_lore_terms": [
+    { "term": "Lost Roads", "introduced_scene": 1 }
+  ],
   "dialogue_speakers": {
+    "410": "ally",
+    "411": "dravin",
+    "412": "ally",
+    "414": "ally",
+    "417": "dravin",
+    "418": "ally",
+    "422": "ally",
+    "424": "ally",
+    "425": "dravin",
+    "450": "ally",
+    "452": "ally",
+    "453": "dravin",
+    "458": "ally",
+    "460": "ally",
     "468": "ally",
     "561": "ally",
     "724": "nincy",
@@ -29,6 +49,7 @@
     "836": "nincy",
     "856": "nincy",
     "876": "thomas",
+    "998": "thomas",
     "1545": "dravin",
     "1552": "attendant",
     "1582": "attendant",
@@ -36,13 +57,17 @@
     "1615": "attendant",
     "1633": "attendant",
     "1652": "attendant",
-    "1655": "nincy",
-    "uneraseable_s03_b025": "nincy",
-    "uneraseable_s03_b037": "dravin",
-    "uneraseable_s03_b078": "dravin",
-    "uneraseable_s03_b085": "attendant"
+    "1655": "nincy"
   },
   "legitimate_ooc_lore_skips": [
+    {
+      "line": 539,
+      "reason": "Player table-level banter punning Alfie with Ally."
+    },
+    {
+      "line": 540,
+      "reason": "GM banter acknowledging Alfie and Ally sound similar."
+    },
     370,
     {
       "line": 364,
@@ -103,34 +128,6 @@
     {
       "line": 1524,
       "reason": "Player table-level speculation/planning; no new in-world content beyond the rendered scene."
-    },
-    {
-      "line": 389,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
-    },
-    {
-      "line": 395,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
-    },
-    {
-      "line": 410,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
-    },
-    {
-      "line": 414,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
-    },
-    {
-      "line": 418,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
-    },
-    {
-      "line": 452,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
-    },
-    {
-      "line": 460,
-      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
     },
     {
       "line": 464,

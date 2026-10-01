@@ -12,6 +12,8 @@ By the crackling common room hearth, Mike looked up from his steaming mug with a
 
 "We found a particle of ancient stone," Pierre reported proudly, showing off the fragment alongside their salvaged Spartan armor. "And we gave them fresh bread in exchange, so I think we deserved credit!" <!-- L1091-L1093 -->
 
+"The only person filming was Nincy, and she kind of turned to stone," Alfie added from his bench, tugging his oversized hat down. <!-- L1097:alfie -->
+
 Mike's brow furrowed in grave concern upon learning of the encounter: "I would not have thought Redactors would be on the scene that fast." <!-- L1098-L1100 -->
 
-<!-- LEDGER: spans=[L0991-L1016, L1018-L1023, L1028-L1086, L1088-L1090, L1091-L1093, L1098-L1100] skipped=[L1017(ooc), L1024-L1027(ooc), L1087(ooc), L1094-L1097(ooc)] -->
+<!-- LEDGER: spans=[L0991-L1016, L1018-L1023, L1028-L1086, L1088-L1090, L1091-L1093, L1097, L1098-L1100] skipped=[L1017(ooc), L1024-L1027(ooc), L1087(ooc), L1094-L1096(ooc)] -->

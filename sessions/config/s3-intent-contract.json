@@ -1,0 +1,121 @@
+{
+  "session_id": "s3",
+  "title": "Session 3: The Lost Roads & The Raleigh Museum Infiltration - Intent Parity Contract",
+  "description": "Double-blind intent and agency rules for Session 3 to prevent Hollywood heist tropification (FP-01), modern vehicle highway transit (DEC-003), and ungrounded mechanical leaks.",
+  "rules": [
+    {
+      "id": "TABLETOP_MECHANIC_LEAK",
+      "description": "Forbid raw D&D rules, dice terminology, and feature labels from leaking into novel manuscript prose",
+      "forbidden_prose_patterns": [
+        "\\bnatural\\s+twenty\\b",
+        "\\bdivine\\s+feature\\b",
+        "\\bsaving\\s+throw\\b",
+        "\\bspell\\s+slot\\b",
+        "\\barcana\\s+check\\b",
+        "\\broll\\s+(?:initiative|with\\s+advantage)\\b"
+      ],
+      "fail_message": "Tabletop game mechanics or dice terminology leaked into narrative prose."
+    },
+    {
+      "id": "HOLLYWOOD_HEIST_TROPES",
+      "description": "Forbid high-tech Hollywood heist tropes (FP-01). The Raleigh museum entry is an awkward academic social bluff, not an Ocean's Eleven laser-grid infiltration",
+      "forbidden_prose_patterns": [
+        "\\blaser\\s+grid\\b",
+        "\\binfrared\\s+(?:beam|sensor)\\b",
+        "\\bgrappling\\s+hook\\b",
+        "\\bthermal\\s+sensor\\b",
+        "\\bhacking\\s+the\\s+(?:system|camera)\\b"
+      ],
+      "fail_message": "Hollywood heist tropes detected (FP-01). Museum entry is grounded social bluffing, not high-tech infiltration."
+    },
+    {
+      "id": "UNANCHORED_HIGHWAY_TRANSIT",
+      "description": "Transit to Raleigh occurs through Theodore's maintenance shed onto the metaphysical Lost Roads, never modern asphalt highway driving (DEC-003)",
+      "target_scenes": ["scene-01", "scene-02", "scene-03"],
+      "forbidden_prose_patterns": [
+        "\\bdrove\\s+down\\s+(?:the\\s+)?interstate\\b",
+        "\\basphalt\\s+highway\\b",
+        "\\bhighway\\s+patrol\\b"
+      ],
+      "fail_message": "Unanchored modern vehicle transit detected (DEC-003). Transit must use the Lost Roads threshold."
+    },
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology must not drift from canonical names",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "fail_message": "Adversary faction terminology drifted from canonical lore."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "Threshold Transit via The Shed",
+      "liberty": "Staged transition through Theodore's maintenance shed into the metaphysical fog of the Lost Roads, establishing tactile sensory grounding.",
+      "impact": "Preserved canonical non-vehicular transit while creating eerie threshold atmosphere."
+    },
+    {
+      "scene": "scene-02",
+      "scope": "Maiden of Persephone & Metaphysical Time Warps",
+      "liberty": "Novelize Ally's exposition on the non-linear temporal dilation of the Lost Roads, dramatize Alfie's longing for pancakes, and stage Ally vanishing through ancient limestone archways.",
+      "impact": "Deepened mythological atmosphere while explaining the metaphysical mechanics of the transit bypass."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "Raleigh Annex Arrival & Museum Scouting",
+      "liberty": "Staged the emergence from the Lost Roads into the Raleigh storage annex, observing the museum across the parking lot and establishing the grounded academic disguise plan.",
+      "impact": "Prevented modern highway driving hallucinations while grounding the approach to the museum."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "The Front Desk Academic Bluff",
+      "liberty": "Dramatized Dravin's patrician scholarly credentials to bluff past museum reception, heightening Pierre's nervous French social anxiety.",
+      "impact": "Created authentic comedic character tension without resorting to heist tropes."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "Sheep Distraction & Haunted Doll Theatrics",
+      "liberty": "Staged Pierre's melodramatic horrified theatricals over Alfie being a cursed doll to distract visitors, integrating the chaotic sheep stampede into the museum atrium.",
+      "impact": "Maximized character comedic timing while providing tactical cover for the infiltration."
+    },
+    {
+      "scene": "scene-06",
+      "scope": "The Research Annex & Security Guard Commotion",
+      "liberty": "Choreographed security guard Thomas wrangling escaped livestock against the kiosk while Dravin deftly searches for access keys without violence.",
+      "impact": "Maintained non-violent social stealth and grounded museum logistics."
+    },
+    {
+      "scene": "scene-07",
+      "scope": "Epigraphy Team Infiltration & White Coat Masquerade",
+      "liberty": "Staged Pierre and Dravin donning research lab coats to blend in with the visiting university epigraphers, deflecting scholarly scrutiny with classical jargon.",
+      "impact": "Heightened tension through intellectual masquerade rather than high-tech espionage."
+    },
+    {
+      "scene": "scene-08",
+      "scope": "Preservation Prep Room & Aegean Limestone Replication",
+      "liberty": "Dramatized Pierre wheeling a utility cart into the prep room, utilizing his artistic background to evaluate the Aegean carving chisel marks.",
+      "impact": "Anchored Pierre's legitimate artistic talent to the antiquities theft narrative."
+    },
+    {
+      "scene": "scene-09",
+      "scope": "Security Badge Swipe & Restricted Archives Infiltration",
+      "liberty": "Choreographed swiping the acquired staff keycard at the magnetic door latch to enter the restricted archives under closing-bell pressure.",
+      "impact": "Delivered crisp heist tension adhering strictly to realistic institution security."
+    },
+    {
+      "scene": "scene-10",
+      "scope": "The Aegean Vitrine & Stele Scouting",
+      "liberty": "Focalized party inspection of the Greek inscription tablet, sensory alarm recognition, and tactical positioning before the impending assault.",
+      "impact": "Set up the high-stakes physical climax of Session 4 Beckon/Beacon Wordcraft alteration."
+    }
+  ]
+}

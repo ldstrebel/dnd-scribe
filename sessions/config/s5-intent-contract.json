@@ -76,10 +76,28 @@
       "impact": "Eliminated 236 words of mechanical table preamble to establish immediate atmospheric momentum."
     },
     {
+      "scene": "scene-02",
+      "scope": "Naomi's Architectural Photograph & Quadrangle Briefing",
+      "liberty": "Streamlined 476 words of procedural table discussion around Naomi's photographs; focalized prose onto the sprawling Gothic colonnades and historical campus lore.",
+      "impact": "Accelerated transition from the cabin debrief to expedition deployment while retaining core lore."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "Persephone's Celestial Epistle & Pomegranate Signet",
+      "liberty": "Elevated Dravin's signet flare and letter reading from fragmented player turns into a unified, solemn mythic revelation; compressed table cross-talk by 52%.",
+      "impact": "Deepened the emotional weight and cosmological stakes of the Underworld descent."
+    },
+    {
       "scene": "scene-04",
       "scope": "The University Campus & Quadrangle",
       "liberty": "Condensed campus transit logistics from 913 words to 370 words; replaced wandering player navigation with focused environmental awe.",
       "impact": "Accelerated arrival at the lecture hall by 59%."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "The Hemlock Corridor & Temporal Lost Roads",
+      "liberty": "Fused redundant navigation checks into a seamless physical trek through the ancient hemlock canopy and temporal ozone.",
+      "impact": "Condensed 1,137 words of table wandering to 364 words (68% compression) of high-atmosphere transit."
     },
     {
       "scene": "scene-06",
@@ -88,10 +106,22 @@
       "impact": "Tightened a 1,200-word table debate into a high-stakes 389-word scene."
     },
     {
+      "scene": "scene-07",
+      "scope": "The 1948 Trial Notes & Tin-Foil Demonstrators",
+      "liberty": "Condensed lobby milling and pamphlet examination into sharp ideological encounters on the limestone steps.",
+      "impact": "Cut 768 words of scattered table questions to focus on the historical timeline and Reductor infiltration clues."
+    },
+    {
       "scene": "scene-08",
       "scope": "Auditorium Lecture Dynamics",
       "liberty": "Replaced player seat-scouting logistics with dramatic focalization on Dr. Thorne's altered clinical slides.",
       "impact": "Condensed scene from 1,271 words to 377 words (70% compression)."
+    },
+    {
+      "scene": "scene-09",
+      "scope": "Lecture Q&A Rostrum Hijack & Green Room Staging",
+      "liberty": "Streamlined audience applause and seating maneuvers into Dravin's deliberate podium distraction and Pierre's immediate aesthetic confrontation of Dr. Thorne.",
+      "impact": "Turned 1,293 words of diffuse table movement into a tight, theatrical staging sequence."
     },
     {
       "scene": "scene-10",

@@ -310,8 +310,98 @@ Every entry records:
 
 ---
 
+### [DEC-026] 2026-09-27: Unawakened Mortal Spellcasting & Latent Magic Intent Parity
+* **Context & Friction:** In early sessions (S1–S3), players use standard D&D tabletop spell mechanics (*"I cast Chill Touch"*, *"I cast Toll the Dead"*), but in-character mortals (like Prof. Edward Dravin) are unawakened academics who do not know they have magical power or how to cast spells. Direct novelization risks writing classical wizard tropes (chanting incantations, deliberate arcane channeling) which distorts character portrayal and breaks the low-fantasy mortal awakening arc.
+* **Precedent Honoured:** `DEC-002` (Tier B action extraction), `DEC-005` (Third-Person Table Intent vs In-World Speech), `DEC-015` (Double-Blind Intent Parity Contracts), `DEC-018` (Itemized Creative Liberties).
+* **Agreed Decision & Protocol:**
+  1. Early-session intent contracts (`sN-intent-contract.json`) must enforce the **Latent Magic Invariant**:
+     - Negative rules forbid classical wizard terms (`incanted`, `channeled arcane energy`, `murmured a spell`, `cast chill touch/toll the dead`).
+     - Positive rules require mundane physical reflexes and tactile environmental contact (`fingers`, `spectacles`, `twitch`, `recoil`, `handrail`, `shudder`, `involuntary`).
+  2. The table-to-narrative trade-off is recorded in `authorial_liberties`: table mechanical spells are translated into involuntary physical manifestations, preserving combat consequences without turning academics into classical fantasy wizards.
+* **Trade-off Accepted:** Verbatim player mechanical intentions (*"I cast Chill Touch"*) in Track A raw transcripts are adapted in Track B and novelized prose into involuntary physiological/mundane phenomena. Spoken in-world dialogue remains verbatim; only the physical delivery and somatic intent are re-anchored.
+* **Enforcing Gate:** `sessions/_scripts/verify_intent_parity.py` (`DRAVIN_NO_WIZARD_INCANTATIONS`, `DRAVIN_MUNDANE_MAGIC_STAGING`), `sessions/config/s1-intent-contract.json`, `run_publishing_pipeline.py`.
+
+---
+
+### [DEC-027] 2026-09-27: Ledger-First Ingest Protocol & Bidirectional Milestone Synchronization
+* **Context & Friction:** During the Session 2 sequential audit, the user had to explicitly ask whether key meta-arc scenes (Fates, Naomi's board, Museum tablet, Thorne's binder) were tracked by our campaign agent. Inspection of `campaign/CAMPAIGN_ARC_LEDGER.md` revealed that despite `audit_arc_ledger.py` returning `[PASS]` on every run, the ledger omitted the Three Fates, cited Naomi's board as GM prep instead of table canon, omitted Pierre's Echidna lineage, and contained obsolete, hallucinated milestones for S1 and S2 (*"breakfast routines in a cabin"*, *"Eusacles isolated on disparate road"*). The automated gate was structural (checking bracketed citation syntax) rather than semantic, leading to severe agent amnesia and user discomfort over uncontrolled complexity.
+* **Precedent Honoured:** `FP-07` / `DEC-008` (Warning Blindness & False-Pass Complacency), `DEC-010` (Negative-Only Mandate), `DEC-019` (Fail-Hard on Breach), `DEC-025` (Dialectical Writers' Room & Arc Steward).
+* **Agreed Decision & Protocol:**
+  1. **Ledger-First Ingest Mandate:** Before auditing or novelizing session $N$, the agent must inspect Section 4 (*Session Milestone Registry*) and Section 2 (*Active Factions & Celestial Entities*) of `CAMPAIGN_ARC_LEDGER.md`. Key entities introduced in session $N$ must be present in the ledger before the session is declared audited.
+  2. **Bidirectional Milestone Synchronization:** Section 4 milestone entries must accurately reflect the committed scene blocks, citing exact raw line spans rather than speculative or legacy outline placeholders.
+  3. **Inspection Precedes Advice:** Banned theoretical discourse in chat regarding campaign architecture or meta-lore without first executing read tools on the relevant ledger and configuration files.
+* **Trade-off Accepted:** Requires maintaining the campaign ledger as a live editing artifact during session audits rather than treating it as an isolated reference document updated post-hoc.
+* **Enforcing Gate:** `sessions/_scripts/audit_arc_ledger.py` (35 claims, 46 citations verified); `run_publishing_pipeline.py` Step 1; postmortem document `postmortem_scale_amnesia.md`.
+
+### [DEC-028] 2026-09-27: Pragmatic Multi-Agent Orchestration, Markdown Table Parsing & Python Gate Hardening
+* **Context & Friction:** Review of multi-agent orchestration for session audits revealed that 3 of the 4 failure modes in DEC-027 were deterministic code gaps in Python verification scripts rather than LLM cognitive deficits. Spawning a 4-subagent writers' room for auditing scene-by-scene produced excessive coordination overhead and risked rubber-stamp approvals. Furthermore, forensic inspection revealed that Section 4 (*Session Milestone Registry*) in `CAMPAIGN_ARC_LEDGER.md` was formatted as a Markdown table and was completely skipped by `audit_arc_ledger.py`'s bullet-only regex loop, allowing ungrounded milestone rows to escape verification.
+* **Precedent Honoured:** `DEC-025` (Dialectical Writers' Room & External Arbiter Principle), `DEC-027` (Ledger-First Ingest Mandate), `FP-07` / `DEC-008` (Anti-Hollow Gate Overhaul).
+* **Agreed Decision & Protocol:**
+  1. **Two-Phase Session Audit Model:** Single primary agent runs gate-driven fixes, followed by one independent reviewer subagent (`novel-critic` role) operating under an adversarial quota (mandatory extraction of 2-3 critique candidates/near-misses; testing Intent Contract negative rules; zero unanchored praise).
+  2. **Three-Agent Model for New Drafting (S6+):** Agent 0 (Pre-Flight, read-only brief), Agent 1 (Drafter, grounding + craft guidelines), Agent 2 (Adversarial Reviewer, novel-critic + reader-advocate). Arc Steward and Reader Advocate are enforced as pre-flight constraints and deterministic Python gates, not running concurrent agents.
+  3. **Milestone 1A & 1C Hardening in `audit_arc_ledger.py`:**
+     - Dedicated Markdown table parser for Section 4: asserts provenance tags on each cell, increments audited claims/citations (45 claims, 56 citations verified).
+     - In-world line bounds validator: asserts cited lines fall within in-world session boundaries (`[line_range[0], total_raw_lines]`), preventing phantom lines and OOC line citations.
+     - Dynamic session milestone coverage check against existing manifests in `sessions/data/index/`.
+     - Scoped canonical entity cross-reference (`--session sN`) validating celestial registries and primordial factions against Section 2 while preventing minor one-off local NPC pollution (the "Ally the sheep" trap).
+  4. **Milestone 1B Hardening in `print_writers_room.py`:**
+     - Added population health warnings (`⚠️ [UNDERPOPULATED]`) for empty lore terms, NPCs, and liberties.
+     - Section 4 milestone dump: extracts and prints the session's recorded milestone directly in the terminal, forcing the agent to inspect the campaign record.
+  5. **Milestone 2A Step 0 in `run_publishing_pipeline.py`:**
+     - Single-session builds (`sN`) execute the full verbose Writers' Room brief.
+     - Batch builds (`s1 s2 s3 s4 s5`) execute a compact 1-line per-session telemetry health check.
+* **Trade-off Accepted:** Requires maintaining Markdown table rows with strict in-world line numbers; milestone table parser adds parsing complexity; independent reviewer subagent is mandated only after mechanical Python gates pass.
+* **Enforcing Gate:** `sessions/_scripts/audit_arc_ledger.py` (enhanced with table parser & bounds validation), `sessions/_scripts/print_writers_room.py`, `sessions/_scripts/run_publishing_pipeline.py` Step 0, `sessions/_scripts/harness/test_harness.py` (`TestWritersRoomGates.test_synthetic_arc_ledger_milestone_table_bounds`).
+
+### [DEC-029] 2026-09-27: Autonomous Trade-Off Inquisitor, Git Worktree PR Workflow & Targeted Rotation Schedule
+* **Context & Friction:** The publishing pipeline's compliance gates verify that trade-offs have documented permits (`legitimate_ooc_lore_skips`, `authorial_liberties`, `source-decisions.json`). However, compliance checks do not evaluate whether the documented compromise was actually sound fiction or whether it caused downstream plot holes or voice flattening. Furthermore, running comprehensive multi-session audits manually causes reviewer fatigue.
+* **Precedent Honoured:** `DEC-017` (Active Trade-Off Decision Ledger), `DEC-018` (Itemized Creative Liberties), `DEC-022` (Source-Decision Ledger), `DEC-024` (Substantive Skip Hard Gate), `DEC-028` (Adversarial Reviewer).
+* **Agreed Decision & Protocol:**
+  1. **Autonomous Trade-Off Inquisitor (`sessions/_scripts/run_tradeoff_inquisitor.py`):** Acts as an appellate red team rather than a compliance checker. Attacks documented permits using 4 stress-test probes:
+     - *Rationalization Probe:* Interrogating whether "pacing" was an excuse to erase player voice/agency.
+     - *Downstream Debt Probe:* Checking if skipped lore severs setups needed in later sessions.
+     - *Polite Sanitization Probe:* Ensuring physical force and chaotic impulses remain unsanitized.
+     - *Popcorn/Tomato Divergence Probe:* Diagnosing the split between table energy and literary ratings.
+  2. **Zero-Pollution Git Worktree Isolation:** Automated audit commits and pushes operate inside a detached `.worktrees/tradeoff-audit-runner` directory, leaving the user's active workspace and unstaged edits 100% clean and untouched.
+  3. **Targeted 3-Night Rotation:** Avoids review fatigue by rotating focus scopes across Sunday night (`AGENCY`), Tuesday night (`LIBERTIES`), and Friday night (`CONTINUITY`), tracked in `sessions/config/audit-rotation-state.json`.
+  4. **Antigravity Standing Cron:** Registered as an IDE standing daemon task (`0 2 * * 1,3,6`) that automatically runs the strike and generates a GitHub PR link.
+* **Trade-off Accepted:** Automated PR branches (`audit/tradeoff-YYYY-MM-DD`) require occasional remote branch pruning; red-team attacks can challenge valid authorial choices, but surface tension for human editorial sign-off.
+* **Enforcing Gate:** `sessions/_scripts/extract_session_tradeoffs.py`, `sessions/_scripts/run_tradeoff_inquisitor.py`, `.agents/skills/tradeoff-inquisitor/SKILL.md`.
+
+### [DEC-030] 2026-09-28: Anti-Identity Invariant, Mandatory Trade-off Audit Log & Truth-in-Reporting Dual-Track Matrix
+* **Context & Friction:** The publishing pipeline's dual-track reporting displayed triumphant "100% across the board" green checkmarks even when Track B (Cinematic Authorial Cut) was completely unwritten for S1 and S3, 90% unwritten for S2, and contained unitemized coarse spans in S4 and S5. The user correctly challenged this: if the cinematic cut is ever 100% aligned with the tabletop, it must be an automatic fail because zero adaptation occurred. Furthermore, every adaptation adjustment, turn fusion, and compression compromise must have an explicit audit log; hollow green checkmarks breed distrust.
+* **Precedent Honoured:** `DEC-002` (3-Tier Line Categorization), `DEC-008` / `FP-07` (Anti-Hollow Gate Overhaul), `DEC-018` (Itemized Creative Liberties), `DEC-022` (Source-Decision Ledger), `DEC-029` (Trade-Off Inquisitor).
+* **Agreed Decision & Protocol:**
+  1. **Anti-Identity Invariant (Zero-Divergence Hard Fail):** In `verify_alternate_scene.py` (Gate 4), if an authorial cut block has zero prose divergence from its tabletop archival block, it triggers a hard error `[ZERO_CINEMATIC_DIVERGENCE]` and exits code 1. A novelization must adapt the raw material (pacing compression, turn fusion, sensory escalation); zero divergence means zero adaptation occurred.
+  2. **Mandatory Trade-off Audit Log:** Any authorial scene block containing multi-turn coarse spans (`<!-- Lxxxx-Lyyyy -->`) or $< 75\%$ word compression MUST have an itemized entry in `sN-intent-contract.json["authorial_liberties"]` explicitly documenting the specific dramatic liberty, scope, and impact. Unlicensed compromises trigger a hard error `[UNITEMIZED_AUTHORIAL_LIBERTY]` and exit code 1.
+  3. **Truth-in-Reporting Dual-Track Completion Matrix:** `run_publishing_pipeline.py` integrates `verify_alternate_scene.py` directly into Step 1B of the publishing pipeline. The end-of-run scorecard replaces hollow green checkmarks with an honest, comprehensive completion matrix:
+     - `PARTIAL (Track B Debt)` for sessions with pending or incomplete Track B scene blocks (e.g. S1: 0/12, S2: 1/10, S3: 0/10).
+     - `FULL PASS` strictly reserved for sessions where Track A is 100% locked AND Track B has 100% of scene blocks adapted, verified non-identical, and 100% liberties itemized (S4: 11/11, S5: 10/10).
+* **Trade-off Accepted:** Requires deliberate prose adaptation and explicit contract logging for every single authorial scene; eliminates "easy pass" shortcuts where unwritten or copy-pasted blocks appear compliant.
+* **Enforcing Gate:** `sessions/_scripts/verify_alternate_scene.py` (Gate 4), `sessions/_scripts/run_publishing_pipeline.py` (Step 1B and Dual-Track Matrix), `sessions/_scripts/harness/test_harness.py` (`test_alternate_scene_zero_divergence_fails`, `test_alternate_scene_unitemized_liberty_fails`).
+
+### [DEC-031] 2026-09-28: Track B Derivation-from-A Mandate, Universal Gate Enforcement, Attribution Consistency & Human Critique Blocker (`FP-21`)
+* **Context & Friction:** Review of Session 5 (PR #38) revealed that while all 8 automated pipeline gates passed with 100% green checkmarks, human reading of Track B experienced acute narrative collapse: dialogue attributions were inverted (Pierre spoke Rick Ready's line), comedic setups and payoffs were lobotomized (the bird poop vs. over-rubbed chisel marks was reduced to generic shouting), key heist actions were skipped (Dravin swiping master keys), and transit scenes suffered teleportation whiplash.
+* **Root Cause Analysis (`FP-21`):**
+  1. **Double-Drafting Anti-Pattern:** Track B was drafted independently from raw transcripts rather than cut directly from Track A. Two separate generative passes meant two chances to hallucinate, invert dialogue, or drop comedic timing, with zero guarantee the two tracks agreed on staging.
+  2. **Track B Gate Exemption Blind Spot:** `audit_semantic_grounding.py:362` explicitly skipped `-alt` files; `audit_skip_ledger` (`UNJUSTIFIED_OOC_DROP` / `HOLLOW_COMPRESSED`) never ran on Track B. Track B's only gate was `verify_alternate_scene.py`, which used a hard-coded S1-era name list and never checked paragraph-level quote anchoring.
+  3. **Inherit-Fallback Attribution Bug:** When an authorial paragraph had quotes without an explicit marker, `generate_web_manifest.py:554` blindly inherited `last_alt_source_line`, attributing Rick Ready's retort to Pierre.
+  4. **Hollow Compliance Fallacy:** When Track B compressed words to 43% of Track A (failing DEC-022's 50% floor), the pipeline issued a non-blocking `[CAUTION]` and awarded an "A-" grade instead of failing the build.
+* **Agreed Decision & Protocol:**
+  1. **Single Derivation Law (Track B is a Cut OF Track A):** Track B must never be drafted from raw transcripts. It is produced strictly by condensing, trimming, and fusing paragraphs from the canonical Track A prose. Every Track B paragraph must be a verifiable subset of a Track A paragraph.
+  2. **Universal DEC-024 Enforcement on Track B:** Track B alternate files are subjected to full skip ledger auditing (`audit_skip_ledger`). Spans tagged `(compressed)` must share vocabulary with prose; naked `(ooc)` drops of in-character dialogue trigger hard failures.
+  3. **Blocking Density Floor:** The DEC-022 $\ge 50\%$ word retention floor is a hard build blocker. Any session where Track B $< 50\%$ of Track A triggers an immediate `[DENSITY_FLOOR_VIOLATION]` and exits code 1.
+  4. **Attribution & Quote Anchor Gate:** In `verify_alternate_scene.py`, every quoted paragraph must have an explicit line marker (`UNANCHORED_DIALOGUE_QUOTE`). Speech verbs in prose outside quotes are cross-checked against the paragraph's attributed speaker (`INVERTED_DIALOGUE_ATTRIBUTION`). In `generate_web_manifest.py`, fallback line inheritance is eradicated.
+  5. **Human Critique as a Deterministic Build Blocker:** Editorial review feedback from GitHub PRs (e.g. PR #38) is ingested into `sN-source-decisions.json` under `"critiques"` with `"status": "open"`. A new gate `verify_critiques.py` runs in Step 1C of the publishing pipeline and hard-fails any build while open critique items remain unresolved.
+* **Trade-off Accepted:** Eliminates quick "freeform" authorial cut drafting; Track A must be audited and locked first before Track B is cut; human PR critique comments cannot be bypassed or hand-waved.
+* **Enforcing Gate:** `verify_alternate_scene.py` (Gates 1 & 3), `generate_web_manifest.py:554`, `verify_critiques.py`, `run_publishing_pipeline.py` (Step 1C and Density Floor Hard Fail), `sessions/_scripts/harness/test_harness.py` (`test_alternate_scene_unanchored_dialogue_quote_fails`, `test_alternate_scene_inverted_dialogue_attribution_fails`).
+
+---
+
 ## 📌 Rules for Appending to this Ledger
 Whenever an architectural discussion occurs:
 1. Do not repeat arguments that have already been resolved.
 2. Quote the relevant `DEC-XXX` or `FP-XX` entry.
 3. If an invariant must be modified, state what broke to necessitate the change, what cost is accepted, and how the verification suite is updated.
+
+

@@ -1,0 +1,144 @@
+{
+  "session_id": "s1",
+  "title": "Session 1: The Broken Veil & The Bus to Nowhere - Intent Parity Contract",
+  "description": "Double-blind intent and agency rules for novelization to prevent sycophantic drift, sanitized combat, and deliberate wizard casting for unawakened mortals.",
+  "rules": [
+    {
+      "id": "DRAVIN_NO_WIZARD_INCANTATIONS",
+      "description": "Dravin is an unawakened academic mortal. Forbid deliberate D&D wizard incantations, spell formulas, or conscious magical channeling across all scenes",
+      "forbidden_prose_patterns": [
+        "\\bdravin\\s+incanted\\b",
+        "\\bdravin\\s+cast\\s+(?:chill\\s+touch|toll\\s+the\\s+dead)\\b",
+        "\\bdravin\\s+channeled\\s+(?:arcane|necrotic)\\s+energy\\b",
+        "\\bdravin\\s+murmured\\s+(?:the\\s+words|a\\s+spell|an\\s+incantation)\\b",
+        "\\bwhispering\\s+(?:words\\s+of\\s+power|arcane\\s+syllables)\\b"
+      ],
+      "fail_message": "Dravin portrayed as a conscious, deliberate spellcaster. Early campaign Dravin is an unawakened academic mortal; his necrotic manifestations must emerge involuntarily through mundane physical reflexes, fumbling spectacles, or nervous gestures."
+    },
+    {
+      "id": "DRAVIN_MUNDANE_MAGIC_STAGING",
+      "description": "Dravin's early combat manifestations must be grounded in involuntary physical reflexes, mundane academic nervousness, and environmental contact",
+      "target_scenes": ["scene-03", "scene-04"],
+      "required_force_tokens": [
+        "\\b(spectacles|linoleum|fingers|twitch|recoil|handrail|shudder|jerked|involuntary)\\b"
+      ],
+      "fail_message": "Missing involuntary mundane physical staging for Dravin's latent magic in combat scenes."
+    },
+    {
+      "id": "PIERRE_MORTAL_AVOIDANCE",
+      "description": "Pierre avoids physical combat entirely in early scenes, treating violence as vulgar and fleeing behind luggage or furniture",
+      "target_scenes": ["scene-04", "scene-05"],
+      "forbidden_prose_patterns": [
+        "\\bpierre\\s+charged\\b",
+        "\\bpierre\\s+drew\\s+his\\s+rapier\\s+to\\s+strike\\b",
+        "\\bpierre\\s+leaped\\s+into\\s+the\\s+fray\\b"
+      ],
+      "fail_message": "Pierre distorted into eager front-line warrior. Pierre's core intent in S1 is self-preservation, aesthetic disgust, and evasion."
+    },
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology must not drift from canonical lore",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+had\\s+arrived\\b",
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "required_replacement": "The Reductors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    },
+    {
+      "id": "FATES_NO_SERENE_ORACULAR_PROPHECY",
+      "description": "The Fates are stressed, frantic weavers caught in a sudden incursion, shouting colloquial agitation ('this again?!'). Forbid serene Shakespearean oracle prophecy or declaring the party 'Chosen Ones'",
+      "target_scenes": ["scene-02", "scene-09"],
+      "forbidden_prose_patterns": [
+        "\\bchosen\\s+(?:ones|champions|heroes)\\b",
+        "\\bdestined\\s+to\\s+(?:save|restore|mend)\\b",
+        "\\bthe\\s+fates\\s+(?:prophesied|foretold|proclaimed)\\b"
+      ],
+      "fail_message": "The Fates portrayed as serene oracular goddesses delivering forward prophecies. Tabletop ground truth portrays them as frantic, overworked weavers in an emergency."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "The Greyhound Bus & Session 0 Origin Weaving",
+      "liberty": "Integrated Session 0 character origins (Pierre's Parisian art heist aftermath, Dravin's academic dismissal and antique ledger, Eusacles's Spartan heirloom morningstar) into bus seat dynamics using the 4-Part Narrative Matrix before the supernatural rift.",
+      "impact": "Transformed an ungrounded tabletop start into a coherent literary prologue with deep character interiority."
+    },
+    {
+      "scene": "scene-02",
+      "scope": "The Planar Rift & Alfie's Weaving",
+      "liberty": "Dramatized the Fates' spectral loom weaving Alfie into physical reality from raw thread and cedar while the bus chassis warped, grounding Eusacles's missed morningstar strike in disorientation.",
+      "impact": "Turned a chaotic table roll into an atmospheric, cosmic introduction of the Pinocchio companion."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "Involuntary Combat Awakening",
+      "liberty": "Eradicated the legacy phantom duplicate loop (which previously repeated the rift opening twice). Staged Dravin's defensive flinch as the accidental catalyst of Chill Touch rather than a deliberate wizard incantation.",
+      "impact": "Fixed a critical narrative continuity defect and accurately anchored Nick's player inexperience to in-universe character awakening."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "Tactical Scramble & Fizzled Cantrip",
+      "liberty": "Staged Dravin's Toll the Dead table roll as a startled finger-twitch against the bus handrail emitting a fizzled underwater chime, contrasting with Alfie's pin-rapier lunge and Eusacles's physical brute force.",
+      "impact": "Preserved combat failure dynamics without reducing the scene to sterile dice math."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "Horned Fiend Charge & French Disengagement",
+      "liberty": "Aligned continuity with Scene 4 by focalizing combat on the primary horned beast rather than a phantom ink minion, staged Dwight Swain MRUs for Eusacles's rib trauma, and preserved Pierre's cowardly diplomatic retreat behind the library stacks.",
+      "impact": "Eliminated causal contradiction while maintaining comic character pacing and strict adherence to Pierre's combat avoidance invariant."
+    },
+    {
+      "scene": "scene-06",
+      "scope": "Alfie's Awakening & The Pocket Lint Bell",
+      "liberty": "Staged Alfie's initial needle rapier lunge against the primary horned beast and grounded Dravin's combat panic through an antique brass bell charm clogged with pocket lint rather than conscious spellcasting.",
+      "impact": "Maintained combat stakes while strictly preserving the latent magic invariant."
+    },
+    {
+      "scene": "scene-07",
+      "scope": "In the Shadows of the Stacks",
+      "liberty": "Rationalized the second ink minion as congealed spilled demonic bile, staged Eusacles's triumphant morningstar kill, and grounded Pierre's covert scroll theft behind the cedar stacks.",
+      "impact": "Resolved multiple-adversary continuity and seeded Pierre's Gorgon origin arc."
+    },
+    {
+      "scene": "scene-08",
+      "scope": "Tendon Sever & Ram-Horned Titan",
+      "liberty": "Dramatized Alfie's Achilles tendon sever, staged Dravin's involuntary mortal terror as the trigger for a fizzled Cause Fear aura, and choreographed Eusacles's desperate Spartan kick counter-gored by the beast's horn.",
+      "impact": "Preserved lethal combat pacing while eliminating wizard incantations."
+    },
+    {
+      "scene": "scene-09",
+      "scope": "The Legend Strike & Fates Tapestry",
+      "liberty": "Choreographed Alfie's heroic second tendon strike to save unconscious Eusacles, grounded Pierre pocketing The Guide to Gorgons, and staged the Fates' cosmic woven blanket transport.",
+      "impact": "Delivered a high-velocity combat climax and established Alfie as a legendary protector."
+    },
+    {
+      "scene": "scene-10",
+      "scope": "The Dark Highway & Mortal Medicine",
+      "liberty": "Staged Dravin's Eyes of Night as an accidental amber glare in his thick spectacle lenses and Spare the Dying as frantic chest compressions with silver leakage, preserving Eusacles's hangover confusion and kilometer-to-mile banter.",
+      "impact": "Reinforced unawakened mortal medical reflexes over sterile D&D spell casting."
+    },
+    {
+      "scene": "scene-11",
+      "scope": "The Road to the Marigold",
+      "liberty": "Staged Alfie's miniature dueling threats, Dravin's sternum rubs on the doll, and party bonding over Greek ancestry and teacher pride along the moonlit highway.",
+      "impact": "Provided crucial quiet decompression and character bonding between Act I combat and Act II."
+    },
+    {
+      "scene": "scene-12",
+      "scope": "Welcome to the Margin",
+      "liberty": "Eliminated duplicate dialogue loops, restored Theodore's full prompt ('What edit killed you?'), and staged the arrival at the rotting Marigold Inn archway as the definitive Act I cliffhanger.",
+      "impact": "Delivered clean narrative handoff to Session 2 with zero dialogue leaks or dangling references."
+    }
+  ]
+}
+
+

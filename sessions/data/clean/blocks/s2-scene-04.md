@@ -37,11 +37,11 @@ Mike stared blankly. "That's news to me! What, like the Statue of Liberty is Gre
 
 Outside, Teddy guided them toward their guest cabin, admiring Dravin’s scholarly passion. "Spent most of my youth on the timber trails," Teddy remarked. "Out here, you learn that every myth was just history before someone decided to edit the manuscript." <!-- L0809 -->
 
-Inside the cabin, an older resident named Rosa was laying out handmade wool blankets on cedar cots. When she saw Alfie balanced neatly on Pierre’s shoulder, her eyes softened. <!-- L0833 -->
+Inside the cabin, an older resident named Rosa was laying out handmade wool blankets on cedar cots. When she saw Alfie balanced neatly on Pierre’s shoulder, her eyes softened, asking the tiny traveler if he preferred being grounded in nature to the open water. <!-- L0833 -->
 
-"And who might you be, little traveler?" Rosa asked gently. "Do you prefer being on the ground?" Alfie shook his head. "Dolls don't usually drive ships, mate. I don't recommend it." <!-- L0849 -->
+Alfie shook his head, his driftwood hands settling on his belt. "Dolls don't usually drive ships, mate. I don't recommend it." <!-- L0849 -->
 
-Alfie hopped down onto the rustic pine table, adjusting his needle rapier. "Name's Alfie, ma'am. Driftwood Duelist, at your service. Last thing I remember before waking up in that marble palace was darkness... salt water... the roar of cannon fire, and blood on the deck. Next thing I know, I'm carved out of driftwood with needle and thread."
+Alfie hopped down onto the rustic pine table, adjusting his needle rapier. The miniature sailor carried himself with martial bravado, though his earliest memories remained fractured—recollections of salt water, darkness, cannon fire, and the bitter shock of waking carved of driftwood and thread.
 
 Before Rosa could reply, Naomi barged straight into the guest cabin, breathless and clutching rolls of research parchment. "Sorry I'm late!" Naomi called out urgently. "I was knee-deep in research, but it's super important!" <!-- L0873 -->
 

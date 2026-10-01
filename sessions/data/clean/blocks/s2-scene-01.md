@@ -23,7 +23,7 @@ Dravin gestured toward the shadows behind him. "My buddy could definitely use a 
 
 "The thing is, we all kind of died at different times, at different points in our lives," Mike explained, tossing a pine stick onto the fire. "And the crazy thing is that you stay approximately the same age the whole time." <!-- L0461 --> <!-- L0462 -->
 
-"A little Benjamin Button action," Dravin observed.
+"A little Benjamin Button action," Dravin observed. <!-- L0463 -->
 
 "Yeah, it's kind of crazy, kind of cool," Mike smiled. <!-- L0464 -->
 
@@ -31,14 +31,14 @@ Dravin frowned thoughtfully. "How do we interact with the outside world?" <!-- L
 
 "We all have different theories," Mike said. "Some people remember things clearly, while the youth kind of see through the veil with divine sense." <!-- L0468 --> <!-- L0469 -->
 
-At the mention of divine perception, Eusacles closed his eyes and focused his divine sense across the clearing, opening his awareness to fiend and undead presences. <!-- L0474 --> <!-- L0477 -->
+At the mention of divine perception, Eusacles closed his eyes, extending his celestial intuition across the clearing to test the shadows for fiendish or spectral corruption. <!-- L0474 --> <!-- L0477 -->
 
-A sudden, breathtaking surge of clarity washed over his consciousness—a sensation as pure and absolute as a natural twenty. <!-- L0489 -->
+A sudden, breathtaking surge of golden clarity washed over his consciousness—an absolute, unclouded vision that pierced straight through the mountain gloom. <!-- L0489 -->
 
-According to this divine feature, the veil parted to reveal a vision of the settlement's metaphysical truth. <!-- L0494 --> <!-- L0498 -->
+Through his celestial sight, Eusacles could see that this was a consecrated refuge—a haven where the veil presented a different vision than mortal eyes could pierce. <!-- L0494 --> <!-- L0498 -->
 
-This was a consecrated refuge—a sanctuary shielded from external prying. <!-- L0500 -->
+This was consecrated ground—a protected sanctuary of refuge shielded from external prying. <!-- L0500 -->
 
-Residual auras lingered across his companions: neither Dravin nor Pierre possessed undead corruption, but their souls bore a unique, ancient mixture of planar resonance. <!-- L0502 --> <!-- L0504 -->
+Residual auras flickered around Mike and the silent girl beside him: neither bore true demigod fire nor monstrous taint, but rather faint, lingering celestial and spectral echoes—souls suspended between realms. <!-- L0502 --> <!-- L0504 -->
 
-<!-- LEDGER: rendered=[412, 417, 418, 420, 426, 438, 440, 442, 443, 446, 447, 449, 452, 454, 456, 458, 460, 461, 462, 464, 465, 467, 468, 469, 474, 477, 489, 494, 498, 500, 502, 504] skipped=[404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 439(ooc), 441(ooc), 444(ooc), 445(ooc), 448(ooc), 450(ooc), 451(ooc), 453(ooc), 455(ooc), 457(ooc), 459(ooc), 463(ooc), 466(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 475(ooc), 476(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 495(ooc), 496(ooc), 497(ooc), 499(ooc), 501(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(compressed)] -->
+<!-- LEDGER: rendered=[412, 417, 418, 420, 426, 438, 440, 442, 443, 446, 447, 449, 452, 454, 456, 458, 460, 461, 462, 463, 464, 465, 467, 468, 469, 474, 477, 489, 494, 498, 500, 502, 504] skipped=[404(ooc), 405(ooc), 406(ooc), 407(ooc), 408(ooc), 409(ooc), 410(ooc), 411(ooc), 413(ooc), 414(ooc), 415(ooc), 416(ooc), 419(ooc), 421(ooc), 422(ooc), 423(ooc), 424(ooc), 425(ooc), 427(ooc), 428(ooc), 429(ooc), 430(ooc), 431(ooc), 432(ooc), 433(ooc), 434(ooc), 435(ooc), 436(ooc), 437(ooc), 439(ooc), 441(ooc), 444(ooc), 445(ooc), 448(ooc), 450(ooc), 451(ooc), 453(ooc), 455(ooc), 457(ooc), 459(ooc), 466(ooc), 470(ooc), 471(ooc), 472(ooc), 473(ooc), 475(ooc), 476(ooc), 478(ooc), 479(ooc), 480(ooc), 481(ooc), 482(ooc), 483(ooc), 484(ooc), 485(ooc), 486(ooc), 487(ooc), 488(ooc), 490(ooc), 491(ooc), 492(ooc), 493(ooc), 495(ooc), 496(ooc), 497(ooc), 499(ooc), 501(ooc), 503(ooc), 505(ooc), 506(ooc), 507(ooc), 508(ooc), 509(ooc), 510(compressed)] -->

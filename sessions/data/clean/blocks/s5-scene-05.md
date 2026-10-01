@@ -2,7 +2,7 @@
 
 <!-- LEDGER: rendered=[539, 541, 543, 544, 545, 547, 548, 550, 558, 566, 567, 574, 580, 581, 583, 584, 585, 586, 597, 600, 602, 603, 604, 610, 612, 613, 614, 615, 621, 622, 623, 626, 627, 628, 629, 634, 638] skipped=[540(ooc), 542(ooc), 546(ooc), 549(ooc), 551(ooc), 552(ooc), 553(ooc), 554(ooc), 555(ooc), 556(ooc), 557(ooc), 559(ooc), 560(ooc), 561(ooc), 562(mechanics), 563(ooc), 564(ooc), 565(ooc), 568(ooc), 569(ooc), 570(mechanics), 571(ooc), 572(mechanics), 573(ooc), 575(ooc), 576(ooc), 577(ooc), 578(ooc), 579(ooc), 582(ooc), 587(ooc), 588(ooc), 589(ooc), 590(ooc), 591(ooc), 592(ooc), 593(ooc), 594(ooc), 595(ooc), 596(ooc), 598(ooc), 599(ooc), 601(ooc), 605(ooc), 606(ooc), 607(ooc), 608(ooc), 609(ooc), 611(ooc), 616(banter), 617(compressed), 618(ooc), 619(ooc), 620(compressed), 624(ooc), 625(ooc), 630(ooc), 631(ooc), 632(compressed), 633(ooc), 635(ooc), 636(ooc), 637(ooc), 639(ooc), 640(ooc)] -->
 
-Beyond the woodline of the Margin, the narrow path plunged into a dense, ancient corridor where the trees grew impossibly tall, their tangled branches blotting out the gray sky until daylight dwindled to a perpetual twilight. The air smelled of wet slate, wild hemlock, and displaced temporal ozone. <!-- L0539 --> <!-- L0541 -->
+With Pierre’s vehement refusal of divine postal services settling their route, the companions shouldered their gear and departed the cabin. Stepping past the outer ward-markers of the Margin, the narrow path plunged into a dense, ancient corridor where the trees grew impossibly tall, their tangled branches blotting out the gray sky until daylight dwindled to a perpetual twilight. The air smelled of wet slate, wild hemlock, and displaced temporal ozone. <!-- L0539 --> <!-- L0541 -->
 
 They had weighed the alternative back at camp. "How much does the Hermes Express cost?" Dravin had asked Teddy, the prickly courier, who only shrugged. There was no set fare—it depended on the party. Sometimes items. Sometimes a story, or a history. Money, on occasion. A favor. <!-- L0543:dravin --> <!-- L0544:teddy -->
 
@@ -58,6 +58,6 @@ The phantom footsteps shook the soil one final time—and abruptly ceased. The w
 
 Dravin lowered his bell, glancing dryly around the empty clearing. "Well, that was easy, guys. Let's go." <!-- L0628:dravin -->
 
-The tangled hemlocks gave way with shocking abruptness to an unkempt laurel hedge. Stepping through the briars, their boots struck gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — UNIVERSITY OF UNIVERSITY POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
+With the terrifying shockwaves vanished into the quiet woods as quickly as they had arrived, the party resumed single file. They hiked along the winding switchbacks for another quarter-mile, the strange temporal hum of the forest gradually fading behind them until the tangled hemlocks gave way to an unkempt laurel hedge. Stepping through the briars, their boots struck crunchy gravel. Ahead stood a rusted iron chain-link gate flanked by a weathered wooden signboard: `TRAIL CLOSED — UNIVERSITY OF UNIVERSITY POLICE & MAINTENANCE DEPT.` <!-- L0629 --> <!-- L0634 -->
 
 Beyond the perimeter fence rose the soaring limestone towers, slate roofs, and sprawling green lawn of the collegiate quadrangle. <!-- L0638 -->

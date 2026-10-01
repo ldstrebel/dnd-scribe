@@ -12,6 +12,18 @@
     "Sophie Foreman Noone": "Alfie"
   },
   "shared_mics": {},
+  "npcs": [
+    { "name": "Mike", "introduced_scene": 1 },
+    { "name": "Theodore", "introduced_scene": 2 },
+    { "name": "Anna Smith", "introduced_scene": 4 },
+    { "name": "Rosa", "introduced_scene": 4 },
+    { "name": "Naomi", "introduced_scene": 4 },
+    { "name": "Clerk", "introduced_scene": 8 }
+  ],
+  "session_lore_terms": [
+    { "term": "Echidna", "introduced_scene": 7 },
+    { "term": "Lost Roads", "introduced_scene": 7 }
+  ],
   "dialogue_speakers": {
     "438": "mike",
     "440": "mike",
@@ -242,6 +254,74 @@
     {
       "line": 1498,
       "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 457,
+      "reason": "Compressed into rendered dialogue in scene 1."
+    },
+    {
+      "line": 571,
+      "reason": "Compressed into rendered dialogue in scene 2."
+    },
+    {
+      "line": 641,
+      "reason": "Player table-level reflection on character backstory; no new in-world content."
+    },
+    {
+      "line": 685,
+      "reason": "Player table-level clarification; covered in rendered scene."
+    },
+    {
+      "line": 696,
+      "reason": "GM table-level procedure on character naming; no in-world action."
+    },
+    {
+      "line": 699,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 703,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 712,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 779,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 815,
+      "reason": "Legacy Track A cut does not carry this in-character line; queued for re-edit (DEC-024 backlog)."
+    },
+    {
+      "line": 958,
+      "reason": "Player third-person table staging; covered in rendered scene."
+    },
+    {
+      "line": 990,
+      "reason": "GM table procedure on lodging logistics; no new in-world content."
+    },
+    {
+      "line": 1018,
+      "reason": "GM table-level recap of sanctuary residents; covered in rendered scene."
+    },
+    {
+      "line": 1397,
+      "reason": "Player table banter punning Mike with Mike Wazowski; no in-world content."
+    },
+    {
+      "line": 1503,
+      "reason": "Player table reaction to truck prank; covered in rendered scene."
+    },
+    {
+      "line": 1505,
+      "reason": "Player table reaction to truck prank; covered in rendered scene."
+    },
+    {
+      "line": 1511,
+      "reason": "Player table reaction to road explanation; covered in rendered scene."
     }
   ]
 }

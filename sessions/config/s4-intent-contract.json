@@ -1,0 +1,115 @@
+{
+  "session_id": "s4",
+  "title": "Session 4: The Raleigh Museum Gorgon Ambush & Debrief - Intent Parity Contract",
+  "description": "Double-blind intent and agency rules for Session 4 to prevent tabletop mechanics leaks, preserve Gorgon physiology grounding, and ensure Naomi's board is canonically presented.",
+  "rules": [
+    {
+      "id": "TABLETOP_MECHANIC_LEAK",
+      "description": "Forbid raw D&D rules, dice terminology, and feature labels from leaking into novel manuscript prose",
+      "forbidden_prose_patterns": [
+        "\\bnatural\\s+twenty\\b",
+        "\\bsaving\\s+throw\\b",
+        "\\bspell\\s+slot\\b",
+        "\\bhit\\s+points\\b",
+        "\\btook\\s+\\d+\\s+damage\\b",
+        "\\broll\\s+(?:initiative|with\\s+advantage)\\b"
+      ],
+      "fail_message": "Tabletop game mechanics or dice terminology leaked into narrative prose."
+    },
+    {
+      "id": "GORGON_SERPENT_PHYSIOLOGY",
+      "description": "Preserve grounded in-world descriptions of Gorgon serpent crowns and calcifying ink pellets; forbid ungrounded modern gunpowder ballistics",
+      "forbidden_prose_patterns": [
+        "\\bsemiautomatic\\s+glock\\b",
+        "\\bkevlar\\s+vest\\b"
+      ],
+      "fail_message": "Ungrounded modern military ballistics leaked into Gorgon encounter."
+    },
+    {
+      "id": "NAOMI_BOARD_CANONICAL_PRESENTATION",
+      "description": "Naomi's clue board must be presented as an active, organic investigative tool she explains at the table, not passive GM exposition",
+      "target_scenes": ["scene-10", "scene-11"],
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+dm\\s+explained\\b",
+        "\\bthe\\s+gm\\s+showed\\b"
+      ],
+      "fail_message": "Table-level meta framing leaked into Naomi's conspiracy board presentation."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "title": "Gorgon Ambush & Sibilant Identity Reveal",
+      "liberty": "Dramatized the sudden visual shift from security guards to serpent-crowned Gorgon Reductors stamped 'Gordon', heightening the ozone sensory shock of the ambush.",
+      "impact": "Heightened atmospheric tension while grounding the Reductor adversary presence at the museum."
+    },
+    {
+      "scene": "scene-02",
+      "title": "Nincy's Petrification & Cord Rigging",
+      "liberty": "Fused rapid combat turn checks and player tactical coordination into a fluid rescue sequence where Nincy's livestreaming hubris meets sudden petrification, and Pierre knots the orange extension cord around Alfie.",
+      "impact": "Eliminated mechanical initiative churn while preserving Sophie and Luke's tactical staging."
+    },
+    {
+      "scene": "scene-03",
+      "title": "Bungee-Tethered Alfie Launch",
+      "liberty": "Compressed iterative launch and trajectory distance debates into a high-momentum action beat as Pierre slingshots Alfie beneath the descending vitrine glass.",
+      "impact": "Maintains comedic slapstick timing while accelerating the physical infiltration."
+    },
+    {
+      "scene": "scene-04",
+      "title": "Vitrine Standoff & Petrifying Ink Mechanics",
+      "liberty": "Consolidated fragmented table questions regarding the touch-danger of the calcifying sludge and stone tablet into sharp, reactive banter between Pierre and Alfie.",
+      "impact": "Heightened immediate peril and character banter while cutting procedural table pauses."
+    },
+    {
+      "scene": "scene-05",
+      "title": "Baguette-Bomb Detonation & Mezzanine Staging",
+      "liberty": "Novelized the slapstick baguette-bomb distraction and the Odysseus-style ram escape into dynamic fantasy prose while preserving table action intent.",
+      "impact": "Elevated tactical player shenanigans into cinematic action without losing comedic character voice."
+    },
+    {
+      "scene": "scene-06",
+      "title": "Attendant Petrification Reversal & Gorgon Resonance",
+      "liberty": "Dramatized Pierre un-stoning the museum attendant through sympathetic Gorgon frequency resonance beneath his beret, framing the background baguette explosion as comedic punctuation.",
+      "impact": "Unified separate table turns into a vivid character-defining moment highlighting Pierre's latent supernatural lineage."
+    },
+    {
+      "scene": "scene-07",
+      "title": "Museum Attendant Evacuation & Radiant Guiding Bolt",
+      "liberty": "Compressed hallway retreat logistics and tactical movement into a swift sequence featuring Pierre's deadpan Powerade medical advice and Dravin's radiant flashlight attack.",
+      "impact": "Maintains combat velocity and clean scene progression toward the final engagement."
+    },
+    {
+      "scene": "scene-08",
+      "title": "Mezzanine Urn Drop & Reagent Acid Toss",
+      "liberty": "Synchronized Alfie's second Mage Hand pot drop from the balcony with Pierre's chemical solvent toss into a unified multi-character tactical strike.",
+      "impact": "Turned fragmented table action declarations into cinematic cooperative combat choreography."
+    },
+    {
+      "scene": "scene-09",
+      "title": "Dinosaur Rotunda Transit & Lost Roads Departure",
+      "liberty": "Condensed museum egress through the dinosaur hall and car park staging into an atmospheric transition into the Lost Roads.",
+      "impact": "Seamlessly bridged the high-adrenaline museum combat to the atmospheric debrief."
+    },
+    {
+      "scene": "scene-10",
+      "title": "Lodge Conspiracy Debrief & Fragment Convergence",
+      "liberty": "Integrated Naomi's conspiracy board and fragment algorithm discussion into a sharp, atmospheric lodge debrief with Mike and Rosa.",
+      "impact": "Tightened circular table speculation into clear cosmological stakes and forward momentum."
+    },
+    {
+      "scene": "scene-11",
+      "title": "Dual-Lead Investigation & Mad Doctor Triage",
+      "liberty": "Synthesized prolonged table deliberations over the two investigative leads (UK catapult vs West Virginia doctor) into Naomi's crisp project binder presentation.",
+      "impact": "Established clear investigative direction and dramatic anticipation for Session 5."
+    }
+  ]
+}

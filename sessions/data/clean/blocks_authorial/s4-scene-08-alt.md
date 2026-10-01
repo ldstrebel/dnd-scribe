@@ -6,7 +6,7 @@ Pierre rummaged through the lower shelf of the archaeology cart, snatching a via
 
 Stepping in close, Professor Edward Dravin reversed his grip on the solid steel flashlight. With a resounding *CRACK*, Dravin brought the metal butt squarely across Gordon's jaw, dropping the operative cold onto the linoleum. Grabbing the collar of the sleeping Redactor, Dravin hauled him across the floor and shoved him into the acid puddle, dissolving the slumbering threat into harmless black vapor. <!-- L0947-L0967 -->
 
-The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an inky dimensional rift where a dark shape vanished into the void. <!-- L0969-L0970 -->
+The gallery fell into an eerie hush beneath the wailing klaxons. Through the mesh gates in the lobby, Nincy's petrified statue stood frozen beside her ring light, next to an ink-black rift of the Three Fates where a dark shape vanished into the void. <!-- L0969-L0970 -->
 
 Near the stanchions, Alfie scooped up an abandoned green-and-gold souvenir trucker hat, plopping the oversized brim over his wooden ears. "Went to the North Carolina Natural History Museum and all I got was this stupid hat," he cheered. <!-- L0984-L0988 -->
 

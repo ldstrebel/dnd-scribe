@@ -10,11 +10,11 @@
     "Sophie Foreman Noone": "Alfie"
   },
   "npcs": [
-    { "name": "Campfire Stranger", "introduced_scene": 1 },
-    { "name": "Mike", "introduced_scene": 1 },
-    { "name": "Lily", "introduced_scene": 1 },
-    { "name": "The Fates", "introduced_scene": 2 },
+    { "name": "The Fates", "introduced_scene": 1 },
     { "name": "Ink Blob", "introduced_scene": 2 }
+  ],
+  "session_lore_terms": [
+    { "term": "The Margin", "introduced_scene": 12 }
   ],
   "dialogue_speakers": {
     "961": "anchor",
@@ -65,6 +65,7 @@
     "1715": "pierre",
     "1790": "fates",
     "1820": "dravin",
+    "1850": "dravin",
     "1870": "eusacles",
     "1877": "eusacles",
     "1880": "pierre",

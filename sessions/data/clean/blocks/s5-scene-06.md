@@ -36,13 +36,13 @@ Pierre, however, had not listened to a single word about Dr. Thorne, the Big Pox
 
 Tucked into a shadowed marble alcove sat an exquisite 18th-century classical bust on a fluted pedestal—shoved directly behind a greasy, bulging olive-drab plastic trash bin. Fresh bird droppings coated the sculpted curls of the marble brow. <!-- L0757 --> <!-- L0759 -->
 
-"Sacré bleu! What ungodly barbarism is this?" Pierre shrieked, throwing his hands to the sky as he stormed toward the alcove. "A sculpted masterpiece of Hellenic beauty, hidden behind a municipal garbage receptacle! And there is absorbed pigeon filth upon the shoulders! Where is the barbarian responsible for this desecration?" <!-- L0761:pierre -->
+"Sacré bleu! What ungodly barbarism is this?" Pierre shrieked, throwing his hands to the sky as he stormed toward the alcove. "A sculpted masterpiece of Hellenic beauty, hidden behind a municipal garbage receptacle! I bet there is bird poop all over the shoulders of the statue! Where is the barbarian responsible for this desecration?" <!-- L0761:pierre -->
 
-A burly university custodian pushing a brass cleaning trolley froze in his tracks. A red rag attached to a spring-loaded retractor dangled from his belt beside a massive ring of brass keys. The custodian unclipped his cloth with a sharp snap. "Excuse me, pal? I’m Rick Ready! I’m always ready! I literally polished that marble ten minutes ago! There’s no way there’s bird droppings on that cheek!" <!-- L0762:attendant -->
+A burly university custodian pushing a brass cleaning trolley froze in his tracks. A red rag attached to a spring-loaded retractor dangled from his belt beside a massive ring of brass keys. The custodian unclipped his cloth with a sharp snap. "Excuse me, pal? I’m Rick Ready! I’m always ready! I wipe this down regularly! There’s no way there’s bird droppings on that marble!" <!-- L0762:attendant -->
 
-Seeing Pierre winding up for a full Parisian meltdown, Dravin quietly drifted down the colonnade, circling the commotion.
+Pierre stepped in close, squinting at the statue. To his momentary surprise, the marble was indeed spotless—yet as his gaze traced the softened contours of the cheek and nose, his eyes narrowed with renewed outrage. Seeing Pierre winding up for an authentic Parisian fit, Dravin quietly drifted down the colonnade, circling the commotion.
 
-"You polished it with sandpaper, Monsieur Ready!" Pierre shouted, waving his bronze javelin tip dramatically toward the statue’s nose. "You are rubbing too hard! That is why the fine detail is lost here and here! You have ruined the patrician bridge! In France, sculptors would weep blood to witness such domestic vandalism!" <!-- L0768:pierre -->
+"You are rubbing too vigorously, Monsieur Ready!" Pierre shouted, waving his bronze javelin tip dramatically toward the softened features. "That is why the fine detail is lost here and here! You have scrubbed away the classical chisel marks! In France, sculptors would weep blood to witness such domestic vandalism!" <!-- L0768:pierre -->
 
 "What are you, some sculpture student?" Rick Ready sputtered, reddening with defensive rage. <!-- L0771:attendant -->
 

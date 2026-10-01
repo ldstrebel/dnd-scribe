@@ -1,6 +1,6 @@
 <!-- RAW_RANGE: [661, 770] | SCENE_ID: 6 | CUT: AUTHORIAL -->
 
-Pierre hoisted the stiffening attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy—the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: "These Walmart Gorgons cannot even keep someone stoned for more than two minutes! Ridiculous!" <!-- L0661-L0683 -->
+Pierre hoisted the stiffening museum attendant toward the ancient limestone pedestal, his hands locking around her cold forearm. The instant his skin made contact, a hidden resonance stirred beneath his beret of normalcy—the dormant serpent coils against his scalp vibrating in sympathetic frequency. Gray stone unraveled like mist under warm water, vanishing into his grip as the woman gasped in sudden relief. Pierre shook his head in deadpan disdain: "These Walmart Gorgons cannot even keep someone stoned for more than two minutes! Ridiculous!" <!-- L0661-L0683 -->
 
 A muffled *crump-hiss* shuddered through the vents as the baguette-bomb detonated in the gullet of the operative in the far hall. "That was the Carolina Reaper pepper I stuffed inside the crust!" Pierre cheered. <!-- L0685-L0693 -->
 

@@ -14,7 +14,7 @@ Alfie poked his weathered driftwood chin out from the fold of Pierre's coat, eye
 
 Alfie squinted across the gallery floor at the weathered stele. "Is the tablet cracked around the edges? Are there missing chunks along the border?" <!-- L1381 -->
 
-Pierre nodded, tracing the irregular, weathered fracture lines in his memory. "The limestone is heavily chipped along the corners from centuries of erosion. An irregular jagged perimeter."
+Pierre nodded, visualizing the weathered fracture lines in his memory—the limestone heavily chipped along the corners from centuries of erosion, leaving an irregular, jagged perimeter.
 
 "Then we find ourselves a matching limestone rock," Alfie whispered, his painted eyes gleaming with mischief. "We dress it up, make the scholarly argument that it's the missing keystone that unlocks the inscription, and convince them to lift the case themselves. The moment they open it, we make contact." <!-- L1385 -->
 

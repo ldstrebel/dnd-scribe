@@ -18,6 +18,7 @@ This document is the **canonical cross-session narrative codex** used by the **C
   - GM worldbuilding records explicitly list both physical relics and historical event sequences as Fragments: the Greek Inscription Tablet, the Toy Catapult Bolt, the Mad Doctor's Tour, and the DC Plane Incident [GM-PREP: campaign/world/the-fragments.md].
 * **Sensory Resonance:** Touching an active Fragment triggers intense sensory and cognitive resonance—such as visions of alternate historical branches or auditory echoes [ESTABLISHED: S4 L0348, S4 L0353, S5 L1220].
 * **Wordcraft Intervention:** Linguistic alteration of inscriptions on relics can physically re-anchor which timeline branch manifests (e.g. *Beacon* vs. *Beckon*) [ESTABLISHED: S4 L0361, S4 L0366].
+* **Naomi's Anomaly Board & Fragment Algorithm:** The Margin maintains active intelligence on four primary timeline anomalies: the Greek Inscription Tablet (*Beckon/Beacon* in Raleigh), the Toy Catapult Bolt (auctioned in a UK pawn shop), the Mad Doctor Tour (Dr. Thorne in DC), and the DC Plane Incident, while calibrating algorithms to track the party's own Nevada transit breach [ESTABLISHED: S2 L1033-L1043, S4 L1129-L1131, S4 L1184-L1217].
 
 ### The Margin & The Lost Roads
 * **The Margin Sanctuary:** A temporal sanctuary and threshold refuge existing outside normal calendar time, shrouded in persistent mist that prevents aging and decay [ESTABLISHED: S1 L0084, S1 L0086, S5 L0004].
@@ -33,6 +34,7 @@ This document is the **canonical cross-session narrative codex** used by the **C
 * **The Celestial Registry:**
   - **Hermes:** Divine celestial courier running priority dispatches across planar thresholds and delivering sealed communications [ESTABLISHED: S5 L0184, S5 L0197].
   - **Persephone:** Underworld sovereign tied to seasonal shifts; descends into the underworld as cold deepens, thinning planar veils and offering threshold aid [ESTABLISHED: S5 L0242, S5 L0244].
+  - **The Three Fates (Clotho, Lachesis, Atropos):** Primordial cosmic weavers operating the Loom of Time in an open-air colonnade Library beyond mortal geography [ESTABLISHED: S1 L0972, S1 L1000]. Overburdened, stressed, and frantic during timeline ruptures, they actively combat Reductor ink incursions by weaving physical timeline champions (such as Alfie) and casting shimmering tapestry nets to extract endangered mortals across planar boundaries [ESTABLISHED: S1 L1000, S1 L1002, S1 L1793].
 
 ---
 
@@ -47,6 +49,7 @@ This document is the **canonical cross-session narrative codex** used by the **C
 ### 2. Pierre (Player: Luke S)
 * **Persona & Demeanor:** Flamboyant, pompous French aesthetician wearing a black woolen beret and delicate wire-rimmed spectacles [ESTABLISHED: S1 L0088, S5 L0088, S5 L0188]. Prone to dramatic critiques of foreign food, art, and academic architecture [ESTABLISHED: S1 L0100, S5 L0943].
 * **Hidden Resonance:** Possesses innate affinity with classical stonework and masonry; builds stone blinds when deprived of classical architecture [ESTABLISHED: S1 L0100, S5 L0101]. Wields a bronze javelin in combat [ESTABLISHED: S5 L0940].
+* **Ancestral Lineage (The Mother of Monsters):** Pores over *The Dummy's Guide to Gorgons* stolen from the Library of the Fates, discovering that while his French adoptive upbringing obscured his origins, all Gorgon bloodlines trace directly upward to Echidna, the primordial Mother of Monsters [ESTABLISHED: S1 L1700, S2 L1236-L1249]. Possesses a latent petrifying gaze that manifests under sudden stress [ESTABLISHED: S2 L1474-L1475].
 * **Active Dynamic:** Displays sharp comic condescension masking fierce tactical loyalty to Alfie and the party [ESTABLISHED: S5 L0357, S5 L1158].
 
 ### 3. Professor Edward Dravin (Player: William Webb)
@@ -66,11 +69,11 @@ This document is the **canonical cross-session narrative codex** used by the **C
 
 | Session | Primary Setting | Relic / Target Anomaly | Milestone & Tactical Resolution | Key Factions Present |
 | :--- | :--- | :--- | :--- | :--- |
-| **S1** | The Margin (Cabin) | None (Threshold Orientation) | Necrotic threshold magic and breakfast routines established [ESTABLISHED: S1 L0081-L0120]. | Margin Wardens [ESTABLISHED: S1 L0088] |
-| **S2** | The Lost Roads | None (Transit) | Party separated by temporal mist; Eusacles isolated on disparate road [ESTABLISHED: S2 L0291]. | Lost Road entities [ESTABLISHED: S2] |
-| **S3** | The Margin (Camp) | Museum Souvenir Cap | Eusacles constructs cabin shelter; Alfie claims museum cap; party reunites [ESTABLISHED: S3 L0277-L0313]. | Margin Wardens [ESTABLISHED: S3 L0543] |
-| **S4** | Raleigh Museum | **Greek Inscription Stele** | Museum infiltrated; stele branch resolved (*Beacon* vs *Beckon*); Alfie touches relic; Reductor assault repelled [ESTABLISHED: S4 L0326-L0366]. | Museum Staff, Reductors [ESTABLISHED: S4 L0326] |
-| **S5** | University University | **1948 Trial Logs (Handwritten Binder)** | Hermes delivers Persephone letter; lecture hall infiltrated; green room search; briefcase anomaly seized; Reductor satyr ambush at L1251 cliffhanger [ESTABLISHED: S5 L0184-L1256]. | Hermes, Faculty, Dr. Thorne, Satyr Reductors [ESTABLISHED: S5 L0184, S5 L1242] |
+| **S1** | Greyhound Bus / Library of Fates / WV Ditch | None (Cosmic Rift & Incursion) | Temporal rift tears open Greyhound bus; Fates weave Alfie from driftwood and sailcloth; party repels ink beast incursion; transported via cosmic tapestry net to Marigold Inn threshold [ESTABLISHED: S1 L0972-L1793]. | The Three Fates, Proto-Reductor Ink Beasts [ESTABLISHED: S1 L1000, S1 L0993] |
+| **S2** | The Marigold Inn / 24 Hr Gas & Mart | Stolen Fates Books / Anomaly Board | Campfire intake with Mike and Teddy; party auras clarified; Naomi briefs on the 4-fragment conspiracy board; Pierre translates Lost Roads and Echidna lineage; gas station expedition triggers Pierre's latent petrifying gaze [ESTABLISHED: S2 L0438-L1589]. | Margin Wardens (Teddy, Mike, Naomi, Rosa, Anna) [ESTABLISHED: S2 L0515, S2 L0758, S2 L1017] |
+| **S3** | The Lost Roads / Raleigh Museum | **Greek Inscription Tablet (Stele)** | Party navigates the Lost Roads to North Carolina; infiltrates museum disguised as visiting scholars; triggers reception sheep stampede; scouts the Aegean vitrine and alarms [ESTABLISHED: S3 L0592-L1582]. | Museum Security, Academic Staff [ESTABLISHED: S3 L0721, S3 L0908] |
+| **S4** | Raleigh Museum / The Margin | **Greek Inscription Stele (Beacon/Beckon)** | Gorgon Reductors assault gallery; baguette-bomb detonates; Alfie drops clay urn from mezzanine; Pierre grounds tablet through petrified attendant to disperse charge; party escapes back to Margin with Spartan armor and souvenir cap [ESTABLISHED: S4 L0605-L1233]. | Reductor Gorgons, Museum Staff, Margin Wardens [ESTABLISHED: S4 L0616, S4 L1101] |
+| **S5** | University University / Green Room | **1948 Trial Logs (Handwritten Binder)** | Hermes delivers Persephone letter; lecture hall infiltrated; green room search recovers 1948 buckram binder; Dravin activates relic via Alfie triggering monochrome vision; satyr Reductors smash through doors at L1251 cliffhanger [ESTABLISHED: S5 L0184-L1256]. | Hermes, Faculty, Dr. Thorne, Satyr Reductors [ESTABLISHED: S5 L0184, S5 L1242] |
 
 ---
 

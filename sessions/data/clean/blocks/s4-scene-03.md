@@ -2,9 +2,9 @@
 
 "—etated!" Alfie declared from behind the crate. "I think I'm ready to be yeeted under the glass!" <!-- L0331 -->
 
-"Are you thinking a high lob?" Pierre asked, measuring the gap with an anxious squint.
+Pierre measured the narrow clearance beneath the vitrine with an anxious squint, weighing whether an airborne pitch was even possible.
 
-"No, mate," Alfie corrected, planting his carved feet on the linoleum. "I'm viewing this as more of a slide across the floor and then a little scurry." <!-- L0335 -->
+"I'm viewing this as more of like a slide across the floor and then a little scurry," Alfie countered, planting his carved feet on the linoleum. <!-- L0335 -->
 
 "I will help you aim," Pierre offered, adjusting his spectacles. He braced his shoulders to assist the little doll, timing the launch to give Alfie maximum momentum. <!-- L0340 --> <!-- L0343 --> <!-- L0345 --> <!-- L0347 --> <!-- L0349 -->
 
@@ -26,7 +26,7 @@ Alfie trembled from head to wooden toe. "Watch out for the water," he rasped, co
 
 The moment Alfie's hands had touched the stone, a warm, resonant shockwave of raw temporal vitality rippled across the room. The exhaustion of the day melted away from Pierre and Dravin in an instant. Spells long expended snapped back into readiness; strained muscles refreshed as though they had completed a full night's peaceful rest. <!-- L0382 --> <!-- L0383 --> <!-- L0385 --> <!-- L0387 -->
 
-Alfie clutched his coat, visibly shaken to his core. Looking back toward his companions, he wondered aloud whether the temporal release had reached them all. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
+Alfie clutched his coat, visibly shaken to his core. He looked back toward his companions and asked whether the temporal release had reached them all. <!-- L0390 --> <!-- L0394 --> <!-- L0396 -->
 
 
 "The power emanated to all of us," Pierre called out in relief. <!-- L0397 --> <!-- L0400 -->
@@ -37,7 +37,7 @@ Pierre set his boots against the crate and hauled on the rubber cord, reeling Al
 
 Across the gallery, Nincy sprinted toward the main doors, holding her phone aloft to preserve her footage. <!-- L0416 -->
 
-Seeing the tablet's glow flare and dissipate, the lead Gordon bared his fangs, his snake hair hissing in unison. "Revision is compromised!" he snarled in fury. "Capture the subjects!" <!-- L0417 -->
+The tablet's glow flared and dissipated. The lead Gordon bared his fangs, his snake hair hissing in unison. "Revision is compromised!" he snarled in fury. "Capture the subjects!" <!-- L0417 -->
 
 The Gorgon lunged across the floor, driving a serpent-crowned headbutt toward Dravin, the impact grazing the professor for four damage. <!-- L0419 --> <!-- L0431 -->
 

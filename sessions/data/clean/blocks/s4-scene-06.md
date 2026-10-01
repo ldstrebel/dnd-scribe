@@ -18,7 +18,7 @@ Dravin assessed the room. "These gates that are down—they're like a mall at cl
 
 The corrugated metal shutters sealed every archway tightly. "So the people outside aren't getting back in," Dravin observed, planting his sturdy frame between the awake Gordon and his sleeping comrade. "We just have one awake in this room with us. You'll have to go through me!" Dravin dragged the sleeping operative back by the collar to keep him out of the fight. <!-- L0710 --> <!-- L0712 --> <!-- L0716 --> <!-- L0718 -->
 
-The awake Gordon hissed, striking out at Dravin with his venomous claws, tearing into the professor's sleeve for four damage. <!-- L0723 --> <!-- L0725 -->
+The awake Gorgon hissed, catching a fleeting look of recognition as he glanced at Pierre, before turning viciously back toward Edward to strike, his venomous claws tearing through the professor's tweed sleeve. <!-- L0723 --> <!-- L0725 -->
 
 From the stairwell landing above, Alfie peered through the banisters at the base landing. <!-- L0730 -->
 
@@ -28,7 +28,7 @@ Alfie eyed the display pedestals below. "All these pots and relics—they're not
 
 *SMASH!*
 
-The heavy terracotta vessel cracked across Gordon's head, shattering into pottery shards and dealing five bludgeoning damage. <!-- L0755 -->
+The heavy terracotta vessel cracked across the Gorgon's skull, shattering into jagged shards and sending the operative stumbling across the marble floor. <!-- L0755 -->
 
 At the center vitrine, the museum attendant groaned. The gray stone had completely vanished from her skin, leaving her fully restored. She blinked in dazed bewilderment, touching the limestone tablet. This time, no radiant pulse answered—the tablet's stored temporal vitality had fully dispersed. <!-- L0757 --> <!-- L0758 --> <!-- L0760 --> <!-- L0761 --> <!-- L0762 --> <!-- L0763 -->
 

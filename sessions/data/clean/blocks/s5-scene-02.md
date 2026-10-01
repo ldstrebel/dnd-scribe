@@ -6,7 +6,11 @@ Naomi pushed aside a stack of porcelain mugs and spread a faded architectural ph
 
 Pierre leaned in over the photograph, his woolen beret tilted low over his brow as his wire spectacles reflected the gray morning light. "And you, Professor? Do you know this university? With all your classical connections, perhaps you have given guest lectures in their hallowed halls?" <!-- L0171 --> <!-- L0173 -->
 
-Dravin smoothed the lapels of his rumpled tweed coat with patrician calm. "My pedigree is Stanford and the Pacific coast, Pierre," he replied smoothly, lifting his teacup. "Though in modern collegiate athletics, we find ourselves aligned with their regional conference. Two hours away by air, perhaps, but a world apart in academic temperament." <!-- L0174 --> <!-- L0176 --> <!-- L0178 --> <!-- L0179 --> <!-- L0183 -->
+Dravin smoothed the lapels of his rumpled tweed coat with patrician calm. "My pedigree is Stanford and the Pacific coast, Pierre. Though in modern collegiate athletics, we find ourselves aligned with their regional conference." <!-- L0174 --> <!-- L0176 --> <!-- L0178 -->
+
+"Ah, the West Coast," Pierre mused airily, waving a dismissive hand. "That is only one or two hours away, no? A quick jaunt across the provinces." <!-- L0179:pierre -->
+
+Dravin chuckled into his teacup, shaking his head with wry pity. "Yes, my sweet, sweet European boy. You could fly for five hours and still be looking down at corn. The American continent is not an afternoon stroll through the Loire Valley." <!-- L0183:dravin -->
 
 Before Dravin could take another sip, a rapid clatter of rubber soles echoed along the exterior cedar decking. A lithe figure bounded up the porch steps, vaulted clean over the wooden railing with effortless grace, and landed in the center of the common room. The young courier wore vintage canvas sneakers with small white wings stitched along the ankles, his messenger bag slung across a bright athletic jersey.
 

@@ -6,7 +6,7 @@
 
 "No, mate," Alfie corrected, crouching low on his carved driftwood joints. "More of a curling slide across the floor and then a brisk scurry." <!-- L0335-L0354 -->
 
-With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum. His carved boots skimmed the floor wax, zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet. <!-- L0356-L0370 -->
+With a sharp flick of Pierre's wrists and an athletic dive, Alfie rocketed across the polished museum linoleum, skimming past Nincy's petrified boots and zipping cleanly beneath the rising glass case. Drawn by a sudden magnetic pull from the ancient limestone, Alfie leapt onto the pedestal and planted both wooden palms squarely upon the tablet. <!-- L0356-L0370 -->
 
 Instantly, the museum dissolved into a raging sea tempest. Alfie stood upon the wave-swept deck of a wooden galley surging through pitch-black breakers. Rain lashed his face as a marauder captain bellowed to his crew to pillage the slumbering coast, only for reality to shudder and split. In one thread of time, the steersman aimed for the lighthouse beacon, saving the sleeping town while the ship shattered into splinters against the jagged granite reef; in the other, the raiders slipped past the shoals, burning the village to ash. With a violent temporal jolt, the fold snapped shut, returning Alfie to the museum floor beside the ticking cylinder as a wave of vital restorative energy washed over Pierre and Professor Dravin. <!-- L0371-L0387 -->
 

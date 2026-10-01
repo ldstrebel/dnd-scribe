@@ -1,16 +1,14 @@
 <!-- RAW_RANGE: [1206, 1258] | SCENE_ID: 10 | CUT: AUTHORIAL -->
 
-Dr. Thorne took a steadying breath, pressing a small brass key into Dravin's palm. "You're right. I'm a visual learner myself. This could help people far more than just slides." <!-- L1206:thorne -->
+Dr. Aris Thorne took a steadying breath, pressing a small brass key into Dravin's palm. "You're right. I'm a visual learner myself. This could help people far more than just slides." <!-- L1206:thorne -->
 
-"Field the next question, Doctor. I'll retrieve it," Dravin offered smoothly. He knelt behind the desk where Alfie crouched in the mahogany gloom. Slotting the key into the tumbler padlock, the latch sprang open with a crisp click. <!-- L1207-L1210:dravin -->
+"Field the next question, Doctor. I'll retrieve it," Dravin offered smoothly. Walking over to the desk, he knelt where Alfie crouched in the mahogany gloom. Slotting the key into the tumbler padlock, the latch sprang open with a crisp click. <!-- L1207-L1210:dravin -->
 
-Inside rested a thick buckram binder, its edges worn to raw gray board, humming with ozone chill—an active temporal Fragment. <!-- L1215-L1218 -->
-
-Without hesitation, Dravin reached down and bodily seized Alfie around his waist.
+Inside the briefcase rested a thick buckram binder, its edges worn to raw gray cardboard, humming with ozone chill. Without hesitation, Dravin reached down and bodily seized Alfie around his waist.
 
 Mid-air, Alfie kicked his carved legs, groaning in despair. "Not again! Not me again!" <!-- L1219:alfie -->
 
-"Sorry, Alfie," Dravin whispered, slamming the protesting doll face-first into the cold buckram binder. <!-- L1256:dravin -->
+Dravin knew immediately that this research was the active temporal Fragment itself. As he slammed the protesting doll face-first into the cold buckram binder, the fire alarm began to shriek overhead, and raw power poured from the open case. <!-- L1220-L1227 -->
 
 * * *
 
@@ -36,8 +34,6 @@ Reality snapped back like a physical blow. Panicked screams tore through the aud
 
 Slamming inward through the rear double doors, three towering figures in trench coats strode into the hall. Beneath their dark brims, thick ram horns curved back from their brows, and cloven hooves shattered the floor tiles as sulfurous yellow eyes locked onto the stage. <!-- L1242 -->
 
-The Reductors had arrived for the binder. Satyrs—or satans.
+"Satyrs!" Dravin shouted, snatching the heavy binder from the case and raising his bronze hoplite shield to protect Alfie, as Pierre leveled his javelin and Eusacles readied his morningstar. <!-- L1256:dravin -->
 
-Pierre leveled his bronze javelin, and Eusacles rolled his morningstar in his fist, grinning grimly behind his dark glasses as they braced for the onslaught.
-
-<!-- LEDGER: spans=[L1206, L1207-L1210, L1215-L1218, L1219, L1229-L1230, L1232, L1233, L1242, L1256] skipped=[L1208(ooc), L1211-L1214(ooc), L1220-L1228(ooc), L1231(ooc), L1234-L1241(ooc), L1243-L1255(ooc), L1257-L1258(ooc)] -->
+<!-- LEDGER: spans=[L1206, L1207-L1210, L1219, L1220-L1227, L1229-L1230, L1232, L1233, L1242, L1256] skipped=[L1208(ooc), L1211-L1212(ooc), L1213(compressed), L1214-L1216(ooc), L1217(compressed), L1218(ooc), L1221-L1226(ooc), L1228(ooc), L1231(ooc), L1234-L1241(ooc), L1243-L1255(ooc), L1257-L1258(ooc)] -->

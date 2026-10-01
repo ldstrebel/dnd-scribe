@@ -3,29 +3,29 @@
 
 Cool, damp night air rushed into their lungs. <!-- L1794 -->
 
-The dazzling light collapsed into velvety darkness. Pierre tumbled softly into a grassy ditch, his rucksack safely clutched in his arms. Overhead, thousands of stars glittered through the canopy of dense pine trees. The steady, rhythmic chorus of crickets and cicadas filled the humid evening silence. <!-- L1800 -->
+The dazzling light collapsed into velvety darkness. Pierre tumbled softly into a grassy ditch, his canvas rucksack safely clutched in his arms. Overhead, thousands of stars glittered through the canopy of dense pine trees. The steady, rhythmic chorus of crickets and cicadas filled the humid evening silence. <!-- L1800 -->
 
-Beside him in the ditch lay Prof Edward Dravin, the unconscious form of Eusacles, and the unknown named doll. <!-- L1810 -->
+Beside him in the ditch lay Professor Edward Dravin, the unconscious form of Eusacles, and the limp driftwood doll. <!-- L1810 -->
 
-Dravin immediately adjusted his spectacles and whispered an arcane invocation: "Eyes of Night." <!-- L1820 -->
+Professor Dravin blinked against the gloom, frantically pushing his crooked spectacles up the bridge of his nose. "I can't see a single thing," he muttered, rubbing his tired eyes. As his knuckles brushed the glass frames, a sudden amber luminescence flared behind the lenses, piercing the pitch-black night to illuminate the grassy shoulder. <!-- L1820 -->
 
-A soft, amber warmth settled over the party’s vision, piercing the pitch-black darkness to reveal the contours of the roadside. Beside them, an old, two-lane asphalt highway stretched into the mist, lined on one side by a sagging white wooden fence with crossbeam slats. <!-- L1830 -->
+Beside them, an old, two-lane asphalt highway stretched into the mountain mist, bordered on one side by a sagging white wooden fence with crossbeam slats. <!-- L1830 -->
 
-Dravin knelt beside Eusacles, placing two fingers against the gambler's neck. He whispered the words to Spare the Dying. <!-- L1850 -->
+Dravin scrambled over to Eusacles, pressing two fingers against the gambler's cold neck. "Breathe, boy, just breathe," Dravin urged frantically, applying desperate first-aid compressions to his collar. A faint, involuntary silver glow pulsed from Dravin's fingertips, seeping into the bruised tissue. <!-- L1850 -->
 
-A soothing pulse of silver magic washed over Eusacles’s bruised body. Eusacles groaned loudly, his eyelids fluttering open as he clutched his aching head. <!-- L1860 -->
+The soothing silver warmth settled over Eusacles's chest, steadying his ragged pulse. Eusacles groaned loudly, his eyelids fluttering open as his hands flew up to clutch his aching skull. <!-- L1860 -->
 
-"Oh, god damn it..." Eusacles groaned, rubbing his jaw. "I am so sick of the teleportation. Why do I feel hungover?" <!-- L1870 -->
+"Oh, god damn it..." Eusacles groaned, rubbing his bruised jaw. "I am so sick of the teleportation. Why do I feel hungover?" <!-- L1870 -->
 
 He blinked up at the professor and the French boy peering down at him. "Wait... how do you all know my name?" <!-- L1877 -->
 
 "You were muttering it in your sleep," Pierre answered earnestly. <!-- L1880 -->
 
-Eusacles struggled to a sitting position, dusting damp grass off his tank top. A few yards away, Dravin was examining a rusty green road sign half-buried in the overgrown weeds. <!-- L1900 -->
+Eusacles struggled to a sitting position, dusting damp clover and dirt off his black tank top. A few yards away along the ditch, Dravin was examining a rusty green road sign half-buried in the overgrown weeds. <!-- L1900 -->
 
 "The sign says Charleston, West Virginia — 60 Miles," Dravin announced, pushing his glasses up his nose. <!-- L1919 -->
 
-Pierre tilted his head. "Can you remind me... is a mile one kilometer or two? Because that sounds very far." <!-- L1925 -->
+Pierre tilted his head with an anxious squint. "Can you remind me... is a mile one kilometer or two? Because that sounds very far." <!-- L1925 -->
 
 "About two hundred kilometers," Dravin answered with academic precision. <!-- L1930 -->
 

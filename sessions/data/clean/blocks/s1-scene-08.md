@@ -1,27 +1,27 @@
 <!-- RAW_RANGE: [1560, 1676] | SCENE_ID: 8 -->
 ## CHAPTER 8: TENDON SEVER
 
-Back on the battlefield, the unknown named doll scrambled to its feet, shaking seaweed strands from its button eyes. <!-- L1560 -->
+Back on the battlefield, the driftwood doll scrambled to its feet, shaking seaweed strands from its button eyes. <!-- L1560 -->
 
-It looked at the looming horned beast, then down at its own sharp fishing-hook hand. Without a trace of hesitation or self-preservation, the doll sprinted straight between the demon's cloven hooves. With a fierce grunt, it drove the steel fishing hook directly into the beast’s left Achilles tendon and yanked with all its tiny might. <!-- L1570 -->
+The little figure looked at the looming horned beast, then down at its own sharp fishing-hook hand. Without a trace of hesitation or self-preservation, the doll sprinted straight between the demon's cloven hooves. It drove the steel fishing hook directly into the beast’s left Achilles tendon and yanked with all its tiny might. <!-- L1570 -->
 
 Rrrrip. <!-- L1580 -->
 
-A spray of boiling black ichor erupted from the severed tendon. The horned beast threw its head back in an agonizing screech, its rear leg giving out as it stumbled hard onto one knee. <!-- L1590 -->
+A spray of boiling black ichor erupted from the severed tendon. The horned beast threw its head back in an agonizing screech, its rear leg buckling as it stumbled hard onto one knee. <!-- L1590 -->
 
-"Death by tendon!" the doll seemed to crow in silent triumph. <!-- L1600 -->
+"Death by tendon!" Alfie crowed in triumphant defiance from beneath the monster's hooves. <!-- L1600 -->
 
 Behind the wounded demon, the dark rift churned violently. A colossal silhouette—far larger, with towering ram-like horns and massive clawed hands—grasped the edges of the spatial tear, pulling the fabric of reality wider with a terrifying roar. <!-- L1610 -->
 
-"There's more!" the Fates shrieked in unison from their loom. "Hold them off! Just one more turn! It's almost ready!" <!-- L1620 -->
+"There's more!" the Three Fates shrieked in unison from their loom. "Hold them off! Just one more turn! It's almost ready!" <!-- L1620 -->
 
-Prof Edward Dravin thrust his arm toward the giant silhouette holding the portal. "Cause fear!" he cried, seeking to shatter the titan’s resolve with a wave of magical dread. <!-- L1630 -->
+"Stay back!" Professor Dravin shouted, throwing his hands forward in frantic panic as he shrank against the marble pillar. A chilling aura of raw, involuntary dread rippled out from his trembling fingers, washing over the threshold like winter wind. <!-- L1630 -->
 
-The giant beast bared its fangs, shaking off the enchantment with a guttural, mocking laugh. It maintained its iron grip on the rift, forcing the gateway open. <!-- L1640 -->
+The giant titan bared its fangs, shaking off the cold dread with a guttural, mocking laugh. It maintained its iron grip on the rift, forcing the gateway open. <!-- L1640 -->
 
-Eusacles saw the portal widening and decided enough was enough. "All I wanted to do was play some roulette," he snarled. <!-- L1650 -->
+Eusacles saw the portal widening and decided enough was enough. "All I wanted to do was play some roulette," he snarled, wiping blood from his split lip. <!-- L1650 -->
 
-Stepping forward, Eusacles wound up a desperate Spartan kick aimed squarely at the wounded demon's chest, intending to launch it backward through the portal. But as he kicked, the demon's flailing horn whipped around in a brutal counter-arc. <!-- L1660 -->
+Eusacles stepped forward, winding up a desperate Spartan kick aimed squarely at the wounded demon's chest, intending to launch it backward through the portal. But as his boot connected, the demon's flailing horn whipped around in a brutal counter-arc. <!-- L1660 -->
 
 The jagged bone caught Eusacles across the jaw with sickening force. <!-- L1676 -->
 

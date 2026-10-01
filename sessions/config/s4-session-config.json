@@ -14,6 +14,12 @@
     "John Hagey": "Eusacles (Hunting trip)"
   },
   "shared_mics": {},
+  "npcs": [
+    { "name": "Gordon", "introduced_scene": 1 }
+  ],
+  "session_lore_terms": [
+    { "term": "Redactors", "introduced_scene": 1 }
+  ],
   "dialogue_speakers": {
     "112": "attendant",
     "142": "pierre",
@@ -57,10 +63,12 @@
     "1129": "naomi",
     "1133": "naomi",
     "1139": "naomi",
+    "1142": "naomi",
     "1144": "pierre",
     "1146": "naomi",
     "1147": "pierre",
     "1150": "naomi",
+    "1153": "naomi",
     "1157": "naomi",
     "1168": "naomi",
     "1184": "naomi",
@@ -70,15 +78,22 @@
     "1223": "naomi",
     "1227": "rosa",
     "1242": "naomi",
-    "1244": "naomi",
-    "uneraseable_s04_b045": "pierre",
-    "uneraseable_s04_b048": "pierre",
-    "uneraseable_s04_b047_alt2": "pierre",
-    "uneraseable_s04_b196": "naomi",
-    "uneraseable_s04_b199": "pierre"
+    "1244": "naomi"
   },
   "legitimate_ooc_lore_skips": [
+    {
+      "line": 154,
+      "reason": "Player table-level banter observing all four guards have the name tag Gordon."
+    },
+    {
+      "line": 497,
+      "reason": "GM initiative and combat turn tracking for the second Gordon operative."
+    },
     786,
+    {
+      "line": 898,
+      "reason": "GM tactical positioning and bot-drop combat movement announcement."
+    },
     899
   ]
 }

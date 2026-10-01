@@ -6,7 +6,7 @@ In the museum lobby, Nincy screamed as the calcifying gray crust raced from her 
 
 "Edward, it is your turn!" Dravin heard the call amid the ringing chaos and vaulted into motion. <!-- L0221 -->
 
-Hitching his tweed elbows, the professor broke into a frantic sprint across the lobby tiles toward the reception desk. "I'm immediately sprinting over to Nincy and hitting a Cure Wounds!" he shouted over the blaring klaxons. <!-- L0222 -->
+The professor hitched his tweed elbows and broke into a frantic sprint across the lobby tiles toward the reception desk. "I'm immediately sprinting over to Nincy and hitting a Cure Wounds!" he shouted over the blaring klaxons. <!-- L0222 -->
 
 Pierre peered around the corner of the packing crate, watching Dravin's desperate charge. A thought struck him, and he wondered aloud whether Dravin actually knew he was casting divine spells, or if his academic research was simply manifesting into magical effects. <!-- L0224 --> <!-- L0225 -->
 
@@ -22,7 +22,7 @@ Pierre peered around the corner of the packing crate, watching Dravin's desperat
 
 "Cure hounds," Alfie chimed in, chuckling at the linguistic slip. <!-- L0306 --> <!-- L0307 -->
 
-Across the floor, the Gordon who had fired the shot hissed in frustration. Lurching forward, the serpent-headed operative lunged across the desk to snatch the phone from Nincy's grip before the footage could upload. <!-- L0319 -->
+Across the floor, the Gordon who had fired the shot hissed in frustration. The serpent-headed operative lurched forward and lunged across the desk to snatch the phone from Nincy's grip before the footage could upload. <!-- L0319 -->
 
 "Whoa—who was that?" Alfie blinked. "For a second, someone called her Nancy! Her name is Nincy with an *I*!" <!-- L0320 --> <!-- L0321 --> <!-- L0322 -->
 
@@ -30,7 +30,7 @@ Nincy ducked her shoulder, clutching her phone to her chest with white-knuckled 
 
 Across the gallery, the fourth Gordon broke into a dead run toward the eastern wall, aiming to hit the button to drop the glass case down again and seal the ticking bomb inside. <!-- L0326 --> <!-- L0328 -->
 
-"Alfie," Pierre hissed, tightening the orange cord around the doll's waist. "It's your turn!"
+Pierre tightened the orange cord around the doll's waist, bracing Alfie for his throw.
 
 "Ye—" Alfie began. <!-- L0330 -->
 

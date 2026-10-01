@@ -1,0 +1,133 @@
+{
+  "session_id": "s2",
+  "title": "Session 2: The Margin, The Fragments & The Lost Roads - Intent Parity Contract",
+  "description": "Double-blind intent and agency rules for novelization to prevent tabletop mechanic leaks, sanitized character choices, and ungrounded vehicle departures.",
+  "rules": [
+    {
+      "id": "TABLETOP_MECHANIC_LEAK",
+      "description": "Forbid raw D&D rules, dice terminology, and feature labels from leaking into novel manuscript prose",
+      "forbidden_prose_patterns": [
+        "\\bnatural\\s+twenty\\b",
+        "\\bdivine\\s+feature\\b",
+        "\\bsaving\\s+throw\\b",
+        "\\bspell\\s+slot\\b",
+        "\\barcana\\s+check\\b",
+        "\\broll\\s+(?:initiative|with\\s+advantage)\\b"
+      ],
+      "fail_message": "Tabletop game mechanics or dice terminology leaked into narrative prose."
+    },
+    {
+      "id": "DRAVIN_NO_WIZARD_INCANTATIONS",
+      "description": "Dravin is an unawakened academic mortal. Forbid deliberate D&D wizard incantations, spell formulas, or conscious magical channeling across all scenes",
+      "forbidden_prose_patterns": [
+        "\\bdravin\\s+incanted\\b",
+        "\\bdravin\\s+cast\\s+(?:chill\\s+touch|toll\\s+the\\s+dead)\\b",
+        "\\bdravin\\s+channeled\\s+(?:arcane|necrotic)\\s+energy\\b",
+        "\\bdravin\\s+murmured\\s+(?:the\\s+words|a\\s+spell|an\\s+incantation)\\b",
+        "\\bwhispering\\s+(?:words\\s+of\\s+power|arcane\\s+syllables)\\b"
+      ],
+      "fail_message": "Dravin portrayed as a conscious, deliberate spellcaster. Early campaign Dravin is an unawakened academic mortal; his necrotic manifestations must emerge involuntarily through mundane physical reflexes, fumbling spectacles, or nervous gestures."
+    },
+    {
+      "id": "PIERRE_MORTAL_AVOIDANCE",
+      "description": "Pierre avoids physical combat entirely in early scenes, treating violence as vulgar and fleeing behind luggage or furniture",
+      "target_scenes": ["scene-01", "scene-02", "scene-08", "scene-09"],
+      "forbidden_prose_patterns": [
+        "\\bpierre\\s+charged\\b",
+        "\\bpierre\\s+drew\\s+his\\s+rapier\\s+to\\s+strike\\b",
+        "\\bpierre\\s+leaped\\s+into\\s+the\\s+fray\\b"
+      ],
+      "fail_message": "Pierre distorted into eager front-line warrior. Pierre's core intent in S2 is self-preservation, aesthetic critique, and evasion."
+    },
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology must not drift from canonical lore",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "required_replacement": "The Reductors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    },
+    {
+      "id": "NAOMI_BOARD_CANONICAL_PRESENTATION",
+      "description": "Naomi's anomaly board is an active in-world investigative tool with red string and pinned evidence, not static wall art or meta GM planning",
+      "target_scenes": ["scene-06", "scene-07"],
+      "forbidden_prose_patterns": [
+        "\\bmerely\\s+(?:a\\s+)?decoration\\b",
+        "\\bthe\\s+gm's\\s+(?:prep|notes)\\b",
+        "\\bignored\\s+the\\s+(?:conspiracy\\s+)?board\\b"
+      ],
+      "fail_message": "Naomi's anomaly board must be presented as an active, in-world investigative tool briefed by Naomi in the lodge."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "The Sanctuary of Fresh Ink & Campfire Intake",
+      "liberty": "Novelize Eusacles's natural twenty arcana roll into an unclouded surge of golden celestial intuition, removing tabletop game mechanics while deepening the mystical nature of the sanctuary.",
+      "impact": "Preserved player perception success while eradicating D&D mechanics from literary fantasy prose."
+    },
+    {
+      "scene": "scene-02",
+      "scope": "Naming Alfie & The ATM Displacement",
+      "liberty": "Staged Pierre formally naming Alfie from the driftwood doll, dramatized Mike's cruise-ship trauma and ATM wake-up, and deepened Alfie's visceral water-memory trauma.",
+      "impact": "Grounded party emotional bonds and seeded the cosmic displacement mechanics of the Margin."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "Theodore's Chronicle & Aura Clarifications",
+      "liberty": "Staged Eusacles clarifying party auras around the campfire, eliminating confusion over Dravin's living status, and dramatized Theodore's historical perspective dating back to 1846 over blackberry cobbler.",
+      "impact": "Provided essential cosmological grounding and established the rules of temporal suspension in the Margin."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "The Paternal Tether & The Intake Board",
+      "liberty": "Dramatized Pierre's verbal fencing with Army nurse Anna Smith regarding gorgon heritage, staged Mike probing Dravin's gambling-mythology thesis, and separated Rosa and Alfie's dialogue into dedicated single-speaker paragraphs.",
+      "impact": "Maintained character voice cadence and preserved origin-time speaker provenance law."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "Face Care, Pancakes & The Zeus Debate",
+      "liberty": "Heightened comedic timing of Pierre's bedtime cucumber face-care ritual, Mike's burnt Saturday pancakes, and Pierre's genuine confusion between Zeus and Dr. Seuss.",
+      "impact": "Delivered rich comedic character contrast between Pierre's French aesthetic vanity and American campfire hospitality."
+    },
+    {
+      "scene": "scene-06",
+      "scope": "The Anomaly Algorithm & Blackout Drill",
+      "liberty": "Condensed 2,500 words of circular table debate over online forum threads and auction clips into a focused briefing on the four cosmic fragments, staged the sudden perimeter blackout drill, and grounded Apollo demigod heritage.",
+      "impact": "Tightened pacing by 80% while establishing the Reductor corrector threat and Dravin's archaeological connection to the NC tablet."
+    },
+    {
+      "scene": "scene-07",
+      "scope": "The Conspiracy Board & The Echidna Lineage",
+      "liberty": "Eradicated the legacy phantom truck departure from Scene 7, anchoring the entire planning session inside the lodge around Naomi's conspiracy board, Pierre's stolen scrolls, and Theodore tracing gorgons back to Echidna.",
+      "impact": "Eliminated a severe causal contradiction and duplicate vehicle departure between Scene 7 and Scene 8."
+    },
+    {
+      "scene": "scene-08",
+      "scope": "The Threshold of the Lost Roads & The Spatula Stick Shift",
+      "liberty": "Staged the actual expedition departure: Pierre's failed attempt to drive stick like a spatula, Alfie jumping onto the floorboards to push the gas pedal, and the encounter with the suspicious gas mart clerk.",
+      "impact": "Maximized physical slapstick comedy while smoothly advancing the party onto the Lost Roads."
+    },
+    {
+      "scene": "scene-09",
+      "scope": "The Gas Mart Standoff & Latent Gorgon Gaze",
+      "liberty": "Dramatized Alfie's needle attack on the hostile clerk and staged Pierre discovering his latent gorgon petrifying gaze in defense, followed by Mike revealing the prank truck.",
+      "impact": "Revealed Pierre's monstrous heritage through defensive reflex rather than deliberate spellcraft."
+    },
+    {
+      "scene": "scene-10",
+      "scope": "The Slim Jim Rant & The Oceanic Lighthouse Threshold",
+      "liberty": "Focalized Pierre's theatrical French disgust over processed meat noodles (Slim Jims) against the eerie turning of the maintenance shed's lantern beacon and the sudden sensory roar of ocean waves in the Appalachians.",
+      "impact": "Delivered a brilliant comedic-to-uncanny cliffhanger transition into the planar Lost Roads."
+    }
+  ]
+}

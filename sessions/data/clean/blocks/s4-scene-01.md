@@ -10,7 +10,7 @@ The lead archaeologist nodded toward the overhead rig, convinced that the fragme
 
 With a low hydraulic hum, the mechanical claw descended from the ceiling, its steel pincers latching onto the reinforced glass vitrine. Gears clicked as the glass lifted, rising smoothly until a two-foot gap opened between the rim of the case and the museum floor. <!-- L0114 --> <!-- L0116 -->
 
-Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. Reaching inside his tailored blazer, he pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown. <!-- L0118 -->
+Before the claw could clear another inch, the security detail flanking the perimeter moved. One of the men in matching dark suits stepped forward with practiced, military precision. He reached inside his tailored blazer, pulled out a heavy metallic cylinder, thumbed an activation switch, and hurled it under the rising glass. The device landed squarely atop the ancient tablet with a sharp metallic clatter, its digital face flashing with an eighteen-second countdown. <!-- L0118 -->
 
 Around the gallery, the air grew suddenly thick and charged with ozone as the party took up defensive positions. The mundane illusion covering the security guards began to warp and dissolve like smoke in a draft. Beneath the harsh museum track lights, the neat crew-cuts on their heads began to writhe and hiss, their hair separating into dozens of living, coiling vipers. On their breast pockets, the silver museum security badges caught the fluorescent glare, each stamped with an identical name: *Gordon. Gordon. Gordon. Gordon.* <!-- L0142 --> <!-- L0145 --> <!-- L0147 --> <!-- L0148 -->
 
@@ -48,7 +48,7 @@ Pierre peered beneath the glass case. The digital device sat squarely atop the l
 
 "Alfie," Pierre murmured, a reckless grin spreading across his face. "Are you thinking what I am thinking?" <!-- L0188 --> <!-- L0189 --> <!-- L0191 --> <!-- L0192 -->
 
-Rummaging through the archaeology cart's lower tool shelf, Pierre pushed past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord. <!-- L0193 --> <!-- L0194 --> <!-- L0196 --> <!-- L0197 -->
+Pierre rummaged through the archaeology cart's lower tool shelf, pushing past paintbrushes and specimen envelopes until his fingers wrapped around a bright orange, heavy-duty extension cord. <!-- L0193 --> <!-- L0194 --> <!-- L0196 --> <!-- L0197 -->
 
 With quick, deft loops, Pierre fastened the heavy rubberized cable securely around the sturdy twine waistline of Alfie's coat. He scooped the driftwood doll up into his arms and dropped into a low crouch behind a wooden shipping crate, out of the Gorgons' direct line of fire. <!-- L0199 --> <!-- L0203 --> <!-- L0204 -->
 
