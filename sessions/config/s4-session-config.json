@@ -15,10 +15,16 @@
   },
   "shared_mics": {},
   "npcs": [
-    { "name": "Gordon", "introduced_scene": 1 }
+    {
+      "name": "Gordon",
+      "introduced_scene": 1
+    }
   ],
   "session_lore_terms": [
-    { "term": "Redactors", "introduced_scene": 1 }
+    {
+      "term": "Redactors",
+      "introduced_scene": 1
+    }
   ],
   "dialogue_speakers": {
     "112": "attendant",
@@ -154,6 +160,42 @@
     {
       "line": 1094,
       "reason": "GM table staging of Naomi's reaction; covered in rendered scene."
+    },
+    {
+      "line": 1187,
+      "reason": "GM table lore description of investigative journalist; covered in rendered scene."
+    },
+    {
+      "line": 1188,
+      "reason": "GM table lore description of public discourse; covered in rendered scene."
+    },
+    {
+      "line": 1194,
+      "reason": "GM table description of Forgotten Trail; covered in rendered scene."
+    },
+    {
+      "line": 1218,
+      "reason": "GM table schedule check and downtime prep; covered in rendered scene."
+    },
+    {
+      "line": 1222,
+      "reason": "Player table action intent to check shield; covered in rendered scene."
+    },
+    {
+      "line": 1223,
+      "reason": "GM table lore reference to Rosa's artificer abilities; covered in rendered scene."
+    },
+    {
+      "line": 1227,
+      "reason": "GM table reaction to Alfie's hat; covered in rendered scene."
+    },
+    {
+      "line": 1242,
+      "reason": "GM table lore reflection on artifact backfires; covered in rendered scene."
+    },
+    {
+      "line": 1244,
+      "reason": "GM table conclusion of session intake; covered in rendered scene."
     }
   ]
 }

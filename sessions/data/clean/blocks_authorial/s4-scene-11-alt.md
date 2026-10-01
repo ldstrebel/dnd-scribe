@@ -8,10 +8,10 @@ Naomi laid out two bulky project binders on the oak table: "The stolen catapult 
 
 Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. "And I would like my new javelin turned into a Zeus thunderbolt, please!" Pierre added with theatrical flair. <!-- L1221:pierre -->
 
-When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use—*ipso facto*!" <!-- L1233-L1235:dravin -->
+"This hat was dropped on the floor!" Alfie protested defensively. "I didn't steal it!" <!-- L1224-L1226:alfie -->
 
-"This hat was dropped on the floor!" Alfie protested defensively. "I didn't steal it!" <!-- L1224-L1226 -->
+When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use—*ipso facto*!" <!-- L1233-L1235:dravin -->
 
 "Putting it back to its original use!" Pierre beamed. "And besides, what happens in Vegas stays in Vegas!" Gathering around the crackling hearth with their next destination locked, the company rested in the haven of the Margin, ready for the strange road ahead. <!-- L1236-L1240 -->
 
-<!-- LEDGER: spans=[L1184, L1185, L1199-L1216, L1221, L1233-L1235, L1224-L1226, L1236-L1240] skipped=[L1181-L1183(ooc), L1186-L1198(ooc), L1217-L1220(ooc), L1222-L1223(ooc), L1227-L1232(ooc), L1241-L1244(ooc)] -->
+<!-- LEDGER: spans=[L1184, L1185, L1199-L1216, L1221, L1224-L1226, L1233-L1235, L1236-L1240] skipped=[L1181-L1183(ooc), L1186-L1198(ooc), L1217-L1220(ooc), L1222-L1223(ooc), L1227-L1232(ooc), L1241-L1244(ooc)] -->
