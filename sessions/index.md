@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Session Index: The Margin
 
 ## Arc 1: The Weave & The Lost Roads
