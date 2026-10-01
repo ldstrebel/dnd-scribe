@@ -52,3 +52,5 @@ campaign/planning/**/*.mp4
 novel/*.epub
 sessions/data/index/audit_history.json
 scratch/
+.tmp*
+**/.tmp*
