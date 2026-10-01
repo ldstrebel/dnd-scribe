@@ -3120,24 +3120,16 @@
       "id": "uneraseable_s02_b045_alt10",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
-      "speakerId": "theodore",
-      "text": "Dravin asked if residents ever left, to which Teddy confirmed that avenues in and out revolved around classical Greek mythology. Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. \"Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?\"",
+      "speakerId": "narrator",
+      "text": "When Dravin inquired whether residents ever left, Teddy confirmed that avenues in and out revolved around classical Greek mythology.",
       "segments": [
         {
           "segmentId": "uneraseable_s02_b045_alt10_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Dravin asked if residents ever left, to which Teddy confirmed that avenues in and out revolved around classical Greek mythology. Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. "
-        },
-        {
-          "segmentId": "uneraseable_s02_b045_alt10_s02",
-          "type": "dialogue",
+          "type": "action",
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",
           "sourceLine": 715,
-          "text": "\"Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?\""
+          "text": "When Dravin inquired whether residents ever left, Teddy confirmed that avenues in and out revolved around classical Greek mythology."
         }
       ]
     },
@@ -3145,11 +3137,44 @@
       "id": "uneraseable_s02_b045_alt11",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
+      "speakerId": "pierre",
+      "text": "Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. \"Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?\" Pierre asked.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s02_b045_alt11_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. "
+        },
+        {
+          "segmentId": "uneraseable_s02_b045_alt11_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 720,
+          "text": "\"Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?\""
+        },
+        {
+          "segmentId": "uneraseable_s02_b045_alt11_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre asked."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s02_b045_alt12",
+      "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
+      "cut": "cinematic",
       "speakerId": "theodore",
       "text": "\"All the classics from eighth-grade mythology come around,\" Teddy nodded solemnly. \"Creatures tend to live on their own in the borderlands. Come inside the main lodge. A warm meal will help you absorb it all. We will have tea and dessert, and begin our intake.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt11_s01",
+          "segmentId": "uneraseable_s02_b045_alt12_s01",
           "type": "dialogue",
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",
@@ -3157,7 +3182,7 @@
           "text": "\"All the classics from eighth-grade mythology come around,\""
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt11_s02",
+          "segmentId": "uneraseable_s02_b045_alt12_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3165,7 +3190,7 @@
           "text": " Teddy nodded solemnly. "
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt11_s03",
+          "segmentId": "uneraseable_s02_b045_alt12_s03",
           "type": "dialogue",
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",
@@ -3175,14 +3200,14 @@
       ]
     },
     {
-      "id": "uneraseable_s02_b045_alt12",
+      "id": "uneraseable_s02_b045_alt13",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
       "speakerId": "dravin",
       "text": "Inside the long timber hall of the Marigold, steaming herbal tea and freshly baked blackberry cobbler were set before the weary travelers. Savoring the warm pastry, Dravin noted with quiet wonder, \"The sensory details remain completely intact.\" Other displaced guests moved quietly across the hall, smiling at Alfie as he hopped across the pine planks, re-enacting his needle duel.",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt12_s01",
+          "segmentId": "uneraseable_s02_b045_alt13_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3190,7 +3215,7 @@
           "text": "Inside the long timber hall of the Marigold, steaming herbal tea and freshly baked blackberry cobbler were set before the weary travelers. Savoring the warm pastry, Dravin noted with quiet wonder, "
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt12_s02",
+          "segmentId": "uneraseable_s02_b045_alt13_s02",
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
@@ -3198,7 +3223,7 @@
           "text": "\"The sensory details remain completely intact.\""
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt12_s03",
+          "segmentId": "uneraseable_s02_b045_alt13_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3208,14 +3233,14 @@
       ]
     },
     {
-      "id": "uneraseable_s02_b045_alt13",
+      "id": "uneraseable_s02_b045_alt14",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
       "speakerId": "theodore",
       "text": "Teddy pulled up a heavy wooden chair opposite Eusacles, his weathered eyes narrowing with direct appraisal. \"You seem remarkably comfortable with all of this, son. Let me be blunt: are you a half-blood?\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt13_s01",
+          "segmentId": "uneraseable_s02_b045_alt14_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3223,7 +3248,7 @@
           "text": "Teddy pulled up a heavy wooden chair opposite Eusacles, his weathered eyes narrowing with direct appraisal. "
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt13_s02",
+          "segmentId": "uneraseable_s02_b045_alt14_s02",
           "type": "dialogue",
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",
@@ -3233,14 +3258,14 @@
       ]
     },
     {
-      "id": "uneraseable_s02_b045_alt14",
+      "id": "uneraseable_s02_b045_alt15",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
       "speakerId": "eusacles",
       "text": "Eusacles exhaled a heavy, ragged breath, staring at his calloused knuckles. \"Look, man. Yeah, I'm a half-blood. My mother told me about my father. But I don't want anything to do with oracles, the Fates, or the gods. I cannot believe I got dragged into Greek mythology b.s. I tried so hard to avoid it. I was aware of this whole world, but I stayed out. I'm still wrapping my head around being here.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt14_s01",
+          "segmentId": "uneraseable_s02_b045_alt15_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3248,7 +3273,7 @@
           "text": "Eusacles exhaled a heavy, ragged breath, staring at his calloused knuckles. "
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt14_s02",
+          "segmentId": "uneraseable_s02_b045_alt15_s02",
           "type": "dialogue",
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
@@ -3258,14 +3283,14 @@
       ]
     },
     {
-      "id": "uneraseable_s02_b045_alt15",
+      "id": "uneraseable_s02_b045_alt16",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
       "speakerId": "theodore",
       "text": "\"So you were heading to Vegas to escape it all?\" Teddy asked gently.",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt15_s01",
+          "segmentId": "uneraseable_s02_b045_alt16_s01",
           "type": "dialogue",
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",
@@ -3273,7 +3298,7 @@
           "text": "\"So you were heading to Vegas to escape it all?\""
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt15_s02",
+          "segmentId": "uneraseable_s02_b045_alt16_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3283,14 +3308,14 @@
       ]
     },
     {
-      "id": "uneraseable_s02_b045_alt16",
+      "id": "uneraseable_s02_b045_alt17",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
       "speakerId": "eusacles",
       "text": "\"I was going to Vegas to blow off steam,\" Eusacles muttered with a dark, wry grin. \"Because none of it matters. We're all going to end up dead eventually. We're all going to end up in the underworld at some point\u2014so why not have fun while I can?\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt16_s01",
+          "segmentId": "uneraseable_s02_b045_alt17_s01",
           "type": "dialogue",
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
@@ -3298,7 +3323,7 @@
           "text": "\"I was going to Vegas to blow off steam,\""
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt16_s02",
+          "segmentId": "uneraseable_s02_b045_alt17_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3306,7 +3331,7 @@
           "text": " Eusacles muttered with a dark, wry grin. "
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt16_s03",
+          "segmentId": "uneraseable_s02_b045_alt17_s03",
           "type": "dialogue",
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
@@ -3316,14 +3341,14 @@
       ]
     },
     {
-      "id": "uneraseable_s02_b045_alt17",
+      "id": "uneraseable_s02_b045_alt18",
       "scene": "CHAPTER 13: THE SANCTUARY OF FRESH INK",
       "cut": "cinematic",
       "speakerId": "theodore",
       "text": "Teddy closed his leatherbound journal with a slow, contemplative nod. \"That is fascinating.\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s02_b045_alt17_s01",
+          "segmentId": "uneraseable_s02_b045_alt18_s01",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -3331,7 +3356,7 @@
           "text": "Teddy closed his leatherbound journal with a slow, contemplative nod. "
         },
         {
-          "segmentId": "uneraseable_s02_b045_alt17_s02",
+          "segmentId": "uneraseable_s02_b045_alt18_s02",
           "type": "dialogue",
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",

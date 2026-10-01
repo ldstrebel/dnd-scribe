@@ -233,7 +233,7 @@
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~118 words/scene)",
+          "chosenStance": "Micro-Chapters (~116 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -2546,15 +2546,15 @@
       "id": "uneraseable_s04_b047_alt2",
       "scene": "CHAPTER 26: THE MEDUSA PROTOCOL",
       "cut": "cinematic",
-      "speakerId": "narrator",
+      "speakerId": "pierre",
       "text": "\"Are you thinking a high lob?\" Pierre asked, measuring the two-foot gap beneath the vitrine with an anxious squint.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b047_alt2_s01",
           "type": "dialogue",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 332,
           "text": "\"Are you thinking a high lob?\""
         },
         {
@@ -7528,7 +7528,7 @@
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "mike",
-      "text": "\"We've got rum!\" Mike beamed, poking his head out from the kitchen doorway. \"I'll put it right in the pancakes!\" Pierre gasped in culinary terror, warning Mike about cooking temperatures while Alfie cracked a faint, recovering smile.",
+      "text": "\"We've got rum!\" Mike beamed, poking his head out from the kitchen doorway. \"I'll put it right in the pancakes!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b181_alt4_s01",
@@ -7553,14 +7553,6 @@
           "speakerName": "Mike",
           "sourceLine": 1122,
           "text": "\"I'll put it right in the pancakes!\""
-        },
-        {
-          "segmentId": "uneraseable_s04_b181_alt4_s04",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Pierre gasped in culinary terror, warning Mike about cooking temperatures while Alfie cracked a faint, recovering smile."
         }
       ]
     },
@@ -7568,8 +7560,8 @@
       "id": "uneraseable_s04_b181_alt5",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
-      "speakerId": "naomi",
-      "text": "Naomi opened her dispatch binder, reporting that a woman with braided hair had just stolen an ancient catapult from a UK pawn shop with an electric shock handshake. Checking Nincy's social media feed on her phone, Naomi showed them the viral post: the video was warped by shadowy blurs that masked the Gorgons' faces and skipped over Dravin's healing glow. \"For now, the timeline anomaly is masked,\" Naomi noted. \"The Fates haven't scrubbed the net yet, but we must move on our next objective before Redactors trace us through the Lost Roads.\"",
+      "speakerId": "narrator",
+      "text": "Pierre threw his hands up in culinary terror, warning Mike about cooking temperatures while Alfie cracked a faint, recovering smile.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b181_alt5_s01",
@@ -7577,10 +7569,27 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
+          "text": "Pierre threw his hands up in culinary terror, warning Mike about cooking temperatures while Alfie cracked a faint, recovering smile."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b181_alt6",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
+      "speakerId": "naomi",
+      "text": "Naomi opened her dispatch binder, reporting that a woman with braided hair had just stolen an ancient catapult from a UK pawn shop with an electric shock handshake. Checking Nincy's social media feed on her phone, Naomi showed them the viral post: the video was warped by shadowy blurs that masked the Gorgons' faces and skipped over Dravin's healing glow. \"For now, the timeline anomaly is masked,\" Naomi noted. \"The Fates haven't scrubbed the net yet, but we must move on our next objective before Redactors trace us through the Lost Roads.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b181_alt6_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
           "text": "Naomi opened her dispatch binder, reporting that a woman with braided hair had just stolen an ancient catapult from a UK pawn shop with an electric shock handshake. Checking Nincy's social media feed on her phone, Naomi showed them the viral post: the video was warped by shadowy blurs that masked the Gorgons' faces and skipped over Dravin's healing glow. "
         },
         {
-          "segmentId": "uneraseable_s04_b181_alt5_s02",
+          "segmentId": "uneraseable_s04_b181_alt6_s02",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -7588,7 +7597,7 @@
           "text": "\"For now, the timeline anomaly is masked,\""
         },
         {
-          "segmentId": "uneraseable_s04_b181_alt5_s03",
+          "segmentId": "uneraseable_s04_b181_alt6_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -7596,7 +7605,7 @@
           "text": " Naomi noted. "
         },
         {
-          "segmentId": "uneraseable_s04_b181_alt5_s04",
+          "segmentId": "uneraseable_s04_b181_alt6_s04",
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
@@ -8371,7 +8380,7 @@
       "id": "uneraseable_s04_b205_alt1",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
-      "speakerId": "pierre",
+      "speakerId": "naomi",
       "text": "Naomi laid out two bulky project binders on the oak table: \"The stolen catapult in the UK is a dead end. That leaves us with two active leads: an airline hijacking that never appeared in news records, or a controversial investigative tour surrounding a mysterious Mad Doctor in West Virginia.\"",
       "segments": [
         {
@@ -8385,9 +8394,9 @@
         {
           "segmentId": "uneraseable_s04_b205_alt1_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1181,
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 1184,
           "text": "\"The stolen catapult in the UK is a dead end. That leaves us with two active leads: an airline hijacking that never appeared in news records, or a controversial investigative tour surrounding a mysterious Mad Doctor in West Virginia.\""
         }
       ]
@@ -8421,15 +8430,15 @@
       "id": "uneraseable_s04_b205_alt3",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
-      "speakerId": "naomi",
+      "speakerId": "pierre",
       "text": "\"The hijacking sounds very sensitive, but the Mad Doctor murder mystery\u2014two women drinking wine talking about true crime\u2014sounds way more French!\" Pierre argued passionately. The party unanimously agreed, setting their course along the Forgotten Trail through the Lost Roads.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b205_alt3_s01",
           "type": "dialogue",
-          "speakerId": "naomi",
-          "speakerName": "Naomi",
-          "sourceLine": 1194,
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1199,
           "text": "\"The hijacking sounds very sensitive, but the Mad Doctor murder mystery\u2014two women drinking wine talking about true crime\u2014sounds way more French!\""
         },
         {
@@ -8446,8 +8455,8 @@
       "id": "uneraseable_s04_b205_alt4",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
-      "speakerId": "dravin",
-      "text": "Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. \"And I would like my new javelin turned into a Zeus thunderbolt, please!\" Pierre added with theatrical flair. When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: \"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\"",
+      "speakerId": "pierre",
+      "text": "Dravin unstrapped his museum hoplite shield and Pierre offered his bronze javelin, preparing to hand the relics to Rosa, the sanctuary's resident demigod artificer, to inspect their latent mythological enchantments. \"And I would like my new javelin turned into a Zeus thunderbolt, please!\" Pierre added with theatrical flair.",
       "segments": [
         {
           "segmentId": "uneraseable_s04_b205_alt4_s01",
@@ -8460,9 +8469,9 @@
         {
           "segmentId": "uneraseable_s04_b205_alt4_s02",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1219,
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1221,
           "text": "\"And I would like my new javelin turned into a Zeus thunderbolt, please!\""
         },
         {
@@ -8471,15 +8480,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre added with theatrical flair. When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "
-        },
-        {
-          "segmentId": "uneraseable_s04_b205_alt4_s04",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1219,
-          "text": "\"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\""
+          "text": " Pierre added with theatrical flair."
         }
       ]
     },
@@ -8487,11 +8488,36 @@
       "id": "uneraseable_s04_b205_alt5",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
+      "speakerId": "dravin",
+      "text": "When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: \"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s04_b205_alt5_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "When Naomi teased them about museum theft, Dravin offered a patrician wave of his hand: "
+        },
+        {
+          "segmentId": "uneraseable_s04_b205_alt5_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1233,
+          "text": "\"All museum artifacts were stolen at one point in history anyway. I am merely returning it to its original mythological use\u2014*ipso facto*!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s04_b205_alt6",
+      "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
+      "cut": "cinematic",
       "speakerId": "alfie",
       "text": "\"This hat was dropped on the floor!\" Alfie protested defensively. \"I didn't steal it!\"",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b205_alt5_s01",
+          "segmentId": "uneraseable_s04_b205_alt6_s01",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8499,7 +8525,7 @@
           "text": "\"This hat was dropped on the floor!\""
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt5_s02",
+          "segmentId": "uneraseable_s04_b205_alt6_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8507,7 +8533,7 @@
           "text": " Alfie protested defensively. "
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt5_s03",
+          "segmentId": "uneraseable_s04_b205_alt6_s03",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
@@ -8517,14 +8543,14 @@
       ]
     },
     {
-      "id": "uneraseable_s04_b205_alt6",
+      "id": "uneraseable_s04_b205_alt7",
       "scene": "CHAPTER 28: ECHOES ACROSS THE LOST ROADS",
       "cut": "cinematic",
       "speakerId": "pierre",
       "text": "\"Putting it back to its original use!\" Pierre beamed. \"And besides, what happens in Vegas stays in Vegas!\" Gathering around the crackling hearth with their next destination locked, the company rested in the haven of the Margin, ready for the strange road ahead.",
       "segments": [
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s01",
+          "segmentId": "uneraseable_s04_b205_alt7_s01",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8532,7 +8558,7 @@
           "text": "\"Putting it back to its original use!\""
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s02",
+          "segmentId": "uneraseable_s04_b205_alt7_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
@@ -8540,7 +8566,7 @@
           "text": " Pierre beamed. "
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s03",
+          "segmentId": "uneraseable_s04_b205_alt7_s03",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -8548,7 +8574,7 @@
           "text": "\"And besides, what happens in Vegas stays in Vegas!\""
         },
         {
-          "segmentId": "uneraseable_s04_b205_alt6_s04",
+          "segmentId": "uneraseable_s04_b205_alt7_s04",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",

@@ -18,7 +18,9 @@ Pierre nudged Mike, pointing toward the little figure perched upon his shoulder.
 
 "Time doesn't tick down in the Margin, little sailor," Teddy explained with a soft chuckle, pushing his tobacco pipe between his teeth. "You don't age. Your boots don't wear out unless you cross the fence. We are the notes scribbled in the white margins of a manuscript. As long as we stay here, the eraser cannot reach us. I founded this place back in 1846, and I haven't aged since." <!-- L0700-L0706 -->
 
-When Dravin inquired whether residents ever left, Teddy confirmed that avenues in and out revolved around classical Greek mythology. Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. "Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?" Pierre asked. <!-- L0715-L0720:pierre -->
+When Dravin inquired whether residents ever left, Teddy confirmed that avenues in and out revolved around classical Greek mythology. <!-- L0715-L0719:theodore -->
+
+Pierre listened with guarded curiosity, tugging the rim of his beret low over his unruly curls. "Mr. Theodore... when you say developers and edits, I am just happy it does not end with software glitches. But you mentioned monsters. Are there monsters here?" Pierre asked. <!-- L0720:pierre -->
 
 "All the classics from eighth-grade mythology come around," Teddy nodded solemnly. "Creatures tend to live on their own in the borderlands. Come inside the main lodge. A warm meal will help you absorb it all. We will have tea and dessert, and begin our intake." <!-- L0724-L0729 -->
 
@@ -34,4 +36,4 @@ Eusacles exhaled a heavy, ragged breath, staring at his calloused knuckles. "Loo
 
 Teddy closed his leatherbound journal with a slow, contemplative nod. "That is fascinating." <!-- L0750 -->
 
-<!-- LEDGER: spans=[L0631-L0633, L0634, L0640, L0651-L0660, L0664, L0667-L0673, L0677-L0680, L0688-L0690, L0700-L0706, L0715-L0720, L0724-L0729, L0731-L0733, L0736, L0739-L0740, L0741, L0744-L0745, L0750] skipped=[L0635-L0639(ooc), L0641-L0650(ooc), L0661-L0663(ooc), L0665-L0666(ooc), L0674-L0676(ooc), L0681-L0687(ooc), L0691-L0699(ooc), L0707-L0714(ooc), L0721-L0723(ooc), L0730(ooc), L0734-L0735(ooc), L0737-L0738(ooc), L0742-L0743(ooc), L0746-L0749(ooc)] -->
+<!-- LEDGER: spans=[L0631-L0633, L0634, L0640, L0651-L0660, L0664, L0667-L0673, L0677-L0680, L0688-L0690, L0700-L0706, L0715-L0719, L0720, L0724-L0729, L0731-L0733, L0736, L0739-L0740, L0741, L0744-L0745, L0750] skipped=[L0635-L0639(ooc), L0641-L0650(ooc), L0661-L0663(ooc), L0665-L0666(ooc), L0674-L0676(ooc), L0681-L0687(ooc), L0691-L0699(ooc), L0707-L0714(ooc), L0721-L0723(ooc), L0730(ooc), L0734-L0735(ooc), L0737-L0738(ooc), L0742-L0743(ooc), L0746-L0749(ooc)] -->
