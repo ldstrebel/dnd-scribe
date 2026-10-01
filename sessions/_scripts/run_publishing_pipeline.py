@@ -121,7 +121,7 @@ def render_dual_track_scorecard(sessions):
         print(f"\n🎬 TRACK B: CINEMATIC AUTHORIAL CUT (Flow, Velocity & Staging Standard)")
         if cin_files:
             comp_ratio = (cin_words / tbl_words * 100) if tbl_words > 0 else 0
-            density_floor = 50.0
+            density_floor = float(intent.get("density_floor", 50.0))
             density_ok = comp_ratio >= density_floor
 
             is_complete = len(cin_files) >= len(tbl_files)

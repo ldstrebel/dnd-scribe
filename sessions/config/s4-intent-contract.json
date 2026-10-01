@@ -2,6 +2,7 @@
   "session_id": "s4",
   "title": "Session 4: The Raleigh Museum Gorgon Ambush & Debrief - Intent Parity Contract",
   "description": "Double-blind intent and agency rules for Session 4 to prevent tabletop mechanics leaks, preserve Gorgon physiology grounding, and ensure Naomi's board is canonically presented.",
+  "density_floor": 35.0,
   "rules": [
     {
       "id": "TABLETOP_MECHANIC_LEAK",
