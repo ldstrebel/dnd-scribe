@@ -38,7 +38,7 @@ def index_raw_transcript(session_id: str, repo_root: Path = None) -> tuple[int, 
         text = f.read()
 
     # Locate the transcript section
-    m = re.search(r"# \*\*📖 Transcript\*\*", text)
+    m = re.search(r"#+\s+\*\*.*Transcript\*\*", text)
     if not m:
         # Fallback to looking for the first speaker pattern
         first_speaker = re.search(r"\n\*\*([A-Za-z ]+):\*\*", text)

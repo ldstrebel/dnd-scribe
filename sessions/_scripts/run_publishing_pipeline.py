@@ -153,14 +153,19 @@ def render_dual_track_scorecard(sessions):
                 track_b_status = "ADAPTED"
             print(f"   🏅 TRACK B GRADE: [{cin_grade}] {grade_note}")
 
-            print(f"\n   📝 Documented Creative Liberties Taken (Where & Why):")
+            print(f"\n   🎬 CINEMATIC RESHAPING & ADAPTATION REVIEW (Why Track B Drifted from Tabletop):")
             if authorial_liberties:
                 for idx, lib in enumerate(authorial_liberties, 1):
                     sc_lbl = lib.get('scene', 'General').upper()
                     sc_scope = lib.get('scope', lib.get('title', 'Scene'))
                     print(f"      {idx:2d}. [{sc_lbl} - {sc_scope}]")
-                    print(f"          ├─ Liberty: {lib.get('liberty', 'N/A')}")
-                    print(f"          └─ Impact:  {lib.get('impact', 'N/A')}")
+                    if "encounter_reshaping" in lib:
+                        print(f"          ├─ Encounter Reshaping (Macro): {lib['encounter_reshaping']}")
+                        print(f"          ├─ Beat Reordering:             {lib.get('reordering', 'N/A')}")
+                        print(f"          └─ Dialogue Tweaks (Micro):     {lib.get('dialogue_tweaks', 'N/A')}")
+                    else:
+                        print(f"          ├─ Liberty: {lib.get('liberty', 'N/A')}")
+                        print(f"          └─ Impact:  {lib.get('impact', 'N/A')}")
             else:
                 print(f"      (Structural Liberties: {cin_spans} multi-turn spans fused into fluid narrative action beats)")
         else:

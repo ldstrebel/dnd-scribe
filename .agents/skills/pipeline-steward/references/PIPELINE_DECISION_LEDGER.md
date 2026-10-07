@@ -396,6 +396,52 @@ Every entry records:
 * **Trade-off Accepted:** Eliminates quick "freeform" authorial cut drafting; Track A must be audited and locked first before Track B is cut; human PR critique comments cannot be bypassed or hand-waved.
 * **Enforcing Gate:** `verify_alternate_scene.py` (Gates 1 & 3), `generate_web_manifest.py:554`, `verify_critiques.py`, `run_publishing_pipeline.py` (Step 1C and Density Floor Hard Fail), `sessions/_scripts/harness/test_harness.py` (`test_alternate_scene_unanchored_dialogue_quote_fails`, `test_alternate_scene_inverted_dialogue_attribution_fails`).
 
+### [DEC-032] 2026-10-07: Substantive Skip Tag Quarantine, Tabletop Jargon Quarantine & Plural Entity Invariant
+* **Context & Friction:** Red-team forensic audit of Session 6 (`s6`) surfaced 10+ failure points where the publishing pipeline succumbed to tautological validation ("approving to approve"):
+  1. *Substantive Skip Tag Evasion:* While `DEC-024` hard-gated substantive turns tagged `(ooc)`, drafters simply relabeled substantive turns (including in-character speech, parley dialogue like L0258-L0259, and tactical intent) as `(banter)` or `(mechanics)`, completely evading scrutiny because `audit_semantic_grounding.py` only checked `reason == "ooc"`.
+  2. *Tabletop Rules Jargon in Quoted Dialogue:* Drafters repeatedly placed game mechanics jargon (*"Bonus action"*, *"1d8 + 4"*, *"saving throw"*, *"initiative count"*) directly into spoken character quotation marks, violating `DEC-005` / `FP-03` by turning player table intent into character speech.
+  3. *Unsynchronized Header Ranges:* Scene markdown headers (`<!-- RAW_RANGE: [start, end] -->`) drifted from `sN-manifest-v2.json` line ranges (e.g. `s6-scene-02.md`), escaping validation because `verify_manifest.py` only checked JSON-to-JSON bounds.
+  4. *Pluralized Entity False Failures in Track B:* `verify_alternate_scene.py` Gate 1 matched declared entity tokens with strict word boundaries (`\bSatyr\b`), triggering false rejections when valid literary prose pluralized them (`satyrs`).
+* **Precedent Honoured:** `FP-03` / `DEC-005` (Tabletop Intent vs. Verbatim Dialogue), `FP-07` / `DEC-008` (Anti-Hollow Gate Overhaul), `DEC-011` (Origin-Time Provenance), `DEC-016` (Inclusive Fiction Law), `DEC-019` (Fail-Hard on Breach), `DEC-024` (Substantive-Skip Hard Gate).
+* **Agreed Decision & Protocol:**
+  1. **Universal Substantive Skip Gate (`audit_semantic_grounding.py` & `verify_parity.py`):**
+     - Quoted in-character speech dropped in skipped ledgers under `(banter)` or `(mechanics)` now triggers hard error `[UNJUSTIFIED_DIALOGUE_DROP]`.
+     - Lore lexicon scanning (`lore_re`) expands beyond `(ooc)` to inspect lines tagged `(mechanics)` or `(banter)` (`[TIER_B_LORE_DROP]` & `[CANON_LORE_IN_SKIPPED_LEDGER]`).
+  2. **Tabletop Rules Jargon Quarantine (`critique_prose.py`):**
+     - Added deterministic regex scanner across all settings and drafts flagging D&D/tabletop rule mechanics jargon (`bonus action`, `saving throw`, `armor class`, `spell slot`, `initiative count`, `action surge`, `sneak attack`, `hit dice`, `death save`) inside character quotation marks (`[TABLETOP_RULES_JARGON_IN_DIALOGUE]`). In fantasy narration, rules jargon is quarantined unless explicitly novelized as in-world sensory manifestations.
+  3. **Header Range Synchronization Gate (`verify_manifest.py`):**
+     - Asserts that every scene file's `<!-- RAW_RANGE: [start, end] -->` header exactly matches `manifest["scenes"][scene_id]["line_range"]` (`[HEADER_RANGE_MISMATCH]`).
+  4. **Plural Entity Regex Boundary (`verify_alternate_scene.py`):**
+     - Gate 1 entity matching pattern updated to `\b{entity}(?:s|es)?\b` to cleanly accommodate standard English pluralization without sacrificing actor grounding.
+  5. **Session 6 Remediations:** Remediated Track A and Track B across all 10 blocks: restored Pierre's L0258 parley and L1216 verbatim motto, restored Alfie's L0506 banter, restored Eusacles's L1119 rescue gratitude, restored Dr. Thorne's L1443 dialogue, stripped dice/bonus-action mechanics from dialogue in Scene 9, and locked `s6-manifest-v2.json`.
+* **Trade-off Accepted:** Table mechanics lines that contain substantive lore or in-character quips must either be novelized into prose or explicitly registered with justification in `sN-session-config.json["legitimate_ooc_lore_skips"]`.
+* **Enforcing Gate:** `audit_semantic_grounding.py`, `verify_parity.py`, `critique_prose.py`, `verify_manifest.py`, `verify_alternate_scene.py`, `sessions/_scripts/harness/test_harness.py` (38 passing unit tests).
+
+### [DEC-033] 2026-10-07: The Cinematic Reshaping & Intentional Adaptation Review Standard
+* **Context & Friction:** While `DEC-018` and `DEC-030` mandated itemized `authorial_liberties` for Track B, the pipeline output previously reduced creative justifications to generic, repetitive summaries of tabletop cutting (e.g., "Streamlined dice mechanics", "Eliminated procedural tabletop mechanics"). The user explicitly challenged this: cutting tabletop noise is self-evident; what readers and human reviewers actually need to understand is *why* the creative agent reshaped the scene—specifically detailing **Macro Encounter Reshaping**, **Beat Reordering**, and **Dialogue & Micro-Tweaks**.
+* **Precedent Honoured:** `DEC-015` (Intent Parity Contracts), `DEC-018` (Dual-Track Scorecard), `DEC-022` (Source-Decision Ledger), `DEC-030` (Truth-in-Reporting Dual-Track Matrix), `DEC-031` (Track B Derivation-from-A).
+* **Agreed Decision & Protocol:**
+  1. **Tri-Partite Adaptation Schema in Intent Contracts (`sN-intent-contract.json`):**
+     Each entry in `authorial_liberties` must explicitly articulate:
+     - `encounter_reshaping` (Macro): How the scene/encounter as a whole was reshaped for narrative velocity, stakes, and emotional flow.
+     - `reordering`: Why specific beats or actions were re-sequenced relative to the raw table transcript order.
+     - `dialogue_tweaks` (Micro): Why character lines were sharpened, fused, or slightly rephrased for voice cadence, dramatic punch, or comedic timing.
+  2. **Pipeline Telemetry Upgrade (`run_publishing_pipeline.py`):**
+     The scorecard replaces flat "Where & Why" bullets with a structured `🎬 CINEMATIC RESHAPING & ADAPTATION REVIEW`. For every scene, it reports the macro encounter reshaping, beat reordering, and micro dialogue tweaks.
+* **Trade-off Accepted:** Drafting Track B now requires upfront articulation of dramatic staging rationale across macro and micro dimensions in the intent contract rather than relying on generic "pacing compression" boilerplate.
+* **Enforcing Gate:** `run_publishing_pipeline.py` (Track B Scorecard review), `sN-intent-contract.json` schema validation.
+
+### [DEC-034] 2026-10-07: The Canonical Harmonization & Explicit Adaptation Justification Mandate
+* **Context & Friction:** Review comments and audit objections frequently surface not because narrative choices are flawed, but because the rationale behind adaptations is unrecorded. When the novel deviates from casual table banter to preserve macro-consistency—such as correcting Professor Dravin's spiritual weapon from a temporary 3-foot wooden ruler (bantered at L1159) to a scholarly lexicon/tome to match the canonical knockout blow at L1357—auditors and downstream agents flag the deviation as ungrounded drift or hallucination if no explicit justification exists.
+* **Precedent Honoured:** `DEC-015` (Intent Parity Contracts), `DEC-022` (Source-Decision Ledger), `DEC-026` (Unawakened Academic Archetype), `DEC-033` (Cinematic Reshaping Standard).
+* **Agreed Decision & Protocol:**
+  1. **Climax-Anchored Canonical Harmonization:** When tabletop improvisation introduces contradictory props or mechanics across an encounter (e.g., improvising a schoolmaster's ruler early in combat, but resolving the encounter with a heavy scholarly tome), the publishing engine must harmonize the manifestation to the canonical climax resolution from the beginning of the encounter.
+  2. **Mandatory Dual-Registration of Adaptation Justifications:** Any canonical harmonization, psychological deepening (e.g., Pierre's panic masked by charisma), or magic system clarification (e.g., Alfie's linguistic Wordcraft alteration of Spore the Dying) must be registered in two locations:
+     - `sN-source-decisions.json`: In the `decisions` array with `canon: "harmonized_to_climax"` (or `"deepened"`), context span, and explicit reason; and in `critiques` mapping reviewer feedback to resolution notes.
+     - `sN-intent-contract.json`: As an explicit `justification` field under `authorial_liberties`, and enforced via deterministic rules in `rules` (e.g. `DRAVIN_CANONICAL_WEAPON_UNIFICATION`).
+* **Trade-off Accepted:** Eliminates nostalgic verbatim preservation of discarded mid-combat table jokes in favor of unbreakable novelistic prop continuity and character integrity.
+* **Enforcing Gate:** `verify_intent_parity.py`, `verify_alternate_scene.py`, `run_publishing_pipeline.py`.
+
 ---
 
 ## 📌 Rules for Appending to this Ledger

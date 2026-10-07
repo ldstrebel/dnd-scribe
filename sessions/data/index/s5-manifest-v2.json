@@ -234,10 +234,10 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "D",
+      "grade": "A-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 62,
-      "popcornmeter": 94,
+      "tomatometer": 94,
+      "popcornmeter": 96,
       "campaignArcImpact": "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Reductor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure.",
       "technicalCompliance": {
         "earthLeaks": 0,
@@ -246,6 +246,8 @@
         "transcriptParity": "100%"
       },
       "ruthlessAnalysis": "Forensic audit verified.",
+      "narrativeCraftFeedback": null,
+      "tabletopPlayFeedback": null,
       "tradeOffs": [
         {
           "dimension": "Narrative Velocity vs. Tangential Banter",
@@ -571,7 +573,7 @@
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 88,
+          "sourceLine": 91,
           "text": "\"In Paris, Monsieur Mike, breakfast is the final bulwark of civilized humanity,\""
         },
         {
@@ -587,7 +589,7 @@
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 88,
+          "sourceLine": 91,
           "text": "\"Out back, I sought to construct a stone blind. Three whole weeks without a single carved archway or lintel! Only soggy loam. If one does not practice stonecraft, the fingers soften into bourgeois uselessness.\""
         }
       ]
@@ -1429,7 +1431,7 @@
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
-          "sourceLine": 156,
+          "sourceLine": 157,
           "text": "\"A prestigious northeastern campus,\""
         },
         {
@@ -1445,7 +1447,7 @@
           "type": "dialogue",
           "speakerId": "naomi",
           "speakerName": "Naomi",
-          "sourceLine": 156,
+          "sourceLine": 157,
           "text": "\"Our subject, Dr. Aris Thorne, speaks tomorrow. On paper, she investigates buried 1948 clinical trials that supposedly tested experimental Big Pox cures on unwilling subjects. I believe her trial notes are an active temporal anchor.\""
         }
       ]
@@ -1769,7 +1771,7 @@
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
-          "sourceLine": 217,
+          "sourceLine": 219,
           "text": "\"Does he deliver all the post, or just the stuff with gold leaf?\""
         }
       ]
@@ -2905,10 +2907,10 @@
       "segments": [
         {
           "segmentId": "uneraseable_s05_b036_alt13_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 268,
           "text": "Without answering, Dravin slid the parchment across the rough pine table."
         }
       ]
@@ -8101,7 +8103,7 @@
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 924,
+          "sourceLine": 925,
           "text": "\"Pardon, monsieur,\""
         },
         {
@@ -8117,7 +8119,7 @@
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 924,
+          "sourceLine": 925,
           "text": "\"Where is the sculpting laboratory?\""
         }
       ]
@@ -9410,7 +9412,7 @@
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1055,
+          "sourceLine": 1057,
           "text": "\"No,\""
         },
         {
@@ -9426,7 +9428,7 @@
           "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1055,
+          "sourceLine": 1057,
           "text": "\"Naomi was clear back at the cabin. Reality doesn't unravel into the open air; every tear in the weave anchors to a physical relic, exactly like the Greek stele in Raleigh. We are looking for an object.\""
         }
       ]

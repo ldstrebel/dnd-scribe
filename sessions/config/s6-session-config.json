@@ -1,0 +1,101 @@
+{
+  "session_id": "s6",
+  "title": "The Auditorium Incursion & The Memory Seam",
+  "game_master": {
+    "person": "Luke Foreman",
+    "identity": "Luke Foreman (GM)"
+  },
+  "players": {
+    "Luke S": "Pierre",
+    "William Webb": "Prof. Edward Dravin",
+    "Sophie Foreman Noone": "Alfie",
+    "John Hagey": "Eusacles"
+  },
+  "absent_players": {},
+  "shared_mics": {},
+  "npcs": [
+    { "name": "Dr. Aris Thorne", "introduced_scene": 1 },
+    { "name": "Satyr", "introduced_scene": 1 },
+    { "name": "The Transformed Woman", "introduced_scene": 1 }
+  ],
+  "dialogue_speakers": {
+    "259": "woman",
+    "1007": "woman",
+    "1443": "thorne",
+    "1493": "thorne",
+    "1495": "thorne",
+    "1497": "thorne",
+    "1499": "thorne",
+    "1501": "thorne",
+    "1503": "thorne",
+    "1505": "thorne",
+    "1516": "thorne"
+  },
+  "legitimate_ooc_lore_skips": [
+    {
+      "line": 14,
+      "reason": "William discussing real-world job interview and travel logistics at table."
+    },
+    {
+      "line": 146,
+      "reason": "Table discussion of character leveling and Foundry virtual tabletop sheets."
+    },
+    {
+      "line": 195,
+      "reason": "GM distributing legend points and level 4 advancement at table."
+    },
+    {
+      "line": 198,
+      "reason": "GM recap of the big pox and mad doctor testing at table."
+    },
+    {
+      "line": 200,
+      "reason": "GM clarification of mad doctor lore at the table."
+    },
+    {
+      "line": 202,
+      "reason": "GM explanation of stable to stale letter change at table."
+    },
+    {
+      "line": 209,
+      "reason": "GM reviewing active combat perks and Alfie's chaos belt items at table."
+    },
+    {
+      "line": 555,
+      "reason": "GM mechanical clarification about star inscription of good vibes on dice roll at table."
+    },
+    {
+      "line": 1006,
+      "reason": "GM verbal slip of the tongue ('Satan, the satyrs, excuse me') during combat narration at table."
+    },
+    {
+      "line": 1076,
+      "reason": "GM table mechanics comparing acid damage against Gorgon creature stat block."
+    },
+    {
+      "line": 1318,
+      "reason": "Player declaration of spell mechanic 'spore the dying'; novelized in narrative at L1343-L1355."
+    },
+    {
+      "line": 1339,
+      "reason": "GM mechanics confirmation of spare/spore the dying interaction; novelized in narrative at L1343-L1355."
+    },
+    {
+      "line": 1543,
+      "reason": "GM session conclusion call referencing the edge of the lost roads at table wrap-up."
+    }
+  ],
+  "session_cutoff": {
+    "line": 1563,
+    "gm_call_line": 1543,
+    "reason": "GM: 'And and I think that is where we'll pick up. We'll pick up next time on uh before we get even later. Um we'll pick up at the the edge of the lost roads.' (L1543). L1544-L1563 are table wrap-up and scheduling. L1542 'All right, back to the lost road then with our hostage' is the final in-character beat."
+  },
+  "session_lore_terms": [
+    { "term": "Good Vibes", "introduced_scene": 3 },
+    { "term": "Island Time", "introduced_scene": 3 },
+    { "term": "Chaos Belt", "introduced_scene": 2 },
+    { "term": "Mage Band", "introduced_scene": 7 },
+    { "term": "Twilight Sanctuary", "introduced_scene": 2 },
+    { "term": "Spore the Dying", "introduced_scene": 9 }
+  ]
+}

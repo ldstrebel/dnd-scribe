@@ -378,6 +378,16 @@ class TestSkipLedgerGate(unittest.TestCase):
         errors, _ = self._audit([("3", "compressed")], prose=prose)
         self.assertEqual(errors, [])
 
+    def test_lore_in_mechanics_skip_is_hard_error(self):
+        errors, _ = self._audit([("2", "mechanics")])
+        self.assertIn("TIER_B_LORE_DROP", self._codes(errors))
+
+    def test_quoted_speech_in_banter_skip_is_hard_error(self):
+        raw_with_quotes = list(self.RAW) + ['**Luke S:** "I do not like the brain eating."']
+        words = set()
+        errors, _ = audit_skip_ledger(9, [("5", "banter")], raw_with_quotes, words, self.LORE_RE, {})
+        self.assertIn("UNJUSTIFIED_DIALOGUE_DROP", [e.split("]")[0].split("[")[1] for e in errors])
+
 
 from sessions._scripts.audit_arc_ledger import audit_arc_ledger
 from sessions._scripts.audit_reader_context import audit_reader_context, load_declared_introductions

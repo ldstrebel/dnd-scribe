@@ -1,0 +1,17 @@
+<!-- RAW_RANGE: [1181, 1310] | SCENE_ID: 8 | CUT: AUTHORIAL -->
+
+## CHAPTER 39: THE SCHOLAR'S TOME & THE FALLEN AESTHETE
+
+Professor Dravin thrust his open palm forward through the blinding deluge, guiding the hovering spectral tome with calm, unyielding academic focus. The heavy leatherbound volume whistled through the mist, coming down across the lead horned satyr's shoulders with concussive, bone-rattling force that sent the beast sprawling across the flooded platform. <!-- L1181-L1202 -->
+
+The wounded satyr dropped to all fours, hissing through bared fangs in blind fury. Catching sight of Alfie crouched deep within the kneehole of the teacher's desk, the creature lowered its ram-horned brow and charged headlong into the shadows beneath the wood. With a deafening splinter of seasoned timber, the curved horns smashed violently into the solid oak frame, wedging immovably between the locked drawers. Alfie leaned calmly against the back panel, folding her small carved arms in the narrow sanctuary between the thrashing horns without a splinter on her coat. <!-- L1203-L1212 -->
+
+Seeing the driftwood doll trapped out of reach, the second Satyr wheeled toward Pierre, who scrambled backward on his elbows through the rising puddle. He had stared down horrors in shadowy salons before, but the raw violence of the beast sent a jolt of pure panic hammering through his chest—a terror he forced down beneath a frantic, flamboyant smirk. "I am an aesthetician, not a gladiator!" Pierre protested, thrusting out trembling palms to cast a ward with manic bravado. "Stay your hand!" <!-- L1216-L1224:pierre -->
+
+The horned beast ignored the plea entirely. Vaulting the orchestra railing with terrible momentum, it brought its cloven hooves down squarely into Pierre's chest. Brutal concussive force exploded through his ribs, shattering his breath and sending his round wire spectacles spinning into the foam. Pierre collapsed flat against the submerged tiles, his black woolen beret floating aside as cold darkness swallowed his consciousness. <!-- L1241-L1252 -->
+
+Across the platform, the crackling woman thrashed frantically against Alfie's spectral hair tie, her captive tendrils straining the glowing lavender band to the snapping point. Pierre groaned weakly from the puddle, clawing through the suffocating fog in his skull to reach for his belt. Fumbling with slick fingers, he produced a slender steel dissection scalpel. "Wait for the shampoo to set, madame!" Pierre wheezed through gritted teeth, dragging himself forward. "You will look vastly superior with a crew cut!" Gripping the elastic with his left hand, he drew the keen steel edge across the captive tendrils, furiously sawing coarse clumps of dark hair into the churning water. <!-- L1261-L1283:pierre -->
+
+Beneath the battered oak desk, Alfie drew back her fine sewing-needle rapier, sighting the wedged satyr's thrashing snout. "Have some needlework, mate!" Alfie chirped, driving the sharpened steel clean into the creature's exposed right eyeball. A fountain of black inky ichor sprayed across the desk rungs as the blinded satyr shrieked in agony, tearing backward with blood and ink streaming down its furry snout, its depth perception utterly ruined. <!-- L1285-L1298:alfie -->
+
+"Every hostile on this stage is bloodied," Dravin observed coldly, holding aloft his illuminated scholarly volume as the battered creatures reeled in the relentless deluge. <!-- L1300-L1310:dravin -->

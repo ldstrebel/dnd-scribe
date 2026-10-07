@@ -1,0 +1,15 @@
+<!-- RAW_RANGE: [621, 750] | SCENE_ID: 4 | CUT: AUTHORIAL -->
+
+## CHAPTER 35: THUNDERWAVE & THE PETRIFYING CARTRIDGE
+
+Across the glowing barrier, the transformed Medusa remained held fast in Pierre's invisible psychic vice. Tendrils of coarse hair thrashed against the unseen restraint like trapped vipers, crackling with errant bursts of white voltage that scorched the upholstery of the nearest auditorium seats. Pierre adjusted his black woolen beret with trembling, elegant fingers, peering over the rostrum as ozone stung his nostrils. "You stay right there," Pierre called out haughtily, forcing steady Parisian composure into his voice. "You listen to me, and you remain civilized." <!-- L0623-L0627:pierre -->
+
+Alfie perched on the edge of the battered mahogany desk, her painted seashell button eyes narrowing at the frozen creature. The tiny driftwood figurine planted her carved feet, feeling the vibrating floorboards hum through her soles. "Right then," Alfie declared, drawing back her small wooden arms with ferocious intent. "*Thunderwave!*" A concussive shockwave of sonic thunder erupted from her needle rapier, tearing down the aisle with the force of a detonating cannon. The blast shattered rows of student desks into kindling and staggered the paralyzed woman backward, shearing showers of black sparks from her coiling hair. Before the backblast could dissipate, Alfie hopped backward like an acrobatic sparrow, ducking beneath the heavy oak rungs of a lecture chair for cover. <!-- L0635-L0687:alfie -->
+
+Up on the stage apron, the thunderous concussion gave Professor Edward Dravin the precise mechanical opening he required. Bracing his leather heels against the wet oak floorboards, Dravin applied decisive anatomical leverage against the satyr pinning him down, hurling the horned beast sprawling across the platform into a heap of damp musical scores. He rose smoothly, adjusting his wire-rimmed spectacles as he assessed the tactical layout of the auditorium. The air tasted of ionized rain and scorched plaster, and he lined up a clear, unobstructed firing lane down into the central aisle. <!-- L0688-L0707 -->
+
+"A scholar does not discard an empirical tool," Dravin remarked mildly, withdrawing the blued-steel pneumatic sidearm from his inner tweed pocket. The museum weapon hummed with pressurized gas, loaded with specialized petrifying cartridges designed to neutralize anomalous biological specimens before containment failure. "She cannot move. A stationary target is more than sufficient to calibrate an empirical trajectory." <!-- L0712-L0731:dravin -->
+
+"Close the distance, Professor!" Pierre urged from the orchestra railing, leaning out over the drop as hooves clattered nearby. "Point-blank! Put the muzzle right to her brow so the shot cannot fail!" <!-- L0738-L0743:pierre -->
+
+"It is a ranged propellant cartridge, Pierre," Dravin pointed out calmly, raising the iron sights to center the front post directly on the paralyzed Medusa. <!-- L0745-L0749:dravin -->

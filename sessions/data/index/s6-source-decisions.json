@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-decisions",
+  "session_id": "s6",
+  "source_file": "sessions/data/index/s6-raw-indexed.md",
+  "source_sha256": "f62f3f222bd591bde44c66ef7f130261d6cae906b168e98389f96a5d867cb51e",
+  "session_cutoff": {
+    "line": 1563,
+    "gm_call_line": 1543,
+    "reason": "GM: 'And and I think that is where we'll pick up. We'll pick up next time on uh before we get even later. Um we'll pick up at the the edge of the lost roads.' (L1543). L1544-L1563 are table wrap-up and scheduling. L1542 'All right, back to the lost road then with our hostage' is the final in-character beat."
+  },
+  "scope": "Reviewed high-risk naming, collaborative lore proposals, and contested combat actions in auditorium incursion.",
+  "complements": [
+    "sessions/config/s6-intent-contract.json",
+    "sessions/config/s6-session-config.json"
+  ],
+  "decisions": [
+    {
+      "source_line": 1159,
+      "contributor": "William Webb",
+      "mode": "player_declaration_and_author_mandate",
+      "function": "Spiritual Weapon manifestation",
+      "canon": "scholarly_encyclopedia_unification",
+      "risk": "canonical_drift",
+      "destination": "render",
+      "context": [1159, 1357],
+      "reason": "At L1159, player William Webb explicitly designated the Spiritual Weapon as an encyclopedia ('Obviously, it's an encyclopedia britannica'). Per explicit authorial directive, all nun ruler / straightedge jokes (L1164) are excised as OOC banter into the skipped ledger. Dravin's weapon is unified canonically as the scholarly tome/encyclopedia across Scenes 7, 8, and 9, preserving absolute prop continuity into the Scene 9 climax where Dravin physically slams his book down to knock out the Gorgon."
+    },
+    {
+      "source_line": 1216,
+      "contributor": "Luke S",
+      "mode": "character_action",
+      "function": "Pierre tactical defense & reaction",
+      "canon": "deepened",
+      "risk": "character_consistency",
+      "destination": "render",
+      "context": [1216, 1224],
+      "reason": "Pierre's outward banter and vanity ('Pierre is a lover, not a fighter') is grounded in deep-POV prose as a charismatic coping mechanism masking near-panic from previous monster encounters, preserving comedic timing while raising psychological stakes without inventing ungrounded bloodline lore."
+    },
+    {
+      "source_line": 1339,
+      "contributor": "William Webb, Sophie Foreman Noone, Luke Foreman",
+      "mode": "collaborative_spellcraft",
+      "function": "Spore the Dying wordcraft twist",
+      "canon": "established",
+      "risk": "character_lore_parity",
+      "destination": "render",
+      "context": [1339, 1355],
+      "reason": "Dravin does not know he is casting magic (per DEC-026); his unconscious protective intent projects glowing threshold runes ('SPARE') from his coat signet. Alfie, who perceives the living typography of magic, intervenes to pluck and twist the letter into 'SPORE' to harm only the hostiles, maintaining Dravin's scholar archetype while honoring the campaign's linguistic spellcraft physics."
+    },
+    {
+      "source_line": 1543,
+      "contributor": "Luke Foreman",
+      "mode": "table",
+      "function": "session wrap-up call",
+      "canon": "established",
+      "risk": "gm_confirmation",
+      "destination": "render",
+      "context": [1542, 1544],
+      "reason": "The GM wraps up at the edge of the Lost Roads; no further PC actions played in this session."
+    }
+  ],
+  "critiques": [
+    {
+      "id": "rev-s6-c01",
+      "source_line": 1159,
+      "speaker": "Prof. Edward Dravin",
+      "speaker_id": "dravin",
+      "quote": "\"A scholarly instrument,\" Dravin announced with stern academic gravity, directing the hovering volume to strike with focused threshold force.",
+      "comment": "Excised nun ruler/straightedge per explicit authorial mandate. Dravin's weapon is canonically the scholarly volume/encyclopedia from the beginning across Scenes 7, 8, and 9, maintaining complete prop continuity with the Scene 9 climax.",
+      "category": "canonical_weapon_differentiation",
+      "status": "resolved",
+      "resolution_notes": "Unified Dravin's spiritual weapon across Scenes 7 and 8 as the scholarly encyclopedia tome. Excised L1164 nun ruler banter to skipped ledger. Aligned with William's ground-truth declaration at L1159 and the author's explicit book-only mandate."
+    },
+    {
+      "id": "rev-s6-c02",
+      "source_line": 1216,
+      "speaker": "Pierre",
+      "speaker_id": "pierre",
+      "quote": "A jolt of pure, breathless panic shot through Pierre's chest—he had faced grotesque monstrosities before, and he knew how swiftly violence broke a body—but even scrambling through the puddle, he forced his trembling jaw into a defiant, theatrical grin.",
+      "comment": "For Pierre, portrayed as calm and joking around on the outside because he's seen monsters before, overcoming near-panic with charisma without inventing ungrounded bloodline lore.",
+      "category": "character_psychology",
+      "status": "resolved",
+      "resolution_notes": "Deepened Pierre's internal reaction beats in Scenes 6, 8, and 9 (Track A & Track B). Scrubbed ungrounded 'primordial bloodlines' phrasing; grounded his vanity as desperate psychological armor holding back acute trauma."
+    },
+    {
+      "id": "rev-s6-c03",
+      "source_line": 1343,
+      "speaker": "Alfie",
+      "speaker_id": "alfie",
+      "quote": "Alfie, whose eyes could perceive the glowing linguistic threads and letters of magic suspended in the air, shoved both stubby porcelain hands upward...",
+      "comment": "Spore the Dying wordplay: Alfie perceives the living language of magic and tweaks the letter, maintaining Dravin's unawakened scholar archetype while leveraging wordplay.",
+      "category": "magic_mechanics_and_lore",
+      "status": "resolved",
+      "resolution_notes": "Staged Spore the Dying around campaign linguistic physics in Scene 9 (Track A & B): Dravin's unconscious intent projects the glowing threshold word 'SPARE' from his lapel signet, and Alfie visibly perceives the glowing runic typography in the air and plucks the vowel thread, warping the 'A' into an 'O' ('SPORE') to redirect the rot onto the satyrs."
+    }
+  ]
+}

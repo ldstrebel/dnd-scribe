@@ -84,6 +84,19 @@ def verify_manifest(session_id):
             errors.append(f"Scene {scene_id} has start line {start} greater than end line {end}.")
             continue
 
+        # Markdown header synchronization
+        sid_str = f"{scene_id:02d}" if isinstance(scene_id, int) else str(scene_id)
+        block_filename = f"{session_id}-scene-{sid_str}.md"
+        block_path = os.path.join(base_dir, "data", "clean", "blocks", block_filename)
+        if os.path.exists(block_path):
+            with open(block_path, "r", encoding="utf-8") as bf:
+                first_line = bf.readline()
+                hm = re.search(r"RAW_RANGE:\s*\[(\d+),\s*(\d+)\]", first_line)
+                if hm:
+                    h_start, h_end = int(hm.group(1)), int(hm.group(2))
+                    if [h_start, h_end] != line_range:
+                        errors.append(f"HEADER RANGE MISMATCH: Scene {scene_id} markdown file '{block_filename}' header declares RAW_RANGE [{h_start}, {h_end}], but manifest line_range is {line_range}")
+
         # Block size limit (max 165 lines)
         block_len = end - start + 1
         if block_len > 165:

@@ -1,0 +1,17 @@
+<!-- RAW_RANGE: [751, 900] | SCENE_ID: 5 | CUT: AUTHORIAL -->
+
+## CHAPTER 36: ELECTRIFIED SHALLOWS & THE SHATTERED JAVELIN
+
+Professor Edward Dravin stood braced beside the podium, holding a small silver compact mirror before his cheek to sight the paralyzed Medusa over his left shoulder. Water rained down from the ceiling sprinklers, plastering his graying hair to his temples and soaking his tweed coat. "I have no interest in dealing mortal harm," Dravin announced evenly above the hiss of cascading water. "The objective is empirical restraint." He aligned the iron sights in the mirror's reflection and squeezed the pneumatic trigger. A sharp pneumatic hiss echoed through the hall as the heavy blued cartridge embedded deep in the woman's shoulder, dissolving into calcifying neural paste before he swept *Moonbeam* across the orchestra pit to sear her thrashing coils with cold lunar luminescence. <!-- L0768-L0797:dravin -->
+
+Behind them on the platform, the satyr vanguard shook off Dravin's throw, clattering on cloven hooves across the flooded stage toward Eusacles. The demigod grunted beneath his aviator sunglasses, pivoting with the practiced footwork of a veteran street brawler. "Step right up, pal," Eusacles muttered, swinging *Good Vibes* in a savage upward counter-arc. The spiked morningstar whistled through the deluge, smashing into the lead beast's ribs with bone-crushing force and sending showers of yellow sparks ricocheting into the spray. <!-- L0803-L0811:eusacles -->
+
+With a violent snap of strained tendons and crackling cartilage, the transformed woman broke Pierre's psychic paralysis. Vaulting atop the stage apron, an oppressive, suffocating aura rippled outward from her brow as her electrified hair whips lashed violently at Dravin's chest. All across the auditorium, the fire-suppressant deluge pooled inches deep over the floorboards, charging the shallow water with dangerous arcs of blue voltage as fresh ink blots plopped from the vibrating dimensional seam. <!-- L0827-L0836 -->
+
+Pierre tightened his grip on his bronze museum javelin, spotting a second satyr circling the stage perimeter toward Alfie's hiding spot beneath the desk. "Excuse me! I was not finished addressing you!" Pierre shouted indignantly, splashing through the electrified shallows. "Why are you walking away? You have left me no alternative but to pierce you! Taste the wrath of an authentic antiquities piece!" Lunging forward with theatrical fencing leverage, Pierre drove the bronze spearhead directly into the beast's flanks. <!-- L0863-L0878:pierre -->
+
+*CRACK.*
+
+The ancient, brittle bronze head sheared clean off beneath the ferrule, shattering against the creature's coarse hide and leaving Pierre clutching nothing but a splintered wooden stick. The severed tendrils flailed about in blind fury, hissing with violent bursts of static electricity that set the puddles boiling with white foam. <!-- L0884-L0894 -->
+
+Pierre blinked down at the jagged stump in stunned disbelief, then brandished the splintered wood at the hissing woman as her fangs snapped in the spray. "You know, this is precisely what occurs when one fails to apply conditioner every evening!" Pierre declared with haughty clinical disdain. "They become entirely unruly! You should seriously consider adding some protein to your grooming regimen!" The creature shrieked in primal outrage, while Dr. Aris Thorne pressed both trembling hands to her face beside the podium in sheer academic disbelief. <!-- L0895-L0900:pierre -->

@@ -133,7 +133,7 @@ def audit_gate1_entity_coverage(archival_text: str, alternate_text: str, session
         for k, v in alias_map.items():
             if v == entity:
                 patterns.append(re.escape(k))
-        regex = rf"\b({'|'.join(patterns)})\b"
+        regex = rf"\b(?:{'|'.join(patterns)})(?:s|es)?\b"
         if re.search(regex, alternate_text, re.IGNORECASE):
             retained_entities.append(entity)
         else:

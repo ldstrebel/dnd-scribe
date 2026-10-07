@@ -254,7 +254,7 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
                     errors.append(f"ILLEGAL SKIP REASON in Scene {scene_id}: Line L{num:04d} has unapproved skip reason: '{reason}'")
                 
                 # Canon Lore Guardrail: Prevent accidental relegation of lore to skipped ledger
-                if reason in {"ooc", "banter"}:
+                if reason in {"ooc", "banter", "mechanics"}:
                     if 1 <= num <= len(raw_lines):
                         raw_line_text = raw_lines[num - 1]
                         lore_match = canon_lore_re.search(raw_line_text) if canon_lore_re else None

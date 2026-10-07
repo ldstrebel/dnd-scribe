@@ -1,0 +1,151 @@
+{
+  "session_id": "s6",
+  "title": "The Auditorium Incursion & The Memory Seam - Intent Parity Contract",
+  "rules": [
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology drifted from canonical name",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+had\\s+arrived\\b",
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "required_replacement": "The Reductors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    },
+    {
+      "id": "ALFIE_ACTION_FIGURE_GROUNDING",
+      "description": "Alfie rejects being called a doll and insists on action figure",
+      "target_scenes": ["scene-10"],
+      "required_intent_grounding": [
+        "\\b(action figure|not a doll|hate being called|doll)\\b"
+      ],
+      "fail_message": "Missing Alfie action figure objection when Dr. Thorne calls her a doll."
+    },
+    {
+      "id": "DRAVIN_SCHOLARLY_BOOK_STRIKE",
+      "description": "Dravin knocks the transformed woman unconscious with a book strike",
+      "target_scenes": ["scene-09"],
+      "required_intent_grounding": [
+        "\\b(book|tome|volume|struck|strike|knock|slammed|head)\\b"
+      ],
+      "fail_message": "Missing Dravin book strike knockout on the Gorgon woman."
+    },
+    {
+      "id": "DRAVIN_CANONICAL_WEAPON_UNIFICATION",
+      "description": "Dravin's Spiritual Weapon must be canonically staged as the scholarly tome/encyclopedia across Scenes 7, 8, and 9 per authorial mandate, purging all nun ruler and straightedge leaks",
+      "target_scenes": ["scene-07", "scene-08", "scene-09"],
+      "forbidden_prose_patterns": [
+        "\\b(?:nun'?s?\\s+)?ruler\\b",
+        "\\bstraightedge\\b"
+      ],
+      "required_intent_grounding": [
+        "\\b(book|tome|volume|encyclopedia|lexicon)\\b"
+      ],
+      "fail_message": "Dravin's weapon must be staged as the scholarly tome/volume/encyclopedia with zero ruler/straightedge leaks."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "Auditorium Alarm & Crackling Transformation",
+      "encounter_reshaping": "Fused the fire alarm bells, stampeding lecture audience, and the woman's metamorphosis into an unbroken wave of kinetic panic rather than staggered turn-by-turn initiative rounds.",
+      "reordering": "Staged Pierre examining the ink blot directly beneath the levitating boots right as the transformation snaps, turning his aesthetic curiosity into the immediate trigger for combat.",
+      "dialogue_tweaks": "Tightened Pierre's fragmented table parley into an immediate vanity protest ('Madame, the ink is ruining the dais!') before the monster's screech cuts him off.",
+      "liberty": "Streamlined dice mechanics and table grid orientation into visceral sensory panic as the woman transforms and Pierre probes the ink blot.",
+      "impact": "Eliminated procedural tabletop mechanics to plunge directly into high-stakes combat."
+    },
+    {
+      "scene": "scene-02",
+      "scope": "Alfie Chaos Belt & Dravin Moonbeam Spotlight",
+      "encounter_reshaping": "Fused 26 lines of digital dice troubleshooting and random-table lookups into rapid-fire physical combat manifestations. Unified Moonbeam and Twilight Sanctuary into theatrical stage lighting (lunar spotlight vs starlit violet warmth).",
+      "reordering": "Staged Alfie striking the barrier rod before revealing the Smash Mouth VHS tape, establishing a defensive sanctuary pocket so the culture-clash humor lands cleanly while battle roars outside.",
+      "dialogue_tweaks": "Refined Pierre's horror at Smash Mouth into an aristocratic denunciation of 'vulgar American radio propaganda,' sharpening the clash between French snobbery and driftwood cheek.",
+      "liberty": "Condensed dice rolls for the Chaos Belt table into rapid-fire physical manifestations (barrier rod, LEGO bricks, VHS tape); unified Dravin's Moonbeam and Twilight Sanctuary into theatrical stage lighting.",
+      "impact": "Heightened pace by 45% while preserving comic surrealism."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "Satyr Charge & Island-Time Morningstar Smite",
+      "encounter_reshaping": "Transformed static D&D grapple checks and HP arithmetic into kinetic physical choreography across orchestra pits and stairs, framing Eusacles's morningstar smite as a sudden physical counter-ambush.",
+      "reordering": "Shifted Pierre's thermal vision activation to immediately precede the satyr's flank rush, turning feline vision into the party's split-second warning system.",
+      "dialogue_tweaks": "Condensed Eusacles's table damage declarations into dry, laconic 'island-time' deadpan, contrasting his unhurried violence against Dravin's academic panic.",
+      "liberty": "Streamlined grapple rules and hit-point calculations into fluid physical combat; dramatized Eusacles's morningstar smite and Pierre's feline thermal vision.",
+      "impact": "Converted grid combat turns into kinetic, character-focused choreography."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "Thunderwave Blast & Petrifying Pistol Precision",
+      "encounter_reshaping": "Consolidated fragmented cover-seeking turns into dynamic physical blocking: Alfie sprinting across mahogany desks while Dravin coordinates crossfire.",
+      "reordering": "Sequenced Dravin's mirror angle-shot to execute simultaneously with the Thunderwave shockwave, fusing two separate rounds into a coordinated double-strike.",
+      "dialogue_tweaks": "Sharpened Alfie's battle cry to emphasize driftwood acrobatics while cutting table chatter regarding spell cones and saving throw DCs. Purged 6-second turn and 5-foot auto-crit rules leaks from Dravin and Pierre's dialogue.",
+      "liberty": "Compressed spell slot clarifications and saving throw math into dynamic staging: Alfie leaping to a desk and Dravin executing a mirror trick-shot.",
+      "impact": "Accelerated combat tempo by 50% and eliminated tabletop rules jargon from character speech."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "Electrified Shallows & Broken Museum Javelin",
+      "encounter_reshaping": "Integrated the ceiling sprinkler deluge and arcing floor currents directly into melee exertion rather than treating them as disconnected end-of-round environmental hazard ticks.",
+      "reordering": "Staged Pierre's javelin thrust to connect right as the water conducts the current, making the ancient relic's shattering a direct result of brute satyr hide meeting live voltage.",
+      "dialogue_tweaks": "Rephrased Pierre's lament over the shattered artifact into high-tragic melodrama, turning broken weapon mechanics into character-defining absurdity. Scrubbed numeric minus-one penalty leak from narration.",
+      "liberty": "Fused sprinkler activation and electrical environmental hazards with Pierre's javelin thrust; heightened physical slapstick as the ancient weapon shatters.",
+      "impact": "Enhanced environmental immersion and eliminated raw math leaks."
+    },
+    {
+      "scene": "scene-06",
+      "scope": "Motorcycle Memory Extraction & Diluted Acid Flask",
+      "encounter_reshaping": "Elevated numeric psychic damage into surreal cognitive extraction, staging the tendrils physically fishing motorcycle sprockets and carburetor grease out of Eusacles's skull.",
+      "reordering": "Moved Pierre's leap to the podium to coincide with the tendril extraction peak, creating an urgent, ticking-clock rescue attempt.",
+      "dialogue_tweaks": "Sharpened Pierre's acid-splashing complaint from table banter into a faux-aesthetic hair critique ('I believed a conditioning rinse would be of service!'). Grounded Pierre's comedic vanity as a desperate mask holding back acute panic from prior monster encounters without inventing ungrounded bloodline lore.",
+      "justification": "Pierre's characterization at the table relies on vanity, but literary deep-POV requires grounding his bravado as an emotional survival mechanism to make the danger palpable.",
+      "liberty": "Dramatized the psychic tendril attack on Eusacles into a surreal cognitive extraction of motorcycle gears; sharpened Pierre's desperate acid-pour from the podium.",
+      "impact": "Deepened emotional stakes of memory loss while maintaining comedic pacing."
+    },
+    {
+      "scene": "scene-07",
+      "scope": "Spectral Mage Band Hair Tie & Janette Memory Wipe",
+      "encounter_reshaping": "Staged Alfie's improvised Mage Hand as a stylized hair scrunchie restraining neural whips, while heightening Pierre's memory theft into an existential, bittersweet loss. Staged Dravin's Spiritual Weapon as a hovering leather-bound scholarly encyclopedia.",
+      "reordering": "Positioned Pierre's memory unraveling at the exact heartbeat the hair band snaps shut, synchronizing tactical victory with tragicomic personal loss.",
+      "dialogue_tweaks": "Cut out-of-character table banter regarding nun rulers (L1164) into the skipped ledger, keeping Dravin's spoken lines focused on academic gravity.",
+      "justification": "Unified Dravin's Spiritual Weapon as a scholarly encyclopedia (William's literal declaration at L1159: 'Obviously, it's an encyclopedia britannica'). Per explicit authorial directive, all nun ruler/straightedge jokes are purged to preserve prop continuity into Scene 9.",
+      "liberty": "Condensed slight-of-hand mechanics as Alfie weaves a spectral hair scrunchie; highlighted Pierre's tragicomic realization of his lost childhood crush; manifested Dravin's spiritual encyclopedia.",
+      "impact": "Sharpened thematic resonance of memory theft and established clean prop continuity."
+    },
+    {
+      "scene": "scene-08",
+      "scope": "Scholarly Tome Strikes & Felled Aesthete",
+      "encounter_reshaping": "Transformed melee spell attack rolls into strict academic discipline with the floating scholarly tome, while pacing Pierre's collapse under cloven hooves to establish genuine physical peril.",
+      "reordering": "Staged Dravin's tome strike to land immediately after Pierre is knocked unconscious, framing the spell as an urgent scholarly counter-retaliation.",
+      "dialogue_tweaks": "Refined Dravin's invocation to emphasize threshold law and academic discipline. Layered Pierre's vanity with visceral dread—he has seen horrors before, and his jokes are a desperate shield against terror.",
+      "justification": "Sustains the hovering scholarly tome as the spiritual weapon throughout Scene 8 per authorial mandate, maintaining prop continuity with the climax.",
+      "liberty": "Streamlined melee spell attack rolls into Dravin disciplining satyrs with a glowing spectral volume; paced Pierre falling unconscious under cloven-hoof strikes with deep-POV panic.",
+      "impact": "Increased dramatic peril and preserved combat velocity with unified canonical props."
+    },
+    {
+      "scene": "scene-09",
+      "scope": "Spore the Dying & Heavy Tome Knockout",
+      "encounter_reshaping": "Unified Alfie's Wordcraft twist with Dravin's necrotic reach to spawn black fungal blooms, climaxing the combat not with a dice roll, but with Dravin physically slamming a heavy leather-bound volume into the villain's head.",
+      "reordering": "Brought the black fungal bloom to crest just before the book strike, creating a visual wave of decay that sets up the decisive physical impact.",
+      "dialogue_tweaks": "Replaced tabletop spell declarations ('Bonus action, Spare the Dying') with visceral physical action: Dravin executing a ruthless academic knockout with his heavy book in defense of Dr. Thorne.",
+      "justification": "Dravin physically slams his heavy scholarly book down to deliver the final knockout blow, completing the unbroken book continuity established in Scenes 7 and 8. Grounded Spore the Dying in campaign wordcraft physics: Dravin's unconscious intent manifests glowing threshold letters ('SPARE'), and Alfie perceives the language of magic and twists the vowel to 'SPORE'.",
+      "liberty": "Fused Alfie's Wordcraft twist with Dravin's necrotic spell to spawn black fungal blooms; concentrated the combat climax into Dravin's scholarly book knockout.",
+      "impact": "Provided satisfying, high-impact combat climax and cosmological consistency."
+    },
+    {
+      "scene": "scene-10",
+      "scope": "Janitor Cart Stashing & Architecture Model Escape",
+      "encounter_reshaping": "Reshaped an aimless 20-minute table deliberation into a brisk, tense post-combat escape. Turned Dr. Thorne from a passive spectator into an intimidated hostage managed under ticking-clock alarm pressure.",
+      "reordering": "Reordered the inspection of the miniature campus model to serve as the immediate escape mechanism, linking the auditorium victory directly to entering the Lost Roads.",
+      "dialogue_tweaks": "Sharpened Alfie and Pierre tag-teaming Dr. Thorne, condensing scattered table threats into sharp, comedic intimidation that preserves the chapter's exit velocity.",
+      "liberty": "Condensed table deliberation on hostage disposal and Dr. Thorne manipulation into snappy comedic dialogue; staged Pierre and Alfie inspecting miniature architecture sets before retreating to the Lost Roads.",
+      "impact": "Seamlessly resolved the encounter and set up the next expedition phase."
+    }
+  ]
+}

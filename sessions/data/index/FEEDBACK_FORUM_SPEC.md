@@ -34,6 +34,45 @@ Downstream reader apps consume the `editorialForum` object from `sessions/data/i
         "transcriptParity": "100%"
       },
       "ruthlessAnalysis": "Fast-paced dimensional transit and brisk ink-beast combat...",
+      "narrativeCraftFeedback": {
+        "tonalWhiplash": "Analysis of bathos, comedic deflection, and stakes...",
+        "combatStaging": "Evaluation of physical peril vs comedic slapstick...",
+        "environmentalHazards": "Sensory struggle vs mechanical checklists...",
+        "resolutionVelocity": "Pacing of aftermath and transition beats...",
+        "actionablePunchList": [
+          "Actionable rewrite item 1",
+          "Actionable rewrite item 2"
+        ]
+      },
+      "tabletopPlayFeedback": {
+        "gameMaster": {
+          "actor": "Luke Foreman (GM)",
+          "pacingAndClarity": "Analysis of encounter pacing and cognitive load...",
+          "recommendation": "Coaching points for future sessions..."
+        },
+        "players": {
+          "pierre": {
+            "player": "Luke S",
+            "playstyleTendency": "Roleplay habits and character consistency...",
+            "recommendation": "Tabletop coaching for richer fiction..."
+          },
+          "dravin": {
+            "player": "William Webb",
+            "playstyleTendency": "Tactical vs narrative roleplay habits...",
+            "recommendation": "Tabletop coaching..."
+          },
+          "alfie": {
+            "player": "Sophie Foreman Noone",
+            "playstyleTendency": "Character ecology and physical stakes...",
+            "recommendation": "Tabletop coaching..."
+          },
+          "eusacles": {
+            "player": "John Hagey",
+            "playstyleTendency": "Engagement and spotlight distribution...",
+            "recommendation": "Tabletop coaching..."
+          }
+        }
+      },
       "tradeOffs": [
         {
           "dimension": "Narrative Velocity vs. Tangential Banter",

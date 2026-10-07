@@ -200,7 +200,7 @@ def audit_skip_ledger(scene_id, skipped_items, raw_lines, rendered_prose_words,
             consecutive_spoken_skips = 0
             continue
 
-        if reason not in {"ooc", "banter"}:
+        if reason not in {"ooc", "banter", "mechanics"}:
             consecutive_spoken_skips = 0
             continue
 
@@ -213,7 +213,8 @@ def audit_skip_ledger(scene_id, skipped_items, raw_lines, rendered_prose_words,
             )
 
         if reason == "ooc":
-            if len(words) >= 4 and not is_meta:
+            # Track consecutive non-meta spoken turns marked as naked ooc
+            if len(words) >= 4 and not is_meta and not exempt_reason:
                 consecutive_spoken_skips += 1
                 if len(consecutive_sample) < 4:
                     consecutive_sample.append((num, speaker, dialogue))
@@ -227,14 +228,22 @@ def audit_skip_ledger(scene_id, skipped_items, raw_lines, rendered_prose_words,
                     f"({len(words)} content words) hides behind a naked (ooc). Render it, type it as "
                     f"(banter)/(mechanics)/(compressed), or exempt it with a reason in legitimate_ooc_lore_skips."
                 )
-        else:
+        elif reason in {"banter", "mechanics"}:
             consecutive_spoken_skips = 0
+            # Spoken in-character dialogue or roleplay quotes cannot be dropped under banter or mechanics
+            has_quoted_speech = bool(re.search(r'["“][^"”]+["”]', dialogue))
+            if has_quoted_speech and len(words) >= 2 and not is_meta and not exempt_reason:
+                errors.append(
+                    f"Scene {scene_id}: [UNJUSTIFIED_DIALOGUE_DROP] L{num:04d} ({speaker}): '{dialogue[:70]}...' "
+                    f"contains quoted in-character speech but was skipped as ({reason}). "
+                    f"Render it, novelize as action, or exempt with a reason in legitimate_ooc_lore_skips."
+                )
 
     if max_consecutive_spoken >= 5:
         sample_desc = " | ".join(f"L{l:04d} ({s}): '{d[:30]}...'" for l, s, d in consecutive_sample)
         errors.append(
-            f"Scene {scene_id}: [SUSPICIOUS_CLUSTER_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as (ooc) skip. "
-            f"Verify in-character banter/comedy was not omitted. Sample: [{sample_desc}]"
+            f"Scene {scene_id}: [SUSPICIOUS_CLUSTER_DROP] {max_consecutive_spoken} consecutive spoken dialogue turns marked as skip ({sample_desc}). "
+            f"Verify in-character banter/comedy was not omitted."
         )
     return errors, warnings
 

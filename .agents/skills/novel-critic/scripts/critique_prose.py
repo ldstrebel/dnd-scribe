@@ -112,8 +112,49 @@ def analyze_earth_leaks(text):
     book_cfg = load_book_config()
     is_urban_fantasy = book_cfg.get("earth_setting", False) or book_cfg.get("setting_type") == "urban_fantasy" or "Urban Fantasy" in book_cfg.get("subjects", [])
     
-    patterns = MODERN_META_LEAK_PATTERNS if is_urban_fantasy else FANTASY_LEAK_PATTERNS
+    patterns = list(MODERN_META_LEAK_PATTERNS if is_urban_fantasy else FANTASY_LEAK_PATTERNS)
     
+    # Tabletop game rules jargon is strictly forbidden in dialogue quotes across ALL settings
+    # and forbidden in narrative prose in non-urban fantasy
+    tabletop_rules_re = re.compile(
+        r"\b(?:bonus action|saving throw|armor class|initiative count|spell slot|action economy|attack roll|passive perception|character sheet|1d\d|2d\d|3d\d)\b",
+        re.IGNORECASE
+    )
+    # LitRPG / Tabletop numeric mechanics leaks (e.g. points of damage/force, reserve points, damage rolls)
+    # strictly forbidden across ALL settings in both narrative prose and dialogue
+    litrpg_rules_re = re.compile(
+        r"\b(?:\d+\s+points?\s+of\b|(?:reserve|temporary)\s+points?\b|points?\s+of\s+(?:burning\s+)?legend\b|points?\s+of\s+(?:damage|radiant|concussive|dexterity|shock|force)\b|damage\s+roll\b|extra\s+die\s+of\b)",
+        re.IGNORECASE
+    )
+    for qm in re.finditer(r'["“]([^"”]+)["”]', prose_only):
+        q_text = qm.group(1)
+        for tm in tabletop_rules_re.finditer(q_text):
+            match_start = qm.start(1) + tm.start()
+            line_num = prose_only[:match_start].count("\n") + 1
+            findings.append({
+                "word": tm.group(0),
+                "category": "Tabletop Rules Jargon in Dialogue",
+                "line": line_num,
+                "snippet": f"...{prose_only[max(0, match_start - 40):min(len(prose_only), match_start + 40)].replace(chr(10), ' ').strip()}..."
+            })
+        for lm in litrpg_rules_re.finditer(q_text):
+            match_start = qm.start(1) + lm.start()
+            line_num = prose_only[:match_start].count("\n") + 1
+            findings.append({
+                "word": lm.group(0),
+                "category": "LitRPG / Tabletop Math in Dialogue",
+                "line": line_num,
+                "snippet": f"...{prose_only[max(0, match_start - 40):min(len(prose_only), match_start + 40)].replace(chr(10), ' ').strip()}..."
+            })
+    
+    patterns.append((
+        r"\b(?:\d+\s+points?\s+of\b|(?:reserve|temporary)\s+points?\b|points?\s+of\s+(?:burning\s+)?legend\b|points?\s+of\s+(?:damage|radiant|concussive|dexterity|shock|force)\b|damage\s+roll\b|extra\s+die\s+of\b)",
+        "LitRPG / Tabletop Math in Prose"
+    ))
+
+    if not is_urban_fantasy:
+        patterns.append((r"\b(?:bonus action|saving throw|armor class|initiative count|spell slot|action economy|attack roll|passive perception|character sheet|1d\d|2d\d|3d\d)\b", "Tabletop Rules Jargon in Fantasy Prose"))
+
     for pattern, category in patterns:
         matches = list(re.finditer(pattern, prose_only, flags=re.IGNORECASE))
         for m in matches:
@@ -121,6 +162,10 @@ def analyze_earth_leaks(text):
             line_num = prose_only[:match_start].count("\n") + 1
             matched_word = m.group(0)
             
+            # Avoid duplicate reporting if already flagged by dialogue quote check
+            if any(f["line"] == line_num and f["word"].lower() == matched_word.lower() for f in findings):
+                continue
+
             start_idx = max(0, match_start - 40)
             end_idx = min(len(prose_only), match_start + 40)
             snippet = prose_only[start_idx:end_idx].replace("\n", " ").strip()
