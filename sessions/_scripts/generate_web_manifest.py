@@ -640,6 +640,30 @@ def generate_session_v2_manifest(session_num):
         4: "Ambushed by Gorgon Redactors in the Raleigh museum, the company uses an extension-cord gambit and a baguette distraction to touch the ancient tablet, unlocking a vision of a doomed pirate ship before escaping through the Lost Roads."
     }
     
+    sd_path = os.path.join(root_dir, "sessions", "config", f"s{session_num}-source-decisions.json")
+    open_critiques_count = 0
+    total_critiques_count = 0
+    if os.path.exists(sd_path):
+        try:
+            with open(sd_path, "r", encoding="utf-8") as f_sd:
+                sd_data = json.load(f_sd)
+                c_list = sd_data.get("critiques", [])
+                total_critiques_count = len(c_list)
+                open_critiques_count = len([c for c in c_list if c.get("status") == "open"])
+        except Exception:
+            pass
+
+    if open_critiques_count > 0:
+        manifest_tomatometer = 35
+        manifest_popcornmeter = 40
+        manifest_grade = "REVISION REQUIRED"
+        manifest_verdict = f"EDITORIAL CORRECTION REQUIRED ({open_critiques_count} OPEN HUMAN CRITIQUES BLOCKING)"
+    else:
+        manifest_tomatometer = 92 if session_num != 5 else 62
+        manifest_popcornmeter = 94
+        manifest_grade = "A-" if session_num != 5 else "B-"
+        manifest_verdict = "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)"
+
     v2_manifest = {
         "schemaVersion": "2.0",
         "campaign": {
@@ -692,10 +716,10 @@ def generate_session_v2_manifest(session_num):
             "initialBotReview": {
                 "author": "Adversarial Prose Critic (Bot)",
                 "badge": "Autonomous Editorial Lead",
-                "grade": "A-",
-                "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-                "tomatometer": 94,
-                "popcornmeter": 96,
+                "grade": manifest_grade,
+                "verdict": manifest_verdict,
+                "tomatometer": manifest_tomatometer,
+                "popcornmeter": manifest_popcornmeter,
                 "campaignArcImpact": {
                     1: "The Inciting Incident: The unsealing of the subterranean vault and the initial temporal ripple that entangled our four strangers into a shared, fractured fate.",
                     2: "The Convergence: Fleeing into the Appalachian foothills, the party realizes their survival depends on mutual reliance, discovering that the anomalies are not accidental.",
@@ -708,7 +732,8 @@ def generate_session_v2_manifest(session_num):
                     "earthLeaks": 0,
                     "dialogueStutters": 0,
                     "stagnantTalkingHeads": 0,
-                    "transcriptParity": "100%"
+                    "openCritiques": open_critiques_count,
+                    "transcriptParity": "100%" if open_critiques_count == 0 else "PENDING_REVISION"
                 },
                 "ruthlessAnalysis": {
                     1: "Fast-paced dimensional transit and brisk ink-beast combat. While the prose velocity is high, early chapters place heavy dialogue focus on Pierre and Dravin before Alfie enters in Scene 6. The transition from bus displacement to the cosmic library trades deep character introspection for high sensory action.",

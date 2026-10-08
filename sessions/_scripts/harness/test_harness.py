@@ -144,6 +144,32 @@ class TestEditorialHarness(unittest.TestCase):
         err_types = [e["type"] for e in report["gate4_adaptation_divergence"]["errors"]]
         self.assertIn("ZERO_CINEMATIC_DIVERGENCE", err_types)
 
+    def test_alternate_scene_missing_skip_ledger_fails(self):
+        sample_arch = '<!-- RAW_RANGE: [100, 200] | SCENE_ID: 1 -->\nPierre spoke. <!-- L0100 -->'
+        sample_missing_ledger = (
+            '<!-- RAW_RANGE: [100, 200] | SCENE_ID: 1 -->\n'
+            'Pierre ran toward the door. <!-- L0100-L0120 -->\n'
+            'Dravin called out. <!-- L0150-L0200 -->'
+        )
+        report = verify_alternate_scene(sample_missing_ledger, sample_arch, session_id="s1")
+        self.assertFalse(report["passed"])
+        err_types = [e["type"] for e in report["gate3_span_provenance"]["errors"]]
+        self.assertIn("MISSING_SKIP_LEDGER", err_types)
+
+    def test_alternate_scene_unaccounted_span_drop_fails(self):
+        sample_arch = '<!-- RAW_RANGE: [100, 200] | SCENE_ID: 1 -->\nPierre spoke. <!-- L0100 -->'
+        # Drops lines 121-149, but ledger only skips 121-130, leaving 131-149 unaccounted
+        sample_unaccounted = (
+            '<!-- RAW_RANGE: [100, 200] | SCENE_ID: 1 -->\n'
+            'Pierre ran toward the door. <!-- L0100-L0120 -->\n'
+            'Dravin called out. <!-- L0150-L0200 -->\n\n'
+            '<!-- LEDGER: spans=[L0100-L0120, L0150-L0200] skipped=[L0121-L0130(ooc)] -->'
+        )
+        report = verify_alternate_scene(sample_unaccounted, sample_arch, session_id="s1")
+        self.assertFalse(report["passed"])
+        err_types = [e["type"] for e in report["gate3_span_provenance"]["errors"]]
+        self.assertIn("UNACCOUNTED_SPAN_DROP", err_types)
+
     def test_alternate_scene_unitemized_liberty_fails(self):
         sample_arch = (
             '<!-- RAW_RANGE: [881, 1010] | SCENE_ID: 5 -->\n'

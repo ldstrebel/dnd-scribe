@@ -442,6 +442,39 @@ Every entry records:
 * **Trade-off Accepted:** Eliminates nostalgic verbatim preservation of discarded mid-combat table jokes in favor of unbreakable novelistic prop continuity and character integrity.
 * **Enforcing Gate:** `verify_intent_parity.py`, `verify_alternate_scene.py`, `run_publishing_pipeline.py`.
 
+### [DEC-035] 2026-10-07: The Blinded Cold-Reader Protocol, Anti-Alibi Handshake, and Universal Telemetry Grounding
+* **Context & Friction:** Review of Session 6 (PR `origin/critique/uneraseable-s6-strebs-393286`, containing 33 human review items from `Strebs`) rated Track B around 35%, surfacing severe narrative breakdowns: Alfie responding to dialogue never spoken by the professor, 21 consecutive raw lines dropped silently in Scene 1 without ledger tracking (`L0219–L0239`), unconstrained comedic bathos during existential memory erasure, unrendered markdown italics, and pacing whiplash. However, the publishing pipeline presented a 94% Certified Fresh Tomatometer, Grade A-, and a 100% "Full Pass" across all metrics.
+* **Forensic Root Cause Analysis (`FP-22`):**
+  1. **The "Alibi Handshake":** The top-down intent contract (`s6-intent-contract.json`) wrote paragraphs of creative rationalizations, while the bottom-up gates (`verify_alternate_scene.py`) only checked static name mock lists and span monotonicity without verifying span continuity. Each layer assumed the other was validating prose quality and factual integrity, leaving an uninspected void where 21 lines were dropped and dialogue cohesion collapsed.
+  2. **Hardcoded Telemetry & Hollow Grade Inflation:** `generate_web_manifest.py:697` hardcoded `"tomatometer": 94, "popcornmeter": 96` and zero compliance errors; `run_publishing_pipeline.py:99, 151` hardcoded fallback scores (92/62) and awarded automatic Grade A to Track B if files merely existed and met word count $\ge 50\%$.
+  3. **Universal Track B Verification Void:** `novel/generate_epub.py:62` excluded Track B entirely; `critique_prose.py:936`, `audit_reader_context.py:114`, and `macro_auditor.py:92` strictly skipped Track B; `audit_semantic_grounding.py:448` evaluated only Track A; `extract_session_tradeoffs.py:90` looked for wrong filenames, passing empty strings to LLM evaluators; `echo_detector.py` hardcoded `passed: True` and was completely uncalled; and `poll_critique_prs.py` downloaded PR critiques and deleted remote branches without modifying any prose.
+  4. **The "Author Justification" Loophole:** Permitting authors to submit justification essays in JSON instead of editing prose produced excuse ledgers (`CRITIQUE_LOG.md:42-44`) while shipping broken books. Readers buy the published prose, not authorial alibis.
+  5. **The "Third Track" Anti-Pattern:** A proposal for a 3rd cut (10–20% fidelity / 80–90% creative license) was rejected. Session 6 broke not from lack of creative freedom, but from unconstrained, tone-deaf liberties (cartoon rulers, internet message-board jokes during memory theft). Multiplying tracks merely multiplies prompt drift and compiler voids.
+* **Agreed Decision & Protocol:**
+  1. **Mandatory Ingestion of Human Critiques as Build Blockers:** All PR review comments must be ingested into `sN-source-decisions.json` as `status: "open"` and verified by `verify_critiques.py` with exit code 1. Editorial gates are strictly binary pass/fail: authors cannot plea-bargain in JSON; they must edit the prose until all items are resolved with file and line citations.
+  2. **Span Continuity Enforcement (`verify_alternate_scene.py`):** In addition to monotonic bounds, Track B gates must verify that every raw line gap between spans is explicitly accounted for in the scene's skip ledger (`[UNACCOUNTED_SPAN_DROP]`). Static mock relic sets are purged.
+  3. **Universal Prose & Grounding Gate Enforcement on Track B:**
+     - `critique_prose.py` must support `--track b` and audit `blocks_authorial/` for Earth leaks, cadence, filter words, and tabletop rules jargon with blocking exit codes.
+     - `audit_semantic_grounding.py` must audit Track B scene blocks.
+     - `generate_epub.py` must support compiling Track B into verified EPUB editions.
+  4. **Eradication of Hardcoded Scores & Fake Compliance:**
+     - Remove hardcoded 94/96 scores, fake zero error metrics, and automatic Grade A awards. Manifests and pipelines must derive scores from genuine test harness and prose linter runs.
+  5. **Two Clean Artifacts (Rejection of Track C):**
+     - *Artifact 1: Tabletop Interactive Replay (Web Viewer):* Preserves verbatim table audio, player mic turns, and dice mechanics for player nostalgia.
+     - *Artifact 2: Published Novel (EPUB / Web):* 0% game mechanics/dice rolls/table talk, 100% canon facts and emotional stakes, 100% high-craft dramatized prose for cold readers.
+* **Trade-off Accepted:** Eliminates easy passes and automated grade inflation; the publishing pipeline will immediately fail with hard error codes whenever PR critiques are unresolved or prose quality slips.
+* **Enforcing Gate:** `verify_critiques.py`, `verify_alternate_scene.py`, `critique_prose.py`, `audit_semantic_grounding.py`, `run_publishing_pipeline.py`, `test_harness.py`.
+
+### [DEC-036] 2026-10-07: Anti-Alibi Enforcement, Subagent Audit Hardening, and Universal Gate Parity
+* **Context & Friction:** Reader critique PR #393286 revealed that S6 Track B suffered severe prose and continuity degradation (rated ~35%) while the pipeline falsely reported a 94% Certified Fresh rating and Grade A-. An adversarial subagent audit revealed 10 systemic vulnerabilities where gates rubber-stamped output, faked compliance metrics, or completely bypassed Track B files.
+* **Codified Invariants & Enforcing Hardening:**
+  1. **The Zero-Span-Drop Law (`verify_alternate_scene.py`):** Authorial scene blocks (`blocks_authorial/`) must account for 100% of raw transcript lines between declared spans. Any gap in coverage must be explicitly accounted for in the `<!-- LEDGER: skipped=[...] -->` comment with categorized reasons `(mechanics)`, `(banter)`, `(ooc)`, or `(compressed)`. Untracked span drops trigger fatal `[UNACCOUNTED_SPAN_DROP]` errors.
+  2. **The Universal Dual-Track Gate Mandate:** All quality, grounding, and packaging gates (`critique_prose.py`, `audit_semantic_grounding.py`, `audit_reader_context.py`, `generate_epub.py`, `generate_web_manifest.py`) must evaluate both Track A (Archival) and Track B (Authorial). No gate may selectively bypass Track B.
+  3. **Universal Telemetry Truth & Honest Scorecards:** Hardcoded Tomatometer/Popcornmeter percentages (94%/96%), fake zero-leak values, and automated Grade A awards based on mere file existence are permanently excised. Pipeline scorecards derive strictly from empirical linter metrics, deterministic intent contract validations, and verified test harness execution.
+  4. **Closed-Loop Critique Resolution (`verify_critiques.py`):** PR critique ingestion scripts must never delete critique branches or close reviews without committing verified prose changes. Critiques remain blocking (`status: "open"`) until verified by deterministic line and file citations in `sN-source-decisions.json`.
+* **Trade-off Accepted:** Eliminates synthetic "Certified Fresh" vanity dashboards; every pipeline execution reports unvarnished compliance and fails immediately if narrative fidelity or stylistic constraints are breached.
+* **Enforcing Gates:** `verify_critiques.py`, `verify_alternate_scene.py`, `critique_prose.py --track both`, `novel/generate_epub.py`, `run_publishing_pipeline.py`.
+
 ---
 
 ## 📌 Rules for Appending to this Ledger
@@ -449,5 +482,6 @@ Whenever an architectural discussion occurs:
 1. Do not repeat arguments that have already been resolved.
 2. Quote the relevant `DEC-XXX` or `FP-XX` entry.
 3. If an invariant must be modified, state what broke to necessitate the change, what cost is accepted, and how the verification suite is updated.
+
 
 

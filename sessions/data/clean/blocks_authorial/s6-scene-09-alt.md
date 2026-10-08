@@ -2,16 +2,42 @@
 
 ## CHAPTER 40: THE TOME AND THE SEVERED RIFT
 
-A rancid, gray haze billowed along the sodden floorboards of the auditorium. Desperate to halt the dying around him, Dravin extended his hand with fierce scholarly intent, unconsciously manifesting glowing typographic runes of threshold magic from his coat signet: *S P A R E*. Alfie, perceiving the glowing letters and woven threads of magic in the air, thrust both carved wooden hands high into the air, snapping and twisting the cosmic lines of fate. "Wait!" Alfie shouted, seizing the glowing vowel to alter reality. "*Spore the Dying!* Target only them!" Under the violent tug of the altered letter, the rune bent from *A* to *O*, and the rot refracted away from every ally, coiling exclusively into the horned beasts. Where the foul mist kissed flesh, oily black mushrooms erupted along the Satyr intruders' knuckles and shoulders, weeping toxic dark spores as their skin blistered under the fungal bloom. <!-- L1340-L1355:alfie -->
+Professor Dravin looked across the flooded platform at the battered adversaries. A strange, resonant intuition stirred beneath his tweed coat, vibrating from the three-seed family signet on his lapel. Without realizing he was manipulating the fabric of life and decay, Dravin raised his open hand.
 
-The terrified satyrs wheeled in blind panic toward their matriarch. The transformed woman slashed her talons downward through the empty air, carving a jagged, humming violet planar rift straight into the ether. "Pierre is holding her by her hair!" Pierre shouted through gritted teeth, throwing his full weight backward to keep her dark coils pinned before she could dive into the tear. <!-- L1356-L1358:pierre -->
+"All of these creatures are near death," Dravin declared with quiet scholarly conviction. "A merciful man might spare you, but instead I feel inspired to let fester what you have begun." <!-- L1311-L1327:dravin -->
 
-Professor Dravin adjusted his wire-rimmed spectacles and stepped deliberately to the edge of the stage, guiding a massive floating leather-bound lexicon through the dripping rafters. "I am going to hit her with my book," Dravin declared with calm, unrelenting academic precision. Infusing raw scholarly momentum into the arcane force, he released the spell. The heavy volume plummeted downward like an iron anvil upon the crown of her head with a dull, concussive crack. Her electric luminescence sputtered and died, and the woman collapsed limp and unconscious into the drenched carpet as the planar rift shuddered and snapped shut behind the fleeing satyrs. <!-- L1359-L1396:dravin -->
+A gray necrotic mist began to billow from his palm, drifting indiscriminately across the sodden floorboards toward both ally and intruder alike. Crouched beneath the desk, Alfie saw the dark vapor rolling directly toward Pierre, who was still clutching his bruised ribs at the edge of exhaustion. Her painted seashell eyes widened in alarm. Alfie thrust both carved wooden arms into the air, catching the invisible threads of fate.
 
-Dravin turned toward the crumpled form of Eusacles, kneeling in the shallow water to extend a steadying, warm palm. A pulse of restorative light washed into the demigod's chest, stabilizing his ragged heartbeat. Beside them, Pierre worked with swift, practical competence, binding the unconscious captive's wrists tightly behind her back with heavy utility cord. Beneath Pierre's theatrical styling critique, his chest heaved and his hands trembled with suppressed panic from facing such nightmares, veiled only by his stubborn bravado. As her psychic suppression field collapsed completely, the mental fog evaporated from their minds. <!-- L1401-L1418 -->
+"Wait!" Alfie shouted, twisting the cosmic lines of magic with desperate Wordcraft. "Spore them dying! Target only them!" <!-- L1343-L1355:alfie -->
 
-"The chateau!" Pierre gasped in theatrical relief, clutching his damp woolen beret with both hands. "The seaside courtyard is back! Janette strolling under the sun! I have not lost it!" <!-- L1423:pierre -->
+Under the violent wrench of her command, the spell's trajectory bent sharply away from Pierre, coiling exclusively into the horned beasts. Where the foul mist kissed flesh, oily black mushrooms erupted across the satyrs' knuckles and shoulders, weeping toxic dark spores as their skin blistered under the fungal bloom.
 
-Eusacles sat up slowly, rubbing his bruised sternum as his bronze eyes shone with deep, reverent solemnity. "I too almost lost the sacred memory of my first true love," Eusacles murmured, looking out into the mist. "A nineteen fifty-six Indian motorcycle." <!-- L1424-L1426:eusacles -->
+The terrified satyrs wheeled in blind panic, squealing as the fungal rot spread across their hides. The transformed woman slashed her talons downward through the empty air, tearing open a jagged, humming violet planar breach into the ether. The satyrs leaped blindly for the portal to escape. But as the woman prepared to dive into the seam, Pierre threw his full weight backward, his white-knuckled grip locking fast around the bundled hair in Alfie's spectral band.
 
-Pierre paused, arching an eyebrow at the barbarian with lofty bemusement. "Very pretty. Very American. Now, Pierre is going to locate a rolling janitor's cart. We will toss her inside, inspect the architecture studio, and hit the road before those sirens arrive." <!-- L1428-L1437:pierre -->
+"Pierre is still holding her by her hair!" Pierre shouted through gritted teeth, his heels skidding across the wet floorboards. <!-- L1356-L1358:pierre -->
+
+Held fast by Pierre's stubborn grip, the woman was yanked short of the rift. Professor Dravin stepped deliberately to the stage rim, raising his fingers to direct the hovering encyclopedia through the dripping rafters.
+
+"I am going to hit her with my book," Dravin announced with calm, unrelenting academic precision. <!-- L1359-L1370:dravin -->
+
+With concussive force, the heavy volume plummeted downward like an iron anvil upon the crown of her head. The blow landed with a dull, sickening crack. The writhing, crackling mass of deadly tendrils constrained inside Alfie's Mage Band instantly lost its electrical tension, collapsing from rigid static coils into a limp, drooping bundle of dim gray hair. The woman crumpled unconscious onto the drenched boards, and the violet planar rift shuddered violently before snapping shut behind the fleeing satyrs. <!-- L1394-L1400 -->
+
+Dravin turned toward the platform, kneeling beside the fallen demigod to extend a steadying palm. A pulse of restorative threshold warmth flowed into Eusacles's chest, stabilizing his ragged pulse. In the distance beyond the shattered lecture hall, police sirens began to wail through the rain. As the woman's psychic aura collapsed entirely, the temporal suppression evaporated from their minds, and their stolen memories flooded back in a warm, dizzying rush. <!-- L1401-L1417 -->
+
+"The chateau!" Pierre gasped in theatrical ecstasy, clutching his damp woolen beret with trembling fingers. "The seaside courtyard is back! Janette strolling under the sun! I have not lost it!" <!-- L1418-L1423:pierre -->
+
+Eusacles sat up slowly, rubbing his bruised sternum as his dark eyes shone with deep, reverent solemnity.
+
+"I too almost lost the sacred memory of my first true love," Eusacles murmured, gazing thoughtfully into the spray. "A nineteen fifty-six Indian motorcycle." <!-- L1424-L1427:eusacles -->
+
+Pierre lowered his spectacles, arching a single eyebrow at the barbarian with lofty bemusement.
+
+"Very pretty. Very American," Pierre replied, catching his breath as he surveyed the wreckage of the auditorium. <!-- L1428-L1431:pierre -->
+
+He took a slow, steadying breath, letting his racing heart settle as he took in the ruined rows, the pooling water, and the unconscious adversary at their feet. With sirens drawing closer through the campus streets, they had little time to linger. An idea began to take shape in Pierre's mind: an unglamorous but necessary means to smuggle their captive off the grounds, interrogate her, and escape before the authorities sealed the block.
+
+"Now," Pierre added, adjusting his beret. "Pierre is going to locate a rolling janitor's cart. We will toss her inside, inspect the architecture studio, and hit the road before those sirens arrive." <!-- L1432-L1437:pierre -->
+
+Beside the ruined podium, Dr. Aris Thorne pressed both hands against the woodwork, trembling as she stared at the strange companions. <!-- L1438-L1440 -->
+
+<!-- LEDGER: spans=[L1311-L1327, L1343-L1355, L1356-L1358, L1359-L1370, L1394-L1400, L1401-L1417, L1418-L1423, L1424-L1427, L1428-L1431, L1432-L1437, L1438-L1440] skipped=[L1328-L1342(mechanics), L1371-L1393(mechanics)] -->

@@ -95,9 +95,19 @@ def render_dual_track_scorecard(sessions):
         intent_rules = [r["id"] for r in intent.get("rules", [])]
         authorial_liberties = intent.get("authorial_liberties", [])
 
+        sd_path = os.path.join(base_config, f"{sid}-source-decisions.json")
+        open_critiques_count = 0
+        if os.path.exists(sd_path):
+            try:
+                with open(sd_path, "r", encoding="utf-8") as f_sd:
+                    sd_data = json.load(f_sd)
+                    open_critiques_count = len([c for c in sd_data.get("critiques", []) if c.get("status") == "open"])
+            except Exception:
+                pass
+
         bot_review = manifest.get("editorialForum", {}).get("initialBotReview", {})
-        tomatometer = bot_review.get("tomatometer", 92 if sid != "s5" else 62)
-        popcornmeter = bot_review.get("popcornmeter", 96 if sid != "s5" else 94)
+        tomatometer = bot_review.get("tomatometer", 35 if open_critiques_count > 0 else (92 if sid != "s5" else 62))
+        popcornmeter = bot_review.get("popcornmeter", 40 if open_critiques_count > 0 else (96 if sid != "s5" else 94))
 
         print(f"{'#'*75}")
         print(f"📊 SESSION {sid.upper()} DUAL-TRACK EVALUATION SCORECARD")
@@ -139,6 +149,10 @@ def render_dual_track_scorecard(sessions):
                 cin_grade = "INCOMPLETE"
                 grade_note = f"PARTIALLY GENERATED ({len(cin_files)}/{len(tbl_files)} scenes written) [Track B Debt]"
                 track_b_status = "INCOMPLETE"
+            elif open_critiques_count > 0:
+                cin_grade = "REVISION"
+                grade_note = f"UNRESOLVED HUMAN CRITIQUES ({open_critiques_count} open PR items blocking production)"
+                track_b_status = "BLOCKED"
             elif cin_spans > 0 and not authorial_liberties:
                 cin_grade = "B"
                 grade_note = "UNITEMIZED DEPARTURES (coarse spans without intent-contract liberties)"
@@ -300,7 +314,7 @@ def main():
 
     # 3. Developmental Editor Review Gate
     for s in args.sessions:
-        run_step(f"Developmental Editor & Prose Critic ({s.upper()})", [sys.executable, ".agents/skills/novel-critic/scripts/critique_prose.py", s])
+        run_step(f"Developmental Editor & Prose Critic ({s.upper()} Track A & B)", [sys.executable, ".agents/skills/novel-critic/scripts/critique_prose.py", s, "--track", "both"])
 
     # 4. Web Manifest Generation & Validation
     run_step("Schema 2.0 Web Manifest Builder", [sys.executable, "sessions/_scripts/generate_web_manifest.py"])

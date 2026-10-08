@@ -347,24 +347,52 @@ def audit_gate3_span_provenance(
                             )
                         })
 
-    # 3. DEC-024 Skip Ledger Verification for Authorial Cut
-    ledger_match = re.search(r"<!--\s*LEDGER:\s*spans=\[(.*?)\]\s*skipped=\[(.*?)\]\s*-->", alternate_text)
+    # 3. DEC-024 & DEC-035 Skip Ledger & Span Continuity Verification for Authorial Cut
+    ledger_match = re.search(r"<!--\s*LEDGER:\s*(?:spans|rendered)=\[(.*?)\]\s*skipped=\[(.*?)\]\s*-->", alternate_text)
+    
+    covered_lines = set()
+    for s_start, s_end in spans:
+        covered_lines.update(range(s_start, s_end + 1))
+        
+    skipped_lines = set()
+    skipped_items = []
+
+    if raw_range and session_id:
+        r_min, r_max = raw_range
+        total_range_lines = set(range(r_min, r_max + 1))
+
+        if not ledger_match:
+            if len(covered_lines) < len(total_range_lines):
+                uncovered = sorted(list(total_range_lines - covered_lines))
+                errors.append({
+                    "type": "MISSING_SKIP_LEDGER",
+                    "message": f"Authorial cut omits {len(uncovered)} raw lines (e.g. L{uncovered[0]:04d}..L{uncovered[-1]:04d}) but lacks a mandatory <!-- LEDGER: spans=[...] skipped=[...] --> footer comment."
+                })
+        else:
+            skipped_raw = ledger_match.group(2)
+            for item in re.finditer(r"L?(\d+)(?:\s*-\s*L?(\d+))?(?:\(([^)]+)\))?", skipped_raw):
+                s1 = int(item.group(1))
+                s2 = int(item.group(2)) if item.group(2) else s1
+                reason = item.group(3) or "compressed"
+                for l_num in range(s1, s2 + 1):
+                    skipped_lines.add(l_num)
+                    skipped_items.append((str(l_num), reason))
+
+            unaccounted = sorted(list(total_range_lines - covered_lines - skipped_lines))
+            if unaccounted:
+                err_str = f"L{unaccounted[0]:04d}" if len(unaccounted) == 1 else f"L{unaccounted[0]:04d}..L{unaccounted[-1]:04d} ({len(unaccounted)} lines)"
+                errors.append({
+                    "type": "UNACCOUNTED_SPAN_DROP",
+                    "message": f"Raw lines {err_str} are neither rendered in spans nor accounted for in the skipped ledger."
+                })
+
     if ledger_match and session_id:
-        skipped_raw = ledger_match.group(2)
         raw_path = REPO_ROOT / "sessions" / "data" / "index" / f"{session_id}-raw-indexed.md"
-        if raw_path.exists():
+        if raw_path.exists() and skipped_items:
             try:
                 raw_lines = clean_lines(str(raw_path))
                 lore_re = load_lore_lexicon(session_id, str(REPO_ROOT), session_cfg)
                 skip_exemptions = load_skip_exemptions(session_cfg)
-
-                skipped_items = []
-                for item in re.finditer(r"L?(\d+)(?:\s*-\s*L?(\d+))?(?:\(([^)]+)\))?", skipped_raw):
-                    s1 = int(item.group(1))
-                    s2 = int(item.group(2)) if item.group(2) else s1
-                    reason = item.group(3) or "compressed"
-                    for l_num in range(s1, s2 + 1):
-                        skipped_items.append((str(l_num), reason))
 
                 alt_clean = re.sub(r"<!--.*?-->", "", alternate_text)
                 rendered_words = set(extract_content_words(alt_clean))

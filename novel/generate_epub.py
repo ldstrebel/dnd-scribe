@@ -187,25 +187,41 @@ def parse_chapters_from_story(md_text, session_prefix="s", strict_pacing=False):
     return chapters
 
 
-def build_epub(output_path, include_media=True):
+def build_epub(output_path, include_media=True, track="tabletop"):
     config = load_config()
     title = config.get("title", "Untitled Campaign Novel")
+    if track == "cinematic":
+        title = f"{title} (Cinematic Edition)"
     subtitle = config.get("subtitle", "")
     author = config.get("author", "The Table")
     description = config.get("description", "")
     author_note_cfg = config.get("author_note", {})
 
-    story_files = find_session_story_files()
     all_chapters = []
+    if track == "cinematic":
+        cin_dir = os.path.join(CLEAN_DATA_DIR, "blocks_authorial")
+        session_blocks = {}
+        for f in glob.glob(os.path.join(cin_dir, "s*-scene-*-alt.md")):
+            m = re.search(r"(s[0-9]+(?:\.[0-9]+)?)-scene-", os.path.basename(f))
+            if m:
+                s_id = m.group(1)
+                session_blocks.setdefault(s_id, []).append(f)
+        
+        for s_id in sorted(session_blocks.keys(), key=lambda s: float(re.search(r"s([0-9]+(?:\.[0-9]+)?)", s).group(1))):
+            s_files = sorted(session_blocks[s_id])
+            content = "\n\n".join(open(f, "r", encoding="utf-8").read() for f in s_files)
+            chaps = parse_chapters_from_story(content, session_prefix=s_id)
+            all_chapters.extend(chaps)
+    else:
+        story_files = find_session_story_files()
+        for sf in story_files:
+            s_id = os.path.basename(sf).split("-")[0]
+            with open(sf, "r", encoding="utf-8") as f:
+                content = f.read()
+            chaps = parse_chapters_from_story(content, session_prefix=s_id)
+            all_chapters.extend(chaps)
 
-    for sf in story_files:
-        s_id = os.path.basename(sf).split("-")[0]
-        with open(sf, "r", encoding="utf-8") as f:
-            content = f.read()
-        chaps = parse_chapters_from_story(content, session_prefix=s_id)
-        all_chapters.extend(chaps)
-
-    print(f"[{'ILLUSTRATED' if include_media else 'TEXT-ONLY'}] Total parsed chapters: {len(all_chapters)}")
+    print(f"[{'ILLUSTRATED' if include_media else 'TEXT-ONLY'} ({track.upper()})] Total parsed chapters: {len(all_chapters)}")
 
     book_id = f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_DNS, title.lower())}"
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -372,9 +388,11 @@ def main():
     config = load_config()
     prefix = config.get("output_prefix", "campaign-novel")
     illustrated_path = os.path.join(OUTPUT_DIR, f"{prefix}-illustrated.epub")
-    build_epub(illustrated_path, include_media=True)
+    build_epub(illustrated_path, include_media=True, track="tabletop")
     text_only_path = os.path.join(OUTPUT_DIR, f"{prefix}-text-only.epub")
-    build_epub(text_only_path, include_media=False)
+    build_epub(text_only_path, include_media=False, track="tabletop")
+    cinematic_path = os.path.join(OUTPUT_DIR, f"{prefix}-cinematic.epub")
+    build_epub(cinematic_path, include_media=False, track="cinematic")
 
 
 if __name__ == "__main__":

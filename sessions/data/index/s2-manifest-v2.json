@@ -194,13 +194,14 @@
       "badge": "Autonomous Editorial Lead",
       "grade": "A-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 94,
-      "popcornmeter": 96,
+      "tomatometer": 92,
+      "popcornmeter": 94,
       "campaignArcImpact": "The Convergence: Fleeing into the Appalachian foothills, the party realizes their survival depends on mutual reliance, discovering that the anomalies are not accidental.",
       "technicalCompliance": {
         "earthLeaks": 0,
         "dialogueStutters": 0,
         "stagnantTalkingHeads": 0,
+        "openCritiques": 0,
         "transcriptParity": "100%"
       },
       "ruthlessAnalysis": "Atmospheric sanctuary lore drop and corrector drill. Balances Theodore's worldbuilding with Naomi's tactical briefing. The trade-off is a lower combat stakes tempo compared to S1/S3, functioning as an exposition-dense transit chapter.",

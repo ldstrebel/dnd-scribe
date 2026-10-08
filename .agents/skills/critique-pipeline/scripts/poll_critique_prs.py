@@ -77,6 +77,7 @@ def process_critique_branch(branch_name: str, auto_prune: bool = False):
             
     # 2. Run verification pipeline
     print("🔄 Running verification gates & compiling outputs...")
+    run_cmd([sys.executable, "sessions/_scripts/verify_critiques.py", session_id], check=True)
     run_cmd([sys.executable, "sessions/_scripts/generate_web_manifest.py"], check=True)
     run_cmd([sys.executable, "novel/generate_epub.py"], check=True)
     print("✅ All validation checks passed.")

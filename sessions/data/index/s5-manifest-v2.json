@@ -234,15 +234,16 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
+      "grade": "B-",
       "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 94,
-      "popcornmeter": 96,
+      "tomatometer": 62,
+      "popcornmeter": 94,
       "campaignArcImpact": "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Reductor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure.",
       "technicalCompliance": {
         "earthLeaks": 0,
         "dialogueStutters": 0,
         "stagnantTalkingHeads": 0,
+        "openCritiques": 0,
         "transcriptParity": "100%"
       },
       "ruthlessAnalysis": "Forensic audit verified.",

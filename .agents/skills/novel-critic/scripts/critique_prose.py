@@ -498,13 +498,15 @@ def parse_story_scenes(story_text):
     return scenes
 
 
-def generate_critique_report(session_id, story_path, manifest_path=None):
-    if not os.path.exists(story_path):
-        print(f"Error: Story file not found at {story_path}", file=sys.stderr)
+def generate_critique_report(session_id, story_path_or_text, manifest_path=None):
+    if os.path.exists(story_path_or_text):
+        with open(story_path_or_text, "r", encoding="utf-8") as f:
+            story_text = f.read()
+    elif isinstance(story_path_or_text, str) and ("\n" in story_path_or_text or len(story_path_or_text) > 100):
+        story_text = story_path_or_text
+    else:
+        print(f"Error: Story file not found at {story_path_or_text}", file=sys.stderr)
         sys.exit(1)
-        
-    with open(story_path, "r", encoding="utf-8") as f:
-        story_text = f.read()
         
     scenes = parse_story_scenes(story_text)
     earth_leaks = analyze_earth_leaks(story_text)
@@ -923,9 +925,11 @@ def generate_full_novel_critique_report(base_dir):
 def main():
     parser = argparse.ArgumentParser(description="Adversarial Prose Critic")
     parser.add_argument("session_id", nargs="?", default="all", help="Session ID (e.g. s1, s7.5) or 'all'/'novel' for full novel audit")
+    parser.add_argument("--track", choices=["a", "b", "both"], default="a", help="Which track to audit: a (tabletop), b (authorial), or both")
     parser.add_argument("--out", help="Output path for markdown critique report")
     args = parser.parse_args()
     
+    import glob
     from pathlib import Path
     base_dir = str(Path(__file__).resolve().parents[4])
     
@@ -933,11 +937,31 @@ def main():
         report = generate_full_novel_critique_report(base_dir)
         has_critical_issues = "EDITORIAL CORRECTION REQUIRED" in report
     else:
-        story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{args.session_id}-clean-story.md")
-        if not os.path.exists(story_path):
-            story_path = os.path.join(base_dir, "sessions", "transcripts", "clean", f"{args.session_id}-clean-story.md")
-        report = generate_critique_report(args.session_id, story_path)
-        has_critical_issues = "EDITORIAL CORRECTION REQUIRED" in report
+        reports = []
+        has_critical_issues = False
+
+        if args.track in ("a", "both"):
+            story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{args.session_id}-clean-story.md")
+            if not os.path.exists(story_path):
+                story_path = os.path.join(base_dir, "sessions", "transcripts", "clean", f"{args.session_id}-clean-story.md")
+            rep_a = generate_critique_report(f"{args.session_id} (Track A Tabletop)", story_path)
+            reports.append(rep_a)
+            if "EDITORIAL CORRECTION REQUIRED" in rep_a:
+                has_critical_issues = True
+
+        if args.track in ("b", "both"):
+            alt_pattern = os.path.join(base_dir, "sessions", "data", "clean", "blocks_authorial", f"{args.session_id}-scene-*-alt.md")
+            alt_files = sorted(glob.glob(alt_pattern))
+            if alt_files:
+                alt_combined = "\n\n".join(open(f, "r", encoding="utf-8").read() for f in alt_files)
+                rep_b = generate_critique_report(f"{args.session_id} (Track B Authorial)", alt_combined)
+                reports.append(rep_b)
+                if "EDITORIAL CORRECTION REQUIRED" in rep_b:
+                    has_critical_issues = True
+            elif args.track == "b":
+                print(f"[WARN] No authorial cut blocks found for {args.session_id} at {alt_pattern}", file=sys.stderr)
+
+        report = "\n\n---\n\n".join(reports) if reports else "No reports generated."
     
     if args.out:
         os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)

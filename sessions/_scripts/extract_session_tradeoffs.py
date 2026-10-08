@@ -87,7 +87,9 @@ def extract_tradeoff_dossier(session_id: str, base_dir: str, prev_session_id: Op
         scene_match = re.search(r"scene-(\d+)", scene)
         if scene_match:
             sc_num = scene_match.group(1).zfill(2)
-            c_file = os.path.join(blocks_authorial_dir, f"{session_id}-scene-{sc_num}.md")
+            c_file_alt = os.path.join(blocks_authorial_dir, f"{session_id}-scene-{sc_num}-alt.md")
+            c_file_std = os.path.join(blocks_authorial_dir, f"{session_id}-scene-{sc_num}.md")
+            c_file = c_file_alt if os.path.exists(c_file_alt) else c_file_std
             if os.path.exists(c_file):
                 with open(c_file, "r", encoding="utf-8") as f:
                     cin_block_content = f.read()
