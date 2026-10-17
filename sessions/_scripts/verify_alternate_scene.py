@@ -55,7 +55,7 @@ def extract_raw_range_header(text: str) -> Optional[Tuple[int, int]]:
         return int(match.group(1)), int(match.group(2))
     return None
 
-def extract_dialogue_speakers(text: str) -> Dict[str, List[str]]:
+def extract_dialogue_speakers(text: str, session_cfg: Optional[Dict[str, Any]] = None) -> Dict[str, List[str]]:
     """Extracts spoken dialogue turns by character."""
     alias_map = {"Edward": "Dravin", "Michael": "Mike", "Iggy": "Ignatius"}
     dialogue_map = {}
@@ -66,10 +66,16 @@ def extract_dialogue_speakers(text: str) -> Dict[str, List[str]]:
             continue
         quotes = re.findall(r'"([^"]+)"|“([^”]+)”', stripped)
         if quotes:
-            marker_match = re.search(r"<!--\s*L\d+(?:-L?\d+)?(?::([a-zA-Z_-]+))\s*-->", stripped)
+            marker_match = re.search(r"<!--\s*L(\d+)(?:-L?(\d+))?(?::([a-zA-Z_-]+))?\s*-->", stripped)
+            raw_speaker = None
             if marker_match:
-                raw_speaker = marker_match.group(1).capitalize()
-            else:
+                if marker_match.group(3):
+                    raw_speaker = marker_match.group(3).capitalize()
+                elif session_cfg:
+                    lid = int(marker_match.group(1))
+                    if str(lid) in session_cfg.get("dialogue_speakers", {}):
+                        raw_speaker = session_cfg["dialogue_speakers"][str(lid)].capitalize()
+            if not raw_speaker:
                 prose_outside_quotes = re.sub(r'"[^"]*"|“[^”]*”', "", stripped)
                 speaker_match = re.search(r"\b(Pierre|Alfie|Dravin|Edward|Eusacles|Naomi|Mike|Michael|Iggy|Ignatius|Britt|Aggie|Lomi|Pip)\b", prose_outside_quotes)
                 raw_speaker = speaker_match.group(1) if speaker_match else "Narrator"
@@ -545,8 +551,17 @@ def verify_alternate_scene(
     g3 = audit_gate3_span_provenance(alternate_text, raw_range, session_id=session_id, scene_num=scene_num)
     g4 = audit_gate4_adaptation_divergence(alternate_text, archival_text, session_id, scene_num, intent_contract)
 
-    archival_speakers = extract_dialogue_speakers(archival_text) if archival_text else {}
-    alternate_speakers = extract_dialogue_speakers(alternate_text)
+    session_cfg = None
+    if session_id:
+        cfg_path = REPO_ROOT / "sessions" / "config" / f"{session_id}-session-config.json"
+        if cfg_path.exists():
+            try:
+                session_cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+
+    archival_speakers = extract_dialogue_speakers(archival_text, session_cfg=session_cfg) if archival_text else {}
+    alternate_speakers = extract_dialogue_speakers(alternate_text, session_cfg=session_cfg)
 
     silenced_speakers = []
     for spk, turns in archival_speakers.items():

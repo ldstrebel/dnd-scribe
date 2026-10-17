@@ -186,6 +186,36 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#e11d48",
         "role": "Gorgon-Tendriled Planar Infiltrator"
+    },
+    "susanna": {
+        "name": "Susanna",
+        "type": "npc",
+        "color": "#38bdf8",
+        "role": "Lost Roads Traveler · Rescued Civilian"
+    },
+    "thanatos": {
+        "name": "Thanatos",
+        "type": "npc",
+        "color": "#7c3aed",
+        "role": "Primordial God of Gentle Death · Divine Father"
+    },
+    "redactor": {
+        "name": "The Redactor",
+        "type": "npc",
+        "color": "#dc2626",
+        "role": "Six-Fingered Multi-Faced Timeline Stalker"
+    },
+    "creature": {
+        "name": "The Transformed Woman",
+        "type": "npc",
+        "color": "#e11d48",
+        "role": "Gorgon-Tendriled Planar Infiltrator"
+    },
+    "teddy": {
+        "name": "Theodore (Teddy)",
+        "type": "npc",
+        "color": "#d97706",
+        "role": "Caretaker of The Margin · 1846 Surveyor"
     }
 }
 
@@ -193,6 +223,15 @@ CHARACTER_REGISTRY = {
 CHARACTER_MAP = {
     "child": "child",
     "thorne": "thorne",
+    "doctor": "thorne",
+    "satyr": "satyr",
+    "protester": "protester",
+    "hermes": "hermes",
+    "susanna": "susanna",
+    "thanatos": "thanatos",
+    "redactor": "redactor",
+    "the redactor": "redactor",
+    "creature": "woman",
     "doctor": "thorne",
     "satyr": "satyr",
     "protester": "protester",
@@ -864,7 +903,7 @@ if __name__ == "__main__":
         arg = sys.argv[1].lower().replace("s", "")
         sessions_to_run = [int(arg)]
     else:
-        sessions_to_run = [1, 2, 3, 4, 5, 6]
+        sessions_to_run = [1, 2, 3, 4, 5, 6, 7]
 
     for s in sessions_to_run:
         generate_session_v2_manifest(s)

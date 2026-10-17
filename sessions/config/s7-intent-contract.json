@@ -1,0 +1,135 @@
+{
+  "session_id": "s7",
+  "title": "The Interrogation, The Redactor & The Dream of Thanatos - Intent Parity Contract",
+  "rules": [
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology drifted from canonical name",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+had\\s+arrived\\b",
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "required_replacement": "The Reductors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    },
+    {
+      "id": "ALFIE_ACTION_FIGURE_GROUNDING",
+      "description": "Alfie rejects being called a doll and insists on action figure",
+      "target_scenes": [
+        "scene-01",
+        "scene-04"
+      ],
+      "required_intent_grounding": [
+        "\\b(action figure|not a doll|hate being called|doll|D word)\\b"
+      ],
+      "fail_message": "Missing Alfie action figure objection when referred to as a doll."
+    },
+    {
+      "id": "EUSACLES_WATCH_ENGRAVING",
+      "description": "Thanatos engraves Eusacles' watch granting tier 2 birthright protection",
+      "target_scenes": [
+        "scene-06"
+      ],
+      "required_intent_grounding": [
+        "\\b(watch|engrav|birthright|Thanatos|time|not yours)\\b"
+      ],
+      "fail_message": "Missing Thanatos watch engraving conferring Tier 2 birthright."
+    },
+    {
+      "id": "REDACTOR_STALKER_GROUNDING",
+      "description": "The Redactor must be grounded as an inky, multi-faced entity with six fingers",
+      "target_scenes": [
+        "scene-02",
+        "scene-04"
+      ],
+      "required_intent_grounding": [
+        "\\b(multi-faced|six fingers|inky|stalker|Redactor|faces inside)\\b"
+      ],
+      "fail_message": "Missing Redactor physical description (inky, multi-faced, six fingers)."
+    },
+    {
+      "id": "WASHINGTON_DC_EVIDENCE_LEAD",
+      "description": "Naomi identifies the Washington DC police precinct evidence locker containing the flight manifest and zip-tie handcuffs",
+      "target_scenes": [
+        "scene-08"
+      ],
+      "required_intent_grounding": [
+        "\\b(Washington|DC|precinct|evidence locker|handcuffs|manifest|zip-tie)\\b"
+      ],
+      "fail_message": "Missing Washington DC precinct evidence locker fragment lead."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "The Janitor Cart Interrogation & Tendril Severing",
+      "encounter_reshaping": "Streamlined circular table debate into sharp, adversarial interrogation in the campus quad.",
+      "reordering": "Focalized directly on the captive Gorgon minion in the mobile trash bin, heightening Alfie's swift tendril strike and the erupting purple beacon flare.",
+      "cut_rationale": "Tightened procedural hesitation to escalate dramatic urgency."
+    },
+    {
+      "scene": "scene-02",
+      "scope": "The Campus Flight & The Redactor Stalker",
+      "encounter_reshaping": "Condensed the retreat across the lawn into a taut sensory pursuit against the six-fingered, multi-faced inky entity.",
+      "reordering": "Staged Pierre's rabbit patronus conjuration as a desperate rear-guard distraction as Eusacles shoulders Alfie into the Lost Roads.",
+      "cut_rationale": "Paced the creature's eerie pursuit to establish immediate visceral terror."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "The Lost Roads & The Angel of the Natural History Museum",
+      "encounter_reshaping": "Fused wandering through the interstitial fog into Susanna's sudden emergence from the undergrowth.",
+      "reordering": "Heightened Pierre's theatrical charm and flirtatious bravado against Susanna's bewildered survival, anchoring their discovery of the wild berry thicket.",
+      "cut_rationale": "Smooths navigation banter into a lively character dynamic."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "Arrival at the Margin & The Mended Spatula",
+      "encounter_reshaping": "Accelerated the dawn transition from the overgrown road trail to the cedar porch of the Margin.",
+      "reordering": "Turned Eusacles' Mending spell on Pierre's broken javelin-spatula into an instant culinary triumph with Mike before Teddy's somber debrief on the second fragment.",
+      "cut_rationale": "Contrasts domestic camp comedy with the escalating stakes of being hunted."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "Rum Pancakes, Alfie's Threads & The Hermes Monopoly",
+      "encounter_reshaping": "Distilled the camp breakfast into a rich exploration of Alfie's mythic consciousness (458 years of thread memories vs. four days of living flesh).",
+      "reordering": "Juxtaposed Alfie's boisterous intoxication against Rosa's gentle trauma inquiry and Teddy's account of the Hermes Express extortion.",
+      "cut_rationale": "Deepens party bonding and cosmological worldbuilding without conversational drag."
+    },
+    {
+      "scene": "scene-06",
+      "scope": "Campfire Vigil & The Dream of Thanatos",
+      "encounter_reshaping": "Condensed the perimeter watch into Eusacles' nocturnal communion in his timber cabin.",
+      "reordering": "Dramatized the sudden visitation of Thanatos, framing the god of natural death's bureaucratic distance and the watch engraving with mythic intimacy.",
+      "cut_rationale": "Elevates demigod parental tension into an ominous divine covenant."
+    },
+    {
+      "scene": "scene-07",
+      "scope": "Bootleg Cinema & The Divine Flavor Duel",
+      "encounter_reshaping": "Streamlined the morning breakfast preamble into Pierre's furious culinary defense when Eusacles enchants the pancakes.",
+      "reordering": "Staged the impromptu spear thrust and Cure Wounds stitching as dark slapstick that immediately cuts to Naomi's dramatic arrival.",
+      "cut_rationale": "Maintains rapid kinetic tempo leading into the new investigation."
+    },
+    {
+      "scene": "scene-08",
+      "scope": "Naomi's True-Crime Lead & The Utopian Master",
+      "encounter_reshaping": "Fused the podcast audio breakdown into an intense ideological debate over the Master's historical surgery.",
+      "reordering": "Pitted Pierre's critique of utopian micro-edits against Alfie's Horcrux analogy, establishing the party's status as living anomaly anchors.",
+      "cut_rationale": "Sharpens tactical stakes and philosophical divisions among the companions."
+    },
+    {
+      "scene": "scene-09",
+      "scope": "The Mother of Monsters & The Watch Deflection",
+      "encounter_reshaping": "Condensed pre-departure preparations into Pierre's intimidation clarification regarding his fearsome Italian matriarch.",
+      "reordering": "Concluded with the reflex test where Eusacles' engraved watch cleanly repels Pierre's spear strike, flowing into the push-up montage before Washington DC.",
+      "cut_rationale": "Delivers an energetic, grounded cliffhanger closing Act II."
+    }
+  ]
+}

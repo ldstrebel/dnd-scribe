@@ -1,0 +1,408 @@
+{
+  "session_id": "s7",
+  "title": "The Interrogation, The Redactor & The Dream of Thanatos",
+  "game_master": {
+    "person": "Luke Foreman",
+    "identity": "Luke Foreman (GM)"
+  },
+  "players": {
+    "Luke S": "Pierre",
+    "Sophie Foreman Noone": "Alfie",
+    "John Hagey": "Eusacles"
+  },
+  "absent_players": {
+    "William Webb": "Prof. Edward Dravin"
+  },
+  "shared_mics": {},
+  "npcs": [
+    {
+      "name": "The Transformed Woman",
+      "introduced_scene": 1
+    },
+    {
+      "name": "The Redactor",
+      "introduced_scene": 5
+    },
+    {
+      "name": "Susanna",
+      "introduced_scene": 3
+    },
+    {
+      "name": "Mike",
+      "introduced_scene": 4
+    },
+    {
+      "name": "Teddy",
+      "introduced_scene": 4
+    },
+    {
+      "name": "Rosa",
+      "introduced_scene": 5
+    },
+    {
+      "name": "Thanatos",
+      "introduced_scene": 6
+    },
+    {
+      "name": "Naomi",
+      "introduced_scene": 7
+    }
+  ],
+  "dialogue_speakers": {
+    "214": "creature",
+    "216": "creature",
+    "218": "creature",
+    "247": "creature",
+    "248": "creature",
+    "266": "creature",
+    "268": "creature",
+    "270": "creature",
+    "286": "creature",
+    "293": "creature",
+    "298": "creature",
+    "300": "creature",
+    "302": "creature",
+    "304": "creature",
+    "305": "creature",
+    "307": "creature",
+    "309": "creature",
+    "311": "creature",
+    "313": "creature",
+    "315": "creature",
+    "317": "creature",
+    "327": "creature",
+    "330": "creature",
+    "332": "creature",
+    "334": "creature",
+    "350": "creature",
+    "464": "susanna",
+    "466": "susanna",
+    "468": "susanna",
+    "470": "susanna",
+    "473": "susanna",
+    "475": "susanna",
+    "501": "susanna",
+    "503": "susanna",
+    "505": "susanna",
+    "539": "susanna",
+    "541": "susanna",
+    "543": "susanna",
+    "574": "eusacles",
+    "586": "susanna",
+    "587": "susanna",
+    "589": "susanna",
+    "591": "susanna",
+    "592": "susanna",
+    "595": "mike",
+    "597": "mike",
+    "600": "mike",
+    "602": "mike",
+    "604": "mike",
+    "605": "mike",
+    "613": "mike",
+    "617": "mike",
+    "620": "mike",
+    "626": "teddy",
+    "632": "teddy",
+    "634": "teddy",
+    "636": "teddy",
+    "639": "teddy",
+    "641": "teddy",
+    "644": "teddy",
+    "647": "teddy",
+    "652": "teddy",
+    "654": "teddy",
+    "656": "teddy",
+    "662": "teddy",
+    "664": "teddy",
+    "667": "teddy",
+    "669": "teddy",
+    "671": "teddy",
+    "672": "teddy",
+    "674": "teddy",
+    "676": "teddy",
+    "678": "teddy",
+    "680": "teddy",
+    "681": "teddy",
+    "733": "mike",
+    "738": "mike",
+    "740": "mike",
+    "784": "mike",
+    "797": "teddy",
+    "799": "teddy",
+    "806": "rosa",
+    "809": "rosa",
+    "811": "rosa",
+    "813": "rosa",
+    "815": "rosa",
+    "817": "rosa",
+    "822": "teddy",
+    "824": "teddy",
+    "825": "teddy",
+    "827": "teddy",
+    "829": "teddy",
+    "830": "teddy",
+    "831": "teddy",
+    "834": "teddy",
+    "840": "teddy",
+    "866": "teddy",
+    "870": "teddy",
+    "876": "teddy",
+    "895": "thanatos",
+    "897": "thanatos",
+    "899": "thanatos",
+    "901": "thanatos",
+    "903": "thanatos",
+    "906": "thanatos",
+    "908": "thanatos",
+    "910": "thanatos",
+    "911": "thanatos",
+    "913": "thanatos",
+    "915": "thanatos",
+    "917": "thanatos",
+    "919": "thanatos",
+    "923": "thanatos",
+    "924": "thanatos",
+    "926": "thanatos",
+    "928": "thanatos",
+    "930": "thanatos",
+    "932": "thanatos",
+    "934": "thanatos",
+    "936": "thanatos",
+    "937": "thanatos",
+    "939": "thanatos",
+    "941": "thanatos",
+    "945": "thanatos",
+    "947": "thanatos",
+    "949": "thanatos",
+    "951": "thanatos",
+    "954": "thanatos",
+    "956": "thanatos",
+    "958": "thanatos",
+    "962": "thanatos",
+    "964": "thanatos",
+    "966": "thanatos",
+    "968": "thanatos",
+    "970": "thanatos",
+    "973": "thanatos",
+    "975": "thanatos",
+    "977": "thanatos",
+    "979": "thanatos",
+    "981": "thanatos",
+    "983": "thanatos",
+    "1004": "naomi",
+    "1029": "mike",
+    "1045": "mike",
+    "1074": "naomi",
+    "1075": "naomi",
+    "1083": "naomi",
+    "1084": "naomi",
+    "1086": "naomi",
+    "1088": "naomi",
+    "1101": "naomi",
+    "1107": "naomi",
+    "1108": "naomi",
+    "1110": "naomi",
+    "1113": "naomi",
+    "1116": "naomi",
+    "1190": "naomi",
+    "1192": "naomi",
+    "1194": "naomi",
+    "1196": "naomi",
+    "1198": "naomi",
+    "1200": "naomi",
+    "1201": "naomi",
+    "1205": "naomi",
+    "1207": "naomi",
+    "1209": "naomi"
+  },
+  "legitimate_ooc_lore_skips": [
+    {
+      "line": 583,
+      "reason": "GM table summary of other travelers along the Lost Roads."
+    },
+    {
+      "line": 585,
+      "reason": "Sophie table aside asking if Susanna saw anyone made of ink."
+    },
+    {
+      "line": 598,
+      "reason": "John table greeting 'What's up, Mike?'."
+    },
+    {
+      "line": 601,
+      "reason": "Luke S meta comment 'I like to think that Mike's devastated'."
+    },
+    {
+      "line": 688,
+      "reason": "John table aside 'for uh Susanna'."
+    },
+    {
+      "line": 694,
+      "reason": "GM table note about Naomi cornering Susanna."
+    },
+    {
+      "line": 696,
+      "reason": "GM table note about Naomi asking questions."
+    },
+    {
+      "line": 702,
+      "reason": "Luke S table banter 'Naomi, leave her alone'."
+    },
+    {
+      "line": 724,
+      "reason": "Sophie table comment 'Mike was spot on'."
+    },
+    {
+      "line": 781,
+      "reason": "Luke S meta table comment 'when Pierre comes back with Susanna'."
+    },
+    {
+      "line": 847,
+      "reason": "GM mechanics note on Lost Roads safety."
+    },
+    {
+      "line": 850,
+      "reason": "Sophie table comment 'I'm definitely with Rosa'."
+    },
+    {
+      "line": 862,
+      "reason": "John table aside 'didn't follow us into the lost roads'."
+    },
+    {
+      "line": 868,
+      "reason": "GM table note 'saw you into the lost roads'."
+    },
+    {
+      "line": 871,
+      "reason": "John table recap 'Susanna said that she ran into...'"
+    },
+    {
+      "line": 872,
+      "reason": "GM table confirmation of standard creature patrols in Lost Roads."
+    },
+    {
+      "line": 877,
+      "reason": "Luke S banter 'if Susanna asks anything about a rose'."
+    },
+    {
+      "line": 879,
+      "reason": "Luke S banter 'why I picture Susanna like 45 years old'."
+    },
+    {
+      "line": 883,
+      "reason": "GM transition note mentioning Naomi."
+    },
+    {
+      "line": 884,
+      "reason": "GM transition note mentioning Teddy."
+    },
+    {
+      "line": 999,
+      "reason": "GM banter about Naomi bootlegging Marvel movies."
+    },
+    {
+      "line": 1006,
+      "reason": "Luke S table greeting 'Naomi,'."
+    },
+    {
+      "line": 1072,
+      "reason": "GM mechanics note mentioning Naomi watching."
+    },
+    {
+      "line": 1086,
+      "reason": "GM table aside about Teddy giving a brief look long ago."
+    },
+    {
+      "line": 1087,
+      "reason": "Luke S table clarification about 'Hitler redactor' vs 'redactor SS'."
+    },
+    {
+      "line": 1090,
+      "reason": "John table clarification 'the redactor is what he calls the big loopy woman'."
+    },
+    {
+      "line": 1126,
+      "reason": "Luke S banter about Teddy staying 30-40 years."
+    },
+    {
+      "line": 1158,
+      "reason": "John table transition 'Anyway, Naomi...'."
+    },
+    {
+      "line": 1199,
+      "reason": "John table reaction 'Naomi, you think that wasn't a pertinent piece of information'."
+    },
+    {
+      "line": 1202,
+      "reason": "Sophie table aside 'You think they have some sort of gift shop?'."
+    },
+    {
+      "line": 386,
+      "reason": "GM mechanics call for Lost Roads check."
+    },
+    {
+      "line": 437,
+      "reason": "GM transition note on Lost Roads timing."
+    },
+    {
+      "line": 467,
+      "reason": "John table greeting 'Hi Susanna.'"
+    },
+    {
+      "line": 544,
+      "reason": "Luke S table banter reminiscing about Pierre seeing his own reflection in the mirror."
+    },
+    {
+      "line": 577,
+      "reason": "GM table timing note on Lost Roads."
+    },
+    {
+      "line": 581,
+      "reason": "GM setting description at the Margin."
+    },
+    {
+      "line": 597,
+      "reason": "ASR phonetic mistranscription ('pawn cocks' for pancakes) spoken by GM as Mike."
+    },
+    {
+      "line": 867,
+      "reason": "Luke S table banter mentioning Lost Roads picnic."
+    },
+    {
+      "line": 986,
+      "reason": "John Hagey table reaction to GM fast-forwarding the night after Thanatos departs."
+    }
+  ],
+  "session_cutoff": {
+    "line": 1293,
+    "gm_call_line": 1288,
+    "reason": "GM: 'And with that, we will end the session in preparation of taking off to do something at the DC precinct. We'll see. You guys can come up with a plan for that.' (L1288). L1289-L1293 are table wrap-up and scheduling."
+  },
+  "session_lore_terms": [
+    {
+      "term": "The Redactor",
+      "introduced_scene": 5
+    },
+    {
+      "term": "Susanna",
+      "introduced_scene": 3
+    },
+    {
+      "term": "Thanatos",
+      "introduced_scene": 6
+    },
+    {
+      "term": "Tier 2 Birthright",
+      "introduced_scene": 6
+    },
+    {
+      "term": "The Hermes Express",
+      "introduced_scene": 5
+    },
+    {
+      "term": "Divine Flavor",
+      "introduced_scene": 7
+    }
+  ]
+}
