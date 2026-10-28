@@ -92,14 +92,14 @@
     }
   },
   "stats": {
-    "wordCount": 9547,
+    "wordCount": 9750,
     "estimatedReadMinutes": 39,
-    "estimatedBookPages": 38.2,
+    "estimatedBookPages": 39.0,
     "dialogueRatio": {
-      "spokenWords": 5062,
-      "narrativeWords": 4485,
-      "spokenPct": 53.0,
-      "narrativePct": 47.0,
+      "spokenWords": 5138,
+      "narrativeWords": 4612,
+      "spokenPct": 52.7,
+      "narrativePct": 47.3,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -107,42 +107,42 @@
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 2022,
-        "sharePct": 21.2
+        "words": 2160,
+        "sharePct": 22.2
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
-        "words": 1878,
-        "sharePct": 19.7
+        "words": 1879,
+        "sharePct": 19.3
       },
       {
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1601,
-        "sharePct": 16.8
+        "words": 1596,
+        "sharePct": 16.4
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 1087,
-        "sharePct": 11.4
+        "words": 1123,
+        "sharePct": 11.5
       },
       {
         "id": "creature",
         "name": "The Transformed Woman",
         "color": "#e11d48",
         "words": 756,
-        "sharePct": 7.9
+        "sharePct": 7.8
       },
       {
         "id": "teddy",
         "name": "Theodore (Teddy)",
         "color": "#d97706",
-        "words": 684,
+        "words": 701,
         "sharePct": 7.2
       },
       {
@@ -150,28 +150,28 @@
         "name": "Naomi",
         "color": "#ec4899",
         "words": 477,
-        "sharePct": 5.0
+        "sharePct": 4.9
       },
       {
         "id": "thanatos",
         "name": "Thanatos",
         "color": "#7c3aed",
         "words": 428,
-        "sharePct": 4.5
+        "sharePct": 4.4
       },
       {
         "id": "susanna",
         "name": "Susanna",
         "color": "#38bdf8",
         "words": 274,
-        "sharePct": 2.9
+        "sharePct": 2.8
       },
       {
         "id": "mike",
         "name": "Mike",
         "color": "#64748b",
-        "words": 252,
-        "sharePct": 2.6
+        "words": 268,
+        "sharePct": 2.7
       },
       {
         "id": "rosa",
@@ -185,9 +185,9 @@
       "pacingStdDev": 7.3,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 38,
+        "visual": 42,
         "auditory": 3,
-        "tactile": 23,
+        "tactile": 26,
         "olfactory": 11,
         "atmospheric": 16,
         "registersCovered": 5
@@ -230,13 +230,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "53.0% Spoken / 47.0% Narrative Action",
+          "chosenStance": "52.7% Spoken / 47.3% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~86 words/scene)",
+          "chosenStance": "Micro-Chapters (~88 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -3751,32 +3751,16 @@
       "id": "uneraseable_s07_b080",
       "index": 80,
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
-      "speakerId": "pierre",
-      "text": "Pierre's breath hitched in his throat. Moving on pure instinct, he raised his slender hand and snapped his fingers, weaving a desperate thread of illumination into the mist. \"Expecto patronum!\" he whispered under his breath.",
+      "speakerId": "narrator",
+      "text": "Pierre's breath hitched in his throat. In sheer panic, his fingers twitched as he reached for the dormant wellspring of his threshold heritage, seeking anything to ward off the encroaching nightmare. He murmured an old warding charm under his breath, snapping his fingers in desperate rhythm.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b080_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Pierre's breath hitched in his throat. Moving on pure instinct, he raised his slender hand and snapped his fingers, weaving a desperate thread of illumination into the mist. "
-        },
-        {
-          "segmentId": "uneraseable_s07_b080_s02",
-          "type": "dialogue",
+          "type": "action",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 440,
-          "text": "\"Expecto patronum!\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b080_s03",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " he whispered under his breath."
+          "text": "Pierre's breath hitched in his throat. In sheer panic, his fingers twitched as he reached for the dormant wellspring of his threshold heritage, seeking anything to ward off the encroaching nightmare. He murmured an old warding charm under his breath, snapping his fingers in desperate rhythm."
         }
       ],
       "cut": "tabletop"
@@ -3786,7 +3770,7 @@
       "index": 81,
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "speakerId": "narrator",
-      "text": "A sudden burst of radiant white light coalesced at his feet. A tiny, luminous rabbit\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.",
+      "text": "A sudden burst of radiant white light coalesced at his boots. A tiny, luminous hare\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b081_s01",
@@ -3794,7 +3778,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "A sudden burst of radiant white light coalesced at his feet. A tiny, luminous rabbit\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops."
+          "text": "A sudden burst of radiant white light coalesced at his boots. A tiny, luminous hare\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops."
         }
       ],
       "cut": "tabletop"
@@ -3804,7 +3788,7 @@
       "index": 82,
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "speakerId": "pierre",
-      "text": "Pierre stared in disbelief, his jaw hanging open. \"Oh my god. That is a royal bunny.\"",
+      "text": "Pierre stared in disbelief, his jaw hanging open. \"Mon dieu,\" he whispered, watching the glowing apparition dash across the grass. \"That is an actual rabbit.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b082_s01",
@@ -3820,7 +3804,23 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 442,
-          "text": "\"Oh my god. That is a royal bunny.\""
+          "text": "\"Mon dieu,\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b082_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he whispered, watching the glowing apparition dash across the grass. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b082_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 442,
+          "text": "\"That is an actual rabbit.\""
         }
       ],
       "cut": "tabletop"
@@ -3848,7 +3848,7 @@
       "index": 84,
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "speakerId": "pierre",
-      "text": "\"I see this creature... it is like a dementor with more faces,\" Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. \"I do not like it either!\"",
+      "text": "\"I see this creature... it is like a nightmare with far too many faces,\" Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. \"I do not like it at all!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b084_s01",
@@ -3856,7 +3856,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 448,
-          "text": "\"I see this creature... it is like a dementor with more faces,\""
+          "text": "\"I see this creature... it is like a nightmare with far too many faces,\""
         },
         {
           "segmentId": "uneraseable_s07_b084_s02",
@@ -3872,7 +3872,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 448,
-          "text": "\"I do not like it either!\""
+          "text": "\"I do not like it at all!\""
         }
       ],
       "cut": "tabletop"
@@ -3882,7 +3882,7 @@
       "index": 85,
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "speakerId": "pierre",
-      "text": "\"There is a patronus, a little white bunny running around it, though,\" he called out as he threw himself through the seam. \"And I do not exactly know where that came from!\"",
+      "text": "\"There is a little white bunny running around it, though,\" he called out over his shoulder as he threw himself through the seam. \"And I do not exactly know where that came from!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b085_s01",
@@ -3890,7 +3890,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 451,
-          "text": "\"There is a patronus, a little white bunny running around it, though,\""
+          "text": "\"There is a little white bunny running around it, though,\""
         },
         {
           "segmentId": "uneraseable_s07_b085_s02",
@@ -3898,7 +3898,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " he called out as he threw himself through the seam. "
+          "text": " he called out over his shoulder as he threw himself through the seam. "
         },
         {
           "segmentId": "uneraseable_s07_b085_s03",
@@ -4458,32 +4458,16 @@
       "id": "uneraseable_s07_b059_alt22",
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "cut": "cinematic",
-      "speakerId": "pierre",
-      "text": "Pierre's breath hitched in his throat. Moving on pure instinct, he raised his slender hand and snapped his fingers, weaving a desperate thread of illumination into the mist. \"Expecto patronum!\" he whispered under his breath.",
+      "speakerId": "narrator",
+      "text": "Pierre's breath hitched in his throat. In sheer panic, his fingers twitched as he reached for the dormant wellspring of his threshold heritage, seeking anything to ward off the encroaching nightmare. He murmured an old warding charm under his breath, snapping his fingers in desperate rhythm.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b059_alt22_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Pierre's breath hitched in his throat. Moving on pure instinct, he raised his slender hand and snapped his fingers, weaving a desperate thread of illumination into the mist. "
-        },
-        {
-          "segmentId": "uneraseable_s07_b059_alt22_s02",
-          "type": "dialogue",
+          "type": "action",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 440,
-          "text": "\"Expecto patronum!\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b059_alt22_s03",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " he whispered under his breath."
+          "text": "Pierre's breath hitched in his throat. In sheer panic, his fingers twitched as he reached for the dormant wellspring of his threshold heritage, seeking anything to ward off the encroaching nightmare. He murmured an old warding charm under his breath, snapping his fingers in desperate rhythm."
         }
       ]
     },
@@ -4492,7 +4476,7 @@
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "cut": "cinematic",
       "speakerId": "narrator",
-      "text": "A sudden burst of radiant white light coalesced at his feet. A tiny, luminous rabbit\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.",
+      "text": "A sudden burst of radiant white light coalesced at his boots. A tiny, luminous hare\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b059_alt23_s01",
@@ -4500,7 +4484,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "A sudden burst of radiant white light coalesced at his feet. A tiny, luminous rabbit\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops."
+          "text": "A sudden burst of radiant white light coalesced at his boots. A tiny, luminous hare\u2014sculpted of dazzling silver luminescence\u2014bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops."
         }
       ]
     },
@@ -4509,7 +4493,7 @@
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Pierre stared in disbelief, his jaw hanging open. \"Oh my god. That is a royal bunny.\"",
+      "text": "Pierre stared in disbelief, his jaw hanging open. \"Mon dieu,\" he whispered, watching the glowing apparition dash across the grass. \"That is an actual rabbit.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b059_alt24_s01",
@@ -4525,7 +4509,23 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 442,
-          "text": "\"Oh my god. That is a royal bunny.\""
+          "text": "\"Mon dieu,\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b059_alt24_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " he whispered, watching the glowing apparition dash across the grass. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b059_alt24_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 442,
+          "text": "\"That is an actual rabbit.\""
         }
       ]
     },
@@ -4551,7 +4551,7 @@
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "\"I see this creature... it is like a dementor with more faces,\" Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. \"I do not like it either!\"",
+      "text": "\"I see this creature... it is like a nightmare with far too many faces,\" Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. \"I do not like it at all!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b059_alt26_s01",
@@ -4559,7 +4559,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 448,
-          "text": "\"I see this creature... it is like a dementor with more faces,\""
+          "text": "\"I see this creature... it is like a nightmare with far too many faces,\""
         },
         {
           "segmentId": "uneraseable_s07_b059_alt26_s02",
@@ -4575,7 +4575,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 448,
-          "text": "\"I do not like it either!\""
+          "text": "\"I do not like it at all!\""
         }
       ]
     },
@@ -4584,7 +4584,7 @@
       "scene": "CHAPTER 43: THE SIX-FINGERED SHADOW & THE PATRONUS FLIGHT",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "\"There is a patronus, a little white bunny running around it, though,\" he called out as he threw himself through the seam. \"And I do not exactly know where that came from!\"",
+      "text": "\"There is a little white bunny running around it, though,\" he called out over his shoulder as he threw himself through the seam. \"And I do not exactly know where that came from!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b059_alt27_s01",
@@ -4592,7 +4592,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 451,
-          "text": "\"There is a patronus, a little white bunny running around it, though,\""
+          "text": "\"There is a little white bunny running around it, though,\""
         },
         {
           "segmentId": "uneraseable_s07_b059_alt27_s02",
@@ -4600,7 +4600,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " he called out as he threw himself through the seam. "
+          "text": " he called out over his shoulder as he threw himself through the seam. "
         },
         {
           "segmentId": "uneraseable_s07_b059_alt27_s03",
@@ -6347,7 +6347,7 @@
       "index": 128,
       "scene": "CHAPTER 45: RETURN TO THE MARGIN & THE MENDED SPATULA",
       "speakerId": "teddy",
-      "text": "Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. \"Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross.\"",
+      "text": "Teddy took the cold specimen with a furrowed brow, turning the dark, fibrous cord under the morning sunlight. \"Hair? No woodsman would have called it hair. I would call this some sort of creeping root\u2014or a living nerve plucked straight from a brain.\" He wrinkled his nose with quiet distaste. \"Unnatural.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b128_s01",
@@ -6355,7 +6355,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. "
+          "text": "Teddy took the cold specimen with a furrowed brow, turning the dark, fibrous cord under the morning sunlight. "
         },
         {
           "segmentId": "uneraseable_s07_b128_s02",
@@ -6363,7 +6363,23 @@
           "speakerId": "teddy",
           "speakerName": "Theodore (Teddy)",
           "sourceLine": 644,
-          "text": "\"Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross.\""
+          "text": "\"Hair? No woodsman would have called it hair. I would call this some sort of creeping root\u2014or a living nerve plucked straight from a brain.\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b128_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " He wrinkled his nose with quiet distaste. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b128_s04",
+          "type": "dialogue",
+          "speakerId": "teddy",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 644,
+          "text": "\"Unnatural.\""
         }
       ],
       "cut": "tabletop"
@@ -7265,7 +7281,7 @@
       "scene": "CHAPTER 45: RETURN TO THE MARGIN & THE MENDED SPATULA",
       "cut": "cinematic",
       "speakerId": "teddy",
-      "text": "Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. \"Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross.\"",
+      "text": "Teddy took the cold specimen with a furrowed brow, turning the dark, fibrous cord under the morning sunlight. \"Hair? No woodsman would have called it hair. I would call this some sort of creeping root\u2014or a living nerve plucked straight from a brain.\" He wrinkled his nose with quiet distaste. \"Unnatural.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b110_alt19_s01",
@@ -7273,7 +7289,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. "
+          "text": "Teddy took the cold specimen with a furrowed brow, turning the dark, fibrous cord under the morning sunlight. "
         },
         {
           "segmentId": "uneraseable_s07_b110_alt19_s02",
@@ -7281,7 +7297,23 @@
           "speakerId": "teddy",
           "speakerName": "Theodore (Teddy)",
           "sourceLine": 644,
-          "text": "\"Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross.\""
+          "text": "\"Hair? No woodsman would have called it hair. I would call this some sort of creeping root\u2014or a living nerve plucked straight from a brain.\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b110_alt19_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " He wrinkled his nose with quiet distaste. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b110_alt19_s04",
+          "type": "dialogue",
+          "speakerId": "teddy",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 644,
+          "text": "\"Unnatural.\""
         }
       ]
     },
@@ -8012,7 +8044,7 @@
       "index": 157,
       "scene": "CHAPTER 46: RUM PANCAKES & THE THREAD OF FOUR CENTURIES",
       "speakerId": "mike",
-      "text": "\"Well, we put the rum in the pancakes, and then we also put the rum in the jam,\" Mike answered cheerfully, leaning against the doorframe.",
+      "text": "\"Well, we put the rum in the pancakes, and then we also put the rum in the jam,\" Mike answered cheerfully, leaning against the doorframe. \"And then, of course, we put the rum in the rum.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b157_s01",
@@ -8028,7 +8060,15 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Mike answered cheerfully, leaning against the doorframe."
+          "text": " Mike answered cheerfully, leaning against the doorframe. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b157_s03",
+          "type": "dialogue",
+          "speakerId": "mike",
+          "speakerName": "Mike",
+          "sourceLine": 784,
+          "text": "\"And then, of course, we put the rum in the rum.\""
         }
       ],
       "cut": "tabletop"
@@ -9037,7 +9077,7 @@
       "scene": "CHAPTER 46: RUM PANCAKES & THE THREAD OF FOUR CENTURIES",
       "cut": "cinematic",
       "speakerId": "mike",
-      "text": "\"Well, we put the rum in the pancakes, and then we also put the rum in the jam,\" Mike answered cheerfully, leaning against the doorframe.",
+      "text": "\"Well, we put the rum in the pancakes, and then we also put the rum in the jam,\" Mike answered cheerfully, leaning against the doorframe. \"And then, of course, we put the rum in the rum.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b142_alt16_s01",
@@ -9053,7 +9093,15 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Mike answered cheerfully, leaning against the doorframe."
+          "text": " Mike answered cheerfully, leaning against the doorframe. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b142_alt16_s03",
+          "type": "dialogue",
+          "speakerId": "mike",
+          "speakerName": "Mike",
+          "sourceLine": 784,
+          "text": "\"And then, of course, we put the rum in the rum.\""
         }
       ]
     },
@@ -11623,7 +11671,7 @@
       "index": 220,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "pierre",
-      "text": "Pierre's eyes widened in profound culinary horror. His jaw dropped. \"Do not touch my pancakes!\"",
+      "text": "Pierre's eyes widened in profound culinary horror, his fork clattering against the tin plate. \"Do not touch my pancakes!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b220_s01",
@@ -11631,7 +11679,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre's eyes widened in profound culinary horror. His jaw dropped. "
+          "text": "Pierre's eyes widened in profound culinary horror, his fork clattering against the tin plate. "
         },
         {
           "segmentId": "uneraseable_s07_b220_s02",
@@ -11649,7 +11697,7 @@
       "index": 221,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "pierre",
-      "text": "Before Eusacles could bring the fork to his mouth, Pierre seized his newly mended bronze javelin from beneath the bench. With a furious shout, Pierre thrust the spear forward like a dueling rapier, ramming the bronze point directly into Eusacles' left flank. The sharp tip punched clean through denim and flannel, biting into the flesh beneath the ribs. \"How does that taste to you, huh? I can direct-deliver it to your intestines!\"",
+      "text": "Before Eusacles could bring the fork to his lips, Pierre snatched his newly mended bronze javelin from beneath the bench. Overcome with theatrical outrage, he lunged across the corner of the table, driving the bronze point directly into Eusacles' left flank. The freshly forged metal punched clean through denim and flannel, biting into the flesh beneath the ribs. \"How does that taste to you, huh? I can direct-deliver it to your intestines!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b221_s01",
@@ -11657,7 +11705,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Before Eusacles could bring the fork to his mouth, Pierre seized his newly mended bronze javelin from beneath the bench. With a furious shout, Pierre thrust the spear forward like a dueling rapier, ramming the bronze point directly into Eusacles' left flank. The sharp tip punched clean through denim and flannel, biting into the flesh beneath the ribs. "
+          "text": "Before Eusacles could bring the fork to his lips, Pierre snatched his newly mended bronze javelin from beneath the bench. Overcome with theatrical outrage, he lunged across the corner of the table, driving the bronze point directly into Eusacles' left flank. The freshly forged metal punched clean through denim and flannel, biting into the flesh beneath the ribs. "
         },
         {
           "segmentId": "uneraseable_s07_b221_s02",
@@ -11675,7 +11723,7 @@
       "index": 222,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "eusacles",
-      "text": "Eusacles gasped, clutching his side as crimson seeped into his shirt. \"What the fuck! I didn't think you'd take it that seriously!\"",
+      "text": "Eusacles gasped, clutching his side as crimson seeped around the spearhead. \"What the fuck! I didn't think you'd take it that seriously!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b222_s01",
@@ -11683,7 +11731,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Eusacles gasped, clutching his side as crimson seeped into his shirt. "
+          "text": "Eusacles gasped, clutching his side as crimson seeped around the spearhead. "
         },
         {
           "segmentId": "uneraseable_s07_b222_s02",
@@ -11701,31 +11749,23 @@
       "index": 223,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "mike",
-      "text": "\"Whoa! What's going on here?\" Mike yelled, waving his spatula in alarm from the counter. \"Take it outside!\"",
+      "text": "From behind the counter, Mike waved his wooden spatula in frantic circles. \"Whoa, whoa, whoa! What are you guys doing? Take it outside!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b223_s01",
-          "type": "dialogue",
-          "speakerId": "mike",
-          "speakerName": "Mike",
-          "sourceLine": 1029,
-          "text": "\"Whoa! What's going on here?\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b223_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Mike yelled, waving his spatula in alarm from the counter. "
+          "text": "From behind the counter, Mike waved his wooden spatula in frantic circles. "
         },
         {
-          "segmentId": "uneraseable_s07_b223_s03",
+          "segmentId": "uneraseable_s07_b223_s02",
           "type": "dialogue",
           "speakerId": "mike",
           "speakerName": "Mike",
           "sourceLine": 1029,
-          "text": "\"Take it outside!\""
+          "text": "\"Whoa, whoa, whoa! What are you guys doing? Take it outside!\""
         }
       ],
       "cut": "tabletop"
@@ -11735,10 +11775,18 @@
       "index": 224,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "pierre",
-      "text": "\"I have no ingredients to work with!\" Pierre ranted, pacing the floorboards with flailing arms. \"We have flour, water, and rum! That is it! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never had one in his life, we need provisions!\"",
+      "text": "Pierre released the haft, pacing the floorboards with flailing arms. \"I have no ingredients to work with!\" Pierre cried, gesturing wildly toward the barren pantry. \"We have flour, water, and rum! That is all! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never tasted one in his entire life, we require proper provisions!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b224_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre released the haft, pacing the floorboards with flailing arms. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b224_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -11746,20 +11794,20 @@
           "text": "\"I have no ingredients to work with!\""
         },
         {
-          "segmentId": "uneraseable_s07_b224_s02",
+          "segmentId": "uneraseable_s07_b224_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre ranted, pacing the floorboards with flailing arms. "
+          "text": " Pierre cried, gesturing wildly toward the barren pantry. "
         },
         {
-          "segmentId": "uneraseable_s07_b224_s03",
+          "segmentId": "uneraseable_s07_b224_s04",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1037,
-          "text": "\"We have flour, water, and rum! That is it! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never had one in his life, we need provisions!\""
+          "text": "\"We have flour, water, and rum! That is all! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never tasted one in his entire life, we require proper provisions!\""
         }
       ],
       "cut": "tabletop"
@@ -11769,31 +11817,23 @@
       "index": 225,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "mike",
-      "text": "\"All right, all right, I got it!\" Mike said, hastily jotting notes on a brown paper bag. \"I'll see what I can do. I'll work on gathering some supplies.\"",
+      "text": "Mike grabbed a grease pencil, hastily scribbling across a brown paper flour sack. \"All right, all right, I got it, bro! Scrambled eggs, butter, yeast\u2014we can do this!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b225_s01",
-          "type": "dialogue",
-          "speakerId": "mike",
-          "speakerName": "Mike",
-          "sourceLine": 1045,
-          "text": "\"All right, all right, I got it!\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b225_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Mike said, hastily jotting notes on a brown paper bag. "
+          "text": "Mike grabbed a grease pencil, hastily scribbling across a brown paper flour sack. "
         },
         {
-          "segmentId": "uneraseable_s07_b225_s03",
+          "segmentId": "uneraseable_s07_b225_s02",
           "type": "dialogue",
           "speakerId": "mike",
           "speakerName": "Mike",
           "sourceLine": 1045,
-          "text": "\"I'll see what I can do. I'll work on gathering some supplies.\""
+          "text": "\"All right, all right, I got it, bro! Scrambled eggs, butter, yeast\u2014we can do this!\""
         }
       ],
       "cut": "tabletop"
@@ -11803,31 +11843,23 @@
       "index": 226,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "pierre",
-      "text": "\"Maybe it was a slight overreaction,\" Pierre admitted, though he did not sound entirely remorseful. \"Yesterday the javelin was ineffective; today it strikes with the force of a titan.\"",
+      "text": "Pierre stopped pacing, eyeing the crimson stain spreading across Eusacles' shirt with a faint twinge of awkward guilt. \"Perhaps... perhaps it was a slight overreaction. Yesterday the weapon was completely useless, and today it strikes with the force of an Olympian titan. That is hardly my fault.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b226_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1047,
-          "text": "\"Maybe it was a slight overreaction,\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b226_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre admitted, though he did not sound entirely remorseful. "
+          "text": "Pierre stopped pacing, eyeing the crimson stain spreading across Eusacles' shirt with a faint twinge of awkward guilt. "
         },
         {
-          "segmentId": "uneraseable_s07_b226_s03",
+          "segmentId": "uneraseable_s07_b226_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1047,
-          "text": "\"Yesterday the javelin was ineffective; today it strikes with the force of a titan.\""
+          "text": "\"Perhaps... perhaps it was a slight overreaction. Yesterday the weapon was completely useless, and today it strikes with the force of an Olympian titan. That is hardly my fault.\""
         }
       ],
       "cut": "tabletop"
@@ -11837,7 +11869,7 @@
       "index": 227,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "eusacles",
-      "text": "\"I didn't touch anyone else's pancakes!\" Eusacles barked, shoving the javelin away and pressing a hand to the bleeding wound. \"Bro, I am not trying to see my dad again already! Holy shit!\"",
+      "text": "\"I didn't even touch your plate!\" Eusacles barked, wrenching the bronze point free and pressing both calloused palms over the puncture. \"Bro, I am not trying to see my dad again already! Holy shit!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b227_s01",
@@ -11845,7 +11877,7 @@
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
           "sourceLine": 1053,
-          "text": "\"I didn't touch anyone else's pancakes!\""
+          "text": "\"I didn't even touch your plate!\""
         },
         {
           "segmentId": "uneraseable_s07_b227_s02",
@@ -11853,7 +11885,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Eusacles barked, shoving the javelin away and pressing a hand to the bleeding wound. "
+          "text": " Eusacles barked, wrenching the bronze point free and pressing both calloused palms over the puncture. "
         },
         {
           "segmentId": "uneraseable_s07_b227_s03",
@@ -11871,7 +11903,7 @@
       "index": 228,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "narrator",
-      "text": "Alfie watched from the tabletop, shaking his wooden head as Eusacles muttered an incantation. A pale white radiance blossomed beneath Eusacles' palms as he channeled *Cure Wounds*, sealing the torn flesh.",
+      "text": "A pale golden warmth flared beneath Eusacles' fingers as he channeled *Cure Wounds* to knit the torn muscle back together.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b228_s01",
@@ -11879,7 +11911,7 @@
           "speakerId": "alfie",
           "speakerName": "Alfie",
           "sourceLine": 1059,
-          "text": "Alfie watched from the tabletop, shaking his wooden head as Eusacles muttered an incantation. A pale white radiance blossomed beneath Eusacles' palms as he channeled *Cure Wounds*, sealing the torn flesh."
+          "text": "A pale golden warmth flared beneath Eusacles' fingers as he channeled *Cure Wounds* to knit the torn muscle back together."
         }
       ],
       "cut": "tabletop"
@@ -11889,7 +11921,7 @@
       "index": 229,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "pierre",
-      "text": "Pierre huffed, snatching a medical needle and suture thread from his rucksack. \"You cannot just use magic for everything! What are you doing?\" Pierre knelt beside the bench, aggressively driving the curved needle into the closing wound, pulling the skin tight with tight surgical knots.",
+      "text": "Pierre immediately knelt beside him on the bench, hauling a curved suture needle and silk thread from his rucksack. \"You cannot simply use magic for everything! What are you doing? Hold still!\" Pierre snapped, aggressively driving the needle through the closing skin to cinch it shut with tight medical knots.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b229_s01",
@@ -11897,7 +11929,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre huffed, snatching a medical needle and suture thread from his rucksack. "
+          "text": "Pierre immediately knelt beside him on the bench, hauling a curved suture needle and silk thread from his rucksack. "
         },
         {
           "segmentId": "uneraseable_s07_b229_s02",
@@ -11905,7 +11937,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1069,
-          "text": "\"You cannot just use magic for everything! What are you doing?\""
+          "text": "\"You cannot simply use magic for everything! What are you doing? Hold still!\""
         },
         {
           "segmentId": "uneraseable_s07_b229_s03",
@@ -11913,7 +11945,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre knelt beside the bench, aggressively driving the curved needle into the closing wound, pulling the skin tight with tight surgical knots."
+          "text": " Pierre snapped, aggressively driving the needle through the closing skin to cinch it shut with tight medical knots."
         }
       ],
       "cut": "tabletop"
@@ -11923,7 +11955,7 @@
       "index": 230,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "eusacles",
-      "text": "Eusacles winced, gritting his teeth behind his sunglasses. \"Are you digging deep on purpose?\"",
+      "text": "Eusacles winced, gritting his teeth behind his sunglasses. \"Are you digging deep on purpose?!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b230_s01",
@@ -11939,7 +11971,7 @@
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
           "sourceLine": 1071,
-          "text": "\"Are you digging deep on purpose?\""
+          "text": "\"Are you digging deep on purpose?!\""
         }
       ],
       "cut": "tabletop"
@@ -11949,7 +11981,7 @@
       "index": 231,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "speakerId": "naomi",
-      "text": "\"Are you guys done?\" Naomi demanded, stepping up to the end of the table and tapping her foot against the pine boards. \"I have been up for four hours and I am itching to drop this on you. You already know part of it.\"",
+      "text": "\"Are you guys done?\" Naomi cut in, stepping up to the end of the table with folded arms, tapping her boot against the pine boards. \"I have been up for four hours waiting to drop this on you. You already know part of it.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b231_s01",
@@ -11965,7 +11997,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Naomi demanded, stepping up to the end of the table and tapping her foot against the pine boards. "
+          "text": " Naomi cut in, stepping up to the end of the table with folded arms, tapping her boot against the pine boards. "
         },
         {
           "segmentId": "uneraseable_s07_b231_s03",
@@ -11973,7 +12005,7 @@
           "speakerId": "naomi",
           "speakerName": "Naomi",
           "sourceLine": 1074,
-          "text": "\"I have been up for four hours and I am itching to drop this on you. You already know part of it.\""
+          "text": "\"I have been up for four hours waiting to drop this on you. You already know part of it.\""
         }
       ],
       "cut": "tabletop"
@@ -11982,16 +12014,32 @@
       "id": "uneraseable_s07_b232",
       "index": 232,
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
-      "speakerId": "narrator",
-      "text": "Pierre tied off the knot with a sharp tug, stood up, and wiped his hands on a clean napkin. He pulled a jug of orange juice and a bottle of rum from the credenza, filling four tumblers with generous splashes.",
+      "speakerId": "pierre",
+      "text": "Pierre tied off the final stitch with a decisive flick of his shears, rose smoothly, and wiped his hands on a clean napkin. He grabbed a jug of orange juice and a bottle of rum from the credenza, splashing a generous pour straight across Eusacles' freshly stitched flank as sterilization. \"There. Now I have a clean glass.\" Pierre filled four tumblers to the brim, sliding one to Alfie and setting another before the wounded demigod.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b232_s01",
-          "type": "action",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre tied off the final stitch with a decisive flick of his shears, rose smoothly, and wiped his hands on a clean napkin. He grabbed a jug of orange juice and a bottle of rum from the credenza, splashing a generous pour straight across Eusacles' freshly stitched flank as sterilization. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b232_s02",
+          "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1078,
-          "text": "Pierre tied off the knot with a sharp tug, stood up, and wiped his hands on a clean napkin. He pulled a jug of orange juice and a bottle of rum from the credenza, filling four tumblers with generous splashes."
+          "text": "\"There. Now I have a clean glass.\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b232_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre filled four tumblers to the brim, sliding one to Alfie and setting another before the wounded demigod."
         }
       ],
       "cut": "tabletop"
@@ -12259,7 +12307,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Pierre's eyes widened in profound culinary horror. His jaw dropped. \"Do not touch my pancakes!\"",
+      "text": "Pierre's eyes widened in profound culinary horror, his fork clattering against the tin plate. \"Do not touch my pancakes!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt9_s01",
@@ -12267,7 +12315,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre's eyes widened in profound culinary horror. His jaw dropped. "
+          "text": "Pierre's eyes widened in profound culinary horror, his fork clattering against the tin plate. "
         },
         {
           "segmentId": "uneraseable_s07_b212_alt9_s02",
@@ -12284,7 +12332,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Before Eusacles could bring the fork to his mouth, Pierre seized his newly mended bronze javelin from beneath the bench. With a furious shout, Pierre thrust the spear forward like a dueling rapier, ramming the bronze point directly into Eusacles' left flank. The sharp tip punched clean through denim and flannel, biting into the flesh beneath the ribs. \"How does that taste to you, huh? I can direct-deliver it to your intestines!\"",
+      "text": "Before Eusacles could bring the fork to his lips, Pierre snatched his newly mended bronze javelin from beneath the bench. Overcome with theatrical outrage, he lunged across the corner of the table, driving the bronze point directly into Eusacles' left flank. The freshly forged metal punched clean through denim and flannel, biting into the flesh beneath the ribs. \"How does that taste to you, huh? I can direct-deliver it to your intestines!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt10_s01",
@@ -12292,7 +12340,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Before Eusacles could bring the fork to his mouth, Pierre seized his newly mended bronze javelin from beneath the bench. With a furious shout, Pierre thrust the spear forward like a dueling rapier, ramming the bronze point directly into Eusacles' left flank. The sharp tip punched clean through denim and flannel, biting into the flesh beneath the ribs. "
+          "text": "Before Eusacles could bring the fork to his lips, Pierre snatched his newly mended bronze javelin from beneath the bench. Overcome with theatrical outrage, he lunged across the corner of the table, driving the bronze point directly into Eusacles' left flank. The freshly forged metal punched clean through denim and flannel, biting into the flesh beneath the ribs. "
         },
         {
           "segmentId": "uneraseable_s07_b212_alt10_s02",
@@ -12309,7 +12357,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "eusacles",
-      "text": "Eusacles gasped, clutching his side as crimson seeped into his shirt. \"What the fuck! I didn't think you'd take it that seriously!\"",
+      "text": "Eusacles gasped, clutching his side as crimson seeped around the spearhead. \"What the fuck! I didn't think you'd take it that seriously!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt11_s01",
@@ -12317,7 +12365,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Eusacles gasped, clutching his side as crimson seeped into his shirt. "
+          "text": "Eusacles gasped, clutching his side as crimson seeped around the spearhead. "
         },
         {
           "segmentId": "uneraseable_s07_b212_alt11_s02",
@@ -12334,31 +12382,23 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "mike",
-      "text": "\"Whoa! What's going on here?\" Mike yelled, waving his spatula in alarm from the counter. \"Take it outside!\"",
+      "text": "From behind the counter, Mike waved his wooden spatula in frantic circles. \"Whoa, whoa, whoa! What are you guys doing? Take it outside!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt12_s01",
-          "type": "dialogue",
-          "speakerId": "mike",
-          "speakerName": "Mike",
-          "sourceLine": 1029,
-          "text": "\"Whoa! What's going on here?\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b212_alt12_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Mike yelled, waving his spatula in alarm from the counter. "
+          "text": "From behind the counter, Mike waved his wooden spatula in frantic circles. "
         },
         {
-          "segmentId": "uneraseable_s07_b212_alt12_s03",
+          "segmentId": "uneraseable_s07_b212_alt12_s02",
           "type": "dialogue",
           "speakerId": "mike",
           "speakerName": "Mike",
           "sourceLine": 1029,
-          "text": "\"Take it outside!\""
+          "text": "\"Whoa, whoa, whoa! What are you guys doing? Take it outside!\""
         }
       ]
     },
@@ -12367,10 +12407,18 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "\"I have no ingredients to work with!\" Pierre ranted, pacing the floorboards with flailing arms. \"We have flour, water, and rum! That is it! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never had one in his life, we need provisions!\"",
+      "text": "Pierre released the haft, pacing the floorboards with flailing arms. \"I have no ingredients to work with!\" Pierre cried, gesturing wildly toward the barren pantry. \"We have flour, water, and rum! That is all! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never tasted one in his entire life, we require proper provisions!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt13_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre released the haft, pacing the floorboards with flailing arms. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b212_alt13_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
@@ -12378,20 +12426,20 @@
           "text": "\"I have no ingredients to work with!\""
         },
         {
-          "segmentId": "uneraseable_s07_b212_alt13_s02",
+          "segmentId": "uneraseable_s07_b212_alt13_s03",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre ranted, pacing the floorboards with flailing arms. "
+          "text": " Pierre cried, gesturing wildly toward the barren pantry. "
         },
         {
-          "segmentId": "uneraseable_s07_b212_alt13_s03",
+          "segmentId": "uneraseable_s07_b212_alt13_s04",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1037,
-          "text": "\"We have flour, water, and rum! That is it! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never had one in his life, we need provisions!\""
+          "text": "\"We have flour, water, and rum! That is all! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never tasted one in his entire life, we require proper provisions!\""
         }
       ]
     },
@@ -12400,31 +12448,23 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "mike",
-      "text": "\"All right, all right, I got it!\" Mike said, hastily jotting notes on a brown paper bag. \"I'll see what I can do. I'll work on gathering some supplies.\"",
+      "text": "Mike grabbed a grease pencil, hastily scribbling across a brown paper flour sack. \"All right, all right, I got it, bro! Scrambled eggs, butter, yeast\u2014we can do this!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt14_s01",
-          "type": "dialogue",
-          "speakerId": "mike",
-          "speakerName": "Mike",
-          "sourceLine": 1045,
-          "text": "\"All right, all right, I got it!\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b212_alt14_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Mike said, hastily jotting notes on a brown paper bag. "
+          "text": "Mike grabbed a grease pencil, hastily scribbling across a brown paper flour sack. "
         },
         {
-          "segmentId": "uneraseable_s07_b212_alt14_s03",
+          "segmentId": "uneraseable_s07_b212_alt14_s02",
           "type": "dialogue",
           "speakerId": "mike",
           "speakerName": "Mike",
           "sourceLine": 1045,
-          "text": "\"I'll see what I can do. I'll work on gathering some supplies.\""
+          "text": "\"All right, all right, I got it, bro! Scrambled eggs, butter, yeast\u2014we can do this!\""
         }
       ]
     },
@@ -12433,31 +12473,23 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "\"Maybe it was a slight overreaction,\" Pierre admitted, though he did not sound entirely remorseful. \"Yesterday the javelin was ineffective; today it strikes with the force of a titan.\"",
+      "text": "Pierre stopped pacing, eyeing the crimson stain spreading across Eusacles' shirt with a faint twinge of awkward guilt. \"Perhaps... perhaps it was a slight overreaction. Yesterday the weapon was completely useless, and today it strikes with the force of an Olympian titan. That is hardly my fault.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt15_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1047,
-          "text": "\"Maybe it was a slight overreaction,\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b212_alt15_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre admitted, though he did not sound entirely remorseful. "
+          "text": "Pierre stopped pacing, eyeing the crimson stain spreading across Eusacles' shirt with a faint twinge of awkward guilt. "
         },
         {
-          "segmentId": "uneraseable_s07_b212_alt15_s03",
+          "segmentId": "uneraseable_s07_b212_alt15_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1047,
-          "text": "\"Yesterday the javelin was ineffective; today it strikes with the force of a titan.\""
+          "text": "\"Perhaps... perhaps it was a slight overreaction. Yesterday the weapon was completely useless, and today it strikes with the force of an Olympian titan. That is hardly my fault.\""
         }
       ]
     },
@@ -12466,7 +12498,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "eusacles",
-      "text": "\"I didn't touch anyone else's pancakes!\" Eusacles barked, shoving the javelin away and pressing a hand to the bleeding wound. \"Bro, I am not trying to see my dad again already! Holy shit!\"",
+      "text": "\"I didn't even touch your plate!\" Eusacles barked, wrenching the bronze point free and pressing both calloused palms over the puncture. \"Bro, I am not trying to see my dad again already! Holy shit!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt16_s01",
@@ -12474,7 +12506,7 @@
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
           "sourceLine": 1053,
-          "text": "\"I didn't touch anyone else's pancakes!\""
+          "text": "\"I didn't even touch your plate!\""
         },
         {
           "segmentId": "uneraseable_s07_b212_alt16_s02",
@@ -12482,7 +12514,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Eusacles barked, shoving the javelin away and pressing a hand to the bleeding wound. "
+          "text": " Eusacles barked, wrenching the bronze point free and pressing both calloused palms over the puncture. "
         },
         {
           "segmentId": "uneraseable_s07_b212_alt16_s03",
@@ -12499,7 +12531,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "narrator",
-      "text": "Alfie watched from the tabletop, shaking his wooden head as Eusacles muttered an incantation. A pale white radiance blossomed beneath Eusacles' palms as he channeled *Cure Wounds*, sealing the torn flesh.",
+      "text": "A pale golden warmth flared beneath Eusacles' fingers as he channeled *Cure Wounds* to knit the torn muscle back together.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt17_s01",
@@ -12507,7 +12539,7 @@
           "speakerId": "alfie",
           "speakerName": "Alfie",
           "sourceLine": 1059,
-          "text": "Alfie watched from the tabletop, shaking his wooden head as Eusacles muttered an incantation. A pale white radiance blossomed beneath Eusacles' palms as he channeled *Cure Wounds*, sealing the torn flesh."
+          "text": "A pale golden warmth flared beneath Eusacles' fingers as he channeled *Cure Wounds* to knit the torn muscle back together."
         }
       ]
     },
@@ -12516,7 +12548,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Pierre huffed, snatching a medical needle and suture thread from his rucksack. \"You cannot just use magic for everything! What are you doing?\" Pierre knelt beside the bench, aggressively driving the curved needle into the closing wound, pulling the skin tight with tight surgical knots.",
+      "text": "Pierre immediately knelt beside him on the bench, hauling a curved suture needle and silk thread from his rucksack. \"You cannot simply use magic for everything! What are you doing? Hold still!\" Pierre snapped, aggressively driving the needle through the closing skin to cinch it shut with tight medical knots.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt18_s01",
@@ -12524,7 +12556,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre huffed, snatching a medical needle and suture thread from his rucksack. "
+          "text": "Pierre immediately knelt beside him on the bench, hauling a curved suture needle and silk thread from his rucksack. "
         },
         {
           "segmentId": "uneraseable_s07_b212_alt18_s02",
@@ -12532,7 +12564,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1069,
-          "text": "\"You cannot just use magic for everything! What are you doing?\""
+          "text": "\"You cannot simply use magic for everything! What are you doing? Hold still!\""
         },
         {
           "segmentId": "uneraseable_s07_b212_alt18_s03",
@@ -12540,7 +12572,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre knelt beside the bench, aggressively driving the curved needle into the closing wound, pulling the skin tight with tight surgical knots."
+          "text": " Pierre snapped, aggressively driving the needle through the closing skin to cinch it shut with tight medical knots."
         }
       ]
     },
@@ -12549,7 +12581,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "eusacles",
-      "text": "Eusacles winced, gritting his teeth behind his sunglasses. \"Are you digging deep on purpose?\"",
+      "text": "Eusacles winced, gritting his teeth behind his sunglasses. \"Are you digging deep on purpose?!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt19_s01",
@@ -12565,7 +12597,7 @@
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
           "sourceLine": 1071,
-          "text": "\"Are you digging deep on purpose?\""
+          "text": "\"Are you digging deep on purpose?!\""
         }
       ]
     },
@@ -12574,7 +12606,7 @@
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
       "speakerId": "naomi",
-      "text": "\"Are you guys done?\" Naomi demanded, stepping up to the end of the table and tapping her foot against the pine boards. \"I have been up for four hours and I am itching to drop this on you. You already know part of it.\"",
+      "text": "\"Are you guys done?\" Naomi cut in, stepping up to the end of the table with folded arms, tapping her boot against the pine boards. \"I have been up for four hours waiting to drop this on you. You already know part of it.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt20_s01",
@@ -12590,7 +12622,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Naomi demanded, stepping up to the end of the table and tapping her foot against the pine boards. "
+          "text": " Naomi cut in, stepping up to the end of the table with folded arms, tapping her boot against the pine boards. "
         },
         {
           "segmentId": "uneraseable_s07_b212_alt20_s03",
@@ -12598,7 +12630,7 @@
           "speakerId": "naomi",
           "speakerName": "Naomi",
           "sourceLine": 1074,
-          "text": "\"I have been up for four hours and I am itching to drop this on you. You already know part of it.\""
+          "text": "\"I have been up for four hours waiting to drop this on you. You already know part of it.\""
         }
       ]
     },
@@ -12606,16 +12638,32 @@
       "id": "uneraseable_s07_b212_alt21",
       "scene": "CHAPTER 48: THE DIVINE FLAVOR DUEL & THE VISITOR IN THE RAIN",
       "cut": "cinematic",
-      "speakerId": "narrator",
-      "text": "Pierre tied off the knot with a sharp tug, stood up, and wiped his hands on a clean napkin. He pulled a jug of orange juice and a bottle of rum from the credenza, filling four tumblers with generous splashes.",
+      "speakerId": "pierre",
+      "text": "Pierre tied off the final stitch with a decisive flick of his shears, rose smoothly, and wiped his hands on a clean napkin. He grabbed a jug of orange juice and a bottle of rum from the credenza, splashing a generous pour straight across Eusacles' freshly stitched flank as sterilization. \"There. Now I have a clean glass.\" Pierre filled four tumblers to the brim, sliding one to Alfie and setting another before the wounded demigod.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b212_alt21_s01",
-          "type": "action",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre tied off the final stitch with a decisive flick of his shears, rose smoothly, and wiped his hands on a clean napkin. He grabbed a jug of orange juice and a bottle of rum from the credenza, splashing a generous pour straight across Eusacles' freshly stitched flank as sterilization. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b212_alt21_s02",
+          "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1078,
-          "text": "Pierre tied off the knot with a sharp tug, stood up, and wiped his hands on a clean napkin. He pulled a jug of orange juice and a bottle of rum from the credenza, filling four tumblers with generous splashes."
+          "text": "\"There. Now I have a clean glass.\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b212_alt21_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre filled four tumblers to the brim, sliding one to Alfie and setting another before the wounded demigod."
         }
       ]
     },
@@ -14541,7 +14589,7 @@
       "index": 276,
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "speakerId": "pierre",
-      "text": "Pierre huffed, smoothing his coat. \"I would like to do some spear practice before we leave.\"",
+      "text": "Pierre drew himself up to his full, aristocratic height, his dark eyes flashing with wounded Parisian pride. \"I am exceedingly intimidating!\" Pierre declared, snatching his bronze javelin from against the bench. \"My presence commands absolute terror! If you require proof, I will demonstrate with some spear practice before we depart!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b276_s01",
@@ -14549,7 +14597,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre huffed, smoothing his coat. "
+          "text": "Pierre drew himself up to his full, aristocratic height, his dark eyes flashing with wounded Parisian pride. "
         },
         {
           "segmentId": "uneraseable_s07_b276_s02",
@@ -14557,7 +14605,23 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1259,
-          "text": "\"I would like to do some spear practice before we leave.\""
+          "text": "\"I am exceedingly intimidating!\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b276_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre declared, snatching his bronze javelin from against the bench. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b276_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1259,
+          "text": "\"My presence commands absolute terror! If you require proof, I will demonstrate with some spear practice before we depart!\""
         }
       ],
       "cut": "tabletop"
@@ -14585,7 +14649,7 @@
       "index": 278,
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "speakerId": "narrator",
-      "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, unconscious reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass.",
+      "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, divine reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b278_s01",
@@ -14593,7 +14657,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, unconscious reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass."
+          "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, divine reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass."
         }
       ],
       "cut": "tabletop"
@@ -14603,7 +14667,7 @@
       "index": 279,
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "speakerId": "pierre",
-      "text": "Pierre stumbled back, staring in awe at the unblemished watch. \"See, that is what I need! You have to teach me! Training montage!\"",
+      "text": "Pierre stumbled back, blinking at his weapon in absolute awe. \"See, that is precisely what I require! You did not even flinch, while I would have been skewered! You must instruct me in these defenses!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b279_s01",
@@ -14611,7 +14675,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre stumbled back, staring in awe at the unblemished watch. "
+          "text": "Pierre stumbled back, blinking at his weapon in absolute awe. "
         },
         {
           "segmentId": "uneraseable_s07_b279_s02",
@@ -14619,7 +14683,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1274,
-          "text": "\"See, that is what I need! You have to teach me! Training montage!\""
+          "text": "\"See, that is precisely what I require! You did not even flinch, while I would have been skewered! You must instruct me in these defenses!\""
         }
       ],
       "cut": "tabletop"
@@ -14629,23 +14693,39 @@
       "index": 280,
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "speakerId": "alfie",
-      "text": "\"The training montage,\" Alfie cheered, hopping down onto the gravel path outside.",
+      "text": "Alfie hopped down onto the gravel path outside, drawing his sewing-needle rapier with a sharp, authoritative flourish. \"Down on the grass, mate!\" Alfie commanded, pointing the needle toward the lawn. \"If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b280_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 1278,
-          "text": "\"The training montage,\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b280_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie cheered, hopping down onto the gravel path outside."
+          "text": "Alfie hopped down onto the gravel path outside, drawing his sewing-needle rapier with a sharp, authoritative flourish. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b280_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1278,
+          "text": "\"Down on the grass, mate!\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b280_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie commanded, pointing the needle toward the lawn. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b280_s04",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1278,
+          "text": "\"If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!\""
         }
       ],
       "cut": "tabletop"
@@ -15147,7 +15227,7 @@
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Pierre huffed, smoothing his coat. \"I would like to do some spear practice before we leave.\"",
+      "text": "Pierre drew himself up to his full, aristocratic height, his dark eyes flashing with wounded Parisian pride. \"I am exceedingly intimidating!\" Pierre declared, snatching his bronze javelin from against the bench. \"My presence commands absolute terror! If you require proof, I will demonstrate with some spear practice before we depart!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b260_alt17_s01",
@@ -15155,7 +15235,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre huffed, smoothing his coat. "
+          "text": "Pierre drew himself up to his full, aristocratic height, his dark eyes flashing with wounded Parisian pride. "
         },
         {
           "segmentId": "uneraseable_s07_b260_alt17_s02",
@@ -15163,7 +15243,23 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1259,
-          "text": "\"I would like to do some spear practice before we leave.\""
+          "text": "\"I am exceedingly intimidating!\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b260_alt17_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre declared, snatching his bronze javelin from against the bench. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b260_alt17_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1259,
+          "text": "\"My presence commands absolute terror! If you require proof, I will demonstrate with some spear practice before we depart!\""
         }
       ]
     },
@@ -15189,7 +15285,7 @@
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "cut": "cinematic",
       "speakerId": "narrator",
-      "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, unconscious reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass.",
+      "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, divine reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass.",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b260_alt19_s01",
@@ -15197,7 +15293,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, unconscious reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass."
+          "text": "Before the blade could touch denim, Eusacles' left arm snapped up on pure, divine reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass."
         }
       ]
     },
@@ -15206,7 +15302,7 @@
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "cut": "cinematic",
       "speakerId": "pierre",
-      "text": "Pierre stumbled back, staring in awe at the unblemished watch. \"See, that is what I need! You have to teach me! Training montage!\"",
+      "text": "Pierre stumbled back, blinking at his weapon in absolute awe. \"See, that is precisely what I require! You did not even flinch, while I would have been skewered! You must instruct me in these defenses!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b260_alt20_s01",
@@ -15214,7 +15310,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre stumbled back, staring in awe at the unblemished watch. "
+          "text": "Pierre stumbled back, blinking at his weapon in absolute awe. "
         },
         {
           "segmentId": "uneraseable_s07_b260_alt20_s02",
@@ -15222,7 +15318,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 1274,
-          "text": "\"See, that is what I need! You have to teach me! Training montage!\""
+          "text": "\"See, that is precisely what I require! You did not even flinch, while I would have been skewered! You must instruct me in these defenses!\""
         }
       ]
     },
@@ -15231,23 +15327,39 @@
       "scene": "CHAPTER 50: DRILLS AT DAWN & THE EXPEDITION TO D.C.",
       "cut": "cinematic",
       "speakerId": "alfie",
-      "text": "\"The training montage,\" Alfie cheered, hopping down onto the gravel path outside.",
+      "text": "Alfie hopped down onto the gravel path outside, drawing his sewing-needle rapier with a sharp, authoritative flourish. \"Down on the grass, mate!\" Alfie commanded, pointing the needle toward the lawn. \"If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s07_b260_alt21_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 1278,
-          "text": "\"The training montage,\""
-        },
-        {
-          "segmentId": "uneraseable_s07_b260_alt21_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie cheered, hopping down onto the gravel path outside."
+          "text": "Alfie hopped down onto the gravel path outside, drawing his sewing-needle rapier with a sharp, authoritative flourish. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b260_alt21_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1278,
+          "text": "\"Down on the grass, mate!\""
+        },
+        {
+          "segmentId": "uneraseable_s07_b260_alt21_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie commanded, pointing the needle toward the lawn. "
+        },
+        {
+          "segmentId": "uneraseable_s07_b260_alt21_s04",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1278,
+          "text": "\"If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!\""
         }
       ]
     },

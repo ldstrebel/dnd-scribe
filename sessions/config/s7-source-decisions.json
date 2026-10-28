@@ -225,5 +225,97 @@
       ],
       "reason": "Pierre thrusts a spear at Eusacles to test his new boon, and Eusacles' arm instinctively rises, deflecting the spearhead off the watch face without a scratch. The party enters a one-handed push-up training montage with Alfie on Pierre's back."
     }
+  ],
+  "critiques": [
+    {
+      "id": "rev-s7-strebs-01",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b059_alt27",
+      "block_index": 76,
+      "source_line": 451,
+      "speaker": "Pierre",
+      "speaker_id": "pierre",
+      "quote": "\"There is a patronus, a little white bunny running around it, though,\" he called out as he threw himself through the seam. \"And I do not exactly know where that came from!\"",
+      "comment": "Great scene but the wiring is a little hard to follow this idea that Pierre instinctually cast up joking Harry Potter spell that almost kind of worked but didn't at all do anything",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-02-alt.md` and `s7-scene-02.md` (L0440-L0451). Grounded Pierre's panic manifestation of a glowing white rabbit in his dormant threshold heritage, replacing out-of-character fourth-wall pop-culture references ('Expecto patronum', 'dementor', 'patronus') with an instinctive warding charm that distracts the six-fingered stalker while Pierre retreats."
+    },
+    {
+      "id": "rev-s7-strebs-02",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b110_alt19",
+      "block_index": 119,
+      "source_line": 644,
+      "speaker": "Theodore (Teddy)",
+      "speaker_id": "teddy",
+      "quote": "Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. \"Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross.\"",
+      "comment": "Wrong person",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-04-alt.md` and `s7-scene-04.md` (L0644). Corrected dialogue voice from modern GM slang ('Gross', 'synapse') to authentic 1846 woodsman perspective for Teddy ('No woodsman would have called it hair. I would call this some sort of creeping root—or a living nerve plucked straight from a brain... Unnatural.')."
+    },
+    {
+      "id": "rev-s7-strebs-03",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b142_alt16",
+      "block_index": 147,
+      "source_line": 784,
+      "speaker": "Mike",
+      "speaker_id": "mike",
+      "quote": "\"Well, we put the rum in the pancakes, and then we also put the rum in the jam,\" Mike answered cheerfully, leaning against the doorframe.",
+      "comment": "And of course we also put rum in the rum",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-05-alt.md` and `s7-scene-05.md` (L0784). Incorporated the punchline into Mike's cheerful dialogue ('Well, we put the rum in the pancakes, and then we also put the rum in the jam. And then, of course, we put the rum in the rum.'), completing the comedic rule of three."
+    },
+    {
+      "id": "rev-s7-strebs-04",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b212_alt22",
+      "block_index": 222,
+      "source_line": 1079,
+      "speaker": "Eusacles",
+      "speaker_id": "eusacles",
+      "quote": "\"Pierre, make it a double for me,\" Eusacles groaned, leaning his head back against the timber wall. \"I've had a hell of a night, and you did just stab me.\"",
+      "comment": "The bones of the scene are fantastic, but the transitions and overall flow is pretty choppy",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-07-alt.md` and `s7-scene-07.md` (L1015-L1079). Smoothed pacing, causality, and transitions across the pancake duel: Pierre's outraged chef reaction, the spear thrust to Eusacles' flank, Mike's panicked cooking notes, Eusacles' terrified prayer to Thanatos, Eusacles channeling Cure Wounds while Pierre indignantly cinches sutures, Naomi tapping her boot waiting to brief them, and Pierre using rum as antiseptic before pouring Eusacles a double."
+    },
+    {
+      "id": "rev-s7-strebs-05",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b260_alt17",
+      "block_index": 263,
+      "source_line": 1259,
+      "speaker": "Pierre",
+      "speaker_id": "pierre",
+      "quote": "Pierre huffed, smoothing his coat. \"I would like to do some spear practice before we leave.\"",
+      "comment": "This is correct but doesn't correspond well to the actual transition which is I'm very intimidating or something to respond to what musically said so that the training montage can begin",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-09-alt.md` and `s7-scene-09.md` (L1259). Staged the transition naturally: Pierre takes wounded pride in being 'exceedingly intimidating' to refute Eusacles' teasing, seizing his spear to demonstrate his intimidation before departure, which directly triggers the instinctive watch deflection."
+    },
+    {
+      "id": "rev-s7-strebs-06",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b260_alt21",
+      "block_index": 267,
+      "source_line": 1278,
+      "speaker": "Alfie",
+      "speaker_id": "alfie",
+      "quote": "\"The training montage,\" Alfie cheered, hopping down onto the gravel path outside.",
+      "comment": "The training montage is weird to say",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-09-alt.md` and `s7-scene-09.md` (L1278). Purged the meta table shout ('The training montage') from Alfie's dialogue. Replaced with in-character drill sergeant banter ('Down on the grass, mate! If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!'), allowing the physical push-up sequence to land organically."
+    }
   ]
 }

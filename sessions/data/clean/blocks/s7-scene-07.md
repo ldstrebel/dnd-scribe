@@ -18,31 +18,31 @@ Mike emerged from the kitchen carrying a smoking iron skillet, setting down thre
 
 Eusacles picked up his fork, poked at the steaming stack, and sighed deeply. "I am getting real tired of these pancakes. They're really good, but they need something else." He raised a calloused hand over the plate, muttering a Vegas tavern cantrip. "I cast Divine Flavor on these pancakes." <!-- L1015 -->
 
-Pierre's eyes widened in profound culinary horror. His jaw dropped. "Do not touch my pancakes!" <!-- L1023 -->
+Pierre's eyes widened in profound culinary horror, his fork clattering against the tin plate. "Do not touch my pancakes!" <!-- L1023 -->
 
-Before Eusacles could bring the fork to his mouth, Pierre seized his newly mended bronze javelin from beneath the bench. With a furious shout, Pierre thrust the spear forward like a dueling rapier, ramming the bronze point directly into Eusacles' left flank. The sharp tip punched clean through denim and flannel, biting into the flesh beneath the ribs. "How does that taste to you, huh? I can direct-deliver it to your intestines!" <!-- L1025 -->
+Before Eusacles could bring the fork to his lips, Pierre snatched his newly mended bronze javelin from beneath the bench. Overcome with theatrical outrage, he lunged across the corner of the table, driving the bronze point directly into Eusacles' left flank. The freshly forged metal punched clean through denim and flannel, biting into the flesh beneath the ribs. "How does that taste to you, huh? I can direct-deliver it to your intestines!" <!-- L1025 -->
 
-Eusacles gasped, clutching his side as crimson seeped into his shirt. "What the fuck! I didn't think you'd take it that seriously!" <!-- L1028 -->
+Eusacles gasped, clutching his side as crimson seeped around the spearhead. "What the fuck! I didn't think you'd take it that seriously!" <!-- L1028 -->
 
-"Whoa! What's going on here?" Mike yelled, waving his spatula in alarm from the counter. "Take it outside!" <!-- L1029 -->
+From behind the counter, Mike waved his wooden spatula in frantic circles. "Whoa, whoa, whoa! What are you guys doing? Take it outside!" <!-- L1029 -->
 
-"I have no ingredients to work with!" Pierre ranted, pacing the floorboards with flailing arms. "We have flour, water, and rum! That is it! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never had one in his life, we need provisions!" <!-- L1037 -->
+Pierre released the haft, pacing the floorboards with flailing arms. "I have no ingredients to work with!" Pierre cried, gesturing wildly toward the barren pantry. "We have flour, water, and rum! That is all! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never tasted one in his entire life, we require proper provisions!" <!-- L1037 -->
 
-"All right, all right, I got it!" Mike said, hastily jotting notes on a brown paper bag. "I'll see what I can do. I'll work on gathering some supplies." <!-- L1045 -->
+Mike grabbed a grease pencil, hastily scribbling across a brown paper flour sack. "All right, all right, I got it, bro! Scrambled eggs, butter, yeast—we can do this!" <!-- L1045 -->
 
-"Maybe it was a slight overreaction," Pierre admitted, though he did not sound entirely remorseful. "Yesterday the javelin was ineffective; today it strikes with the force of a titan." <!-- L1047 -->
+Pierre stopped pacing, eyeing the crimson stain spreading across Eusacles' shirt with a faint twinge of awkward guilt. "Perhaps... perhaps it was a slight overreaction. Yesterday the weapon was completely useless, and today it strikes with the force of an Olympian titan. That is hardly my fault." <!-- L1047 -->
 
-"I didn't touch anyone else's pancakes!" Eusacles barked, shoving the javelin away and pressing a hand to the bleeding wound. "Bro, I am not trying to see my dad again already! Holy shit!" <!-- L1053 -->
+"I didn't even touch your plate!" Eusacles barked, wrenching the bronze point free and pressing both calloused palms over the puncture. "Bro, I am not trying to see my dad again already! Holy shit!" <!-- L1053 -->
 
-Alfie watched from the tabletop, shaking his wooden head as Eusacles muttered an incantation. A pale white radiance blossomed beneath Eusacles' palms as he channeled *Cure Wounds*, sealing the torn flesh. <!-- L1059 -->
+A pale golden warmth flared beneath Eusacles' fingers as he channeled *Cure Wounds* to knit the torn muscle back together. <!-- L1059 -->
 
-Pierre huffed, snatching a medical needle and suture thread from his rucksack. "You cannot just use magic for everything! What are you doing?" Pierre knelt beside the bench, aggressively driving the curved needle into the closing wound, pulling the skin tight with tight surgical knots. <!-- L1069 -->
+Pierre immediately knelt beside him on the bench, hauling a curved suture needle and silk thread from his rucksack. "You cannot simply use magic for everything! What are you doing? Hold still!" Pierre snapped, aggressively driving the needle through the closing skin to cinch it shut with tight medical knots. <!-- L1069 -->
 
-Eusacles winced, gritting his teeth behind his sunglasses. "Are you digging deep on purpose?" <!-- L1071 -->
+Eusacles winced, gritting his teeth behind his sunglasses. "Are you digging deep on purpose?!" <!-- L1071 -->
 
-"Are you guys done?" Naomi demanded, stepping up to the end of the table and tapping her foot against the pine boards. "I have been up for four hours and I am itching to drop this on you. You already know part of it." <!-- L1074 -->
+"Are you guys done?" Naomi cut in, stepping up to the end of the table with folded arms, tapping her boot against the pine boards. "I have been up for four hours waiting to drop this on you. You already know part of it." <!-- L1074 -->
 
-Pierre tied off the knot with a sharp tug, stood up, and wiped his hands on a clean napkin. He pulled a jug of orange juice and a bottle of rum from the credenza, filling four tumblers with generous splashes. <!-- L1078 -->
+Pierre tied off the final stitch with a decisive flick of his shears, rose smoothly, and wiped his hands on a clean napkin. He grabbed a jug of orange juice and a bottle of rum from the credenza, splashing a generous pour straight across Eusacles' freshly stitched flank as sterilization. "There. Now I have a clean glass." Pierre filled four tumblers to the brim, sliding one to Alfie and setting another before the wounded demigod. <!-- L1078 -->
 
 "Pierre, make it a double for me," Eusacles groaned, leaning his head back against the timber wall. "I've had a hell of a night, and you did just stab me." <!-- L1079 -->
 

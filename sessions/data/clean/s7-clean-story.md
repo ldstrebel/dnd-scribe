@@ -170,17 +170,17 @@ Pierre lingered at the threshold, looking back through the damp weeping willows 
 
 Across the lawn, fifty paces away, the six-fingered shape had reached the janitor cart. It drifted above the blood-soaked rim, its blank oval head tilting as its many submerged faces swirled. Slowly, deliberately, the creature turned toward the tree line, its hollow visage locking onto Pierre.
 
-Pierre's breath hitched in his throat. Moving on pure instinct, he raised his slender hand and snapped his fingers, weaving a desperate thread of illumination into the mist. "Expecto patronum!" he whispered under his breath. <!-- L0440 -->
+Pierre's breath hitched in his throat. In sheer panic, his fingers twitched as he reached for the dormant wellspring of his threshold heritage, seeking anything to ward off the encroaching nightmare. He murmured an old warding charm under his breath, snapping his fingers in desperate rhythm. <!-- L0440 -->
 
-A sudden burst of radiant white light coalesced at his feet. A tiny, luminous rabbit—sculpted of dazzling silver luminescence—bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.
+A sudden burst of radiant white light coalesced at his boots. A tiny, luminous hare—sculpted of dazzling silver luminescence—bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.
 
-Pierre stared in disbelief, his jaw hanging open. "Oh my god. That is a royal bunny." <!-- L0442 -->
+Pierre stared in disbelief, his jaw hanging open. "Mon dieu," he whispered, watching the glowing apparition dash across the grass. "That is an actual rabbit." <!-- L0442 -->
 
 The six-fingered creature paused, its shifting faces momentarily transfixed by the brilliant white hare darting around its vaporous skirts.
 
-"I see this creature... it is like a dementor with more faces," Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. "I do not like it either!" <!-- L0448 -->
+"I see this creature... it is like a nightmare with far too many faces," Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. "I do not like it at all!" <!-- L0448 -->
 
-"There is a patronus, a little white bunny running around it, though," he called out as he threw himself through the seam. "And I do not exactly know where that came from!" <!-- L0451 -->
+"There is a little white bunny running around it, though," he called out over his shoulder as he threw himself through the seam. "And I do not exactly know where that came from!" <!-- L0451 -->
 
 The temporal mist closed over him with a muffled snap, cutting off the quad, the strobing sirens, and the dreadful six-fingered watcher.
 
@@ -278,7 +278,7 @@ The screen door creaked again, and Teddy emerged into the morning light, leaning
 
 Alfie reached into his pocket and handed over the coiled, rubbery length of dark matter severed in the quad. "We sliced off a hair." <!-- L0638 -->
 
-Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. "Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross." <!-- L0644 -->
+Teddy took the cold specimen with a furrowed brow, turning the dark, fibrous cord under the morning sunlight. "Hair? No woodsman would have called it hair. I would call this some sort of creeping root—or a living nerve plucked straight from a brain." He wrinkled his nose with quiet distaste. "Unnatural." <!-- L0644 -->
 
 From the open kitchen window above the porch, Pierre stuck his head out, clutching a mixing bowl. "Teddy, I am curious... in American television, when a police officer terminates someone in the line of duty, they have mandatory psychological counseling. We don't happen to have anything like that here, do we?" <!-- L0646 -->
 
@@ -342,7 +342,7 @@ Alfie hopped down from the table. The moment his tiny boots struck the cedar dec
 
 Pierre blinked, watching the miniature sailor swagger across the porch. "Mike, did you put more than just rum in the pancakes?" <!-- L0783 -->
 
-"Well, we put the rum in the pancakes, and then we also put the rum in the jam," Mike answered cheerfully, leaning against the doorframe. <!-- L0784 -->
+"Well, we put the rum in the pancakes, and then we also put the rum in the jam," Mike answered cheerfully, leaning against the doorframe. "And then, of course, we put the rum in the rum." <!-- L0784 -->
 
 Alfie turned around, clinging to the porch railing with one hand and holding up his silver thimble with the other. "You just... you're too funny, mate! You talk crazy. You got any more of that rum?" <!-- L0789 -->
 
@@ -480,31 +480,31 @@ Mike emerged from the kitchen carrying a smoking iron skillet, setting down thre
 
 Eusacles picked up his fork, poked at the steaming stack, and sighed deeply. "I am getting real tired of these pancakes. They're really good, but they need something else." He raised a calloused hand over the plate, muttering a Vegas tavern cantrip. "I cast Divine Flavor on these pancakes." <!-- L1015 -->
 
-Pierre's eyes widened in profound culinary horror. His jaw dropped. "Do not touch my pancakes!" <!-- L1023 -->
+Pierre's eyes widened in profound culinary horror, his fork clattering against the tin plate. "Do not touch my pancakes!" <!-- L1023 -->
 
-Before Eusacles could bring the fork to his mouth, Pierre seized his newly mended bronze javelin from beneath the bench. With a furious shout, Pierre thrust the spear forward like a dueling rapier, ramming the bronze point directly into Eusacles' left flank. The sharp tip punched clean through denim and flannel, biting into the flesh beneath the ribs. "How does that taste to you, huh? I can direct-deliver it to your intestines!" <!-- L1025 -->
+Before Eusacles could bring the fork to his lips, Pierre snatched his newly mended bronze javelin from beneath the bench. Overcome with theatrical outrage, he lunged across the corner of the table, driving the bronze point directly into Eusacles' left flank. The freshly forged metal punched clean through denim and flannel, biting into the flesh beneath the ribs. "How does that taste to you, huh? I can direct-deliver it to your intestines!" <!-- L1025 -->
 
-Eusacles gasped, clutching his side as crimson seeped into his shirt. "What the fuck! I didn't think you'd take it that seriously!" <!-- L1028 -->
+Eusacles gasped, clutching his side as crimson seeped around the spearhead. "What the fuck! I didn't think you'd take it that seriously!" <!-- L1028 -->
 
-"Whoa! What's going on here?" Mike yelled, waving his spatula in alarm from the counter. "Take it outside!" <!-- L1029 -->
+From behind the counter, Mike waved his wooden spatula in frantic circles. "Whoa, whoa, whoa! What are you guys doing? Take it outside!" <!-- L1029 -->
 
-"I have no ingredients to work with!" Pierre ranted, pacing the floorboards with flailing arms. "We have flour, water, and rum! That is it! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never had one in his life, we need provisions!" <!-- L1037 -->
+Pierre released the haft, pacing the floorboards with flailing arms. "I have no ingredients to work with!" Pierre cried, gesturing wildly toward the barren pantry. "We have flour, water, and rum! That is all! Where are the eggs? Where is the unsalted butter? If I am to bake proper croissants for Alfie, who has never tasted one in his entire life, we require proper provisions!" <!-- L1037 -->
 
-"All right, all right, I got it!" Mike said, hastily jotting notes on a brown paper bag. "I'll see what I can do. I'll work on gathering some supplies." <!-- L1045 -->
+Mike grabbed a grease pencil, hastily scribbling across a brown paper flour sack. "All right, all right, I got it, bro! Scrambled eggs, butter, yeast—we can do this!" <!-- L1045 -->
 
-"Maybe it was a slight overreaction," Pierre admitted, though he did not sound entirely remorseful. "Yesterday the javelin was ineffective; today it strikes with the force of a titan." <!-- L1047 -->
+Pierre stopped pacing, eyeing the crimson stain spreading across Eusacles' shirt with a faint twinge of awkward guilt. "Perhaps... perhaps it was a slight overreaction. Yesterday the weapon was completely useless, and today it strikes with the force of an Olympian titan. That is hardly my fault." <!-- L1047 -->
 
-"I didn't touch anyone else's pancakes!" Eusacles barked, shoving the javelin away and pressing a hand to the bleeding wound. "Bro, I am not trying to see my dad again already! Holy shit!" <!-- L1053 -->
+"I didn't even touch your plate!" Eusacles barked, wrenching the bronze point free and pressing both calloused palms over the puncture. "Bro, I am not trying to see my dad again already! Holy shit!" <!-- L1053 -->
 
-Alfie watched from the tabletop, shaking his wooden head as Eusacles muttered an incantation. A pale white radiance blossomed beneath Eusacles' palms as he channeled *Cure Wounds*, sealing the torn flesh. <!-- L1059 -->
+A pale golden warmth flared beneath Eusacles' fingers as he channeled *Cure Wounds* to knit the torn muscle back together. <!-- L1059 -->
 
-Pierre huffed, snatching a medical needle and suture thread from his rucksack. "You cannot just use magic for everything! What are you doing?" Pierre knelt beside the bench, aggressively driving the curved needle into the closing wound, pulling the skin tight with tight surgical knots. <!-- L1069 -->
+Pierre immediately knelt beside him on the bench, hauling a curved suture needle and silk thread from his rucksack. "You cannot simply use magic for everything! What are you doing? Hold still!" Pierre snapped, aggressively driving the needle through the closing skin to cinch it shut with tight medical knots. <!-- L1069 -->
 
-Eusacles winced, gritting his teeth behind his sunglasses. "Are you digging deep on purpose?" <!-- L1071 -->
+Eusacles winced, gritting his teeth behind his sunglasses. "Are you digging deep on purpose?!" <!-- L1071 -->
 
-"Are you guys done?" Naomi demanded, stepping up to the end of the table and tapping her foot against the pine boards. "I have been up for four hours and I am itching to drop this on you. You already know part of it." <!-- L1074 -->
+"Are you guys done?" Naomi cut in, stepping up to the end of the table with folded arms, tapping her boot against the pine boards. "I have been up for four hours waiting to drop this on you. You already know part of it." <!-- L1074 -->
 
-Pierre tied off the knot with a sharp tug, stood up, and wiped his hands on a clean napkin. He pulled a jug of orange juice and a bottle of rum from the credenza, filling four tumblers with generous splashes. <!-- L1078 -->
+Pierre tied off the final stitch with a decisive flick of his shears, rose smoothly, and wiped his hands on a clean napkin. He grabbed a jug of orange juice and a bottle of rum from the credenza, splashing a generous pour straight across Eusacles' freshly stitched flank as sterilization. "There. Now I have a clean glass." Pierre filled four tumblers to the brim, sliding one to Alfie and setting another before the wounded demigod. <!-- L1078 -->
 
 "Pierre, make it a double for me," Eusacles groaned, leaning his head back against the timber wall. "I've had a hell of a night, and you did just stab me." <!-- L1079 -->
 
@@ -604,15 +604,15 @@ Pierre's jaw dropped, then snapped shut in exasperation. "I don't know why you a
 
 Eusacles stared at him, incredulous. "Bro, you have got to work on your intimidation! I thought you were asking honest questions the entire time!" <!-- L1256 -->
 
-Pierre huffed, smoothing his coat. "I would like to do some spear practice before we leave." <!-- L1259 -->
+Pierre drew himself up to his full, aristocratic height, his dark eyes flashing with wounded Parisian pride. "I am exceedingly intimidating!" Pierre declared, snatching his bronze javelin from against the bench. "My presence commands absolute terror! If you require proof, I will demonstrate with some spear practice before we depart!" <!-- L1259 -->
 
 Without warning, Pierre lunged forward, thrusting the bronze javelin straight at Eusacles' chest. <!-- L1261 -->
 
-Before the blade could touch denim, Eusacles' left arm snapped up on pure, unconscious reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass. <!-- L1269 -->
+Before the blade could touch denim, Eusacles' left arm snapped up on pure, divine reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass. <!-- L1269 -->
 
-Pierre stumbled back, staring in awe at the unblemished watch. "See, that is what I need! You have to teach me! Training montage!" <!-- L1274 -->
+Pierre stumbled back, blinking at his weapon in absolute awe. "See, that is precisely what I require! You did not even flinch, while I would have been skewered! You must instruct me in these defenses!" <!-- L1274 -->
 
-"The training montage," Alfie cheered, hopping down onto the gravel path outside. <!-- L1278 -->
+Alfie hopped down onto the gravel path outside, drawing his sewing-needle rapier with a sharp, authoritative flourish. "Down on the grass, mate!" Alfie commanded, pointing the needle toward the lawn. "If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!" <!-- L1278 -->
 
 Within minutes, the sanctuary courtyard was transformed. Down on the dewy lawn, Alfie perched like a diminutive green-cloaked drill sergeant atop Pierre's shoulder blades as Pierre grunted through shaky push-ups in the grass. Then, switching positions, Pierre rested his weight upon Alfie's shoulders, watching in open-mouthed disbelief as the two-foot driftwood duelist effortlessly pumped out one-handed push-ups against the gravel without breaking a sweat. <!-- L1280 -->
 

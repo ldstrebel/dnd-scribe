@@ -34,15 +34,15 @@ Pierre's jaw dropped, then snapped shut in exasperation. "I don't know why you a
 
 Eusacles stared at him, incredulous. "Bro, you have got to work on your intimidation! I thought you were asking honest questions the entire time!" <!-- L1256 -->
 
-Pierre huffed, smoothing his coat. "I would like to do some spear practice before we leave." <!-- L1259 -->
+Pierre drew himself up to his full, aristocratic height, his dark eyes flashing with wounded Parisian pride. "I am exceedingly intimidating!" Pierre declared, snatching his bronze javelin from against the bench. "My presence commands absolute terror! If you require proof, I will demonstrate with some spear practice before we depart!" <!-- L1259 -->
 
 Without warning, Pierre lunged forward, thrusting the bronze javelin straight at Eusacles' chest. <!-- L1261 -->
 
-Before the blade could touch denim, Eusacles' left arm snapped up on pure, unconscious reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass. <!-- L1269 -->
+Before the blade could touch denim, Eusacles' left arm snapped up on pure, divine reflex. The engraved pocket watch at his wrist caught the bronze spearhead with a sharp, resonant *clink*. The bronze point glanced harmlessly off the crystal face, leaving not a scratch or a dent upon the glass. <!-- L1269 -->
 
-Pierre stumbled back, staring in awe at the unblemished watch. "See, that is what I need! You have to teach me! Training montage!" <!-- L1274 -->
+Pierre stumbled back, blinking at his weapon in absolute awe. "See, that is precisely what I require! You did not even flinch, while I would have been skewered! You must instruct me in these defenses!" <!-- L1274 -->
 
-"The training montage," Alfie cheered, hopping down onto the gravel path outside. <!-- L1278 -->
+Alfie hopped down onto the gravel path outside, drawing his sewing-needle rapier with a sharp, authoritative flourish. "Down on the grass, mate!" Alfie commanded, pointing the needle toward the lawn. "If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!" <!-- L1278 -->
 
 Within minutes, the sanctuary courtyard was transformed. Down on the dewy lawn, Alfie perched like a diminutive green-cloaked drill sergeant atop Pierre's shoulder blades as Pierre grunted through shaky push-ups in the grass. Then, switching positions, Pierre rested his weight upon Alfie's shoulders, watching in open-mouthed disbelief as the two-foot driftwood duelist effortlessly pumped out one-handed push-ups against the gravel without breaking a sweat. <!-- L1280 -->
 

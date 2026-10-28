@@ -32,7 +32,7 @@ Alfie hopped down from the table. The moment his tiny boots struck the cedar dec
 
 Pierre blinked, watching the miniature sailor swagger across the porch. "Mike, did you put more than just rum in the pancakes?" <!-- L0783 -->
 
-"Well, we put the rum in the pancakes, and then we also put the rum in the jam," Mike answered cheerfully, leaning against the doorframe. <!-- L0784 -->
+"Well, we put the rum in the pancakes, and then we also put the rum in the jam," Mike answered cheerfully, leaning against the doorframe. "And then, of course, we put the rum in the rum." <!-- L0784 -->
 
 Alfie turned around, clinging to the porch railing with one hand and holding up his silver thimble with the other. "You just... you're too funny, mate! You talk crazy. You got any more of that rum?" <!-- L0789 -->
 

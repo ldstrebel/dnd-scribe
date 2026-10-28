@@ -44,17 +44,17 @@ Pierre lingered at the threshold, looking back through the damp weeping willows 
 
 Across the lawn, fifty paces away, the six-fingered shape had reached the janitor cart. It drifted above the blood-soaked rim, its blank oval head tilting as its many submerged faces swirled. Slowly, deliberately, the creature turned toward the tree line, its hollow visage locking onto Pierre.
 
-Pierre's breath hitched in his throat. Moving on pure instinct, he raised his slender hand and snapped his fingers, weaving a desperate thread of illumination into the mist. "Expecto patronum!" he whispered under his breath. <!-- L0440:pierre -->
+Pierre's breath hitched in his throat. In sheer panic, his fingers twitched as he reached for the dormant wellspring of his threshold heritage, seeking anything to ward off the encroaching nightmare. He murmured an old warding charm under his breath, snapping his fingers in desperate rhythm. <!-- L0440:pierre -->
 
-A sudden burst of radiant white light coalesced at his feet. A tiny, luminous rabbit—sculpted of dazzling silver luminescence—bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.
+A sudden burst of radiant white light coalesced at his boots. A tiny, luminous hare—sculpted of dazzling silver luminescence—bounded out across the lawn with playful leaps, zigzagging between the weeping willows and circling the towering ink wraith in bright, incandescent loops.
 
-Pierre stared in disbelief, his jaw hanging open. "Oh my god. That is a royal bunny." <!-- L0442:pierre -->
+Pierre stared in disbelief, his jaw hanging open. "Mon dieu," he whispered, watching the glowing apparition dash across the grass. "That is an actual rabbit." <!-- L0442:pierre -->
 
 The six-fingered creature paused, its shifting faces momentarily transfixed by the brilliant white hare darting around its vaporous skirts.
 
-"I see this creature... it is like a dementor with more faces," Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. "I do not like it either!" <!-- L0448:pierre -->
+"I see this creature... it is like a nightmare with far too many faces," Pierre stammered, his pulse hammering against his ribs as he stepped backward into the fog. "I do not like it at all!" <!-- L0448:pierre -->
 
-"There is a patronus, a little white bunny running around it, though," he called out as he threw himself through the seam. "And I do not exactly know where that came from!" <!-- L0451:pierre -->
+"There is a little white bunny running around it, though," he called out over his shoulder as he threw himself through the seam. "And I do not exactly know where that came from!" <!-- L0451:pierre -->
 
 The temporal mist closed over him with a muffled snap, cutting off the quad, the strobing sirens, and the dreadful six-fingered watcher.
 

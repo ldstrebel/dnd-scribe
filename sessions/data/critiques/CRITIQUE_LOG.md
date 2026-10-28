@@ -6,6 +6,28 @@ This log tracks all community, player, and editor critique payloads ingested fro
 
 ## Ingested PR Feedback Records
 
+### 🧾 PR Record #008: `uneraseable-s7-strebs-034561`
+- **Branch:** `critique/uneraseable-s7-strebs-034561`
+- **Session:** `s7` (*The Interrogation, The Redactor & The Dream of Thanatos*)
+- **Reviewer:** `Strebs`
+- **Payload File:** [`sessions/data/critiques/uneraseable-s7-strebs-034561.json`](file:///d:/Code/dnd-scribe/sessions/data/critiques/uneraseable-s7-strebs-034561.json)
+- **Export Timestamp:** `2026-10-28T21:13:54.561Z`
+- **Status:** `[INGESTED, RESOLVED & VERIFIED]`
+- **Verification Gates:** `verify_critiques.py s7 [PASS]`, `verify_alternate_scene.py (1-9) [PASS]`, `critique_prose.py s7 [PASS]`, `verify_parity.py s7 [PASS]`, `verify_manifest.py s7 [PASS]`
+
+#### 📝 Item-by-Item Review & Justification Ledger
+
+| Item ID | Block ID | Speaker | Category | Reviewer Note | Action Taken | Justification & Rationale |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `rev-s7-strebs-01` | `b059_alt27` | Pierre | Spellcraft & Immersion | *"Great scene but the wiring is a little hard to follow this idea that Pierre instinctually cast up joking Harry Potter spell that almost kind of worked but didn't at all do anything"* | **`[APPLIED]`** | Rewrote Scene 2 (`s7-scene-02-alt.md` / `s7-scene-02.md`). Grounded Pierre's white rabbit manifestation in his dormant threshold heritage, excising out-of-character Earth pop-culture leaks (*"Expecto patronum"*, *"dementor"*, *"patronus"*). Pierre murmurs an instinctive warding charm, manifesting a leaping silver hare that distracts the six-fingered stalker. |
+| `rev-s7-strebs-02` | `b110_alt19` | Teddy | Character Voice | *"Wrong person"* | **`[APPLIED]`** | Rewrote Scene 4 (`s7-scene-04-alt.md` / `s7-scene-04.md`). Removed modern GM table slang (*"Gross"*, *"synapse"*). Re-voiced Teddy to an authentic 1846 pioneer woodsman (*"No woodsman would have called it hair. I would call this some sort of creeping root—or a living nerve plucked straight from a brain... Unnatural."*). |
+| `rev-s7-strebs-03` | `b142_alt16` | Mike | Comedic Timing | *"And of course we also put rum in the rum"* | **`[APPLIED]`** | Rewrote Scene 5 (`s7-scene-05-alt.md` / `s7-scene-05.md`). Completed Mike's comedic rule of three: *"Well, we put the rum in the pancakes, and then we also put the rum in the jam. And then, of course, we put the rum in the rum."* |
+| `rev-s7-strebs-04` | `b212_alt22` | Eusacles | Pacing & Transitions | *"The bones of the scene are fantastic, but the transitions and overall flow is pretty choppy"* | **`[APPLIED]`** | Rewrote Scene 7 (`s7-scene-07-alt.md` / `s7-scene-07.md`). Seamlessly paced the culinary escalation: Pierre's outraged chef reaction, the spear thrust to Eusacles' flank, Mike's panicked grocery notes, Eusacles channeling *Cure Wounds* while Pierre aggressively sutures the wound, Naomi's impatient arrival, and Pierre splashing rum over the stitches as sterilization before pouring Eusacles a double. |
+| `rev-s7-strebs-05` | `b260_alt17` | Pierre | Action Staging | *"This is correct but doesn't correspond well to the actual transition which is I'm very intimidating or something to respond to what musically said so that the training montage can begin"* | **`[APPLIED]`** | Rewrote Scene 9 (`s7-scene-09-alt.md` / `s7-scene-09.md`). Tied Pierre's sudden spear thrust directly to his wounded pride regarding being *"exceedingly intimidating"*, establishing a natural causal trigger for Eusacles' instinctive watch deflection. |
+| `rev-s7-strebs-06` | `b260_alt21` | Alfie | Immersion & Fourth Wall | *"The training montage is weird to say"* | **`[APPLIED]`** | Rewrote Scene 9 (`s7-scene-09-alt.md` / `s7-scene-09.md`). Purged the meta table shout (*"The training montage"*) from Alfie's dialogue. Replaced with in-character drill-sergeant banter (*"Down on the grass, mate! Push-ups! Let's get down to business!"*), allowing the physical push-up sequence to land organically. |
+
+---
+
 ### 🧾 PR Record #007: `uneraseable-s5-strebs-106695` (GitHub PR #33)
 - **Branch:** `critique/uneraseable-s5-strebs-106695` (PR #33)
 - **Session:** `s5` (*The Forgotten Trail & The Mad Doctor's Lecture*)

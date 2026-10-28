@@ -38,7 +38,7 @@ The screen door creaked again, and Teddy emerged into the morning light, leaning
 
 Alfie reached into his pocket and handed over the coiled, rubbery length of dark matter severed in the quad. "We sliced off a hair." <!-- L0638 -->
 
-Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. "Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross." <!-- L0644 -->
+Teddy took the cold specimen with a furrowed brow, turning the dark, fibrous cord under the morning sunlight. "Hair? No woodsman would have called it hair. I would call this some sort of creeping root—or a living nerve plucked straight from a brain." He wrinkled his nose with quiet distaste. "Unnatural." <!-- L0644 -->
 
 From the open kitchen window above the porch, Pierre stuck his head out, clutching a mixing bowl. "Teddy, I am curious... in American television, when a police officer terminates someone in the line of duty, they have mandatory psychological counseling. We don't happen to have anything like that here, do we?" <!-- L0646 -->
 
