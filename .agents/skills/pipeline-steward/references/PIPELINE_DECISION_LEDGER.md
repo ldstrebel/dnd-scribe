@@ -563,6 +563,27 @@ Every entry records:
 * **Trade-off Accepted:** Requires active maintenance of structured in-world narrative fields and separate table schemas in `compile_codex.py`; zero raw line shortcuts permitted in player-facing markdown.
 * **Enforcing Gates:** `sessions/_scripts/audit_codex.py` (checks `BANNED_LEAK_PATTERNS` for `Where We Left Off`, `STT`, `Source Decision Ledger`, `Risk Category`, `Line \d+`; enforces Next Objective, open-threads columns, and character sections), `sessions/_scripts/harness/test_harness.py` (`TestCodexAudit`).
 
+### [DEC-041] 2026-10-29: The Grounded Codex Pipeline Architecture (Session Data Contracts, Entity Grounding, & Dual-Element Player Growth Cards)
+* **Context & Friction:** Upstream review of the Session 7 codex entry identified severe factual hallucinations (conflating the murdered Redactor cultist with civilian museum worker Susanna, copy-pasting the "Hermes Express" from S5 into S7 lore, omitting core thread `TH-07`) and shallow, 1-sentence player cards in the editorial review that offered no actionable development advice or table camaraderie. Monolithic hardcoded strings inside `compile_codex.py` caused context amnesia and bypassed canonical session artifacts.
+* **Precedents Honoured:** `DEC-037` (Codex Architecture), `DEC-038` (Audience Boundary Integrity), `DEC-039` (True Wiki Architecture), `DEC-040` (Markdown Standards), `FP-18` (Audience Boundary Leak), `FP-04` (Static Persona Bleed), `FP-21` (Root-Cause Incident Analysis).
+* **Agreed Decisions (2026-10-29):**
+  1. **Distinct Codex Pipeline & Structured Data Contracts (`sessions/config/codex/sN-codex.json`):**
+     - Decoupled codex narrative data from the Python compilation script.
+     - Each session maintains an independent, version-controlled JSON data contract specifying: Overview (≤ 250 words), Act-by-Act narrative summaries with chapter spans, session-specific Dramatis Personae notes, Lore Discoveries, Key Milestones, Campaign Threads (Opened/Advanced/Resolved), and Critic Reviews.
+  2. **Canonical Entity Grounding & Anti-Hallucination Disambiguation:**
+     - Prohibited conflation of distinct NPCs registered in `sN-session-config.json`. Corrected Susanna's identity as the displaced NC Museum of Natural History attendant wandering the Lost Roads, separate from the executed Gorgon-tendriled cultist in the janitor cart.
+     - Out-of-session lore (e.g. Hermes Express in S7) strictly barred; discoveries must originate within the session's clean scene blocks (`sN-scene-XX.md`) or `CAMPAIGN_ARC_LEDGER.md`.
+  3. **Dual-Element Player Growth Cards (The Stormlight Standard + Good-Natured Chirping):**
+     - Editorial reviews in `campaign/codex/critic/sN-review.md` must provide two dedicated components per active player:
+       - **Actionable Growth & Trajectory:** Deep-dive analysis of behavioral evolution, moral choices, and where to push their character next (≥ 40 words).
+       - **Table Chirping & Banter:** Affectionate roasting anchored to specific unhinged or hilarious moments from the session (≥ 30 words).
+  4. **Dynamic Compiler Ingestion (`compile_codex.py`):**
+     - Refactored `compile_codex.py` to prioritize `sessions/config/codex/sN-codex.json` contracts, dynamically generating all wiki chronicles, character dossiers, thread boards, and review pages.
+  5. **Automated Audit Gate Expansion (`audit_codex.py`):**
+     - Added entity collision guards (detecting false character conflation), lore boundary checks, and player growth card depth validation.
+* **Trade-off Accepted:** Requires authoring structured JSON data contracts per session rather than running automated ungrounded generators, but guarantees 100% factual fidelity and substantive editorial depth.
+* **Enforcing Gates:** `sessions/_scripts/compile_codex.py`, `sessions/_scripts/audit_codex.py`, `sessions/_scripts/harness/test_harness.py` (`TestCodexAudit`).
+
 ---
 
 ## 📌 Rules for Appending to this Ledger
@@ -570,6 +591,7 @@ Whenever an architectural discussion occurs:
 1. Do not repeat arguments that have already been resolved.
 2. Quote the relevant `DEC-XXX` or `FP-XX` entry.
 3. If an invariant must be modified, state what broke to necessitate the change, what cost is accepted, and how the verification suite is updated.
+
 
 
 

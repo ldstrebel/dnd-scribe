@@ -582,7 +582,6 @@ def generate_session_pages(manifests, configs, source_decisions, recaps):
     sessions_dir.mkdir(parents=True, exist_ok=True)
 
     debriefs = get_deep_narrative_debriefs()
-    cliffhangers = get_session_cliffhangers()
     lore_map = get_session_lore_discoveries()
     milestones_map = get_session_milestones()
     threads_touched = get_session_threads_touched()
@@ -592,7 +591,37 @@ def generate_session_pages(manifests, configs, source_decisions, recaps):
         title = cfg.get("title", f"Session {s}")
         recap = recaps.get(s, "A chronicle of displaced souls traveling the Lost Roads.")
         debrief = debriefs.get(s, "The party navigates immediate obstacles and uncovers timeline secrets.")
-        cliffhanger = cliffhangers.get(s, "The party braces for impending challenges along the Lost Roads.")
+
+        # Ingest from sessions/config/codex/sN-codex.json if present (DEC-041)
+        codex_json_path = CONFIG_DIR / "codex" / f"s{s}-codex.json"
+        dp_notes = {}
+        if codex_json_path.exists():
+            with open(codex_json_path, "r", encoding="utf-8") as f:
+                cdata = json.load(f)
+            title = cdata.get("title", title)
+            recap = cdata.get("overview", recap)
+            if "narrative_acts" in cdata:
+                debrief = "\n\n".join(
+                    f"### {a['act']}: {a['title']} ({a['chapter_span']})\n{a['summary']}"
+                    for a in cdata["narrative_acts"]
+                )
+            if "lore_discoveries" in cdata:
+                lore_list = [(item["term"], item["definition"]) for item in cdata["lore_discoveries"]]
+            else:
+                lore_list = lore_map.get(s, [])
+            if "milestones" in cdata:
+                milestones = cdata["milestones"]
+            else:
+                milestones = milestones_map.get(s, [])
+            if "threads" in cdata:
+                session_threads = [(t["thread_id"], t["name"], t["status"], t["context"]) for t in cdata["threads"]]
+            else:
+                session_threads = threads_touched.get(s, [])
+            dp_notes = cdata.get("dramatis_personae_notes", {})
+        else:
+            lore_list = lore_map.get(s, [])
+            milestones = milestones_map.get(s, [])
+            session_threads = threads_touched.get(s, [])
 
         # Chapters count
         blocks = m.get("blocks", [])
@@ -615,17 +644,13 @@ def generate_session_pages(manifests, configs, source_decisions, recaps):
         players = cfg.get("players", {})
         absent = cfg.get("absent_players", {})
 
-        lore_list = lore_map.get(s, [])
-        milestones = milestones_map.get(s, [])
-        session_threads = threads_touched.get(s, [])
-
         md = f"""[🏛️ Campaign Codex Home](../README.md) > [📜 Session Chronicles](README.md) > **Session {s}**
 
 # Session {s}: {title}
 **Codex Category:** Session Chronicle  
 **Novel Chapter Span:** Chapter {ch_f} to Chapter {ch_l} ({len(unique_chapters)} Chapters)  
 **Interactive Navigation:** {prev_link} | [📑 All Sessions](README.md) | {next_link} | [🎭 Session {s} Critic Review](../critic/s{s}-review.md)  
-**Jump Menu:** [📋 Session Overview](#-session-overview) · [🧭 Next Objective & Cliffhanger](#-next-objective--unresolved-cliffhanger) · [🎬 Narrative Chronicle](#-session-narrative-chronicle) · [👥 Cast & Status](#-dramatis-personae-ensemble-cast) · [🧶 Plot Lines & Threads](#-plot-lines--campaign-threads) · [🏛️ Lore Discoveries](#-in-world-lore--cosmological-discoveries) · [⚔️ Key Story Milestones](#-key-story-milestones--character-turns) · [🎭 Critic Review](../critic/s{s}-review.md)
+**Jump Menu:** [📋 Session Overview](#-session-overview) · [🎬 Narrative Chronicle](#-session-narrative-chronicle) · [👥 Cast & Status](#-dramatis-personae-ensemble-cast) · [🧶 Plot Lines & Threads](#-plot-lines--campaign-threads) · [🏛️ Lore Discoveries](#-in-world-lore--cosmological-discoveries) · [⚔️ Key Story Milestones](#-key-story-milestones--character-turns) · [🎭 Critic Review](../critic/s{s}-review.md)
 
 ---
 
@@ -634,37 +659,37 @@ def generate_session_pages(manifests, configs, source_decisions, recaps):
 
 ---
 
-## 🧭 Next Objective & Unresolved Cliffhanger
-{cliffhanger}
-
----
-
 ## 🎬 Session Narrative Chronicle
 {debrief}
 """
-
 
         md += "\n---\n\n## 👥 Dramatis Personae (Ensemble Cast)\n"
         md += "### Active Party Members\n"
         for _, char_name in players.items():
             clean_name = char_name.split("(")[0].strip()
             cid = "dravin" if "dravin" in clean_name.lower() else clean_name.lower()
-            md += f"- **[{clean_name}](../characters/{cid}.md)** — Active in-scene, driving party tactical choices and survival.\n"
+            note = dp_notes.get(cid, "Active in-scene, driving party tactical choices and survival.")
+            md += f"- **[{clean_name}](../characters/{cid}.md)** — {note}\n"
 
         if absent:
             md += "\n### Absent Party Members\n"
             for _, char_name in absent.items():
                 clean_name = char_name.split("(")[0].strip()
                 cid = "dravin" if "dravin" in clean_name.lower() else clean_name.lower()
-                md += f"- **[{clean_name}](../characters/{cid}.md)** — Absent from scene (conducting independent archival research or scouting).\n"
+                note = dp_notes.get(cid, "Absent from scene (conducting independent archival research or scouting).")
+                md += f"- **[{clean_name}](../characters/{cid}.md)** — {note}\n"
 
         # Recurring Margin Allies vs Guests
         md += "\n### Recurring Margin Allies\n"
         if s >= 2:
-            md += "- **[Teddy](../characters/teddy.md)** — Founding Caretaker of The Margin; provides compound guidance and perimeter reports.\n"
-            md += "- **[Naomi](../characters/naomi.md)** — Margin Warden & Tactical Coordinator; tracks timeline anomalies on the Anomaly Board.\n"
-            md += "- **[Mike](../characters/mike.md)** — Gatekeeper of the Lost Roads; operates the vintage truck and gateway levers.\n"
-            md += "- **[Rosa](../characters/rosa.md)** — Cabin Matron & Memory Chronicler; cares for refugees and preserves oral histories.\n"
+            t_note = dp_notes.get("teddy", "Founding Caretaker of The Margin; provides compound guidance and perimeter reports.")
+            n_note = dp_notes.get("naomi", "Margin Warden & Tactical Coordinator; tracks timeline anomalies on the Anomaly Board.")
+            m_note = dp_notes.get("mike", "Gatekeeper of the Lost Roads; operates the vintage truck and gateway levers.")
+            r_note = dp_notes.get("rosa", "Cabin Matron & Memory Chronicler; cares for refugees and preserves oral histories.")
+            md += f"- **[Teddy](../characters/teddy.md)** — {t_note}\n"
+            md += f"- **[Naomi](../characters/naomi.md)** — {n_note}\n"
+            md += f"- **[Mike](../characters/mike.md)** — {m_note}\n"
+            md += f"- **[Rosa](../characters/rosa.md)** — {r_note}\n"
         else:
             md += "- **[Teddy](../characters/teddy.md)** & **[The Margin Wardens](../factions/margin-wardens.md)** — Displaced sanctuary caretakers awaiting refugees at the forest threshold.\n"
 
@@ -678,11 +703,15 @@ def generate_session_pages(manifests, configs, source_decisions, recaps):
             elif s == 6:
                 md += "- **[Dr. Aris Thorne](../characters/thorne.md)** — Flees into campus tunnels as satyr strike teams breach the amphitheater.\n"
             elif s == 7:
-                md += "- **[Susanna](../characters/susanna.md)** — Rescued transformed operative freed from Redactor tendril corruption.\n"
-                md += "- **[Thanatos](../characters/thanatos.md)** — Greek god of peaceful death who visits Eusacles in a nocturnal dream.\n"
+                s_note = dp_notes.get("susanna", "Innocent civilian museum attendant from Raleigh; stumbled through the Lost Roads for weeks before being rescued.")
+                th_note = dp_notes.get("thanatos", "Greek god of peaceful death who visits Eusacles in a nocturnal dream.")
+                md += f"- **[Susanna](../characters/susanna.md)** — {s_note}\n"
+                md += f"- **[Thanatos](../characters/thanatos.md)** — {th_note}\n"
 
         md += "\n### Adversaries & Threats\n"
-        if s in [1]:
+        if s == 7 and "stalker" in dp_notes:
+            md += f"- **{dp_notes['stalker']}**\n"
+        elif s in [1]:
             md += "- **Correctors (Ink-Beasts)** — Planar predators tearing through the Library stacks to consume severed threads.\n"
         elif s in [4, 5, 6, 7]:
             md += "- **[The Redactors](../factions/redactors.md)** — Hostile timeline enforcers and stalkers seeking to erase living anomalies.\n"
@@ -816,7 +845,7 @@ voice cadences, signature abilities, campaign trajectories, and interpersonal dy
 ---
 
 ## 🕊️ Rescued Survivors & Academic Allies
-- **[Susanna](susanna.md)** — Rescued Operative & Former Redactor Captive. Freed from parasitic tendril corruption; recovering at The Margin.
+- **[Susanna](susanna.md)** — Displaced NC Museum Attendant & Rescued Civilian. Survived weeks wandering the Lost Roads before being guided to safety.
 - **[Dr. Aris Thorne](thorne.md)** — Investigative Medical Historian. Uncovered retroactive tampering in the 1948 Big Pox clinical trial records.
 
 ---
@@ -890,7 +919,7 @@ def generate_character_pages(manifests):
                 "Pierre has gradually embraced his dangerous lineage. In Raleigh, he bluffed museum security and "
                 "grounded a massive electrical surge through a petrified guard. At University University, he coordinated "
                 "the takedown of a transformed operative, and subsequently manifested a radiant patronus in [Session 7](../sessions/s7.md) "
-                "to guide [Susanna](susanna.md) to safety."
+                "to distract a six-fingered stalker while safely guiding [Susanna](susanna.md) to The Margin."
             ),
             "dynamics": (
                 "- **[Alfie](alfie.md):** A fiercely protective, comedic bond. While Pierre complains about Alfie riding on his shoulder "
@@ -926,7 +955,7 @@ def generate_character_pages(manifests):
                 "Awakening without personal memories in the Library of the Fates in [Session 1](../sessions/s1.md), Alfie immediately "
                 "proved her valor fending off ink-beasts. Touching the Raleigh stele in [Session 4](../sessions/s4.md) unlocked harrowing "
                 "flashbacks of burning coastal ports. In [Session 7](../sessions/s7.md), she revealed 458 years of collective thread consciousness "
-                "over rum pancakes and severed the parasitic tendril that freed [Susanna](susanna.md)."
+                "over rum pancakes, executed the captive Redactor operative in the arcade, and coached Pierre in dawn push-up drills."
             ),
             "dynamics": (
                 "- **[Pierre](pierre.md):** Her trusted steed and confidant. She perches on his shoulder during travel and infiltration.\n"
@@ -1058,21 +1087,21 @@ def generate_character_pages(manifests):
             "voice": "Gentle, soothing cadence that disarms trauma and invites honest reflection.",
             "abilities": "- **Memory Preservation:** Skilled at cataloging oral histories of erased communities.\n- **Sanctuary Hospitality:** Provides medical care, bedding, and comfort.",
             "arc": "Helped Alfie process her initial awakening in [Session 2](../sessions/s2.md) and provided refuge for Susanna upon her rescue in [Session 7](../sessions/s7.md).",
-            "dynamics": "- **[Susanna](susanna.md):** Nursing Susanna through recovery following the severing of her Redactor tendril.",
+            "dynamics": "- **[Susanna](susanna.md):** Sheltering Susanna in her studio cabin following weeks of wandering the Lost Roads.",
         },
         "susanna": {
             "name": "Susanna",
             "type": "Non-Player Character (NPC)",
-            "title": "Rescued Operative · Former Redactor Captive",
+            "title": "Displaced Museum Worker · Rescued Civilian",
             "bio": (
-                "A mortal woman captured and biologically mutated by [The Redactors](../factions/redactors.md). Grafted with shadowy tendrils and "
-                "subjected to memory erasure, she was deployed to recover altered historical documents before being subdued in the "
-                "auditorium in [Session 6](../sessions/s6.md) and liberated by Alfie's needle rapier in [Session 7](../sessions/s7.md)."
+                "Susanna is a civilian museum attendant from the North Carolina Museum of Natural History in Raleigh. "
+                "Rescued by Pierre during the initial timeline breach in Session 3, she subsequently wandered into the "
+                "mist-shrouded Lost Roads, surviving alone for weeks before stumbling across the company in Session 7."
             ),
-            "voice": "Initially raspy and strained with cognitive trauma, warming into quiet gratitude as recovery begins.",
-            "abilities": "- **Former Redactor Insight:** Deep familiarity with Redactor tracking patterns and the Master's doctrine.",
-            "arc": "Rescued in [Session 7](../sessions/s7.md), she was safely guided to The Margin by Pierre's rabbit patronus to recover under Rosa's care.",
-            "dynamics": "- **[Pierre](pierre.md):** Indebted to Pierre for his rabbit patronus escort along the Lost Roads.\n- **[Alfie](alfie.md):** Deeply grateful to Alfie for severing the parasite that enslaved her mind.",
+            "voice": "Soft-spoken, shell-shocked southern cadence that warms into genuine relief and spirited humor.",
+            "abilities": "- **Museum Curation:** Knowledge of historical antiquities and museum exhibit logistics.\n- **Wilderness Foraging:** Practical knowledge of edible wild berries and survival in overgrown forest creases.",
+            "arc": "Rescued from petrification in Session 3, she survived weeks in the Lost Roads before being reunited with Pierre in [Session 7](../sessions/s7.md). Guided to safety by his rabbit patronus, she is now sheltering at The Margin under Rosa's care.",
+            "dynamics": "- **[Pierre](pierre.md):** Shared playful flirtation while picking wild berries along the forest trail; deeply grateful for his radiant rabbit patronus.\n- **[Rosa](rosa.md):** Welcomed into Rosa's cabin to recuperate from weeks of isolation in the mountain creases.",
         },
         "thanatos": {
             "name": "Thanatos",
@@ -1380,6 +1409,20 @@ def generate_critic_pages():
         gm_craft = rev.get("gm_craft", "")
         bets = rev.get("bets", [])
 
+        # Ingest from sessions/config/codex/sN-codex.json if present (DEC-041)
+        codex_json_path = CONFIG_DIR / "codex" / f"s{s}-codex.json"
+        if codex_json_path.exists():
+            with open(codex_json_path, "r", encoding="utf-8") as f:
+                cdata = json.load(f)
+            crev = cdata.get("critic", {})
+            if crev:
+                score = crev.get("score", score)
+                highlights = crev.get("highlights", highlights)
+                threads_audit = crev.get("threads_audit", threads_audit)
+                cards = crev.get("player_growth_cards", cards)
+                gm_craft = crev.get("gm_craft", gm_craft)
+                bets = crev.get("bets", bets)
+
         prev_link = f"[⏮️ Session {s-1} Review](s{s-1}-review.md)" if s > 1 else "[⏮️ First Review](s1-review.md)"
         next_link = f"[⏭️ Session {s+1} Review](s{s+1}-review.md)" if s < 7 else "[⏭️ Next Review (Upcoming)]"
 
@@ -1406,7 +1449,13 @@ def generate_critic_pages():
 """
         for char, card in cards.items():
             cid = "dravin" if "dravin" in char.lower() else char.lower()
-            md += f"### [{char}](../characters/{cid}.md)\n{card}\n\n"
+            if isinstance(card, dict):
+                growth_text = card.get("growth", "")
+                chirp_text = card.get("chirp", "")
+                md += f"### [{char}](../characters/{cid}.md)\n* **Actionable Growth & Trajectory:** {growth_text}\n* **Table Chirping & Banter:** *\"{chirp_text}\"*\n\n"
+            else:
+                md += f"### [{char}](../characters/{cid}.md)\n{card}\n\n"
+
 
         md += f"""---
 

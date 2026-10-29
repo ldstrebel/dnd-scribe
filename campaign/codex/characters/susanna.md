@@ -2,34 +2,35 @@
 
 # Susanna
 **Type:** Non-Player Character (NPC)  
-**Title & Role:** Rescued Operative · Former Redactor Captive  
+**Title & Role:** Displaced Museum Worker · Rescued Civilian  
 **Quick Nav:** [🎭 Identity & Backstory](#-character-identity--backstory) · [🎙️ Voice & Cadence](#️-personality-voice--physical-cadence) · [⚡ Abilities & Gear](#-core-abilities-artifacts--equipment) · [📜 Story Trajectory](#-key-story-milestones--campaign-trajectory) · [👥 Relationships](#-ensemble-dynamics--key-relationships) · [📊 Appearance Log](#-campaign-appearance-index)
 
 ---
 
 ## 🎭 Character Identity & Backstory
-A mortal woman captured and biologically mutated by [The Redactors](../factions/redactors.md). Grafted with shadowy tendrils and subjected to memory erasure, she was deployed to recover altered historical documents before being subdued in the auditorium in [Session 6](../sessions/s6.md) and liberated by Alfie's needle rapier in [Session 7](../sessions/s7.md).
+Susanna is a civilian museum attendant from the North Carolina Museum of Natural History in Raleigh. Rescued by Pierre during the initial timeline breach in Session 3, she subsequently wandered into the mist-shrouded Lost Roads, surviving alone for weeks before stumbling across the company in Session 7.
 
 ---
 
 ## 🎙️ Personality, Voice & Physical Cadence
-Initially raspy and strained with cognitive trauma, warming into quiet gratitude as recovery begins.
+Soft-spoken, shell-shocked southern cadence that warms into genuine relief and spirited humor.
 
 ---
 
 ## ⚡ Core Abilities, Artifacts & Equipment
-- **Former Redactor Insight:** Deep familiarity with Redactor tracking patterns and the Master's doctrine.
+- **Museum Curation:** Knowledge of historical antiquities and museum exhibit logistics.
+- **Wilderness Foraging:** Practical knowledge of edible wild berries and survival in overgrown forest creases.
 
 ---
 
 ## 📜 Key Story Milestones & Campaign Trajectory
-Rescued in [Session 7](../sessions/s7.md), she was safely guided to The Margin by Pierre's rabbit patronus to recover under Rosa's care.
+Rescued from petrification in Session 3, she survived weeks in the Lost Roads before being reunited with Pierre in [Session 7](../sessions/s7.md). Guided to safety by his rabbit patronus, she is now sheltering at The Margin under Rosa's care.
 
 ---
 
 ## 👥 Ensemble Dynamics & Key Relationships
-- **[Pierre](pierre.md):** Indebted to Pierre for his rabbit patronus escort along the Lost Roads.
-- **[Alfie](alfie.md):** Deeply grateful to Alfie for severing the parasite that enslaved her mind.
+- **[Pierre](pierre.md):** Shared playful flirtation while picking wild berries along the forest trail; deeply grateful for his radiant rabbit patronus.
+- **[Rosa](rosa.md):** Welcomed into Rosa's cabin to recuperate from weeks of isolation in the mountain creases.
 
 ---
 

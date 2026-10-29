@@ -27,7 +27,7 @@ Raspy, confident Cockney sailor cadence packed with maritime idioms and razor-sh
 ---
 
 ## 📜 Key Story Milestones & Campaign Trajectory
-Awakening without personal memories in the Library of the Fates in [Session 1](../sessions/s1.md), Alfie immediately proved her valor fending off ink-beasts. Touching the Raleigh stele in [Session 4](../sessions/s4.md) unlocked harrowing flashbacks of burning coastal ports. In [Session 7](../sessions/s7.md), she revealed 458 years of collective thread consciousness over rum pancakes and severed the parasitic tendril that freed [Susanna](susanna.md).
+Awakening without personal memories in the Library of the Fates in [Session 1](../sessions/s1.md), Alfie immediately proved her valor fending off ink-beasts. Touching the Raleigh stele in [Session 4](../sessions/s4.md) unlocked harrowing flashbacks of burning coastal ports. In [Session 7](../sessions/s7.md), she revealed 458 years of collective thread consciousness over rum pancakes, executed the captive Redactor operative in the arcade, and coached Pierre in dawn push-up drills.
 
 ---
 

@@ -27,7 +27,7 @@ Flamboyant, theatrical French cadence with articulate vocabulary and dramatic fl
 ---
 
 ## 📜 Key Story Milestones & Campaign Trajectory
-From trembling panic in the Library of the Fates to standing as the party's defensive tactician, Pierre has gradually embraced his dangerous lineage. In Raleigh, he bluffed museum security and grounded a massive electrical surge through a petrified guard. At University University, he coordinated the takedown of a transformed operative, and subsequently manifested a radiant patronus in [Session 7](../sessions/s7.md) to guide [Susanna](susanna.md) to safety.
+From trembling panic in the Library of the Fates to standing as the party's defensive tactician, Pierre has gradually embraced his dangerous lineage. In Raleigh, he bluffed museum security and grounded a massive electrical surge through a petrified guard. At University University, he coordinated the takedown of a transformed operative, and subsequently manifested a radiant patronus in [Session 7](../sessions/s7.md) to distract a six-fingered stalker while safely guiding [Susanna](susanna.md) to The Margin.
 
 ---
 

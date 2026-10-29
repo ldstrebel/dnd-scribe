@@ -577,4 +577,52 @@ To prevent multi-objective cognitive collapse during drafting, creative generati
 3. **No Redundant Fifth File:** The pipeline preserves the clean 4-file separation of concerns (`session-config`, `source-decisions`, `intent-contract`, `CAMPAIGN_ARC_LEDGER.md`). Synthesis is generated on-demand via `sessions/_scripts/print_writers_room.py`.
 4. **Zero LLM Self-Grading:** Subagents write and debate; deterministic Python scripts grade. Pass/fail is absolute.
 
+---
+
+## 12. The Grounded Codex Publishing Pipeline (`DEC-037` Through `DEC-041`)
+
+Alongside **Track A** (Tabletop Novelization) and **Track B** (Cinematic Adaptation), the D&D Scribe engine maintains **Track C: The Campaign Codex**—a living, interactive in-world encyclopedia and editorial critique portal published to `campaign/codex/`.
+
+```
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ 1. Canonical Session Artifacts                                         │
+  │    (blocks/sN-scene-XX.md, sN-session-config.json, CAMPAIGN_ARC_LEDGER)│
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ 2. Structured Codex Data Contract (sessions/config/codex/sN-codex.json)│
+  │    • Session Overview (≤ 250 words)                                    │
+  │    • Multi-Act Narrative Breakdown with embedded chapter spans         │
+  │    • Disambiguated Session Dramatis Personae                           │
+  │    • Verified Lore Declarations & Active Campaign Threads              │
+  │    • Dual-Element Player Growth Cards (Growth Directive + Chirping)    │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ 3. Deterministic Wiki Compiler (sessions/_scripts/compile_codex.py)    │
+  │    • Merges session contracts with campaign/characters/ & factions/    │
+  │    • Emits True Wiki Portals, Session Chronicles, Dossiers, & Reviews  │
+  │    • Generates 100% interconnected cross-page hyperlinks               │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ 4. Audience Fence & Substantive Gate (sessions/_scripts/audit_codex.py)│
+  │    • DEC-038 Audience Boundary Fence (zero raw lines, hashes, tokens)  │
+  │    • DEC-041 Entity Collision Guard (prevents NPC conflation)          │
+  │    • DEC-041 Lore Boundary Check (no anachronistic copy-paste lore)    │
+  │    • Critic Depth Bar (verifies Growth Directive & Chirping presence)  │
+  └────────────────────────────────────────────────────────────────────────┘
+```
+
+### Core Invariants of the Codex Pipeline
+1. **The Data Contract Separation (`DEC-041`):** Narrative summaries, character observations, and editorial cards are maintained as structured, version-controlled JSON contracts in `sessions/config/codex/sN-codex.json`. The compiler script (`compile_codex.py`) is strictly a deterministic markdown renderer.
+2. **Canonical Entity Grounding (`FP-18`, `DEC-041`):** All character descriptions must align with `sN-session-config.json` and canonical dossiers in `campaign/characters/`. Merging or conflating separate NPCs (e.g., asserting an innocent civilian is an enemy cultist) is a fatal audit failure.
+3. **The Non-Redundant Narrative Chronicle (`DEC-039`, `DEC-041`):** Session chronicles flow from a concise overview (≤ 250 words) directly into the multi-act narrative chronicle. Novel chapter numbers are embedded in Act headers, and the final Act carries the full dramatic ending, consequences, and impending destination without artificial standalone spoiler boxes.
+4. **Dual-Element Player Growth Cards (The Stormlight Standard + Chirping):** Every active player's card in `campaign/codex/critic/sN-review.md` must supply actionable developmental analysis (behavioral evolution, moral stakes, next steps) paired with good-natured table chirping anchored to memorable session absurdities.
+5. **The Audience Boundary (`DEC-038`):** Zero raw line tags (`L####`), internal contributor names, compiler risk categories, or schema filenames may bleed into reader-facing codex markdown.
+
+
 

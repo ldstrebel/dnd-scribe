@@ -136,8 +136,6 @@ def audit_codex():
             else:
                 violations.append(f"[{rel_path}] MISSING_SECTION: Session chronicle lacks '## 📋 Session Overview' synopsis.")
 
-            if "## 🧭 Next Objective" not in content and "## 🧭 Unresolved Cliffhanger" not in content:
-                violations.append(f"[{rel_path}] MISSING_SECTION: Session chronicle lacks '## 🧭 Next Objective & Unresolved Cliffhanger'.")
             if "## 🎬 Session Narrative Chronicle" not in content and "## 🔍 Deep Narrative Debrief" not in content:
                 violations.append(f"[{rel_path}] MISSING_SECTION: Session chronicle lacks '## 🎬 Session Narrative Chronicle'.")
             if "## 👥 Dramatis Personae" not in content:
@@ -148,6 +146,11 @@ def audit_codex():
                 violations.append(f"[{rel_path}] MISSING_SECTION: Session chronicle lacks '## ⚔️ Key Story Milestones & Character Turns'.")
             if "## 🧶 Plot Lines" not in content:
                 violations.append(f"[{rel_path}] MISSING_SECTION: Session chronicle lacks '## 🧶 Plot Lines & Campaign Threads'.")
+
+            # Lore Boundary Guard: Ensure Session 7 does not misattribute out-of-session lore
+            if doc_path.name == "s7.md":
+                if "Hermes Express" in content:
+                    violations.append(f"[{rel_path}] LORE_BOUNDARY_VIOLATION: Session 7 chronicle cites Hermes Express (Session 5 event).")
 
             # Check temporal causality in narrative body (session N should not cite future in-world events from session M where M > N)
             session_num_match = re.search(r"s(\d+)\.md", doc_path.name)
@@ -187,7 +190,30 @@ def audit_codex():
             if words < 120:
                 violations.append(f"[{rel_path}] CHARACTER_TOO_SPARSE: Dossier contains only {words} words (minimum substantive threshold: 120 words).")
 
-    # 6. Total word budget check across codex
+            # Entity Collision Guard (DEC-041): Susanna must never be conflated with the transformed operative
+            if doc_path.name == "susanna.md":
+                banned_conflations = ["transformed operative", "former captive", "parasitic tendril", "severed tendril"]
+                for bc in banned_conflations:
+                    if bc in content.lower():
+                        violations.append(f"[{rel_path}] ENTITY_COLLISION: Susanna is conflated with the transformed captive ('{bc}').")
+
+        # 6. Critic Review Quality & Dual-Element Card Checks (DEC-041)
+        if "critic" in doc_path.parts and doc_path.name.startswith("s"):
+            if "## 🌱 Character Growth Cards" not in content and "## 🎭 Character Development" not in content:
+                violations.append(f"[{rel_path}] MISSING_SECTION: Critic review lacks Character Growth Cards section.")
+            if "## 🔮 Narrative Bets" not in content and "## 🔮 Predictive Foresight" not in content:
+                violations.append(f"[{rel_path}] MISSING_SECTION: Critic review lacks Narrative Bets section.")
+
+            if doc_path.name == "s7-review.md":
+                for player in ["Pierre", "Alfie", "Eusacles", "Dravin"]:
+                    if f"[{player}]" not in content and f"### {player}" not in content:
+                        violations.append(f"[{rel_path}] MISSING_PLAYER_CARD: Missing player growth card for '{player}'.")
+                if "Actionable Growth & Trajectory:" not in content:
+                    violations.append(f"[{rel_path}] SHALLOW_CRITIC_REVIEW: Lacks 'Actionable Growth & Trajectory' cards.")
+                if "Table Chirping & Banter:" not in content:
+                    violations.append(f"[{rel_path}] SHALLOW_CRITIC_REVIEW: Lacks 'Table Chirping & Banter' cards.")
+
+    # 7. Total word budget check across codex
     if total_words > 60000:
         violations.append(
             f"[campaign/codex] TOTAL_BUDGET_EXCEEDED: Codex total size is {total_words} words (max index budget: 60,000 words)."

@@ -29,7 +29,7 @@ Helped Alfie process her initial awakening in [Session 2](../sessions/s2.md) and
 ---
 
 ## 👥 Ensemble Dynamics & Key Relationships
-- **[Susanna](susanna.md):** Nursing Susanna through recovery following the severing of her Redactor tendril.
+- **[Susanna](susanna.md):** Sheltering Susanna in her studio cabin following weeks of wandering the Lost Roads.
 
 ---
 

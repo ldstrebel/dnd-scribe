@@ -26,7 +26,7 @@ voice cadences, signature abilities, campaign trajectories, and interpersonal dy
 ---
 
 ## 🕊️ Rescued Survivors & Academic Allies
-- **[Susanna](susanna.md)** — Rescued Operative & Former Redactor Captive. Freed from parasitic tendril corruption; recovering at The Margin.
+- **[Susanna](susanna.md)** — Displaced NC Museum Attendant & Rescued Civilian. Survived weeks wandering the Lost Roads before being guided to safety.
 - **[Dr. Aris Thorne](thorne.md)** — Investigative Medical Historian. Uncovered retroactive tampering in the 1948 Big Pox clinical trial records.
 
 ---

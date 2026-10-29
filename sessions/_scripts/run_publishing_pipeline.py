@@ -6,7 +6,9 @@ Executes the full D&D Scribe publishing cycle:
 2. Macro Narrative & Character Anchor Gate: harness/macro_auditor.py
 3. Developmental Editor Gate: critique_prose.py
 4. Schema 2.0 Web Manifest: generate_web_manifest.py & verify_manifest.py
-5. Dual EPUB Compiler: novel/generate_epub.py
+5. Campaign Codex Track (DEC-037 & DEC-041): compile_codex.py & audit_codex.py
+6. Dual EPUB Compiler: novel/generate_epub.py
+7. Dual-Track Scalable Scorecard & Editorial Liberty Ledger
 """
 
 import sys
