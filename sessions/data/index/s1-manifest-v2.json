@@ -153,6 +153,116 @@
         "sharePct": 0.6
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s1",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 85,
+      "totalWords": 1061,
+      "gm": null,
+      "players": [
+        {
+          "label": "John Hagey",
+          "words": 33,
+          "turns": 6,
+          "wordsPerTurn": 5.5,
+          "medianTurnWords": 5.5,
+          "shortTurnPct": 33.3,
+          "sharePctOfAllWords": 3.1,
+          "character": "Eusacles",
+          "status": "present",
+          "sharePctOfPlayerWords": 41.2
+        },
+        {
+          "label": "Luke S",
+          "words": 23,
+          "turns": 3,
+          "wordsPerTurn": 7.7,
+          "medianTurnWords": 10,
+          "shortTurnPct": 33.3,
+          "sharePctOfAllWords": 2.2,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 28.8
+        },
+        {
+          "label": "William Webb",
+          "words": 18,
+          "turns": 2,
+          "wordsPerTurn": 9.0,
+          "medianTurnWords": 9.0,
+          "shortTurnPct": 0.0,
+          "sharePctOfAllWords": 1.7,
+          "character": "Prof Edward Dravin",
+          "status": "present",
+          "sharePctOfPlayerWords": 22.5
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 6,
+          "turns": 1,
+          "wordsPerTurn": 6.0,
+          "medianTurnWords": 6,
+          "shortTurnPct": 0.0,
+          "sharePctOfAllWords": 0.6,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 7.5
+        }
+      ],
+      "absentPlayers": [],
+      "unmappedSpeakers": [
+        {
+          "label": "Luke Foreman (GM)",
+          "words": 459,
+          "turns": 29
+        },
+        {
+          "label": "Pierre (PC)",
+          "words": 144,
+          "turns": 12
+        },
+        {
+          "label": "Eusacles (PC)",
+          "words": 113,
+          "turns": 8
+        },
+        {
+          "label": "Prof Edward Dravin (PC)",
+          "words": 86,
+          "turns": 8
+        },
+        {
+          "label": "Luke Foreman",
+          "words": 50,
+          "turns": 6
+        },
+        {
+          "label": "The Three Fates (NPC)",
+          "words": 44,
+          "turns": 3
+        },
+        {
+          "label": "Unknown named doll (PC)",
+          "words": 43,
+          "turns": 4
+        },
+        {
+          "label": "In-Universe Broadcast (TV)",
+          "words": 29,
+          "turns": 2
+        },
+        {
+          "label": "Campfire Stranger (NPC)",
+          "words": 13,
+          "turns": 1
+        }
+      ],
+      "sharedMics": {},
+      "caveats": [
+        "unmapped speaker labels present: airtime shares exclude them from player shares"
+      ]
+    },
     "writingMetrics": {
       "pacingStdDev": 7.9,
       "pacingDynamic": true,
@@ -165,10 +275,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -178,17 +288,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 92,
-      "popcornmeter": 94,
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
       "campaignArcImpact": "The Inciting Incident: The unsealing of the subterranean vault and the initial temporal ripple that entangled our four strangers into a shared, fractured fate.",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Fast-paced dimensional transit and brisk ink-beast combat. While the prose velocity is high, early chapters place heavy dialogue focus on Pierre and Dravin before Alfie enters in Scene 6. The transition from bus displacement to the cosmic library trades deep character introspection for high sensory action.",
       "narrativeCraftFeedback": null,

@@ -24,6 +24,43 @@ def count_lines(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         return sum(1 for _ in f)
 
+def audit_unsourced_scores(v2_manifest: dict) -> list:
+    """[UNSOURCED_SCORE] Numeric scores / guard counters must carry provenance.
+
+    * ``initialBotReview.tomatometer`` / ``popcornmeter`` as numbers require a
+      ``scoreSource`` that is non-empty and does not begin with 'none'.
+    * ``guardAudits`` / ``technicalCompliance`` numeric counters require a ``source`` key
+      (the deterministic script that counted them). ``None`` (NOT_MEASURED) is always allowed.
+    """
+    errs = []
+    forum = (v2_manifest or {}).get("editorialForum", {}) or {}
+    review = forum.get("initialBotReview", {}) or {}
+
+    source = review.get("scoreSource")
+    has_source = isinstance(source, str) and source.strip() and not source.strip().lower().startswith("none")
+    for key in ("tomatometer", "popcornmeter"):
+        val = review.get(key)
+        if isinstance(val, (int, float)) and not isinstance(val, bool) and not has_source:
+            errs.append(f"[UNSOURCED_SCORE] initialBotReview.{key}={val} has no scoreSource provenance.")
+
+    stats_wm = ((v2_manifest or {}).get("stats", {}) or {}).get("writingMetrics", {}) or {}
+    for container_name, container in (
+        ("stats.writingMetrics.guardAudits", stats_wm.get("guardAudits")),
+        ("initialBotReview.technicalCompliance", review.get("technicalCompliance")),
+    ):
+        if not isinstance(container, dict):
+            continue
+        numeric = {
+            k: v for k, v in container.items()
+            if isinstance(v, (int, float)) and not isinstance(v, bool) and k != "openCritiques"
+        }
+        if numeric and not container.get("source"):
+            errs.append(
+                f"[UNSOURCED_SCORE] {container_name} reports numeric counters {sorted(numeric)} without a 'source'."
+            )
+    return errs
+
+
 def verify_manifest(session_id):
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     manifest_path = os.path.join(base_dir, "data", "index", f"{session_id}-manifest.json")
@@ -145,6 +182,8 @@ def verify_manifest(session_id):
             # Load origin-time speaker ground truth (Zero Regex Guesswork)
             session_num = re.sub(r'^[^\d]*', '', session_id)
             raw_speakers = load_raw_indexed_speakers(session_num) if load_raw_indexed_speakers else {}
+
+            errors.extend(audit_unsourced_scores(v2_manifest))
 
             # Check character registry integrity
             for cid, cdata in characters.items():

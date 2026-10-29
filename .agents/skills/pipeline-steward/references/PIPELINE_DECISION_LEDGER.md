@@ -475,6 +475,94 @@ Every entry records:
 * **Trade-off Accepted:** Eliminates synthetic "Certified Fresh" vanity dashboards; every pipeline execution reports unvarnished compliance and fails immediately if narrative fidelity or stylistic constraints are breached.
 * **Enforcing Gates:** `verify_critiques.py`, `verify_alternate_scene.py`, `critique_prose.py --track both`, `novel/generate_epub.py`, `run_publishing_pipeline.py`.
 
+### [DEC-037] 2026-10-28: Campaign Codex (Index-Not-Second-Book), Registry Rulings & Fenced Critic Section
+* **Context & Friction:** The user wants a player-facing record of what happened, what is canon, and what is open, without per-session manual work and without LLM slop. A first proposal (LLM-written chronicle per session + "deterministic compiler" over prose logs) was rejected on review: it re-derived the novel (`FP-21` / `DEC-031`) and would have required regex over prose (`DEC-009`). The user then asked for a separate, ruthless **Critic section** (per-PC cards, a GM card, and AI "bets") to help players and GM improve.
+* **Precedent Honoured:** `DEC-009` (Zero-Regex), `DEC-010` / `DEC-025` (Negative-Only, External Arbiter, no redundant fifth JSON), `DEC-016`/`FP-03` (no lore amputation), `DEC-017` (anti-sycophancy), `DEC-022` (source-decisions as canon-status authority), `DEC-029` (worktree PR delivery), `DEC-035`/`DEC-036` (no hardcoded scores), `FP-04` (no character dogma), `FP-21` (double-drafting).
+* **Agreed Decisions (user, 2026-10-28):**
+  1. **Registry rulings:** "Redactor" is a **title** (a role entity); the **faction is "Redactors"**. **Teddy** is the display name (`Theodore` is a config-only alias that never appears in raw). *(Updated 2026-10-28 after user correction; the earlier "spelling pending" note is superseded.)*
+  2. **No spoiler gating.** The transcripts are canon; the codex is chronological and ungated.
+  3. **Trigger:** runs automatically **after each pipeline run**.
+  4. **Critic section lives outside the canonical record and is public** (visible to anyone with the reader).
+  5. **Phase C0 approved** (fix the fake scores before building anything on top). **The epic-character reference bar is Kaladin Stormblessed** (*The Stormlight Archive*) plus Jon Snow. The prompt must describe observable behaviours (protecting others at personal cost, a wound leaking into behaviour, oaths tested at costly moments, bonds shown through small acts), never "be more like X".
+* **Agreed Design Principles:**
+  1. **Codex = index into the novel**, not a second narrative. Tier 0 deterministic (appearances from manifest `speakerId`/`sourceLine`, chapter map, first-seen, cutoffs, S5–S7 canon badges from source-decisions); Tier 1 small per-scene fact extraction verified by Python against the **raw** line; Tier 2 bounded recaps where every sentence cites a fact id. Facts derive from Track A, never Track B.
+  2. **One-way fence:** the Critic may read the codex, raw, and Track A; the codex may never read Critic output. The Critic is blind to `[GM-PREP]` material so its bets are made only from what the table knows. Forward speculation (bets) is permitted **only** inside the Critic fence, labeled opinion, immutable once placed, and resolved by cited lines. Public visibility adds a tone guardrail: critique choices and portrayal, never the person; dice luck is never graded; an absent player gets "no data", never a grade.
+* **Implemented 2026-10-28 (Phase C0 + faction rename):**
+  * **Redactors canon.** `lore_lexicon` (`campaign-config.json`) and `CANONICAL_MACRO_ENTITIES` (`audit_arc_ledger.py`) now contain `redactor(s)`; `reductor(s)` is kept only as an STT alias. New universal rule `FACTION_NAME_REDACTOR` (`verify_intent_parity.py`) forbids `\bReductors?\b` in prose. `load_intent_contract` now **merges** `DEFAULT_UNIVERSAL_RULES` with a session contract by id (previously a session contract *replaced* the defaults, so any newly added universal rule would have silently skipped every session that has a contract; the two pre-existing universal rules had been copy-pasted into each contract). Contracts s1/s2/s4/s5/s6/s7, the S5 lore term, `s5-scene-10.md`, `s6-context-briefing.md`, `CAMPAIGN_ARC_LEDGER.md`, arc-steward SKILL and `docs/pipeline_architecture.md` were respelled. **Intentionally untouched:** raw transcripts, `sessions/data/critiques/*`, `sessions/reports/*`, historical ledger text (DEC-016/DEC-024 list "Reductor" as written at the time), and the S1 arc-ledger label "Proto-Reductor Ink Beasts" (a ledger label never spoken in raw; flagged to the user rather than guessed).
+  * **No invented scores.** `generate_web_manifest.derive_review_scores()` returns `None` for Tomatometer/Popcornmeter in every case (previously 35/40, 92/94, S5 62); `guardAudits`/`technicalCompliance` literal zeros/`PASS` became `null`/`NOT_MEASURED`; `initialBotReview.scoreSource` records provenance. `run_publishing_pipeline.py` no longer falls back to 35/40, 92/62, 96/94 and prints `UNSCORED`.
+  * **New gate `[UNSOURCED_SCORE]`** in `verify_manifest.py` (`audit_unsourced_scores`): any numeric score or guard counter without a named producer fails. Negative tests added; a test also asserts every committed `sN-manifest-v2.json` passes it.
+  * **Measured telemetry.** `compute_player_telemetry.py` (deterministic, counts only, no grades) is embedded at `stats.playerTelemetry`. Absent players are `no_data`, unmapped raw labels are reported, shared mics are flagged. It reproduces the hand-measured baselines (S7: Luke S 4396, Sophie 1420 words; William absent).
+  * **Reader (`dndwikis/build_ebooks.py`).** Removed every score default (`92 if < 5 else 62`, etc.), the invented generic scorecards used for any session other than S5–S7, the `score`/`consistencyScore` fields, and the default grade. S5–S7 hand-typed opinions remain only as cards labelled **"Legacy opinion (pre-rubric)"** with measured airtime injected; every other session gets telemetry-only "Not rated" cards. Tests skip if the sibling repo is absent.
+* **Newly Exposed Debt (found by the above; NOT fixed):**
+  1. **S5 `verify_parity.py` now FAILS (2 × `CANON_LORE_IN_SKIPPED_LEDGER`).** The lexicon never contained "redactor", the word the GM actually says, so DEC-024/DEC-016 never protected it. Real canon was dropped: **S5 L0149** (GM: "They're redactors…" about the inky creatures Alfie's lantern-tending holds at bay; skipped as `mechanics`) and **S5 L0286** (GM: Eusacles "scared away a few redactors that were on the camp"; skipped as `ooc`). No exemption was added. Rendering them needs an authorial decision (scene 2/3 prose, and the S5 `introduced_scene: 10` declaration for "Redactor" would then precede its declared introduction in `audit_reader_context`). S4, S6, S7 still pass.
+  2. **`build_ebooks.get_narrative_spectrum_elements`** emits the same hardcoded gauges for every session ("92% Propulsive Adventure Velocity", "100% Faithful", fixed `pos` bar positions, and "desert heat" prose). Only `spoken_pct` and the sensory-register count are measured.
+  3. `run_publishing_pipeline.py` prints a hardcoded "Track A [A+] LOCKED"; `dndwikis/audit_session_candidate.py:1109` still writes literal `technicalCompliance` zeros.
+  4. S1 `session-config` leaves 9 raw speaker labels unmapped (telemetry reports `gm: null`); S7 lists "The Transformed Woman" and "Susanna" as separate NPCs with no cited merge; the ledger has no Sections 1–3 entries for S6–S7 entities (Thanatos, Susanna, Hermes Express, Tier 2 Birthright).
+* **Trade-off Accepted:** A small amount of new gate code (`audit_codex.py`, `audit_critic.py`) in exchange for a record whose every claim is line-cited and verified by something other than the model that wrote it. C0 also deliberately makes the reader look emptier (no numbers) until the rubric exists; an honest blank was judged better than a confident invention.
+* **Enforcing Gate:** *Built (C0):* `audit_unsourced_scores` in `verify_manifest.py`, `FACTION_NAME_REDACTOR`, harness classes `TestScoreProvenance`, `TestPlayerTelemetry`, `TestReaderNeverInventsGrades`, `TestFactionSpellingGate` (62 tests green). *Proposed, not yet built:* `audit_codex.py`, `audit_critic.py`, negative tests for fabricated anchor / GM-PREP leak / Theory promoted to Established / critic content in codex / grade inflation.
+
+### [DEC-038] 2026-10-28: The Codex Audience Fence & Anti-Debug Invariant (Eradication of Compiler Jargon from Player Surfaces)
+* **Context & Friction:** Review of the initial Campaign Codex MVP revealed severe audience boundary breaches (`FP-18`) and gate blindspots (`FP-14`). The compiler (`compile_codex.py`) was dumping internal developer traces directly into player-facing markdown: raw line indices (`L0259`, `L0429`), real player names (`Luke S`, `Sophie Foreman Noone`, `John Hagey`, `William Webb`), compiler risk categories (`character_consistency`, `tabletop_fidelity`), status tokens (`[ESTABLISHED]`, `DEC-037`), and schema filenames (`sN-manifest-v2.json`). In session chronicles, raw GM table wrap-up chatter ("L1289-L1293 are table wrap-up and scheduling") was exposed under "Where We Left Off", and mechanical trivia ("briefcase", "fire alarm", "Eusacles Mending on spatula", "Tier 2 Birthright") cluttered "Canonical Lore Declarations". Crucially, character entries were empty 23-line stubs containing only an appearance table and a JSON schema disclaimer, ignoring existing rich character dossiers.
+* **Precedents Honoured:** `FP-18` (Audience Boundary Breach / Raw Syntax Leaks), `FP-14` (Hollow Gate Inflation), `FP-04` (Character Dogma & Static Persona Bleed), `DEC-009` (Zero-Regex Law), `DEC-037` (Codex Architecture).
+* **Agreed Decisions (2026-10-28):**
+  1. **Strict Codex Audience Fence:** Player/reader-facing codex documents (`campaign/codex/**/*.md`) must never contain internal developer debug telemetry, compiler risk tags, raw line tables, contributor real names, or schema tokens.
+  2. **In-World Session Chronicles:**
+     - "Where We Left Off" must strictly describe in-world narrative state and cliffhangers, completely eradicating raw line indices, GM scheduling quotes, and table wrap-up notes.
+     - "Chapter Navigation Index" presents chapter titles and 1-sentence narrative premises, replacing manifest block hashes (`uneraseable_s07_b001`).
+     - "Dramatis Personae" lists active and absent party members with in-world descriptions, strictly excluding contributor real names.
+     - "In-World Lore & Cosmological Discoveries" curates genuine cosmological revelations, factions, and relics, banning mechanical noise ("spatula mending", "fire alarm", "briefcase").
+     - "Key Story Milestones & Character Turns" replaces the debug `Source Decision Ledger` table with narrative bullet points.
+  3. **Rich Character Dossiers:**
+     - Character pages (`campaign/codex/characters/{id}.md`) must be full-fledged dossiers containing: Core Identity & Backstory, Personality & Voice Cadence, Signature Abilities & Equipment, Key Story Trajectory (S1–S7), Ensemble Dynamics & Relationships, and a clean In-World Appearance Index.
+     - Canonical NPC dossiers (`thanatos.md`, `hermes.md`, `susanna.md`, `thorne.md`) established in `campaign/characters/npcs/`.
+  4. **Mechanical Enforcing Gate (`audit_codex.py`):**
+     - Upgraded `audit_codex.py` to deterministically fail if:
+       - Any player name from `deny_list_players` appears in codex files.
+       - Any compiler risk category or debug table appears.
+       - Any raw line index (`L\d{4}`) or schema token appears.
+       - Any character page is an empty stub without identity/backstory sections or falls below 120 words.
+       - Any session chronicle lacks required substantive sections.
+* **Trade-off Accepted:** Automated extraction cannot simply dump JSON dictionaries into markdown tables; `compile_codex.py` must curate and format substantive in-world narrative text and character profiles.
+* **Enforcing Gates:** `sessions/_scripts/audit_codex.py`, `sessions/_scripts/compile_codex.py`, `sessions/_scripts/harness/test_harness.py` (`TestCodexAudit`).
+
+### [DEC-039] 2026-10-29: The True Wiki Architecture & Interactive Portal Engine
+* **Context & Friction:** User review of the post-DEC-038 index rejected the flat structure, weak session recaps, isolated pages, lack of cross-page interactivity, absence of the Critic section, and treating recurring characters as new every session. The codex felt like a static index rather than an interconnected campaign wiki.
+* **Precedents Honoured:** `DEC-037` (Critic section public & outside canonical record, Stormlight behavioral bar), `DEC-038` (Audience boundary & Anti-debug fence), `FP-18` (Audience boundary integrity), `FP-04` (No static persona bleed).
+* **Agreed Decisions (2026-10-29):**
+  1. **Section Portals Navigation:** Replaced the flat master list with dedicated section portals:
+     - `campaign/codex/README.md` (Master Wiki Hub with portal cards)
+     - `campaign/codex/sessions/README.md` (Chronicles Portal structured by Campaign Acts I–IV)
+     - `campaign/codex/characters/README.md` (Dramatis Personae Portal by Party, Allies, Celestials, Foes)
+     - `campaign/codex/factions/README.md` (Factions Portal)
+     - `campaign/codex/threads/open-threads.md` (Active Mysteries & Plot Lines Board with anchor tags)
+     - `campaign/codex/critic/README.md` (The Critic & Editorial Reviews Portal)
+  2. **Deep Narrative Debriefs & Compact Chapter Guides:**
+     - Excised monolithic chapter dump tables from session chronicles; replaced with multi-act deep narrative debriefs (500–1,000 words per session) detailing specific scene causality, emotional beats, and tactical choices.
+     - Provided a compact 3–5 row Chapter Guide mapping chapter spans to story phases and premises.
+     - Retained a concise ($\le 250$ words) "Previously On" summary at top for quick catch-up.
+  3. **Categorized Dramatis Personae (Recurrence & Relationship Awareness):**
+     - Session chronicles now explicitly distinguish: Active Party Members, Absent Party Members, Recurring Margin Allies (Teddy, Naomi, Mike, Rosa), Rescued Survivors & Guests (Susanna, Thorne), Celestials (Thanatos, Fates, Hermes), and Adversaries (Redactors).
+  4. **Direct Plot Line & Thread Tracking:**
+     - Each session chronicle features a "Plot Lines & Campaign Threads" table documenting which threads were Opened, Advanced, or Resolved/Confirmed, directly linking to `#th-xx` anchors in `open-threads.md`.
+  5. **The Critic Section & Player Growth Cards (`critic/sN-review.md`):**
+     - Implemented public, dedicated editorial review pages for each session containing: Session Scorecard, Narrative Highlights, Plot Line Audits, Character Growth Cards (evaluated on observable sacrifices, wounds, and bonds per the Stormlight standard; absent PCs marked `[NO DATA - ABSENT]`), GM Encounter Craft, and Predictive AI Bets.
+     - Session chronicles feature prominent callout cards linking directly to their accompanying Critic review.
+  6. **Ubiquitous Hyperlink Interactivity:**
+     - All character names, faction names, thread IDs, session references, and review pages are cross-linked across the entire codex.
+* **Trade-off Accepted:** Codex total word count expands from a sparse index to a substantive ~40,000-word campaign wiki; `audit_codex.py` budget ceiling raised to 60,000 words to support rich multi-act prose.
+* **Enforcing Gates:** `sessions/_scripts/compile_codex.py`, `sessions/_scripts/audit_codex.py`, `sessions/_scripts/harness/test_harness.py`.
+
+### [DEC-040] 2026-10-29: Codex Markdown Authoring & Content Standards (Developer Provenance Segregation, Narrative Cliffhangers, & Fact-Theory Demarcation)
+* **Context & Friction:** Upstream directive formalizing codex authoring standards. Codex markdown files must strictly function as a rich in-world compendium, eliminating any developer audit tables (`Source Decision Ledger`), compiler risk categories, STT correction metadata, and raw transcript line numbers (`L0348`, `Line 1288`). Character articles must never be generated as line-citation stubs, and mystery threads must strictly guard against hallucinated over-joining by demarcating observed facts from player theories.
+* **Precedents Honoured:** `DEC-037` (Codex Architecture), `DEC-038` (Audience Boundary Integrity), `DEC-039` (True Wiki Architecture), `FP-18` (Audience Boundary Leak), `FP-04` (Character Dogma & Static Persona Bleed), `DEC-010` / `DEC-025` (Negative-Only Mandate & Grounding).
+* **Agreed Decisions (2026-10-29):**
+  1. **Strict Provenance Segregation:** All developer audit hashes, raw line numbers (`L\d{4}`, `Line \d+`), risk categories, and STT metadata belong exclusively in pipeline JSON files (`source-decisions.json`, configs, manifests), never in reader-facing markdown prose or tables.
+  2. **Narrative Reframing:** Technical debug sections like `Where We Left Off` and GM table wrap-up chatter are eradicated and reframed into `## 🧭 Next Objective & Unresolved Cliffhanger`.
+  3. **Rich Character Dossiers:** Every character page in `campaign/codex/characters/` must provide a comprehensive dossier: Full Name & Role / Moniker, Core Identity & Backstory, Personality & Voice Cadence, Signature Abilities & Equipment, Story Milestones & Trajectory, and Ensemble Dynamics. Empty stubs or line-tag lists are prohibited.
+  4. **Fact vs. Theory Demarcation:** In `campaign/codex/threads/open-threads.md`, active mysteries explicitly separate **Established In-World Evidence (Observed Facts)** from **Party Hypotheses & Open Inquiries** to guard against speculative over-joining without GM confirmation.
+* **Trade-off Accepted:** Requires active maintenance of structured in-world narrative fields and separate table schemas in `compile_codex.py`; zero raw line shortcuts permitted in player-facing markdown.
+* **Enforcing Gates:** `sessions/_scripts/audit_codex.py` (checks `BANNED_LEAK_PATTERNS` for `Where We Left Off`, `STT`, `Source Decision Ledger`, `Risk Category`, `Line \d+`; enforces Next Objective, open-threads columns, and character sections), `sessions/_scripts/harness/test_harness.py` (`TestCodexAudit`).
+
 ---
 
 ## 📌 Rules for Appending to this Ledger

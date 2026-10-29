@@ -107,7 +107,7 @@ Every failure mode below represents a hard-won engineering lesson. The pipeline 
 * **The Failure:** Over-aggressive "Out-of-Character" filters that treat casual table conversational syntax as "OOC trash," dumping critical GM worldbuilding, timeline clues, and player deductions into the skipped ledger.
 * **The Reality:** 70% of the deepest campaign lore is spoken in casual conversational voice at the table (e.g. the GM explaining timeline ink variants; players deducing faction conspiracies).
 * **The Architectural Rule:** **Being too soft on OOC is far less damaging than being too aggressive.** Casual table chatter naturally gets abstracted into narrative description and action during prose translation. But when lore is cut at the intake, it is deleted from the novel forever.
-* **Permanent Invariant (The Inclusive Fiction Law):** Every line touching the game is **Tier B (Worldbuilding, Action Intent, Deduction)** by default. Only pure real-world logistics (mic checks, pizza, Wi-Fi, calendar dates) can be marked Tier C. If a skipped line contains canon entity nouns (*Thorne, Reductor, Gorgon, 1948, binder*), `verify_parity.py` immediately halts with a fatal build error.
+* **Permanent Invariant (The Inclusive Fiction Law):** Every line touching the game is **Tier B (Worldbuilding, Action Intent, Deduction)** by default. Only pure real-world logistics (mic checks, pizza, Wi-Fi, calendar dates) can be marked Tier C. If a skipped line contains canon entity nouns (*Thorne, Redactor, Gorgon, 1948, binder*), `verify_parity.py` immediately halts with a fatal build error.
 
 ### 🛑 FP-04: The "Character Dogma" Trap (Universal Psychology Rules)
 * **The Failure:** When a narrative error is caught, reacting by inventing sweeping, universal behavioral laws (e.g. *"Rule 1: Pierre will never leave Dravin alone"*).
@@ -386,7 +386,7 @@ Single-pass LLM novelization collapses under cognitive overload: attempting to s
    * **Cognitive Scope:** Long-Term Campaign Telemetry & Cosmological Rules.
    * **Primary Source:** `campaign/CAMPAIGN_ARC_LEDGER.md`.
    * **Mandate:** Maintains cross-session narrative memory across the multi-book arc. Tracks:
-     - *Faction Movements:* The Reductors, the Margin Wardens, the Celestial Registry.
+     - *Faction Movements:* The Redactors, the Margin Wardens, the Celestial Registry.
      - *Cosmological Laws:* Fragment mechanics (must anchor to a physical relic), Lost Roads navigation, temporal dilation.
      - *Character Evolution:* Alfie's doll-vs-action-figure trauma and Wordcraft awakening; Pierre's secret Gorgon curse; Dravin's necrotic threshold pact; Eusacles's divine truth-sight.
      - *5-Act Trajectory:* Ensures current chapter beats foreshadow and align with the broader multi-book campaign arc.

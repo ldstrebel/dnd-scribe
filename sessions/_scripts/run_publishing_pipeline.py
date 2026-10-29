@@ -106,8 +106,8 @@ def render_dual_track_scorecard(sessions):
                 pass
 
         bot_review = manifest.get("editorialForum", {}).get("initialBotReview", {})
-        tomatometer = bot_review.get("tomatometer", 35 if open_critiques_count > 0 else (92 if sid != "s5" else 62))
-        popcornmeter = bot_review.get("popcornmeter", 40 if open_critiques_count > 0 else (96 if sid != "s5" else 94))
+        tomatometer = bot_review.get("tomatometer")
+        popcornmeter = bot_review.get("popcornmeter")
 
         print(f"{'#'*75}")
         print(f"📊 SESSION {sid.upper()} DUAL-TRACK EVALUATION SCORECARD")
@@ -202,8 +202,11 @@ def render_dual_track_scorecard(sessions):
         # Cross-Track Comparison & Tension Report
         # ----------------------------------------------------
         print(f"\n⚖️  CROSS-TRACK TENSION & CRITICAL RECEPTION")
-        tomato_emoji = "🍅" if tomatometer >= 75 else "🟢"
-        print(f"   • Dual Rotten Tomatoes:  {tomato_emoji} Tomatometer: {tomatometer}% | 🍿 Popcornmeter: {popcornmeter}%")
+        if isinstance(tomatometer, (int, float)) and isinstance(popcornmeter, (int, float)):
+            tomato_emoji = "🍅" if tomatometer >= 75 else "🟢"
+            print(f"   • Dual Rotten Tomatoes:  {tomato_emoji} Tomatometer: {tomatometer}% | 🍿 Popcornmeter: {popcornmeter}% (source: {bot_review.get('scoreSource')})")
+        else:
+            print(f"   • Critical Reception:    UNSCORED (no measured Tomatometer/Popcornmeter; grade: {bot_review.get('grade', 'UNSCORED')})")
         
         tradeoffs = bot_review.get("tradeOffs", [])
         if tradeoffs:
@@ -320,6 +323,10 @@ def main():
     run_step("Schema 2.0 Web Manifest Builder", [sys.executable, "sessions/_scripts/generate_web_manifest.py"])
     for s in args.sessions:
         run_step(f"Web Manifest Validation ({s.upper()})", [sys.executable, "sessions/_scripts/verify_manifest.py", s])
+
+    # 4B. Campaign Codex Compilation & Audit Gate (DEC-037)
+    run_step("Campaign Codex Compiler (DEC-037)", [sys.executable, "sessions/_scripts/compile_codex.py"])
+    run_step("Campaign Codex Audit Gate (DEC-037)", [sys.executable, "sessions/_scripts/audit_codex.py"])
 
     # 5. EPUB Compilation
     run_step("Dual Edition EPUB Assembler", [sys.executable, "novel/generate_epub.py"])

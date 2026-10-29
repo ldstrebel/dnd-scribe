@@ -43,8 +43,8 @@
         "\\bthe\\s+margin\\s+had\\s+arrived\\b",
         "\\bthe\\s+margin\\s+infiltrators\\b"
       ],
-      "required_replacement": "The Reductors",
-      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+      "required_replacement": "The Redactors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Redactors'."
     },
     {
       "id": "ANACHRONISTIC_TIN_FOIL_PROP",
@@ -109,7 +109,7 @@
       "scene": "scene-07",
       "scope": "The 1948 Trial Notes & Tin-Foil Demonstrators",
       "liberty": "Condensed lobby milling and pamphlet examination into sharp ideological encounters on the limestone steps.",
-      "impact": "Cut 768 words of scattered table questions to focus on the historical timeline and Reductor infiltration clues."
+      "impact": "Cut 768 words of scattered table questions to focus on the historical timeline and Redactor infiltration clues."
     },
     {
       "scene": "scene-08",
@@ -125,7 +125,7 @@
     },
     {
       "scene": "scene-10",
-      "scope": "Green Room Infiltration & Reductor Ambush",
+      "scope": "Green Room Infiltration & Redactor Ambush",
       "liberty": "Compacted multi-turn physical binder struggle into a single continuous action climax; heightened satyr combat threat while strictly preserving Dravin's unilateral force.",
       "impact": "Delivered 57% faster action climax without sanitizing raw table force dynamics."
     },

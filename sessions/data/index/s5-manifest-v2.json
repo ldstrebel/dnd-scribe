@@ -209,6 +209,76 @@
         "sharePct": 0.7
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s5",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 1257,
+      "totalWords": 15435,
+      "gm": {
+        "label": "Luke Foreman",
+        "words": 8627,
+        "turns": 464,
+        "wordsPerTurn": 18.6,
+        "medianTurnWords": 8.0,
+        "shortTurnPct": 31.7,
+        "sharePctOfAllWords": 55.9
+      },
+      "players": [
+        {
+          "label": "Luke S",
+          "words": 2507,
+          "turns": 227,
+          "wordsPerTurn": 11.0,
+          "medianTurnWords": 6,
+          "shortTurnPct": 37.4,
+          "sharePctOfAllWords": 16.2,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 36.8
+        },
+        {
+          "label": "John Hagey",
+          "words": 1582,
+          "turns": 207,
+          "wordsPerTurn": 7.6,
+          "medianTurnWords": 4,
+          "shortTurnPct": 44.0,
+          "sharePctOfAllWords": 10.2,
+          "character": "Eusacles",
+          "status": "present",
+          "sharePctOfPlayerWords": 23.2
+        },
+        {
+          "label": "William Webb",
+          "words": 1493,
+          "turns": 172,
+          "wordsPerTurn": 8.7,
+          "medianTurnWords": 6.0,
+          "shortTurnPct": 32.6,
+          "sharePctOfAllWords": 9.7,
+          "character": "Prof. Edward Dravin",
+          "status": "present",
+          "sharePctOfPlayerWords": 21.9
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 1226,
+          "turns": 187,
+          "wordsPerTurn": 6.6,
+          "medianTurnWords": 4,
+          "shortTurnPct": 46.5,
+          "sharePctOfAllWords": 7.9,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 18.0
+        }
+      ],
+      "absentPlayers": [],
+      "unmappedSpeakers": [],
+      "sharedMics": {},
+      "caveats": []
+    },
     "writingMetrics": {
       "pacingStdDev": 8.3,
       "pacingDynamic": true,
@@ -221,10 +291,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -234,17 +304,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "B-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 62,
-      "popcornmeter": 94,
-      "campaignArcImpact": "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Reductor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure.",
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
+      "campaignArcImpact": "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Redactor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure.",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Forensic audit verified.",
       "narrativeCraftFeedback": null,
@@ -11240,7 +11312,7 @@
       "index": 256,
       "scene": "CHAPTER 31: THE 1948 TRIAL NOTES & THE TEMPORAL SEAM",
       "speakerId": "narrator",
-      "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Reductors had arrived for the binder. Satyrs\u2014or worse, satans.",
+      "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Redactors had arrived for the binder. Satyrs\u2014or worse, satans.",
       "segments": [
         {
           "segmentId": "uneraseable_s05_b256_s01",
@@ -11248,7 +11320,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Reductors had arrived for the binder. Satyrs\u2014or worse, satans."
+          "text": "Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Redactors had arrived for the binder. Satyrs\u2014or worse, satans."
         }
       ],
       "cut": "tabletop"

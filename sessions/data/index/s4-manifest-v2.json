@@ -181,6 +181,70 @@
         "sharePct": 0.3
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s4",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 1276,
+      "totalWords": 15011,
+      "gm": {
+        "label": "Luke Foreman",
+        "words": 7847,
+        "turns": 497,
+        "wordsPerTurn": 15.8,
+        "medianTurnWords": 7,
+        "shortTurnPct": 35.2,
+        "sharePctOfAllWords": 52.3
+      },
+      "players": [
+        {
+          "label": "Luke S",
+          "words": 4477,
+          "turns": 355,
+          "wordsPerTurn": 12.6,
+          "medianTurnWords": 7,
+          "shortTurnPct": 34.6,
+          "sharePctOfAllWords": 29.8,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 62.5
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 1348,
+          "turns": 212,
+          "wordsPerTurn": 6.4,
+          "medianTurnWords": 4.0,
+          "shortTurnPct": 47.2,
+          "sharePctOfAllWords": 9.0,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 18.8
+        },
+        {
+          "label": "William Webb",
+          "words": 1339,
+          "turns": 212,
+          "wordsPerTurn": 6.3,
+          "medianTurnWords": 3.5,
+          "shortTurnPct": 50.0,
+          "sharePctOfAllWords": 8.9,
+          "character": "Prof. Edward Dravin",
+          "status": "present",
+          "sharePctOfPlayerWords": 18.7
+        }
+      ],
+      "absentPlayers": [
+        {
+          "label": "John Hagey",
+          "character": "Eusacles (Hunting trip)",
+          "status": "no_data"
+        }
+      ],
+      "unmappedSpeakers": [],
+      "sharedMics": {},
+      "caveats": []
+    },
     "writingMetrics": {
       "pacingStdDev": 7.4,
       "pacingDynamic": true,
@@ -193,10 +257,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -206,17 +270,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 92,
-      "popcornmeter": 94,
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
       "campaignArcImpact": "The Wordcraft Awakening: Alfie's living connection to the Fate Loom crystallizes with the forging of the Chaos Belt, shifting the party from reactive fugitives to active wielders of reality-altering magic.",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Forensic audit verified.",
       "narrativeCraftFeedback": null,

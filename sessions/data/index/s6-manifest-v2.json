@@ -125,6 +125,76 @@
         "sharePct": 0.9
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s6",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 1563,
+      "totalWords": 17464,
+      "gm": {
+        "label": "Luke Foreman",
+        "words": 8424,
+        "turns": 604,
+        "wordsPerTurn": 13.9,
+        "medianTurnWords": 5.0,
+        "shortTurnPct": 41.9,
+        "sharePctOfAllWords": 48.2
+      },
+      "players": [
+        {
+          "label": "Luke S",
+          "words": 4683,
+          "turns": 418,
+          "wordsPerTurn": 11.2,
+          "medianTurnWords": 5.0,
+          "shortTurnPct": 42.8,
+          "sharePctOfAllWords": 26.8,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 51.8
+        },
+        {
+          "label": "William Webb",
+          "words": 2340,
+          "turns": 230,
+          "wordsPerTurn": 10.2,
+          "medianTurnWords": 7.0,
+          "shortTurnPct": 34.8,
+          "sharePctOfAllWords": 13.4,
+          "character": "Prof. Edward Dravin",
+          "status": "present",
+          "sharePctOfPlayerWords": 25.9
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 1467,
+          "turns": 237,
+          "wordsPerTurn": 6.2,
+          "medianTurnWords": 4,
+          "shortTurnPct": 48.1,
+          "sharePctOfAllWords": 8.4,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 16.2
+        },
+        {
+          "label": "John Hagey",
+          "words": 550,
+          "turns": 74,
+          "wordsPerTurn": 7.4,
+          "medianTurnWords": 4.0,
+          "shortTurnPct": 47.3,
+          "sharePctOfAllWords": 3.1,
+          "character": "Eusacles",
+          "status": "present",
+          "sharePctOfPlayerWords": 6.1
+        }
+      ],
+      "absentPlayers": [],
+      "unmappedSpeakers": [],
+      "sharedMics": {},
+      "caveats": []
+    },
     "writingMetrics": {
       "pacingStdDev": 8.4,
       "pacingDynamic": true,
@@ -137,10 +207,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -150,17 +220,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 92,
-      "popcornmeter": 94,
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
       "campaignArcImpact": "The Auditorium Incursion & Memory Extraction: Session 6 thrusts the party into direct planar conflict inside the university auditorium. As Dr. Thorne's altered research draws Gorgon-tendriled predators and satyr strike teams, the party confronts cognitive warfare where memories are actively extracted. Pierre's acid defense and crew-cut surgery, Alfie's Mage Band hair tie and Wordcraft ('Spore the Dying'), and Dravin's crushing scholarly lexicon knockout neutralize the incursion, securing the captive and establishing the gateway to the Lost Roads.",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Kinetic, high-stakes auditorium combat that balances slapstick body horror with cognitive vulnerability. The mechanical chaos of the sprinkler system, spectral ruler strikes, and Alfie's hair-scrunchie intervention maintain brisk velocity while grounding Pierre and Eusacles's close brushes with identity theft.",
       "narrativeCraftFeedback": {

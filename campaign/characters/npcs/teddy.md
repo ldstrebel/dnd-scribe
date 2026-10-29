@@ -1,4 +1,5 @@
-# Theodore (Teddy)
+# Teddy
+**Aliases:** Theodore  
 **Type:** Non-Player Character (NPC)  
 **Role:** Caretaker of The Margin · 1846 Surveyor  
 **UI Color:** `#d97706`  

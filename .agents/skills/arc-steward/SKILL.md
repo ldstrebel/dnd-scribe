@@ -18,7 +18,7 @@ The Arc Steward governs multi-book cosmology, faction agendas, and character tra
 
 2. **Cosmological Ground Truths (Fragment & Veil Invariants):**
    - **Fragments:** Grounded as physical relics (`[ESTABLISHED: S4 L0348, S5 L1055]`). Whether an anomaly can manifest purely as an unanchored event remains an open inquiry (`[OPEN: S5 L1052-L1054]`).
-   - **Timeline Mechanics:** Reality unraveling manifests via living ink and the Fates. Reductors intervene under the celestial veil.
+   - **Timeline Mechanics:** Reality unraveling manifests via living ink and the Fates. Redactors intervene under the celestial veil.
 
 3. **Governing Ledger Maintenance:**
    - Reference `campaign/CAMPAIGN_ARC_LEDGER.md` for all macro-lore constraints.

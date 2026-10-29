@@ -167,6 +167,76 @@
         "sharePct": 2.7
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s2",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 2004,
+      "totalWords": 23095,
+      "gm": {
+        "label": "Luke Foreman",
+        "words": 13300,
+        "turns": 827,
+        "wordsPerTurn": 16.1,
+        "medianTurnWords": 6,
+        "shortTurnPct": 41.7,
+        "sharePctOfAllWords": 57.6
+      },
+      "players": [
+        {
+          "label": "Luke S",
+          "words": 4431,
+          "turns": 497,
+          "wordsPerTurn": 8.9,
+          "medianTurnWords": 4,
+          "shortTurnPct": 49.3,
+          "sharePctOfAllWords": 19.2,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 45.2
+        },
+        {
+          "label": "John Hagey",
+          "words": 3518,
+          "turns": 291,
+          "wordsPerTurn": 12.1,
+          "medianTurnWords": 5,
+          "shortTurnPct": 41.9,
+          "sharePctOfAllWords": 15.2,
+          "character": "Eusacles",
+          "status": "present",
+          "sharePctOfPlayerWords": 35.9
+        },
+        {
+          "label": "William Webb",
+          "words": 1113,
+          "turns": 211,
+          "wordsPerTurn": 5.3,
+          "medianTurnWords": 3,
+          "shortTurnPct": 56.9,
+          "sharePctOfAllWords": 4.8,
+          "character": "Prof. Edward Dravin",
+          "status": "present",
+          "sharePctOfPlayerWords": 11.4
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 733,
+          "turns": 178,
+          "wordsPerTurn": 4.1,
+          "medianTurnWords": 2.0,
+          "shortTurnPct": 66.9,
+          "sharePctOfAllWords": 3.2,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 7.5
+        }
+      ],
+      "absentPlayers": [],
+      "unmappedSpeakers": [],
+      "sharedMics": {},
+      "caveats": []
+    },
     "writingMetrics": {
       "pacingStdDev": 6.1,
       "pacingDynamic": false,
@@ -179,10 +249,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -192,17 +262,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 92,
-      "popcornmeter": 94,
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
       "campaignArcImpact": "The Convergence: Fleeing into the Appalachian foothills, the party realizes their survival depends on mutual reliance, discovering that the anomalies are not accidental.",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Atmospheric sanctuary lore drop and corrector drill. Balances Theodore's worldbuilding with Naomi's tactical briefing. The trade-off is a lower combat stakes tempo compared to S1/S3, functioning as an exposition-dense transit chapter.",
       "narrativeCraftFeedback": null,

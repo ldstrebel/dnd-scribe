@@ -181,6 +181,70 @@
         "sharePct": 0.9
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s7",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 1293,
+      "totalWords": 16942,
+      "gm": {
+        "label": "Luke Foreman",
+        "words": 7227,
+        "turns": 396,
+        "wordsPerTurn": 18.2,
+        "medianTurnWords": 8.0,
+        "shortTurnPct": 31.8,
+        "sharePctOfAllWords": 42.7
+      },
+      "players": [
+        {
+          "label": "Luke S",
+          "words": 4396,
+          "turns": 305,
+          "wordsPerTurn": 14.4,
+          "medianTurnWords": 8,
+          "shortTurnPct": 28.2,
+          "sharePctOfAllWords": 25.9,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 45.2
+        },
+        {
+          "label": "John Hagey",
+          "words": 3899,
+          "turns": 344,
+          "wordsPerTurn": 11.3,
+          "medianTurnWords": 6.0,
+          "shortTurnPct": 34.3,
+          "sharePctOfAllWords": 23.0,
+          "character": "Eusacles",
+          "status": "present",
+          "sharePctOfPlayerWords": 40.1
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 1420,
+          "turns": 248,
+          "wordsPerTurn": 5.7,
+          "medianTurnWords": 4.0,
+          "shortTurnPct": 48.0,
+          "sharePctOfAllWords": 8.4,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 14.6
+        }
+      ],
+      "absentPlayers": [
+        {
+          "label": "William Webb",
+          "character": "Prof. Edward Dravin",
+          "status": "no_data"
+        }
+      ],
+      "unmappedSpeakers": [],
+      "sharedMics": {},
+      "caveats": []
+    },
     "writingMetrics": {
       "pacingStdDev": 7.3,
       "pacingDynamic": true,
@@ -193,10 +257,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -206,17 +270,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 92,
-      "popcornmeter": 94,
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
       "campaignArcImpact": "Campaign Arc Milestones for Session 7",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Forensic audit verified.",
       "narrativeCraftFeedback": null,

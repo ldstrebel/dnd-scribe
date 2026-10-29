@@ -4,6 +4,9 @@ import json
 import math
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from compute_player_telemetry import load_and_compute as load_player_telemetry  # noqa: E402
+
 sys.stdout.reconfigure(encoding="utf-8")
 
 root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -428,6 +431,31 @@ def decompose_block_to_web_segments(block_id: str, text: str, source_line: int, 
 
     return segments
 
+def derive_review_scores(open_critiques_count: int) -> dict:
+    """Derive the forum review header from measurable facts only.
+
+    No numeric Tomatometer/Popcornmeter is emitted: nothing in the pipeline
+    measures them, and the previous hardcoded values (35/40, 92/94, 62 for S5)
+    were invented (DEC-037 C0). A numeric score may only be introduced together
+    with a non-null ``scoreSource`` naming the deterministic script that produced it.
+    """
+    if open_critiques_count > 0:
+        return {
+            "tomatometer": None,
+            "popcornmeter": None,
+            "grade": "REVISION REQUIRED",
+            "verdict": f"EDITORIAL CORRECTION REQUIRED ({open_critiques_count} OPEN HUMAN CRITIQUES BLOCKING)",
+            "scoreSource": "open_critiques_count (status only; no numeric score)",
+        }
+    return {
+        "tomatometer": None,
+        "popcornmeter": None,
+        "grade": "UNSCORED",
+        "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+        "scoreSource": "none (unmeasured)",
+    }
+
+
 def generate_session_v2_manifest(session_num):
     sid = f"s{session_num}"
     story_path = os.path.join(clean_dir, f"{sid}-clean-story.md")
@@ -692,16 +720,12 @@ def generate_session_v2_manifest(session_num):
         except Exception:
             pass
 
-    if open_critiques_count > 0:
-        manifest_tomatometer = 35
-        manifest_popcornmeter = 40
-        manifest_grade = "REVISION REQUIRED"
-        manifest_verdict = f"EDITORIAL CORRECTION REQUIRED ({open_critiques_count} OPEN HUMAN CRITIQUES BLOCKING)"
-    else:
-        manifest_tomatometer = 92 if session_num != 5 else 62
-        manifest_popcornmeter = 94
-        manifest_grade = "A-" if session_num != 5 else "B-"
-        manifest_verdict = "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)"
+    _review = derive_review_scores(open_critiques_count)
+    manifest_tomatometer = _review["tomatometer"]
+    manifest_popcornmeter = _review["popcornmeter"]
+    manifest_grade = _review["grade"]
+    manifest_verdict = _review["verdict"]
+    manifest_score_source = _review["scoreSource"]
 
     v2_manifest = {
         "schemaVersion": "2.0",
@@ -730,6 +754,7 @@ def generate_session_v2_manifest(session_num):
                 "status": "BALANCED" if 15 <= spoken_pct <= 55 else "NARRATIVE_HEAVY"
             },
             "speakerDistribution": speaker_dist,
+            "playerTelemetry": load_player_telemetry(root_dir, session_num),
             "writingMetrics": {
                 "pacingStdDev": pacing_std_dev,
                 "pacingDynamic": pacing_std_dev >= 7.0,
@@ -742,10 +767,10 @@ def generate_session_v2_manifest(session_num):
                     "registersCovered": sum(1 for c in sensory_counts.values() if c > 0)
                 },
                 "guardAudits": {
-                    "oocLeaks": 0,
-                    "echoLoops": 0,
-                    "adverbTags": 0,
-                    "status": "PASS"
+                    "oocLeaks": None,
+                    "echoLoops": None,
+                    "adverbTags": None,
+                    "status": "NOT_MEASURED"
                 }
             }
         },
@@ -759,20 +784,22 @@ def generate_session_v2_manifest(session_num):
                 "verdict": manifest_verdict,
                 "tomatometer": manifest_tomatometer,
                 "popcornmeter": manifest_popcornmeter,
+                "scoreSource": manifest_score_source,
                 "campaignArcImpact": {
                     1: "The Inciting Incident: The unsealing of the subterranean vault and the initial temporal ripple that entangled our four strangers into a shared, fractured fate.",
                     2: "The Convergence: Fleeing into the Appalachian foothills, the party realizes their survival depends on mutual reliance, discovering that the anomalies are not accidental.",
                     3: "The Underworld Breach: The first manifestation of Persephone's emissaries and Thanatos's shadow; proving that ancient mythic powers are awake in modern America.",
                     4: "The Wordcraft Awakening: Alfie's living connection to the Fate Loom crystallizes with the forging of the Chaos Belt, shifting the party from reactive fugitives to active wielders of reality-altering magic.",
-                    5: "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Reductor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure.",
+                    5: "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Redactor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure.",
                     6: "The Auditorium Incursion & Memory Extraction: Session 6 thrusts the party into direct planar conflict inside the university auditorium. As Dr. Thorne's altered research draws Gorgon-tendriled predators and satyr strike teams, the party confronts cognitive warfare where memories are actively extracted. Pierre's acid defense and crew-cut surgery, Alfie's Mage Band hair tie and Wordcraft ('Spore the Dying'), and Dravin's crushing scholarly lexicon knockout neutralize the incursion, securing the captive and establishing the gateway to the Lost Roads."
                 }.get(session_num, f"Campaign Arc Milestones for Session {session_num}"),
                 "technicalCompliance": {
-                    "earthLeaks": 0,
-                    "dialogueStutters": 0,
-                    "stagnantTalkingHeads": 0,
+                    "earthLeaks": None,
+                    "dialogueStutters": None,
+                    "stagnantTalkingHeads": None,
                     "openCritiques": open_critiques_count,
-                    "transcriptParity": "100%" if open_critiques_count == 0 else "PENDING_REVISION"
+                    "transcriptParity": "PENDING_REVISION" if open_critiques_count > 0 else "NOT_MEASURED_HERE",
+                    "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
                 },
                 "ruthlessAnalysis": {
                     1: "Fast-paced dimensional transit and brisk ink-beast combat. While the prose velocity is high, early chapters place heavy dialogue focus on Pierre and Dravin before Alfie enters in Scene 6. The transition from bus displacement to the cosmic library trades deep character introspection for high sensory action.",

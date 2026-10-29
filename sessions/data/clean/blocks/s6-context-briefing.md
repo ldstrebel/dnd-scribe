@@ -9,7 +9,7 @@
 
 ### 🏁 Exact Closing Beat of Preceding Session:
 ```markdown
-Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Reductors had arrived for the binder. Satyrs—or worse, satans.
+Slamming through the fleeing crowd from the lobby, pushing violently inward against the panicked students, three towering, cloaked figures strode into the auditorium. Beneath their billowing dark trench coats, thick curving ram horns curled back from their brow ridges. Cloven hooves smashed through the linoleum tile with brutal, concussive force, and sulfurous yellow eyes locked onto the stage. The Redactors had arrived for the binder. Satyrs—or worse, satans.
 
 Alfie's carved wooden head swiveled slowly on its peg, his painted eyes wide with horror as he pointed a trembling driftwood arm toward the double doors at the rear of the hall.
 

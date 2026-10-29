@@ -26,6 +26,7 @@ from sessions._scripts.audit_semantic_grounding import (
     load_lore_lexicon,
     load_skip_exemptions,
 )
+from sessions._scripts.audit_codex import audit_codex, BANNED_LEAK_PATTERNS, LINK_RE
 
 
 
@@ -525,6 +526,240 @@ class TestWritersRoomGates(unittest.TestCase):
         self.assertEqual(declared["legacy npc"], 1)
 
 
+class TestFactionSpellingGate(unittest.TestCase):
+    """DEC-037: the faction is 'Redactors'; 'Reductor' is an STT artifact."""
+
+    def _audit(self, text, session_id="s99"):
+        from sessions._scripts.verify_intent_parity import audit_intent_parity
+        with tempfile.TemporaryDirectory() as tmp:
+            Path(tmp, f"{session_id}-scene-01.md").write_text(text, encoding="utf-8")
+            return audit_intent_parity(session_id, blocks_dir=tmp)
+
+    def test_reductor_spelling_fails_without_contract(self):
+        passed, errors, _ = self._audit("The Reductors had arrived for the binder.")
+        self.assertFalse(passed)
+        self.assertTrue(any("FACTION_NAME_REDACTOR" in e for e in errors))
+
+    def test_reductor_spelling_fails_even_with_contract_lacking_rule(self):
+        # s1 contract does not declare FACTION_NAME_REDACTOR; merge must still apply it.
+        passed, errors, _ = self._audit("A lone Reductor stepped forward.", session_id="s1")
+        self.assertFalse(passed)
+        self.assertTrue(any("FACTION_NAME_REDACTOR" in e for e in errors))
+
+    def test_redactor_spelling_passes(self):
+        passed, errors, _ = self._audit("The Redactors had arrived for the binder.")
+        self.assertTrue(passed, errors)
+
+    def test_reductor_in_html_comment_is_ignored(self):
+        passed, errors, _ = self._audit("<!-- LEDGER: raw said reductor -->\nThe Redactors arrived.")
+        self.assertTrue(passed, errors)
+
+
+class TestScoreProvenance(unittest.TestCase):
+    """DEC-037 C0: no numeric score without a deterministic producer."""
+
+    def test_derive_review_scores_never_invents_numbers(self):
+        from sessions._scripts.generate_web_manifest import derive_review_scores
+        for open_n in (0, 1, 7):
+            r = derive_review_scores(open_n)
+            self.assertIsNone(r["tomatometer"])
+            self.assertIsNone(r["popcornmeter"])
+        self.assertEqual(derive_review_scores(2)["grade"], "REVISION REQUIRED")
+        self.assertEqual(derive_review_scores(0)["grade"], "UNSCORED")
+
+    def test_gate_flags_numeric_score_without_source(self):
+        from sessions._scripts.verify_manifest import audit_unsourced_scores
+        m = {"editorialForum": {"initialBotReview": {"tomatometer": 92, "popcornmeter": 94}}}
+        errs = audit_unsourced_scores(m)
+        self.assertEqual(len(errs), 2)
+        self.assertTrue(all("[UNSOURCED_SCORE]" in e for e in errs))
+
+    def test_gate_flags_score_with_none_source(self):
+        from sessions._scripts.verify_manifest import audit_unsourced_scores
+        m = {"editorialForum": {"initialBotReview": {"tomatometer": 92, "scoreSource": "none (unmeasured)"}}}
+        self.assertEqual(len(audit_unsourced_scores(m)), 1)
+
+    def test_gate_accepts_none_scores_and_sourced_scores(self):
+        from sessions._scripts.verify_manifest import audit_unsourced_scores
+        self.assertEqual(audit_unsourced_scores({"editorialForum": {"initialBotReview": {"tomatometer": None, "popcornmeter": None}}}), [])
+        sourced = {"editorialForum": {"initialBotReview": {"tomatometer": 80, "scoreSource": "compute_x.py"}}}
+        self.assertEqual(audit_unsourced_scores(sourced), [])
+
+    def test_gate_flags_literal_guard_counters(self):
+        from sessions._scripts.verify_manifest import audit_unsourced_scores
+        m = {"stats": {"writingMetrics": {"guardAudits": {"oocLeaks": 0, "echoLoops": 0, "status": "PASS"}}}}
+        errs = audit_unsourced_scores(m)
+        self.assertEqual(len(errs), 1)
+        self.assertIn("guardAudits", errs[0])
+        ok = {"stats": {"writingMetrics": {"guardAudits": {"oocLeaks": None, "status": "NOT_MEASURED"}}}}
+        self.assertEqual(audit_unsourced_scores(ok), [])
+
+    def test_committed_manifests_carry_no_unsourced_scores(self):
+        """Regenerated v2 manifests must pass the provenance gate."""
+        from sessions._scripts.verify_manifest import audit_unsourced_scores
+        index = REPO_ROOT / "sessions" / "data" / "index"
+        for p in sorted(index.glob("s*-manifest-v2.json")):
+            with open(p, "r", encoding="utf-8") as f:
+                self.assertEqual(audit_unsourced_scores(json.load(f)), [], p.name)
+
+
+class TestPlayerTelemetry(unittest.TestCase):
+    CFG = {
+        "players": {"Pat P": "Pierre", "Sam S": "Alfie", "Wes W": "Dravin"},
+        "game_master": {"person": "Gina G", "identity": "Gina G (GM)"},
+        "absent_players": {"Wes W": "Dravin"},
+        "shared_mics": {},
+    }
+    RAW = (
+        "L0001: **Gina G:** The door opens slowly into the dark.\n"
+        "L0002: **Pat P:** I look inside and grin widely at everyone.\n"
+        "L0003: **Sam S:** Okay.\n"
+        "L0004: **Pat P:** Ha.\n"
+        "L0005: **Zed Z:** Is this thing on?\n"
+        "not a transcript row\n"
+    )
+
+    def _run(self, raw=None, cfg=None):
+        from sessions._scripts.compute_player_telemetry import compute_player_telemetry
+        return compute_player_telemetry(raw if raw is not None else self.RAW, cfg or self.CFG, "s99")
+
+    def test_counts_are_exact(self):
+        t = self._run()
+        self.assertEqual(t["rawRowsParsed"], 5)
+        pat = next(p for p in t["players"] if p["label"] == "Pat P")
+        self.assertEqual(pat["turns"], 2)
+        self.assertEqual(pat["words"], 8 + 1)
+        self.assertEqual(pat["shortTurnPct"], 50.0)
+        self.assertEqual(t["gm"]["words"], 7)
+
+    def test_absent_player_is_no_data_not_zero(self):
+        t = self._run()
+        self.assertEqual([a["label"] for a in t["absentPlayers"]], ["Wes W"])
+        self.assertEqual(t["absentPlayers"][0]["status"], "no_data")
+        # An absent person must never appear as a zero-airtime row, even if also in 'players'.
+        self.assertNotIn("Wes W", [p["label"] for p in t["players"]])
+
+    def test_unmapped_speaker_is_reported(self):
+        t = self._run()
+        self.assertEqual([u["label"] for u in t["unmappedSpeakers"]], ["Zed Z"])
+        self.assertTrue(any("unmapped" in c for c in t["caveats"]))
+
+    def test_shared_mic_caveat(self):
+        cfg = dict(self.CFG, shared_mics={"Pat P": ["Pierre", "Alfie"]})
+        t = self._run(cfg=cfg)
+        self.assertTrue(any("shared_mics" in c for c in t["caveats"]))
+
+    def test_empty_transcript_does_not_divide_by_zero(self):
+        t = self._run(raw="")
+        self.assertEqual(t["totalWords"], 0)
+        self.assertIsNone(t["gm"])
+        for p in t["players"]:
+            self.assertIsNone(p["sharePctOfAllWords"])
+
+    def test_real_s7_matches_measured_baseline(self):
+        from sessions._scripts.compute_player_telemetry import load_and_compute
+        t = load_and_compute(str(REPO_ROOT), 7)
+        self.assertIsNotNone(t)
+        by = {p["label"]: p for p in t["players"]}
+        self.assertEqual(by["Luke S"]["words"], 4396)
+        self.assertEqual(by["Sophie Foreman Noone"]["words"], 1420)
+        self.assertEqual([a["label"] for a in t["absentPlayers"]], ["William Webb"])
+
+
+class TestReaderNeverInventsGrades(unittest.TestCase):
+    """build_ebooks.py lives in a sibling repo; skip when it is not checked out."""
+
+    @classmethod
+    def setUpClass(cls):
+        path = Path("d:/Code/dndwikis-main/dndwikis-main/build_ebooks.py")
+        if not path.exists():
+            raise unittest.SkipTest("build_ebooks.py not present")
+        import importlib.util
+        try:
+            spec = importlib.util.spec_from_file_location("build_ebooks_under_test", path)
+            cls.be = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(cls.be)
+        except Exception as e:  # missing optional deps (e.g. cryptography)
+            raise unittest.SkipTest(f"build_ebooks.py not importable: {e}")
+
+    TELE = {
+        "gm": {"label": "Gina G", "sharePctOfAllWords": 40.0},
+        "players": [
+            {"label": "Pat P", "character": "Pierre", "sharePctOfPlayerWords": 60.0},
+            {"label": "Sam S", "character": "Alfie", "sharePctOfPlayerWords": 40.0},
+        ],
+        "absentPlayers": [{"label": "Wes W", "character": "Prof. Edward Dravin", "status": "no_data"}],
+    }
+
+    def test_unsourced_numeric_score_renders_unscored(self):
+        r = self.be.resolve_review_scores({"tomatometer": 92, "popcornmeter": 94}, {})
+        self.assertEqual(r["tomatometer_text"], "Unscored")
+        self.assertEqual(r["popcorn_text"], "Unscored")
+
+    def test_sourced_score_renders(self):
+        r = self.be.resolve_review_scores({"tomatometer": 80, "popcornmeter": 70, "scoreSource": "compute_x.py"}, {})
+        self.assertEqual(r["tomatometer_text"], "80%")
+
+    def test_no_defaults_when_manifest_has_no_scores(self):
+        r = self.be.resolve_review_scores({}, {})
+        self.assertEqual((r["tomatometer_text"], r["popcorn_text"], r["grade"]), ("Unscored", "Unscored", "UNSCORED"))
+
+    def test_new_session_cards_are_telemetry_only_and_ungraded(self):
+        cards = self.be.get_default_participant_scorecards(8, telemetry=self.TELE)
+        self.assertTrue(cards)
+        for c in cards:
+            self.assertNotIn("score", c)
+            self.assertNotIn("consistencyScore", c)
+            self.assertIn(c["grade"], ("Not rated", "No data"))
+        absent = next(c for c in cards if c["name"] == "Wes W")
+        self.assertEqual(absent["grade"], "No data")
+
+    def test_session_without_telemetry_gets_no_cards(self):
+        self.assertEqual(self.be.get_default_participant_scorecards(99, telemetry={}), [])
+
+    def test_legacy_cards_are_labelled_and_lose_fake_numbers(self):
+        cards = self.be.get_default_participant_scorecards(5, telemetry=self.TELE)
+        self.assertTrue(cards)
+        for c in cards:
+            self.assertNotIn("score", c)
+            self.assertNotIn("consistencyScore", c)
+            self.assertIn("Legacy opinion", c["badge"])
+
+
+class TestCodexAudit(unittest.TestCase):
+    def test_codex_audit_passes(self):
+        violations = audit_codex()
+        self.assertEqual(violations, [], f"Codex audit failed with violations: {violations}")
+
+    def test_codex_fence_catches_leaks(self):
+        bad_texts = [
+            "This was discovered in [GM-PREP: campaign/lore/secret.md]",
+            "Player telemetry shows high cognitive load.",
+            "A ruthless critic approach must be taken here.",
+            "Held to the standard of Jon Snow.",
+            "Alfie played by Sophie Foreman Noone at the table.",
+            "Risk tag character_consistency flagged.",
+            "| Line | Contributor | Function |",
+            "Referenced in s7-manifest-v2.json schema.",
+            "Opening block uneraseable_s07_b001 rendered.",
+            "Found at raw line L0259 in transcript.",
+            "Where We Left Off: Line 1543 table wrap-up.",
+            "STT speech-to-text artifact detected.",
+            "Line 1288 GM call recorded.",
+            "Source Decision Ledger table attached.",
+            "Risk Category: tabletop_fidelity.",
+        ]
+        for t in bad_texts:
+            matched = any(p.search(t) for p in BANNED_LEAK_PATTERNS)
+            self.assertTrue(matched, f"Pattern failed to catch leak: {t}")
+
+    def test_codex_recap_budget_threshold(self):
+        # 251 words should be flagged
+        long_recap = "word " * 251
+        self.assertGreater(len(long_recap.split()), 250)
+
+
 if __name__ == "__main__":
     unittest.main()
+
 

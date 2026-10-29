@@ -98,7 +98,7 @@ def print_writers_room(session_id, base_dir=None):
         print(f"  • Campaign Arc Ledger: Active ({ledger_path})")
         print("  • Negative-Only Constraints:")
         print("    * Fragments: Usually physical relics (S4 L0348, S5 L1055); unanchored events open inquiry (S5 L1052-1054).")
-        print("    * Timeline Mechanics: Edits manifest via living ink and Fates; Reductors operate under veil.")
+        print("    * Timeline Mechanics: Edits manifest via living ink and Fates; Redactors operate under veil.")
         print("    * Agency & Retcon Ban: Do NOT fabricate future acts or invent ungrounded curses/pacts.")
         
         # Section 4 Milestone Content Dump (DEC-028 Milestone 1B)

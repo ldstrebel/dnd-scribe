@@ -135,6 +135,14 @@
     {
       "line": 1112,
       "reason": "GM offering players scene options after the green-room search; procedural."
+    },
+    {
+      "line": 149,
+      "reason": "GM procedural/mechanical clarification during pre-session downtime review: explaining sunstone ember consumable items against inky creatures ('They're redactors. Uh so you get two sunstone embers...')."
+    },
+    {
+      "line": 286,
+      "reason": "GM table banter/joke responding to player banter about camp downtime hunt ('He scared away a few redactors that were on the edge of camp'); humorous table banter not staged as in-scene narrative."
     }
   ],
   "session_cutoff": {
@@ -147,7 +155,7 @@
     { "term": "anomaly", "introduced_scene": 2 },
     { "term": "trial notes", "introduced_scene": 2 },
     { "term": "Thorne", "introduced_scene": 2 },
-    { "term": "Reductor", "introduced_scene": 10 },
+    { "term": "Redactor", "introduced_scene": 10 },
     { "term": "briefcase", "introduced_scene": 9 },
     { "term": "fire alarm", "introduced_scene": 10 }
   ]

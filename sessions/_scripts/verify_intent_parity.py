@@ -8,7 +8,7 @@ Checks:
 1. Character Agency & Motivation: Independent Impulse vs. Synthetic Coordinated Heist.
 2. Consent & Force Dynamics: Unilateral Physical Force vs. Sanitized Polite Consent.
 3. Causal Sequence Fidelity: Trigger -> Phenomenon -> Consequence continuity.
-4. Faction & Canon Nomenclature: The Reductors vs. The Margin drift.
+4. Faction & Canon Nomenclature: The Redactors vs. The Margin drift (and 'Reductor' STT-slip spelling).
 5. Entity Grounding: Strict adherence to declared table props (e.g., folded tin-foil fedoras).
 """
 
@@ -29,8 +29,17 @@ DEFAULT_UNIVERSAL_RULES = [
             r"\bthe\s+margin\s+had\s+arrived\b",
             r"\bthe\s+margin\s+infiltrators\b"
         ],
-        "required_replacement": "The Reductors",
-        "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+        "required_replacement": "The Redactors",
+        "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Redactors'."
+    },
+    {
+        "id": "FACTION_NAME_REDACTOR",
+        "description": "STT-artifact spelling of the faction name leaked into prose (GM says 'redactors'; 'reductor' is a transcription slip)",
+        "forbidden_prose_patterns": [
+            r"\bReductors?\b"
+        ],
+        "required_replacement": "Redactors",
+        "fail_message": "Faction is spelled 'Redactors' (title: 'Redactor'). 'Reductor' is a speech-to-text artifact."
     },
     {
         "id": "MARKDOWN_TYPOGRAPHY_LEAK",
@@ -43,15 +52,19 @@ DEFAULT_UNIVERSAL_RULES = [
 ]
 
 def load_intent_contract(session_id: str, base_dir: str) -> List[Dict]:
+    """Return universal rules merged with the session contract (contract wins on id clash)."""
     contract_file = os.path.join(base_dir, "config", f"{session_id}-intent-contract.json")
+    session_rules: List[Dict] = []
     if os.path.exists(contract_file):
         try:
             with open(contract_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                return data.get("rules", [])
+                session_rules = data.get("rules", [])
         except Exception as e:
             print(f"Warning: Failed to load {contract_file}: {e}")
-    return DEFAULT_UNIVERSAL_RULES
+    session_ids = {r.get("id") for r in session_rules}
+    universal = [r for r in DEFAULT_UNIVERSAL_RULES if r["id"] not in session_ids]
+    return universal + session_rules
 
 def audit_intent_parity(session_id: str, blocks_dir: str = None) -> Tuple[bool, List[str], List[str]]:
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

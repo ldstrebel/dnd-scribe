@@ -41,6 +41,8 @@ BANNED_SPECULATIVE_TOKENS = [
 CANONICAL_MACRO_ENTITIES = [
     "fates",
     "three fates",
+    "redactor",
+    "redactors",
     "reductor",
     "reductors",
     "margin warden",

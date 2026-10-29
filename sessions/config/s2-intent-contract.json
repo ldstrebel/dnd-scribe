@@ -45,8 +45,8 @@
       "forbidden_prose_patterns": [
         "\\bthe\\s+margin\\s+infiltrators\\b"
       ],
-      "required_replacement": "The Reductors",
-      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Reductors'."
+      "required_replacement": "The Redactors",
+      "fail_message": "Adversary faction labeled as 'The Margin'. Canonical faction is 'The Redactors'."
     },
     {
       "id": "MARKDOWN_TYPOGRAPHY_LEAK",
@@ -103,7 +103,7 @@
       "scene": "scene-06",
       "scope": "The Anomaly Algorithm & Blackout Drill",
       "liberty": "Condensed 2,500 words of circular table debate over online forum threads and auction clips into a focused briefing on the four cosmic fragments, staged the sudden perimeter blackout drill, and grounded Apollo demigod heritage.",
-      "impact": "Tightened pacing by 80% while establishing the Reductor corrector threat and Dravin's archaeological connection to the NC tablet."
+      "impact": "Tightened pacing by 80% while establishing the Redactor corrector threat and Dravin's archaeological connection to the NC tablet."
     },
     {
       "scene": "scene-07",

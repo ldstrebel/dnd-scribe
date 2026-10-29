@@ -1,0 +1,26 @@
+[🏛️ Campaign Codex Home](../README.md) > **Active Mysteries & Plot Lines Board**
+
+# 🧶 Open Campaign Threads & Active Mysteries Board
+**Codex Category:** Campaign Progression  
+
+Welcome to the **Campaign Mysteries Board**. This living ledger tracks active plot threads, origin questions, 
+and major narrative hooks across Sessions 1–7.
+
+To guard against speculative over-joining, this board strictly distinguishes between **Established In-World Evidence** 
+(observable facts, recovered documents, physical relics, and confirmed encounters) and **Party Hypotheses & Inquiries** 
+(unconfirmed theories, working deductions, and player suspicions).
+
+---
+
+## 🧭 Active Mysteries & Campaign Hooks
+
+| Thread ID | Core Plot Question & Mystery | Origin | Status | Established In-World Evidence (Observed Facts) | Party Hypotheses & Open Inquiries |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| <a id="th-01"></a>**TH-01** | **[Alfie's Origin & Carving](../characters/alfie.md):** Who carved the sentient driftwood construct, and what historical coastal raid is burned into her memory? | [Session 1](../sessions/s1.md) | `Active` | Woven from weathered driftwood and drowned sailors' cloaks by the Three Fates. Possesses 458 years of thread memory; experiences vivid sensory flashbacks of freezing brine, dark oarsmen, and a coastal village put to the torch. | The party suspects her wood was salvaged from a specific historical naval raid erased by Redactors. |
+| <a id="th-02"></a>**TH-02** | **[The Naval Nightmare Stele Resonance](../characters/alfie.md):** Why did touching the Raleigh Greek inscription tablet trigger traumatic naval flashbacks? | [Session 4](../sessions/s4.md) | `Active` | Touching the fractured Aegean stele triggered violent electrical shock and intense hallucinations of ancient naval warfare. Causes chronic insomnia requiring lanterns burning through the night. | Alfie theorizes that timeline fragments physically discharge the traumatic suffering of the people erased in that branch point. |
+| <a id="th-03"></a>**TH-03** | **[1948 Big Pox Clinical Trial Reality](../characters/thorne.md):** Did Dr. Thorne's altered formula cure the disease or poison patients, and why was the word 'STABLE' altered? | [Session 5](../sessions/s5.md) | `Active` | Recovered 1948 trial notes binder from University University green room exhibits physical ink alterations where 'STABLE' was retroactively overwritten to 'STALE'. Satyr strike teams attacked specifically to seize it. | Professor Dravin deduces that an unknown entity ('The Master') altered the historical record to conceal that the clinical trial was an intentional massacre rather than a medical failure. |
+| <a id="th-04"></a>**TH-04** | **[Persephone's Winter Solstice Warning](../characters/hermes.md):** What specific danger threatens the Margin as Persephone descends into the underworld? | [Session 5](../sessions/s5.md) | `Active` | Sealed dispatch delivered via the Hermes Express warns that seasonal thinning of cosmic veils exposes reality creases to planar predators. | Teddy and Naomi deduce that the winter solstice will trigger direct Redactor assaults against the Margin perimeter. |
+| <a id="th-05"></a>**TH-05** | **[The Six-Fingered Redactor Operative](../factions/redactors.md):** Who is the multi-faced Redactor stalker shadowing the party across university quads? | [Session 7](../sessions/s7.md) | `Active` | An elite tracking specialist possessing six fingers per hand and constantly shifting facial features shadowed the party across campus before being distracted by Pierre's rabbit patronus. | The party hypothesizes that the operative is a specialized biometric tracker keyed to their living anomaly signatures. |
+| <a id="th-06"></a>**TH-06** | **[Washington D.C. Police Evidence Locker Expedition](../sessions/s7.md):** Recovering the anomalous cataloged evidence referenced in Naomi's briefing. | [Session 7](../sessions/s7.md) | `Immediate Lead` | Naomi pinned reconnaissance photographs to the Anomaly Board detailing a high-security evidence locker in Washington, D.C. holding an artifact from an unrecorded 1980s airline flight. | The party plans to utilize academic credentials and forged transit paperwork to infiltrate the municipal locker without tripping mortal police alarms. |
+| <a id="th-07"></a>**TH-07** | **The Nature of Timeline Fragments:** Can a Fragment exist purely as an unanchored historical event, or must it possess a physical relic anchor? | [Session 5](../sessions/s5.md) | `Active In-World Inquiry` | The Raleigh stele and Thorne's trial notes both functioned as physical anchors for historical anomalies. | The party debates whether historical events can be altered without a physical anchor stone or parchment, or if all timeline folds require a material core. |
+| <a id="th-08"></a>**TH-08** | **[Eusacles' Engraved Watch Resonance](../characters/eusacles.md):** Thanatos dream confirmation of watch enchantment and cryptic hints regarding Pierre's lineage. | [Session 7](../sessions/s7.md) | `Confirmed / Resolved` | Thanatos manifested in Eusacles' campfire dream, physically engraving divine armor runes onto his five-dollar wristwatch, and laughed uproariously when asked about Pierre's mother. | Eusacles suspects Pierre's mother is an ancient Olympian or Gorgon deity who deliberately hid Pierre in the mortal world. |

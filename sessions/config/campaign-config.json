@@ -13,7 +13,7 @@
     ],
     "npcs": [
       "Naomi",
-      "Theodore",
+      "Teddy",
       "Rosa",
       "Mike",
       "The Three Fates",
@@ -28,7 +28,20 @@
       "Shadow Beast",
       "News Anchor",
       "Bus Passenger",
-      "Museum Attendant"
+      "Museum Attendant",
+      "Susanna",
+      "Thanatos",
+      "Hermes"
+    ],
+    "factions": [
+      "Redactors",
+      "The Margin",
+      "Margin Wardens",
+      "The Fates"
+    ],
+    "titles": [
+      "Redactor",
+      "Caretaker of The Margin"
     ],
     "locations": [
       "The Margin",
@@ -42,6 +55,38 @@
       "Greyhound Bus",
       "Asylum"
     ]
+  },
+  "alias_registry": {
+    "Teddy": {
+      "canonical_name": "Teddy",
+      "type": "npc",
+      "aliases": ["Theodore", "Teddie", "Ted", "Caretaker"],
+      "rule": "Teddy is the canonical display name; Theodore is a config/narrator alias that never appears in raw dialogue."
+    },
+    "Redactors": {
+      "canonical_name": "Redactors",
+      "type": "faction",
+      "aliases": ["The Redactors", "Reductors", "The Reductors"],
+      "rule": "The adversary faction is the Redactors. Reductor is a speech-to-text artifact."
+    },
+    "Redactor": {
+      "canonical_name": "Redactor",
+      "type": "title",
+      "aliases": ["The Redactor", "Timeline Redactor"],
+      "rule": "Redactor is a title/role entity distinct from the collective faction Redactors."
+    },
+    "Dravin": {
+      "canonical_name": "Prof. Edward Dravin",
+      "type": "pc",
+      "aliases": ["Edward Dravin", "Dravin", "Professor Dravin", "The Professor"],
+      "rule": "Standard player character designations."
+    },
+    "The Three Fates": {
+      "canonical_name": "The Three Fates",
+      "type": "npc",
+      "aliases": ["Three Fates", "The Fates", "Clotho", "Lachesis", "Atropos"],
+      "rule": "Cosmic weavers of the Loom of Time."
+    }
   },
   "character_anchors": {
     "pierre": {
@@ -209,6 +254,8 @@
   "lore_lexicon": [
     "persephone",
     "thanatos",
+    "redactor",
+    "redactors",
     "reductor",
     "reductors",
     "stale.",

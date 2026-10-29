@@ -139,6 +139,76 @@
         "sharePct": 2.0
       }
     ],
+    "playerTelemetry": {
+      "schema": "playerTelemetry/1",
+      "session": "s3",
+      "scope": "full raw transcript incl. pre-game and table talk (airtime, not in-fiction spotlight)",
+      "rawRowsParsed": 1995,
+      "totalWords": 17687,
+      "gm": {
+        "label": "Luke Foreman",
+        "words": 9027,
+        "turns": 766,
+        "wordsPerTurn": 11.8,
+        "medianTurnWords": 4.0,
+        "shortTurnPct": 46.3,
+        "sharePctOfAllWords": 51.0
+      },
+      "players": [
+        {
+          "label": "Luke S",
+          "words": 4734,
+          "turns": 551,
+          "wordsPerTurn": 8.6,
+          "medianTurnWords": 3,
+          "shortTurnPct": 51.9,
+          "sharePctOfAllWords": 26.8,
+          "character": "Pierre",
+          "status": "present",
+          "sharePctOfPlayerWords": 54.7
+        },
+        {
+          "label": "William Webb",
+          "words": 2186,
+          "turns": 324,
+          "wordsPerTurn": 6.7,
+          "medianTurnWords": 3.0,
+          "shortTurnPct": 53.1,
+          "sharePctOfAllWords": 12.4,
+          "character": "Prof. Edward Dravin",
+          "status": "present",
+          "sharePctOfPlayerWords": 25.2
+        },
+        {
+          "label": "Sophie Foreman Noone",
+          "words": 1740,
+          "turns": 354,
+          "wordsPerTurn": 4.9,
+          "medianTurnWords": 2.0,
+          "shortTurnPct": 61.3,
+          "sharePctOfAllWords": 9.8,
+          "character": "Alfie",
+          "status": "present",
+          "sharePctOfPlayerWords": 20.1
+        },
+        {
+          "label": "John Hagey",
+          "words": 0,
+          "turns": 0,
+          "wordsPerTurn": null,
+          "medianTurnWords": null,
+          "shortTurnPct": null,
+          "sharePctOfAllWords": 0.0,
+          "character": "Eusacles",
+          "status": "declared_but_silent",
+          "sharePctOfPlayerWords": 0.0
+        }
+      ],
+      "absentPlayers": [],
+      "unmappedSpeakers": [],
+      "sharedMics": {},
+      "caveats": []
+    },
     "writingMetrics": {
       "pacingStdDev": 7.9,
       "pacingDynamic": true,
@@ -151,10 +221,10 @@
         "registersCovered": 5
       },
       "guardAudits": {
-        "oocLeaks": 0,
-        "echoLoops": 0,
-        "adverbTags": 0,
-        "status": "PASS"
+        "oocLeaks": null,
+        "echoLoops": null,
+        "adverbTags": null,
+        "status": "NOT_MEASURED"
       }
     }
   },
@@ -164,17 +234,19 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "A-",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 92,
-      "popcornmeter": 94,
+      "grade": "UNSCORED",
+      "verdict": "NO OPEN CRITIQUES (UNSCORED - see pipeline gate report for pass/fail)",
+      "tomatometer": null,
+      "popcornmeter": null,
+      "scoreSource": "none (unmeasured)",
       "campaignArcImpact": "The Underworld Breach: The first manifestation of Persephone's emissaries and Thanatos's shadow; proving that ancient mythic powers are awake in modern America.",
       "technicalCompliance": {
-        "earthLeaks": 0,
-        "dialogueStutters": 0,
-        "stagnantTalkingHeads": 0,
+        "earthLeaks": null,
+        "dialogueStutters": null,
+        "stagnantTalkingHeads": null,
         "openCritiques": 0,
-        "transcriptParity": "100%"
+        "transcriptParity": "NOT_MEASURED_HERE",
+        "measurementStatus": "NOT_MEASURED (see pipeline gate reports; DEC-037 C0)"
       },
       "ruthlessAnalysis": "Heist-style museum infiltration in Raleigh. Pierre's Sorbonne intern disguise and Alfie's Wordcraft ('Sleep' -> 'Sheep') showcase creative player agency. The trade-off is splitting the party focus, with Eusacles and Dravin in auxiliary roles while Pierre/Alfie carry the stealth infiltration.",
       "narrativeCraftFeedback": null,
