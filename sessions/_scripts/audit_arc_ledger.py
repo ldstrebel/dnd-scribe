@@ -46,7 +46,7 @@ CANONICAL_MACRO_ENTITIES = [
     "margin warden",
     "margin wardens",
     "hermes",
-    "persephone",
+    "thanatos",
 ]
 
 

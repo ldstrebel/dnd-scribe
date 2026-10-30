@@ -47,13 +47,13 @@ CHARACTER_REGISTRY = {
         "name": "Ally",
         "type": "npc",
         "color": "#ec4899",
-        "role": "Maiden of Persephone · Underworld Guide"
+        "role": "Timeline Researcher · Underworld Guide"
     },
-    "persephone": {
-        "name": "Lady Persephone",
+    "thanatos": {
+        "name": "Thanatos",
         "type": "npc",
-        "color": "#10b981",
-        "role": "Queen of the Underworld · Goddess of Spring"
+        "color": "#94a3b8",
+        "role": "God of Peaceful Death · Patron of Eusacles"
     },
     "anna": {
         "name": "Anna Smith",
@@ -684,9 +684,9 @@ def generate_session_v2_manifest(session_num):
                 "campaignArcImpact": {
                     1: "The Inciting Incident: The unsealing of the subterranean vault and the initial temporal ripple that entangled our four strangers into a shared, fractured fate.",
                     2: "The Convergence: Fleeing into the Appalachian foothills, the party realizes their survival depends on mutual reliance, discovering that the anomalies are not accidental.",
-                    3: "The Underworld Breach: The first manifestation of Persephone's emissaries and Thanatos's shadow; proving that ancient mythic powers are awake in modern America.",
+                    3: "The Underworld Breach: The first manifestation of celestial powers and Thanatos's shadow; proving that ancient mythic forces are awake in modern America.",
                     4: "The Wordcraft Awakening: Alfie's living connection to the Fate Loom crystallizes with the forging of the Chaos Belt, shifting the party from reactive fugitives to active wielders of reality-altering magic.",
-                    5: "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Reductor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's sealed Persephone heritage, the party has become the primary target of organized timeline erasure."
+                    5: "The Historical Redaction & Planar War: Session 5 permanently elevates the campaign from fugitive survival in the Appalachian foothills to an active war over causality. Uncovering Dr. Thorne's altered 1948 trial binder (where 'STABLE' was overwritten to 'STALE' by an unseen hand) proves history itself is being actively edited. The simultaneous Reductor satyr ambush confirms their enemies possess cross-temporal reach across mortal academies and planar rifts. With Alfie's Fate-bound Chaos Belt and Dravin's occult historical epigraphy, the party has become the primary target of organized timeline erasure."
                 }.get(session_num, f"Campaign Arc Milestones for Session {session_num}"),
                 "technicalCompliance": {
                     "earthLeaks": 0,

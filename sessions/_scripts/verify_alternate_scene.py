@@ -279,7 +279,7 @@ def audit_gate3_span_provenance(
         "demonstrator": "protester",
         "protester": "protester",
         "hermes": "hermes",
-        "persephone": "persephone",
+        "thanatos": "thanatos",
         "mike": "mike",
         "rosa": "rosa",
         "child": "child"
