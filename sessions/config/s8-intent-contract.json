@@ -1,0 +1,55 @@
+{
+  "session_id": "s8",
+  "title": "Session 8 Intent Parity Contract",
+  "description": "Double-blind intent and agency rules for Session 8: Infiltration, The Lost Roads & The DC Precinct Vault.",
+  "rules": [
+    {
+      "id": "FACTION_CANON_DRIFT",
+      "description": "Adversary faction terminology must not drift from canonical names",
+      "forbidden_prose_patterns": [
+        "\\bthe\\s+margin\\s+infiltrators\\b"
+      ],
+      "fail_message": "Adversary faction terminology drifted from canonical lore."
+    },
+    {
+      "id": "MARKDOWN_TYPOGRAPHY_LEAK",
+      "description": "Raw markdown triple asterisks in novel manuscript",
+      "forbidden_prose_patterns": [
+        "\\*\\*\\*[A-Z0-9_\\-.\\s]+\\*\\*\\*"
+      ],
+      "fail_message": "Raw markdown triple-asterisk formatting leaked into manuscript prose."
+    }
+  ],
+  "authorial_liberties": [
+    {
+      "scene": "scene-01",
+      "scope": "Level 5 Progression & Threat Clocks",
+      "liberty": "Condensed technical Foundry setup into atmospheric campfire morning at The Margin.",
+      "impact": "Seamless transition from system mechanics to narrative stakes."
+    },
+    {
+      "scene": "scene-02",
+      "scope": "Lost Creek Aqueducts & Ink Minions",
+      "liberty": "Enhanced sensory descriptions of subterranean Roman masonry and mangrove roots while preserving Pierre's Wonka lyrics.",
+      "impact": "Heightened dread as Hunter clock ticks."
+    },
+    {
+      "scene": "scene-03",
+      "scope": "Precinct Blueprint Reconnaissance & Sharpie Inscription",
+      "liberty": "Dramatized architectural anomalies and Dravin's sharpie inscription on Alfie's foot.",
+      "impact": "Established bureaucratic heist framing."
+    },
+    {
+      "scene": "scene-04",
+      "scope": "Cruiser Brick Toss & Meld into Stone",
+      "liberty": "Rendered Meld into Stone molecular fusion of Alfie into the brick.",
+      "impact": "Dynamic urban fantasy infiltration sequence."
+    },
+    {
+      "scene": "scene-05",
+      "scope": "Pierre's Mother, Gargoyle Awning Smash & Vault Breach",
+      "liberty": "Paced the falling masonry and Alfie's vault reach for the temporal handcuffs.",
+      "impact": "High-velocity cliffhanger finish."
+    }
+  ]
+}

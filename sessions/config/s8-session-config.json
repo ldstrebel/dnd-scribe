@@ -1,0 +1,22 @@
+{
+  "session_id": "s8",
+  "title": "Infiltration, The Lost Roads & The DC Precinct Vault",
+  "gm": "Luke Foreman",
+  "players": {
+    "William Webb": "Prof. Edward Dravin",
+    "John Hagey": "Eusacles",
+    "Luke S": "Pierre",
+    "Sophie Foreman Noone": "Alfie"
+  },
+  "raw_speaker_labels": {
+    "William Webb": "William Webb",
+    "John Hagey": "John Hagey",
+    "Luke S": "Luke S",
+    "Luke Foreman": "Luke Foreman"
+  },
+  "session_cutoff": {
+    "gm_cutoff_line": "L1195",
+    "final_ic_beat": "L1186",
+    "boundary": "strict"
+  }
+}
