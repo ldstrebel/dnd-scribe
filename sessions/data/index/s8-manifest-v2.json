@@ -9,7 +9,7 @@
   "session": {
     "id": "s8",
     "number": 8,
-    "title": "Session 8: Infiltration, The Lost Roads & The DC Precinct Vault",
+    "title": "THE CAPITAL INCURSION",
     "synopsis": "A chronicle of displaced souls traveling the Lost Roads."
   },
   "characters": {
@@ -61,17 +61,24 @@
       "color": "#ec4899",
       "role": "Timeline Researcher \u00b7 Fragment Hunter",
       "actor": "Luke Foreman"
+    },
+    "officer": {
+      "name": "Police Officer",
+      "type": "npc",
+      "color": "#0284c7",
+      "role": "D.C. Metropolitan Precinct Officer",
+      "actor": "Luke Foreman"
     }
   },
   "stats": {
-    "wordCount": 914,
-    "estimatedReadMinutes": 4,
-    "estimatedBookPages": 3.7,
+    "wordCount": 3580,
+    "estimatedReadMinutes": 15,
+    "estimatedBookPages": 14.3,
     "dialogueRatio": {
-      "spokenWords": 369,
-      "narrativeWords": 545,
-      "spokenPct": 40.4,
-      "narrativePct": 59.6,
+      "spokenWords": 1083,
+      "narrativeWords": 2497,
+      "spokenPct": 30.3,
+      "narrativePct": 69.7,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -79,62 +86,69 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 424,
-        "sharePct": 46.4
+        "words": 1806,
+        "sharePct": 50.4
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 180,
-        "sharePct": 19.7
-      },
-      {
-        "id": "eusacles",
-        "name": "Eusacles",
-        "color": "#f59e0b",
-        "words": 92,
-        "sharePct": 10.1
+        "words": 544,
+        "sharePct": 15.2
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 69,
-        "sharePct": 7.5
+        "words": 361,
+        "sharePct": 10.1
+      },
+      {
+        "id": "eusacles",
+        "name": "Eusacles",
+        "color": "#f59e0b",
+        "words": 229,
+        "sharePct": 6.4
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 64,
-        "sharePct": 7.0
+        "words": 224,
+        "sharePct": 6.3
+      },
+      {
+        "id": "officer",
+        "name": "Police Officer",
+        "color": "#0284c7",
+        "words": 152,
+        "sharePct": 4.2
       },
       {
         "id": "naomi",
         "name": "Naomi",
         "color": "#ec4899",
-        "words": 62,
-        "sharePct": 6.8
+        "words": 148,
+        "sharePct": 4.1
       },
       {
         "id": "theodore",
         "name": "Theodore (Teddy)",
         "color": "#d97706",
-        "words": 23,
-        "sharePct": 2.5
+        "words": 116,
+        "sharePct": 3.2
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 8.5,
+      "pacingStdDev": 9.7,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 4,
-        "auditory": 0,
-        "tactile": 5,
-        "olfactory": 2,
-        "atmospheric": 7,
-        "registersCovered": 4
+        "visual": 16,
+        "auditory": 1,
+        "tactile": 10,
+        "olfactory": 13,
+        "atmospheric": 11,
+        "registersCovered": 5
       },
       "guardAudits": {
         "oocLeaks": 0,
@@ -171,13 +185,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "40.4% Spoken / 59.6% Narrative Action",
+          "chosenStance": "30.3% Spoken / 69.7% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~152 words/scene)",
+          "chosenStance": "Micro-Chapters (~255 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -220,68 +234,92 @@
     {
       "id": "uneraseable_s08_b001",
       "index": 1,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "narrator",
-      "text": "At the kitchen table of The Margin, the dawn felt heavy with the scent of pine sap and stale coffee.",
+      "text": "Dawn broke across the timbered ridges of The Margin in long, fractured shafts of amber light, burning away the pine-scented mist that clung to the Appalachian sanctuary. Inside the central log house, the iron woodstove radiated a steady, comforting warmth, the aroma of sputtering batter and burnt dark sugar filling the common room. Pierre stood over the cast-iron skillet, a linen towel tucked into his stonemason's belt, his brow furrowed in severe Parisian critique as he flipped another golden pancake onto the platter.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b001_s01",
           "type": "action",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 15,
-          "text": "At the kitchen table of The Margin, the dawn felt heavy with the scent of pine sap and stale coffee."
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 73,
+          "text": "Dawn broke across the timbered ridges of The Margin in long, fractured shafts of amber light, burning away the pine-scented mist that clung to the Appalachian sanctuary. Inside the central log house, the iron woodstove radiated a steady, comforting warmth, the aroma of sputtering batter and burnt dark sugar filling the common room. Pierre stood over the cast-iron skillet, a linen towel tucked into his stonemason's belt, his brow furrowed in severe Parisian critique as he flipped another golden pancake onto the platter."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b002",
       "index": 2,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
-      "speakerId": "narrator",
-      "text": "The travelers had crossed into their fifth circle of power, their bones humming with the strange planar resonance of the fragments they carried.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "pierre",
+      "text": "\"It is an insult to call this a true crepe,\" Pierre muttered under his breath, poking the edges with a butter knife. \"Without fresh cream from the valley, we are merely eating sweet mortar. But after yesterday's rum disaster, at least no one is breathing alcohol fumes across the table.\" He glanced sideways toward the porch where Alfie was polishing her needle rapier with a scrap of oiled leather, her carved cedar joints clicking softly in the cool morning air.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b002_s01",
-          "type": "action",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 20,
-          "text": "The travelers had crossed into their fifth circle of power, their bones humming with the strange planar resonance of the fragments they carried."
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 126,
+          "text": "\"It is an insult to call this a true crepe,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b002_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre muttered under his breath, poking the edges with a butter knife. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b002_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 126,
+          "text": "\"Without fresh cream from the valley, we are merely eating sweet mortar. But after yesterday's rum disaster, at least no one is breathing alcohol fumes across the table.\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b002_s04",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " He glanced sideways toward the porch where Alfie was polishing her needle rapier with a scrap of oiled leather, her carved cedar joints clicking softly in the cool morning air."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b003",
       "index": 3,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "narrator",
-      "text": "Theodore, his surveyor's eyes dark with ancient memories, placed a heavy calloused hand upon Eusacles' shoulder, bestowing an ancestral birthright boon that set the brawler's skin prickling with divine kinetic force.",
+      "text": "At the end of the trestle table, Eusacles was hunched over a steaming mug of chicory coffee, the five-dollar quartz wristwatch laid out before him on the scarred pine planks. Thanatos' divine handiwork had settled deep into the cheap casing; the micro-engraved Greek ward runes shimmered with a faint amethyst pulse whenever the second hand ticked past the twelve. Eusacles tapped his inventory sheet with a blunt pencil, his forehead creasing in profound bewilderment.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b003_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Theodore, his surveyor's eyes dark with ancient memories, placed a heavy calloused hand upon Eusacles' shoulder, bestowing an ancestral birthright boon that set the brawler's skin prickling with divine kinetic force."
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 130,
+          "text": "At the end of the trestle table, Eusacles was hunched over a steaming mug of chicory coffee, the five-dollar quartz wristwatch laid out before him on the scarred pine planks. Thanatos' divine handiwork had settled deep into the cheap casing; the micro-engraved Greek ward runes shimmered with a faint amethyst pulse whenever the second hand ticked past the twelve. Eusacles tapped his inventory sheet with a blunt pencil, his forehead creasing in profound bewilderment."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b004",
       "index": 4,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
-      "speakerId": "theodore",
-      "text": "\u201cThe weight of the Loom rests upon the shield,\u201d Theodore intoned, his amber eyes catching the morning light. \u201cCarry the ward well, Eusacles.\u201d",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "eusacles",
+      "text": "\"Doc,\" Eusacles said, looking up toward Professor Dravin, his voice deadpan with genuine barroom shock. \"Look at this sheet. Am I reading this right? Did I really fight through a satyr strike team in Pennsylvania and three Gorgon thralls on the turnpike completely naked?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b004_s01",
           "type": "dialogue",
-          "speakerId": "theodore",
-          "speakerName": "Theodore (Teddy)",
-          "sourceLine": 45,
-          "text": "\u201cThe weight of the Loom rests upon the shield,\u201d"
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 138,
+          "text": "\"Doc,\""
         },
         {
           "segmentId": "uneraseable_s08_b004_s02",
@@ -289,57 +327,57 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Theodore intoned, his amber eyes catching the morning light. "
+          "text": " Eusacles said, looking up toward Professor Dravin, his voice deadpan with genuine barroom shock. "
         },
         {
           "segmentId": "uneraseable_s08_b004_s03",
           "type": "dialogue",
-          "speakerId": "theodore",
-          "speakerName": "Theodore (Teddy)",
-          "sourceLine": 45,
-          "text": "\u201cCarry the ward well, Eusacles.\u201d"
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 138,
+          "text": "\"Look at this sheet. Am I reading this right? Did I really fight through a satyr strike team in Pennsylvania and three Gorgon thralls on the turnpike completely naked?\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b005",
       "index": 5,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
-      "speakerId": "eusacles",
-      "text": "\u201cWait... you guys are telling me I've been running around these broken timelines as a Level 5 Paladin completely naked without my starting plate armor or shield toggled on in the sheet?\u201d Eusacles demanded, staring in disbelief at his equipment sheet.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "dravin",
+      "text": "Professor Edward Dravin lowered his cup, peering over the rim of his wire spectacles with scholarly amusement. \"I assure you, John, you were wearing your denim trousers and boots on the road.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b005_s01",
-          "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 115,
-          "text": "\u201cWait... you guys are telling me I've been running around these broken timelines as a Level 5 Paladin completely naked without my starting plate armor or shield toggled on in the sheet?\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b005_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Eusacles demanded, staring in disbelief at his equipment sheet."
+          "text": "Professor Edward Dravin lowered his cup, peering over the rim of his wire spectacles with scholarly amusement. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b005_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 148,
+          "text": "\"I assure you, John, you were wearing your denim trousers and boots on the road.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b006",
       "index": 6,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
-      "speakerId": "dravin",
-      "text": "\u201cI assumed you were adhering to a monastic asceticism, John,\u201d Dravin replied, adjusting his wire-rimmed spectacles. \u201cRegardless, my three-seed pomegranate signet pin has attuned. If we remain within thirty feet of one another, it generates a continuous ten temporary hit point ward.\u201d",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "eusacles",
+      "text": "\"No, I mean the armor, Doc,\" Eusacles insisted, holding up the crumpled parchment. \"My heavy plate. The chain shirt. The shield. None of it was toggled on! I've been running around like a tourist on the Vegas Strip while satyrs were swinging broadswords at my chest. I'm a fifth-level paladin, and I was relying on sheer abdominal density!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b006_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 143,
-          "text": "\u201cI assumed you were adhering to a monastic asceticism, John,\u201d"
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 152,
+          "text": "\"No, I mean the armor, Doc,\""
         },
         {
           "segmentId": "uneraseable_s08_b006_s02",
@@ -347,32 +385,32 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Dravin replied, adjusting his wire-rimmed spectacles. "
+          "text": " Eusacles insisted, holding up the crumpled parchment. "
         },
         {
           "segmentId": "uneraseable_s08_b006_s03",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 143,
-          "text": "\u201cRegardless, my three-seed pomegranate signet pin has attuned. If we remain within thirty feet of one another, it generates a continuous ten temporary hit point ward.\u201d"
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 152,
+          "text": "\"My heavy plate. The chain shirt. The shield. None of it was toggled on! I've been running around like a tourist on the Vegas Strip while satyrs were swinging broadswords at my chest. I'm a fifth-level paladin, and I was relying on sheer abdominal density!\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b007",
       "index": 7,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
-      "speakerId": "naomi",
-      "text": "\u201cWe are running this incursion under strict operational clocks: Prize, Threat, and Hunter,\u201d Naomi warned, laying out the target dossiers. \u201cThe objective is a set of temporal handcuffs locked inside the Washington, D.C. police evidence room. But every misstep accelerates the Hunter clock. And the Hunter is Majora\u2014a faceless entity that strips the skin from anyone who gathers historical relics.\u201d",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "pierre",
+      "text": "\"A testament to demigod constitution, my friend,\" Pierre called from the stove, sliding two pancakes onto a tin plate and setting them before Eusacles. \"Or perhaps divine ignorance. Though now that your father has blessed the watch with protective wards, perhaps you will avoid being pierced entirely.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b007_s01",
           "type": "dialogue",
-          "speakerId": "naomi",
-          "speakerName": "Naomi",
-          "sourceLine": 166,
-          "text": "\u201cWe are running this incursion under strict operational clocks: Prize, Threat, and Hunter,\u201d"
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 158,
+          "text": "\"A testament to demigod constitution, my friend,\""
         },
         {
           "segmentId": "uneraseable_s08_b007_s02",
@@ -380,275 +418,315 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Naomi warned, laying out the target dossiers. "
+          "text": " Pierre called from the stove, sliding two pancakes onto a tin plate and setting them before Eusacles. "
         },
         {
           "segmentId": "uneraseable_s08_b007_s03",
           "type": "dialogue",
-          "speakerId": "naomi",
-          "speakerName": "Naomi",
-          "sourceLine": 166,
-          "text": "\u201cThe objective is a set of temporal handcuffs locked inside the Washington, D.C. police evidence room. But every misstep accelerates the Hunter clock. And the Hunter is Majora\u2014a faceless entity that strips the skin from anyone who gathers historical relics.\u201d"
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 158,
+          "text": "\"Or perhaps divine ignorance. Though now that your father has blessed the watch with protective wards, perhaps you will avoid being pierced entirely.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b008",
       "index": 8,
-      "scene": "Chapter 51: The Threat Clocks & The Birthright Boon",
-      "speakerId": "eusacles",
-      "text": "\u201cSo we avoid Majora, get the handcuffs, and get out,\u201d Eusacles muttered, strapping on his heavy greaves with grim satisfaction.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "narrator",
+      "text": "The heavy oak front door creaked open, and Theodore stepped over the threshold, an armload of split hickory cradled against his canvas coat. The old surveyor stamped the mountain damp from his boots, his weathered eyes crinkling beneath the brim of his felt hat as he took in the table. He moved behind Eusacles' chair, placing a calloused, steadying hand upon the young demigod's shoulder.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b008_s01",
-          "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 185,
-          "text": "\u201cSo we avoid Majora, get the handcuffs, and get out,\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b008_s02",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Eusacles muttered, strapping on his heavy greaves with grim satisfaction."
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 162,
+          "text": "The heavy oak front door creaked open, and Theodore stepped over the threshold, an armload of split hickory cradled against his canvas coat. The old surveyor stamped the mountain damp from his boots, his weathered eyes crinkling beneath the brim of his felt hat as he took in the table. He moved behind Eusacles' chair, placing a calloused, steadying hand upon the young demigod's shoulder."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b009",
       "index": 9,
-      "scene": "Chapter 52: Lost Creek & The Wonka Crossing",
-      "speakerId": "narrator",
-      "text": "The transit along Lost Creek defied mortal geography.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "theodore",
+      "text": "\"A man who walks the temporal crease needs more than luck on his back,\" Theodore said softly, his voice carrying the calm weight of two centuries anchored in timeless rock. A warm, golden luminescence bled from Theodore's palm into Eusacles' collarbone, settling like an invisible mantle of mountain granite. \"Take the ancestral boon, son. When the timeline tries to shear you away, remember that the land remembers who stood upon it.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b009_s01",
-          "type": "action",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 230,
-          "text": "The transit along Lost Creek defied mortal geography."
+          "type": "dialogue",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 197,
+          "text": "\"A man who walks the temporal crease needs more than luck on his back,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b009_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Theodore said softly, his voice carrying the calm weight of two centuries anchored in timeless rock. A warm, golden luminescence bled from Theodore's palm into Eusacles' collarbone, settling like an invisible mantle of mountain granite. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b009_s03",
+          "type": "dialogue",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 197,
+          "text": "\"Take the ancestral boon, son. When the timeline tries to shear you away, remember that the land remembers who stood upon it.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b010",
       "index": 10,
-      "scene": "Chapter 52: Lost Creek & The Wonka Crossing",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "narrator",
-      "text": "The vessel\u2014a long, black flat-bottom skiff poled by a silent, hooded boatman\u2014surged through subterranean aqueducts that flickered between classical Roman stone and twisting mangrove roots.",
+      "text": "Across the table, Professor Dravin touched the lapel of his tweed jacket, feeling the subtle heat of his own attunement. Fastened beside his faculty pin was a small bronze brooch depicting three obsidian pomegranate seeds. As Dravin channeled a breath of academic focus, a thirty-foot radius around the hearth rippled with protective twilight, bathing Pierre, Alfie, and Eusacles in a reservoir of temporary vitality.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b010_s01",
           "type": "action",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 260,
-          "text": "The vessel\u2014a long, black flat-bottom skiff poled by a silent, hooded boatman\u2014surged through subterranean aqueducts that flickered between classical Roman stone and twisting mangrove roots."
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 207,
+          "text": "Across the table, Professor Dravin touched the lapel of his tweed jacket, feeling the subtle heat of his own attunement. Fastened beside his faculty pin was a small bronze brooch depicting three obsidian pomegranate seeds. As Dravin channeled a breath of academic focus, a thirty-foot radius around the hearth rippled with protective twilight, bathing Pierre, Alfie, and Eusacles in a reservoir of temporary vitality."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b011",
       "index": 11,
-      "scene": "Chapter 52: Lost Creek & The Wonka Crossing",
-      "speakerId": "narrator",
-      "text": "From the black water, oily ink-blot minions rose like liquid shadows, their gelatinous claws reaching over the gunwales.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "dravin",
+      "text": "\"We will need every scrap of resilience we can muster,\" Dravin said quietly, unfolding a series of municipal survey maps Naomi had left on the corner table. \"Naomi's briefing was explicit before she left for dawn perimeter checks. The next severed fragment of the Loom is located in modern jurisdiction. Specifically, inside the high-security evidence locker of the Washington, D.C. Metropolitan Police Department.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b011_s01",
-          "type": "action",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 290,
-          "text": "From the black water, oily ink-blot minions rose like liquid shadows, their gelatinous claws reaching over the gunwales."
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 209,
+          "text": "\"We will need every scrap of resilience we can muster,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b011_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin said quietly, unfolding a series of municipal survey maps Naomi had left on the corner table. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b011_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 209,
+          "text": "\"Naomi's briefing was explicit before she left for dawn perimeter checks. The next severed fragment of the Loom is located in modern jurisdiction. Specifically, inside the high-security evidence locker of the Washington, D.C. Metropolitan Police Department.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b012",
       "index": 12,
-      "scene": "Chapter 52: Lost Creek & The Wonka Crossing",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "pierre",
-      "text": "\u201cThere is no earthly way of knowing... which direction we are going!\u201d Pierre chanted, jabbing his javelin viciously into a rising blob until it hissed into steam. \u201cGet back, you ink bastard!\u201d",
+      "text": "Pierre groaned, resting his spatula on the stove rim. \"Mortal police? With badges, radios, and bureaucracy? I would rather face another hydra in the reeds. In France, you cannot even bribe a clerk without filing three duplicate tax receipts.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b012_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 310,
-          "text": "\u201cThere is no earthly way of knowing... which direction we are going!\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b012_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre chanted, jabbing his javelin viciously into a rising blob until it hissed into steam. "
+          "text": "Pierre groaned, resting his spatula on the stove rim. "
         },
         {
-          "segmentId": "uneraseable_s08_b012_s03",
+          "segmentId": "uneraseable_s08_b012_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 310,
-          "text": "\u201cGet back, you ink bastard!\u201d"
+          "sourceLine": 215,
+          "text": "\"Mortal police? With badges, radios, and bureaucracy? I would rather face another hydra in the reeds. In France, you cannot even bribe a clerk without filing three duplicate tax receipts.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b013",
       "index": 13,
-      "scene": "Chapter 52: Lost Creek & The Wonka Crossing",
-      "speakerId": "narrator",
-      "text": "The boatman gave Pierre a flat, unamused look from beneath his dark cowl. Naomi's distant cousin did not get paid enough for Wonka songs, but the oily ink splashed against the side of Pierre's leather boots, marking the threshold. The first slice of the Hunter clock filled with black ink.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "theodore",
+      "text": "\"It is worse than municipal bureaucracy,\" Luke Foreman's voice resonated from the head of the long table, the Game Master leaning forward to draw three interlocking circular dials onto the planning slate. \"You are not just racing local detectives. You are operating under clock pressure.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b013_s01",
-          "type": "action",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 340,
-          "text": "The boatman gave Pierre a flat, unamused look from beneath his dark cowl. Naomi's distant cousin did not get paid enough for Wonka songs, but the oily ink splashed against the side of Pierre's leather boots, marking the threshold. The first slice of the Hunter clock filled with black ink."
+          "type": "dialogue",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 220,
+          "text": "\"It is worse than municipal bureaucracy,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b013_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Luke Foreman's voice resonated from the head of the long table, the Game Master leaning forward to draw three interlocking circular dials onto the planning slate. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b013_s03",
+          "type": "dialogue",
+          "speakerId": "theodore",
+          "speakerName": "Theodore (Teddy)",
+          "sourceLine": 220,
+          "text": "\"You are not just racing local detectives. You are operating under clock pressure.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b014",
       "index": 14,
-      "scene": "Chapter 52: Lost Creek & The Wonka Crossing",
-      "speakerId": "dravin",
-      "text": "\u201cCheck yourselves for lingering ink residue before we disembark,\u201d Dravin warned, shaking dark planar droplets from his tweed sleeve. \u201cWe cannot afford to lead that stalker to our threshold.\u201d",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "narrator",
+      "text": "Foreman sketched out the tracking clocks in charcoal: a four-segment **Prize Clock** labeled *The Flight Handcuffs*, a six-segment **Threat Clock** labeled *Precinct Security Lockout*, and an ominous eight-segment **Hunter Clock** inked in black tallow.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b014_s01",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 390,
-          "text": "\u201cCheck yourselves for lingering ink residue before we disembark,\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b014_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Dravin warned, shaking dark planar droplets from his tweed sleeve. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b014_s03",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 390,
-          "text": "\u201cWe cannot afford to lead that stalker to our threshold.\u201d"
+          "text": "Foreman sketched out the tracking clocks in charcoal: a four-segment **Prize Clock** labeled *The Flight Handcuffs*, a six-segment **Threat Clock** labeled *Precinct Security Lockout*, and an ominous eight-segment **Hunter Clock** inked in black tallow."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b015",
       "index": 15,
-      "scene": "Chapter 53: The Storm Drain & The Sharpie Inscription",
-      "speakerId": "narrator",
-      "text": "Pushing open a heavy cast-iron storm grate, the party surfaced in a sodden municipal alleyway in the heart of Washington, D.C.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "naomi",
+      "text": "\"The artifact you seek is a pair of temporal handcuffs,\" Foreman explained, his tone dropping into chilling atmospheric cadence. \"Seized in 1982 from a passenger aboard an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. But the moment you enter the transit corridor, the Hunter Clock begins ticking. There is an entity that stalks those who gather historical relics. A faceless, shifting horror with a dozen masks. Its name is **Majora**.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b015_s01",
-          "type": "action",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 460,
-          "text": "Pushing open a heavy cast-iron storm grate, the party surfaced in a sodden municipal alleyway in the heart of Washington, D.C."
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 238,
+          "text": "\"The artifact you seek is a pair of temporal handcuffs,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b015_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Foreman explained, his tone dropping into chilling atmospheric cadence. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b015_s03",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 238,
+          "text": "\"Seized in 1982 from a passenger aboard an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. But the moment you enter the transit corridor, the Hunter Clock begins ticking. There is an entity that stalks those who gather historical relics. A faceless, shifting horror with a dozen masks. Its name is **Majora**.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b016",
       "index": 16,
-      "scene": "Chapter 53: The Storm Drain & The Sharpie Inscription",
-      "speakerId": "narrator",
-      "text": "Directly across the asphalt rose the brick facade of the Metropolitan Police precinct.",
+      "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
+      "speakerId": "alfie",
+      "text": "Alfie slipped from her porch perch, her rapier sheathed at her hip, her painted cedar face unblinking. \"Then let it come sniffing,\" she chirped in her sharp Cockney cadence, tapping the pommel of her blade. \"We've got pancakes in our bellies and a heist to pull in the capital. Pack the bags, boys. Time to catch our ride.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b016_s01",
-          "type": "action",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 490,
-          "text": "Directly across the asphalt rose the brick facade of the Metropolitan Police precinct."
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie slipped from her porch perch, her rapier sheathed at her hip, her painted cedar face unblinking. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b016_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 240,
+          "text": "\"Then let it come sniffing,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b016_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she chirped in her sharp Cockney cadence, tapping the pommel of her blade. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b016_s04",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 240,
+          "text": "\"We've got pancakes in our bellies and a heist to pull in the capital. Pack the bags, boys. Time to catch our ride.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b017",
       "index": 17,
-      "scene": "Chapter 53: The Storm Drain & The Sharpie Inscription",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "Dravin unrolled the gray-web blueprints across the dumpster rim, his scholar's eyes narrowing at the technical anomalies: upper floors shifted three feet westward, and stairwells that terminated in solid load-bearing brick.",
+      "text": "The descent out of The Margin sanctuary led through a narrow hemlock ravine where the mountain air turned abruptly frigid, smelling of wet slate, sulfur, and stagnant pondweed. Beneath a canopy of dripping black roots, the party reached the mouth of a subterranean limestone cavern where Lost Creek rushed out from an invisible crevasse, its dark water swirling in obsidian eddies under the gloom.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b017_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Dravin unrolled the gray-web blueprints across the dumpster rim, his scholar's eyes narrowing at the technical anomalies: upper floors shifted three feet westward, and stairwells that terminated in solid load-bearing brick."
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 252,
+          "text": "The descent out of The Margin sanctuary led through a narrow hemlock ravine where the mountain air turned abruptly frigid, smelling of wet slate, sulfur, and stagnant pondweed. Beneath a canopy of dripping black roots, the party reached the mouth of a subterranean limestone cavern where Lost Creek rushed out from an invisible crevasse, its dark water swirling in obsidian eddies under the gloom."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b018",
       "index": 18,
-      "scene": "Chapter 53: The Storm Drain & The Sharpie Inscription",
-      "speakerId": "alfie",
-      "text": "\u201cThe drainage clear-out pipe under the basement is only three inches wide,\u201d Alfie reported, wiping soot from her wooden joints. \u201cI checked. I can fit my arms through, but not the crowbar.\u201d",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "narrator",
+      "text": "Tied to an iron ring driven deep into the cave wall was a narrow, flat-bottomed wooden punt. At the stern stood a tall, gaunt figure draped in waterlogged black oilcloth, clutching a long ash steering pole. His face was entirely lost beneath the shadow of a waxed hood, his breathing slow and mechanical like the bellows of a forge.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b018_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 580,
-          "text": "\u201cThe drainage clear-out pipe under the basement is only three inches wide,\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b018_s02",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Alfie reported, wiping soot from her wooden joints. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b018_s03",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 580,
-          "text": "\u201cI checked. I can fit my arms through, but not the crowbar.\u201d"
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 282,
+          "text": "Tied to an iron ring driven deep into the cave wall was a narrow, flat-bottomed wooden punt. At the stern stood a tall, gaunt figure draped in waterlogged black oilcloth, clutching a long ash steering pole. His face was entirely lost beneath the shadow of a waxed hood, his breathing slow and mechanical like the bellows of a forge."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b019",
       "index": 19,
-      "scene": "Chapter 53: The Storm Drain & The Sharpie Inscription",
-      "speakerId": "dravin",
-      "text": "\u201cWhich is why we aren't crawling through the sewer, Alfie,\u201d Dravin said, uncapping a heavy black Sharpie with an audible click. \u201cHold still. On the bottom of your wooden foot, I am writing: Property of Professor Edward Dravin, Stanford University, and my telephone extension. If you are confiscated, you are cataloged property, not discarded rubbish.\u201d",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "eusacles",
+      "text": "\"Is that... Charon?\" Eusacles whispered, his hand instinctively dropping toward the Thanatos watch in his vest pocket.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b019_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 620,
-          "text": "\u201cWhich is why we aren't crawling through the sewer, Alfie,\u201d"
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 300,
+          "text": "\"Is that... Charon?\""
         },
         {
           "segmentId": "uneraseable_s08_b019_s02",
@@ -656,133 +734,141 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Dravin said, uncapping a heavy black Sharpie with an audible click. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b019_s03",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 620,
-          "text": "\u201cHold still. On the bottom of your wooden foot, I am writing: Property of Professor Edward Dravin, Stanford University, and my telephone extension. If you are confiscated, you are cataloged property, not discarded rubbish.\u201d"
+          "text": " Eusacles whispered, his hand instinctively dropping toward the Thanatos watch in his vest pocket."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b020",
       "index": 20,
-      "scene": "Chapter 54: The Cop Car Brick Toss & Meld into Stone",
-      "speakerId": "narrator",
-      "text": "To breach a modern municipal fortress, ancient magic required an urban vessel.",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "naomi",
+      "text": "\"Charon's cousin, more like,\" Naomi's voice echoed from the trail behind them as she adjusted her field pack. \"He operates the aqueduct junctions along the Lost Roads. He doesn't come up to the cabin for Thanksgiving, but he knows every submerged culvert from Pennsylvania to the Potomac. Step aboard and keep your hands inside the gunwales. If the water touches your skin, the current remembers.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b020_s01",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 310,
+          "text": "\"Charon's cousin, more like,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b020_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "To breach a modern municipal fortress, ancient magic required an urban vessel."
+          "text": " Naomi's voice echoed from the trail behind them as she adjusted her field pack. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b020_s03",
+          "type": "dialogue",
+          "speakerId": "naomi",
+          "speakerName": "Naomi",
+          "sourceLine": 310,
+          "text": "\"He operates the aqueduct junctions along the Lost Roads. He doesn't come up to the cabin for Thanksgiving, but he knows every submerged culvert from Pennsylvania to the Potomac. Step aboard and keep your hands inside the gunwales. If the water touches your skin, the current remembers.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b021",
       "index": 21,
-      "scene": "Chapter 54: The Cop Car Brick Toss & Meld into Stone",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "Dravin plucked a heavy masonry brick from the alley crumbling wall, scrawling a crude message across its baked clay.",
+      "text": "The travelers boarded in silence. Pierre took the prow, his heavy bronze javelin resting across his knees, his dark eyes scanning the subterranean current with habitual Parisian suspicion. Dravin sat amidships with Alfie perched beside him like a wooden sentinel, while Eusacles braced his boots against the ribbed oak floorboards, testing the newfound weight of his heavy paladin armor.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b021_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "Dravin plucked a heavy masonry brick from the alley crumbling wall, scrawling a crude message across its baked clay."
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 325,
+          "text": "The travelers boarded in silence. Pierre took the prow, his heavy bronze javelin resting across his knees, his dark eyes scanning the subterranean current with habitual Parisian suspicion. Dravin sat amidships with Alfie perched beside him like a wooden sentinel, while Eusacles braced his boots against the ribbed oak floorboards, testing the newfound weight of his heavy paladin armor."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b022",
       "index": 22,
-      "scene": "Chapter 54: The Cop Car Brick Toss & Meld into Stone",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "With a deep incantation of Meld into Stone, the professor parted the molecular lattice of the red brick, slipping Alfie into its stony core like a spirit into amber.",
+      "text": "With a single shove of the ash pole, the boatman launched the craft into the main channel. The daylight vanished instantly as the cavern ceiling slammed down, replaced by ancient Roman masonry arches that blurred into Victorian brick sewers, then modern corrugated steel spillways. The walls wept foul mineral brine, and the subterranean acoustic roared with the sound of rushing planar transit.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b022_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "With a deep incantation of Meld into Stone, the professor parted the molecular lattice of the red brick, slipping Alfie into its stony core like a spirit into amber."
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 340,
+          "text": "With a single shove of the ash pole, the boatman launched the craft into the main channel. The daylight vanished instantly as the cavern ceiling slammed down, replaced by ancient Roman masonry arches that blurred into Victorian brick sewers, then modern corrugated steel spillways. The walls wept foul mineral brine, and the subterranean acoustic roared with the sound of rushing planar transit."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b023",
       "index": 23,
-      "scene": "Chapter 54: The Cop Car Brick Toss & Meld into Stone",
-      "speakerId": "narrator",
-      "text": "A moment later, Pierre hurled the brick in a clean arc through the rear windshield of an empty squad car just before evening shift change.",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "dravin",
+      "text": "\"The tracking clock,\" Dravin observed quietly, watching the oily black surface of the water ripple against the hull. \"The planar pressure is rising. Look at the wake.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b023_s01",
-          "type": "action",
+          "type": "dialogue",
           "speakerId": "dravin",
           "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 770,
-          "text": "A moment later, Pierre hurled the brick in a clean arc through the rear windshield of an empty squad car just before evening shift change."
+          "sourceLine": 355,
+          "text": "\"The tracking clock,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b023_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin observed quietly, watching the oily black surface of the water ripple against the hull. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b023_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 355,
+          "text": "\"The planar pressure is rising. Look at the wake.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b024",
       "index": 24,
-      "scene": "Chapter 54: The Cop Car Brick Toss & Meld into Stone",
-      "speakerId": "eusacles",
-      "text": "\u201cThat car alarm is screaming bloody murder!\u201d Eusacles whispered from the shadows. \u201cTwo officers just walked out of the sally port. They're picking up the brick! Alfie is officially state evidence!\u201d",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "narrator",
+      "text": "Beneath the punt, the dark water began to curdle. Globular, viscous masses of tar-like ink bubbled up from the riverbed, separating from the current like predatory oil slicks. Dozens of faceless ink-blot minions crested the surface, their tendrils stretching toward the gunwales, hissing as they caught the scent of temporal anchors.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b024_s01",
-          "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 780,
-          "text": "\u201cThat car alarm is screaming bloody murder!\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b024_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Eusacles whispered from the shadows. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b024_s03",
-          "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 780,
-          "text": "\u201cTwo officers just walked out of the sally port. They're picking up the brick! Alfie is officially state evidence!\u201d"
+          "text": "Beneath the punt, the dark water began to curdle. Globular, viscous masses of tar-like ink bubbled up from the riverbed, separating from the current like predatory oil slicks. Dozens of faceless ink-blot minions crested the surface, their tendrils stretching toward the gunwales, hissing as they caught the scent of temporal anchors."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b025",
       "index": 25,
-      "scene": "Chapter 54: The Cop Car Brick Toss & Meld into Stone",
-      "speakerId": "dravin",
-      "text": "\u201cNow comes the bureaucratic follow-up,\u201d Dravin said, striding toward the public payphone. \u201cI call the precinct dispatch, claim my daughter dropped her prized wooden doll near the motor pool, and establish our legal presence on the record.\u201d",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "eusacles",
+      "text": "\"We have company!\" Eusacles shouted, drawing his morningstar as a blob of thick black sludge vaulted onto the forward thwart.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b025_s01",
           "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 840,
-          "text": "\u201cNow comes the bureaucratic follow-up,\u201d"
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 390,
+          "text": "\"We have company!\""
         },
         {
           "segmentId": "uneraseable_s08_b025_s02",
@@ -790,24 +876,16 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Dravin said, striding toward the public payphone. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b025_s03",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 840,
-          "text": "\u201cI call the precinct dispatch, claim my daughter dropped her prized wooden doll near the motor pool, and establish our legal presence on the record.\u201d"
+          "text": " Eusacles shouted, drawing his morningstar as a blob of thick black sludge vaulted onto the forward thwart."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b026",
       "index": 26,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "To crack the inner vault, Pierre initiated a flashback to an international payphone call with his mother in Italy.",
+      "text": "Pierre rose smoothly to his feet, balancing on the rocking punt with the effortless grace of a mason working high scaffolding. His grip tightened on the ash shaft of his javelin, his eyes narrowing as he drove the bronze point straight through the center of the creature, splattering it into harmless spray against the stone wall. As the next wave of ink-blots surged from the depths, Pierre did not cry out in fury; instead, a strange, theatrical cadence seized his tongue, echoing Gene Wilder's hypnotic madness through the flooded tunnel.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b026_s01",
@@ -815,16 +893,16 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "To crack the inner vault, Pierre initiated a flashback to an international payphone call with his mother in Italy."
+          "text": "Pierre rose smoothly to his feet, balancing on the rocking punt with the effortless grace of a mason working high scaffolding. His grip tightened on the ash shaft of his javelin, his eyes narrowing as he drove the bronze point straight through the center of the creature, splattering it into harmless spray against the stone wall. As the next wave of ink-blots surged from the depths, Pierre did not cry out in fury; instead, a strange, theatrical cadence seized his tongue, echoing Gene Wilder's hypnotic madness through the flooded tunnel."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b027",
       "index": 27,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
-      "speakerId": "narrator",
-      "text": "Whatever ancient, petrifying bloodline flowed through her veins, it commanded allegiance: moments later, a hunched stone gargoyle manifested on the roof of the precinct portico.",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "pierre",
+      "text": "*\"There's no earthly way of knowing...\"* Pierre intoned in deadpan French rhythm, lunging forward to impale another crawling mass against the timber, *\"which direction we are going... Is it raining, is it snowing? Is a hurricane a-blowing?!\"*",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b027_s01",
@@ -832,132 +910,1182 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Whatever ancient, petrifying bloodline flowed through her veins, it commanded allegiance: moments later, a hunched stone gargoyle manifested on the roof of the precinct portico."
+          "text": "*"
+        },
+        {
+          "segmentId": "uneraseable_s08_b027_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 418,
+          "text": "\"There's no earthly way of knowing...\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b027_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "* Pierre intoned in deadpan French rhythm, lunging forward to impale another crawling mass against the timber, *"
+        },
+        {
+          "segmentId": "uneraseable_s08_b027_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 418,
+          "text": "\"which direction we are going... Is it raining, is it snowing? Is a hurricane a-blowing?!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b027_s05",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "*"
         }
       ]
     },
     {
       "id": "uneraseable_s08_b028",
       "index": 28,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
-      "speakerId": "narrator",
-      "text": "With a deafening crack, the gargoyle smashed the portico awning, sending loose masonry and bricks cascading down onto the front stairs and triggering municipal alarms.",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "dravin",
+      "text": "\"Pierre, what in God's name are you reciting?!\" Dravin shouted over the roar of the water, raising his hoplite shield to deflect a flying glob of caustic sludge from Alfie's face.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b028_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 430,
+          "text": "\"Pierre, what in God's name are you reciting?!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b028_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "With a deafening crack, the gargoyle smashed the portico awning, sending loose masonry and bricks cascading down onto the front stairs and triggering municipal alarms."
+          "text": " Dravin shouted over the roar of the water, raising his hoplite shield to deflect a flying glob of caustic sludge from Alfie's face."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b029",
       "index": 29,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "pierre",
-      "text": "\u201cThe gargoyle literally just gave me a wink from the awning,\u201d Pierre laughed, dodging behind a granite pillar. \u201cMamma never sends flowers; she sends flying masonry! Alfie, grab the handcuffs and get to the rear fire exit!\u201d",
+      "text": "*\"Not a speck of light is showing, so the danger must be growing!\"* Pierre continued without missing a beat, spinning the javelin and catching two ink minions on the backswing, sending them tumbling back into the foam. *\"Are the fires of Hell a-glowing? Is the grisly reaper mowing?! Yes! The danger must be growing, for the rowers keep on rowing\u2014and they're certainly not showing any signs that they are slowing!\"*",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b029_s01",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1080,
-          "text": "\u201cThe gargoyle literally just gave me a wink from the awning,\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b029_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre laughed, dodging behind a granite pillar. "
+          "text": "*"
         },
         {
-          "segmentId": "uneraseable_s08_b029_s03",
+          "segmentId": "uneraseable_s08_b029_s02",
           "type": "dialogue",
           "speakerId": "pierre",
           "speakerName": "Pierre",
-          "sourceLine": 1080,
-          "text": "\u201cMamma never sends flowers; she sends flying masonry! Alfie, grab the handcuffs and get to the rear fire exit!\u201d"
+          "sourceLine": 435,
+          "text": "\"Not a speck of light is showing, so the danger must be growing!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b029_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "* Pierre continued without missing a beat, spinning the javelin and catching two ink minions on the backswing, sending them tumbling back into the foam. *"
+        },
+        {
+          "segmentId": "uneraseable_s08_b029_s04",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 435,
+          "text": "\"Are the fires of Hell a-glowing? Is the grisly reaper mowing?! Yes! The danger must be growing, for the rowers keep on rowing\u2014and they're certainly not showing any signs that they are slowing!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b029_s05",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "*"
         }
       ]
     },
     {
       "id": "uneraseable_s08_b030",
       "index": 30,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "alfie",
-      "text": "\u201cI have the handcuffs!\u201d Alfie's voice chimed through the communication receiver, laced with panic. \u201cThey are humming with cold aviation frequency! But the Hunter clock\u2014I hear tentacles scraping through the drywall!\u201d",
+      "text": "Alfie cackled with delight, darting between Eusacles' armored knees to sever a grasping tendril with her needle rapier. \"Sing it, Pierre! Give 'em the whole bloody cinema show!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b030_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 1140,
-          "text": "\u201cI have the handcuffs!\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b030_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie's voice chimed through the communication receiver, laced with panic. "
+          "text": "Alfie cackled with delight, darting between Eusacles' armored knees to sever a grasping tendril with her needle rapier. "
         },
         {
-          "segmentId": "uneraseable_s08_b030_s03",
+          "segmentId": "uneraseable_s08_b030_s02",
           "type": "dialogue",
           "speakerId": "alfie",
           "speakerName": "Alfie",
-          "sourceLine": 1140,
-          "text": "\u201cThey are humming with cold aviation frequency! But the Hunter clock\u2014I hear tentacles scraping through the drywall!\u201d"
+          "sourceLine": 450,
+          "text": "\"Sing it, Pierre! Give 'em the whole bloody cinema show!\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b031",
       "index": 31,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
-      "speakerId": "dravin",
-      "text": "\u201cWe have the relic! Head for the rear fire exit!\u201d Dravin shouted, gesturing toward the alley threshold.",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "narrator",
+      "text": "Eusacles brought his morningstar down with a thunderous crunch, obliterating a swarm that had begun to climb the boatman's robes. The boatman did not flinch, merely leaning into the steering pole and banking the vessel into a violent ninety-degree turn down a roaring vertical sluice gate.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b031_s01",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1186,
-          "text": "\u201cWe have the relic! Head for the rear fire exit!\u201d"
-        },
-        {
-          "segmentId": "uneraseable_s08_b031_s02",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Dravin shouted, gesturing toward the alley threshold."
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 460,
+          "text": "Eusacles brought his morningstar down with a thunderous crunch, obliterating a swarm that had begun to climb the boatman's robes. The boatman did not flinch, merely leaning into the steering pole and banking the vessel into a violent ninety-degree turn down a roaring vertical sluice gate."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b032",
       "index": 32,
-      "scene": "Chapter 55: Pierre's Mother, The Gargoyle & Evidence Vault Infiltration",
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "And that was where the session came to its breathless close, as precinct sirens wailed into the Washington night and the Hunter's shadow fell across the pavement.",
+      "text": "As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. On the planning board in the physical room, Luke Foreman smiled faintly and filled the first wedge of the Hunter Clock with a stroke of black ink.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b032_s01",
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 475,
+          "text": "As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. On the planning board in the physical room, Luke Foreman smiled faintly and filled the first wedge of the Hunter Clock with a stroke of black ink."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b033",
+      "index": 33,
+      "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
+      "speakerId": "narrator",
+      "text": "\"One tick,\" Foreman said, his voice dropping into the quiet cavern gloom. \"Somewhere deep in the folds behind you, Majora's mask turns toward the scent of your crossing.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b033_s01",
+          "type": "dialogue",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 480,
+          "text": "\"One tick,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b033_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "And that was where the session came to its breathless close, as precinct sirens wailed into the Washington night and the Hunter's shadow fell across the pavement."
+          "text": " Foreman said, his voice dropping into the quiet cavern gloom. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b033_s03",
+          "type": "dialogue",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 480,
+          "text": "\"Somewhere deep in the folds behind you, Majora's mask turns toward the scent of your crossing.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b034",
+      "index": 34,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "narrator",
+      "text": "The subterranean journey terminated not at a riverbank, but at a vertical cast-iron service ladder bolted into weeping concrete. Pushing up through an unbolted maintenance manhole, Pierre poked his head out into the pouring autumn rain, blinking against the harsh sodium glare of municipal streetlamps.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b034_s01",
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 490,
+          "text": "The subterranean journey terminated not at a riverbank, but at a vertical cast-iron service ladder bolted into weeping concrete. Pushing up through an unbolted maintenance manhole, Pierre poked his head out into the pouring autumn rain, blinking against the harsh sodium glare of municipal streetlamps."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b035",
+      "index": 35,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "narrator",
+      "text": "They emerged into a narrow asphalt alleyway choked with green commercial dumpsters and sodden cardboard. Forty yards across four lanes of rain-slicked commuter traffic stood their target: the Washington, D.C. Metropolitan Police Third District Precinct. It was a foreboding slab of 1970s brutalist architecture, its reinforced concrete facade stained with decades of soot. Half a dozen blue-and-white patrol cruisers were parked in angled stalls beneath sodium floodlights, their radios crackling in bursts of static through the wet night.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b035_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 510,
+          "text": "They emerged into a narrow asphalt alleyway choked with green commercial dumpsters and sodden cardboard. Forty yards across four lanes of rain-slicked commuter traffic stood their target: the Washington, D.C. Metropolitan Police Third District Precinct. It was a foreboding slab of 1970s brutalist architecture, its reinforced concrete facade stained with decades of soot. Half a dozen blue-and-white patrol cruisers were parked in angled stalls beneath sodium floodlights, their radios crackling in bursts of static through the wet night."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b036",
+      "index": 36,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "narrator",
+      "text": "Crouching beneath the metal awning of a delivery dock, Professor Dravin spread out a sodden blueprint retrieved from Naomi's cylinder, holding his pocket flashlight in his teeth while rain dripped from the brim of his woolen cap. His scholarly finger traced the white architectural schematics with practiced intensity.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b036_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Crouching beneath the metal awning of a delivery dock, Professor Dravin spread out a sodden blueprint retrieved from Naomi's cylinder, holding his pocket flashlight in his teeth while rain dripped from the brim of his woolen cap. His scholarly finger traced the white architectural schematics with practiced intensity."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b037",
+      "index": 37,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "dravin",
+      "text": "\"Look at this seam,\" Dravin whispered, tapping a section of the upper mezzanine. \"This building was retrofitted in 1984 after the municipal annex fires. But the orientation marks do not align. The ground floor intake faces true north, but the secondary records wing is canted thirteen degrees to the northeast. That is not bad engineering\u2014that is an authorial patch. The Redactors spliced an entire evidence locker from an erased timeline directly into the municipal records cage.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b037_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 550,
+          "text": "\"Look at this seam,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b037_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin whispered, tapping a section of the upper mezzanine. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b037_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 550,
+          "text": "\"This building was retrofitted in 1984 after the municipal annex fires. But the orientation marks do not align. The ground floor intake faces true north, but the secondary records wing is canted thirteen degrees to the northeast. That is not bad engineering\u2014that is an authorial patch. The Redactors spliced an entire evidence locker from an erased timeline directly into the municipal records cage.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b038",
+      "index": 38,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "eusacles",
+      "text": "\"So the handcuffs are in there,\" Eusacles said, peering through the rain at the heavy double glass doors of the public entrance. \"Problem is, they got metal detectors at the desk, two armed bailiffs in the foyer, and a German Shepherd sniffing bags in the Sally port. Even if I leave my morningstar in the alley, my watch alone is going to light up their magnetometer like a Christmas tree.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b038_s01",
+          "type": "dialogue",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 575,
+          "text": "\"So the handcuffs are in there,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b038_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Eusacles said, peering through the rain at the heavy double glass doors of the public entrance. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b038_s03",
+          "type": "dialogue",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 575,
+          "text": "\"Problem is, they got metal detectors at the desk, two armed bailiffs in the foyer, and a German Shepherd sniffing bags in the Sally port. Even if I leave my morningstar in the alley, my watch alone is going to light up their magnetometer like a Christmas tree.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b039",
+      "index": 39,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "alfie",
+      "text": "\"And Pierre cannot simply walk in and speak French until they give us the keys,\" Alfie noted, wringing rainwater from her calico dress. \"So how do we get eyes inside the cage?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b039_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 590,
+          "text": "\"And Pierre cannot simply walk in and speak French until they give us the keys,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b039_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie noted, wringing rainwater from her calico dress. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b039_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 590,
+          "text": "\"So how do we get eyes inside the cage?\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b040",
+      "index": 40,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "narrator",
+      "text": "Professor Dravin looked down at Alfie. His analytical gaze shifted from the blueprints to the tiny wooden automaton, a sudden, inspired academic stratagem taking shape behind his spectacles. He reached into the inner pocket of his sodden tweed overcoat and produced an oversized, chisel-tipped black permanent Sharpie marker.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b040_s01",
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 605,
+          "text": "Professor Dravin looked down at Alfie. His analytical gaze shifted from the blueprints to the tiny wooden automaton, a sudden, inspired academic stratagem taking shape behind his spectacles. He reached into the inner pocket of his sodden tweed overcoat and produced an oversized, chisel-tipped black permanent Sharpie marker."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b041",
+      "index": 41,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "dravin",
+      "text": "\"Hold still, Alfie,\" Dravin said calmly, uncapping the marker with a sharp snap that released the pungent smell of industrial alcohol.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b041_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 620,
+          "text": "\"Hold still, Alfie,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b041_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin said calmly, uncapping the marker with a sharp snap that released the pungent smell of industrial alcohol."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b042",
+      "index": 42,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "alfie",
+      "text": "Alfie took a step back, her glass marble eyes widening in alarm. \"Oi! What are you doing with that black wand, Professor? Don't you come near my polish!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b042_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie took a step back, her glass marble eyes widening in alarm. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b042_s02",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 625,
+          "text": "\"Oi! What are you doing with that black wand, Professor? Don't you come near my polish!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b043",
+      "index": 43,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "dravin",
+      "text": "\"Lift your right foot,\" Dravin commanded with the unquestioned authority of a tenured department head. Before Alfie could protest further, Eusacles gently caught her by the waist, lifting her wooden boot off the asphalt so Dravin could seize her ankle. In thick, unyielding block letters, Dravin began writing directly across the cedar sole of Alfie's shoe.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b043_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 635,
+          "text": "\"Lift your right foot,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b043_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin commanded with the unquestioned authority of a tenured department head. Before Alfie could protest further, Eusacles gently caught her by the waist, lifting her wooden boot off the asphalt so Dravin could seize her ankle. In thick, unyielding block letters, Dravin began writing directly across the cedar sole of Alfie's shoe."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b044",
+      "index": 44,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "dravin",
+      "text": "*\"PROPERTY OF PROFESSOR EDWARD DRAVIN,\"* the ink blossomed across the wood grain, *\"DEPARTMENT OF CLASSICAL EPIGRAPHY, STANFORD UNIVERSITY. CAMPUS CONTACT: 415-555-0192. REWARD IF RECOVERED.\"*",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b044_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "*"
+        },
+        {
+          "segmentId": "uneraseable_s08_b044_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 650,
+          "text": "\"PROPERTY OF PROFESSOR EDWARD DRAVIN,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b044_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "* the ink blossomed across the wood grain, *"
+        },
+        {
+          "segmentId": "uneraseable_s08_b044_s04",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 650,
+          "text": "\"DEPARTMENT OF CLASSICAL EPIGRAPHY, STANFORD UNIVERSITY. CAMPUS CONTACT: 415-555-0192. REWARD IF RECOVERED.\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b044_s05",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "*"
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b045",
+      "index": 45,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "alfie",
+      "text": "\"You've signed me foot!\" Alfie squawked, kicking her legs in outraged humiliation. \"You've branded me like a lost umbrella at Paddington Station! I am a living duelist of the wordcraft tradition, not a schoolboy's pencil case!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b045_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 660,
+          "text": "\"You've signed me foot!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b045_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie squawked, kicking her legs in outraged humiliation. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b045_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 660,
+          "text": "\"You've branded me like a lost umbrella at Paddington Station! I am a living duelist of the wordcraft tradition, not a schoolboy's pencil case!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b046",
+      "index": 46,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "dravin",
+      "text": "\"It establishes indisputable legal provenance,\" Dravin explained mildly, recapping the marker and admiring his handiwork. \"If an officer finds an anomalous wooden doll inside a metropolitan precinct, it will be treated as suspicious contraband or a potential explosive device. But with my faculty contact information, provenance documentation, and cataloging numbers clearly inscribed, they are bound by municipal intake regulations to log you as lost property or seized physical evidence. You become an item of legal custody.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b046_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 680,
+          "text": "\"It establishes indisputable legal provenance,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b046_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin explained mildly, recapping the marker and admiring his handiwork. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b046_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 680,
+          "text": "\"If an officer finds an anomalous wooden doll inside a metropolitan precinct, it will be treated as suspicious contraband or a potential explosive device. But with my faculty contact information, provenance documentation, and cataloging numbers clearly inscribed, they are bound by municipal intake regulations to log you as lost property or seized physical evidence. You become an item of legal custody.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b047",
+      "index": 47,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "pierre",
+      "text": "Pierre rubbed his chin, nodding slowly in reluctant appreciation. \"It is absurd. It is profoundly pedantic. Which means in an American police precinct, it will work brilliantly.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b047_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre rubbed his chin, nodding slowly in reluctant appreciation. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b047_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 700,
+          "text": "\"It is absurd. It is profoundly pedantic. Which means in an American police precinct, it will work brilliantly.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b048",
+      "index": 48,
+      "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
+      "speakerId": "dravin",
+      "text": "\"Now,\" Dravin said, turning his gaze toward the motor pool across the street where three patrol cruisers sat glistening in the downpour. \"All we need is an intake crime.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b048_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 730,
+          "text": "\"Now,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b048_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin said, turning his gaze toward the motor pool across the street where three patrol cruisers sat glistening in the downpour. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b048_s03",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 730,
+          "text": "\"All we need is an intake crime.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b049",
+      "index": 49,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "In the shadow of the delivery dock, Professor Dravin knelt in the alley rubble, brushing aside soggy cigarette butts and broken bottle glass until his fingers closed around a solid, red clay construction brick. He weighed it in his palm, testing its heft, then uncapped the Sharpie once more. In bold, jagged letters across the pitted red surface, he wrote a single word: **PIG**.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b049_s01",
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 755,
+          "text": "In the shadow of the delivery dock, Professor Dravin knelt in the alley rubble, brushing aside soggy cigarette butts and broken bottle glass until his fingers closed around a solid, red clay construction brick. He weighed it in his palm, testing its heft, then uncapped the Sharpie once more. In bold, jagged letters across the pitted red surface, he wrote a single word: **PIG**."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b050",
+      "index": 50,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "eusacles",
+      "text": "\"Classic,\" Eusacles whispered, shaking his head with a grin. \"Timeless American vandalism. You're really embracing the life of crime, Doc.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b050_s01",
+          "type": "dialogue",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 775,
+          "text": "\"Classic,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b050_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Eusacles whispered, shaking his head with a grin. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b050_s03",
+          "type": "dialogue",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 775,
+          "text": "\"Timeless American vandalism. You're really embracing the life of crime, Doc.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b051",
+      "index": 51,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "dravin",
+      "text": "\"Historical causality frequently requires direct action,\" Dravin murmured. He squared his shoulders, stepped to the mouth of the alley, and peered through the rain at Cruiser 47 parked fifteen yards away in the precinct lot. With the disciplined windup of a man who had played varsity baseball for Oxford before switching to archaeological field surveys, Dravin hurled the brick through the night air.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b051_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 785,
+          "text": "\"Historical causality frequently requires direct action,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b051_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Dravin murmured. He squared his shoulders, stepped to the mouth of the alley, and peered through the rain at Cruiser 47 parked fifteen yards away in the precinct lot. With the disciplined windup of a man who had played varsity baseball for Oxford before switching to archaeological field surveys, Dravin hurled the brick through the night air."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b052",
+      "index": 52,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "*CRACK-SHATTER.*",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b052_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 801,
+          "text": "*CRACK-SHATTER.*"
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b053",
+      "index": 53,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "The brick pulverized the driver's side window of the cruiser, showering the front seat in a glittering cascade of safety glass before thudding heavily against the floorboards. Instantly, the cruiser's horn began a deafening, rhythmic blare, its blue-and-red roof lights strobing against the wet brick walls of the precinct. The heavy metal security door of the precinct banged open, and two uniformed officers burst onto the tarmac, slickers flapping, hands resting on their holstered sidearms.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b053_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 812,
+          "text": "The brick pulverized the driver's side window of the cruiser, showering the front seat in a glittering cascade of safety glass before thudding heavily against the floorboards. Instantly, the cruiser's horn began a deafening, rhythmic blare, its blue-and-red roof lights strobing against the wet brick walls of the precinct. The heavy metal security door of the precinct banged open, and two uniformed officers burst onto the tarmac, slickers flapping, hands resting on their holstered sidearms."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b054",
+      "index": 54,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "\"Hey! Alley! Someone hit forty-seven!\" one officer bellowed into his shoulder radio.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b054_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 845,
+          "text": "\"Hey! Alley! Someone hit forty-seven!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b054_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " one officer bellowed into his shoulder radio."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b055",
+      "index": 55,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "In the shadows, Dravin did not run. Instead, he dropped to his knees beside Alfie, pressing his open palms against her wooden chest and the surface of the tagged brick that Pierre had retrieved from a nearby trash pile. Dravin's eyes turned an opaque, milky violet as he channeled his fifth-level transmutational power.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b055_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "In the shadows, Dravin did not run. Instead, he dropped to his knees beside Alfie, pressing his open palms against her wooden chest and the surface of the tagged brick that Pierre had retrieved from a nearby trash pile. Dravin's eyes turned an opaque, milky violet as he channeled his fifth-level transmutational power."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b056",
+      "index": 56,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "dravin",
+      "text": "*\"Meld into Stone,\"* Dravin incanted, the archaic syllables vibrating through the wet pavement.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b056_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "*"
+        },
+        {
+          "segmentId": "uneraseable_s08_b056_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 867,
+          "text": "\"Meld into Stone,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b056_s03",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "* Dravin incanted, the archaic syllables vibrating through the wet pavement."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b057",
+      "index": 57,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "Alfie's small wooden form dissolved. Her cedar limbs, brass joints, and calico dress did not vanish; they liquefied into an emerald resonant ripple that flowed directly into the mineral pores of the red construction brick. The brick absorbed her entirely, its rough clay surface showing not a single seam, hinge, or rune\u2014only the crude black letters spelling out **PIG** and a tiny knot of wood visible only under a microscope.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b057_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Alfie's small wooden form dissolved. Her cedar limbs, brass joints, and calico dress did not vanish; they liquefied into an emerald resonant ripple that flowed directly into the mineral pores of the red construction brick. The brick absorbed her entirely, its rough clay surface showing not a single seam, hinge, or rune\u2014only the crude black letters spelling out **PIG** and a tiny knot of wood visible only under a microscope."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b058",
+      "index": 58,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "Dravin rolled backward into the deeper gloom of the storm drain culvert just as two flashlight beams swept the pavement. The lead officer kicked the brick, swearing into the downpour.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b058_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 888,
+          "text": "Dravin rolled backward into the deeper gloom of the storm drain culvert just as two flashlight beams swept the pavement. The lead officer kicked the brick, swearing into the downpour."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b059",
+      "index": 59,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "officer",
+      "text": "\"Here's the brick! Got 'PIG' written on it in marker! Grab an evidence bag, Miller. We gotta log this for the shift lieutenant before the glass gets rained on.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b059_s01",
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 923,
+          "text": "\"Here's the brick! Got 'PIG' written on it in marker! Grab an evidence bag, Miller. We gotta log this for the shift lieutenant before the glass gets rained on.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b060",
+      "index": 60,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "With zero suspicion, the officer scooped up the heavy clay brick, dropped it into a heavy-duty yellow plastic evidence pouch, and zipped the seal shut. As Pierre and Dravin watched from the rain-slicked shadows across the street, the officers carried the bagged brick through the security gate, past the metal detectors, past the sleeping K-9 unit, and directly through the double-bolted steel fire doors into the precinct's evidence processing bullpen.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b060_s01",
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 958,
+          "text": "With zero suspicion, the officer scooped up the heavy clay brick, dropped it into a heavy-duty yellow plastic evidence pouch, and zipped the seal shut. As Pierre and Dravin watched from the rain-slicked shadows across the street, the officers carried the bagged brick through the security gate, past the metal detectors, past the sleeping K-9 unit, and directly through the double-bolted steel fire doors into the precinct's evidence processing bullpen."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b061",
+      "index": 61,
+      "scene": "CHAPTER 54: THE BRICK DIVERSION & MELD INTO STONE",
+      "speakerId": "narrator",
+      "text": "Inside the brick, safe beneath two inches of baked shale, Alfie's sensory consciousness hummed with silent, razor-sharp anticipation. Phase one was complete. The package was inside the fortress.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b061_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Inside the brick, safe beneath two inches of baked shale, Alfie's sensory consciousness hummed with silent, razor-sharp anticipation. Phase one was complete. The package was inside the fortress."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b062",
+      "index": 62,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "narrator",
+      "text": "While the precinct bullpen scrambled to process the vandalism report, Pierre enacted the second prong of the incursion. Slicking his rain-drenched hair back with both hands, he shook out his woolen overcoat, adjusted his silk scarf, and stepped briskly through the front revolving doors into the fluorescent glare of the precinct reception lobby.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b062_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "While the precinct bullpen scrambled to process the vandalism report, Pierre enacted the second prong of the incursion. Slicking his rain-drenched hair back with both hands, he shook out his woolen overcoat, adjusted his silk scarf, and stepped briskly through the front revolving doors into the fluorescent glare of the precinct reception lobby."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b063",
+      "index": 63,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "pierre",
+      "text": "At the intake desk, a tired sergeant with coffee stains on his tie looked up through the scratched bulletproof window. \"Can I help you, pal? We got an incident in the lot, so make it quick.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b063_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "At the intake desk, a tired sergeant with coffee stains on his tie looked up through the scratched bulletproof window. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b063_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1011,
+          "text": "\"Can I help you, pal? We got an incident in the lot, so make it quick.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b064",
+      "index": 64,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "officer",
+      "text": "Pierre leaned against the wooden counter, adopting a theatrical blend of high-society entitlement and earnest philanthropic urgency. \"Yes, good evening, Officer. I am Pierre Dubois, Senior Regional Logistics Director for the Mid-Atlantic Make-A-Wish Foundation. I am here regarding the urgent VIP precinct tour scheduled for young Master Timothy tomorrow morning at nine. I received an alarming dispatch that your motor pool suffered structural damage, and I must personally verify that the ceremonial patrol vehicle will be operational for the child's arrival.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b064_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Pierre leaned against the wooden counter, adopting a theatrical blend of high-society entitlement and earnest philanthropic urgency. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b064_s02",
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 1014,
+          "text": "\"Yes, good evening, Officer. I am Pierre Dubois, Senior Regional Logistics Director for the Mid-Atlantic Make-A-Wish Foundation. I am here regarding the urgent VIP precinct tour scheduled for young Master Timothy tomorrow morning at nine. I received an alarming dispatch that your motor pool suffered structural damage, and I must personally verify that the ceremonial patrol vehicle will be operational for the child's arrival.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b065",
+      "index": 65,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "pierre",
+      "text": "The sergeant blinked, his pen freezing mid-air over a logbook. \"Make-A-Wish? What the hell are you talking about? Nobody told me about no tour.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b065_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The sergeant blinked, his pen freezing mid-air over a logbook. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b065_s02",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1018,
+          "text": "\"Make-A-Wish? What the hell are you talking about? Nobody told me about no tour.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b066",
+      "index": 66,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "officer",
+      "text": "\"Nobody told you?!\" Pierre gasped, his French accent sharpening with indignant horror. \"This is unconscionable! I have three camera crews from Channel 4 arriving at dawn! Call your lieutenant immediately! Do not make me contact the Mayor's press secretary from this lobby!\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b066_s01",
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 1026,
+          "text": "\"Nobody told you?!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b066_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Pierre gasped, his French accent sharpening with indignant horror. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b066_s03",
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 1026,
+          "text": "\"This is unconscionable! I have three camera crews from Channel 4 arriving at dawn! Call your lieutenant immediately! Do not make me contact the Mayor's press secretary from this lobby!\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b067",
+      "index": 67,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "narrator",
+      "text": "As the desk sergeant scrambled for his telephone in flustered panic, a deafening crash echoed from the roof above. High on the architectural parapet where the timeline seam was weakest, an anomalous stone gargoyle had manifested along the masonry cornice. Shifting its stony talons, the creature dislodged three massive decorative limestone blocks, sending them crashing through the glass-and-aluminum entrance awning directly over the main steps in an explosion of shattered glass and shrieking alarms.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b067_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "As the desk sergeant scrambled for his telephone in flustered panic, a deafening crash echoed from the roof above. High on the architectural parapet where the timeline seam was weakest, an anomalous stone gargoyle had manifested along the masonry cornice. Shifting its stony talons, the creature dislodged three massive decorative limestone blocks, sending them crashing through the glass-and-aluminum entrance awning directly over the main steps in an explosion of shattered glass and shrieking alarms."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b068",
+      "index": 68,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "dravin",
+      "text": "\"Code three! Awning collapse at the main entrance!\" blared the building-wide intercom. Every officer in the bullpen sprang from their desks, drawing batons and rushing toward the lobby in total bedlam.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b068_s01",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1036,
+          "text": "\"Code three! Awning collapse at the main entrance!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b068_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " blared the building-wide intercom. Every officer in the bullpen sprang from their desks, drawing batons and rushing toward the lobby in total bedlam."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b069",
+      "index": 69,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "narrator",
+      "text": "In the empty evidence processing room, the yellow plastic pouch on the table began to glow with soft emerald light. The red clay brick dissolved, and Alfie stepped out onto the linoleum, her calico dress snapping in the air currents as she stretched her wooden fingers.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b069_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "In the empty evidence processing room, the yellow plastic pouch on the table began to glow with soft emerald light. The red clay brick dissolved, and Alfie stepped out onto the linoleum, her calico dress snapping in the air currents as she stretched her wooden fingers."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b070",
+      "index": 70,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "alfie",
+      "text": "\"Right then,\" Alfie whispered, drawing her needle rapier and crouching low. \"Let's see what Uncle Sam's keeping in the cellar.\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b070_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1045,
+          "text": "\"Right then,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b070_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie whispered, drawing her needle rapier and crouching low. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b070_s03",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1045,
+          "text": "\"Let's see what Uncle Sam's keeping in the cellar.\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b071",
+      "index": 71,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "narrator",
+      "text": "Moving like a living shadow, Alfie slipped through the intake office, dropped into an open floor drain that bypassed the magnetic vault door, and emerged inside the high-security subterranean evidence cage. The room was cold, smelling of ozone, dust, and fifty years of confiscated narcotics and firearms. Long rows of wire-mesh shelving stretched into the darkness, lined with labeled cardboard boxes.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b071_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 1048,
+          "text": "Moving like a living shadow, Alfie slipped through the intake office, dropped into an open floor drain that bypassed the magnetic vault door, and emerged inside the high-security subterranean evidence cage. The room was cold, smelling of ozone, dust, and fifty years of confiscated narcotics and firearms. Long rows of wire-mesh shelving stretched into the darkness, lined with labeled cardboard boxes."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b072",
+      "index": 72,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "narrator",
+      "text": "Alfie ran along the second shelf until her eyes locked onto a steel security lockbox stamped with red archival ink: **INCIDENT 1982-FLIGHT-409 \u00b7 ANOMALOUS PHYSICAL EVIDENCE**. She severed the padlock with a blinding, single-stroke rapier strike. Flipping the lid open, she looked down at the prize.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b072_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 1067,
+          "text": "Alfie ran along the second shelf until her eyes locked onto a steel security lockbox stamped with red archival ink: **INCIDENT 1982-FLIGHT-409 \u00b7 ANOMALOUS PHYSICAL EVIDENCE**. She severed the padlock with a blinding, single-stroke rapier strike. Flipping the lid open, she looked down at the prize."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b073",
+      "index": 73,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "narrator",
+      "text": "Resting upon a bed of yellowed foam was a pair of heavy steel handcuffs. They were unadorned, industrial, and distinctly mid-twentieth century\u2014yet around the ratchet hinges, a faint ribbon of luminous blue chronal static pulsed in rhythm with the severed threads of the Loom. Alfie hooked her wooden fingers through the chain, lifting the temporal handcuffs into the air as the klaxons screamed outside.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b073_s01",
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1101,
+          "text": "Resting upon a bed of yellowed foam was a pair of heavy steel handcuffs. They were unadorned, industrial, and distinctly mid-twentieth century\u2014yet around the ratchet hinges, a faint ribbon of luminous blue chronal static pulsed in rhythm with the severed threads of the Loom. Alfie hooked her wooden fingers through the chain, lifting the temporal handcuffs into the air as the klaxons screamed outside."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b074",
+      "index": 74,
+      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "speakerId": "alfie",
+      "text": "\"Gotcha, you beautiful little bastards,\" Alfie grinned, tucking the relic into her haversack as the capital heist drew to its breathless close.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b074_s01",
+          "type": "dialogue",
+          "speakerId": "alfie",
+          "speakerName": "Alfie",
+          "sourceLine": 1195,
+          "text": "\"Gotcha, you beautiful little bastards,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b074_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " Alfie grinned, tucking the relic into her haversack as the capital heist drew to its breathless close."
         }
       ]
     }

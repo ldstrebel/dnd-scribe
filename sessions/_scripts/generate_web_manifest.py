@@ -180,11 +180,27 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#94a3b8",
         "role": "Echo of an Erased Timeline"
+    },
+    "officer": {
+        "name": "Police Officer",
+        "type": "npc",
+        "color": "#0284c7",
+        "role": "D.C. Metropolitan Precinct Officer"
+    },
+    "boatman": {
+        "name": "The Boatman",
+        "type": "npc",
+        "color": "#64748b",
+        "role": "Lost Creek Aqueduct Navigator"
     }
 }
 
 # Character and Player Ground-Truth Map
 CHARACTER_MAP = {
+    "officer": "officer",
+    "police": "officer",
+    "sergeant": "officer",
+    "boatman": "boatman",
     "child": "child",
     "thorne": "thorne",
     "doctor": "thorne",
