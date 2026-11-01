@@ -164,10 +164,10 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "D",
-      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
-      "tomatometer": 62,
-      "popcornmeter": 94,
+      "grade": "74/100",
+      "verdict": "SOLID TRANSITIONAL CHAPTER \u00b7 74/100",
+      "tomatometer": 74,
+      "popcornmeter": 82,
       "campaignArcImpact": "Campaign Arc Milestones for Session 8",
       "technicalCompliance": {
         "earthLeaks": 0,
@@ -175,7 +175,7 @@
         "stagnantTalkingHeads": 0,
         "transcriptParity": "100%"
       },
-      "ruthlessAnalysis": "Forensic audit verified.",
+      "ruthlessAnalysis": "A transitional urban heist with memorable set pieces (the Lost Creek Wonka defense and the Meld into Stone evidence smuggling), tempered by early blueprint stalls and asymmetric character momentum. Dravin's evolution into a pragmatic operational lead drives the chapter, though Eusacles remains in the passenger seat.",
       "tradeOffs": [
         {
           "dimension": "Narrative Velocity vs. Tangential Banter",
@@ -218,7 +218,120 @@
           "risk": "Characters exploring mechanics organically at the table risk subtle continuity friction if players later formalize backstories.",
           "mitigation": "Track active ambiguities in CRITIQUE_LOG.md Retcon Watchlist."
         }
-      ]
+      ],
+      "scoreSource": "Autonomous Editorial Rubric v2.0",
+      "scoringRubric": {
+        "arcProgression": {
+          "score": 18,
+          "max": 25,
+          "critique": "Mission advanced to D.C. evidence cage; initial pacing dragged by blueprint stalls."
+        },
+        "characterGrowth": {
+          "score": 19,
+          "max": 25,
+          "critique": "Dravin stepping into pragmatic leadership; Pierre exploring deception; Eusacles passive."
+        },
+        "canonConsistency": {
+          "score": 20,
+          "max": 25,
+          "critique": "High voice fidelity and strict table adherence; Toy Story shoe homage properly anchored."
+        },
+        "sceneComposition": {
+          "score": 17,
+          "max": 25,
+          "critique": "Strong kinetic Wonka combat; storm drain transition felt spatially clunky."
+        },
+        "totalScore": 74
+      },
+      "tableDebrief": {
+        "participantScorecards": [
+          {
+            "id": "dravin",
+            "name": "William Webb",
+            "character": "Prof. Edward Dravin",
+            "role": "Chrono-Academic & Heist Lead",
+            "badge": "Operational Lead",
+            "color": "#8b5cf6",
+            "icon": "\ud83d\udcdc",
+            "grade": "84/100",
+            "score": 84,
+            "spotlightShare": "28% spoken dialogue",
+            "consistencyScore": "95%",
+            "ruthlessVerdict": "Continues his trajectory from cautious academic to pragmatic criminal mastermind. Inscribing legal provenance onto Alfie's shoe was a brilliant convergence of pedantic scholarly logic and street cunning, and the PIG brick diversion provided vital physical momentum.",
+            "whatHelped": "Aggressive tactical initiative using Meld into Stone to bypass precinct defenses; anchored the team's operational strategy.",
+            "whatHurt": "Over-intellectualized blueprint discrepancies in the storm drain, burning critical operational time debating canted angles rather than acting.",
+            "nextSessionDirectives": "Balance academic planning with tactical decisiveness; trust the plan once deployed rather than second-guessing architecture under pressure."
+          },
+          {
+            "id": "alfie",
+            "name": "Sophie Foreman Noone",
+            "character": "Alfie",
+            "role": "Driftwood Doll & Infiltration Specialist",
+            "badge": "The Infiltrator",
+            "color": "#10b981",
+            "icon": "\ud83c\udf3f",
+            "grade": "82/100",
+            "score": 82,
+            "spotlightShare": "16% spoken dialogue",
+            "consistencyScore": "94%",
+            "ruthlessVerdict": "Committed fully to the high-risk infiltration strategy, enduring physical labeling and being smuggled into evidence custody inside a stone brick. Her physical sacrifice demonstrated deep unstated loyalty to the crew.",
+            "whatHelped": "Flawless execution of micro-scale vault infiltration through the precinct drain.",
+            "whatHurt": "Narrative presence was restricted by the inanimate brick transport; her signature verbal wit and dialogue friction were absent during the middle act.",
+            "nextSessionDirectives": "Re-establish vocal dominance once inside the evidence locker; take charge of interrogating whatever temporal anomalies are uncovered."
+          },
+          {
+            "id": "pierre",
+            "name": "Luke S",
+            "character": "Pierre",
+            "role": "Reluctant Gorgon Scion & Bluff Specialist",
+            "badge": "Social Infiltrator",
+            "color": "#3b82f6",
+            "icon": "\ud83d\udc0d",
+            "grade": "79/100",
+            "score": 79,
+            "spotlightShare": "26% spoken dialogue",
+            "consistencyScore": "92%",
+            "ruthlessVerdict": "Strong scene adaptation during the Wonka javelin defense, blending terror and theatrical arrogance in equal measure. Posing as a Make-A-Wish representative revealed a developing comfort with social manipulation.",
+            "whatHelped": "Creative physical combat improvisation on Lost Creek and quick-thinking deception at the precinct reception desk.",
+            "whatHurt": "Yielded strategic leadership entirely to Dravin; his aristocratic French aloofness occasionally detaches him from the emotional urgency of the mission.",
+            "nextSessionDirectives": "Assert Pierre's personal stake in the Loom fragments; avoid settling into a passive support role during high-stakes urban infiltrations."
+          },
+          {
+            "id": "gm",
+            "name": "Luke Foreman",
+            "character": "Game Master",
+            "role": "World Architect & Pacing Lead",
+            "badge": "The Architect",
+            "color": "#94a3b8",
+            "icon": "\ud83d\udc51",
+            "grade": "76/100",
+            "score": 76,
+            "spotlightShare": "12% narrative pacing & clocks",
+            "consistencyScore": "93%",
+            "ruthlessVerdict": "Effectively ratcheted up tension by introducing ticking operational countdowns and the lingering threat of the historical relic hunter, shifting the campaign smoothly into urban fantasy noir.",
+            "whatHelped": "Tactile sensory grounding in the Lost Creek sluice gate and atmospheric precinct intake description.",
+            "whatHurt": "Blueprint ambiguities created circular table confusion early on, bogging down Act I in compass debates before play found its rhythm.",
+            "nextSessionDirectives": "Keep tactical briefings concise and unambiguous so player momentum carries smoothly from planning into execution."
+          },
+          {
+            "id": "eusacles",
+            "name": "John Hagey",
+            "character": "Eusacles",
+            "role": "Vegas Demigod & Frontline Anchor",
+            "badge": "The Guardian",
+            "color": "#f59e0b",
+            "icon": "\ud83d\udee1\ufe0f",
+            "grade": "73/100",
+            "score": 73,
+            "spotlightShare": "18% spoken dialogue",
+            "consistencyScore": "91%",
+            "ruthlessVerdict": "A transitional chapter for Eusacles. Auditing his Paladin gear and finally donning heavy armor with Theodore's boon addresses long-standing mechanical neglect, but his narrative contributions were muted.",
+            "whatHelped": "Provided solid physical defense during the subterranean river ambush.",
+            "whatHurt": "Passenger-seat syndrome: remained completely passive during the heist planning and municipal entry, offering little resistance or tactical input.",
+            "nextSessionDirectives": "Step into an active moral and physical leadership role; bring demigod friction to the table rather than quietly deferring to the mortals."
+          }
+        ]
+      }
     },
     "changelog": [
       {
