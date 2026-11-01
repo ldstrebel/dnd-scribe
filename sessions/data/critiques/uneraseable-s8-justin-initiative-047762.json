@@ -1,0 +1,63 @@
+{
+  "campaign": "uneraseable",
+  "chapter": "s8",
+  "title": "Uneraseable - THE CAPITAL INCURSION",
+  "reviewer": "Justin Initiative",
+  "reviewerMeta": {
+    "handle": "Justin Initiative",
+    "isBankPunName": true,
+    "suggestedBankReplacement": "Penny Shortrest"
+  },
+  "exportedAt": "2026-11-01T15:30:47.762Z",
+  "totalCritiques": 3,
+  "critiques": [
+    {
+      "blockId": "uneraseable_s08_b013",
+      "blockIndex": 13,
+      "speaker": "Theodore (Teddy)",
+      "speakerId": "theodore",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#d97706",
+      "category": "general",
+      "quote": "\"It is worse than municipal bureaucracy,\" Luke Foreman's voice resonated from the head of the long table, the Game Master leaning forward to draw three interlocking circular dials onto the planning slate. \"You are not just racing local detectives. You are operating under clock pressure.\"",
+      "comment": "too meta - should not be in the story version - abstract to Teddy or someone saying you will be cometing against time to find the relic, outpace the Redactors, and whatever the 3rd clock was",
+      "suggestedRewrite": "",
+      "sourceLine": null,
+      "sourceSpeaker": "Narrative Synthesis",
+      "updatedAt": "2026-11-01T15:16:13.454Z"
+    },
+    {
+      "blockId": "uneraseable_s08_b014",
+      "blockIndex": 14,
+      "speaker": "Narrator",
+      "speakerId": "narrator",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#94a3b8",
+      "category": "general",
+      "quote": "Foreman sketched out the tracking clocks in charcoal: a four-segment **Prize Clock** labeled *The Flight Handcuffs*, a six-segment **Threat Clock** labeled *Precinct Security Lockout*, and an ominous eight-segment **Hunter Clock** inked in black tallow.",
+      "comment": "formatting issue",
+      "suggestedRewrite": "",
+      "sourceLine": null,
+      "sourceSpeaker": "Narrative Synthesis",
+      "updatedAt": "2026-11-01T15:16:19.827Z"
+    },
+    {
+      "blockId": "uneraseable_s08_b045",
+      "blockIndex": 45,
+      "speaker": "Alfie",
+      "speakerId": "alfie",
+      "suggestedSpeaker": null,
+      "suggestedSpeakerName": null,
+      "speakerColor": "#10b981",
+      "category": "general",
+      "quote": "\"You've signed me foot!\" Alfie squawked, kicking her legs in outraged humiliation. \"You've branded me like a lost umbrella at Paddington Station! I am a living duelist of the wordcraft tradition, not a schoolboy's pencil case!\"",
+      "comment": "this does not link to anything related to the shoe signing and idk where this adaption came form",
+      "suggestedRewrite": "",
+      "sourceLine": null,
+      "sourceSpeaker": "Narrative Synthesis",
+      "updatedAt": "2026-11-01T15:17:25.055Z"
+    }
+  ]
+}
