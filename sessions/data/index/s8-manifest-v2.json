@@ -71,14 +71,14 @@
     }
   },
   "stats": {
-    "wordCount": 3580,
+    "wordCount": 3593,
     "estimatedReadMinutes": 15,
-    "estimatedBookPages": 14.3,
+    "estimatedBookPages": 14.4,
     "dialogueRatio": {
-      "spokenWords": 1083,
-      "narrativeWords": 2497,
-      "spokenPct": 30.3,
-      "narrativePct": 69.7,
+      "spokenWords": 1065,
+      "narrativeWords": 2528,
+      "spokenPct": 29.6,
+      "narrativePct": 70.4,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -86,22 +86,22 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1806,
-        "sharePct": 50.4
+        "words": 1863,
+        "sharePct": 51.9
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
         "words": 544,
-        "sharePct": 15.2
+        "sharePct": 15.1
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
         "words": 361,
-        "sharePct": 10.1
+        "sharePct": 10.0
       },
       {
         "id": "eusacles",
@@ -114,8 +114,8 @@
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 224,
-        "sharePct": 6.3
+        "words": 188,
+        "sharePct": 5.2
       },
       {
         "id": "officer",
@@ -125,29 +125,29 @@
         "sharePct": 4.2
       },
       {
-        "id": "naomi",
-        "name": "Naomi",
-        "color": "#ec4899",
-        "words": 148,
-        "sharePct": 4.1
-      },
-      {
         "id": "theodore",
         "name": "Theodore (Teddy)",
         "color": "#d97706",
-        "words": 116,
-        "sharePct": 3.2
+        "words": 134,
+        "sharePct": 3.7
+      },
+      {
+        "id": "naomi",
+        "name": "Naomi",
+        "color": "#ec4899",
+        "words": 122,
+        "sharePct": 3.4
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 9.7,
+      "pacingStdDev": 10.2,
       "pacingDynamic": true,
       "sensoryRegisters": {
         "visual": 16,
         "auditory": 1,
         "tactile": 10,
-        "olfactory": 13,
-        "atmospheric": 11,
+        "olfactory": 14,
+        "atmospheric": 10,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -185,13 +185,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "30.3% Spoken / 69.7% Narrative Action",
+          "chosenStance": "29.6% Spoken / 70.4% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~255 words/scene)",
+          "chosenStance": "Micro-Chapters (~256 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -560,7 +560,7 @@
       "index": 13,
       "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "theodore",
-      "text": "\"It is worse than municipal bureaucracy,\" Luke Foreman's voice resonated from the head of the long table, the Game Master leaning forward to draw three interlocking circular dials onto the planning slate. \"You are not just racing local detectives. You are operating under clock pressure.\"",
+      "text": "\"It is worse than municipal bureaucracy,\" Teddy said, leaning over the planning slate with arms crossed. \"Naomi's intelligence from the gray web confirms we are competing against three brutal pressures: the clock to locate and extract the relic before the evidence cage seals, the precinct's automated security lockout if the alarm trips the grid, and the Redactors already closing in on the breach.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b013_s01",
@@ -576,7 +576,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Luke Foreman's voice resonated from the head of the long table, the Game Master leaning forward to draw three interlocking circular dials onto the planning slate. "
+          "text": " Teddy said, leaning over the planning slate with arms crossed. "
         },
         {
           "segmentId": "uneraseable_s08_b013_s03",
@@ -584,7 +584,7 @@
           "speakerId": "theodore",
           "speakerName": "Theodore (Teddy)",
           "sourceLine": 220,
-          "text": "\"You are not just racing local detectives. You are operating under clock pressure.\""
+          "text": "\"Naomi's intelligence from the gray web confirms we are competing against three brutal pressures: the clock to locate and extract the relic before the evidence cage seals, the precinct's automated security lockout if the alarm trips the grid, and the Redactors already closing in on the breach.\""
         }
       ]
     },
@@ -593,7 +593,7 @@
       "index": 14,
       "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "narrator",
-      "text": "Foreman sketched out the tracking clocks in charcoal: a four-segment **Prize Clock** labeled *The Flight Handcuffs*, a six-segment **Threat Clock** labeled *Precinct Security Lockout*, and an ominous eight-segment **Hunter Clock** inked in black tallow.",
+      "text": "Teddy traced three concentric marks across the grease-pencil diagram: the narrow window to locate and extract the anomalous flight handcuffs, the station's automated security lockout threshold, and the relentless pursuit of the Redactor hunter contingent shadowing their trail.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b014_s01",
@@ -601,7 +601,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Foreman sketched out the tracking clocks in charcoal: a four-segment **Prize Clock** labeled *The Flight Handcuffs*, a six-segment **Threat Clock** labeled *Precinct Security Lockout*, and an ominous eight-segment **Hunter Clock** inked in black tallow."
+          "text": "Teddy traced three concentric marks across the grease-pencil diagram: the narrow window to locate and extract the anomalous flight handcuffs, the station's automated security lockout threshold, and the relentless pursuit of the Redactor hunter contingent shadowing their trail."
         }
       ]
     },
@@ -610,7 +610,7 @@
       "index": 15,
       "scene": "CHAPTER 51: THE HEARTH AT DAWN & THE CLOCKS OF MAJORA",
       "speakerId": "naomi",
-      "text": "\"The artifact you seek is a pair of temporal handcuffs,\" Foreman explained, his tone dropping into chilling atmospheric cadence. \"Seized in 1982 from a passenger aboard an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. But the moment you enter the transit corridor, the Hunter Clock begins ticking. There is an entity that stalks those who gather historical relics. A faceless, shifting horror with a dozen masks. Its name is **Majora**.\"",
+      "text": "\"The relic you seek is a pair of anomalous flight handcuffs,\" Teddy explained, his tone measured and grave. \"Logged during an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. The moment you enter the transit corridor, you will be racing the clock on every front.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b015_s01",
@@ -618,7 +618,7 @@
           "speakerId": "naomi",
           "speakerName": "Naomi",
           "sourceLine": 238,
-          "text": "\"The artifact you seek is a pair of temporal handcuffs,\""
+          "text": "\"The relic you seek is a pair of anomalous flight handcuffs,\""
         },
         {
           "segmentId": "uneraseable_s08_b015_s02",
@@ -626,7 +626,7 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Foreman explained, his tone dropping into chilling atmospheric cadence. "
+          "text": " Teddy explained, his tone measured and grave. "
         },
         {
           "segmentId": "uneraseable_s08_b015_s03",
@@ -634,7 +634,7 @@
           "speakerId": "naomi",
           "speakerName": "Naomi",
           "sourceLine": 238,
-          "text": "\"Seized in 1982 from a passenger aboard an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. But the moment you enter the transit corridor, the Hunter Clock begins ticking. There is an entity that stalks those who gather historical relics. A faceless, shifting horror with a dozen masks. Its name is **Majora**.\""
+          "text": "\"Logged during an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. The moment you enter the transit corridor, you will be racing the clock on every front.\""
         }
       ]
     },
@@ -1407,32 +1407,16 @@
       "id": "uneraseable_s08_b045",
       "index": 45,
       "scene": "CHAPTER 53: THE STORM DRAIN & THE SHARPIE INSCRIPTION",
-      "speakerId": "alfie",
-      "text": "\"You've signed me foot!\" Alfie squawked, kicking her legs in outraged humiliation. \"You've branded me like a lost umbrella at Paddington Station! I am a living duelist of the wordcraft tradition, not a schoolboy's pencil case!\"",
+      "speakerId": "narrator",
+      "text": "Alfie remained entirely inert in object form, unable to protest or make decisions as Dravin turned the wooden foot over and labeled the cedar sole with his Sharpie\u2014much like a child marking the bottom of a toy boot\u2014establishing indisputable contact provenance in case the anomalous relic was discovered during the infiltration.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b045_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 660,
-          "text": "\"You've signed me foot!\""
-        },
-        {
-          "segmentId": "uneraseable_s08_b045_s02",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Alfie squawked, kicking her legs in outraged humiliation. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b045_s03",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 660,
-          "text": "\"You've branded me like a lost umbrella at Paddington Station! I am a living duelist of the wordcraft tradition, not a schoolboy's pencil case!\""
+          "type": "action",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 503,
+          "text": "Alfie remained entirely inert in object form, unable to protest or make decisions as Dravin turned the wooden foot over and labeled the cedar sole with his Sharpie\u2014much like a child marking the bottom of a toy boot\u2014establishing indisputable contact provenance in case the anomalous relic was discovered during the infiltration."
         }
       ]
     },

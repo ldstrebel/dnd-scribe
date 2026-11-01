@@ -28,11 +28,11 @@ Across the table, Professor Dravin touched the lapel of his tweed jacket, feelin
 
 Pierre groaned, resting his spatula on the stove rim. "Mortal police? With badges, radios, and bureaucracy? I would rather face another hydra in the reeds. In France, you cannot even bribe a clerk without filing three duplicate tax receipts." <!-- L0215:pierre --> <!-- L0219:pierre -->
 
-"It is worse than municipal bureaucracy," Luke Foreman's voice resonated from the head of the long table, the Game Master leaning forward to draw three interlocking circular dials onto the planning slate. "You are not just racing local detectives. You are operating under clock pressure." <!-- L0220:theodore --> <!-- L0224:narrator -->
+"It is worse than municipal bureaucracy," Teddy said, leaning over the planning slate with arms crossed. "Naomi's intelligence from the gray web confirms we are competing against three brutal pressures: the clock to locate and extract the relic before the evidence cage seals, the precinct's automated security lockout if the alarm trips the grid, and the Redactors already closing in on the breach." <!-- L0220:theodore --> <!-- L0224:narrator -->
 
-Foreman sketched out the tracking clocks in charcoal: a four-segment **Prize Clock** labeled *The Flight Handcuffs*, a six-segment **Threat Clock** labeled *Precinct Security Lockout*, and an ominous eight-segment **Hunter Clock** inked in black tallow. <!-- L0235:naomi --> <!-- L0236:naomi -->
+Teddy traced three concentric marks across the grease-pencil diagram: the narrow window to locate and extract the anomalous flight handcuffs, the station's automated security lockout threshold, and the relentless pursuit of the Redactor hunter contingent shadowing their trail. <!-- L0235:naomi --> <!-- L0236:naomi -->
 
-"The artifact you seek is a pair of temporal handcuffs," Foreman explained, his tone dropping into chilling atmospheric cadence. "Seized in 1982 from a passenger aboard an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. But the moment you enter the transit corridor, the Hunter Clock begins ticking. There is an entity that stalks those who gather historical relics. A faceless, shifting horror with a dozen masks. Its name is **Majora**." <!-- L0238:naomi --> <!-- L0240:narrator -->
+"The relic you seek is a pair of anomalous flight handcuffs," Teddy explained, his tone measured and grave. "Logged during an unrecorded commercial flight that vanished from radar over the Atlantic and re-emerged forty minutes later with all instrument clocks stopped. The moment you enter the transit corridor, you will be racing the clock on every front." <!-- L0238:naomi --> <!-- L0240:narrator -->
 
 Alfie slipped from her porch perch, her rapier sheathed at her hip, her painted cedar face unblinking. "Then let it come sniffing," she chirped in her sharp Cockney cadence, tapping the pommel of her blade. "We've got pancakes in our bellies and a heist to pull in the capital. Pack the bags, boys. Time to catch our ride." <!-- L0240:alfie -->
 
@@ -100,7 +100,7 @@ Alfie took a step back, her glass marble eyes widening in alarm. "Oi! What are y
 
 *"PROPERTY OF PROFESSOR EDWARD DRAVIN,"* the ink blossomed across the wood grain, *"DEPARTMENT OF CLASSICAL EPIGRAPHY, STANFORD UNIVERSITY. CAMPUS CONTACT: 415-555-0192. REWARD IF RECOVERED."* <!-- L0650:dravin --> <!-- L0651:pierre -->
 
-"You've signed me foot!" Alfie squawked, kicking her legs in outraged humiliation. "You've branded me like a lost umbrella at Paddington Station! I am a living duelist of the wordcraft tradition, not a schoolboy's pencil case!" <!-- L0660:alfie --> <!-- L0670:alfie -->
+Alfie remained entirely inert in object form, unable to protest or make decisions as Dravin turned the wooden foot over and labeled the cedar sole with his Sharpie—much like a child marking the bottom of a toy boot—establishing indisputable contact provenance in case the anomalous relic was discovered during the infiltration. <!-- L0503:dravin --> <!-- L0510:narrator -->
 
 "It establishes indisputable legal provenance," Dravin explained mildly, recapping the marker and admiring his handiwork. "If an officer finds an anomalous wooden doll inside a metropolitan precinct, it will be treated as suspicious contraband or a potential explosive device. But with my faculty contact information, provenance documentation, and cataloging numbers clearly inscribed, they are bound by municipal intake regulations to log you as lost property or seized physical evidence. You become an item of legal custody." <!-- L0680:dravin --> <!-- L0690:dravin -->
 
