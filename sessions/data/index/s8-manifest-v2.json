@@ -71,14 +71,14 @@
     }
   },
   "stats": {
-    "wordCount": 3593,
+    "wordCount": 3578,
     "estimatedReadMinutes": 15,
-    "estimatedBookPages": 14.4,
+    "estimatedBookPages": 14.3,
     "dialogueRatio": {
-      "spokenWords": 1065,
-      "narrativeWords": 2528,
-      "spokenPct": 29.6,
-      "narrativePct": 70.4,
+      "spokenWords": 1047,
+      "narrativeWords": 2531,
+      "spokenPct": 29.3,
+      "narrativePct": 70.7,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -86,22 +86,22 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1863,
-        "sharePct": 51.9
+        "words": 1848,
+        "sharePct": 51.6
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
         "words": 544,
-        "sharePct": 15.1
+        "sharePct": 15.2
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
         "words": 361,
-        "sharePct": 10.0
+        "sharePct": 10.1
       },
       {
         "id": "eusacles",
@@ -115,7 +115,7 @@
         "name": "Alfie",
         "color": "#10b981",
         "words": 188,
-        "sharePct": 5.2
+        "sharePct": 5.3
       },
       {
         "id": "officer",
@@ -147,7 +147,7 @@
         "auditory": 1,
         "tactile": 10,
         "olfactory": 14,
-        "atmospheric": 10,
+        "atmospheric": 11,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -185,13 +185,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "29.6% Spoken / 70.4% Narrative Action",
+          "chosenStance": "29.3% Spoken / 70.7% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~256 words/scene)",
+          "chosenStance": "Micro-Chapters (~255 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -1067,7 +1067,7 @@
       "index": 32,
       "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. On the planning board in the physical room, Luke Foreman smiled faintly and filled the first wedge of the Hunter Clock with a stroke of black ink.",
+      "text": "As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. Across the cavern water, an unnatural chill gripped the subterranean air, the invisible boundary of the transit corridor shuddering as their pursuit tightened.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b032_s01",
@@ -1075,7 +1075,7 @@
           "speakerId": "pierre",
           "speakerName": "Pierre",
           "sourceLine": 475,
-          "text": "As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. On the planning board in the physical room, Luke Foreman smiled faintly and filled the first wedge of the Hunter Clock with a stroke of black ink."
+          "text": "As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. Across the cavern water, an unnatural chill gripped the subterranean air, the invisible boundary of the transit corridor shuddering as their pursuit tightened."
         }
       ]
     },
@@ -1084,31 +1084,15 @@
       "index": 33,
       "scene": "CHAPTER 52: LOST CREEK & THE WONKA CROSSING",
       "speakerId": "narrator",
-      "text": "\"One tick,\" Foreman said, his voice dropping into the quiet cavern gloom. \"Somewhere deep in the folds behind you, Majora's mask turns toward the scent of your crossing.\"",
+      "text": "Somewhere deep in the folds behind them, the faceless hunter turned toward the scent of their crossing.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b033_s01",
-          "type": "dialogue",
+          "type": "action",
           "speakerId": "eusacles",
           "speakerName": "Eusacles",
           "sourceLine": 480,
-          "text": "\"One tick,\""
-        },
-        {
-          "segmentId": "uneraseable_s08_b033_s02",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Foreman said, his voice dropping into the quiet cavern gloom. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b033_s03",
-          "type": "dialogue",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 480,
-          "text": "\"Somewhere deep in the folds behind you, Majora's mask turns toward the scent of your crossing.\""
+          "text": "Somewhere deep in the folds behind them, the faceless hunter turned toward the scent of their crossing."
         }
       ]
     },

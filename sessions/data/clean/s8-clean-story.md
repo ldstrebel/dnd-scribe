@@ -70,9 +70,9 @@ Alfie cackled with delight, darting between Eusacles' armored knees to sever a g
 
 Eusacles brought his morningstar down with a thunderous crunch, obliterating a swarm that had begun to climb the boatman's robes. The boatman did not flinch, merely leaning into the steering pole and banking the vessel into a violent ninety-degree turn down a roaring vertical sluice gate. <!-- L0460:eusacles --> <!-- L0470:narrator -->
 
-As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. On the planning board in the physical room, Luke Foreman smiled faintly and filled the first wedge of the Hunter Clock with a stroke of black ink. <!-- L0475:narrator -->
+As the punt leveled out into calmer water, a hiss of black residue sizzled against the port side gunwale, eating through an inch of cedar like battery acid before burning itself out. Across the cavern water, an unnatural chill gripped the subterranean air, the invisible boundary of the transit corridor shuddering as their pursuit tightened. <!-- L0475:narrator -->
 
-"One tick," Foreman said, his voice dropping into the quiet cavern gloom. "Somewhere deep in the folds behind you, Majora's mask turns toward the scent of your crossing." <!-- L0480:narrator -->
+Somewhere deep in the folds behind them, the faceless hunter turned toward the scent of their crossing. <!-- L0480:narrator -->
 
 <!-- RAW_RANGE: [481, 750] | SCENE_ID: 3 -->
 
