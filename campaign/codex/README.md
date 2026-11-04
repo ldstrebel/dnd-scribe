@@ -90,12 +90,12 @@
                         
                             
                                 <span>🔍 Investigation Quest Board</span>
-                                8 Threads
+                                9 Threads
                             
-                            Video game quest log tracking the stolen weave, Alfie's origins, 1948 Big Pox trials, and Persephone's warning.
+                            Campaign quest log tracking the stolen weave, Alfie's origins, 1948 Big Pox trials, the D.C. police locker, and the Hunter Clock.
 
                             
-                                <button type="button" onclick="selectCodexArticle('open-threads')" class="px-2 py-0.5 text-[11px] rounded bg-purple-950/40 border border-purple-800/60 text-purple-300 hover:bg-purple-900/60 font-mono transition-colors">TH-01 to TH-08</button>
+                                <button type="button" onclick="selectCodexArticle('open-threads')" class="px-2 py-0.5 text-[11px] rounded bg-purple-950/40 border border-purple-800/60 text-purple-300 hover:bg-purple-900/60 font-mono transition-colors">TH-01 to TH-09</button>
                             
                         
                         <button type="button" onclick="selectCodexArticle('open-threads')" class="mt-2.5 text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1 self-start">
