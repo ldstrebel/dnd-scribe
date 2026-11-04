@@ -116,6 +116,8 @@ def verify_parity(session_id, manifest_path=None, story_path=None,
                   blocks_dir=None, indexed_path=None):
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     manifest_path = manifest_path or os.path.join(base_dir, "data", "index", f"{session_id}-manifest.json")
+    if not os.path.exists(manifest_path):
+        manifest_path = os.path.join(base_dir, "data", "index", f"{session_id}-manifest-v2.json")
     indexed_path = indexed_path or os.path.join(base_dir, "data", "index", f"{session_id}-raw-indexed.md")
     story_path = story_path or os.path.join(base_dir, "data", "clean", f"{session_id}-clean-story.md")
 

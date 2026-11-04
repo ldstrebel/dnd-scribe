@@ -83,7 +83,7 @@ Applying this rubric to Session 8 (*The Capital Incursion & The Evidence Locker 
 | :--- | :--- | :---: | :--- | :--- | :--- |
 | **Prof. Edward Dravin** | William Webb | **`84 / 100`** | Continues his compelling trajectory from a sheltered academic into a pragmatic criminal mastermind. Inscribing legal provenance onto Alfie's shoe was a brilliant fusion of academic pedantry and tactical cunning. | Over-intellectualized blueprint discrepancies in the storm drain, burning critical operational time debating canted angles rather than moving with urgency. | Trust operational execution once deployed; avoid second-guessing architectural anomalies under live pressure. |
 | **Alfie** | Sophie Foreman Noone | **`82 / 100`** | Committed fully to a high-risk infiltration strategy, enduring physical labeling and being smuggled into evidence custody inside a stone brick. Demonstrated deep, unstated loyalty to the crew. | Narrative presence was restricted by the inanimate brick transport; her signature verbal wit and dialogue friction were absent during the middle act. | Re-establish vocal dominance once inside the evidence locker; take charge of interrogating whatever temporal anomalies are uncovered. |
-| **Pierre** | Luke S | **`79 / 100`** | The Wonka javelin recital on Lost Creek was an iconic character beat showcasing Pierre's flamboyant defense mechanism against terror. Posing as a Make-A-Wish representative revealed growing comfort with deceit. | Yielded strategic leadership entirely to Dravin; his aristocratic French aloofness occasionally detaches him from the emotional urgency of the mission. | Assert Pierre's personal stake in the Loom fragments; avoid settling into a passive support role during high-stakes urban infiltrations. |
+| **Pierre** | Luke S | **`79 / 100`** | The Wonka javelin recital on Lost Creek was an iconic character beat showcasing Pierre's flamboyant defense mechanism against terror. Coordinating the stone sentinel diversion demonstrated growing comfort with high-stakes operational pressure. | Yielded strategic leadership entirely to Dravin; his aristocratic French aloofness occasionally detaches him from the emotional urgency of the mission. | Assert Pierre's personal stake in the Loom fragments; avoid settling into a passive support role during high-stakes urban infiltrations. |
 | **Game Master** | Luke Foreman | **`76 / 100`** | Successfully ratcheted up tension by introducing ticking operational countdowns and the impending threat of the historical relic hunter, shifting the tone into urban fantasy noir. | Blueprint ambiguities created circular table confusion early on, bogging down Act I in compass debates before play found its rhythm. | Keep tactical briefings concise and unambiguous so player momentum carries smoothly from planning into execution. |
 | **Eusacles** | John Hagey | **`73 / 100`** | A transitional chapter. Auditing his Paladin gear and finally donning heavy armor with Theodore's blessing addressed long-standing mechanical neglect. | Passenger-seat syndrome: remained completely passive during the heist planning and municipal entry, offering little resistance or tactical input. | Step into an active moral and physical leadership role; bring demigod friction to the table rather than quietly deferring to the mortals. |
 
@@ -101,3 +101,29 @@ To resolve the container-heavy, noisy visual presentation:
 4. **Streamlined Participant Row:** Single horizontal row displaying character icon, short name, and bold numerical score (`Dravin: 84`, `Alfie: 82`, `Pierre: 79`, `GM: 76`, `Eusacles: 73`). No letter grades.
 5. **Typographic Blockquote:** Editorial summary rendered with an elegant left border accent (`border-l-2 border-rose-500/80`) rather than trapped inside an extra bordered container.
 6. **Unified Action CTA:** A single, clean link button (`Read Full Character Breakdown & Rubric →`) without redundant secondary prompts or native browser tooltips.
+
+---
+
+## 5. Forensic Postmortem: Session 8 Act V Narrative Hallucination & Pipeline Hardening
+
+**Incident:** Fabricated Heist Resolution in Session 8 Act V  
+**Classification:** Critical Canon Breach & Semantic Grounding Failure  
+**Severity:** High  
+**Status:** Resolved & Permanently Hardened  
+
+### What Was Hallucinated vs. Table Reality
+- **Hallucinated Published Text:** Claimed Pierre entered the precinct lobby posing as "Pierre Dubois, Senior Regional Logistics Director for the Mid-Atlantic Make-A-Wish Foundation" asking about an urgent VIP tour for "Master Timothy" with Channel 4 arriving at dawn. Claimed a mysterious stone gargoyle manifested on the roof to dislodge limestone blocks. Claimed that inside the processing room, Alfie dissolved the brick, dropped through a 3-inch floor drain into a subterranean vault, cut open evidence box `1982-FLIGHT-409`, and stole glowing blue `temporal handcuffs`.
+- **Verified Table Audio Truth (`s8-raw-indexed.md` L0981–L1050):** Pierre remained in Bicentennial Park across the street. A living stone statue sent by Pierre's mother (Barry / Lady Liberty) offered help. Pierre directed it to find the bricks; the statue vaulted across, climbed the front portico, and hammered loose bricks until part of the awning collapsed, setting off precinct alarms. Inside, Dravin (already in the lobby discussing a misplaced doll shoe) was ushered by the receptionist into the back suspect processing room for safety. There, Dravin found Alfie sealed in stone form inside the tagged brick on an examination table alongside three other confiscated "PIG" bricks that detectives had been analyzing. Dravin dryly asked if any brick was missing a shoe. Outside, the statue winked at Pierre and played dead, leaving police confused ("I guess there was a gargoyle on the roof?"). Pierre sprinted toward the rear entrance, and GM Luke Foreman declared: *"And I think that is a good spot to end and we'll pick up at full strength next week."*
+
+### Why It Escaped the Pipeline
+1. **Out-of-Character Debrief Bleed:** Players discussed Blades in the Dark flashback mechanics and future vault plans after the session ended (L1060–L1070). An LLM generation pass ingested this meta-talk and forward-projected an unearned, fabricated resolution to close out the heist.
+2. **Schema 2.0 Manifest Blindspot:** `audit_semantic_grounding.py` and `verify_parity.py` were hardcoded to look for `s8-manifest.json` instead of `s8-manifest-v2.json`, causing the grounding linters to error out rather than audit S8.
+3. **Volume Over Grounding in Verification Gate:** `verify_deployment_pipeline.py` Gate 1 checked `len(blocks) >= 50`, `wordCount >= 3000`, and regex against meta strings (`Game Master`, `roll initiative`). Because the hallucinated text was fluent and lacked meta words, it passed.
+
+### Permanent Pipeline Hardening (No Faking the Pipeline)
+1. **Source of Truth Restored:** Rewrote Chapter 55 (*The Sentinel of Liberty & The Suspect Room*) in `s8-clean-story.md` matching table lines L0981–L1045. Recompiled `s8-manifest-v2.json` (77 blocks, 3,596 words) and rebuilt `uneraseable-s8.html`.
+2. **Tooling Upgraded:** Fixed `audit_semantic_grounding.py` and `verify_parity.py` with automatic fallback to `s{N}-manifest-v2.json`.
+3. **Automated Gate Enforcement (`verify_deployment_pipeline.py`):**
+   - Added `FORBIDDEN_HALLUCINATION_TERMS` (`Make-A-Wish`, `temporal handcuffs`, `1982-FLIGHT`, `Master Timothy`).
+   - Added **Transcript Line Boundary Invariant**: Scans clean story markers against `sN-raw-indexed.md` to ensure no scene block references line markers beyond the actual transcript termination line (`max(clean_markers) <= max(raw_lines)`).
+

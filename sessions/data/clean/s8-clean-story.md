@@ -140,30 +140,36 @@ Inside the brick, safe beneath two inches of baked shale, Alfie's sensory consci
 
 <!-- RAW_RANGE: [981, 1195] | SCENE_ID: 5 -->
 
-## CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST
+## CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM
 
-While the precinct bullpen scrambled to process the vandalism report, Pierre enacted the second prong of the incursion. Slicking his rain-drenched hair back with both hands, he shook out his woolen overcoat, adjusted his silk scarf, and stepped briskly through the front revolving doors into the fluorescent glare of the precinct reception lobby. <!-- L0990:narrator --> <!-- L0999:pierre -->
+Across the asphalt expanse in Bicentennial Park, Pierre and Eusacles crouched low in the wet boxwoods, eyes locked on the glowing double doors of the precinct. Inside the lobby, Professor Dravin was already engaged at the counter, playing the part of a flustered academic searching for a misplaced doll shoe to maintain visual presence while Alfie was processed in custody. <!-- L0981:pierre -->
 
-At the intake desk, a tired sergeant with coffee stains on his tie looked up through the scratched bulletproof window. "Can I help you, pal? We got an incident in the lot, so make it quick." <!-- L1011:pierre -->
+A soft crunch of gravel broke the rain. Moving with uncanny, silent weight through the dripping rhododendrons, a carved limestone figure trotted up to the brush. It was a winged gargoyle—hewn entirely from weathered American granite—its surface pitted with century-old chisel marks. The creature reached out a heavy stone hand, patting Pierre firmly on the shoulder. <!-- L0982:narrator --> <!-- L0986:narrator -->
 
-Pierre leaned against the wooden counter, adopting a theatrical blend of high-society entitlement and earnest philanthropic urgency. "Yes, good evening, Officer. I am Pierre Dubois, Senior Regional Logistics Director for the Mid-Atlantic Make-A-Wish Foundation. I am here regarding the urgent VIP precinct tour scheduled for young Master Timothy tomorrow morning at nine. I received an alarming dispatch that your motor pool suffered structural damage, and I must personally verify that the ceremonial patrol vehicle will be operational for the child's arrival." <!-- L1014:officer --> <!-- L1017:pierre -->
+"I am here to help," a low, resonant rumble grated from its carved throat. <!-- L0986:statue -->
 
-The sergeant blinked, his pen freezing mid-air over a logbook. "Make-A-Wish? What the hell are you talking about? Nobody told me about no tour." <!-- L1018:pierre --> <!-- L1022:narrator -->
+Pierre stared at the stone hand on his woolen overcoat, his jaw dropping. "Wait... are you literal stone? Did an American Gorgon fashion you?" <!-- L0987:eusacles --> <!-- L0990:narrator --> <!-- L0999:pierre -->
 
-"Nobody told you?!" Pierre gasped, his French accent sharpening with indignant horror. "This is unconscionable! I have three camera crews from Channel 4 arriving at dawn! Call your lieutenant immediately! Do not make me contact the Mayor's press secretary from this lobby!" <!-- L1026:officer --> <!-- L1027:pierre -->
+"I have been a statue for a very long time," the sentinel replied simply, rain sheeting off its brow. "Crafted by those who remember Barry, under the shadow of the Lady in the harbor." <!-- L1000:statue --> <!-- L1001:pierre -->
 
-As the desk sergeant scrambled for his telephone in flustered panic, a deafening crash echoed from the roof above. High on the architectural parapet where the timeline seam was weakest, an anomalous stone gargoyle had manifested along the masonry cornice. Shifting its stony talons, the creature dislodged three massive decorative limestone blocks, sending them crashing through the glass-and-aluminum entrance awning directly over the main steps in an explosion of shattered glass and shrieking alarms. <!-- L1028:narrator --> <!-- L1035:narrator -->
+"My mother sent you," Pierre exhaled, realization dawning as a rare smile touched his lips. He straightened, gesturing through the downpour toward the towering municipal facade across the street. "Our original distraction in the motor pool has stalled. I need you to find where they keep all the bricks." <!-- L1005:pierre --> <!-- L1011:pierre -->
 
-"Code three! Awning collapse at the main entrance!" blared the building-wide intercom. Every officer in the bullpen sprang from their desks, drawing batons and rushing toward the lobby in total bedlam. <!-- L1036:dravin --> <!-- L1037:narrator -->
+The gargoyle nodded once. With astonishing agility for several hundred pounds of living rock, the sentinel sprang into the boughs of an ancient oak, launched itself across the four-lane avenue, and descended onto the precinct's roof corner with a thunderous impact. Shale and ornamental brick cascaded down onto the concrete perimeter stairs. <!-- L1012:narrator --> <!-- L1014:statue -->
 
-In the empty evidence processing room, the yellow plastic pouch on the table began to glow with soft emerald light. The red clay brick dissolved, and Alfie stepped out onto the linoleum, her calico dress snapping in the air currents as she stretched her wooden fingers. <!-- L1039:narrator --> <!-- L1041:narrator -->
+"Keep going!" Pierre hissed through cupped hands. <!-- L1015:pierre -->
 
-"Right then," Alfie whispered, drawing her needle rapier and crouching low. "Let's see what Uncle Sam's keeping in the cellar." <!-- L1045:alfie -->
+Scrambling along the decorative cornice, the statue reached the brick portico directly above the front entrance. Rearing back, it hammered its heavy stone fists into the masonry lintel. Once. Twice. On the third concussive blow, a twelve-foot section of the brick portico awning tore loose with a deafening screech of rebar, crashing onto the front stairs in an explosion of masonry, pulverized clay, and shrieking security klaxons. <!-- L1017:pierre --> <!-- L1024:narrator --> <!-- L1028:narrator -->
 
-Moving like a living shadow, Alfie slipped through the intake office, dropped into an open floor drain that bypassed the magnetic vault door, and emerged inside the high-security subterranean evidence cage. The room was cold, smelling of ozone, dust, and fifty years of confiscated narcotics and firearms. Long rows of wire-mesh shelving stretched into the darkness, lined with labeled cardboard boxes. <!-- L1048:eusacles --> <!-- L1065:narrator -->
+Inside the precinct lobby, sirens wailed. Half a dozen patrol officers sprang from their cubicles with weapons drawn, shouting in bedlam as emergency lights strobed against the windows. At the front desk, the civilian receptionist grabbed Dravin by the elbow in panicked haste. <!-- L1028:officer --> <!-- L1030:narrator -->
 
-Alfie ran along the second shelf until her eyes locked onto a steel security lockbox stamped with red archival ink: **INCIDENT 1982-FLIGHT-409 · ANOMALOUS PHYSICAL EVIDENCE**. She severed the padlock with a blinding, single-stroke rapier strike. Flipping the lid open, she looked down at the prize. <!-- L1067:eusacles --> <!-- L1089:pierre -->
+"Sir, get away from the glass! Code three at the front entrance!" she yelled, shoving him through a heavy magnetic security door into the back corridor. "In here! Stay down!" <!-- L1030:officer -->
 
-Resting upon a bed of yellowed foam was a pair of heavy steel handcuffs. They were unadorned, industrial, and distinctly mid-twentieth century—yet around the ratchet hinges, a faint ribbon of luminous blue chronal static pulsed in rhythm with the severed threads of the Loom. Alfie hooked her wooden fingers through the chain, lifting the temporal handcuffs into the air as the klaxons screamed outside. <!-- L1101:pierre --> <!-- L1186:narrator -->
+The door clicked shut, depositing Dravin directly into the suspect processing room. The professor blinked, adjusting his spectacles. Sitting on the stainless-steel intake table before him was the yellow plastic evidence pouch containing his red clay brick—and Alfie, perfectly sealed within its baked mineral heart. Beside it lay three other confiscated bricks, each bearing the word **PIG** inscribed across their faces in wildly differing handwriting and ink, where bewildered detectives had spent the evening comparing vandalism evidence. <!-- L1033:narrator --> <!-- L1035:narrator -->
 
-"Gotcha, you beautiful little bastards," Alfie grinned, tucking the relic into her haversack as the capital heist drew to its breathless close. <!-- L1195:alfie -->
+Dravin tilted his head, deadpanning into the quiet room: "Are any of the bricks missing a shoe?" <!-- L1036:dravin --> <!-- L1037:narrator -->
+
+Outside, the stone gargoyle tumbled from the shattered awning onto the lawn. Catching Pierre's eye through the rain, the sentinel offered a distinct, conspiratorial stone wink before freezing into inert garden rock. <!-- L1039:narrator -->
+
+Bewildered officers spilled through the dust, staring down at the debris. "I guess... there was a gargoyle on the roof?" <!-- L1041:officer -->
+
+Seizing the bedlam, Pierre broke into a low sprint toward the rear fire exit to await the signal, leaving the incursion hanging on a razor's edge as the storm raged into the night. <!-- L1040:pierre --> <!-- L1045:narrator -->

@@ -192,11 +192,20 @@ CHARACTER_REGISTRY = {
         "type": "npc",
         "color": "#64748b",
         "role": "Lost Creek Aqueduct Navigator"
+    },
+    "statue": {
+        "name": "Stone Sentinel",
+        "type": "npc",
+        "color": "#78716c",
+        "role": "Gorgon Stone Emissary"
     }
 }
 
 # Character and Player Ground-Truth Map
 CHARACTER_MAP = {
+    "statue": "statue",
+    "sentinel": "statue",
+    "gargoyle": "statue",
     "officer": "officer",
     "police": "officer",
     "sergeant": "officer",

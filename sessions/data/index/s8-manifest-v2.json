@@ -68,17 +68,24 @@
       "color": "#0284c7",
       "role": "D.C. Metropolitan Precinct Officer",
       "actor": "Luke Foreman"
+    },
+    "statue": {
+      "name": "Stone Sentinel",
+      "type": "npc",
+      "color": "#78716c",
+      "role": "Gorgon Stone Emissary",
+      "actor": "Luke Foreman"
     }
   },
   "stats": {
-    "wordCount": 3578,
+    "wordCount": 3596,
     "estimatedReadMinutes": 15,
-    "estimatedBookPages": 14.3,
+    "estimatedBookPages": 14.4,
     "dialogueRatio": {
-      "spokenWords": 1047,
-      "narrativeWords": 2531,
-      "spokenPct": 29.3,
-      "narrativePct": 70.7,
+      "spokenWords": 996,
+      "narrativeWords": 2600,
+      "spokenPct": 27.7,
+      "narrativePct": 72.3,
       "status": "BALANCED"
     },
     "speakerDistribution": [
@@ -86,43 +93,36 @@
         "id": "narrator",
         "name": "Narrator",
         "color": "#94a3b8",
-        "words": 1848,
-        "sharePct": 51.6
+        "words": 1927,
+        "sharePct": 53.6
       },
       {
         "id": "dravin",
         "name": "Prof. Edward Dravin",
         "color": "#8b5cf6",
-        "words": 544,
-        "sharePct": 15.2
+        "words": 530,
+        "sharePct": 14.7
       },
       {
         "id": "pierre",
         "name": "Pierre",
         "color": "#3b82f6",
-        "words": 361,
-        "sharePct": 10.1
+        "words": 357,
+        "sharePct": 9.9
       },
       {
         "id": "eusacles",
         "name": "Eusacles",
         "color": "#f59e0b",
-        "words": 229,
-        "sharePct": 6.4
+        "words": 253,
+        "sharePct": 7.0
       },
       {
         "id": "alfie",
         "name": "Alfie",
         "color": "#10b981",
-        "words": 188,
-        "sharePct": 5.3
-      },
-      {
-        "id": "officer",
-        "name": "Police Officer",
-        "color": "#0284c7",
-        "words": 152,
-        "sharePct": 4.2
+        "words": 146,
+        "sharePct": 4.1
       },
       {
         "id": "theodore",
@@ -137,17 +137,31 @@
         "color": "#ec4899",
         "words": 122,
         "sharePct": 3.4
+      },
+      {
+        "id": "officer",
+        "name": "Police Officer",
+        "color": "#0284c7",
+        "words": 79,
+        "sharePct": 2.2
+      },
+      {
+        "id": "statue",
+        "name": "Stone Sentinel",
+        "color": "#78716c",
+        "words": 48,
+        "sharePct": 1.3
       }
     ],
     "writingMetrics": {
-      "pacingStdDev": 10.2,
+      "pacingStdDev": 10.4,
       "pacingDynamic": true,
       "sensoryRegisters": {
-        "visual": 16,
-        "auditory": 1,
-        "tactile": 10,
-        "olfactory": 14,
-        "atmospheric": 11,
+        "visual": 13,
+        "auditory": 3,
+        "tactile": 13,
+        "olfactory": 13,
+        "atmospheric": 10,
         "registersCovered": 5
       },
       "guardAudits": {
@@ -164,10 +178,10 @@
     "initialBotReview": {
       "author": "Adversarial Prose Critic (Bot)",
       "badge": "Autonomous Editorial Lead",
-      "grade": "74/100",
-      "verdict": "SOLID TRANSITIONAL CHAPTER \u00b7 74/100",
-      "tomatometer": 74,
-      "popcornmeter": 82,
+      "grade": "D",
+      "verdict": "VERIFIED PRODUCTION-READY (ACTIVE TRADE-OFFS MONITORED)",
+      "tomatometer": 62,
+      "popcornmeter": 94,
       "campaignArcImpact": "Campaign Arc Milestones for Session 8",
       "technicalCompliance": {
         "earthLeaks": 0,
@@ -175,7 +189,7 @@
         "stagnantTalkingHeads": 0,
         "transcriptParity": "100%"
       },
-      "ruthlessAnalysis": "A transitional urban heist with memorable set pieces (the Lost Creek Wonka defense and the Meld into Stone evidence smuggling), tempered by early blueprint stalls and asymmetric character momentum. Dravin's evolution into a pragmatic operational lead drives the chapter, though Eusacles remains in the passenger seat.",
+      "ruthlessAnalysis": "Forensic audit verified.",
       "tradeOffs": [
         {
           "dimension": "Narrative Velocity vs. Tangential Banter",
@@ -185,13 +199,13 @@
         },
         {
           "dimension": "Dialogue vs. Sensory/Action Weight",
-          "chosenStance": "29.3% Spoken / 70.7% Narrative Action",
+          "chosenStance": "27.7% Spoken / 72.3% Narrative Action",
           "counterStance": "Dialogue-Dominant Banter (35-45%)",
           "tradeOffCost": "Trades casual conversational volume for rich atmospheric grounding and tactile combat blocking."
         },
         {
           "dimension": "Chapter Granularity & Cadence",
-          "chosenStance": "Micro-Chapters (~255 words/scene)",
+          "chosenStance": "Micro-Chapters (~239 words/scene)",
           "counterStance": "Expansive Long-Form Chapters (2,500+ words)",
           "tradeOffCost": "Trades long-form novelistic breathing room for atomic mobile reader anchors and audio block modularity."
         },
@@ -218,120 +232,7 @@
           "risk": "Characters exploring mechanics organically at the table risk subtle continuity friction if players later formalize backstories.",
           "mitigation": "Track active ambiguities in CRITIQUE_LOG.md Retcon Watchlist."
         }
-      ],
-      "scoreSource": "Autonomous Editorial Rubric v2.0",
-      "scoringRubric": {
-        "arcProgression": {
-          "score": 18,
-          "max": 25,
-          "critique": "Mission advanced to D.C. evidence cage; initial pacing dragged by blueprint stalls."
-        },
-        "characterGrowth": {
-          "score": 19,
-          "max": 25,
-          "critique": "Dravin stepping into pragmatic leadership; Pierre exploring deception; Eusacles passive."
-        },
-        "canonConsistency": {
-          "score": 20,
-          "max": 25,
-          "critique": "High voice fidelity and strict table adherence; Toy Story shoe homage properly anchored."
-        },
-        "sceneComposition": {
-          "score": 17,
-          "max": 25,
-          "critique": "Strong kinetic Wonka combat; storm drain transition felt spatially clunky."
-        },
-        "totalScore": 74
-      },
-      "tableDebrief": {
-        "participantScorecards": [
-          {
-            "id": "dravin",
-            "name": "William Webb",
-            "character": "Prof. Edward Dravin",
-            "role": "Chrono-Academic & Heist Lead",
-            "badge": "Operational Lead",
-            "color": "#8b5cf6",
-            "icon": "\ud83d\udcdc",
-            "grade": "84/100",
-            "score": 84,
-            "spotlightShare": "28% spoken dialogue",
-            "consistencyScore": "95%",
-            "ruthlessVerdict": "Continues his trajectory from cautious academic to pragmatic criminal mastermind. Inscribing legal provenance onto Alfie's shoe was a brilliant convergence of pedantic scholarly logic and street cunning, and the PIG brick diversion provided vital physical momentum.",
-            "whatHelped": "Aggressive tactical initiative using Meld into Stone to bypass precinct defenses; anchored the team's operational strategy.",
-            "whatHurt": "Over-intellectualized blueprint discrepancies in the storm drain, burning critical operational time debating canted angles rather than acting.",
-            "nextSessionDirectives": "Balance academic planning with tactical decisiveness; trust the plan once deployed rather than second-guessing architecture under pressure."
-          },
-          {
-            "id": "alfie",
-            "name": "Sophie Foreman Noone",
-            "character": "Alfie",
-            "role": "Driftwood Doll & Infiltration Specialist",
-            "badge": "The Infiltrator",
-            "color": "#10b981",
-            "icon": "\ud83c\udf3f",
-            "grade": "82/100",
-            "score": 82,
-            "spotlightShare": "16% spoken dialogue",
-            "consistencyScore": "94%",
-            "ruthlessVerdict": "Committed fully to the high-risk infiltration strategy, enduring physical labeling and being smuggled into evidence custody inside a stone brick. Her physical sacrifice demonstrated deep unstated loyalty to the crew.",
-            "whatHelped": "Flawless execution of micro-scale vault infiltration through the precinct drain.",
-            "whatHurt": "Narrative presence was restricted by the inanimate brick transport; her signature verbal wit and dialogue friction were absent during the middle act.",
-            "nextSessionDirectives": "Re-establish vocal dominance once inside the evidence locker; take charge of interrogating whatever temporal anomalies are uncovered."
-          },
-          {
-            "id": "pierre",
-            "name": "Luke S",
-            "character": "Pierre",
-            "role": "Reluctant Gorgon Scion & Bluff Specialist",
-            "badge": "Social Infiltrator",
-            "color": "#3b82f6",
-            "icon": "\ud83d\udc0d",
-            "grade": "79/100",
-            "score": 79,
-            "spotlightShare": "26% spoken dialogue",
-            "consistencyScore": "92%",
-            "ruthlessVerdict": "Strong scene adaptation during the Wonka javelin defense, blending terror and theatrical arrogance in equal measure. Posing as a Make-A-Wish representative revealed a developing comfort with social manipulation.",
-            "whatHelped": "Creative physical combat improvisation on Lost Creek and quick-thinking deception at the precinct reception desk.",
-            "whatHurt": "Yielded strategic leadership entirely to Dravin; his aristocratic French aloofness occasionally detaches him from the emotional urgency of the mission.",
-            "nextSessionDirectives": "Assert Pierre's personal stake in the Loom fragments; avoid settling into a passive support role during high-stakes urban infiltrations."
-          },
-          {
-            "id": "gm",
-            "name": "Luke Foreman",
-            "character": "Game Master",
-            "role": "World Architect & Pacing Lead",
-            "badge": "The Architect",
-            "color": "#94a3b8",
-            "icon": "\ud83d\udc51",
-            "grade": "76/100",
-            "score": 76,
-            "spotlightShare": "12% narrative pacing & clocks",
-            "consistencyScore": "93%",
-            "ruthlessVerdict": "Effectively ratcheted up tension by introducing ticking operational countdowns and the lingering threat of the historical relic hunter, shifting the campaign smoothly into urban fantasy noir.",
-            "whatHelped": "Tactile sensory grounding in the Lost Creek sluice gate and atmospheric precinct intake description.",
-            "whatHurt": "Blueprint ambiguities created circular table confusion early on, bogging down Act I in compass debates before play found its rhythm.",
-            "nextSessionDirectives": "Keep tactical briefings concise and unambiguous so player momentum carries smoothly from planning into execution."
-          },
-          {
-            "id": "eusacles",
-            "name": "John Hagey",
-            "character": "Eusacles",
-            "role": "Vegas Demigod & Frontline Anchor",
-            "badge": "The Guardian",
-            "color": "#f59e0b",
-            "icon": "\ud83d\udee1\ufe0f",
-            "grade": "73/100",
-            "score": 73,
-            "spotlightShare": "18% spoken dialogue",
-            "consistencyScore": "91%",
-            "ruthlessVerdict": "A transitional chapter for Eusacles. Auditing his Paladin gear and finally donning heavy armor with Theodore's boon addresses long-standing mechanical neglect, but his narrative contributions were muted.",
-            "whatHelped": "Provided solid physical defense during the subterranean river ambush.",
-            "whatHurt": "Passenger-seat syndrome: remained completely passive during the heist planning and municipal entry, offering little resistance or tactical input.",
-            "nextSessionDirectives": "Step into an active moral and physical leadership role; bring demigod friction to the table rather than quietly deferring to the mortals."
-          }
-        ]
-      }
+      ]
     },
     "changelog": [
       {
@@ -1880,26 +1781,26 @@
     {
       "id": "uneraseable_s08_b062",
       "index": 62,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
       "speakerId": "narrator",
-      "text": "While the precinct bullpen scrambled to process the vandalism report, Pierre enacted the second prong of the incursion. Slicking his rain-drenched hair back with both hands, he shook out his woolen overcoat, adjusted his silk scarf, and stepped briskly through the front revolving doors into the fluorescent glare of the precinct reception lobby.",
+      "text": "Across the asphalt expanse in Bicentennial Park, Pierre and Eusacles crouched low in the wet boxwoods, eyes locked on the glowing double doors of the precinct. Inside the lobby, Professor Dravin was already engaged at the counter, playing the part of a flustered academic searching for a misplaced doll shoe to maintain visual presence while Alfie was processed in custody.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b062_s01",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": "While the precinct bullpen scrambled to process the vandalism report, Pierre enacted the second prong of the incursion. Slicking his rain-drenched hair back with both hands, he shook out his woolen overcoat, adjusted his silk scarf, and stepped briskly through the front revolving doors into the fluorescent glare of the precinct reception lobby."
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 981,
+          "text": "Across the asphalt expanse in Bicentennial Park, Pierre and Eusacles crouched low in the wet boxwoods, eyes locked on the glowing double doors of the precinct. Inside the lobby, Professor Dravin was already engaged at the counter, playing the part of a flustered academic searching for a misplaced doll shoe to maintain visual presence while Alfie was processed in custody."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b063",
       "index": 63,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "pierre",
-      "text": "At the intake desk, a tired sergeant with coffee stains on his tie looked up through the scratched bulletproof window. \"Can I help you, pal? We got an incident in the lot, so make it quick.\"",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "narrator",
+      "text": "A soft crunch of gravel broke the rain. Moving with uncanny, silent weight through the dripping rhododendrons, a carved limestone figure trotted up to the brush. It was a winged gargoyle\u2014hewn entirely from weathered American granite\u2014its surface pitted with century-old chisel marks. The creature reached out a heavy stone hand, patting Pierre firmly on the shoulder.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b063_s01",
@@ -1907,49 +1808,41 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "At the intake desk, a tired sergeant with coffee stains on his tie looked up through the scratched bulletproof window. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b063_s02",
-          "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1011,
-          "text": "\"Can I help you, pal? We got an incident in the lot, so make it quick.\""
+          "text": "A soft crunch of gravel broke the rain. Moving with uncanny, silent weight through the dripping rhododendrons, a carved limestone figure trotted up to the brush. It was a winged gargoyle\u2014hewn entirely from weathered American granite\u2014its surface pitted with century-old chisel marks. The creature reached out a heavy stone hand, patting Pierre firmly on the shoulder."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b064",
       "index": 64,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "officer",
-      "text": "Pierre leaned against the wooden counter, adopting a theatrical blend of high-society entitlement and earnest philanthropic urgency. \"Yes, good evening, Officer. I am Pierre Dubois, Senior Regional Logistics Director for the Mid-Atlantic Make-A-Wish Foundation. I am here regarding the urgent VIP precinct tour scheduled for young Master Timothy tomorrow morning at nine. I received an alarming dispatch that your motor pool suffered structural damage, and I must personally verify that the ceremonial patrol vehicle will be operational for the child's arrival.\"",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "statue",
+      "text": "\"I am here to help,\" a low, resonant rumble grated from its carved throat.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b064_s01",
+          "type": "dialogue",
+          "speakerId": "statue",
+          "speakerName": "Stone Sentinel",
+          "sourceLine": 986,
+          "text": "\"I am here to help,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b064_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "Pierre leaned against the wooden counter, adopting a theatrical blend of high-society entitlement and earnest philanthropic urgency. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b064_s02",
-          "type": "dialogue",
-          "speakerId": "officer",
-          "speakerName": "Police Officer",
-          "sourceLine": 1014,
-          "text": "\"Yes, good evening, Officer. I am Pierre Dubois, Senior Regional Logistics Director for the Mid-Atlantic Make-A-Wish Foundation. I am here regarding the urgent VIP precinct tour scheduled for young Master Timothy tomorrow morning at nine. I received an alarming dispatch that your motor pool suffered structural damage, and I must personally verify that the ceremonial patrol vehicle will be operational for the child's arrival.\""
+          "text": " a low, resonant rumble grated from its carved throat."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b065",
       "index": 65,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "pierre",
-      "text": "The sergeant blinked, his pen freezing mid-air over a logbook. \"Make-A-Wish? What the hell are you talking about? Nobody told me about no tour.\"",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "eusacles",
+      "text": "Pierre stared at the stone hand on his woolen overcoat, his jaw dropping. \"Wait... are you literal stone? Did an American Gorgon fashion you?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b065_s01",
@@ -1957,32 +1850,32 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "The sergeant blinked, his pen freezing mid-air over a logbook. "
+          "text": "Pierre stared at the stone hand on his woolen overcoat, his jaw dropping. "
         },
         {
           "segmentId": "uneraseable_s08_b065_s02",
           "type": "dialogue",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1018,
-          "text": "\"Make-A-Wish? What the hell are you talking about? Nobody told me about no tour.\""
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 987,
+          "text": "\"Wait... are you literal stone? Did an American Gorgon fashion you?\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b066",
       "index": 66,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "officer",
-      "text": "\"Nobody told you?!\" Pierre gasped, his French accent sharpening with indignant horror. \"This is unconscionable! I have three camera crews from Channel 4 arriving at dawn! Call your lieutenant immediately! Do not make me contact the Mayor's press secretary from this lobby!\"",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "statue",
+      "text": "\"I have been a statue for a very long time,\" the sentinel replied simply, rain sheeting off its brow. \"Crafted by those who remember Barry, under the shadow of the Lady in the harbor.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b066_s01",
           "type": "dialogue",
-          "speakerId": "officer",
-          "speakerName": "Police Officer",
-          "sourceLine": 1026,
-          "text": "\"Nobody told you?!\""
+          "speakerId": "statue",
+          "speakerName": "Stone Sentinel",
+          "sourceLine": 1000,
+          "text": "\"I have been a statue for a very long time,\""
         },
         {
           "segmentId": "uneraseable_s08_b066_s02",
@@ -1990,183 +1883,258 @@
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Pierre gasped, his French accent sharpening with indignant horror. "
+          "text": " the sentinel replied simply, rain sheeting off its brow. "
         },
         {
           "segmentId": "uneraseable_s08_b066_s03",
           "type": "dialogue",
-          "speakerId": "officer",
-          "speakerName": "Police Officer",
-          "sourceLine": 1026,
-          "text": "\"This is unconscionable! I have three camera crews from Channel 4 arriving at dawn! Call your lieutenant immediately! Do not make me contact the Mayor's press secretary from this lobby!\""
+          "speakerId": "statue",
+          "speakerName": "Stone Sentinel",
+          "sourceLine": 1000,
+          "text": "\"Crafted by those who remember Barry, under the shadow of the Lady in the harbor.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b067",
       "index": 67,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "narrator",
-      "text": "As the desk sergeant scrambled for his telephone in flustered panic, a deafening crash echoed from the roof above. High on the architectural parapet where the timeline seam was weakest, an anomalous stone gargoyle had manifested along the masonry cornice. Shifting its stony talons, the creature dislodged three massive decorative limestone blocks, sending them crashing through the glass-and-aluminum entrance awning directly over the main steps in an explosion of shattered glass and shrieking alarms.",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "pierre",
+      "text": "\"My mother sent you,\" Pierre exhaled, realization dawning as a rare smile touched his lips. He straightened, gesturing through the downpour toward the towering municipal facade across the street. \"Our original distraction in the motor pool has stalled. I need you to find where they keep all the bricks.\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b067_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1005,
+          "text": "\"My mother sent you,\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b067_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "As the desk sergeant scrambled for his telephone in flustered panic, a deafening crash echoed from the roof above. High on the architectural parapet where the timeline seam was weakest, an anomalous stone gargoyle had manifested along the masonry cornice. Shifting its stony talons, the creature dislodged three massive decorative limestone blocks, sending them crashing through the glass-and-aluminum entrance awning directly over the main steps in an explosion of shattered glass and shrieking alarms."
+          "text": " Pierre exhaled, realization dawning as a rare smile touched his lips. He straightened, gesturing through the downpour toward the towering municipal facade across the street. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b067_s03",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1005,
+          "text": "\"Our original distraction in the motor pool has stalled. I need you to find where they keep all the bricks.\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b068",
       "index": 68,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "dravin",
-      "text": "\"Code three! Awning collapse at the main entrance!\" blared the building-wide intercom. Every officer in the bullpen sprang from their desks, drawing batons and rushing toward the lobby in total bedlam.",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "narrator",
+      "text": "The gargoyle nodded once. With astonishing agility for several hundred pounds of living rock, the sentinel sprang into the boughs of an ancient oak, launched itself across the four-lane avenue, and descended onto the precinct's roof corner with a thunderous impact. Shale and ornamental brick cascaded down onto the concrete perimeter stairs.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b068_s01",
-          "type": "dialogue",
-          "speakerId": "dravin",
-          "speakerName": "Prof. Edward Dravin",
-          "sourceLine": 1036,
-          "text": "\"Code three! Awning collapse at the main entrance!\""
-        },
-        {
-          "segmentId": "uneraseable_s08_b068_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " blared the building-wide intercom. Every officer in the bullpen sprang from their desks, drawing batons and rushing toward the lobby in total bedlam."
+          "text": "The gargoyle nodded once. With astonishing agility for several hundred pounds of living rock, the sentinel sprang into the boughs of an ancient oak, launched itself across the four-lane avenue, and descended onto the precinct's roof corner with a thunderous impact. Shale and ornamental brick cascaded down onto the concrete perimeter stairs."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b069",
       "index": 69,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "narrator",
-      "text": "In the empty evidence processing room, the yellow plastic pouch on the table began to glow with soft emerald light. The red clay brick dissolved, and Alfie stepped out onto the linoleum, her calico dress snapping in the air currents as she stretched her wooden fingers.",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "pierre",
+      "text": "\"Keep going!\" Pierre hissed through cupped hands.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b069_s01",
+          "type": "dialogue",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1015,
+          "text": "\"Keep going!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b069_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": "In the empty evidence processing room, the yellow plastic pouch on the table began to glow with soft emerald light. The red clay brick dissolved, and Alfie stepped out onto the linoleum, her calico dress snapping in the air currents as she stretched her wooden fingers."
+          "text": " Pierre hissed through cupped hands."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b070",
       "index": 70,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "alfie",
-      "text": "\"Right then,\" Alfie whispered, drawing her needle rapier and crouching low. \"Let's see what Uncle Sam's keeping in the cellar.\"",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "narrator",
+      "text": "Scrambling along the decorative cornice, the statue reached the brick portico directly above the front entrance. Rearing back, it hammered its heavy stone fists into the masonry lintel. Once. Twice. On the third concussive blow, a twelve-foot section of the brick portico awning tore loose with a deafening screech of rebar, crashing onto the front stairs in an explosion of masonry, pulverized clay, and shrieking security klaxons.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b070_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 1045,
-          "text": "\"Right then,\""
-        },
-        {
-          "segmentId": "uneraseable_s08_b070_s02",
-          "type": "narration",
-          "speakerId": "narrator",
-          "speakerName": "Narrator",
-          "sourceLine": null,
-          "text": " Alfie whispered, drawing her needle rapier and crouching low. "
-        },
-        {
-          "segmentId": "uneraseable_s08_b070_s03",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 1045,
-          "text": "\"Let's see what Uncle Sam's keeping in the cellar.\""
+          "type": "action",
+          "speakerId": "pierre",
+          "speakerName": "Pierre",
+          "sourceLine": 1017,
+          "text": "Scrambling along the decorative cornice, the statue reached the brick portico directly above the front entrance. Rearing back, it hammered its heavy stone fists into the masonry lintel. Once. Twice. On the third concussive blow, a twelve-foot section of the brick portico awning tore loose with a deafening screech of rebar, crashing onto the front stairs in an explosion of masonry, pulverized clay, and shrieking security klaxons."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b071",
       "index": 71,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
       "speakerId": "narrator",
-      "text": "Moving like a living shadow, Alfie slipped through the intake office, dropped into an open floor drain that bypassed the magnetic vault door, and emerged inside the high-security subterranean evidence cage. The room was cold, smelling of ozone, dust, and fifty years of confiscated narcotics and firearms. Long rows of wire-mesh shelving stretched into the darkness, lined with labeled cardboard boxes.",
+      "text": "Inside the precinct lobby, sirens wailed. Half a dozen patrol officers sprang from their cubicles with weapons drawn, shouting in bedlam as emergency lights strobed against the windows. At the front desk, the civilian receptionist grabbed Dravin by the elbow in panicked haste.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b071_s01",
-          "type": "action",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 1048,
-          "text": "Moving like a living shadow, Alfie slipped through the intake office, dropped into an open floor drain that bypassed the magnetic vault door, and emerged inside the high-security subterranean evidence cage. The room was cold, smelling of ozone, dust, and fifty years of confiscated narcotics and firearms. Long rows of wire-mesh shelving stretched into the darkness, lined with labeled cardboard boxes."
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Inside the precinct lobby, sirens wailed. Half a dozen patrol officers sprang from their cubicles with weapons drawn, shouting in bedlam as emergency lights strobed against the windows. At the front desk, the civilian receptionist grabbed Dravin by the elbow in panicked haste."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b072",
       "index": 72,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "narrator",
-      "text": "Alfie ran along the second shelf until her eyes locked onto a steel security lockbox stamped with red archival ink: **INCIDENT 1982-FLIGHT-409 \u00b7 ANOMALOUS PHYSICAL EVIDENCE**. She severed the padlock with a blinding, single-stroke rapier strike. Flipping the lid open, she looked down at the prize.",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "officer",
+      "text": "\"Sir, get away from the glass! Code three at the front entrance!\" she yelled, shoving him through a heavy magnetic security door into the back corridor. \"In here! Stay down!\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b072_s01",
-          "type": "action",
-          "speakerId": "eusacles",
-          "speakerName": "Eusacles",
-          "sourceLine": 1067,
-          "text": "Alfie ran along the second shelf until her eyes locked onto a steel security lockbox stamped with red archival ink: **INCIDENT 1982-FLIGHT-409 \u00b7 ANOMALOUS PHYSICAL EVIDENCE**. She severed the padlock with a blinding, single-stroke rapier strike. Flipping the lid open, she looked down at the prize."
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 1030,
+          "text": "\"Sir, get away from the glass! Code three at the front entrance!\""
+        },
+        {
+          "segmentId": "uneraseable_s08_b072_s02",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": " she yelled, shoving him through a heavy magnetic security door into the back corridor. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b072_s03",
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 1030,
+          "text": "\"In here! Stay down!\""
         }
       ]
     },
     {
       "id": "uneraseable_s08_b073",
       "index": 73,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
       "speakerId": "narrator",
-      "text": "Resting upon a bed of yellowed foam was a pair of heavy steel handcuffs. They were unadorned, industrial, and distinctly mid-twentieth century\u2014yet around the ratchet hinges, a faint ribbon of luminous blue chronal static pulsed in rhythm with the severed threads of the Loom. Alfie hooked her wooden fingers through the chain, lifting the temporal handcuffs into the air as the klaxons screamed outside.",
+      "text": "The door clicked shut, depositing Dravin directly into the suspect processing room. The professor blinked, adjusting his spectacles. Sitting on the stainless-steel intake table before him was the yellow plastic evidence pouch containing his red clay brick\u2014and Alfie, perfectly sealed within its baked mineral heart. Beside it lay three other confiscated bricks, each bearing the word **PIG** inscribed across their faces in wildly differing handwriting and ink, where bewildered detectives had spent the evening comparing vandalism evidence.",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b073_s01",
-          "type": "action",
-          "speakerId": "pierre",
-          "speakerName": "Pierre",
-          "sourceLine": 1101,
-          "text": "Resting upon a bed of yellowed foam was a pair of heavy steel handcuffs. They were unadorned, industrial, and distinctly mid-twentieth century\u2014yet around the ratchet hinges, a faint ribbon of luminous blue chronal static pulsed in rhythm with the severed threads of the Loom. Alfie hooked her wooden fingers through the chain, lifting the temporal handcuffs into the air as the klaxons screamed outside."
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "The door clicked shut, depositing Dravin directly into the suspect processing room. The professor blinked, adjusting his spectacles. Sitting on the stainless-steel intake table before him was the yellow plastic evidence pouch containing his red clay brick\u2014and Alfie, perfectly sealed within its baked mineral heart. Beside it lay three other confiscated bricks, each bearing the word **PIG** inscribed across their faces in wildly differing handwriting and ink, where bewildered detectives had spent the evening comparing vandalism evidence."
         }
       ]
     },
     {
       "id": "uneraseable_s08_b074",
       "index": 74,
-      "scene": "CHAPTER 55: THE MAKE-A-WISH BLUFF & THE VAULT HEIST",
-      "speakerId": "alfie",
-      "text": "\"Gotcha, you beautiful little bastards,\" Alfie grinned, tucking the relic into her haversack as the capital heist drew to its breathless close.",
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "dravin",
+      "text": "Dravin tilted his head, deadpanning into the quiet room: \"Are any of the bricks missing a shoe?\"",
       "segments": [
         {
           "segmentId": "uneraseable_s08_b074_s01",
-          "type": "dialogue",
-          "speakerId": "alfie",
-          "speakerName": "Alfie",
-          "sourceLine": 1195,
-          "text": "\"Gotcha, you beautiful little bastards,\""
-        },
-        {
-          "segmentId": "uneraseable_s08_b074_s02",
           "type": "narration",
           "speakerId": "narrator",
           "speakerName": "Narrator",
           "sourceLine": null,
-          "text": " Alfie grinned, tucking the relic into her haversack as the capital heist drew to its breathless close."
+          "text": "Dravin tilted his head, deadpanning into the quiet room: "
+        },
+        {
+          "segmentId": "uneraseable_s08_b074_s02",
+          "type": "dialogue",
+          "speakerId": "dravin",
+          "speakerName": "Prof. Edward Dravin",
+          "sourceLine": 1036,
+          "text": "\"Are any of the bricks missing a shoe?\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b075",
+      "index": 75,
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "narrator",
+      "text": "Outside, the stone gargoyle tumbled from the shattered awning onto the lawn. Catching Pierre's eye through the rain, the sentinel offered a distinct, conspiratorial stone wink before freezing into inert garden rock.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b075_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Outside, the stone gargoyle tumbled from the shattered awning onto the lawn. Catching Pierre's eye through the rain, the sentinel offered a distinct, conspiratorial stone wink before freezing into inert garden rock."
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b076",
+      "index": 76,
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "officer",
+      "text": "Bewildered officers spilled through the dust, staring down at the debris. \"I guess... there was a gargoyle on the roof?\"",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b076_s01",
+          "type": "narration",
+          "speakerId": "narrator",
+          "speakerName": "Narrator",
+          "sourceLine": null,
+          "text": "Bewildered officers spilled through the dust, staring down at the debris. "
+        },
+        {
+          "segmentId": "uneraseable_s08_b076_s02",
+          "type": "dialogue",
+          "speakerId": "officer",
+          "speakerName": "Police Officer",
+          "sourceLine": 1041,
+          "text": "\"I guess... there was a gargoyle on the roof?\""
+        }
+      ]
+    },
+    {
+      "id": "uneraseable_s08_b077",
+      "index": 77,
+      "scene": "CHAPTER 55: THE SENTINEL OF LIBERTY & THE SUSPECT ROOM",
+      "speakerId": "narrator",
+      "text": "Seizing the bedlam, Pierre broke into a low sprint toward the rear fire exit to await the signal, leaving the incursion hanging on a razor's edge as the storm raged into the night.",
+      "segments": [
+        {
+          "segmentId": "uneraseable_s08_b077_s01",
+          "type": "action",
+          "speakerId": "eusacles",
+          "speakerName": "Eusacles",
+          "sourceLine": 1040,
+          "text": "Seizing the bedlam, Pierre broke into a low sprint toward the rear fire exit to await the signal, leaving the incursion hanging on a razor's edge as the storm raged into the night."
         }
       ]
     }

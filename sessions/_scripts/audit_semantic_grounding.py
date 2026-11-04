@@ -426,6 +426,8 @@ def audit_session_grounding(session_id, base_dir=None):
         base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     indexed_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-raw-indexed.md")
     manifest_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-manifest.json")
+    if not os.path.exists(manifest_path):
+        manifest_path = os.path.join(base_dir, "sessions", "data", "index", f"{session_id}-manifest-v2.json")
     story_path = os.path.join(base_dir, "sessions", "data", "clean", f"{session_id}-clean-story.md")
     history_path = os.path.join(base_dir, "sessions", "data", "index", "audit_history.json")
 
