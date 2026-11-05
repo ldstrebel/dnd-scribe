@@ -1,0 +1,6260 @@
+{
+  "session_id": "s2",
+  "indexed_file": "sessions/data/index/s2-raw-indexed.md",
+  "raw_file_hash": "46eaf8d9ba0c67c073747f3d000bc5c69d9bccfbd79c1732203441f1156699dc",
+  "total_raw_lines": 2004,
+  "scene_blocks": [
+    {
+      "scene_id": 201,
+      "title": "OOC Pre-Session Banter Part 1",
+      "line_range": [
+        1,
+        100
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 202,
+      "title": "OOC Pre-Session Banter Part 2",
+      "line_range": [
+        101,
+        200
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 203,
+      "title": "OOC Pre-Session Banter Part 3",
+      "line_range": [
+        201,
+        300
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 204,
+      "title": "OOC Pre-Session Banter Part 4",
+      "line_range": [
+        301,
+        403
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 1,
+      "title": "CHAPTER 13: THE CAMPFIRE AT THE EDGE OF TIME",
+      "line_range": [
+        404,
+        510
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 404,
+          "speaker": "Luke Foreman",
+          "gist": "All right, we will jump in. You all know the recap..."
+        },
+        {
+          "line": 405,
+          "speaker": "Luke S",
+          "gist": "Amazing."
+        },
+        {
+          "line": 406,
+          "speaker": "Luke Foreman",
+          "gist": "you all got the the very basic recap of what happe..."
+        },
+        {
+          "line": 407,
+          "speaker": "William Webb",
+          "gist": "same same one each week is totally \ufb01ne,"
+        },
+        {
+          "line": 408,
+          "speaker": "Luke Foreman",
+          "gist": "but uh we'll see."
+        },
+        {
+          "line": 409,
+          "speaker": "William Webb",
+          "gist": "too."
+        },
+        {
+          "line": 410,
+          "speaker": "Luke Foreman",
+          "gist": "We'll see how I feel. Um but yeah, we'll jump righ..."
+        },
+        {
+          "line": 411,
+          "speaker": "Luke Foreman",
+          "gist": "So, in that point, we can jump right back in to th..."
+        },
+        {
+          "line": 412,
+          "speaker": "Luke S",
+          "gist": "And and we're we're still like I think uh the the ..."
+        },
+        {
+          "line": 413,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 414,
+          "speaker": "Luke S",
+          "gist": "back"
+        },
+        {
+          "line": 415,
+          "speaker": "Luke Foreman",
+          "gist": "slightly behind. Yeah,"
+        },
+        {
+          "line": 416,
+          "speaker": "Luke S",
+          "gist": "behind"
+        },
+        {
+          "line": 417,
+          "speaker": "Luke Foreman",
+          "gist": "USles and um Edward are kind of leading the way. U..."
+        },
+        {
+          "line": 418,
+          "speaker": "Luke S",
+          "gist": "Pier's lean over the shoulders like so um I I'm th..."
+        },
+        {
+          "line": 419,
+          "speaker": "Luke Foreman",
+          "gist": "uh"
+        },
+        {
+          "line": 420,
+          "speaker": "Luke S",
+          "gist": "to let them maybe talk to the scary guy by the \ufb01re..."
+        },
+        {
+          "line": 421,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah. All right. No, I'm not going to do that the ..."
+        },
+        {
+          "line": 422,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 423,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Uh, yeah. Me thinks that's a good idea."
+        },
+        {
+          "line": 424,
+          "speaker": "Luke S",
+          "gist": "Yeah. It's probably \ufb01ne. Yes. So, so that Yeah."
+        },
+        {
+          "line": 425,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 426,
+          "speaker": "Luke S",
+          "gist": "And Pier's just gonna I think stop like outside of..."
+        },
+        {
+          "line": 427,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Mhm."
+        },
+        {
+          "line": 428,
+          "speaker": "Luke Foreman",
+          "gist": "You're muted, John. Sorry, I muted you when you wa..."
+        },
+        {
+          "line": 429,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Good."
+        },
+        {
+          "line": 430,
+          "speaker": "John Hagey",
+          "gist": "Pierre's gonna peer"
+        },
+        {
+          "line": 431,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 432,
+          "speaker": "Luke S",
+          "gist": "Pier's gonna appear in. That's"
+        },
+        {
+          "line": 433,
+          "speaker": "John Hagey",
+          "gist": "in"
+        },
+        {
+          "line": 434,
+          "speaker": "William Webb",
+          "gist": "You're going to Pierre"
+        },
+        {
+          "line": 435,
+          "speaker": "Luke S",
+          "gist": "exactly"
+        },
+        {
+          "line": 436,
+          "speaker": "Luke Foreman",
+          "gist": "and then Michael looks back and goes,"
+        },
+        {
+          "line": 437,
+          "speaker": "William Webb",
+          "gist": "in"
+        },
+        {
+          "line": 438,
+          "speaker": "Luke Foreman",
+          "gist": "\"And no, don't worry. Don't worry, bros."
+        },
+        {
+          "line": 439,
+          "speaker": "John Hagey",
+          "gist": "anyway."
+        },
+        {
+          "line": 440,
+          "speaker": "Luke Foreman",
+          "gist": "Don't be scared. Don't be scared at all. We love f..."
+        },
+        {
+          "line": 441,
+          "speaker": "William Webb",
+          "gist": "Would"
+        },
+        {
+          "line": 442,
+          "speaker": "Luke Foreman",
+          "gist": "you know, like we're telling you you're dead. It's..."
+        },
+        {
+          "line": 443,
+          "speaker": "William Webb",
+          "gist": "we have remembered"
+        },
+        {
+          "line": 444,
+          "speaker": "Luke Foreman",
+          "gist": "Well, yeah. It's a funny thing."
+        },
+        {
+          "line": 445,
+          "speaker": "Luke Foreman",
+          "gist": "Like,"
+        },
+        {
+          "line": 446,
+          "speaker": "William Webb",
+          "gist": "dying?"
+        },
+        {
+          "line": 447,
+          "speaker": "Luke Foreman",
+          "gist": "you're not you're not like actually dead, but like..."
+        },
+        {
+          "line": 448,
+          "speaker": "William Webb",
+          "gist": "Wow."
+        },
+        {
+          "line": 449,
+          "speaker": "Luke Foreman",
+          "gist": "Uh we can get you guys patched up and you can come..."
+        },
+        {
+          "line": 450,
+          "speaker": "William Webb",
+          "gist": "Yeah. Yeah."
+        },
+        {
+          "line": 451,
+          "speaker": "Luke Foreman",
+          "gist": "in."
+        },
+        {
+          "line": 452,
+          "speaker": "William Webb",
+          "gist": "My my buddy could de\ufb01nitely use a a long"
+        },
+        {
+          "line": 453,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, that's that's great. We'll get you guys brou..."
+        },
+        {
+          "line": 454,
+          "speaker": "William Webb",
+          "gist": "rest."
+        },
+        {
+          "line": 455,
+          "speaker": "Luke Foreman",
+          "gist": "We got some like basic processes to make sure peop..."
+        },
+        {
+          "line": 456,
+          "speaker": "William Webb",
+          "gist": "So, what you said your name was Michael."
+        },
+        {
+          "line": 457,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, Mike."
+        },
+        {
+          "line": 458,
+          "speaker": "William Webb",
+          "gist": "How long have you been here,"
+        },
+        {
+          "line": 459,
+          "speaker": "Luke Foreman",
+          "gist": "So the thing is we all kind of died,"
+        },
+        {
+          "line": 460,
+          "speaker": "William Webb",
+          "gist": "Mike?"
+        },
+        {
+          "line": 461,
+          "speaker": "Luke Foreman",
+          "gist": "if you will, at di\ufb00erent times and at di\ufb00erent poi..."
+        },
+        {
+          "line": 462,
+          "speaker": "Luke Foreman",
+          "gist": "And the crazy thing is that you stay like approxim..."
+        },
+        {
+          "line": 463,
+          "speaker": "William Webb",
+          "gist": "Little Benjamin Button action."
+        },
+        {
+          "line": 464,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. I it it's it's kind of crazy. It's kind of c..."
+        },
+        {
+          "line": 465,
+          "speaker": "William Webb",
+          "gist": "How how do we interact with the outside"
+        },
+        {
+          "line": 466,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, so they kind of it kind of like throws people ..."
+        },
+        {
+          "line": 467,
+          "speaker": "William Webb",
+          "gist": "world?"
+        },
+        {
+          "line": 468,
+          "speaker": "Luke Foreman",
+          "gist": "okay. You know, we have we all have di\ufb00erent theor..."
+        },
+        {
+          "line": 469,
+          "speaker": "Luke Foreman",
+          "gist": "And uh it seems like the youth kind of are able to..."
+        },
+        {
+          "line": 470,
+          "speaker": "William Webb",
+          "gist": "Oh, cool."
+        },
+        {
+          "line": 471,
+          "speaker": "Luke Foreman",
+          "gist": "divine. Interesting"
+        },
+        {
+          "line": 472,
+          "speaker": "John Hagey",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 473,
+          "speaker": "Luke Foreman",
+          "gist": "call."
+        },
+        {
+          "line": 474,
+          "speaker": "John Hagey",
+          "gist": "I'm going to take a I'm going to take an action to..."
+        },
+        {
+          "line": 475,
+          "speaker": "William Webb",
+          "gist": "Um,"
+        },
+        {
+          "line": 476,
+          "speaker": "Luke Foreman",
+          "gist": "Um, \ufb01end and undead presences."
+        },
+        {
+          "line": 477,
+          "speaker": "John Hagey",
+          "gist": "sens."
+        },
+        {
+          "line": 478,
+          "speaker": "Luke Foreman",
+          "gist": "Undead presidences is what's got me a little hung ..."
+        },
+        {
+          "line": 479,
+          "speaker": "John Hagey",
+          "gist": "Interesting. Okay, let's see here. Oh, darn it. It..."
+        },
+        {
+          "line": 480,
+          "speaker": "Luke Foreman",
+          "gist": "That's right. Roll."
+        },
+        {
+          "line": 481,
+          "speaker": "John Hagey",
+          "gist": "We're just going to roll twice is what we're going..."
+        },
+        {
+          "line": 482,
+          "speaker": "Luke S",
+          "gist": "That's a pretty good second"
+        },
+        {
+          "line": 483,
+          "speaker": "Luke Foreman",
+          "gist": "Hello. Hello."
+        },
+        {
+          "line": 484,
+          "speaker": "John Hagey",
+          "gist": "That's a pretty good That's a pretty good second"
+        },
+        {
+          "line": 485,
+          "speaker": "Luke S",
+          "gist": "roll."
+        },
+        {
+          "line": 486,
+          "speaker": "Luke Foreman",
+          "gist": "Okay. Um Okay."
+        },
+        {
+          "line": 487,
+          "speaker": "John Hagey",
+          "gist": "roll."
+        },
+        {
+          "line": 488,
+          "speaker": "Luke Foreman",
+          "gist": "How much can I tell you?"
+        },
+        {
+          "line": 489,
+          "speaker": "John Hagey",
+          "gist": "I rolled a natural 20."
+        },
+        {
+          "line": 490,
+          "speaker": "Luke Foreman",
+          "gist": "Um I think that's probably everything"
+        },
+        {
+          "line": 491,
+          "speaker": "John Hagey",
+          "gist": "He will tell me everything I want to"
+        },
+        {
+          "line": 492,
+          "speaker": "Luke Foreman",
+          "gist": "the and with this sense you don't get um I think y..."
+        },
+        {
+          "line": 493,
+          "speaker": "John Hagey",
+          "gist": "know."
+        },
+        {
+          "line": 494,
+          "speaker": "Luke Foreman",
+          "gist": "absolutely see that this is kind of a this is a ac..."
+        },
+        {
+          "line": 495,
+          "speaker": "John Hagey",
+          "gist": "And the and the M just always obscure than just en..."
+        },
+        {
+          "line": 496,
+          "speaker": "Luke Foreman",
+          "gist": "exactly exactly very Percy Jacksones. Ask."
+        },
+        {
+          "line": 497,
+          "speaker": "John Hagey",
+          "gist": "Yes. Yeah."
+        },
+        {
+          "line": 498,
+          "speaker": "Luke Foreman",
+          "gist": "like the they see kind of a di\ufb00erent vision that y..."
+        },
+        {
+          "line": 499,
+          "speaker": "John Hagey",
+          "gist": "Okay. Perfect."
+        },
+        {
+          "line": 500,
+          "speaker": "Luke Foreman",
+          "gist": "Um so you know this is a consecrated place maybe n..."
+        },
+        {
+          "line": 501,
+          "speaker": "John Hagey",
+          "gist": "Yeah."
+        },
+        {
+          "line": 502,
+          "speaker": "Luke Foreman",
+          "gist": "refuge of a lot of people. Um you see you are able..."
+        },
+        {
+          "line": 503,
+          "speaker": "John Hagey",
+          "gist": "Right."
+        },
+        {
+          "line": 504,
+          "speaker": "Luke Foreman",
+          "gist": "It's almost residual."
+        },
+        {
+          "line": 505,
+          "speaker": "John Hagey",
+          "gist": "Right. So in in in the instance of useles, is it l..."
+        },
+        {
+          "line": 506,
+          "speaker": "John Hagey",
+          "gist": "It's kind of like a mixed a mixture of that."
+        },
+        {
+          "line": 507,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 508,
+          "speaker": "John Hagey",
+          "gist": "I see."
+        },
+        {
+          "line": 509,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 510,
+          "speaker": "John Hagey",
+          "gist": "Okay. Okay, cool. Uh, Youth Cle is actually going ..."
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "title": "CHAPTER 14: AURAS OF THE DISPLACED",
+      "line_range": [
+        511,
+        630
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 511,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 512,
+          "speaker": "John Hagey",
+          "gist": "but he's gonna All right. Well, this it seems as g..."
+        },
+        {
+          "line": 513,
+          "speaker": "William Webb",
+          "gist": "Oh, one room. Four rooms,"
+        },
+        {
+          "line": 514,
+          "speaker": "John Hagey",
+          "gist": "is"
+        },
+        {
+          "line": 515,
+          "speaker": "Luke Foreman",
+          "gist": "Oh, I I I see the the misunderstanding here."
+        },
+        {
+          "line": 516,
+          "speaker": "William Webb",
+          "gist": "please."
+        },
+        {
+          "line": 517,
+          "speaker": "Luke Foreman",
+          "gist": "It says the in well kind of that the it's the marg..."
+        },
+        {
+          "line": 518,
+          "speaker": "William Webb",
+          "gist": "Now when you say is that c a b space i n the cab"
+        },
+        {
+          "line": 519,
+          "speaker": "Luke Foreman",
+          "gist": "some"
+        },
+        {
+          "line": 520,
+          "speaker": "William Webb",
+          "gist": "in"
+        },
+        {
+          "line": 521,
+          "speaker": "Luke Foreman",
+          "gist": "it I like this one. I like this one. This was He's..."
+        },
+        {
+          "line": 522,
+          "speaker": "William Webb",
+          "gist": "Gotcha."
+        },
+        {
+          "line": 523,
+          "speaker": "Luke Foreman",
+          "gist": "There's uh one one of our one of our guys uh the h..."
+        },
+        {
+          "line": 524,
+          "speaker": "John Hagey",
+          "gist": "Mike, was what was your traumatic experience that ..."
+        },
+        {
+          "line": 525,
+          "speaker": "Luke Foreman",
+          "gist": "relax yeah so I was on"
+        },
+        {
+          "line": 526,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 527,
+          "speaker": "John Hagey",
+          "gist": "here?"
+        },
+        {
+          "line": 528,
+          "speaker": "Luke Foreman",
+          "gist": "like a last I saw I was on a boat and I was I was ..."
+        },
+        {
+          "line": 529,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 530,
+          "speaker": "Luke Foreman",
+          "gist": "I was on this the seven this riding through the se..."
+        },
+        {
+          "line": 531,
+          "speaker": "John Hagey",
+          "gist": "and how did you get from West Virginia to to here ..."
+        },
+        {
+          "line": 532,
+          "speaker": "Luke Foreman",
+          "gist": "Well,"
+        },
+        {
+          "line": 533,
+          "speaker": "John Hagey",
+          "gist": "margin?"
+        },
+        {
+          "line": 534,
+          "speaker": "Luke Foreman",
+          "gist": "I was like, this was at a time that this"
+        },
+        {
+          "line": 535,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Thank"
+        },
+        {
+          "line": 536,
+          "speaker": "Luke S",
+          "gist": "I love him."
+        },
+        {
+          "line": 537,
+          "speaker": "Luke S",
+          "gist": "I love him."
+        },
+        {
+          "line": 538,
+          "speaker": "Luke Foreman",
+          "gist": "was at a time that uh Teddy was still leaving the ..."
+        },
+        {
+          "line": 539,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "you."
+        },
+        {
+          "line": 540,
+          "speaker": "Luke Foreman",
+          "gist": "people in. And I I mean I I I don't know if you ca..."
+        },
+        {
+          "line": 541,
+          "speaker": "John Hagey",
+          "gist": "Oh, yeah. Let's let's let's meet up with Teddy."
+        },
+        {
+          "line": 542,
+          "speaker": "Luke Foreman",
+          "gist": "where are"
+        },
+        {
+          "line": 543,
+          "speaker": "John Hagey",
+          "gist": "I'd love we I'd love to meet I'd love to meet"
+        },
+        {
+          "line": 544,
+          "speaker": "Luke Foreman",
+          "gist": "these these folks behind you are with you too? The..."
+        },
+        {
+          "line": 545,
+          "speaker": "John Hagey",
+          "gist": "Teddy."
+        },
+        {
+          "line": 546,
+          "speaker": "Luke Foreman",
+          "gist": "kind of hanging in the"
+        },
+        {
+          "line": 547,
+          "speaker": "Luke S",
+          "gist": "Yeah, I mean I am um I am sorry."
+        },
+        {
+          "line": 548,
+          "speaker": "Luke Foreman",
+          "gist": "shadows."
+        },
+        {
+          "line": 549,
+          "speaker": "Luke S",
+          "gist": "I think this is I think this is not the right plac..."
+        },
+        {
+          "line": 550,
+          "speaker": "Luke S",
+          "gist": "I am supposed to be at a um a pilgrimage. I I don'..."
+        },
+        {
+          "line": 551,
+          "speaker": "Luke Foreman",
+          "gist": "The the my hair is uh completely natural."
+        },
+        {
+          "line": 552,
+          "speaker": "Luke S",
+          "gist": "Yes. So too is mine. But uh does it wiggle and som..."
+        },
+        {
+          "line": 553,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, I don't know about bite, but it does this. It ..."
+        },
+        {
+          "line": 554,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "What's that?"
+        },
+        {
+          "line": 555,
+          "speaker": "Luke S",
+          "gist": "Oh no, that would make my hair very nauseous."
+        },
+        {
+          "line": 556,
+          "speaker": "Luke Foreman",
+          "gist": "hair."
+        },
+        {
+          "line": 557,
+          "speaker": "Luke S",
+          "gist": "Like that is not No, I Yeah, I don't um I don't th..."
+        },
+        {
+          "line": 558,
+          "speaker": "Luke Foreman",
+          "gist": "I think we might be a little bit lost in translati..."
+        },
+        {
+          "line": 559,
+          "speaker": "Luke S",
+          "gist": "here."
+        },
+        {
+          "line": 560,
+          "speaker": "Luke Foreman",
+          "gist": "It sounds like your hair snakes and that's a bit"
+        },
+        {
+          "line": 561,
+          "speaker": "Luke S",
+          "gist": "Um no,"
+        },
+        {
+          "line": 562,
+          "speaker": "Luke Foreman",
+          "gist": "wild."
+        },
+        {
+          "line": 563,
+          "speaker": "Luke S",
+          "gist": "it's very well tamed. They are not wild anymore."
+        },
+        {
+          "line": 564,
+          "speaker": "Luke Foreman",
+          "gist": "Uh uh. I'm not sure what I think you are supposed ..."
+        },
+        {
+          "line": 565,
+          "speaker": "Luke Foreman",
+          "gist": "So, I think this is where you need to"
+        },
+        {
+          "line": 566,
+          "speaker": "Luke S",
+          "gist": "Well, um I don't know."
+        },
+        {
+          "line": 567,
+          "speaker": "Luke Foreman",
+          "gist": "be"
+        },
+        {
+          "line": 568,
+          "speaker": "Luke S",
+          "gist": "My mother told me to come \ufb01nd a place to learn abo..."
+        },
+        {
+          "line": 569,
+          "speaker": "William Webb",
+          "gist": "Hey, this is this is"
+        },
+        {
+          "line": 570,
+          "speaker": "Luke S",
+          "gist": "No, I have I learned Mike's name."
+        },
+        {
+          "line": 571,
+          "speaker": "William Webb",
+          "gist": "Mike."
+        },
+        {
+          "line": 572,
+          "speaker": "Luke S",
+          "gist": "I am not um not going to get too emotionally attac..."
+        },
+        {
+          "line": 573,
+          "speaker": "Luke Foreman",
+          "gist": "I do get that a A lot"
+        },
+        {
+          "line": 574,
+          "speaker": "Luke S",
+          "gist": "I could see why. Um but you yes,"
+        },
+        {
+          "line": 575,
+          "speaker": "Luke Foreman",
+          "gist": "actually."
+        },
+        {
+          "line": 576,
+          "speaker": "Luke S",
+          "gist": "I'm turning back over to to like I'm Are you suppo..."
+        },
+        {
+          "line": 577,
+          "speaker": "Luke S",
+          "gist": "I feel bad for calling you a doll."
+        },
+        {
+          "line": 578,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, I uh that's a good question. I gotta \ufb01nd my ..."
+        },
+        {
+          "line": 579,
+          "speaker": "Luke Foreman",
+          "gist": "Find it. Find"
+        },
+        {
+          "line": 580,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Uh \ufb01nding it."
+        },
+        {
+          "line": 581,
+          "speaker": "Luke S",
+          "gist": "Lock it in. Lock it"
+        },
+        {
+          "line": 582,
+          "speaker": "John Hagey",
+          "gist": "You're a dolly."
+        },
+        {
+          "line": 583,
+          "speaker": "Luke Foreman",
+          "gist": "it."
+        },
+        {
+          "line": 584,
+          "speaker": "John Hagey",
+          "gist": "You can take You're a doll. You can \ufb01nd You can us..."
+        },
+        {
+          "line": 585,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "True."
+        },
+        {
+          "line": 586,
+          "speaker": "Luke S",
+          "gist": "in."
+        },
+        {
+          "line": 587,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "So true. It could change over time."
+        },
+        {
+          "line": 588,
+          "speaker": "John Hagey",
+          "gist": "Oh my god. Please make it so she has to change eve..."
+        },
+        {
+          "line": 589,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Um,"
+        },
+        {
+          "line": 590,
+          "speaker": "John Hagey",
+          "gist": "She has to roll one d20. And depending on like whe..."
+        },
+        {
+          "line": 591,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "oh my god,"
+        },
+        {
+          "line": 592,
+          "speaker": "John Hagey",
+          "gist": "between."
+        },
+        {
+          "line": 593,
+          "speaker": "Luke S",
+          "gist": "My dream character."
+        },
+        {
+          "line": 594,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "my nightmare character."
+        },
+        {
+          "line": 595,
+          "speaker": "Luke Foreman",
+          "gist": "It's also just being"
+        },
+        {
+          "line": 596,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Uh,"
+        },
+        {
+          "line": 597,
+          "speaker": "Luke Foreman",
+          "gist": "DM"
+        },
+        {
+          "line": 598,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "yeah, legit. Um, yeah, I uh All right."
+        },
+        {
+          "line": 599,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I don't"
+        },
+        {
+          "line": 600,
+          "speaker": "Luke S",
+          "gist": "What up? I I probably should not make up a name be..."
+        },
+        {
+          "line": 601,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "know."
+        },
+        {
+          "line": 602,
+          "speaker": "Luke S",
+          "gist": "does not um maybe the best but you are Adolf and t..."
+        },
+        {
+          "line": 603,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right. Yeah. Alonszo do do me."
+        },
+        {
+          "line": 604,
+          "speaker": "Luke S",
+          "gist": "little Al\ufb01e"
+        },
+        {
+          "line": 605,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, I think that's a pretty nice name. Mike,"
+        },
+        {
+          "line": 606,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 607,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "you were talking about a a ship. Yeah, a ship that..."
+        },
+        {
+          "line": 608,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 609,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 610,
+          "speaker": "Luke Foreman",
+          "gist": "right. Yeah. Goodness, I'm copying it. Here we go...."
+        },
+        {
+          "line": 611,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I know."
+        },
+        {
+          "line": 612,
+          "speaker": "Luke Foreman",
+          "gist": "Find it."
+        },
+        {
+          "line": 613,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "It's so hard not"
+        },
+        {
+          "line": 614,
+          "speaker": "Luke Foreman",
+          "gist": "Find it. Find it. Find it."
+        },
+        {
+          "line": 615,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "to"
+        },
+        {
+          "line": 616,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. I was Here we go."
+        },
+        {
+          "line": 617,
+          "speaker": "Luke Foreman",
+          "gist": "We'll get it. We'll get it."
+        },
+        {
+          "line": 618,
+          "speaker": "Luke S",
+          "gist": "Oh no."
+        },
+        {
+          "line": 619,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, I was on a ship and it was I'm covering ears..."
+        },
+        {
+          "line": 620,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "This is literally impossible."
+        },
+        {
+          "line": 621,
+          "speaker": "Luke Foreman",
+          "gist": "My frs. Find my frs."
+        },
+        {
+          "line": 622,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "France."
+        },
+        {
+          "line": 623,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 624,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Fron is the"
+        },
+        {
+          "line": 625,
+          "speaker": "Luke Foreman",
+          "gist": "I was on I was on a boat with my frs. Yeah,"
+        },
+        {
+          "line": 626,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "word."
+        },
+        {
+          "line": 627,
+          "speaker": "Luke Foreman",
+          "gist": "I I was on a ship. Were Were you on a ship, too?"
+        },
+        {
+          "line": 628,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, I think I remember the dark and the quiet an..."
+        },
+        {
+          "line": 629,
+          "speaker": "Luke S",
+          "gist": "Al\ufb01e. Al\ufb01e. It's okay. Bring it back."
+        },
+        {
+          "line": 630,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "water."
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "title": "CHAPTER 15: THE SANCTUARY OF 1846",
+      "line_range": [
+        631,
+        750
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 631,
+          "speaker": "Luke S",
+          "gist": "Bring it back. You're not on the ship anymore."
+        },
+        {
+          "line": 632,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Right."
+        },
+        {
+          "line": 633,
+          "speaker": "Luke S",
+          "gist": "Al\ufb01e."
+        },
+        {
+          "line": 634,
+          "speaker": "Luke Foreman",
+          "gist": "This This is a It's a fun doll."
+        },
+        {
+          "line": 635,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 636,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. And it's like patting Lily's head like It's ..."
+        },
+        {
+          "line": 637,
+          "speaker": "Luke S",
+          "gist": "Like the eyes just"
+        },
+        {
+          "line": 638,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 639,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Uh yeah,"
+        },
+        {
+          "line": 640,
+          "speaker": "Luke S",
+          "gist": "bey"
+        },
+        {
+          "line": 641,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "something about that sounds right to me. Something..."
+        },
+        {
+          "line": 642,
+          "speaker": "Luke Foreman",
+          "gist": "I mean, I like really we all have crazy stories li..."
+        },
+        {
+          "line": 643,
+          "speaker": "John Hagey",
+          "gist": "So, here's a question for the DM."
+        },
+        {
+          "line": 644,
+          "speaker": "John Hagey",
+          "gist": "I used divine sense earlier."
+        },
+        {
+          "line": 645,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 646,
+          "speaker": "John Hagey",
+          "gist": "What did I see with the other three people that I'..."
+        },
+        {
+          "line": 647,
+          "speaker": "Luke Foreman",
+          "gist": "Uh,"
+        },
+        {
+          "line": 648,
+          "speaker": "John Hagey",
+          "gist": "Like these pe these people had like a mixture of u..."
+        },
+        {
+          "line": 649,
+          "speaker": "Luke Foreman",
+          "gist": "great question. Yeah,"
+        },
+        {
+          "line": 650,
+          "speaker": "Luke S",
+          "gist": "Nice."
+        },
+        {
+          "line": 651,
+          "speaker": "Luke Foreman",
+          "gist": "I think with so with uh Professor Edward Draven, y..."
+        },
+        {
+          "line": 652,
+          "speaker": "John Hagey",
+          "gist": "Yeah."
+        },
+        {
+          "line": 653,
+          "speaker": "Luke Foreman",
+          "gist": "um between that. And then with I think the celesti..."
+        },
+        {
+          "line": 654,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, I think Al\ufb01e."
+        },
+        {
+          "line": 655,
+          "speaker": "John Hagey",
+          "gist": "Got it."
+        },
+        {
+          "line": 656,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I think Al\ufb01e."
+        },
+        {
+          "line": 657,
+          "speaker": "Luke Foreman",
+          "gist": "Al\ufb01e. Al\ufb01e is perfect. Yep."
+        },
+        {
+          "line": 658,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 659,
+          "speaker": "Luke Foreman",
+          "gist": "Yep."
+        },
+        {
+          "line": 660,
+          "speaker": "John Hagey",
+          "gist": "Al\ufb01e."
+        },
+        {
+          "line": 661,
+          "speaker": "Luke Foreman",
+          "gist": "Perfect."
+        },
+        {
+          "line": 662,
+          "speaker": "William Webb",
+          "gist": "So,"
+        },
+        {
+          "line": 663,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 664,
+          "speaker": "William Webb",
+          "gist": "you're telling me everybody else got a little cele..."
+        },
+        {
+          "line": 665,
+          "speaker": "Luke Foreman",
+          "gist": "No, you do as well."
+        },
+        {
+          "line": 666,
+          "speaker": "William Webb",
+          "gist": "dead."
+        },
+        {
+          "line": 667,
+          "speaker": "Luke Foreman",
+          "gist": "You do as well."
+        },
+        {
+          "line": 668,
+          "speaker": "William Webb",
+          "gist": "Okay."
+        },
+        {
+          "line": 669,
+          "speaker": "Luke Foreman",
+          "gist": "like like the the amount of"
+        },
+        {
+          "line": 670,
+          "speaker": "John Hagey",
+          "gist": "No. No. You what you don't have."
+        },
+        {
+          "line": 671,
+          "speaker": "William Webb",
+          "gist": "Okay."
+        },
+        {
+          "line": 672,
+          "speaker": "Luke Foreman",
+          "gist": "celestial or \ufb01end."
+        },
+        {
+          "line": 673,
+          "speaker": "John Hagey",
+          "gist": "What you don't have is you and Pierre don't have a..."
+        },
+        {
+          "line": 674,
+          "speaker": "Luke Foreman",
+          "gist": "Oh yeah. Yeah."
+        },
+        {
+          "line": 675,
+          "speaker": "John Hagey",
+          "gist": "Pierre has some uh Yeah, Pier has some. So, but th..."
+        },
+        {
+          "line": 676,
+          "speaker": "Luke Foreman",
+          "gist": "Pier"
+        },
+        {
+          "line": 677,
+          "speaker": "John Hagey",
+          "gist": "Edward uh they don't or Professor Edward don't hav..."
+        },
+        {
+          "line": 678,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 679,
+          "speaker": "John Hagey",
+          "gist": "but"
+        },
+        {
+          "line": 680,
+          "speaker": "Luke Foreman",
+          "gist": "Okay."
+        },
+        {
+          "line": 681,
+          "speaker": "Luke S",
+          "gist": "And just to be clear,"
+        },
+        {
+          "line": 682,
+          "speaker": "John Hagey",
+          "gist": "anyway."
+        },
+        {
+          "line": 683,
+          "speaker": "Luke S",
+          "gist": "um,"
+        },
+        {
+          "line": 684,
+          "speaker": "Luke Foreman",
+          "gist": "Gotcha."
+        },
+        {
+          "line": 685,
+          "speaker": "Luke S",
+          "gist": "Mike, you said what what does a LP look like to"
+        },
+        {
+          "line": 686,
+          "speaker": "Luke Foreman",
+          "gist": "Oh,"
+        },
+        {
+          "line": 687,
+          "speaker": "Luke S",
+          "gist": "you?"
+        },
+        {
+          "line": 688,
+          "speaker": "Luke Foreman",
+          "gist": "I mean this is like a cr Well, looks a little di\ufb00e..."
+        },
+        {
+          "line": 689,
+          "speaker": "Luke S",
+          "gist": "And it is a normal that he is talking out loud to."
+        },
+        {
+          "line": 690,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, I mean, I've seen some crazy stu\ufb00. This might ..."
+        },
+        {
+          "line": 691,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Oh, Bob."
+        },
+        {
+          "line": 692,
+          "speaker": "Luke Foreman",
+          "gist": "like there crazy stu\ufb00 comes through this place. I ..."
+        },
+        {
+          "line": 693,
+          "speaker": "Luke S",
+          "gist": "I"
+        },
+        {
+          "line": 694,
+          "speaker": "John Hagey",
+          "gist": "All right, let's go All right, let's go talk to Te..."
+        },
+        {
+          "line": 695,
+          "speaker": "Luke S",
+          "gist": "die."
+        },
+        {
+          "line": 696,
+          "speaker": "Luke Foreman",
+          "gist": "I I do think you should probably say Theodore \ufb01rst..."
+        },
+        {
+          "line": 697,
+          "speaker": "John Hagey",
+          "gist": "Uh, little little French."
+        },
+        {
+          "line": 698,
+          "speaker": "Luke Foreman",
+          "gist": "Teddy, but that's that's just a little friendto fr..."
+        },
+        {
+          "line": 699,
+          "speaker": "John Hagey",
+          "gist": "Mike,"
+        },
+        {
+          "line": 700,
+          "speaker": "Luke Foreman",
+          "gist": "tip."
+        },
+        {
+          "line": 701,
+          "speaker": "John Hagey",
+          "gist": "will you introduce us to"
+        },
+        {
+          "line": 702,
+          "speaker": "Luke Foreman",
+          "gist": "Absolutely. I will. So,"
+        },
+        {
+          "line": 703,
+          "speaker": "John Hagey",
+          "gist": "Theodore?"
+        },
+        {
+          "line": 704,
+          "speaker": "Luke Foreman",
+          "gist": "come on, follow me. And we you kind of follow into..."
+        },
+        {
+          "line": 705,
+          "speaker": "Luke S",
+          "gist": "Nice."
+        },
+        {
+          "line": 706,
+          "speaker": "Luke Foreman",
+          "gist": "Um, And let's see. Michael, Michael, thank you for..."
+        },
+        {
+          "line": 707,
+          "speaker": "Luke Foreman",
+          "gist": "Um but they they help out as much as they can too ..."
+        },
+        {
+          "line": 708,
+          "speaker": "William Webb",
+          "gist": "But may I as a as an academic"
+        },
+        {
+          "line": 709,
+          "speaker": "Luke Foreman",
+          "gist": "ahead."
+        },
+        {
+          "line": 710,
+          "speaker": "William Webb",
+          "gist": "myself."
+        },
+        {
+          "line": 711,
+          "speaker": "Luke Foreman",
+          "gist": "Oh, yes, of course."
+        },
+        {
+          "line": 712,
+          "speaker": "William Webb",
+          "gist": "Theodore The Theodore uh you say you keep a record..."
+        },
+        {
+          "line": 713,
+          "speaker": "Luke Foreman",
+          "gist": "Please."
+        },
+        {
+          "line": 714,
+          "speaker": "William Webb",
+          "gist": "and go. Are are you suggesting that people leave t..."
+        },
+        {
+          "line": 715,
+          "speaker": "Luke Foreman",
+          "gist": "Why yes, of course. It's quite it's quite a fascin..."
+        },
+        {
+          "line": 716,
+          "speaker": "William Webb",
+          "gist": "I I have caught college Greek mythology. So, uh I ..."
+        },
+        {
+          "line": 717,
+          "speaker": "Luke Foreman",
+          "gist": "You in fact may have to unlearn some things."
+        },
+        {
+          "line": 718,
+          "speaker": "William Webb",
+          "gist": "uh"
+        },
+        {
+          "line": 719,
+          "speaker": "Luke Foreman",
+          "gist": "It is pretty simple. But uh there is um there are ..."
+        },
+        {
+          "line": 720,
+          "speaker": "Luke S",
+          "gist": "Um hello Mr. Theodor. It um two two two quick ques..."
+        },
+        {
+          "line": 721,
+          "speaker": "Luke S",
+          "gist": "Um, good if that because maybe you have died a lon..."
+        },
+        {
+          "line": 722,
+          "speaker": "Luke Foreman",
+          "gist": "What? Yes, of course."
+        },
+        {
+          "line": 723,
+          "speaker": "Luke S",
+          "gist": "here."
+        },
+        {
+          "line": 724,
+          "speaker": "Luke Foreman",
+          "gist": "There's all the classics from your your eighth gra..."
+        },
+        {
+          "line": 725,
+          "speaker": "Luke S",
+          "gist": "Oh,"
+        },
+        {
+          "line": 726,
+          "speaker": "Luke Foreman",
+          "gist": "board."
+        },
+        {
+          "line": 727,
+          "speaker": "Luke S",
+          "gist": "and um do you know where the monsters around here"
+        },
+        {
+          "line": 728,
+          "speaker": "Luke Foreman",
+          "gist": "around around here there doesn't seem to be very m..."
+        },
+        {
+          "line": 729,
+          "speaker": "Luke Foreman",
+          "gist": "Usually for the monster type, it's a bit accidenta..."
+        },
+        {
+          "line": 730,
+          "speaker": "William Webb",
+          "gist": "Do I do I still feel the need to eat?"
+        },
+        {
+          "line": 731,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah. The the dessert's delicious. The tea i..."
+        },
+        {
+          "line": 732,
+          "speaker": "William Webb",
+          "gist": "Okay."
+        },
+        {
+          "line": 733,
+          "speaker": "Luke Foreman",
+          "gist": "it it it is like a nice evening. So, people kind o..."
+        },
+        {
+          "line": 734,
+          "speaker": "John Hagey",
+          "gist": "Okay."
+        },
+        {
+          "line": 735,
+          "speaker": "Luke Foreman",
+          "gist": "it seems that um you you have a kind of a more com..."
+        },
+        {
+          "line": 736,
+          "speaker": "Luke Foreman",
+          "gist": "You seem comfortable with with where you are here ..."
+        },
+        {
+          "line": 737,
+          "speaker": "John Hagey",
+          "gist": "Uh, yeah. Look, man."
+        },
+        {
+          "line": 738,
+          "speaker": "Luke Foreman",
+          "gist": "assuming"
+        },
+        {
+          "line": 739,
+          "speaker": "John Hagey",
+          "gist": "I Yeah, I'm I'm a half, but I don't want anything ..."
+        },
+        {
+          "line": 740,
+          "speaker": "John Hagey",
+          "gist": "I have I've tried to avoid it as best as I can. Uh..."
+        },
+        {
+          "line": 741,
+          "speaker": "Luke Foreman",
+          "gist": "I see. I see. That is that is interesting and yet ..."
+        },
+        {
+          "line": 742,
+          "speaker": "John Hagey",
+          "gist": "Well, I don't know if you don't know if you would ..."
+        },
+        {
+          "line": 743,
+          "speaker": "Luke Foreman",
+          "gist": "weekend."
+        },
+        {
+          "line": 744,
+          "speaker": "John Hagey",
+          "gist": "I was going to Vegas to blow o\ufb00 steam because of I..."
+        },
+        {
+          "line": 745,
+          "speaker": "John Hagey",
+          "gist": "All right. We're all going to end up in the underw..."
+        },
+        {
+          "line": 746,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, that's that seems to be what I thought as we..."
+        },
+        {
+          "line": 747,
+          "speaker": "John Hagey",
+          "gist": "can"
+        },
+        {
+          "line": 748,
+          "speaker": "Luke Foreman",
+          "gist": "but here I am. So, there it is. Interesting. I do ..."
+        },
+        {
+          "line": 749,
+          "speaker": "John Hagey",
+          "gist": "uh he uh is going to take a look at it and just be..."
+        },
+        {
+          "line": 750,
+          "speaker": "Luke Foreman",
+          "gist": "All right. That is that is fascinating."
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "title": "CHAPTER 16: STANFORD TWEED AND DRIFTWOOD MEMORIES",
+      "line_range": [
+        751,
+        880
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 751,
+          "speaker": "Luke Foreman",
+          "gist": "That is fascinating. Thank you for your time. I I'..."
+        },
+        {
+          "line": 752,
+          "speaker": "John Hagey",
+          "gist": "and we'll do that."
+        },
+        {
+          "line": 753,
+          "speaker": "Luke Foreman",
+          "gist": "check things."
+        },
+        {
+          "line": 754,
+          "speaker": "John Hagey",
+          "gist": "And uh and my character is taking a long rest if"
+        },
+        {
+          "line": 755,
+          "speaker": "Luke Foreman",
+          "gist": "Yes. All right. Perfect."
+        },
+        {
+          "line": 756,
+          "speaker": "John Hagey",
+          "gist": "possible."
+        },
+        {
+          "line": 757,
+          "speaker": "Luke Foreman",
+          "gist": "Um I think Pierre, let's see, who do we want here?..."
+        },
+        {
+          "line": 758,
+          "speaker": "Luke Foreman",
+          "gist": "Um what can you tell me a little bit about I assum..."
+        },
+        {
+          "line": 759,
+          "speaker": "Luke S",
+          "gist": "Well, um now it is a to meet you. I guess I'm I do..."
+        },
+        {
+          "line": 760,
+          "speaker": "Luke Foreman",
+          "gist": "I see. Uh that is what I assumed and I will note t..."
+        },
+        {
+          "line": 761,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, in terms of like not at your where you were ra..."
+        },
+        {
+          "line": 762,
+          "speaker": "Luke S",
+          "gist": "Um well Anna that is a pretty personal question fo..."
+        },
+        {
+          "line": 763,
+          "speaker": "John Hagey",
+          "gist": "Okay."
+        },
+        {
+          "line": 764,
+          "speaker": "Luke S",
+          "gist": "can tell. This is a pretty normal day in America b..."
+        },
+        {
+          "line": 765,
+          "speaker": "John Hagey",
+          "gist": "She's done it."
+        },
+        {
+          "line": 766,
+          "speaker": "Luke Foreman",
+          "gist": "Uh I I do apologize."
+        },
+        {
+          "line": 767,
+          "speaker": "Luke S",
+          "gist": "So"
+        },
+        {
+          "line": 768,
+          "speaker": "Luke Foreman",
+          "gist": "I am a bit of a tur person. I've been told it is f..."
+        },
+        {
+          "line": 769,
+          "speaker": "Luke S",
+          "gist": "No, no, I \ufb01nd you quite lovely."
+        },
+        {
+          "line": 770,
+          "speaker": "Luke Foreman",
+          "gist": "but"
+        },
+        {
+          "line": 771,
+          "speaker": "Luke S",
+          "gist": "You are direct in the point. It is nothing wrong w..."
+        },
+        {
+          "line": 772,
+          "speaker": "Luke Foreman",
+          "gist": "I do understand it is it is Yes. And it is a bit p..."
+        },
+        {
+          "line": 773,
+          "speaker": "Luke Foreman",
+          "gist": "Are you trying to kind of um \ufb01nd your mommy or uh ..."
+        },
+        {
+          "line": 774,
+          "speaker": "Luke S",
+          "gist": "I I mean I I know who my ma is. I'm doing this as ..."
+        },
+        {
+          "line": 775,
+          "speaker": "Luke Foreman",
+          "gist": "She she kind of gives you gives you a sidelong gla..."
+        },
+        {
+          "line": 776,
+          "speaker": "Luke S",
+          "gist": "One quick question on that."
+        },
+        {
+          "line": 777,
+          "speaker": "Luke Foreman",
+          "gist": "we"
+        },
+        {
+          "line": 778,
+          "speaker": "Luke S",
+          "gist": "Is your last name release"
+        },
+        {
+          "line": 779,
+          "speaker": "Luke Foreman",
+          "gist": "uh well of of course my name is Anna Smith."
+        },
+        {
+          "line": 780,
+          "speaker": "Luke S",
+          "gist": "mute?"
+        },
+        {
+          "line": 781,
+          "speaker": "Luke Foreman",
+          "gist": "I was the US Army nurse in in uh when my my time h..."
+        },
+        {
+          "line": 782,
+          "speaker": "Luke S",
+          "gist": "Okay, Anna,"
+        },
+        {
+          "line": 783,
+          "speaker": "Luke Foreman",
+          "gist": "whiskey."
+        },
+        {
+          "line": 784,
+          "speaker": "Luke S",
+          "gist": "your safe is your secret is safe with me. And then..."
+        },
+        {
+          "line": 785,
+          "speaker": "Luke Foreman",
+          "gist": "Okay. All right. Um All right."
+        },
+        {
+          "line": 786,
+          "speaker": "Luke S",
+          "gist": "cabin."
+        },
+        {
+          "line": 787,
+          "speaker": "Luke Foreman",
+          "gist": "Let's do Let's go, Edward. All right. Well, it see..."
+        },
+        {
+          "line": 788,
+          "speaker": "William Webb",
+          "gist": "Hello."
+        },
+        {
+          "line": 789,
+          "speaker": "Luke Foreman",
+          "gist": "Uh we're going to do some quick questions, talk th..."
+        },
+        {
+          "line": 790,
+          "speaker": "William Webb",
+          "gist": "There there's actually a ton of Greek mythology in..."
+        },
+        {
+          "line": 791,
+          "speaker": "Luke Foreman",
+          "gist": "That's news to me, I'll tell you. I I have no idea..."
+        },
+        {
+          "line": 792,
+          "speaker": "William Webb",
+          "gist": "Well,"
+        },
+        {
+          "line": 793,
+          "speaker": "Luke Foreman",
+          "gist": "something."
+        },
+        {
+          "line": 794,
+          "speaker": "William Webb",
+          "gist": "there's the origins of gambling are lie within Gre..."
+        },
+        {
+          "line": 795,
+          "speaker": "Luke Foreman",
+          "gist": "Well, learn something new, you know? Like I've bee..."
+        },
+        {
+          "line": 796,
+          "speaker": "William Webb",
+          "gist": "Goodbye."
+        },
+        {
+          "line": 797,
+          "speaker": "Luke Foreman",
+          "gist": "uh it so it it seems like you're a bit like kind o..."
+        },
+        {
+          "line": 798,
+          "speaker": "William Webb",
+          "gist": "Uh uh it"
+        },
+        {
+          "line": 799,
+          "speaker": "Luke Foreman",
+          "gist": "I apologize."
+        },
+        {
+          "line": 800,
+          "speaker": "William Webb",
+          "gist": "it these past few days have have been quite the st..."
+        },
+        {
+          "line": 801,
+          "speaker": "Luke Foreman",
+          "gist": "You know, that's that's true."
+        },
+        {
+          "line": 802,
+          "speaker": "William Webb",
+          "gist": "There's not much Greek mythology in West Virginia."
+        },
+        {
+          "line": 803,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, it's a bit of a big odd spot for sure. And i..."
+        },
+        {
+          "line": 804,
+          "speaker": "William Webb",
+          "gist": "I'm a professor at the Institute of uh Research"
+        },
+        {
+          "line": 805,
+          "speaker": "Luke Foreman",
+          "gist": "study."
+        },
+        {
+          "line": 806,
+          "speaker": "William Webb",
+          "gist": "and Greek Mythology at Stanford in California."
+        },
+        {
+          "line": 807,
+          "speaker": "Luke Foreman",
+          "gist": "No, you're speaking my language now. Yeah, now we ..."
+        },
+        {
+          "line": 808,
+          "speaker": "William Webb",
+          "gist": "I I thought maybe we could bond over that."
+        },
+        {
+          "line": 809,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, I'll tell you that. I had some good times do..."
+        },
+        {
+          "line": 810,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, I I I feel like we're going to have a good con..."
+        },
+        {
+          "line": 811,
+          "speaker": "William Webb",
+          "gist": "Let's stick together."
+        },
+        {
+          "line": 812,
+          "speaker": "Luke Foreman",
+          "gist": "out let's stick together."
+        },
+        {
+          "line": 813,
+          "speaker": "William Webb",
+          "gist": "Let's stick together. Yeah,"
+        },
+        {
+          "line": 814,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 815,
+          "speaker": "William Webb",
+          "gist": "Mike. Let's stick together."
+        },
+        {
+          "line": 816,
+          "speaker": "Luke Foreman",
+          "gist": "Let's stick together. Sounds sounds good to me. I ..."
+        },
+        {
+          "line": 817,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "How's"
+        },
+        {
+          "line": 818,
+          "speaker": "Luke Foreman",
+          "gist": "we have Al\ufb01e. Yeah."
+        },
+        {
+          "line": 819,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 820,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "they"
+        },
+        {
+          "line": 821,
+          "speaker": "Luke Foreman",
+          "gist": "And let's do um let's do Rosa for for Al\ufb01e is gonn..."
+        },
+        {
+          "line": 822,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah. Yeah. Seems pretty nice."
+        },
+        {
+          "line": 823,
+          "speaker": "Luke Foreman",
+          "gist": "I just chasing those times,"
+        },
+        {
+          "line": 824,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 825,
+          "speaker": "Luke Foreman",
+          "gist": "you know, that we're at like a like a concert out ..."
+        },
+        {
+          "line": 826,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Uh yeah,"
+        },
+        {
+          "line": 827,
+          "speaker": "Luke Foreman",
+          "gist": "that."
+        },
+        {
+          "line": 828,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "here here's the being here, mate. Yeah. I uh I I'm..."
+        },
+        {
+          "line": 829,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "the sea,"
+        },
+        {
+          "line": 830,
+          "speaker": "Luke Foreman",
+          "gist": "Al\ufb01e."
+        },
+        {
+          "line": 831,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "the waves."
+        },
+        {
+          "line": 832,
+          "speaker": "Luke Foreman",
+          "gist": "Al\ufb01e."
+        },
+        {
+          "line": 833,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah. Yeah. And uh here's the thing."
+        },
+        {
+          "line": 834,
+          "speaker": "Luke Foreman",
+          "gist": "You're safe now."
+        },
+        {
+          "line": 835,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 836,
+          "speaker": "Luke Foreman",
+          "gist": "You're safe"
+        },
+        {
+          "line": 837,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I'm here."
+        },
+        {
+          "line": 838,
+          "speaker": "Luke Foreman",
+          "gist": "now."
+        },
+        {
+          "line": 839,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "But where do I come from? You know, I don't"
+        },
+        {
+          "line": 840,
+          "speaker": "Luke Foreman",
+          "gist": "Wouldn't you say like your your shipmates and your..."
+        },
+        {
+          "line": 841,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "know."
+        },
+        {
+          "line": 842,
+          "speaker": "Luke Foreman",
+          "gist": "Are you were you a doll on the ship?"
+        },
+        {
+          "line": 843,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah. Here's the thing, Red. No, I uh I don't thin..."
+        },
+        {
+          "line": 844,
+          "speaker": "Luke Foreman",
+          "gist": "I prefer to be on the ground,"
+        },
+        {
+          "line": 845,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "it?"
+        },
+        {
+          "line": 846,
+          "speaker": "Luke Foreman",
+          "gist": "grounded in nature and grounded in into the earth...."
+        },
+        {
+          "line": 847,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah. And if I'm honest with you,"
+        },
+        {
+          "line": 848,
+          "speaker": "Luke Foreman",
+          "gist": "ships."
+        },
+        {
+          "line": 849,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "yeah, I don't think I recommend it. I don't think ..."
+        },
+        {
+          "line": 850,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 851,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I don't think I"
+        },
+        {
+          "line": 852,
+          "speaker": "Luke Foreman",
+          "gist": "I I I tend to stick around here, so I I think I'm ..."
+        },
+        {
+          "line": 853,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "would."
+        },
+        {
+          "line": 854,
+          "speaker": "Luke Foreman",
+          "gist": "There isn't much water around. Um, but but I'll I'..."
+        },
+        {
+          "line": 855,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 856,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 857,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right."
+        },
+        {
+          "line": 858,
+          "speaker": "Luke Foreman",
+          "gist": "so she brings you back to the cabin as well. And"
+        },
+        {
+          "line": 859,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, but here's here's the thing,"
+        },
+        {
+          "line": 860,
+          "speaker": "Luke Foreman",
+          "gist": "um,"
+        },
+        {
+          "line": 861,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "mate. Do you know where where did I come from? Yea..."
+        },
+        {
+          "line": 862,
+          "speaker": "Luke Foreman",
+          "gist": "where did any of us come from? the earth, the sky,..."
+        },
+        {
+          "line": 863,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 864,
+          "speaker": "Luke Foreman",
+          "gist": "the the the heat in the air."
+        },
+        {
+          "line": 865,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right."
+        },
+        {
+          "line": 866,
+          "speaker": "Luke Foreman",
+          "gist": "Who Who's to even say?"
+        },
+        {
+          "line": 867,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 868,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 869,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right. Yeah."
+        },
+        {
+          "line": 870,
+          "speaker": "Luke Foreman",
+          "gist": "All right."
+        },
+        {
+          "line": 871,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "In the air, the sky, the seas. Yeah. Okay. All rig..."
+        },
+        {
+          "line": 872,
+          "speaker": "Luke S",
+          "gist": "What the f***?"
+        },
+        {
+          "line": 873,
+          "speaker": "Luke Foreman",
+          "gist": "Um, and we'll bring you all to the cabin and um, a..."
+        },
+        {
+          "line": 874,
+          "speaker": "Luke S",
+          "gist": "Hey"
+        },
+        {
+          "line": 875,
+          "speaker": "Luke Foreman",
+          "gist": "It's um it's like super super super important that..."
+        },
+        {
+          "line": 876,
+          "speaker": "Luke S",
+          "gist": "guys."
+        },
+        {
+          "line": 877,
+          "speaker": "Luke Foreman",
+          "gist": "I I'll just show you. I'll just show you."
+        },
+        {
+          "line": 878,
+          "speaker": "Luke Foreman",
+          "gist": "Uh come on. Come on. I'll show you what I'm doing...."
+        },
+        {
+          "line": 879,
+          "speaker": "Luke S",
+          "gist": "So we So we were we were in the cabin. Al\ufb01e comes ..."
+        },
+        {
+          "line": 880,
+          "speaker": "Luke Foreman",
+          "gist": "I think you all were this was all kind of happenin..."
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "title": "CHAPTER 17: THE MIDNIGHT KNOCK & THE CORRECTOR DRILL",
+      "line_range": [
+        881,
+        1010
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 881,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 882,
+          "speaker": "Luke Foreman",
+          "gist": "maybe even like getting ready for bed when she lik..."
+        },
+        {
+          "line": 883,
+          "speaker": "Luke S",
+          "gist": "And it can wait until the morning. I have already ..."
+        },
+        {
+          "line": 884,
+          "speaker": "Luke Foreman",
+          "gist": "I am so sorry. You're so right. Uh this is It's so..."
+        },
+        {
+          "line": 885,
+          "speaker": "Luke S",
+          "gist": "Yes, it makes a lot of noise and there's nine or l..."
+        },
+        {
+          "line": 886,
+          "speaker": "Luke Foreman",
+          "gist": "in."
+        },
+        {
+          "line": 887,
+          "speaker": "Luke S",
+          "gist": "So, um I will just appear gently start closing the..."
+        },
+        {
+          "line": 888,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah. I uh I'll be I'll be I'll be back."
+        },
+        {
+          "line": 889,
+          "speaker": "Luke S",
+          "gist": "It was Yes."
+        },
+        {
+          "line": 890,
+          "speaker": "Luke Foreman",
+          "gist": "I'll be back in the in the morning. in the morning..."
+        },
+        {
+          "line": 891,
+          "speaker": "Luke S",
+          "gist": "after um  you can you can come back."
+        },
+        {
+          "line": 892,
+          "speaker": "Luke Foreman",
+          "gist": "Morning."
+        },
+        {
+          "line": 893,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 894,
+          "speaker": "Luke Foreman",
+          "gist": "All right."
+        },
+        {
+          "line": 895,
+          "speaker": "Luke S",
+          "gist": "Bye."
+        },
+        {
+          "line": 896,
+          "speaker": "Luke Foreman",
+          "gist": "And we take a long rest."
+        },
+        {
+          "line": 897,
+          "speaker": "Luke S",
+          "gist": "These"
+        },
+        {
+          "line": 898,
+          "speaker": "Luke Foreman",
+          "gist": "Everybody gets healed up and uh and all of that. A..."
+        },
+        {
+          "line": 899,
+          "speaker": "Luke S",
+          "gist": "are"
+        },
+        {
+          "line": 900,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. All spell slots back, all of that sort of st..."
+        },
+        {
+          "line": 901,
+          "speaker": "Luke Foreman",
+          "gist": "Don't make her feel like it's some rush. We've bee..."
+        },
+        {
+          "line": 902,
+          "speaker": "Luke S",
+          "gist": "You know, I have heard that the Americans they onl..."
+        },
+        {
+          "line": 903,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, it I mean people say uh I make them the best..."
+        },
+        {
+          "line": 904,
+          "speaker": "Luke S",
+          "gist": "Cuz"
+        },
+        {
+          "line": 905,
+          "speaker": "Luke Foreman",
+          "gist": "it's like probably like only a couple years since ..."
+        },
+        {
+          "line": 906,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "It wasn't 2009."
+        },
+        {
+          "line": 907,
+          "speaker": "Luke Foreman",
+          "gist": "yeah."
+        },
+        {
+          "line": 908,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I just want you to say it."
+        },
+        {
+          "line": 909,
+          "speaker": "Luke Foreman",
+          "gist": "2009 and then she she was next in 2011."
+        },
+        {
+          "line": 910,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right."
+        },
+        {
+          "line": 911,
+          "speaker": "Luke Foreman",
+          "gist": "So, like it's it was like present"
+        },
+        {
+          "line": 912,
+          "speaker": "Luke S",
+          "gist": "when the year that we left was was what?"
+        },
+        {
+          "line": 913,
+          "speaker": "Luke Foreman",
+          "gist": "day."
+        },
+        {
+          "line": 914,
+          "speaker": "Luke S",
+          "gist": "Like Okay."
+        },
+        {
+          "line": 915,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "You're sure it wasn't 2005?"
+        },
+        {
+          "line": 916,
+          "speaker": "Luke Foreman",
+          "gist": "No, it wasn't 2005."
+        },
+        {
+          "line": 917,
+          "speaker": "William Webb",
+          "gist": "What"
+        },
+        {
+          "line": 918,
+          "speaker": "Luke S",
+          "gist": "Yes, I think you have lost a few years,"
+        },
+        {
+          "line": 919,
+          "speaker": "William Webb",
+          "gist": "sucks?"
+        },
+        {
+          "line": 920,
+          "speaker": "Luke S",
+          "gist": "but um that there's more time for you to practice ..."
+        },
+        {
+          "line": 921,
+          "speaker": "Luke Foreman",
+          "gist": "I mean, honestly, it's like probably I mean, it's ..."
+        },
+        {
+          "line": 922,
+          "speaker": "Luke Foreman",
+          "gist": "But like I think that's the reason I'm here. Like ..."
+        },
+        {
+          "line": 923,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "f*** you."
+        },
+        {
+          "line": 924,
+          "speaker": "Luke S",
+          "gist": "That um sounds good to me. I I sort of um zoned ou..."
+        },
+        {
+          "line": 925,
+          "speaker": "Luke Foreman",
+          "gist": "John, sorry you were muted. I think you had said s..."
+        },
+        {
+          "line": 926,
+          "speaker": "John Hagey",
+          "gist": "Oh, my the only thing I had said was how good are ..."
+        },
+        {
+          "line": 927,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Our"
+        },
+        {
+          "line": 928,
+          "speaker": "Luke Foreman",
+          "gist": "everyone"
+        },
+        {
+          "line": 929,
+          "speaker": "William Webb",
+          "gist": "Best best in"
+        },
+        {
+          "line": 930,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "pawn cake top"
+        },
+        {
+          "line": 931,
+          "speaker": "Luke Foreman",
+          "gist": "they are uh let's see"
+        },
+        {
+          "line": 932,
+          "speaker": "William Webb",
+          "gist": "town."
+        },
+        {
+          "line": 933,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "\ufb01ve"
+        },
+        {
+          "line": 934,
+          "speaker": "John Hagey",
+          "gist": "Damn, go ahead and roll for"
+        },
+        {
+          "line": 935,
+          "speaker": "Luke Foreman",
+          "gist": "um I I rolled I rolled a 10 so I think"
+        },
+        {
+          "line": 936,
+          "speaker": "John Hagey",
+          "gist": "Pancake."
+        },
+        {
+          "line": 937,
+          "speaker": "Luke Foreman",
+          "gist": "they're they're \ufb01ne."
+        },
+        {
+          "line": 938,
+          "speaker": "John Hagey",
+          "gist": "Are they a 10 out of 10 or they just"
+        },
+        {
+          "line": 939,
+          "speaker": "Luke Foreman",
+          "gist": "They're they're 10 on a d20."
+        },
+        {
+          "line": 940,
+          "speaker": "John Hagey",
+          "gist": "met?"
+        },
+        {
+          "line": 941,
+          "speaker": "Luke Foreman",
+          "gist": "So Oh."
+        },
+        {
+          "line": 942,
+          "speaker": "Luke S",
+          "gist": "takes a big bite and you just like chew for a litt..."
+        },
+        {
+          "line": 943,
+          "speaker": "Luke Foreman",
+          "gist": "Oh. Yeah."
+        },
+        {
+          "line": 944,
+          "speaker": "Luke S",
+          "gist": "plates."
+        },
+        {
+          "line": 945,
+          "speaker": "Luke Foreman",
+          "gist": "Oh,"
+        },
+        {
+          "line": 946,
+          "speaker": "Luke S",
+          "gist": "I hope that is better than that."
+        },
+        {
+          "line": 947,
+          "speaker": "Luke Foreman",
+          "gist": "I'm"
+        },
+        {
+          "line": 948,
+          "speaker": "Luke S",
+          "gist": "the \ufb01re and not sing it."
+        },
+        {
+          "line": 949,
+          "speaker": "Luke Foreman",
+          "gist": "h I've been told they're a bit draw."
+        },
+        {
+          "line": 950,
+          "speaker": "William Webb",
+          "gist": "the the \ufb01rst one's de\ufb01nitely burnt."
+        },
+        {
+          "line": 951,
+          "speaker": "Luke S",
+          "gist": "You can"
+        },
+        {
+          "line": 952,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 953,
+          "speaker": "Luke S",
+          "gist": "maybe"
+        },
+        {
+          "line": 954,
+          "speaker": "Luke Foreman",
+          "gist": "as you all eat kind of eat eat breakfast and stu\ufb00...."
+        },
+        {
+          "line": 955,
+          "speaker": "Luke Foreman",
+          "gist": "I think it's time for for you to come come and see..."
+        },
+        {
+          "line": 956,
+          "speaker": "Luke S",
+          "gist": "Uh, I guess Pier is going to lean over to whoever ..."
+        },
+        {
+          "line": 957,
+          "speaker": "Luke Foreman",
+          "gist": "Perfect."
+        },
+        {
+          "line": 958,
+          "speaker": "Luke S",
+          "gist": "and he just kind of pushes uh Edward towards Naomi..."
+        },
+        {
+          "line": 959,
+          "speaker": "William Webb",
+          "gist": "I'm going to I lean in and I say,\"Uh, I was going ..."
+        },
+        {
+          "line": 960,
+          "speaker": "Luke S",
+          "gist": "Yes, but to be totally clear, there is almost noth..."
+        },
+        {
+          "line": 961,
+          "speaker": "William Webb",
+          "gist": "Ah, yes. Zeus. I've met him many of times in my bo..."
+        },
+        {
+          "line": 962,
+          "speaker": "Luke S",
+          "gist": "Wait, are you talking about Zeus or Zeus? like um ..."
+        },
+        {
+          "line": 963,
+          "speaker": "William Webb",
+          "gist": "Well, I I I just it comes alive when I read."
+        },
+        {
+          "line": 964,
+          "speaker": "Luke S",
+          "gist": "and is it a reading in a rhyme you know like a one..."
+        },
+        {
+          "line": 965,
+          "speaker": "John Hagey",
+          "gist": "One \ufb01sh."
+        },
+        {
+          "line": 966,
+          "speaker": "Luke S",
+          "gist": "cat yeah thank"
+        },
+        {
+          "line": 967,
+          "speaker": "John Hagey",
+          "gist": "Two \ufb01sh. Just blue \ufb01sh."
+        },
+        {
+          "line": 968,
+          "speaker": "William Webb",
+          "gist": "Uh-uh. Zeus,"
+        },
+        {
+          "line": 969,
+          "speaker": "Luke S",
+          "gist": "you okay you know you said you met him in real lif..."
+        },
+        {
+          "line": 970,
+          "speaker": "William Webb",
+          "gist": "not Zeus."
+        },
+        {
+          "line": 971,
+          "speaker": "Luke S",
+          "gist": "that pretty cool he's kind of a leg even I have re..."
+        },
+        {
+          "line": 972,
+          "speaker": "William Webb",
+          "gist": "And it it doesn't just jump o\ufb00 the page and come a..."
+        },
+        {
+          "line": 973,
+          "speaker": "Luke S",
+          "gist": "The pictures of the \ufb01sh and the the cat with the t..."
+        },
+        {
+          "line": 974,
+          "speaker": "William Webb",
+          "gist": "I'm gonna I'm gonna go I'm going to go over here n..."
+        },
+        {
+          "line": 975,
+          "speaker": "Luke S",
+          "gist": "hat."
+        },
+        {
+          "line": 976,
+          "speaker": "William Webb",
+          "gist": "Yeah, sounds good. Enjoy your pancakes."
+        },
+        {
+          "line": 977,
+          "speaker": "Luke S",
+          "gist": "Oh, no."
+        },
+        {
+          "line": 978,
+          "speaker": "Luke Foreman",
+          "gist": "Is"
+        },
+        {
+          "line": 979,
+          "speaker": "Luke S",
+          "gist": "I just want you to do all the"
+        },
+        {
+          "line": 980,
+          "speaker": "Luke Foreman",
+          "gist": "it"
+        },
+        {
+          "line": 981,
+          "speaker": "Luke S",
+          "gist": "talking."
+        },
+        {
+          "line": 982,
+          "speaker": "William Webb",
+          "gist": "Uh guys, I think he wants some French toast."
+        },
+        {
+          "line": 983,
+          "speaker": "Luke S",
+          "gist": "Oh, you have to here."
+        },
+        {
+          "line": 984,
+          "speaker": "Luke Foreman",
+          "gist": "I feel like I could try"
+        },
+        {
+          "line": 985,
+          "speaker": "Luke S",
+          "gist": "Oh no, that's is not the answer. There I am lookin..."
+        },
+        {
+          "line": 986,
+          "speaker": "Luke Foreman",
+          "gist": "All right."
+        },
+        {
+          "line": 987,
+          "speaker": "Luke S",
+          "gist": "If he can't, he'll like he'll"
+        },
+        {
+          "line": 988,
+          "speaker": "Luke Foreman",
+          "gist": "Okay."
+        },
+        {
+          "line": 989,
+          "speaker": "Luke S",
+          "gist": "fall."
+        },
+        {
+          "line": 990,
+          "speaker": "Luke Foreman",
+          "gist": "Naomi is like at her she has like a whole thing, a..."
+        },
+        {
+          "line": 991,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 992,
+          "speaker": "Luke Foreman",
+          "gist": "later."
+        },
+        {
+          "line": 993,
+          "speaker": "Luke S",
+          "gist": "I will \ufb01x the dark face. You guys, I'm Yeah. Go ta..."
+        },
+        {
+          "line": 994,
+          "speaker": "William Webb",
+          "gist": "And it it's like daylight now."
+        },
+        {
+          "line": 995,
+          "speaker": "Luke S",
+          "gist": "mind."
+        },
+        {
+          "line": 996,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 997,
+          "speaker": "William Webb",
+          "gist": "Like it's not dark all the time."
+        },
+        {
+          "line": 998,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah. Yeah."
+        },
+        {
+          "line": 999,
+          "speaker": "William Webb",
+          "gist": "Okay,"
+        },
+        {
+          "line": 1000,
+          "speaker": "Luke Foreman",
+          "gist": "It's not dark."
+        },
+        {
+          "line": 1001,
+          "speaker": "William Webb",
+          "gist": "cool."
+        },
+        {
+          "line": 1002,
+          "speaker": "Luke Foreman",
+          "gist": "It's not dark at all times."
+        },
+        {
+          "line": 1003,
+          "speaker": "Luke S",
+          "gist": "Good question."
+        },
+        {
+          "line": 1004,
+          "speaker": "Luke Foreman",
+          "gist": "We'll we'll we'll render a daylight scene. Don't w..."
+        },
+        {
+          "line": 1005,
+          "speaker": "John Hagey",
+          "gist": "used is progressingly curious. So, he's going to g..."
+        },
+        {
+          "line": 1006,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, I think I think Al\ufb01e does"
+        },
+        {
+          "line": 1007,
+          "speaker": "John Hagey",
+          "gist": "along"
+        },
+        {
+          "line": 1008,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "too."
+        },
+        {
+          "line": 1009,
+          "speaker": "Luke Foreman",
+          "gist": "All right, cool. All right, I guess three out of f..."
+        },
+        {
+          "line": 1010,
+          "speaker": "Luke Foreman",
+          "gist": "But as of now, it's like the the fragments have ki..."
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "title": "CHAPTER 18: THE STOLEN WEAVE & FRESH INK",
+      "line_range": [
+        1011,
+        1140
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 1011,
+          "speaker": "William Webb",
+          "gist": "Yeah, that's about"
+        },
+        {
+          "line": 1012,
+          "speaker": "John Hagey",
+          "gist": "Yes. Yeah."
+        },
+        {
+          "line": 1013,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, okay."
+        },
+        {
+          "line": 1014,
+          "speaker": "William Webb",
+          "gist": "it."
+        },
+        {
+          "line": 1015,
+          "speaker": "Luke Foreman",
+          "gist": "Okay. Um,"
+        },
+        {
+          "line": 1016,
+          "speaker": "John Hagey",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1017,
+          "speaker": "Luke Foreman",
+          "gist": "everyone here is way too focused on making people ..."
+        },
+        {
+          "line": 1018,
+          "speaker": "Luke Foreman",
+          "gist": "even happened. And like clearly it happened becaus..."
+        },
+        {
+          "line": 1019,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, and then the the the second one he touched, it..."
+        },
+        {
+          "line": 1020,
+          "speaker": "John Hagey",
+          "gist": "Thank"
+        },
+        {
+          "line": 1021,
+          "speaker": "Luke Foreman",
+          "gist": "But I just I wanted to to kind of show you a few t..."
+        },
+        {
+          "line": 1022,
+          "speaker": "John Hagey",
+          "gist": "you."
+        },
+        {
+          "line": 1023,
+          "speaker": "Luke Foreman",
+          "gist": "on and um maybe maybe it's something that like you..."
+        },
+        {
+          "line": 1024,
+          "speaker": "Luke Foreman",
+          "gist": "Um. But it just it seems like everyone should just..."
+        },
+        {
+          "line": 1025,
+          "speaker": "William Webb",
+          "gist": "So she she doesn't have the tablet."
+        },
+        {
+          "line": 1026,
+          "speaker": "Luke Foreman",
+          "gist": "have you all seen like this before?"
+        },
+        {
+          "line": 1027,
+          "speaker": "William Webb",
+          "gist": "She's showing us a p."
+        },
+        {
+          "line": 1028,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Like a like a picture on on like and Yes."
+        },
+        {
+          "line": 1029,
+          "speaker": "William Webb",
+          "gist": "Okay."
+        },
+        {
+          "line": 1030,
+          "speaker": "John Hagey",
+          "gist": "on a tablet. Is he showing us a tablet on a tablet..."
+        },
+        {
+          "line": 1031,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1032,
+          "speaker": "William Webb",
+          "gist": "Okay."
+        },
+        {
+          "line": 1033,
+          "speaker": "Luke Foreman",
+          "gist": "a tablet on a tablet of like a like a Reddit threa..."
+        },
+        {
+          "line": 1034,
+          "speaker": "William Webb",
+          "gist": "I actually wrote a paper on this tablet. Very"
+        },
+        {
+          "line": 1035,
+          "speaker": "Luke Foreman",
+          "gist": "you did."
+        },
+        {
+          "line": 1036,
+          "speaker": "William Webb",
+          "gist": "interesting."
+        },
+        {
+          "line": 1037,
+          "speaker": "Luke Foreman",
+          "gist": "You said uh Edward like and like looks it up and p..."
+        },
+        {
+          "line": 1038,
+          "speaker": "Luke Foreman",
+          "gist": "And and like scrolls down to like the the kind of ..."
+        },
+        {
+          "line": 1039,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah. All right."
+        },
+        {
+          "line": 1040,
+          "speaker": "Luke Foreman",
+          "gist": "like like this"
+        },
+        {
+          "line": 1041,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I've heard of it. Yeah."
+        },
+        {
+          "line": 1042,
+          "speaker": "Luke Foreman",
+          "gist": "person just like found this this like toy catapult..."
+        },
+        {
+          "line": 1043,
+          "speaker": "Luke Foreman",
+          "gist": "Like I don't know. It's something weird going on. ..."
+        },
+        {
+          "line": 1044,
+          "speaker": "William Webb",
+          "gist": "Let me see if I can summarize. When you say the wo..."
+        },
+        {
+          "line": 1045,
+          "speaker": "Luke Foreman",
+          "gist": "the"
+        },
+        {
+          "line": 1046,
+          "speaker": "William Webb",
+          "gist": "I think. I'm not sure, but from my history researc..."
+        },
+        {
+          "line": 1047,
+          "speaker": "Luke Foreman",
+          "gist": "Yes."
+        },
+        {
+          "line": 1048,
+          "speaker": "William Webb",
+          "gist": "us."
+        },
+        {
+          "line": 1049,
+          "speaker": "Luke Foreman",
+          "gist": "And and that's how you ended up here."
+        },
+        {
+          "line": 1050,
+          "speaker": "William Webb",
+          "gist": "Correct."
+        },
+        {
+          "line": 1051,
+          "speaker": "Luke Foreman",
+          "gist": "The like kind of So"
+        },
+        {
+          "line": 1052,
+          "speaker": "William Webb",
+          "gist": "Were you saying they changed our fate?"
+        },
+        {
+          "line": 1053,
+          "speaker": "Luke Foreman",
+          "gist": "you"
+        },
+        {
+          "line": 1054,
+          "speaker": "William Webb",
+          "gist": "They excuse me edited our fate and we are now"
+        },
+        {
+          "line": 1055,
+          "speaker": "Luke Foreman",
+          "gist": "that that could make sense in a"
+        },
+        {
+          "line": 1056,
+          "speaker": "William Webb",
+          "gist": "edits."
+        },
+        {
+          "line": 1057,
+          "speaker": "Luke Foreman",
+          "gist": "way that kind of or Did they Did they seem like Di..."
+        },
+        {
+          "line": 1058,
+          "speaker": "William Webb",
+          "gist": "They did"
+        },
+        {
+          "line": 1059,
+          "speaker": "John Hagey",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 1060,
+          "speaker": "Luke Foreman",
+          "gist": "die."
+        },
+        {
+          "line": 1061,
+          "speaker": "John Hagey",
+          "gist": "it was more like we got pulled from a bus to help ..."
+        },
+        {
+          "line": 1062,
+          "speaker": "Luke Foreman",
+          "gist": "Interesting. Fate. A library of fates. But you wer..."
+        },
+        {
+          "line": 1063,
+          "speaker": "John Hagey",
+          "gist": "ink."
+        },
+        {
+          "line": 1064,
+          "speaker": "Luke Foreman",
+          "gist": "So it wasn't your time to die. So I like your theo..."
+        },
+        {
+          "line": 1065,
+          "speaker": "William Webb",
+          "gist": "When I say the word ink monster,"
+        },
+        {
+          "line": 1066,
+          "speaker": "Luke Foreman",
+          "gist": "I don't know."
+        },
+        {
+          "line": 1067,
+          "speaker": "William Webb",
+          "gist": "does that mean anything to you?"
+        },
+        {
+          "line": 1068,
+          "speaker": "Luke Foreman",
+          "gist": "Ink monster."
+        },
+        {
+          "line": 1069,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "It was more of a blob. Yeah."
+        },
+        {
+          "line": 1070,
+          "speaker": "William Webb",
+          "gist": "Ink blop."
+        },
+        {
+          "line": 1071,
+          "speaker": "Luke Foreman",
+          "gist": "I I don't know if there's been any sort of I mean ..."
+        },
+        {
+          "line": 1072,
+          "speaker": "Luke Foreman",
+          "gist": "But I maybe if you all are interested in this that..."
+        },
+        {
+          "line": 1073,
+          "speaker": "John Hagey",
+          "gist": "Nice."
+        },
+        {
+          "line": 1074,
+          "speaker": "Luke Foreman",
+          "gist": "You all turn o\ufb00 the lights. And then you all like ..."
+        },
+        {
+          "line": 1075,
+          "speaker": "John Hagey",
+          "gist": "What the f*** was"
+        },
+        {
+          "line": 1076,
+          "speaker": "Luke Foreman",
+          "gist": "So,"
+        },
+        {
+          "line": 1077,
+          "speaker": "John Hagey",
+          "gist": "that?"
+        },
+        {
+          "line": 1078,
+          "speaker": "Luke Foreman",
+          "gist": "we have these we have these lights in this alarm s..."
+        },
+        {
+          "line": 1079,
+          "speaker": "Luke Foreman",
+          "gist": "But um we'll we'll run these drills every now and ..."
+        },
+        {
+          "line": 1080,
+          "speaker": "John Hagey",
+          "gist": "What the f*** is a corrector? I look at professor"
+        },
+        {
+          "line": 1081,
+          "speaker": "Luke Foreman",
+          "gist": "um"
+        },
+        {
+          "line": 1082,
+          "speaker": "William Webb",
+          "gist": "Well,"
+        },
+        {
+          "line": 1083,
+          "speaker": "John Hagey",
+          "gist": "Edwards."
+        },
+        {
+          "line": 1084,
+          "speaker": "William Webb",
+          "gist": "it if I had to imagine, I'm I'm imagining we we've..."
+        },
+        {
+          "line": 1085,
+          "speaker": "John Hagey",
+          "gist": "Okay. And we're Okay. Okay. We're imagining things..."
+        },
+        {
+          "line": 1086,
+          "speaker": "William Webb",
+          "gist": "Based on what I've gathered,"
+        },
+        {
+          "line": 1087,
+          "speaker": "John Hagey",
+          "gist": "corrector?"
+        },
+        {
+          "line": 1088,
+          "speaker": "William Webb",
+          "gist": "I don't know."
+        },
+        {
+          "line": 1089,
+          "speaker": "Luke Foreman",
+          "gist": "I I mean I I've never seen one myself, but like I ..."
+        },
+        {
+          "line": 1090,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, like a blob of"
+        },
+        {
+          "line": 1091,
+          "speaker": "Luke Foreman",
+          "gist": "I I mean I I guess they could be,"
+        },
+        {
+          "line": 1092,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "ink."
+        },
+        {
+          "line": 1093,
+          "speaker": "Luke Foreman",
+          "gist": "but I I don't I don't know for sure. Um, so like i..."
+        },
+        {
+          "line": 1094,
+          "speaker": "William Webb",
+          "gist": "Don't."
+        },
+        {
+          "line": 1095,
+          "speaker": "Luke Foreman",
+          "gist": "to kind of investigate this I like I've been waiti..."
+        },
+        {
+          "line": 1096,
+          "speaker": "William Webb",
+          "gist": "How would one get to Olympus from here? Because th..."
+        },
+        {
+          "line": 1097,
+          "speaker": "Luke Foreman",
+          "gist": "No, I mean like uh I mean I guess I don't know for..."
+        },
+        {
+          "line": 1098,
+          "speaker": "William Webb",
+          "gist": "like"
+        },
+        {
+          "line": 1099,
+          "speaker": "Luke Foreman",
+          "gist": "uh no, it doesn't seem like it."
+        },
+        {
+          "line": 1100,
+          "speaker": "William Webb",
+          "gist": "metaphorically."
+        },
+        {
+          "line": 1101,
+          "speaker": "Luke Foreman",
+          "gist": "they go there. There's there's there uh people cal..."
+        },
+        {
+          "line": 1102,
+          "speaker": "William Webb",
+          "gist": "Oh, I I don't I don't have that."
+        },
+        {
+          "line": 1103,
+          "speaker": "Luke Foreman",
+          "gist": "transport you."
+        },
+        {
+          "line": 1104,
+          "speaker": "William Webb",
+          "gist": "I don't have"
+        },
+        {
+          "line": 1105,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 1106,
+          "speaker": "William Webb",
+          "gist": "that."
+        },
+        {
+          "line": 1107,
+          "speaker": "Luke Foreman",
+          "gist": "you just study them, I guess."
+        },
+        {
+          "line": 1108,
+          "speaker": "John Hagey",
+          "gist": "I mean I mean you"
+        },
+        {
+          "line": 1109,
+          "speaker": "Luke Foreman",
+          "gist": "Me, too."
+        },
+        {
+          "line": 1110,
+          "speaker": "John Hagey",
+          "gist": "might Yeah."
+        },
+        {
+          "line": 1111,
+          "speaker": "William Webb",
+          "gist": "Yeah, I might"
+        },
+        {
+          "line": 1112,
+          "speaker": "John Hagey",
+          "gist": "No, you you might like you're not all human."
+        },
+        {
+          "line": 1113,
+          "speaker": "Luke Foreman",
+          "gist": "What am I all"
+        },
+        {
+          "line": 1114,
+          "speaker": "William Webb",
+          "gist": "like metaphor like metaphorically."
+        },
+        {
+          "line": 1115,
+          "speaker": "Luke Foreman",
+          "gist": "human?"
+        },
+        {
+          "line": 1116,
+          "speaker": "John Hagey",
+          "gist": "No. No. like like literally."
+        },
+        {
+          "line": 1117,
+          "speaker": "Luke Foreman",
+          "gist": "What h how do you know"
+        },
+        {
+          "line": 1118,
+          "speaker": "John Hagey",
+          "gist": "Well,"
+        },
+        {
+          "line": 1119,
+          "speaker": "Luke Foreman",
+          "gist": "that?"
+        },
+        {
+          "line": 1120,
+          "speaker": "John Hagey",
+          "gist": "I know that he has something. I know. H I I just l..."
+        },
+        {
+          "line": 1121,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1122,
+          "speaker": "John Hagey",
+          "gist": "just going down the line of like the puppet's tech..."
+        },
+        {
+          "line": 1123,
+          "speaker": "William Webb",
+          "gist": "Huh?"
+        },
+        {
+          "line": 1124,
+          "speaker": "John Hagey",
+          "gist": "I don't know how I Look,"
+        },
+        {
+          "line": 1125,
+          "speaker": "Luke Foreman",
+          "gist": "I mean,"
+        },
+        {
+          "line": 1126,
+          "speaker": "John Hagey",
+          "gist": "I don't know how I know this."
+        },
+        {
+          "line": 1127,
+          "speaker": "John Hagey",
+          "gist": "I just know it. I can kind of just see it on peopl..."
+        },
+        {
+          "line": 1128,
+          "speaker": "William Webb",
+          "gist": "And what about her"
+        },
+        {
+          "line": 1129,
+          "speaker": "John Hagey",
+          "gist": "it's not I mean, I can't I can't do this."
+        },
+        {
+          "line": 1130,
+          "speaker": "Luke Foreman",
+          "gist": "yeah."
+        },
+        {
+          "line": 1131,
+          "speaker": "William Webb",
+          "gist": "Naomi?"
+        },
+        {
+          "line": 1132,
+          "speaker": "John Hagey",
+          "gist": "Like, I don't do it every single I can't do it eve..."
+        },
+        {
+          "line": 1133,
+          "speaker": "William Webb",
+          "gist": "Oh,"
+        },
+        {
+          "line": 1134,
+          "speaker": "John Hagey",
+          "gist": "Actually,"
+        },
+        {
+          "line": 1135,
+          "speaker": "William Webb",
+          "gist": "like you"
+        },
+        {
+          "line": 1136,
+          "speaker": "John Hagey",
+          "gist": "I don't know how like I don't know how long that l..."
+        },
+        {
+          "line": 1137,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. I I think you you could cast it again, but I..."
+        },
+        {
+          "line": 1138,
+          "speaker": "Luke Foreman",
+          "gist": "But I mean, it's it's at least a theory. It's like..."
+        },
+        {
+          "line": 1139,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, it was"
+        },
+        {
+          "line": 1140,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. So she's actually a daughter of Apollo."
+        }
+      ]
+    },
+    {
+      "scene_id": 7,
+      "title": "CHAPTER 19: THE FARM TRUCK & THE LOST ROADS",
+      "line_range": [
+        1141,
+        1270
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 1141,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "me."
+        },
+        {
+          "line": 1142,
+          "speaker": "Luke Foreman",
+          "gist": "like she's a demigod and and or a halfblood and it..."
+        },
+        {
+          "line": 1143,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, she told me I was made from the sky."
+        },
+        {
+          "line": 1144,
+          "speaker": "Luke Foreman",
+          "gist": "she tells everyone that. I just I don't know."
+        },
+        {
+          "line": 1145,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Oh."
+        },
+        {
+          "line": 1146,
+          "speaker": "Luke Foreman",
+          "gist": "Maybe we all are. I don't know, maybe she's right...."
+        },
+        {
+          "line": 1147,
+          "speaker": "Luke Foreman",
+          "gist": "He just thinks it's all a government experiment th..."
+        },
+        {
+          "line": 1148,
+          "speaker": "William Webb",
+          "gist": "May I? Where is the closest fragment?"
+        },
+        {
+          "line": 1149,
+          "speaker": "Luke Foreman",
+          "gist": "I think I mean the from what it looks like the the..."
+        },
+        {
+          "line": 1150,
+          "speaker": "John Hagey",
+          "gist": "Smithtown"
+        },
+        {
+          "line": 1151,
+          "speaker": "Luke Foreman",
+          "gist": "Where? Let's see."
+        },
+        {
+          "line": 1152,
+          "speaker": "Luke Foreman",
+          "gist": "Hold on. I got to check something."
+        },
+        {
+          "line": 1153,
+          "speaker": "William Webb",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1154,
+          "speaker": "Luke Foreman",
+          "gist": "Uh yeah."
+        },
+        {
+          "line": 1155,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "That wouldn't be that far away from West"
+        },
+        {
+          "line": 1156,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. at we're going to we're going to move that."
+        },
+        {
+          "line": 1157,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Virginia."
+        },
+        {
+          "line": 1158,
+          "speaker": "Luke Foreman",
+          "gist": "Don't worry. Don't forget that. We're moving that...."
+        },
+        {
+          "line": 1159,
+          "speaker": "William Webb",
+          "gist": "It does. It does."
+        },
+        {
+          "line": 1160,
+          "speaker": "Luke Foreman",
+          "gist": "you?"
+        },
+        {
+          "line": 1161,
+          "speaker": "William Webb",
+          "gist": "Edits. Edit means to change. To change to to to re..."
+        },
+        {
+          "line": 1162,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "We have to steal the"
+        },
+        {
+          "line": 1163,
+          "speaker": "Luke Foreman",
+          "gist": "Okay. What are you sliding me into here?"
+        },
+        {
+          "line": 1164,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "declaration."
+        },
+        {
+          "line": 1165,
+          "speaker": "Luke S",
+          "gist": "Uh, I wasn't sure if Pierre was actually a good a ..."
+        },
+        {
+          "line": 1166,
+          "speaker": "Luke Foreman",
+          "gist": "Uh I mean he is he you have you have I"
+        },
+        {
+          "line": 1167,
+          "speaker": "Luke S",
+          "gist": "yeah, he is. He is."
+        },
+        {
+          "line": 1168,
+          "speaker": "Luke Foreman",
+          "gist": "think you have e\ufb00ectively created French toast Fri..."
+        },
+        {
+          "line": 1169,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 1170,
+          "speaker": "Luke Foreman",
+          "gist": "Saturday is for pancakes,"
+        },
+        {
+          "line": 1171,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1172,
+          "speaker": "Luke Foreman",
+          "gist": "but Friday we're going to do French toast."
+        },
+        {
+          "line": 1173,
+          "speaker": "Luke S",
+          "gist": "Uh I think Pierre is going to come in with a plate..."
+        },
+        {
+          "line": 1174,
+          "speaker": "Luke Foreman",
+          "gist": "Nice."
+        },
+        {
+          "line": 1175,
+          "speaker": "Luke S",
+          "gist": "millimeter you get a gads and another millimeter t..."
+        },
+        {
+          "line": 1176,
+          "speaker": "Luke S",
+          "gist": "Okay, I will leave the"
+        },
+        {
+          "line": 1177,
+          "speaker": "Luke Foreman",
+          "gist": "I I guess you have I guess you have time now to to..."
+        },
+        {
+          "line": 1178,
+          "speaker": "Luke S",
+          "gist": "um"
+        },
+        {
+          "line": 1179,
+          "speaker": "Luke Foreman",
+          "gist": "what's going on about about why you're here."
+        },
+        {
+          "line": 1180,
+          "speaker": "Luke S",
+          "gist": "Oh, I know why I'm here. is a just an axle limp."
+        },
+        {
+          "line": 1181,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, we'll see about that. And maybe maybe you're..."
+        },
+        {
+          "line": 1182,
+          "speaker": "Luke S",
+          "gist": "Yeah, maybe. But um I'm pretty sure this is all ju..."
+        },
+        {
+          "line": 1183,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. When you wait when you you the you took you"
+        },
+        {
+          "line": 1184,
+          "speaker": "Luke S",
+          "gist": "Garage."
+        },
+        {
+          "line": 1185,
+          "speaker": "Luke Foreman",
+          "gist": "took books from the fates the library."
+        },
+        {
+          "line": 1186,
+          "speaker": "Luke S",
+          "gist": "Um, well, it was a library and I sure I did not ha..."
+        },
+        {
+          "line": 1187,
+          "speaker": "Luke Foreman",
+          "gist": "I was there a checkout process or did you just you..."
+        },
+        {
+          "line": 1188,
+          "speaker": "Luke S",
+          "gist": "but"
+        },
+        {
+          "line": 1189,
+          "speaker": "Luke Foreman",
+          "gist": "library? Is is that how is that how you do it in F..."
+        },
+        {
+          "line": 1190,
+          "speaker": "Luke S",
+          "gist": "the books are for the public to read. I don't"
+        },
+        {
+          "line": 1191,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. You plan on returning them to the fates now?"
+        },
+        {
+          "line": 1192,
+          "speaker": "Luke S",
+          "gist": "understand."
+        },
+        {
+          "line": 1193,
+          "speaker": "Luke Foreman",
+          "gist": "Like I I I assume they're going to want them. I as..."
+        },
+        {
+          "line": 1194,
+          "speaker": "Luke S",
+          "gist": "I don't know."
+        },
+        {
+          "line": 1195,
+          "speaker": "Luke Foreman",
+          "gist": "back."
+        },
+        {
+          "line": 1196,
+          "speaker": "Luke S",
+          "gist": "They are pretty old and the library was not very t..."
+        },
+        {
+          "line": 1197,
+          "speaker": "Luke Foreman",
+          "gist": "I uh"
+        },
+        {
+          "line": 1198,
+          "speaker": "Luke S",
+          "gist": "me."
+        },
+        {
+          "line": 1199,
+          "speaker": "Luke Foreman",
+          "gist": "uh uh has has Pierre like looked at looked at what..."
+        },
+        {
+          "line": 1200,
+          "speaker": "Luke S",
+          "gist": "I was going to say he might have done it before be..."
+        },
+        {
+          "line": 1201,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1202,
+          "speaker": "Luke S",
+          "gist": "like a little bedtime read."
+        },
+        {
+          "line": 1203,
+          "speaker": "Luke Foreman",
+          "gist": "Tucked in, put his sleep cap on."
+        },
+        {
+          "line": 1204,
+          "speaker": "Luke S",
+          "gist": "Yeah. Yeah, exactly."
+        },
+        {
+          "line": 1205,
+          "speaker": "Luke Foreman",
+          "gist": "Um I It was like a dirty 20 or something for for t..."
+        },
+        {
+          "line": 1206,
+          "speaker": "Luke Foreman",
+          "gist": "that one book that um The Dummy's Guide to Gorgans..."
+        },
+        {
+          "line": 1207,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1208,
+          "speaker": "Luke Foreman",
+          "gist": "That's right."
+        },
+        {
+          "line": 1209,
+          "speaker": "Luke S",
+          "gist": "Yeah. I wrote down there was that one and then and..."
+        },
+        {
+          "line": 1210,
+          "speaker": "Luke Foreman",
+          "gist": "Um"
+        },
+        {
+          "line": 1211,
+          "speaker": "Luke S",
+          "gist": "Uh yeah."
+        },
+        {
+          "line": 1212,
+          "speaker": "Luke Foreman",
+          "gist": "there's a there's a I think you took three."
+        },
+        {
+          "line": 1213,
+          "speaker": "Luke S",
+          "gist": "So I ran around and and found a few 12 volcano tex..."
+        },
+        {
+          "line": 1214,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah."
+        },
+        {
+          "line": 1215,
+          "speaker": "Luke S",
+          "gist": "fates and gorgans and then a dummy's guide to gorg..."
+        },
+        {
+          "line": 1216,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah. Yeah. I think the other ones were kind..."
+        },
+        {
+          "line": 1217,
+          "speaker": "Luke S",
+          "gist": "What the heck?"
+        },
+        {
+          "line": 1218,
+          "speaker": "Luke Foreman",
+          "gist": "roads. I don't I don't speak I don't like know Gre..."
+        },
+        {
+          "line": 1219,
+          "speaker": "Luke Foreman",
+          "gist": "Um Edward Edward, do you do you know like ancient ..."
+        },
+        {
+          "line": 1220,
+          "speaker": "William Webb",
+          "gist": "Yeah. Yeah. Yeah."
+        },
+        {
+          "line": 1221,
+          "speaker": "Luke Foreman",
+          "gist": "roll."
+        },
+        {
+          "line": 1222,
+          "speaker": "William Webb",
+          "gist": "I pull out Google Translate on my phone. Do I stil..."
+        },
+        {
+          "line": 1223,
+          "speaker": "Luke Foreman",
+          "gist": "Roll."
+        },
+        {
+          "line": 1224,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "It says,\"Take me home country roads to a place I b..."
+        },
+        {
+          "line": 1225,
+          "speaker": "William Webb",
+          "gist": "phone?"
+        },
+        {
+          "line": 1226,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1227,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "West"
+        },
+        {
+          "line": 1228,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 1229,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Virginia."
+        },
+        {
+          "line": 1230,
+          "speaker": "Luke S",
+          "gist": "Also like with the people who raised me, I I feel ..."
+        },
+        {
+          "line": 1231,
+          "speaker": "Luke Foreman",
+          "gist": "yeah, that's fair. That's fair. I think um actuall..."
+        },
+        {
+          "line": 1232,
+          "speaker": "Luke S",
+          "gist": "language."
+        },
+        {
+          "line": 1233,
+          "speaker": "Luke Foreman",
+          "gist": "that. Um you you all kind of translate this this o..."
+        },
+        {
+          "line": 1234,
+          "speaker": "Luke Foreman",
+          "gist": "Um, and I think one of them you grab is like a um,..."
+        },
+        {
+          "line": 1235,
+          "speaker": "William Webb",
+          "gist": "It's"
+        },
+        {
+          "line": 1236,
+          "speaker": "Luke Foreman",
+          "gist": "It was just like in storage. And then Dumy's Guide..."
+        },
+        {
+          "line": 1237,
+          "speaker": "Luke S",
+          "gist": "Mhm."
+        },
+        {
+          "line": 1238,
+          "speaker": "Luke Foreman",
+          "gist": "Gorgans and you remember um looking at pronunciati..."
+        },
+        {
+          "line": 1239,
+          "speaker": "Luke S",
+          "gist": "Uhhuh."
+        },
+        {
+          "line": 1240,
+          "speaker": "Luke Foreman",
+          "gist": "the one who raised you is not on there but it like..."
+        },
+        {
+          "line": 1241,
+          "speaker": "Luke S",
+          "gist": "Okay."
+        },
+        {
+          "line": 1242,
+          "speaker": "Luke Foreman",
+          "gist": "really like gone back that far with you."
+        },
+        {
+          "line": 1243,
+          "speaker": "Luke Foreman",
+          "gist": "They were more like looking at, okay, what's like ..."
+        },
+        {
+          "line": 1244,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1245,
+          "speaker": "Luke Foreman",
+          "gist": "you're here. Like we're we're growing you."
+        },
+        {
+          "line": 1246,
+          "speaker": "Luke S",
+          "gist": "with the the modern civilization."
+        },
+        {
+          "line": 1247,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah. We don't want to look back at at the p..."
+        },
+        {
+          "line": 1248,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1249,
+          "speaker": "Luke Foreman",
+          "gist": "like how do you \ufb01t in into the real world? Um, so ..."
+        },
+        {
+          "line": 1250,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1251,
+          "speaker": "Luke Foreman",
+          "gist": "and gives you that little piece of of knowledge as..."
+        },
+        {
+          "line": 1252,
+          "speaker": "Luke S",
+          "gist": "Um, it is not. And how do you know it is not a \ufb01t ..."
+        },
+        {
+          "line": 1253,
+          "speaker": "Luke Foreman",
+          "gist": "I guess you could tell them that. I don't know. I"
+        },
+        {
+          "line": 1254,
+          "speaker": "Luke S",
+          "gist": "But uh, regardless, I will I will see that there i..."
+        },
+        {
+          "line": 1255,
+          "speaker": "Luke Foreman",
+          "gist": "just"
+        },
+        {
+          "line": 1256,
+          "speaker": "Luke S",
+          "gist": "You're saying that uh this book that we have trans..."
+        },
+        {
+          "line": 1257,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Okay."
+        },
+        {
+          "line": 1258,
+          "speaker": "Luke S",
+          "gist": "background."
+        },
+        {
+          "line": 1259,
+          "speaker": "Luke Foreman",
+          "gist": "That's Yeah, that's \ufb01ne. That's \ufb01ne. Um anyway, we..."
+        },
+        {
+          "line": 1260,
+          "speaker": "Luke S",
+          "gist": "And there are not very many snakes"
+        },
+        {
+          "line": 1261,
+          "speaker": "William Webb",
+          "gist": "100%."
+        },
+        {
+          "line": 1262,
+          "speaker": "Luke S",
+          "gist": "on any of these references."
+        },
+        {
+          "line": 1263,
+          "speaker": "John Hagey",
+          "gist": "So, I have to"
+        },
+        {
+          "line": 1264,
+          "speaker": "Luke Foreman",
+          "gist": "I I I I mean I guess you don't h you could hang ou..."
+        },
+        {
+          "line": 1265,
+          "speaker": "John Hagey",
+          "gist": "Never mind. I'll go. Never mind."
+        },
+        {
+          "line": 1266,
+          "speaker": "Luke Foreman",
+          "gist": "Um okay,"
+        },
+        {
+          "line": 1267,
+          "speaker": "John Hagey",
+          "gist": "I'll go. It's \ufb01ne."
+        },
+        {
+          "line": 1268,
+          "speaker": "Luke Foreman",
+          "gist": "works for me. It sounds that's that's awesome. Uh ..."
+        },
+        {
+          "line": 1269,
+          "speaker": "Luke Foreman",
+          "gist": "Like I have never heard of anyone even reaching th..."
+        },
+        {
+          "line": 1270,
+          "speaker": "Luke S",
+          "gist": "Um listen to me. I you know I am only partially th..."
+        }
+      ]
+    },
+    {
+      "scene_id": 8,
+      "title": "CHAPTER 20: THE NEON MIRAGE IN THE MIST",
+      "line_range": [
+        1271,
+        1400
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 1271,
+          "speaker": "Luke Foreman",
+          "gist": "Good."
+        },
+        {
+          "line": 1272,
+          "speaker": "Luke S",
+          "gist": "that there is something here but um the uh the tab..."
+        },
+        {
+          "line": 1273,
+          "speaker": "John Hagey",
+          "gist": "Let let's start with the Greek tablet. At least we..."
+        },
+        {
+          "line": 1274,
+          "speaker": "Luke S",
+          "gist": "what"
+        },
+        {
+          "line": 1275,
+          "speaker": "John Hagey",
+          "gist": "one."
+        },
+        {
+          "line": 1276,
+          "speaker": "Luke Foreman",
+          "gist": "All right. That's Yeah, that that sounds good."
+        },
+        {
+          "line": 1277,
+          "speaker": "Luke Foreman",
+          "gist": "I like this. I I Yeah. All right. I think that one..."
+        },
+        {
+          "line": 1278,
+          "speaker": "John Hagey",
+          "gist": "Is the French toast"
+        },
+        {
+          "line": 1279,
+          "speaker": "Luke S",
+          "gist": "It is here. I have already brought it to you."
+        },
+        {
+          "line": 1280,
+          "speaker": "John Hagey",
+          "gist": "ready?"
+        },
+        {
+          "line": 1281,
+          "speaker": "Luke S",
+          "gist": "You are you are my sales. No brain."
+        },
+        {
+          "line": 1282,
+          "speaker": "Luke Foreman",
+          "gist": "It is. It is a crepe. I don't know if you missed t..."
+        },
+        {
+          "line": 1283,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1284,
+          "speaker": "Luke Foreman",
+          "gist": "crepe."
+        },
+        {
+          "line": 1285,
+          "speaker": "Luke S",
+          "gist": "Yeah. Yeah."
+        },
+        {
+          "line": 1286,
+          "speaker": "William Webb",
+          "gist": "Uh, I I have a question."
+        },
+        {
+          "line": 1287,
+          "speaker": "John Hagey",
+          "gist": "This is just like a thin little p. This is like a ..."
+        },
+        {
+          "line": 1288,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Well, what?"
+        },
+        {
+          "line": 1289,
+          "speaker": "William Webb",
+          "gist": "this tablet."
+        },
+        {
+          "line": 1290,
+          "speaker": "John Hagey",
+          "gist": "pancake."
+        },
+        {
+          "line": 1291,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, the tablet."
+        },
+        {
+          "line": 1292,
+          "speaker": "William Webb",
+          "gist": "This tablet. Um, do we have to \ufb01gure out a way to ..."
+        },
+        {
+          "line": 1293,
+          "speaker": "Luke Foreman",
+          "gist": "What? I think uh so uh usually we have I think I"
+        },
+        {
+          "line": 1294,
+          "speaker": "William Webb",
+          "gist": "there?"
+        },
+        {
+          "line": 1295,
+          "speaker": "Luke Foreman",
+          "gist": "think North Carolina you could I think you could t..."
+        },
+        {
+          "line": 1296,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Just kidding. Yeah, I can take it. Yeah."
+        },
+        {
+          "line": 1297,
+          "speaker": "Luke Foreman",
+          "gist": "you get in on the wrong side."
+        },
+        {
+          "line": 1298,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Oh. Uh, yeah."
+        },
+        {
+          "line": 1299,
+          "speaker": "Luke S",
+          "gist": "Pier accidentally gets in on the driver's"
+        },
+        {
+          "line": 1300,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "What What is"
+        },
+        {
+          "line": 1301,
+          "speaker": "Luke S",
+          "gist": "side."
+        },
+        {
+          "line": 1302,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1303,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "this?"
+        },
+        {
+          "line": 1304,
+          "speaker": "William Webb",
+          "gist": "the the one campaign I don't take vehicle pro\ufb01cien..."
+        },
+        {
+          "line": 1305,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. This is I I like I like Pierre getting in fo..."
+        },
+        {
+          "line": 1306,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Mhm."
+        },
+        {
+          "line": 1307,
+          "speaker": "Luke Foreman",
+          "gist": "like So, uh, you you know how to drive? You're goi..."
+        },
+        {
+          "line": 1308,
+          "speaker": "Luke S",
+          "gist": "Um I was not expecting this to be"
+        },
+        {
+          "line": 1309,
+          "speaker": "Luke Foreman",
+          "gist": "right."
+        },
+        {
+          "line": 1310,
+          "speaker": "Luke S",
+          "gist": "here. It is normally over there."
+        },
+        {
+          "line": 1311,
+          "speaker": "Luke Foreman",
+          "gist": "Oh. Um,"
+        },
+        {
+          "line": 1312,
+          "speaker": "Luke S",
+          "gist": "I can bet but it will be \ufb01ne. Art can it be? It is..."
+        },
+        {
+          "line": 1313,
+          "speaker": "Luke Foreman",
+          "gist": "we're we're in rural West Virginia."
+        },
+        {
+          "line": 1314,
+          "speaker": "Luke S",
+          "gist": "like"
+        },
+        {
+          "line": 1315,
+          "speaker": "Luke Foreman",
+          "gist": "It's going to be we're going to be \ufb01ne. There's no..."
+        },
+        {
+          "line": 1316,
+          "speaker": "William Webb",
+          "gist": "Pier, I assume you know how to drive stick."
+        },
+        {
+          "line": 1317,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 1318,
+          "speaker": "Luke S",
+          "gist": "it is like a spatula. Yes. You know, you put it in..."
+        },
+        {
+          "line": 1319,
+          "speaker": "William Webb",
+          "gist": "Yeah, I trust"
+        },
+        {
+          "line": 1320,
+          "speaker": "Luke Foreman",
+          "gist": "you all survival check. Nice. You all"
+        },
+        {
+          "line": 1321,
+          "speaker": "Luke S",
+          "gist": "This this this truck is broken."
+        },
+        {
+          "line": 1322,
+          "speaker": "William Webb",
+          "gist": "him."
+        },
+        {
+          "line": 1323,
+          "speaker": "Luke S",
+          "gist": "It does not work. I am turning the key. It doesn't..."
+        },
+        {
+          "line": 1324,
+          "speaker": "Luke Foreman",
+          "gist": "Hey. Hey, careful now."
+        },
+        {
+          "line": 1325,
+          "speaker": "Luke S",
+          "gist": "machine."
+        },
+        {
+          "line": 1326,
+          "speaker": "Luke Foreman",
+          "gist": "It's a It's a It's an old boy here. Uh, I got to g..."
+        },
+        {
+          "line": 1327,
+          "speaker": "Luke S",
+          "gist": "It is impossible to drive this thing."
+        },
+        {
+          "line": 1328,
+          "speaker": "Luke Foreman",
+          "gist": "it."
+        },
+        {
+          "line": 1329,
+          "speaker": "Luke S",
+          "gist": "No one No one can do it."
+        },
+        {
+          "line": 1330,
+          "speaker": "Luke Foreman",
+          "gist": "All right. Anyone else? Anyone else want to want t..."
+        },
+        {
+          "line": 1331,
+          "speaker": "John Hagey",
+          "gist": "Yeah, I got this."
+        },
+        {
+          "line": 1332,
+          "speaker": "Luke Foreman",
+          "gist": "All right."
+        },
+        {
+          "line": 1333,
+          "speaker": "John Hagey",
+          "gist": "Dude, put your hand Put your hand Put your puppet ..."
+        },
+        {
+          "line": 1334,
+          "speaker": "Luke Foreman",
+          "gist": "Uh Al\ufb01e jump"
+        },
+        {
+          "line": 1335,
+          "speaker": "John Hagey",
+          "gist": "down."
+        },
+        {
+          "line": 1336,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right. I'm a good driver."
+        },
+        {
+          "line": 1337,
+          "speaker": "Luke Foreman",
+          "gist": "jumps down by the by the gas pedals and it's just ..."
+        },
+        {
+          "line": 1338,
+          "speaker": "John Hagey",
+          "gist": "Sel\ufb01e."
+        },
+        {
+          "line": 1339,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "You got it up there."
+        },
+        {
+          "line": 1340,
+          "speaker": "Luke Foreman",
+          "gist": "drive"
+        },
+        {
+          "line": 1341,
+          "speaker": "Luke S",
+          "gist": "healthy."
+        },
+        {
+          "line": 1342,
+          "speaker": "John Hagey",
+          "gist": "Didn't there used to be I I tell me if I'm wrong,"
+        },
+        {
+          "line": 1343,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1344,
+          "speaker": "John Hagey",
+          "gist": "but didn't there used to be like a vehicle roll or..."
+        },
+        {
+          "line": 1345,
+          "speaker": "Luke S",
+          "gist": "Careful."
+        },
+        {
+          "line": 1346,
+          "speaker": "Luke Foreman",
+          "gist": "there."
+        },
+        {
+          "line": 1347,
+          "speaker": "John Hagey",
+          "gist": "that?"
+        },
+        {
+          "line": 1348,
+          "speaker": "Luke Foreman",
+          "gist": "did. You could roll pro\ufb01ciency for vehicle pro\ufb01cie..."
+        },
+        {
+          "line": 1349,
+          "speaker": "John Hagey",
+          "gist": "That's what it That's what it"
+        },
+        {
+          "line": 1350,
+          "speaker": "Luke Foreman",
+          "gist": "but I this wasn't even going to be a check."
+        },
+        {
+          "line": 1351,
+          "speaker": "John Hagey",
+          "gist": "was."
+        },
+        {
+          "line": 1352,
+          "speaker": "Luke Foreman",
+          "gist": "So, we'll we'll say you get to the"
+        },
+        {
+          "line": 1353,
+          "speaker": "John Hagey",
+          "gist": "Is someone who's actually driven before?"
+        },
+        {
+          "line": 1354,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 1355,
+          "speaker": "Luke S",
+          "gist": "This is This is just me de\ufb01ning Pierre's character..."
+        },
+        {
+          "line": 1356,
+          "speaker": "Luke Foreman",
+          "gist": "plenty."
+        },
+        {
+          "line": 1357,
+          "speaker": "Luke S",
+          "gist": "anything."
+        },
+        {
+          "line": 1358,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Animal handling."
+        },
+        {
+          "line": 1359,
+          "speaker": "William Webb",
+          "gist": "I I got a 15 in and handling them them"
+        },
+        {
+          "line": 1360,
+          "speaker": "Luke Foreman",
+          "gist": "Perfect."
+        },
+        {
+          "line": 1361,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Animal"
+        },
+        {
+          "line": 1362,
+          "speaker": "William Webb",
+          "gist": "horses."
+        },
+        {
+          "line": 1363,
+          "speaker": "Luke Foreman",
+          "gist": "At least this is this is perfect."
+        },
+        {
+          "line": 1364,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "handling."
+        },
+        {
+          "line": 1365,
+          "speaker": "Luke Foreman",
+          "gist": "You uh I I I know a guy who can handle some horses..."
+        },
+        {
+          "line": 1366,
+          "speaker": "Luke S",
+          "gist": "And"
+        },
+        {
+          "line": 1367,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 1368,
+          "speaker": "Luke S",
+          "gist": "there's"
+        },
+        {
+          "line": 1369,
+          "speaker": "Luke Foreman",
+          "gist": "as you all as you all go to the gas station, they ..."
+        },
+        {
+          "line": 1370,
+          "speaker": "Luke Foreman",
+          "gist": "Um, let's see. Who would who would be the person t..."
+        },
+        {
+          "line": 1371,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I'm just kidding."
+        },
+        {
+          "line": 1372,
+          "speaker": "Luke S",
+          "gist": "Um I I am very"
+        },
+        {
+          "line": 1373,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Ridiculous."
+        },
+        {
+          "line": 1374,
+          "speaker": "Luke S",
+          "gist": "curious to see if they will ID you Al\ufb01e."
+        },
+        {
+          "line": 1375,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah."
+        },
+        {
+          "line": 1376,
+          "speaker": "Luke S",
+          "gist": "Let's"
+        },
+        {
+          "line": 1377,
+          "speaker": "Luke Foreman",
+          "gist": "You Pierre and Al\ufb01e are going in."
+        },
+        {
+          "line": 1378,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, I'll be up"
+        },
+        {
+          "line": 1379,
+          "speaker": "Luke Foreman",
+          "gist": "So,"
+        },
+        {
+          "line": 1380,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1381,
+          "speaker": "Luke Foreman",
+          "gist": "you go in and the door does the old like dingling ..."
+        },
+        {
+          "line": 1382,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "here."
+        },
+        {
+          "line": 1383,
+          "speaker": "Luke Foreman",
+          "gist": "you walk up, um, you see an old lady turns to you ..."
+        },
+        {
+          "line": 1384,
+          "speaker": "Luke S",
+          "gist": "Oh,"
+        },
+        {
+          "line": 1385,
+          "speaker": "Luke Foreman",
+          "gist": "you?\""
+        },
+        {
+          "line": 1386,
+          "speaker": "Luke S",
+          "gist": "hello the met on"
+        },
+        {
+          "line": 1387,
+          "speaker": "Luke Foreman",
+          "gist": "Ah, we got a Spaniard over here. All right. Um, le..."
+        },
+        {
+          "line": 1388,
+          "speaker": "Luke S",
+          "gist": "Al\ufb01e."
+        },
+        {
+          "line": 1389,
+          "speaker": "Luke Foreman",
+          "gist": "Uh,"
+        },
+        {
+          "line": 1390,
+          "speaker": "Luke S",
+          "gist": "What did she What did the ancient woman say to me?"
+        },
+        {
+          "line": 1391,
+          "speaker": "Luke Foreman",
+          "gist": "30"
+        },
+        {
+          "line": 1392,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1393,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right. She uh just leave her alone. She doesn'..."
+        },
+        {
+          "line": 1394,
+          "speaker": "Luke Foreman",
+          "gist": "I I I gotta say I've never seen a grown man walk i..."
+        },
+        {
+          "line": 1395,
+          "speaker": "Luke S",
+          "gist": "Sorry."
+        },
+        {
+          "line": 1396,
+          "speaker": "Luke Foreman",
+          "gist": "perception check. Both of you can roll"
+        },
+        {
+          "line": 1397,
+          "speaker": "William Webb",
+          "gist": "A roll for Mike Wazowski."
+        },
+        {
+          "line": 1398,
+          "speaker": "Luke Foreman",
+          "gist": "12."
+        },
+        {
+          "line": 1399,
+          "speaker": "Luke S",
+          "gist": "Wait."
+        },
+        {
+          "line": 1400,
+          "speaker": "Luke Foreman",
+          "gist": "And you see as as this is kind of happening like a..."
+        }
+      ]
+    },
+    {
+      "scene_id": 9,
+      "title": "CHAPTER 21: THE PETRIFYING GAZE",
+      "line_range": [
+        1401,
+        1520
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 1401,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Oh"
+        },
+        {
+          "line": 1402,
+          "speaker": "John Hagey",
+          "gist": "Oh"
+        },
+        {
+          "line": 1403,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "no."
+        },
+        {
+          "line": 1404,
+          "speaker": "Luke Foreman",
+          "gist": "one Al\ufb01e is pulling out starting to pull out her n..."
+        },
+        {
+          "line": 1405,
+          "speaker": "John Hagey",
+          "gist": "no."
+        },
+        {
+          "line": 1406,
+          "speaker": "Luke Foreman",
+          "gist": "here for this lady. Um another person kind of anot..."
+        },
+        {
+          "line": 1407,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "What did you call my"
+        },
+        {
+          "line": 1408,
+          "speaker": "Luke Foreman",
+          "gist": "person walks in kind of kind of behind you."
+        },
+        {
+          "line": 1409,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "friends?"
+        },
+        {
+          "line": 1410,
+          "speaker": "Luke Foreman",
+          "gist": "You hear the door the the uh doors ring, but she g..."
+        },
+        {
+          "line": 1411,
+          "speaker": "Luke Foreman",
+          "gist": "and as you look she's like checking back and forth..."
+        },
+        {
+          "line": 1412,
+          "speaker": "Luke S",
+          "gist": "You are the greatest woman I have ever met. I am e..."
+        },
+        {
+          "line": 1413,
+          "speaker": "Luke Foreman",
+          "gist": "Hey, I don't I don't need I don't need to take thi..."
+        },
+        {
+          "line": 1414,
+          "speaker": "Luke S",
+          "gist": "and"
+        },
+        {
+          "line": 1415,
+          "speaker": "Luke Foreman",
+          "gist": "Get Get out of here. What are you doing?"
+        },
+        {
+          "line": 1416,
+          "speaker": "Luke Foreman",
+          "gist": "Get out of"
+        },
+        {
+          "line": 1417,
+          "speaker": "Luke S",
+          "gist": "your business"
+        },
+        {
+          "line": 1418,
+          "speaker": "Luke Foreman",
+          "gist": "here."
+        },
+        {
+          "line": 1419,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Where else are we supposed to get petrol around he..."
+        },
+        {
+          "line": 1420,
+          "speaker": "Luke S",
+          "gist": "there."
+        },
+        {
+          "line": 1421,
+          "speaker": "Luke Foreman",
+          "gist": "What kind What kind of guy comes in with a with a ..."
+        },
+        {
+          "line": 1422,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "All right."
+        },
+        {
+          "line": 1423,
+          "speaker": "Luke Foreman",
+          "gist": "What is going on here?"
+        },
+        {
+          "line": 1424,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Call me a doll one more"
+        },
+        {
+          "line": 1425,
+          "speaker": "Luke S",
+          "gist": "I put out on the table. You listen here."
+        },
+        {
+          "line": 1426,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "time."
+        },
+        {
+          "line": 1427,
+          "speaker": "Luke S",
+          "gist": "This is my out. You can go get the Al\ufb01e."
+        },
+        {
+          "line": 1428,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Quit calling me a doll."
+        },
+        {
+          "line": 1429,
+          "speaker": "Luke S",
+          "gist": "Is that your"
+        },
+        {
+          "line": 1430,
+          "speaker": "Luke Foreman",
+          "gist": "Al\ufb01e, as you as you like kind of start approaching..."
+        },
+        {
+          "line": 1431,
+          "speaker": "Luke S",
+          "gist": "mind?"
+        },
+        {
+          "line": 1432,
+          "speaker": "Luke Foreman",
+          "gist": "she's like,\"Hey, don't throw your doll at me here...."
+        },
+        {
+          "line": 1433,
+          "speaker": "Luke S",
+          "gist": "Um, does the guy react to the doll at all to Al\ufb01e ..."
+        },
+        {
+          "line": 1434,
+          "speaker": "Luke Foreman",
+          "gist": "No, it seems like you just like threw something at..."
+        },
+        {
+          "line": 1435,
+          "speaker": "Luke S",
+          "gist": "Okay. Uh, I guess. Okay, now things are making mor..."
+        },
+        {
+          "line": 1436,
+          "speaker": "Luke Foreman",
+          "gist": "him."
+        },
+        {
+          "line": 1437,
+          "speaker": "Luke S",
+          "gist": "You are just ignoring the muggles and he snatches ..."
+        },
+        {
+          "line": 1438,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Al\ufb01e is actively trying to with the needle just as..."
+        },
+        {
+          "line": 1439,
+          "speaker": "Luke S",
+          "gist": "Maybe after one poke"
+        },
+        {
+          "line": 1440,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "can and she's just like"
+        },
+        {
+          "line": 1441,
+          "speaker": "William Webb",
+          "gist": "This"
+        },
+        {
+          "line": 1442,
+          "speaker": "Luke Foreman",
+          "gist": "as you. Yeah, she's like trying to push you away a..."
+        },
+        {
+          "line": 1443,
+          "speaker": "William Webb",
+          "gist": "is"
+        },
+        {
+          "line": 1444,
+          "speaker": "Luke Foreman",
+          "gist": "Hey, what? Get out of here."
+        },
+        {
+          "line": 1445,
+          "speaker": "Luke S",
+          "gist": "to talk about someone else's"
+        },
+        {
+          "line": 1446,
+          "speaker": "Luke Foreman",
+          "gist": "Get out of here."
+        },
+        {
+          "line": 1447,
+          "speaker": "Luke S",
+          "gist": "doll."
+        },
+        {
+          "line": 1448,
+          "speaker": "Luke Foreman",
+          "gist": "You got some loose threads on that or something."
+        },
+        {
+          "line": 1449,
+          "speaker": "Luke S",
+          "gist": "Yeah,"
+        },
+        {
+          "line": 1450,
+          "speaker": "Luke Foreman",
+          "gist": "I lost"
+        },
+        {
+          "line": 1451,
+          "speaker": "Luke S",
+          "gist": "there is a loose thread up here and"
+        },
+        {
+          "line": 1452,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, that's right. Loose threads in the brain. Ye..."
+        },
+        {
+          "line": 1453,
+          "speaker": "Luke S",
+          "gist": "Just because the mist is destroying your memory do..."
+        },
+        {
+          "line": 1454,
+          "speaker": "Luke Foreman",
+          "gist": "I It's perfectly sunny out there."
+        },
+        {
+          "line": 1455,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "that's right."
+        },
+        {
+          "line": 1456,
+          "speaker": "Luke Foreman",
+          "gist": "I don't know what you're talking about. You're go ..."
+        },
+        {
+          "line": 1457,
+          "speaker": "Luke S",
+          "gist": "Oh,"
+        },
+        {
+          "line": 1458,
+          "speaker": "Luke Foreman",
+          "gist": "here."
+        },
+        {
+          "line": 1459,
+          "speaker": "Luke S",
+          "gist": "this is one of my favorite things to do. Hey, did ..."
+        },
+        {
+          "line": 1460,
+          "speaker": "Luke Foreman",
+          "gist": "You see a as you say this are are you like how how..."
+        },
+        {
+          "line": 1461,
+          "speaker": "Luke S",
+          "gist": "uh he's he was riled up during the the Spanish thi..."
+        },
+        {
+          "line": 1462,
+          "speaker": "Luke Foreman",
+          "gist": "Is he getting a little riled up at this point?"
+        },
+        {
+          "line": 1463,
+          "speaker": "Luke S",
+          "gist": "but then he he realized that like this is actually..."
+        },
+        {
+          "line": 1464,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Yeah."
+        },
+        {
+          "line": 1465,
+          "speaker": "Luke S",
+          "gist": "And uh so he's he's coming back around now,"
+        },
+        {
+          "line": 1466,
+          "speaker": "Luke Foreman",
+          "gist": "Okay. Okay."
+        },
+        {
+          "line": 1467,
+          "speaker": "Luke S",
+          "gist": "I think."
+        },
+        {
+          "line": 1468,
+          "speaker": "Luke Foreman",
+          "gist": "I think um"
+        },
+        {
+          "line": 1469,
+          "speaker": "Luke S",
+          "gist": "because he likes messing with people."
+        },
+        {
+          "line": 1470,
+          "speaker": "Luke Foreman",
+          "gist": "yeah,"
+        },
+        {
+          "line": 1471,
+          "speaker": "Luke S",
+          "gist": "Both the"
+        },
+        {
+          "line": 1472,
+          "speaker": "Luke Foreman",
+          "gist": "as as you say this and are like toying with her,"
+        },
+        {
+          "line": 1473,
+          "speaker": "Luke S",
+          "gist": "muggles"
+        },
+        {
+          "line": 1474,
+          "speaker": "Luke Foreman",
+          "gist": "she towards you, but like you can see she like phy..."
+        },
+        {
+          "line": 1475,
+          "speaker": "Luke Foreman",
+          "gist": "And then and you can see in her eyes that she's li..."
+        },
+        {
+          "line": 1476,
+          "speaker": "Luke S",
+          "gist": "is that would I have seen anything like that"
+        },
+        {
+          "line": 1477,
+          "speaker": "Luke Foreman",
+          "gist": "that."
+        },
+        {
+          "line": 1478,
+          "speaker": "Luke S",
+          "gist": "before?"
+        },
+        {
+          "line": 1479,
+          "speaker": "Luke Foreman",
+          "gist": "Roll like a history check or"
+        },
+        {
+          "line": 1480,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1481,
+          "speaker": "Luke Foreman",
+          "gist": "something. Well, that's good. I would say you've u..."
+        },
+        {
+          "line": 1482,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1483,
+          "speaker": "Luke Foreman",
+          "gist": "the real world and um someone was kind of like giv..."
+        },
+        {
+          "line": 1484,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1485,
+          "speaker": "Luke Foreman",
+          "gist": "guardian a hard time. And that that is when you've..."
+        },
+        {
+          "line": 1486,
+          "speaker": "Luke S",
+          "gist": "Al\ufb01e,"
+        },
+        {
+          "line": 1487,
+          "speaker": "Luke Foreman",
+          "gist": "happen."
+        },
+        {
+          "line": 1488,
+          "speaker": "Luke S",
+          "gist": "we have this is I think the end of the entertainme..."
+        },
+        {
+          "line": 1489,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Yeah, of course."
+        },
+        {
+          "line": 1490,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "I mean, of"
+        },
+        {
+          "line": 1491,
+          "speaker": "Luke Foreman",
+          "gist": "And as as you all start walking back out to the ca..."
+        },
+        {
+          "line": 1492,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "course."
+        },
+        {
+          "line": 1493,
+          "speaker": "Luke Foreman",
+          "gist": "you see um you see in a um it's another truck, wha..."
+        },
+        {
+          "line": 1494,
+          "speaker": "John Hagey",
+          "gist": "Sorry."
+        },
+        {
+          "line": 1495,
+          "speaker": "Luke Foreman",
+          "gist": "Find it. Find it. Thanks for being such a good spo..."
+        },
+        {
+          "line": 1496,
+          "speaker": "Luke Foreman",
+          "gist": "And uh we have plenty of gas back at at the margin..."
+        },
+        {
+          "line": 1497,
+          "speaker": "Luke S",
+          "gist": "I um I love messing with the mogul in the m is one..."
+        },
+        {
+          "line": 1498,
+          "speaker": "John Hagey",
+          "gist": "I think I They go. This is all happening. Me and P..."
+        },
+        {
+          "line": 1499,
+          "speaker": "William Webb",
+          "gist": "I I don't think we're getting the slim gyms we had"
+        },
+        {
+          "line": 1500,
+          "speaker": "John Hagey",
+          "gist": "on?"
+        },
+        {
+          "line": 1501,
+          "speaker": "William Webb",
+          "gist": "for"
+        },
+        {
+          "line": 1502,
+          "speaker": "Luke Foreman",
+          "gist": "So, as you So, go ahead."
+        },
+        {
+          "line": 1503,
+          "speaker": "John Hagey",
+          "gist": "Is that Mike in there?"
+        },
+        {
+          "line": 1504,
+          "speaker": "Luke Foreman",
+          "gist": "Go ahead."
+        },
+        {
+          "line": 1505,
+          "speaker": "John Hagey",
+          "gist": "Is that Mike in there?"
+        },
+        {
+          "line": 1506,
+          "speaker": "Luke Foreman",
+          "gist": "As you all kind of reather yourselves and get back..."
+        },
+        {
+          "line": 1507,
+          "speaker": "Luke Foreman",
+          "gist": "and uh they're all kind of having fun, poking fun ..."
+        },
+        {
+          "line": 1508,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "mic obviously."
+        },
+        {
+          "line": 1509,
+          "speaker": "Luke Foreman",
+          "gist": "Okay. Um, so that's our favorite prank for sure. B..."
+        },
+        {
+          "line": 1510,
+          "speaker": "Luke Foreman",
+          "gist": "And no, it's kind of the only option besides drawi..."
+        },
+        {
+          "line": 1511,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "Thank God Mike is telling us"
+        },
+        {
+          "line": 1512,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 1513,
+          "speaker": "Luke S",
+          "gist": "You have a port"
+        },
+        {
+          "line": 1514,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "this."
+        },
+        {
+          "line": 1515,
+          "speaker": "Luke Foreman",
+          "gist": "y'all, it's like kind of like a portal in a way."
+        },
+        {
+          "line": 1516,
+          "speaker": "Luke S",
+          "gist": "There."
+        },
+        {
+          "line": 1517,
+          "speaker": "Luke Foreman",
+          "gist": "There's like the maintenance shed and then there's..."
+        },
+        {
+          "line": 1518,
+          "speaker": "William Webb",
+          "gist": "Okay."
+        },
+        {
+          "line": 1519,
+          "speaker": "Luke S",
+          "gist": "Um, you know,"
+        },
+        {
+          "line": 1520,
+          "speaker": "Luke Foreman",
+          "gist": "And then there's Like there's like this draw creek..."
+        }
+      ]
+    },
+    {
+      "scene_id": 10,
+      "title": "CHAPTER 22: HIGHWAY TO NORTH CAROLINA",
+      "line_range": [
+        1521,
+        1600
+      ],
+      "ooc": false,
+      "speakers_present": [
+        "John Hagey",
+        "Luke Foreman",
+        "Luke S",
+        "Sophie Foreman Noone",
+        "William Webb"
+      ],
+      "dialogue_ledger": [
+        {
+          "line": 1521,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1522,
+          "speaker": "Luke Foreman",
+          "gist": "impossibly large ski\ufb00 kind of like travels through..."
+        },
+        {
+          "line": 1523,
+          "speaker": "Luke S",
+          "gist": "Is it derived by a skeleton?"
+        },
+        {
+          "line": 1524,
+          "speaker": "Luke Foreman",
+          "gist": "Kind of like a shadowy"
+        },
+        {
+          "line": 1525,
+          "speaker": "Luke S",
+          "gist": "Yeah. I don't want to take that one."
+        },
+        {
+          "line": 1526,
+          "speaker": "Luke Foreman",
+          "gist": "G."
+        },
+        {
+          "line": 1527,
+          "speaker": "Luke S",
+          "gist": "I don't think I want to stay on this side."
+        },
+        {
+          "line": 1528,
+          "speaker": "Luke Foreman",
+          "gist": "Uh, it's occasionally you'll need to go to like a ..."
+        },
+        {
+          "line": 1529,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "What?"
+        },
+        {
+          "line": 1530,
+          "speaker": "Luke Foreman",
+          "gist": "that."
+        },
+        {
+          "line": 1531,
+          "speaker": "Sophie Foreman Noone",
+          "gist": "What a"
+        },
+        {
+          "line": 1532,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. So, we'll stay away from that one for a litt..."
+        },
+        {
+          "line": 1533,
+          "speaker": "Luke S",
+          "gist": "I watched a movie one time from the um Hollywood."
+        },
+        {
+          "line": 1534,
+          "speaker": "Luke Foreman",
+          "gist": "that."
+        },
+        {
+          "line": 1535,
+          "speaker": "Luke S",
+          "gist": "It put it together like all of the toy stores were..."
+        },
+        {
+          "line": 1536,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah. Like an abandoned transion or subway stop so..."
+        },
+        {
+          "line": 1537,
+          "speaker": "Luke S",
+          "gist": "you know Mike I greatly appreciate you giving also..."
+        },
+        {
+          "line": 1538,
+          "speaker": "Luke Foreman",
+          "gist": "and I think Naomi's there too and she's like,"
+        },
+        {
+          "line": 1539,
+          "speaker": "Luke S",
+          "gist": "Yes."
+        },
+        {
+          "line": 1540,
+          "speaker": "Luke Foreman",
+          "gist": "\"Yeah, like that's what I was telling you about th..."
+        },
+        {
+          "line": 1541,
+          "speaker": "Luke Foreman",
+          "gist": "It's it's the way we it's the way we travel. We lo..."
+        },
+        {
+          "line": 1542,
+          "speaker": "Luke S",
+          "gist": "Yeah."
+        },
+        {
+          "line": 1543,
+          "speaker": "Luke Foreman",
+          "gist": "you can open the lost roads travel and that"
+        },
+        {
+          "line": 1544,
+          "speaker": "Luke S",
+          "gist": "Nice."
+        },
+        {
+          "line": 1545,
+          "speaker": "John Hagey",
+          "gist": "Oh, yes"
+        },
+        {
+          "line": 1546,
+          "speaker": "Luke Foreman",
+          "gist": "tells you we'll roll a d6 and we'll kind of determ..."
+        },
+        {
+          "line": 1547,
+          "speaker": "John Hagey",
+          "gist": "indeed."
+        },
+        {
+          "line": 1548,
+          "speaker": "Luke S",
+          "gist": "God dang it."
+        },
+        {
+          "line": 1549,
+          "speaker": "Luke Foreman",
+          "gist": "like."
+        },
+        {
+          "line": 1550,
+          "speaker": "Luke S",
+          "gist": "Who clicked that?"
+        },
+        {
+          "line": 1551,
+          "speaker": "Luke Foreman",
+          "gist": "Yeah, give them give us some rules. None of this i..."
+        },
+        {
+          "line": 1552,
+          "speaker": "Luke S",
+          "gist": "All right."
+        },
+        {
+          "line": 1553,
+          "speaker": "Luke Foreman",
+          "gist": "We'll \ufb01gure it out usually."
+        },
+        {
+          "line": 1554,
+          "speaker": "Luke S",
+          "gist": "All right. All"
+        },
+        {
+          "line": 1555,
+          "speaker": "Luke Foreman",
+          "gist": "Um um but yeah,"
+        },
+        {
+          "line": 1556,
+          "speaker": "Luke S",
+          "gist": "right."
+        },
+        {
+          "line": 1557,
+          "speaker": "Luke Foreman",
+          "gist": "so this is like this is this is how we'll do trave..."
+        },
+        {
+          "line": 1558,
+          "speaker": "Luke S",
+          "gist": "Go."
+        },
+        {
+          "line": 1559,
+          "speaker": "Luke Foreman",
+          "gist": "we'll montage more or less."
+        },
+        {
+          "line": 1560,
+          "speaker": "Luke S",
+          "gist": "Nice."
+        },
+        {
+          "line": 1561,
+          "speaker": "Luke Foreman",
+          "gist": "Um, but yeah, I think as you all are are packed up..."
+        },
+        {
+          "line": 1562,
+          "speaker": "Luke S",
+          "gist": "Oh,"
+        },
+        {
+          "line": 1563,
+          "speaker": "Luke Foreman",
+          "gist": "standing on the edge of the lost roads to to start..."
+        },
+        {
+          "line": 1564,
+          "speaker": "Luke S",
+          "gist": "this"
+        },
+        {
+          "line": 1565,
+          "speaker": "Luke Foreman",
+          "gist": "That is where we will end the session and you all ..."
+        },
+        {
+          "line": 1566,
+          "speaker": "John Hagey",
+          "gist": "Wait, wait, wait, wait, wait, wait, wait, wait."
+        },
+        {
+          "line": 1567,
+          "speaker": "Luke Foreman",
+          "gist": "Go for it."
+        },
+        {
+          "line": 1568,
+          "speaker": "John Hagey",
+          "gist": "I rolled a six twice. Give me a vivid echo that re..."
+        },
+        {
+          "line": 1569,
+          "speaker": "Luke Foreman",
+          "gist": "Okay."
+        },
+        {
+          "line": 1570,
+          "speaker": "John Hagey",
+          "gist": "Damn"
+        },
+        {
+          "line": 1571,
+          "speaker": "Luke S",
+          "gist": "And before you do that, um Pierre walks over to th..."
+        },
+        {
+          "line": 1572,
+          "speaker": "Luke Foreman",
+          "gist": "Okay."
+        },
+        {
+          "line": 1573,
+          "speaker": "John Hagey",
+          "gist": "you."
+        },
+        {
+          "line": 1574,
+          "speaker": "Luke S",
+          "gist": "\"You know that lady was pretty rude, but I did hav..."
+        },
+        {
+          "line": 1575,
+          "speaker": "Luke S",
+          "gist": "no. Never. That was disgusting."
+        },
+        {
+          "line": 1576,
+          "speaker": "John Hagey",
+          "gist": "So,"
+        },
+        {
+          "line": 1577,
+          "speaker": "William Webb",
+          "gist": "Damn"
+        },
+        {
+          "line": 1578,
+          "speaker": "John Hagey",
+          "gist": "um you didn't get the slim gym."
+        },
+        {
+          "line": 1579,
+          "speaker": "Luke S",
+          "gist": "Of course not. That is a gross."
+        },
+        {
+          "line": 1580,
+          "speaker": "William Webb",
+          "gist": "it."
+        },
+        {
+          "line": 1581,
+          "speaker": "Luke S",
+          "gist": "This is This is a blasphemy for the uh you know, y..."
+        },
+        {
+          "line": 1582,
+          "speaker": "William Webb",
+          "gist": "Oh, John, you got a you got a bogey on your"
+        },
+        {
+          "line": 1583,
+          "speaker": "Luke Foreman",
+          "gist": "for your for your two uh your two sixes."
+        },
+        {
+          "line": 1584,
+          "speaker": "William Webb",
+          "gist": "sticks."
+        },
+        {
+          "line": 1585,
+          "speaker": "Luke Foreman",
+          "gist": "You got a um you you kind of the"
+        },
+        {
+          "line": 1586,
+          "speaker": "John Hagey",
+          "gist": "Okay."
+        },
+        {
+          "line": 1587,
+          "speaker": "Luke Foreman",
+          "gist": "light the light above this like kind of maintenanc..."
+        },
+        {
+          "line": 1588,
+          "speaker": "John Hagey",
+          "gist": "Okay."
+        },
+        {
+          "line": 1589,
+          "speaker": "Luke Foreman",
+          "gist": "of preparing to to take travel on this lost roads ..."
+        },
+        {
+          "line": 1590,
+          "speaker": "Luke S",
+          "gist": "Peter covers his ears."
+        },
+        {
+          "line": 1591,
+          "speaker": "Luke Foreman",
+          "gist": "Um, yeah, there's your there's your echo and fores..."
+        },
+        {
+          "line": 1592,
+          "speaker": "William Webb",
+          "gist": "Nice."
+        },
+        {
+          "line": 1593,
+          "speaker": "Luke Foreman",
+          "gist": "Yes. And I know I I wanted to get through Lost Roa..."
+        },
+        {
+          "line": 1594,
+          "speaker": "Luke S",
+          "gist": "Nice,"
+        },
+        {
+          "line": 1595,
+          "speaker": "Luke Foreman",
+          "gist": "a lot of uh a lot of stu\ufb00 going on."
+        },
+        {
+          "line": 1596,
+          "speaker": "John Hagey",
+          "gist": "Speaking of Speaking of next"
+        },
+        {
+          "line": 1597,
+          "speaker": "Luke Foreman",
+          "gist": "Um,"
+        },
+        {
+          "line": 1598,
+          "speaker": "John Hagey",
+          "gist": "time,"
+        },
+        {
+          "line": 1599,
+          "speaker": "Luke Foreman",
+          "gist": "yes."
+        },
+        {
+          "line": 1600,
+          "speaker": "Luke S",
+          "gist": "right? Because you're going to be in Colorado."
+        }
+      ]
+    },
+    {
+      "scene_id": 205,
+      "title": "OOC Post-Session Wrap-Up Part 1",
+      "line_range": [
+        1601,
+        1700
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 206,
+      "title": "OOC Post-Session Wrap-Up Part 2",
+      "line_range": [
+        1701,
+        1800
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 207,
+      "title": "OOC Post-Session Wrap-Up Part 3",
+      "line_range": [
+        1801,
+        1900
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    },
+    {
+      "scene_id": 208,
+      "title": "OOC Post-Session Wrap-Up Part 4",
+      "line_range": [
+        1901,
+        2004
+      ],
+      "ooc": true,
+      "speakers_present": [],
+      "dialogue_ledger": []
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-decisions",
+  "session_id": "s7",
+  "source_file": "sessions/data/index/s7-raw-indexed.md",
+  "source_sha256": "e1d49399a12a73c059b762649e8946611210081e4092d2213b67add6d2063245",
+  "session_cutoff": {
+    "line": 1293,
+    "gm_call_line": 1288,
+    "reason": "GM: 'And with that, we will end the session in preparation of taking off to do something at the DC precinct. We'll see. You guys can come up with a plan for that.' (L1288). L1289-L1293 are table wrap-up and scheduling."
+  },
+  "scope": "Reviewed high-risk creature interrogation, Redactor stalker lore, Thanatos birthright encounter, and Washington DC lead.",
+  "complements": [
+    "sessions/config/s7-intent-contract.json",
+    "sessions/config/s7-session-config.json"
+  ],
+  "decisions": [
+    {
+      "source_line": 259,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "character_action",
+      "function": "Alfie tendril severing & trophy scarf",
+      "canon": "established",
+      "risk": "character_consistency",
+      "destination": "render",
+      "context": [
+        253,
+        265
+      ],
+      "reason": "Alfie slices off one of the creature's pulsing cranial tendrils with her needle rapier in retaliation for being called a driftwood doll, wearing it over her university soccer scarf. Novelized in Scene 1 with tactile sensory weight."
+    },
+    {
+      "source_line": 300,
+      "contributor": "Luke S",
+      "mode": "spellcraft",
+      "function": "Pierre Suggestion spell ('brag')",
+      "canon": "established",
+      "risk": "mechanical_fidelity",
+      "destination": "render",
+      "context": [
+        295,
+        335
+      ],
+      "reason": "Pierre casts Suggestion laced with the trigger word 'brag', compelling the captive to reveal her master's utopian doctrine (altering history through micro-changes to erase casualties, framing the party as obsolete anomalies of an imperfect past). Rendered in Scene 1."
+    },
+    {
+      "source_line": 345,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "combat_execution",
+      "function": "Alfie rapier execution & purple flare",
+      "canon": "established",
+      "risk": "gm_confirmation",
+      "destination": "render",
+      "context": [
+        343,
+        355
+      ],
+      "reason": "Alfie terminates the defiant creature with a swift rapier strike. As the captive perishes, she warns 'he's coming' and a towering beacon of purple energy shoots into the night sky, alerting the shadowy stalker."
+    },
+    {
+      "source_line": 429,
+      "contributor": "John Hagey, Luke Foreman",
+      "mode": "adversary_manifestation",
+      "function": "The Redactor stalker description",
+      "canon": "established",
+      "risk": "cosmological_grounding",
+      "destination": "render",
+      "context": [
+        425,
+        436
+      ],
+      "reason": "Eusacles and the GM establish the physical anatomy of the Redactor: an inky, featureless woman silhouette containing shifting internal faces, with six fingers and no visible feet, tracking the flare."
+    },
+    {
+      "source_line": 442,
+      "contributor": "Luke S",
+      "mode": "improvised_magic",
+      "function": "Pierre rabbit patronus",
+      "canon": "established",
+      "risk": "lore_drift",
+      "destination": "render",
+      "context": [
+        440,
+        452
+      ],
+      "reason": "Pierre waves his fingers and conjures a radiant white rabbit patronus that hops around the approaching stalker. Novelized in Scene 2 as an instinctive burst of light and comedic distraction."
+    },
+    {
+      "source_line": 464,
+      "contributor": "Luke Foreman, Luke S",
+      "mode": "npc_reappearance",
+      "function": "Susanna rescue from Lost Roads",
+      "canon": "established",
+      "risk": "continuity_linking",
+      "destination": "render",
+      "context": [
+        458,
+        485
+      ],
+      "reason": "The party stumbles upon Susanna, the museum visitor Pierre saved from petrification in Session 3, who had fled into the maintenance shed and wandered the timeless roads. Pierre flirts smoothly, dubbing himself her angel."
+    },
+    {
+      "source_line": 612,
+      "contributor": "John Hagey",
+      "mode": "spellcraft",
+      "function": "Eusacles Mending on spatula",
+      "canon": "established",
+      "risk": "tabletop_fidelity",
+      "destination": "render",
+      "context": [
+        599,
+        620
+      ],
+      "reason": "Eusacles casts Mending to fuse Pierre's shattered museum javelin back into a functional pancake spatula, reassuring Mike on the porch that their two-man flipping technique is preserved."
+    },
+    {
+      "source_line": 672,
+      "contributor": "Luke Foreman",
+      "mode": "macro_lore",
+      "function": "Teddy's Redactor history",
+      "canon": "established",
+      "risk": "campaign_arc_continuity",
+      "destination": "render",
+      "context": [
+        667,
+        681
+      ],
+      "reason": "Teddy examines the brain-nerve tendril and confesses that after touching his second fragment decades ago, the Redactor began hunting him relentlessly whenever he left the Margin, forcing him into permanent sanctuary."
+    },
+    {
+      "source_line": 738,
+      "contributor": "Sophie Foreman Noone",
+      "mode": "character_deepening",
+      "function": "Alfie rum intoxication & thread consciousness",
+      "canon": "established",
+      "risk": "character_arc",
+      "destination": "render",
+      "context": [
+        732,
+        755
+      ],
+      "reason": "Alfie drinks a full thimble of rum, becoming tipsy, and reflects on her ontological state: 458 years of collected thread memories from dead mariners vs four days of living wooden reality."
+    },
+    {
+      "source_line": 876,
+      "contributor": "John Hagey, Luke S, Luke Foreman",
+      "mode": "group_consensus",
+      "function": "Ban on 'heroes' label",
+      "canon": "established",
+      "risk": "thematic_integrity",
+      "destination": "render",
+      "context": [
+        874,
+        882
+      ],
+      "reason": "The party strictly rejects being called heroes, recalling that in classical Greek tragedy, self-proclaimed heroes invariably meet horrific deaths."
+    },
+    {
+      "source_line": 949,
+      "contributor": "Luke Foreman, John Hagey",
+      "mode": "divine_covenant",
+      "function": "Thanatos watch engraving (Tier 2 birthright)",
+      "canon": "established",
+      "risk": "cosmological_grounding",
+      "destination": "render",
+      "context": [
+        945,
+        955
+      ],
+      "reason": "Thanatos visits Eusacles in a nocturnal dream, clarifies that the timeline chaos falls under the independent paperwork jurisdiction of the Fates rather than Olympus, and engraves Eusacles' watch ('Check the time, it's not yours') granting +2 AC when health drops below 25%."
+    },
+    {
+      "source_line": 962,
+      "contributor": "Luke Foreman",
+      "mode": "macro_lore",
+      "function": "Thanatos cryptic hint on Pierre's mother",
+      "canon": "established",
+      "risk": "negative_only_mandate",
+      "destination": "render",
+      "context": [
+        956,
+        977
+      ],
+      "reason": "When asked if he knows Pierre's mother, Thanatos bursts into laughter, calling it an 'epic prank' and noting Hermes saw him, but refuses to spoil the surprise before turning into a bat and flying away."
+    },
+    {
+      "source_line": 1015,
+      "contributor": "John Hagey, Luke S",
+      "mode": "character_conflict",
+      "function": "Divine Flavor duel & needle stitches",
+      "canon": "established",
+      "risk": "comedic_timing",
+      "destination": "render",
+      "context": [
+        1011,
+        1073
+      ],
+      "reason": "Eusacles grows tired of plain pancakes and casts Divine Flavor, enraging Pierre who lunges with his spear. Eusacles heals himself with Cure Wounds while Pierre indignantly applies medical stitches."
+    },
+    {
+      "source_line": 1083,
+      "contributor": "Luke Foreman",
+      "mode": "plot_hook",
+      "function": "Naomi's Washington DC precinct lead",
+      "canon": "established",
+      "risk": "narrative_momentum",
+      "destination": "render",
+      "context": [
+        1074,
+        1100
+      ],
+      "reason": "Naomi brings details from a true-crime podcast about a thwarted airline hijacking where the culprit was found mysteriously handcuffed in zip-ties, leading to a locked evidence locker in a Washington DC police precinct."
+    },
+    {
+      "source_line": 1261,
+      "contributor": "Luke S, John Hagey, Luke Foreman",
+      "mode": "combat_mechanics",
+      "function": "Watch deflection & push-up training montage",
+      "canon": "established",
+      "risk": "action_staging",
+      "destination": "render",
+      "context": [
+        1258,
+        1287
+      ],
+      "reason": "Pierre thrusts a spear at Eusacles to test his new boon, and Eusacles' arm instinctively rises, deflecting the spearhead off the watch face without a scratch. The party enters a one-handed push-up training montage with Alfie on Pierre's back."
+    }
+  ],
+  "critiques": [
+    {
+      "id": "rev-s7-strebs-01",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b059_alt27",
+      "block_index": 76,
+      "source_line": 451,
+      "speaker": "Pierre",
+      "speaker_id": "pierre",
+      "quote": "\"There is a patronus, a little white bunny running around it, though,\" he called out as he threw himself through the seam. \"And I do not exactly know where that came from!\"",
+      "comment": "Great scene but the wiring is a little hard to follow this idea that Pierre instinctually cast up joking Harry Potter spell that almost kind of worked but didn't at all do anything",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-02-alt.md` and `s7-scene-02.md` (L0440-L0451). Grounded Pierre's panic manifestation of a glowing white rabbit in his dormant threshold heritage, replacing out-of-character fourth-wall pop-culture references ('Expecto patronum', 'dementor', 'patronus') with an instinctive warding charm that distracts the six-fingered stalker while Pierre retreats."
+    },
+    {
+      "id": "rev-s7-strebs-02",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b110_alt19",
+      "block_index": 119,
+      "source_line": 644,
+      "speaker": "Theodore (Teddy)",
+      "speaker_id": "teddy",
+      "quote": "Teddy took the cold specimen with a furrowed brow, turning it under the sunlight. \"Hair? I would not have called it that. I would call this some sort of synapse, or a brain nerve. Gross.\"",
+      "comment": "Wrong person",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-04-alt.md` and `s7-scene-04.md` (L0644). Corrected dialogue voice from modern GM slang ('Gross', 'synapse') to authentic 1846 woodsman perspective for Teddy ('No woodsman would have called it hair. I would call this some sort of creeping root—or a living nerve plucked straight from a brain... Unnatural.')."
+    },
+    {
+      "id": "rev-s7-strebs-03",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b142_alt16",
+      "block_index": 147,
+      "source_line": 784,
+      "speaker": "Mike",
+      "speaker_id": "mike",
+      "quote": "\"Well, we put the rum in the pancakes, and then we also put the rum in the jam,\" Mike answered cheerfully, leaning against the doorframe.",
+      "comment": "And of course we also put rum in the rum",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-05-alt.md` and `s7-scene-05.md` (L0784). Incorporated the punchline into Mike's cheerful dialogue ('Well, we put the rum in the pancakes, and then we also put the rum in the jam. And then, of course, we put the rum in the rum.'), completing the comedic rule of three."
+    },
+    {
+      "id": "rev-s7-strebs-04",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b212_alt22",
+      "block_index": 222,
+      "source_line": 1079,
+      "speaker": "Eusacles",
+      "speaker_id": "eusacles",
+      "quote": "\"Pierre, make it a double for me,\" Eusacles groaned, leaning his head back against the timber wall. \"I've had a hell of a night, and you did just stab me.\"",
+      "comment": "The bones of the scene are fantastic, but the transitions and overall flow is pretty choppy",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-07-alt.md` and `s7-scene-07.md` (L1015-L1079). Smoothed pacing, causality, and transitions across the pancake duel: Pierre's outraged chef reaction, the spear thrust to Eusacles' flank, Mike's panicked cooking notes, Eusacles' terrified prayer to Thanatos, Eusacles channeling Cure Wounds while Pierre indignantly cinches sutures, Naomi tapping her boot waiting to brief them, and Pierre using rum as antiseptic before pouring Eusacles a double."
+    },
+    {
+      "id": "rev-s7-strebs-05",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b260_alt17",
+      "block_index": 263,
+      "source_line": 1259,
+      "speaker": "Pierre",
+      "speaker_id": "pierre",
+      "quote": "Pierre huffed, smoothing his coat. \"I would like to do some spear practice before we leave.\"",
+      "comment": "This is correct but doesn't correspond well to the actual transition which is I'm very intimidating or something to respond to what musically said so that the training montage can begin",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-09-alt.md` and `s7-scene-09.md` (L1259). Staged the transition naturally: Pierre takes wounded pride in being 'exceedingly intimidating' to refute Eusacles' teasing, seizing his spear to demonstrate his intimidation before departure, which directly triggers the instinctive watch deflection."
+    },
+    {
+      "id": "rev-s7-strebs-06",
+      "pr_number": "034561",
+      "block_id": "uneraseable_s07_b260_alt21",
+      "block_index": 267,
+      "source_line": 1278,
+      "speaker": "Alfie",
+      "speaker_id": "alfie",
+      "quote": "\"The training montage,\" Alfie cheered, hopping down onto the gravel path outside.",
+      "comment": "The training montage is weird to say",
+      "suggested_rewrite": "",
+      "category": "general",
+      "status": "resolved",
+      "resolution_notes": "Resolved in `s7-scene-09-alt.md` and `s7-scene-09.md` (L1278). Purged the meta table shout ('The training montage') from Alfie's dialogue. Replaced with in-character drill sergeant banter ('Down on the grass, mate! If you want to be properly intimidating, it begins with physical discipline! Push-ups! Let's get down to business!'), allowing the physical push-up sequence to land organically."
+    }
+  ]
+}

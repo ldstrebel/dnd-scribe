@@ -1,0 +1,261 @@
+{
+  "session": 5,
+  "title": "THE FORGOTTEN TRAIL & THE MAD DOCTOR'S LECTURE",
+  "totalWords": 8237,
+  "blockCount": 231,
+  "rawLinesCount": 1257,
+  "totalScore": 62,
+  "grade": "D",
+  "verdict": "BLOCKED \u2014 CRITICAL FAILURES REQUIRE REVISION",
+  "tomatometer": 62,
+  "popcornmeter": 94,
+  "scoreBreakdown": {
+    "mechanical": 17,
+    "attribution": 17,
+    "voiceprint": 17,
+    "literary_craft": 11
+  },
+  "criticalErrors": [
+    "Cinematic Cut Omission: Zero authorial scene files found in 'd:\\Code\\dnd-scribe\\sessions\\data\\clean\\blocks_authorial/s5-scene-*-alt.md'! Downstream reader 3-lens contract requires both Tabletop and Cinematic cuts. Upstream pipeline abandoned Track B!",
+    "Speaker Misattribution in Block #8 (uneraseable_s05_b008): Manifest has speakerId='dravin', but prose says 'pierre': \"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto...",
+    "Content Adaptation Failure: Missing Cinematic Cut! Reader cannot provide the 3-Lens experience without Track B authorial scenes."
+  ],
+  "editorialWarnings": [
+    "Collaborative Table Lore Discarded as OOC: Raw turns L0452\u2013L0459 (3 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['logo', 'symbol']. Table banter is where players and GM define the world\u2014extract the narrative truth rather than discarding it!",
+    "Collaborative Table Lore Discarded as OOC: Raw turns L0641\u2013L0789 (3 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['university']. Table banter is where players and GM define the world\u2014extract the narrative truth rather than discarding it!",
+    "Collaborative Table Lore Discarded as OOC: Raw turns L0845\u2013L0878 (8 turns) were skipped as '(ooc)', but contain high-density collaborative worldbuilding keywords: ['concrete', 'donor', 'greek', 'logo', 'motto', 'omega', 'university']. Table banter is where players and GM define the world\u2014extract the narrative truth rather than discarding it!",
+    "Adverbial Dialogue Crutch: Found 16 instances of '-ly' adverbs modifying speech verbs ('smoothly', 'softly', 'dryly', 'mildly', 'reverently'). Allow the spoken cadence and physical action beats to communicate emotional weight instead of adverbial hand-holding."
+  ],
+  "proseCritiques": [],
+  "attributionFixes": [
+    {
+      "blockId": "uneraseable_s05_b008",
+      "index": 8,
+      "manifestSpeaker": "dravin",
+      "proseSpeaker": "pierre",
+      "snippet": "\"A delightful thought over breakfast, Professor,\" Pierre murmured, sliding a finished rum crepe onto..."
+    }
+  ],
+  "chapterBlueprint": [],
+  "contentReview": {
+    "sourceFidelity": {
+      "score": 8.5,
+      "strengths": [
+        "Excellent comedic translation of table banter into character beats: Pierre's jury duty vs. guillotine rant in Scene 2 is inspired prose adaptation.",
+        "The academic Q&A distraction in Scene 9 accurately honors player tactics: Dravin manipulating Dr. Thorne with 'visual learners' while Eusacles harangues her about 1948 refrigeration.",
+        "The temporal vision in Scene 10 brilliantly dramatizes the GM's description of the 1948 subterranean basement, the milk-eyed comatose patients, and the shifting ink from STABLE to STALE."
+      ],
+      "weaknesses": [
+        "The Satyr ambush ending (L1242\u2013L1250) is severely rushed in prose. The comedic table tension (John Hagey: 'Did you say satyrs or satans? Because one is far scarier!') was cut, and three horned beasts kick down doors with zero breathing room before a hard cut to black.",
+        "Scenes 4 and 5 (the transit across the Lost Roads) wander aimlessly without conflict, transcribing low-energy player travel chatter rather than compressing it into a cinematic drive."
+      ]
+    },
+    "characterMotivations": {
+      "pierre": {
+        "fidelity": "High (9/10)",
+        "critique": "Captures Luke S's deadpan Parisian vanity, obsession with classical stonework, and contempt for American culture. Weakness: In Scenes 4\u20136, Pierre fades into passive background scenery while Dravin and Eusacles steer the scene."
+      },
+      "dravin": {
+        "fidelity": "Mixed / Critical Blind Spot (5/10)",
+        "critique": "Dravin's patrician scholarly facade is well-rendered during the lecture, BUT the adaptation commits a major literary sin: in Scene 3, Dravin receives a wax-sealed letter from Persephone confirming he is the divine son of the Goddess of the Underworld. In the prose, Dravin simply folds the letter, puts it in his coat, and never thinks about it again! There is zero interiority regarding what it means for an aging Stanford academic to learn his mother is a chthonic deity descending into the underworld for the winter. This massive emotional beat is treated like a discarded side-quest prop."
+      },
+      "eusacles": {
+        "fidelity": "Solid (8/10)",
+        "critique": "Captures John Hagey's blue-collar swagger, denim-and-sunglasses aesthetic, and no-nonsense skepticism ('Show me the research!'). Weakness: Glosses over his mysterious excursion into the fog and his dice/Thanatos lore."
+      },
+      "alfie": {
+        "fidelity": "Inconsistent (6/10)",
+        "critique": "Alfie's climactic horror beat ('Not again. Not me again!') when forced to touch the relic is the emotional high point of the session. However, across Scenes 4\u20137, Alfie suffers from 'luggage syndrome'\u2014she sits silently in Dravin's pocket or on his shoulder without lines or agency for dozens of paragraphs."
+      }
+    },
+    "cinematicCutEvaluation": {
+      "status": "MISSING / CRITICAL FAILURE",
+      "analysis": "Session 5 currently has NO authorial cinematic cut files in 'blocks_authorial/'. In Session 4, the reader presents 3 distinct lenses: Raw, Tabletop, and Cinematic. For Session 5, the upstream pipeline stopped at the Tabletop cut. The Cinematic Cut is mandatory: it is where dead travel turns must be excised, Dravin's divine heritage given rich interiority, Alfie given proactive physical business, and the University University lecture turned into a heart-pounding 1940s medical conspiracy thriller."
+    },
+    "cutOrderingBlueprint": {
+      "act1": {
+        "title": "Act I: The Divine Post & The Lost Road",
+        "tabletopScenes": "Scenes 1\u20133 (Lines 0001\u20130390)",
+        "cinematicOrdering": "Condense the 390-line morning breakfast into a tight, atmospheric cold open. Focus on the sensory contrast of rum crepes against the timeless Margin fog. Intercut Hermes' arrival with Dravin's inner shock at Persephone's letter, establishing the ticking clock before Dr. Thorne's 2:00 PM lecture."
+      },
+      "act2": {
+        "title": "Act II: The Quadrangle & The Tin-Foil Front",
+        "tabletopScenes": "Scenes 4\u20136 (Lines 0391\u20130790)",
+        "cinematicOrdering": "Cut the wandering highway chatter in scenes 4\u20135. Drop the party directly into the collegiate quad. Heighten the paranoia of the tin-foil demonstrators. Give Alfie active physical interaction with campus artifacts (the welcome basket, the scarf) and let Pierre's snobbery clash actively with modern campus architecture."
+      },
+      "act3": {
+        "title": "Act III: The 1948 Notes & The Shattered Timeline",
+        "tabletopScenes": "Scenes 7\u201310 (Lines 0791\u20131257)",
+        "cinematicOrdering": "Pace the lecture hall infiltration as a high-tension heist. Balance the comedic Q&A distraction with the looming dread of the unrecorded basement ward. Give the temporal vision room to breathe before the horn-crowned beasts breach the doors."
+      }
+    },
+    "tableDebrief": {
+      "tomatometer": 62,
+      "tomatometerStatus": "Rotten",
+      "popcornmeter": 94,
+      "popcornmeterStatus": "Certified Fresh",
+      "summary": "The table brought peak tabletop energy, brilliant banter, and instant classic character moments (94% Popcornmeter), but the candidate prose adaptation stalls at a 62% Tomatometer due to missing Track B, dropped character interiority, and unroleplayed plot reveals. Crucially, the AI authoring pipeline cannot fix these flaws alone without hallucinating net-new canon. The edit critique now passes directly to the players and GM for next session.",
+      "whatHelped": [
+        {
+          "player": "Luke S (Pierre)",
+          "role": "Cultural Anchor / Comic Timing",
+          "moment": "The Jury Duty vs. Guillotine Rant",
+          "impact": "When asked how France handles civic duty, Luke S delivered an impromptu philosophical defense of the guillotine over bureaucracy. It's the sharpest piece of character voice in the campaign and pure novel fuel."
+        },
+        {
+          "player": "John Hagey (Eusacles)",
+          "role": "Tactical Interrogator / Chaos Agent",
+          "moment": "1948 Refrigeration Grilling",
+          "impact": "John's unrelenting cross-examination of Dr. Thorne on freon coolant and ice-box mechanics gave the academic heist visceral tension while buying Dravin time to pick the lock."
+        },
+        {
+          "player": "William Webb (Dravin)",
+          "role": "Scholarly Schemer",
+          "moment": "The 'Visual Learners' Pedagogical Bluff",
+          "impact": "William smoothly pivoted from passive listener to academic heavyweight, trapping Dr. Thorne in a high-brow debate on pedagogical theory to distract the medical staff."
+        },
+        {
+          "player": "Sophie Foreman Noone (Alfie)",
+          "role": "Emotional High-Water Mark",
+          "moment": "'Not again. Not me again!'",
+          "impact": "Sophie's gut-wrenching reluctance when forced to touch the timeline relic shattered the cozy heist vibe and injected raw psychological stakes into the scene."
+        }
+      ],
+      "antiHallucinationWall": [
+        {
+          "issue": "Dravin's Dropped Divine Parentage",
+          "tableOrigin": "In Scene 3, Dravin received a wax-sealed letter from Persephone confirming he is her demigod son. William pocketed it without roleplaying Dravin's reaction.",
+          "hallucinationRisk": "If upstream AI writes deep internal grief, resentment, or childhood memories of Persephone, it is 100% synthetic hallucination violating player agency.",
+          "verdict": "STOP AUTHORING. Do not invent Dravin's inner psychology. Pass the note to William for Session 6."
+        },
+        {
+          "issue": "Alfie's 'Luggage Syndrome' in Transit",
+          "tableOrigin": "Sophie sat back quietly during Scenes 4\u20137 while the guys argued about driving and college pamphlets.",
+          "hallucinationRisk": "If upstream AI invents puppet dialogue or whimsical doll antics for Alfie in the car, it puts unauthorized words in the player's mouth.",
+          "verdict": "STOP AUTHORING. Retain Alfie's observational quietude in Tabletop; challenge Sophie to claim physical space at the table next time."
+        },
+        {
+          "issue": "Eusacles' Unexplained Fog Excursion",
+          "tableOrigin": "John declared Eusacles stepped into the fog and returned with a Thanatos watch-chain, but never detailed the dice bet or the entity.",
+          "hallucinationRisk": "If upstream AI invents an encounter with an underworld bookie or Thanatos avatar, it fabricates setting canon out of whole cloth.",
+          "verdict": "STOP AUTHORING. Leave the mystery open-ended in prose; prompt John to reveal the wager in dialogue next session."
+        },
+        {
+          "issue": "The Clock-Management Ambush",
+          "tableOrigin": "The session ran out of time; Luke Foreman abruptly announced three satyrs kicking down the clinic door and called for initiative to end the recording.",
+          "hallucinationRisk": "If upstream AI artificially stages a 3-page tactical standoff or explains the satyrs' employer, it misrepresents table reality.",
+          "verdict": "STOP AUTHORING. Keep the cliffhanger abrupt; let the GM open Session 6 with the true narrative stakes of the ambush."
+        }
+      ],
+      "playerDirectives": [
+        {
+          "target": "William Webb (Prof. Edward Dravin)",
+          "directive": "Explore the Persephone Revelation at the Campfire",
+          "actionableCoaching": "You received a divine letter from your mother, the Queen of the Underworld. Don't leave it in your pocket! In Session 6, pull Pierre or Eusacles aside. Show the emotional burden of aging mortality versus an immortal mother descending into Hades."
+        },
+        {
+          "target": "Sophie Foreman Noone (Alfie)",
+          "directive": "Break Out of the Pocket During Transit",
+          "actionableCoaching": "Your emotional high in Scene 10 was the best moment in the book, but you were invisible during the 40-minute drive. Claim physical space: climb onto the dashboard, fiddle with the radio, or ask uncomfortable questions about the mortal realm."
+        },
+        {
+          "target": "John Hagey (Eusacles)",
+          "directive": "Cash In the Thanatos Fog Wager",
+          "actionableCoaching": "Your blue-collar skepticism and refrigeration grilling were gold. Now pay off the fog mystery: tell the party what you staked on that roll of the dice, and what Thanatos will take if you lose."
+        },
+        {
+          "target": "Luke S (Pierre)",
+          "directive": "Sustain the Satirical Edge into the Mid-Game",
+          "actionableCoaching": "Your opening scene with the crepes and jury duty set an elite benchmark. Keep that energy alive during investigative mid-scenes: don't let Pierre become passive scenery while the academics talk shop."
+        },
+        {
+          "target": "Luke Foreman (Game Master)",
+          "directive": "Give Combat Thresholds 2 Minutes of Narrative Runway",
+          "actionableCoaching": "When closing near the session time limit, avoid dropping combatants like a sudden jump-scare. Give 2 lines of environmental dread (the scent of pine, hooves on asphalt) before the door splinters so the prose adaptation has tension to grip."
+        }
+      ],
+      "participantScorecards": [
+        {
+          "id": "gm",
+          "name": "Luke Foreman",
+          "character": "Game Master",
+          "role": "Game Master & World Architect",
+          "badge": "The Architect",
+          "color": "#94a3b8",
+          "grade": "B-",
+          "score": 80,
+          "spotlightShare": "38% narrative staging & framing",
+          "consistencyScore": "85%",
+          "ruthlessVerdict": "Masterclass in 1948 mid-century gothic horror and psychiatric dread, held back by meandering highway transit and an abrupt satyr cliffhanger thrown to beat the session clock.",
+          "whatHelped": "The subterranean clinical trial ward: the smell of ozone, the catatonic milk-eyed patients in iron cots, and the shifting ink from STABLE to STALE in Thorne's handwritten binder was haunting, unforgettable atmosphere.",
+          "whatHurt": "Pacing drift on the Pennsylvania turnpike (Scenes 4\u20135), followed by clock-management panic at the end\u2014dropping three armed satyrs into the lecture hall with zero acoustic or atmospheric runway.",
+          "nextSessionDirectives": "Give combat thresholds at least 2 minutes of atmospheric build-up. In Session 6, immediately establish why the satyrs tracked the party, what their faction wants, and stop using combat encounters as arbitrary session cutoffs."
+        },
+        {
+          "id": "pierre",
+          "name": "Luke S",
+          "character": "Pierre",
+          "role": "Parisian Stonemason & Skeptic",
+          "badge": "The Artisan",
+          "color": "#3b82f6",
+          "grade": "A-",
+          "score": 90,
+          "spotlightShare": "19% spoken dialogue (Disciplined Ensemble Modulation)",
+          "consistencyScore": "95%",
+          "ruthlessVerdict": "Masterclass in physical misdirection and comic timing\u2014from the guillotine breakfast to the sculpture classroom mic drop\u2014but wears his Parisian cynicism as impenetrable emotional armor, treating visceral horror like a minor aesthetic inconvenience.",
+          "whatHelped": "Executed the session's premier tactical distractions: weaponizing Hellenic art snobbery to pickpocket Rick Ready's keys, and brazenly taking the Q&A microphone to declare Dr. Thorne boring while nudging her bag to Alfie under the desk. Yielded the highway transit to Dravin with mature ensemble restraint.",
+          "whatHurt": "Impenetrable emotional armor. When the subterranean 1948 psychiatric ward vision struck and comatose patients filled the room, Pierre remained ironically detached. Even during cosmic terror, he treated the nightmare as an uncivilized American curiosity rather than letting the horror crack his shell.",
+          "nextSessionDirectives": "Let the horror crack the snobbery! When the satyrs splinter the lecture hall doors in Session 6, stop using French cynicism as bulletproof armor. Show what Pierre genuinely fears when classical beauty meets primal violence."
+        },
+        {
+          "id": "dravin",
+          "name": "William Webb",
+          "character": "Prof. Edward Dravin",
+          "role": "Stanford Academic & Demigod",
+          "badge": "The Professor",
+          "color": "#8b5cf6",
+          "grade": "C+",
+          "score": 75,
+          "spotlightShare": "26% spoken dialogue",
+          "consistencyScore": "72%",
+          "ruthlessVerdict": "Brilliant pedagogical manipulation at the podium, but committed the cardinal sin of pocketing a divine underworld heritage revelation like a dry dry-cleaning receipt.",
+          "whatHelped": "The 'visual learners' bluff against Dr. Thorne in Scene 9 was masterful academic maneuvering, and his smooth pickpocketing of Rick Ready's keys gave the heist early momentum.",
+          "whatHurt": "Absolute emotional evasion. When handed a wax-sealed letter confirming Persephone is his divine mother descending into Hades, Dravin shelved the world-shattering revelation without a single syllable of existential weight.",
+          "nextSessionDirectives": "Reckon with the goddess mother. In Session 6, pull Pierre or Eusacles aside at the first quiet threshold and break the academic facade\u2014tell them what was in that letter and what it feels like to be the son of the Underworld."
+        },
+        {
+          "id": "eusacles",
+          "name": "John Hagey",
+          "character": "Eusacles",
+          "role": "Blue-Collar Gambler & Cynic",
+          "badge": "The Gambler",
+          "color": "#f59e0b",
+          "grade": "A",
+          "score": 93,
+          "spotlightShare": "24% spoken dialogue",
+          "consistencyScore": "96%",
+          "ruthlessVerdict": "The gold standard of ensemble timing: hung back in the shadows until the heist stalled, then strode down the center aisle with devastating blue-collar cross-examination.",
+          "whatHelped": "Patience and acoustic dominance. Sitting quietly until Dr. Thorne finished, then grilling her relentlessly on 1948 freon coolant and ice-box mechanics completely dismantled her academic composure and bought Alfie the room to strike.",
+          "whatHurt": "The Thanatos mystery debt. Exited the Margin fog with a pocket-watch chain bound to the god of death, but keeps evading what he ante'd up or who held the house odds.",
+          "nextSessionDirectives": "Call the bet. In Session 6, reveal to the party what you staked against Thanatos, and what debts are coming due when the dice stop rolling."
+        },
+        {
+          "id": "alfie",
+          "name": "Sophie Foreman Noone",
+          "character": "Alfie",
+          "role": "Driftwood Doll & Rogue Heart",
+          "badge": "The Rogue",
+          "color": "#10b981",
+          "grade": "B",
+          "score": 84,
+          "spotlightShare": "13% spoken dialogue (Tactical Infiltration & Emotional Climax)",
+          "consistencyScore": "89%",
+          "ruthlessVerdict": "Delivered the undisputed emotional gut-punch of the session at the relic table, but held her cards so close to the vest during the transit that her climactic terror felt like an abrupt spike rather than a simmering dread.",
+          "whatHelped": "The green room heist agility (pilfering the soccer scarf) and the shattering vulnerability in Scene 10 ('Not again. Not me again!') when touching the temporal relic, injecting genuine human stakes into an academic caper.",
+          "whatHurt": "Total radio silence during the Lost Roads transit. While staying out of sight in Dravin's coat made tactical sense for a driftwood doll, hoarding her dread left the reader unprepared for the emotional avalanche at the climax.",
+          "nextSessionDirectives": "Telegraph the simmer before the boil. In Session 6 combat, give us physical micro-actions from the floor\u2014tugging Dravin's hem, warning the giants about hoofsteps\u2014so your emotional weight stays continuously anchored in the fight."
+        }
+      ]
+    }
+  }
+}
