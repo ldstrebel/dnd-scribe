@@ -293,9 +293,10 @@ def main():
     for s in args.sessions:
         run_step(f"Macro Narrative & Character Anchors ({s.upper()})", [sys.executable, "sessions/_scripts/harness/macro_auditor.py", s])
 
-    # 3. Developmental Editor Review Gate
+    # 3. Developmental Editor Review Gate & Dual-Lens Tabletop Coach
     for s in args.sessions:
         run_step(f"Developmental Editor & Prose Critic ({s.upper()})", [sys.executable, ".agents/skills/novel-critic/scripts/critique_prose.py", s])
+        run_step(f"Dual-Lens Tabletop Coach & Closed-Loop Fuel Inquest ({s.upper()})", [sys.executable, "sessions/_scripts/critique_tabletop.py", s])
 
     # 4. Web Manifest Generation & Validation
     run_step("Schema 2.0 Web Manifest Builder", [sys.executable, "sessions/_scripts/generate_web_manifest.py"])

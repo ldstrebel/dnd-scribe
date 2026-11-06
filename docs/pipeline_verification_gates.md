@@ -38,8 +38,15 @@ The pipeline runs sequentially. Any step failure halts the entire process immedi
                               │
                               ▼
   ┌────────────────────────────────────────────────────────┐
-  │ Gate 3: critique_prose.py                              │
+  │ Gate 3A: critique_prose.py                             │
   │ Prose Critic: Earth leaks, talking heads, stutters     │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ Gate 3B: critique_tabletop.py                          │
+  │ Dual-Lens Tabletop Coach: Emotional handoffs, agency,  │
+  │ anti-cheerleader inflation, closed-loop fuel-to-engine │
   └───────────────────────────┬────────────────────────────┘
                               │
                               ▼
@@ -107,7 +114,7 @@ The pipeline runs sequentially. Any step failure halts the entire process immedi
 
 ---
 
-### Gate 3: Developmental Editor & Prose Critic (`critique_prose.py`)
+### Gate 3A: Developmental Editor & Prose Critic (`critique_prose.py`)
 * **How It Works:** Scans compiled story for:
   1. Earth realia leaks (`oxford`, `airplane`, `wi-fi`, `disney`).
   2. Stagnant action / "talking heads" ratio (dialogue ratio > 45% with action verb count < 3).
@@ -120,6 +127,24 @@ The pipeline runs sequentially. Any step failure halts the entire process immedi
   python .agents/skills/novel-critic/scripts/critique_prose.py
   ```
   *Failure Output:* `❌ Earth-word leak detected: 'Wi-Fi'. Exit code 1.`
+
+---
+
+### Gate 3B: Dual-Lens Tabletop Coach & Closed-Loop Fuel Inquest (`critique_tabletop.py`)
+* **How It Works:** 
+  1. **Principle 1 (Mundane Actions Stay Mundane):** Does NOT penalize players for declaring basic physical checks (*"I climb the fire escape"*, *"I pick the lock"*).
+  2. **Principle 2 (Respect Tactical Reality):** Operative urgency under ticking clocks (e.g. rushing upstairs after finding locker 74 empty) is praised as sound roleplay, never penalized as missed exposition.
+  3. **Principle 3 (Catch Emotional Handoffs):** Scans for moments where NPCs deliver heavy narrative gifts, boons, or trauma revelations (e.g., Teddy's 1846 ancestral boon, Thanatos' watch dream). Asserts that the player character offered an in-character emotional reception; if deflected into pure meta/inventory math, flags an actionable coaching note:
+     *"The meta was funny, but don't take NPCs for granted; the creative engine lacked text on how your character felt receiving this gift."*
+  4. **Closed-Loop Fuel Retrospective:** Compares the raw tabletop turns against compiled Track B to isolate where the novelist engine was starved of character interiority.
+  5. **Anti-Cheerleader Deflation:** Forbids sycophantic `"Hurt: None observed"` scorecards. If a session contains unresolved NPC emotional handoffs or circular planning, scores cannot exceed 85%.
+* **Why It Is NOT A Fake Check:** Parses speaker turns, dialogue sentiment, and NPC exchange anchors deterministically. Rejects scorecards containing fake "None observed" outputs.
+* **Proof Trigger:**
+  Run tabletop critic on Session 8:
+  ```powershell
+  python sessions/_scripts/critique_tabletop.py s8
+  ```
+  *Output:* Flags Eusacles' meta deflection upon receiving Theodore's boon with targeted coaching guidance.
 
 ---
 

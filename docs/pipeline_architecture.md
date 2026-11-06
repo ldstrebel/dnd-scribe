@@ -73,7 +73,7 @@ Over the course of 15 iterative editions, the pipeline has evolved from fragile 
                                       │
                                       ▼
   ┌────────────────────────────────────────────────────────────────────────┐
-  │ EDITION 15 (Current): The Intent, Agency & Anti-Amputation Era (S5)    │
+  │ EDITION 15: The Intent, Agency & Anti-Amputation Era (S5–S8)           │
   │ • PR #33 Post-Mortem: Hollywood heist competency bias (Pierre's trash   │
   │   tantrum) and polite consent sanitization (Dravin seizing Alfie).    │
   │ • The "Character Dogma" Trap: Prohibiting universal psychology rules   │
@@ -82,6 +82,19 @@ Over the course of 15 iterative editions, the pipeline has evolved from fragile 
   │   so table lore and player deductions are never thrown into the trash. │
   │ • Rotten Tomatoes Critic UI overhaul: Tomatometer vs Popcornmeter,     │
   │   Campaign Trajectory & Arc Impact, and Chapters Modal integration.    │
+  └───────────────────────────────────┬────────────────────────────────────┘
+                                      │
+                                      ▼
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │ EDITION 16 (Current Roadmap & Target): The Dual-Lens Tabletop Coach &  │
+  │ Closed-Loop Player Feedback Architecture                               │
+  │ • The "Cheerleader Inflation" Trap: Rejecting 90%+ unearned grades.    │
+  │ • Dual-Lens Separation: Tabletop Coach (Lens 1) vs Prose Editor (Lens 2)│
+  │ • The Closed-Loop Flow: Pre-Cinematic Inquest -> Track B Compilation   │
+  │   -> Post-Cinematic "Fuel vs. Engine" Retrospective.                   │
+  │ • Three Coach Principles: Mundane Actions Stay Mundane; Respect        │
+  │   Tactical Urgency; Catch Emotional Handoffs (Don't Take NPCs for      │
+  │   Granted).                                                            │
   └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -189,9 +202,21 @@ Every failure mode below represents a hard-won engineering lesson. The pipeline 
   * **Track B:** Pacing compression stops strictly at the boundary of declared player intent.
   * When a critique demands fabricating net-new plot or pre-empting future player choices, the agent **must log a formal Editorial Pushback Statement** rather than inventing fiction.
 
+### 🛑 FP-21: Sycophantic Grade Inflation & The Novel-Fuel Disconnect
+* **The Failure:** 
+  1. Automated critics succumbing to "cheerleader inflation," clustering scores between 88% and 95% ("Certified Fresh") with soft cop-outs like *"Hurt: None observed"*, offering no actionable guidance for future sessions.
+  2. Demanding purple-prose gymnastics for mundane physical actions (e.g., criticizing a player for declaring *"I climb the fire escape"* instead of narrating their own blood turning to stone).
+  3. Penalizing players for sharp, sensible tactical decisions under time pressure (e.g., finding the locker empty and immediately rushing to the executive office).
+  4. Missing the true high-leverage moments: **unreciprocated emotional handoffs from NPCs** (e.g., an NPC offering a 170-year-old mountain surveyor's birthright or divine dream, and the player deflecting into character-sheet inventory math without a single in-character reaction).
+* **Permanent Invariant (The Dual-Lens Tabletop Coach Law):**
+  * **Principle 1 (Mundane Actions Stay Mundane):** Players are never penalized for declaring straightforward physical checks without purple prose.
+  * **Principle 2 (Respect Tactical Reality):** Operative urgency under ticking clocks is rewarded, not penalized as "missed inquiry."
+  * **Principle 3 (Catch Emotional Handoffs):** When NPCs offer sacred, vulnerable, or heavy story gifts (boons, trauma revelations, divine pacts), the critic flags unreciprocated reactions and guides players to ground the scene before shifting to table banter.
+  * **Closed-Loop Retrospective:** Evaluates the finished Track B Cinematic Cut against the raw fuel to inform the players: *"Here is where the novel engine had to bridge gaps because of missing emotional reactions."*
+
 ---
 
-## 4. The 7 Non-Negotiable Pipeline Invariants (The Engine Laws)
+## 4. The 8 Non-Negotiable Pipeline Invariants (The Engine Laws)
 
 1. **Law 1: The Zero-Regex Provenance Law (AGENTS.md §2.1):** Speaker attribution is established at origin time via line markers mapped to session config. Downstream tools never use regex to infer speakers.
 2. **Law 2: Monotonic Line Coverage & Zero Unanchored Quotes (Track A):** Line markers must appear in strictly ascending order (`inline_markers[i] < inline_markers[i+1]`). Quoted dialogue without trailing line markers is strictly illegal in Track A.
@@ -200,6 +225,7 @@ Every failure mode below represents a hard-won engineering lesson. The pipeline 
 5. **Law 5: The Line-Level Grounding Law:** Never assert universal character dogmas. Assert line-level fidelity against declared player turns.
 6. **Law 6: The Unflinching Staging Law:** Unilateral physical force and inter-party friction must never be softened into polite mutual consent or synthetic heist collusion.
 7. **Law 7: The Adaptation Boundary Law:** Tabletop canon is fixed. When editorial critique demands fabricating unplayed plot or pre-empting player choices, log an official pushback statement.
+8. **Law 8: The Closed-Loop Fuel-to-Engine Invariant:** The tabletop coach audits raw table improv before Track B compilation, and returns post-compilation to provide actionable, humane coaching on unreciprocated NPC emotional handoffs without penalizing mundane mechanics.
 
 ---
 
@@ -576,5 +602,40 @@ To prevent multi-objective cognitive collapse during drafting, creative generati
 2. **The "Declared, First, and Grounded" Law:** Reader advocacy is verified mechanically by `audit_reader_context.py`. Terms established in prior books are canon; new terms in session $N$ must be declared in session-config, cannot appear before their declared `introduced_scene`, and must be grounded to raw audio in their introductory paragraph.
 3. **No Redundant Fifth File:** The pipeline preserves the clean 4-file separation of concerns (`session-config`, `source-decisions`, `intent-contract`, `CAMPAIGN_ARC_LEDGER.md`). Synthesis is generated on-demand via `sessions/_scripts/print_writers_room.py`.
 4. **Zero LLM Self-Grading:** Subagents write and debate; deterministic Python scripts grade. Pass/fail is absolute.
+
+---
+
+## 10. The Dual-Lens Tabletop Coach & Closed-Loop Fuel Specification (Edition 16)
+
+### 10.1 The Dual-Lens Division of Responsibilities
+To prevent sycophantic grade inflation and separate player coaching from novel craftsmanship:
+1. **Lens 1: The Tabletop Player Coach (`critique_tabletop.py`)**:
+   * Evaluates raw tabletop improvisation before Track B compilation.
+   * Focuses on:
+     - Player agency and dialogue distribution (preventing passive bystander syndrome).
+     - Tactical decisiveness vs. circular table paralysis.
+     - Emotional reception of NPC story gifts (boons, trauma revelations, vows).
+2. **Lens 2: The Acquisitions Editor (`critique_prose.py`)**:
+   * Evaluates compiled Track B Cinematic Cut for commercial publishing readiness.
+   * Focuses on:
+     - Compression of mundane transit logistics.
+     - Sensory grounding of combat beats.
+     - Pacing velocity and elimination of fourth-wall jargon.
+
+### 10.2 The Three Coach Principles
+1. **Principle 1: Mundane Actions Stay Mundane**:
+   - Players are never penalized for declaring physical checks simply and cleanly (*"Pierre climbs the fire escape"*, *"Alfie picks the padlock"*). The drafting engine is responsible for clear physical blocking; players are not required to generate purple prose for basic skill checks.
+2. **Principle 2: Respect Tactical Reality Under Pressure**:
+   - High-urgency operational decisions (e.g., Alfie finding the evidence locker empty and immediately rushing upstairs) are rewarded as sound roleplay, never penalized as "missed inquiry."
+3. **Principle 3: Catch Emotional Handoffs (Don't Take NPCs for Granted)**:
+   - When NPCs deliver sacred, heavy, or vulnerable moments (e.g. Teddy bestowing an ancestral mountain surveyor's boon; Thanatos visiting in a dream; Susanna waking from thrall trauma), the coach identifies unreciprocated reactions.
+   - If players deflect into meta inventory math or out-of-character banter, the coach provides constructive, humane coaching:
+     *"The table banter was funny, but notice that when the NPC offered a 170-year-old mountain gift, the creative engine had almost nothing from you on how your character felt receiving it. Don't take NPCs for granted."*
+
+### 10.3 The Closed-Loop Retrospective Pass
+After Track B is compiled, the Tabletop Coach performs a retrospective comparison:
+* Identifies where the novel engine was forced to bridge narrative gaps due to missing player emotional reactions.
+* Outputs the **"Fuel vs. Engine" Player Debrief** directly to `critics.html` and `campaign/codex/critic/sN-review.md`.
+
 
 
