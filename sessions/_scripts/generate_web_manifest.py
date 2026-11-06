@@ -187,6 +187,12 @@ CHARACTER_REGISTRY = {
         "color": "#0284c7",
         "role": "D.C. Metropolitan Precinct Officer"
     },
+    "captain": {
+        "name": "Captain Brenda Bob",
+        "type": "npc",
+        "color": "#0369a1",
+        "role": "Precinct Commander · MPD 3rd Precinct"
+    },
     "boatman": {
         "name": "The Boatman",
         "type": "npc",
@@ -209,6 +215,10 @@ CHARACTER_MAP = {
     "officer": "officer",
     "police": "officer",
     "sergeant": "officer",
+    "captain": "captain",
+    "brenda": "captain",
+    "bob": "captain",
+    "technician": "clerk",
     "boatman": "boatman",
     "child": "child",
     "thorne": "thorne",
