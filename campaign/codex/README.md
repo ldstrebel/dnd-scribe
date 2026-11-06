@@ -24,9 +24,9 @@
                         
                             
                                 <span>📜 Session Chronicles</span>
-                                7 Sessions
+                                9 Sessions
                             
-                            Acts I–IV recaps, narrative cliffhangers, and scene breakdowns from Vegas to D.C.
+                            Acts I–VI recaps, narrative cliffhangers, and scene breakdowns from Vegas to D.C.
 
                             
                                 <button type="button" onclick="selectCodexArticle('s1')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S1</button>
@@ -35,7 +35,9 @@
                                 <button type="button" onclick="selectCodexArticle('s4')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S4</button>
                                 <button type="button" onclick="selectCodexArticle('s5')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S5</button>
                                 <button type="button" onclick="selectCodexArticle('s6')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S6</button>
-                                <button type="button" onclick="selectCodexArticle('s7')" class="px-2 py-0.5 text-[11px] rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 font-mono font-bold hover:bg-amber-500/30 transition-colors">S7 (Latest)</button>
+                                <button type="button" onclick="selectCodexArticle('s7')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S7</button>
+                                <button type="button" onclick="selectCodexArticle('s8')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S8</button>
+                                <button type="button" onclick="selectCodexArticle('s9')" class="px-2 py-0.5 text-[11px] rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 font-mono font-bold hover:bg-amber-500/30 transition-colors">S9 (Latest)</button>
                             
                         
                         <button type="button" onclick="filterCodexCategory('sessions')" class="mt-2.5 text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1 self-start">
@@ -121,7 +123,7 @@ faction profiles, active mystery boards, and editorial reviews.
 
 Explore comprehensive in-world session debriefs, chapter-by-chapter breakdowns, character ensemble logs,
 
-and narrative cliffhangers across all four campaign acts.
+and narrative cliffhangers across all six campaign acts.
 
 - Session 1: The Bus from Vegas & The Library of the Fates
 
@@ -136,6 +138,10 @@ and narrative cliffhangers across all four campaign acts.
 - Session 6: The Auditorium Incursion & The Memory Seam
 
 - Session 7: The Interrogation, The Redactor & The Dream of Thanatos
+
+- Session 8: Infiltration, The Lost Roads & The DC Precinct Vault
+
+- Session 9: The DC Precinct Heist & The Flight 840 Vision
 
 <hr class="my-4 border-slate-800/80">
 ### 👥 2. Dramatis Personae Portal
@@ -175,7 +181,7 @@ Independent session reviews evaluating narrative momentum, character growth beha
 
 encounter staging, and active narrative bets.
 
-- Session 1 Review · Session 2 Review · Session 3 Review · Session 4 Review · Session 5 Review · Session 6 Review · Session 7 Review
+- Session 1 Review · Session 2 Review · Session 3 Review · Session 4 Review · Session 5 Review · Session 6 Review · Session 7 Review · Session 8 Review · Session 9 Review
 
     <!-- Codex Entry Feedback & Lore Critique Card -->
     
