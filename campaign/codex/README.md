@@ -26,7 +26,7 @@
                                 <span>📜 Session Chronicles</span>
                                 9 Sessions
                             
-                            Acts I–VI recaps, narrative cliffhangers, and scene breakdowns from Vegas to D.C.
+                            Session recaps, narrative cliffhangers, and scene breakdowns from Vegas to D.C.
 
                             
                                 <button type="button" onclick="selectCodexArticle('s1')" class="px-2 py-0.5 text-[11px] rounded bg-slate-800 text-slate-300 hover:text-amber-300 font-mono transition-colors">S1</button>
@@ -123,7 +123,7 @@ faction profiles, active mystery boards, and editorial reviews.
 
 Explore comprehensive in-world session debriefs, chapter-by-chapter breakdowns, character ensemble logs,
 
-and narrative cliffhangers across all six campaign acts.
+and narrative cliffhangers across all session chronicles.
 
 - Session 1: The Bus from Vegas & The Library of the Fates
 
